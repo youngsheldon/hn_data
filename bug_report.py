@@ -80,10 +80,7 @@ class PushBug(object):
         self.update_all()
         self.push_origin()
 
-obj = PushBug()
-obj.run()
-
-# while 1:
-#     obj = PushBug()
-#     obj.run()
-#     time.sleep(3600*24)
+while 1:
+    obj = PushBug()
+    obj.run()
+    time.sleep(3600*24)
