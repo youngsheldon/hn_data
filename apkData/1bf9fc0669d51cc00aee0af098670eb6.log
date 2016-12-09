@@ -1,0 +1,35 @@
+--2016-12-05 21:11:43--  http://zsup.pkcwh.com/xcui
+Resolving zsup.pkcwh.com... 103.240.182.169
+Connecting to zsup.pkcwh.com|103.240.182.169|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://zsup.pkcwh.com/xcui/ [following]
+--2016-12-05 21:11:49--  http://zsup.pkcwh.com/xcui/
+Reusing existing connection to zsup.pkcwh.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 254 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 12.7M=0s
+
+2016-12-05 21:11:49 (12.7 MB/s) - `index.html' saved [254/254]
+
+=======================The second times wget =====================
+--2016-12-05 21:11:49--  http://zsup.pkcwh.com/xcui/%E6%A0%A1%E8%AE%AF%E9%80%9A.apk
+Resolving zsup.pkcwh.com... 103.240.182.169
+Connecting to zsup.pkcwh.com|103.240.182.169|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 459166 (448K) [application/vnd.android.package-archive]
+Saving to: `校讯�%80%9A.apk'
+
+     0K .......... .......... .......... .......... .......... 11%  127K 3s
+    50K .......... .......... .......... .......... .......... 22%  118K 3s
+   100K .......... .......... .......... .......... .......... 33%  127K 2s
+   150K .......... .......... .......... .......... .......... 44%  128K 2s
+   200K .......... .......... .......... .......... .......... 55%  120K 2s
+   250K .......... .......... .......... .......... .......... 66%  104K 1s
+   300K .......... .......... .......... .......... .......... 78% 74.5K 1s
+   350K .......... .......... .......... .......... .......... 89% 52.4K 0s
+   400K .......... .......... .......... .......... ........  100% 64.8K=4.9s
+
+2016-12-05 21:11:55 (92.0 KB/s) - `校讯�%80%9A.apk' saved [459166/459166]
+

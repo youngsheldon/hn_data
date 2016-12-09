@@ -1,0 +1,23 @@
+--2016-12-07 11:00:54--  http://wjndq.com/lcfg
+Resolving wjndq.com... 103.242.1.250
+Connecting to wjndq.com|103.242.1.250|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://wjndq.com/lcfg/ [following]
+--2016-12-07 11:00:56--  http://wjndq.com/lcfg/
+Reusing existing connection to wjndq.com:80.
+HTTP request sent, awaiting response... 302 Object moved
+Location: shipin.apk [following]
+--2016-12-07 11:00:56--  http://wjndq.com/lcfg/shipin.apk
+Reusing existing connection to wjndq.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 209328 (204K) [application/vnd.android.package-archive]
+Saving to: `shipin.apk'
+
+     0K .......... .......... .......... .......... .......... 24% 80.3K 2s
+    50K .......... .......... .......... .......... .......... 48% 70.8K 1s
+   100K .......... .......... .......... .......... .......... 73%  104K 1s
+   150K .......... .......... .......... .......... .......... 97% 66.6K 0s
+   200K ....                                                  100% 12.6M=2.6s
+
+2016-12-07 11:00:59 (79.8 KB/s) - `shipin.apk' saved [209328/209328]
+

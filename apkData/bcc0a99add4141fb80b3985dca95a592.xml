@@ -1,185 +1,3182 @@
---2016-12-07 12:17:34--  http://t.cn/zRQ2JVF
-Resolving t.cn... 180.149.135.224
-Connecting to t.cn|180.149.135.224|:80... connected.
-HTTP request sent, awaiting response... 302 Found
-Location: http://godfs.3g.cn/soft/gosms/freemessage/freemessage.apk [following]
---2016-12-07 12:17:36--  http://godfs.3g.cn/soft/gosms/freemessage/freemessage.apk
-Resolving godfs.3g.cn... 183.61.112.86, 183.61.112.15, 183.61.112.30, ...
-Connecting to godfs.3g.cn|183.61.112.86|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: 8700988 (8.3M)
-Saving to: `freemessage.apk'
+<manifest
+    android:sharedUserId="com.jb.gosms"
+    android:versionCode=<0x103, type 0x10>
+    android:versionName="6.2"
+    android:sharedUserLabel=<0x7F08006D, type 0x01>
+    android:installLocation=<0x0, type 0x10>
+    package="com.jb.gosms"
+    >
+    <original-package
+        android:name="com.jb.gosms"
+        >
+    </original-package>
+    <application
+        android:label=<0x7F08006D, type 0x01>
+        android:icon=<0x7F0202CA, type 0x01>
+        android:name="MmsApp"
+        android:process="com.jb.gosms"
+        android:taskAffinity="com.jb.gosms"
+        android:allowTaskReparenting=<0xFFFFFFFF, type 0x12>
+        >
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value=<0x7F0B0000, type 0x01>
+            >
+        </meta-data>
+        <meta-data
+            android:name="com.google.android.wearable.beta.app"
+            android:resource=<0x7F05001C, type 0x01>
+            >
+        </meta-data>
+        <service
+            android:name=".transaction.TransactionService"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+        </service>
+        <service
+            android:name=".transaction.SmsReceiverService"
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.jb.gosms.im.IM_SMS_SENT_ACTION"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.jb.gosms.im.IM_SMS_RESENT_ACTION"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.jb.gosms.im.IM_TO_SEND_SMS_ACTION"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.jb.gosms.im.GOIM_STARTER"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <activity
+            android:theme=<0x103000F, type 0x01>
+            android:name=".language.RestartActivity"
+            >
+        </activity>
+        <activity
+            android:label=<0x7F08006D, type 0x01>
+            android:name=".ui.mainscreen.GoSmsMainActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.LAUNCHER"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:mimeType="vnd.android.cursor.dir/mms"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:mimeType="vnd.android-dir/mms-sms"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.jb.gosms.MAIN_ACTIVITY"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.jiubang.gau.ACTION_GOSTATICSDK"
+                    >
+                </action>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F07003B, type 0x01>
+            android:label=<0x7F0800B6, type 0x01>
+            android:name="com.jb.gosms.ui.mycenter.MyCenterActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F08006D, type 0x01>
+            android:name=".ui.ComposeMessageActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.jb.gosms.im.IM_CONVERSATION"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:mimeType="vnd.android-dir/mms-sms"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.SENDTO"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="sms"
+                    >
+                </data>
+                <data
+                    android:scheme="smsto"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.SENDTO"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="mms"
+                    >
+                </data>
+                <data
+                    android:scheme="mmsto"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.SEND"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.SENDTO"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="sms"
+                    >
+                </data>
+                <data
+                    android:scheme="smsto"
+                    >
+                </data>
+                <data
+                    android:scheme="mms"
+                    >
+                </data>
+                <data
+                    android:scheme="mmsto"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.SEND"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:mimeType="image/*"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.SEND"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:mimeType="video/*"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.SEND"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:mimeType="text/plain"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.SEND_MULTIPLE"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:mimeType="*/*"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.SEARCH_LONG_PRESS"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.SEND"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:mimeType="text/x-vcard"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x103000F, type 0x01>
+            android:name=".ui.composemessage.PicturePreViewActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity-alias
+            android:name=".ui.ForwardMessageActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            android:targetActivity=".ui.ComposeMessageActivity"
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity-alias>
+        <activity
+            android:theme=<0x103000B, type 0x01>
+            android:label=<0x7F080106, type 0x01>
+            android:name=".ui.DeliveryReportActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F07003B, type 0x01>
+            android:label=<0x7F0800B6, type 0x01>
+            android:name="com.jb.gosms.seniorconvlist.stangersms.StrangerSmsPreferenceActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103000B, type 0x01>
+            android:label=<0x7F080107, type 0x01>
+            android:name=".ui.EditSlideDurationActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".ui.contacts.GroupsListActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".ui.preference.GoSmsInfomationPreference"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".ui.preference.GoSmsWallpaperSetting"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".ui.ConversationContentSearchActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F07003B, type 0x01>
+            android:label=<0x7F080108, type 0x01>
+            android:name=".ui.SlideshowEditActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F07003B, type 0x01>
+            android:label=<0x7F080109, type 0x01>
+            android:name=".ui.SlideEditorActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x30, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F08010A, type 0x01>
+            android:name=".ui.SlideshowActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name=".ui.pictureviewer.PictureViewerActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.jb.gosms.goim.ui.PictureViewerActivity4Im"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F08010A, type 0x01>
+            android:name=".ui.INewReadMMSActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x23, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103000F, type 0x01>
+            android:label=<0x7F08010B, type 0x01>
+            android:name=".ui.ClassZeroActivity"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".ui.intercept.SmsInterceptActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".ui.intercept.BlockReportNumberActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F07003B, type 0x01>
+            android:name=".ui.intercept.SmsInterceptSettingActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".ui.intercept.ContactListMgn"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".ui.intercept.GameContactListMgn"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F07003B, type 0x01>
+            android:label=<0x7F0800B6, type 0x01>
+            android:name=".ui.preference.MainPreferenceActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F07003B, type 0x01>
+            android:label=<0x7F0800B6, type 0x01>
+            android:name="com.jb.gosms.language.LanguageSettingsActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F07003B, type 0x01>
+            android:label=<0x7F0800B6, type 0x01>
+            android:name=".ui.preference.notification.NewSmsNotificationPreference"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F07003B, type 0x01>
+            android:label=<0x7F0800B6, type 0x01>
+            android:name=".ui.preference.CustomUIPreference"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F07003B, type 0x01>
+            android:label=<0x7F0800B6, type 0x01>
+            android:name=".ui.preference.BasicPreference"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F07003B, type 0x01>
+            android:label=<0x7F0800B6, type 0x01>
+            android:name=".ui.SeniorPreference"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F07003B, type 0x01>
+            android:label=<0x7F0800B6, type 0x01>
+            android:name=".ui.PopupMsgPreference"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F07003B, type 0x01>
+            android:label=<0x7F0800B6, type 0x01>
+            android:name=".ui.ReceivingMsgPreference"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F07003B, type 0x01>
+            android:label=<0x7F0800B6, type 0x01>
+            android:name=".ui.SendingMsgPreference"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".ui.preference.notification.CustomNotifyActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F07003B, type 0x01>
+            android:label=<0x7F0800B6, type 0x01>
+            android:name=".ui.preference.AppAdvancePreference"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F07003B, type 0x01>
+            android:label=<0x7F0800B6, type 0x01>
+            android:name=".ui.preference.AppGeneralPreference"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F07003B, type 0x01>
+            android:label=<0x7F0800B6, type 0x01>
+            android:name=".ui.preference.AppearancePreference"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F07003B, type 0x01>
+            android:label=<0x7F0800B6, type 0x01>
+            android:name=".ui.ImportantTipPreference"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F07003B, type 0x01>
+            android:label=<0x7F0800B6, type 0x01>
+            android:name=".ui.TestPreference"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F07003B, type 0x01>
+            android:label=<0x7F0800B6, type 0x01>
+            android:name=".ui.security.MessageFilterPreference"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".ui.security.KeywordNumberPreActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F07003B, type 0x01>
+            android:label=<0x7F0800B6, type 0x01>
+            android:name=".ui.preference.voice_input_output.VoiceInputOutPreference"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <receiver
+            android:name=".transaction.PushReceiver"
+            android:permission="android.permission.BROADCAST_WAP_PUSH"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.provider.Telephony.WAP_PUSH_DELIVER"
+                    >
+                </action>
+                <data
+                    android:mimeType="application/vnd.wap.mms-message"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                android:priority=<0x7FFFFFFF, type 0x10>
+                >
+                <action
+                    android:name="android.provider.Telephony.WAP_PUSH_RECEIVED"
+                    >
+                </action>
+                <data
+                    android:mimeType="application/vnd.wap.mms-message"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                android:priority=<0x7FFFFFFF, type 0x10>
+                >
+                <action
+                    android:name="android.provider.Telephony.WAP_PUSH_GSM_RECEIVED"
+                    >
+                </action>
+                <data
+                    android:mimeType="application/vnd.wap.mms-message"
+                    >
+                </data>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".transaction.MmsSystemEventReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.CONTENT_CHANGED"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.jb.gosms.transaction.BootCompleteReceiver.BOOT_COMPLETED"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:label=<0x7F0800D7, type 0x01>
+            android:name=".ui.ManageSimMessages"
+            android:launchMode=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+            </intent-filter>
+        </activity>
+        <receiver
+            android:name=".transaction.SmsReceiver"
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.jb.gosms.transaction.BootCompleteReceiver.BOOT_COMPLETED"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.jb.gosms.transaction.MESSAGE_SENT"
+                    >
+                </action>
+                <data
+                    android:scheme="content"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.jb.gosms.im.IM_NEW_MESSAGE"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.jb.gosms.im.IM_NEW_ONLINE"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.jb.gosms.im.IM_NEW_OFFLINE"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.jb.gosms.im.IM_SMS_SENT_ACTION"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.jb.gosms.im.NEW_MSGEVENT"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.jb.gosms.goim.ADD_FRIEND_BE_AGREED"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.jb.gosms.goim.IM_FRIEND_AVATAR_UPDATED"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.jb.gosms.im.IM_LOGOUT_SUCCESS"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.jb.gosms.goim.LOGGED_IN"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.jb.gosms.goim.HOST_PRESENCE_CHANGED"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.jb.gosms.goim.ROOM_FETCHED"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.jb.gosms.goim.FRIEND_DATA_UPDATED"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.jb.gosms.transaction.SEND_MESSAGE"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.jb.gosms.transaction.SEND_MESSAGE_FROM_WEAR"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".transaction.MessageStatusReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.jb.gosms.transaction.MessageStatusReceiver.MESSAGE_STATUS_RECEIVED"
+                    >
+                </action>
+                <action
+                    android:name="com.jb.gosms.plugin.sinaweibo.action.sendresult"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".transaction.SimFullReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.provider.Telephony.SIM_FULL"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".transaction.SmsRejectedReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.provider.Telephony.SMS_REJECTED"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:theme=<0x103000B, type 0x01>
+            android:name=".ui.ConfirmRateLimitActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.jb.gosms.RATE_LIMIT_SURPASSED"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label=<0x7F08010C, type 0x01>
+            android:name=".ui.SearchActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.SEARCH"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label=<0x7F0801AA, type 0x01>
+            android:name=".ui.AddGroupView"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0801AA, type 0x01>
+            android:name=".ui.contacts.GroupMembers"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0801AA, type 0x01>
+            android:name=".ui.AddContactView"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F07000A, type 0x01>
+            android:name=".smspopup.SmsPopupActivity"
+            android:launchMode=<0x3, type 0x10>
+            android:screenOrientation=<0x2, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.jb.gosms.iconwidget.RECENT_MESSAGE"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+            <meta-data
+                android:name="disable_lock_guard"
+                android:value=<0xFFFFFFFF, type 0x12>
+                >
+            </meta-data>
+        </activity>
+        <activity
+            android:theme=<0x7F07000B, type 0x01>
+            android:name=".indivipopup.IndividualyPopupActivity"
+            android:launchMode=<0x3, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <meta-data
+                android:name="disable_lock_guard"
+                android:value=<0xFFFFFFFF, type 0x12>
+                >
+            </meta-data>
+        </activity>
+        <activity
+            android:theme=<0x7F07003A, type 0x01>
+            android:name="com.jb.gosms.themeplay.TryThemeFinishDialog"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.jb.gosms.trytheme.action"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <service
+            android:name=".smspopup.SmsReceiverService"
+            >
+        </service>
+        <service
+            android:name=".smspopup.SmsPopupUtilsService"
+            >
+        </service>
+        <receiver
+            android:name=".smspopup.ClearAllReceiver"
+            >
+        </receiver>
+        <receiver
+            android:name=".smspopup.SmsReceiver"
+            android:permission="android.permission.BROADCAST_SMS"
+            >
+            <intent-filter
+                android:priority=<0x7FFFFFFF, type 0x10>
+                >
+                <action
+                    android:name="android.provider.Telephony.SMS_RECEIVED"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                android:priority=<0x7FFFFFFF, type 0x10>
+                >
+                <action
+                    android:name="android.provider.Telephony.GSM_SMS_RECEIVED"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.provider.Telephony.WAP_PUSH_RECEIVED"
+                    >
+                </action>
+                <data
+                    android:mimeType="application/vnd.wap.mms-message"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.provider.Telephony.WAP_PUSH_GSM_RECEIVED"
+                    >
+                </action>
+                <data
+                    android:mimeType="application/vnd.wap.mms-message"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.android.mms.transaction.MESSAGE_SENT"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:theme=<0x103000B, type 0x01>
+            android:name="com.jb.report.CrashReportDialog"
+            android:process=":CrashReport"
+            android:finishOnTaskLaunch=<0xFFFFFFFF, type 0x12>
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x3, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <meta-data
+                android:name="disable_lock_guard"
+                android:value=<0xFFFFFFFF, type 0x12>
+                >
+            </meta-data>
+        </activity>
+        <activity
+            android:theme=<0x7F07000A, type 0x01>
+            android:name="com.jb.gosms.ui.dialog.UpdateReportDialog"
+            android:taskAffinity=""
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x3, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <meta-data
+                android:name="disable_lock_guard"
+                android:value=<0xFFFFFFFF, type 0x12>
+                >
+            </meta-data>
+        </activity>
+        <activity
+            android:theme=<0x7F07000A, type 0x01>
+            android:name="com.jb.gosms.ui.widget.DialogActivity"
+            android:taskAffinity=""
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x3, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <meta-data
+                android:name="disable_lock_guard"
+                android:value=<0xFFFFFFFF, type 0x12>
+                >
+            </meta-data>
+        </activity>
+        <activity
+            android:theme=<0x103000B, type 0x01>
+            android:name="com.jb.gosms.ui.PreReleaseUpdateReportDialog"
+            android:taskAffinity=""
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x3, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <meta-data
+                android:name="disable_lock_guard"
+                android:value=<0xFFFFFFFF, type 0x12>
+                >
+            </meta-data>
+        </activity>
+        <activity
+            android:theme=<0x7F07000A, type 0x01>
+            android:name="com.jb.gosms.ui.NoticeReportDialog"
+            android:taskAffinity=""
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x3, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <meta-data
+                android:name="disable_lock_guard"
+                android:value=<0xFFFFFFFF, type 0x12>
+                >
+            </meta-data>
+        </activity>
+        <activity
+            android:theme=<0x7F07000A, type 0x01>
+            android:name="com.jb.gosms.ui.ThemeUpdateDialog"
+            android:taskAffinity=""
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x3, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <meta-data
+                android:name="disable_lock_guard"
+                android:value=<0xFFFFFFFF, type 0x12>
+                >
+            </meta-data>
+        </activity>
+        <activity
+            android:theme=<0x7F07000A, type 0x01>
+            android:name="com.jb.gosms.goim.ui.InstallGOChatDialog"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F07000A, type 0x01>
+            android:name="com.jb.gosms.ui.MessageBox"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F07000A, type 0x01>
+            android:name="com.jb.gosms.ui.DownloadApkDialog"
+            android:taskAffinity=""
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x3, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <meta-data
+                android:name="disable_lock_guard"
+                android:value=<0xFFFFFFFF, type 0x12>
+                >
+            </meta-data>
+        </activity>
+        <activity
+            android:theme=<0x7F07000A, type 0x01>
+            android:name="com.jb.gosms.ui.MessageBoxDialog"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F07000A, type 0x01>
+            android:name="com.jb.gosms.ui.QueryStockSMSUninstalled"
+            android:taskAffinity=""
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x3, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <meta-data
+                android:name="disable_lock_guard"
+                android:value=<0xFFFFFFFF, type 0x12>
+                >
+            </meta-data>
+        </activity>
+        <activity
+            android:theme=<0x7F07003B, type 0x01>
+            android:name="com.jb.gosms.themeinfo.IndividuaSettingTabActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.jb.gosms.themeinfo.ThemeSettingTabActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="gosms"
+                    android:host="gotheme"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:mimeType="*/*"
+                    android:scheme="file"
+                    android:host="*"
+                    android:pathPattern=".*gotheme"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.jb.gosms.wallpaper.search"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.jb.gosms.THEMESHOP_ACTIVITY"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.jiubang.playsdk.detail.ThemeDetailActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.jiubang.playsdk.detail.ThemePreviewActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.jb.gosms.themeplay.GOsmsThemeDetailActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.jb.gosms.themeinfo.ThemeSmsActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.jb.gosms.themeinfo.SpecialThemeActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.jb.gosms.themeinfo.ThemePopupActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.jb.gosms.themeinfo.ThemeSettingActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.jb.gosms.sticker.StickerActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.jb.gosms.font.FontStoreActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.jb.gosms.font.FontManagerActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F07003B, type 0x01>
+            android:name="com.jb.gosms.themeinfo.ThemePreviewActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.jb.gosms.themeinfo.ThemeShareEntranceActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F07003B, type 0x01>
+            android:name="com.jb.gosms.billing.iapgetjar.GetJarPreferentialActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F07003B, type 0x01>
+            android:label=<0x7F0800B6, type 0x01>
+            android:name=".ui.preference.PopupOtherPrefAcitcity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.jb.gosms.ui.cropimage.CropImageActivity"
+            android:process=":CropImage"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.jb.gosms.ui.security.ChooseLockPattern"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.jb.gosms.ui.security.ConfirmLockPattern"
+            android:taskAffinity="com.jb.security"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x3, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <meta-data
+                android:name="disable_lock_guard"
+                android:value=<0xFFFFFFFF, type 0x12>
+                >
+            </meta-data>
+            <intent-filter
+                >
+                <action
+                    android:name="com.jb.gosms.action.LOCKPATTERN"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.jb.gosms.ui.security.ChooseLockPassword"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.jb.gosms.ui.security.ConfirmLockPassword"
+            android:taskAffinity="com.jb.security"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x3, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <meta-data
+                android:name="disable_lock_guard"
+                android:value=<0xFFFFFFFF, type 0x12>
+                >
+            </meta-data>
+            <intent-filter
+                >
+                <action
+                    android:name="com.jb.gosms.action.LOCKPASSWORD"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.jb.gosms.ui.security.ConfirmLockPattern2"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <meta-data
+                android:name="disable_lock_guard"
+                android:value=<0xFFFFFFFF, type 0x12>
+                >
+            </meta-data>
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.jb.gosms.ui.security.ConfirmLockPassword2"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <meta-data
+                android:name="disable_lock_guard"
+                android:value=<0xFFFFFFFF, type 0x12>
+                >
+            </meta-data>
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name=".goim.ui.ContactCard"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <service
+            android:label=<0x7F08003C, type 0x01>
+            android:name=".gosmswidgetbase.GoSmsWidgetService"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.jb.gosms.widgetstartservice"
+                    >
+                </action>
+                <data
+                    android:scheme="gosmsdef"
+                    android:host="com.jb.gosms"
+                    android:port="80"
+                    >
+                </data>
+            </intent-filter>
+        </service>
+        <receiver
+            android:label=<0x7F08003D, type 0x01>
+            android:name=".gosmswidgetbase.GoSmsWidgetReceiver"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.jb.gosms.locktypechanged"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.jb.gosms.unlocksuccess"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.jb.gosms.BLACKLIST_CHANGED_ACTION"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.jb.gosms.relockwidget"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.jb.gosms.ConversationEncrypt_change"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.jb.gosms.updatestatuebar"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:label=<0x7F0801CD, type 0x01>
+            android:name=".iconwidget.GoSmsIconWidgetProvider"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.appwidget.action.APPWIDGET_UPDATE"
+                    >
+                </action>
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource=<0x7F050007, type 0x01>
+                >
+            </meta-data>
+        </receiver>
+        <activity
+            android:theme=<0x7F07003B, type 0x01>
+            android:name=".middlewidget.GoSmsMiddleWidgetConfigureActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            android:noHistory=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.appwidget.action.APPWIDGET_CONFIGURE"
+                    >
+                </action>
+            </intent-filter>
+            <meta-data
+                android:name="disable_lock_guard"
+                android:value=<0xFFFFFFFF, type 0x12>
+                >
+            </meta-data>
+        </activity>
+        <activity
+            android:theme=<0x7F07000A, type 0x01>
+            android:name=".middlewidget.GoSmsMiddleWidgetMoreActivity"
+            android:launchMode=<0x3, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.jb.gosms.middlewidgetmoreactivity"
+                    >
+                </action>
+            </intent-filter>
+            <meta-data
+                android:name="disable_lock_guard"
+                android:value=<0xFFFFFFFF, type 0x12>
+                >
+            </meta-data>
+        </activity>
+        <receiver
+            android:label=<0x7F080054, type 0x01>
+            android:name=".deskwidget.DeskWidgetReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.jb.gosms.lockview"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.jb.gosms.updatestatus"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:label=<0x7F0801CE, type 0x01>
+            android:name=".middlewidget.GoSmsMiddleWidgetProvider"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.appwidget.action.APPWIDGET_UPDATE"
+                    >
+                </action>
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource=<0x7F050009, type 0x01>
+                >
+            </meta-data>
+        </receiver>
+        <receiver
+            android:name=".ui.preference.notification.ReminderReceiver"
+            >
+        </receiver>
+        <service
+            android:name=".ui.preference.notification.ReminderReceiverService"
+            >
+        </service>
+        <activity
+            android:name=".ui.preference.notification.NewMusicPickerActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.RINGTONE_PICKER"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F07003B, type 0x01>
+            android:name=".ui.preference.notification.SendNotifySettingPreference"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <service
+            android:name=".smspopup.SmsMmsObserverService"
+            >
+        </service>
+        <activity
+            android:theme=<0x7F07003B, type 0x01>
+            android:label=<0x7F0800B6, type 0x01>
+            android:name=".ui.preference.SettingBackupPreference"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".tagversionsix.FavoriteTagBoxActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".privatebox.PrivateBoxActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.jb.gosms.PRIVATEBOX_ACTIVITY"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.MessageDisplayActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F07003B, type 0x01>
+            android:label=<0x7F080299, type 0x01>
+            android:name=".tag.TagsSettingsPreference"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".tag.TagsList"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <receiver
+            android:name=".schedule.ScheduleReceiver"
+            >
+        </receiver>
+        <service
+            android:name=".schedule.ScheduleService"
+            >
+        </service>
+        <activity
+            android:name=".schedule.ScheduleboxActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".schedule.ScheduleSmsActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103000F, type 0x01>
+            android:name=".ui.TutorialActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <service
+            android:name="com.jb.gosms.im.CellValidateService"
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.jb.gosms.goim.ACTION_CELL_VALIDATE"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.jb.gosms.goim.ACTION_CELL_VALIDATE_HOOK"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <provider
+            android:label="ImContentProvider"
+            android:name="com.jb.gosms.goim.im.database.ImContentProvider"
+            android:permission="com.jb.gosms.permission.provider.CHAT_INFO_ACCESS"
+            android:multiprocess=<0x0, type 0x12>
+            android:authorities="com.jb.gosms.im;com.jb.gosms.chat"
+            >
+        </provider>
+        <receiver
+            android:name=".transaction.BootCompleteReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.BOOT_COMPLETED"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <provider
+            android:name="com.jb.gosms.provider.GoSmsProvider"
+            android:exported=<0x0, type 0x12>
+            android:multiprocess=<0x0, type 0x12>
+            android:authorities="go-sms"
+            >
+        </provider>
+        <provider
+            android:name="com.jb.gosms.provider.GoMmsProvider"
+            android:exported=<0x0, type 0x12>
+            android:multiprocess=<0x0, type 0x12>
+            android:authorities="go-mms"
+            >
+            <grant-uri-permission
+                android:pathPrefix="/part/"
+                >
+            </grant-uri-permission>
+            <grant-uri-permission
+                android:pathPrefix="/drm/"
+                >
+            </grant-uri-permission>
+        </provider>
+        <provider
+            android:name="com.jb.gosms.provider.GoMmsSmsProvider"
+            android:exported=<0x0, type 0x12>
+            android:multiprocess=<0x0, type 0x12>
+            android:authorities="go-mms-sms"
+            >
+        </provider>
+        <activity
+            android:name=".privatebox.PrivateBoxContactActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F07003B, type 0x01>
+            android:label=<0x7F0800B6, type 0x01>
+            android:name=".privatebox.PrivateBoxPreference"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F07003B, type 0x01>
+            android:label=<0x7F0800B6, type 0x01>
+            android:name=".privatebox.PrivateBoxNewPreference"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F07003B, type 0x01>
+            android:label=<0x7F0800B6, type 0x01>
+            android:name=".privatebox.PrivateBoxNotifacationPreference"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F07003B, type 0x01>
+            android:label=<0x7F0800B6, type 0x01>
+            android:name=".privatebox.PrivateModePreference"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F07003B, type 0x01>
+            android:label=<0x7F0800B6, type 0x01>
+            android:name=".privatebox.PrivacyBrSettingActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F07003B, type 0x01>
+            android:label=<0x7F0800B6, type 0x01>
+            android:name=".privatebox.PrivacyNotifySettingActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".privatebox.ChangePrivacyLockActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".privatebox.ChangePrivacyStatusBarActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".privatebox.ChangePrivacyEntryActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".privatebox.PrivacySettingGuideActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".privatebox.DrawPrivacyGestureActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name=".ui.setupwizard.SetupWizard"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <receiver
+            android:name="com.jb.gosms.download.DownloadReceiver"
+            >
+        </receiver>
+        <receiver
+            android:name="com.jb.gosms.download.DownloadClickReceiver"
+            >
+        </receiver>
+        <service
+            android:name="com.jb.gosms.download.DownloadManagerService"
+            >
+        </service>
+        <service
+            android:name="com.jb.gosms.themeinfo.DownloadChargedThemeService"
+            >
+        </service>
+        <service
+            android:name="com.jb.gosms.GOSmsProService"
+            >
+        </service>
+        <service
+            android:name=".util.FloatWindowsService"
+            >
+        </service>
+        <activity
+            android:theme=<0x7F07000A, type 0x01>
+            android:name=".backup.BackupAndRecoverMainActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F07000A, type 0x01>
+            android:name=".backup.BackupSettingActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F07000A, type 0x01>
+            android:name=".ui.widget.TipDialogActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            android:noHistory=<0xFFFFFFFF, type 0x12>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.jb.gosms.ui.photograph.PhotoFilterActivity"
+            android:process=":Photograph"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".ui.contacts.ContactsListActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:taskAffinity="launcherwidget.ContactsListActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.jb.gosms.fm.ui.contact.FreeMsgInviteContactsActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:taskAffinity="launcherwidget.ContactsListActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".ui.contacts.ImSearchEntryActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".ui.contacts.ImSearchResultActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F07003B, type 0x01>
+            android:name=".webapp.GoSmsWebAppActivity"
+            android:process=":WebApp"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F07003B, type 0x01>
+            android:name=".webapp.card.GoCardMakerActivity"
+            android:process=":WebApp"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103000F, type 0x01>
+            android:name=".golauex.smswidget.iconwidget.OftenContactsActivity"
+            android:process="com.jb.gosms.golauex.smswidget"
+            android:taskAffinity="launcherwidget.oftencontactsactivity"
+            android:launchMode=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.jb.gosms.golauncherwidget.OftenContactsActivity"
+                    >
+                </action>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.composemessage.upload.GoShareTipsActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".ui.composemessage.upload.GoSharePurchaseActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <service
+            android:name=".goim.location.CellLocationService"
+            >
+        </service>
+        <activity
+            android:theme=<0x7F07003B, type 0x01>
+            android:name=".goim.preference.GOChatPreference"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F07003B, type 0x01>
+            android:name=".goim.preference.NotifyPreferenceActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".goim.preference.MusicPickerActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".goim.preference.CustomMusicPickerActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F07003B, type 0x01>
+            android:name=".goim.ui.ImInfoActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F07003B, type 0x01>
+            android:label=<0x7F080364, type 0x01>
+            android:name=".goim.ui.ImEditInfoActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F070018, type 0x01>
+            android:label=<0x7F080356, type 0x01>
+            android:name=".goim.ui.ChangePasswordActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F070018, type 0x01>
+            android:label=<0x7F080360, type 0x01>
+            android:name=".goim.ui.BindEmailActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F070018, type 0x01>
+            android:label=<0x7F080363, type 0x01>
+            android:name=".goim.ui.BindMobileActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name=".goim.ui.SleepModeConfirm"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x3, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:noHistory=<0xFFFFFFFF, type 0x12>
+            >
+            <meta-data
+                android:name="disable_lock_guard"
+                android:value=<0xFFFFFFFF, type 0x12>
+                >
+            </meta-data>
+        </activity>
+        <activity
+            android:theme=<0x7F07003B, type 0x01>
+            android:name=".ui.groupchat.GroupChatMembers"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F07003B, type 0x01>
+            android:name=".ui.groupchat.GroupsChatListActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".ui.RecipientNameModifyView"
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".ui.QuickTextEditActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name=".ui.application.AppEditorActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".goim.ui.SetGOIDActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".goim.ui.ImMultiDeviceManageActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".goim.ui.ImRegisterActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".ui.contacts.ImLoginActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".ui.contacts.ImFacebookRegisterActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".ui.contacts.ImThirdpartyRegisterActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".goim.googleplus.BindGoogleplusActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".goim.ui.ImSetPasswordActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <provider
+            android:name=".golauex.smswidget.SmsProvider"
+            android:process="com.jb.gosms.golauex.smswidget"
+            android:multiprocess=<0xFFFFFFFF, type 0x12>
+            android:authorities="com.jb.gosms.golauex.smswidget.provider2"
+            android:grantUriPermissions=<0xFFFFFFFF, type 0x12>
+            >
+        </provider>
+        <provider
+            android:name="com.jb.gosms.golauex.smswidget.DataProvider"
+            android:process="com.jb.gosms.golauex.smswidget"
+            android:multiprocess=<0xFFFFFFFF, type 0x12>
+            android:authorities="com.jb.gosms.golauex.smswidget.provider"
+            android:grantUriPermissions=<0xFFFFFFFF, type 0x12>
+            >
+        </provider>
+        <provider
+            android:name="com.jb.gosms.gopreferences.GOSmsSharedPreferencesProvider"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:multiprocess=<0x0, type 0x12>
+            android:authorities="gopreferences"
+            >
+        </provider>
+        <provider
+            android:name="com.jb.gosms.themeplay.GOSmsApplyThemeProvider"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:multiprocess=<0x0, type 0x12>
+            android:authorities="gosms.provider.applytheme"
+            >
+        </provider>
+        <provider
+            android:name="com.jb.gosms.gopreferences.GOSmsCustomPreferencesProvider"
+            android:permission="com.jb.gosms.permission.provider.CUSTOM_PREFERENCE_ACCESS"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:multiprocess=<0x0, type 0x12>
+            android:authorities="gosms.provider.custom.preference"
+            >
+        </provider>
+        <activity
+            android:theme=<0x103000B, type 0x01>
+            android:label=""
+            android:name="com.jb.gosms.golauex.smswidget.DeleteSmsActivity"
+            android:process="com.jb.gosms.golauex.smswidget"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x3, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.gau.go.launcherex.gowidget"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+            </intent-filter>
+            <meta-data
+                android:name="disable_lock_guard"
+                android:value=<0xFFFFFFFF, type 0x12>
+                >
+            </meta-data>
+        </activity>
+        <activity
+            android:name="com.jb.gosms.golauex.smswidget.SmsSettingActivity"
+            android:process="com.jb.gosms.golauex.smswidget"
+            android:launchMode=<0x3, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+            </intent-filter>
+            <meta-data
+                android:name="disable_lock_guard"
+                android:value=<0xFFFFFFFF, type 0x12>
+                >
+            </meta-data>
+        </activity>
+        <receiver
+            android:name="com.jb.gosms.golauex.smswidget.LauncherexRemoveReceiver"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:process="com.jb.gosms.golauex.smswidget"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.gau.gowidget_action_destroy_gowidgets"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:name="com.jb.gosms.golauex.smswidget.MessageChooserActivity"
+            android:process="com.jb.gosms.golauex.smswidget"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x3, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+            </intent-filter>
+            <meta-data
+                android:name="disable_lock_guard"
+                android:value=<0xFFFFFFFF, type 0x12>
+                >
+            </meta-data>
+        </activity>
+        <activity
+            android:theme=<0x103000F, type 0x01>
+            android:name=".golauex.smswidget.contactwidget.ContactWidgetManagerActivity"
+            android:taskAffinity="launcherwidget.ContactWidgetManagerActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.jb.gosms.golauncherwidget.ContactWidgetManagerActivity"
+                    >
+                </action>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x103000F, type 0x01>
+            android:name=".golauex.smswidget.contactwidget.ContactWidgetContactsActivity"
+            android:taskAffinity="launcherwidget.ContactWidgetContactsActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.jb.gosms.golauncherwidget.ContactWidgetContactsActivity"
+                    >
+                </action>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:label=<0x7F080748, type 0x01>
+            android:name=".golauex.smswidget.contactwidget3d.GoWidgetActivity3D"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <action
+                    android:name="com.gau.go.3dwidget"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x103000F, type 0x01>
+            android:name=".golauex.smswidget.contactwidget3d.ContactWidget3DActionPopupActivity"
+            android:taskAffinity="launcherwidget.ContactWidget3DActionPopupActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.jb.gosms.golauncherwidget.ContactWidget3DActionPopupActivity"
+                    >
+                </action>
+            </intent-filter>
+        </activity>
+        <receiver
+            android:name="com.jb.gosms.analytic.ReferrerInfoReceiver"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.android.vending.INSTALL_REFERRER"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:name=".backup.BackupMainTabActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".backup.netbackup.ui.WebBrMainActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".backup.netbackup.ui.LocalBrMainActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            "
 
-     0K .......... .......... .......... .......... ..........  0%  833K 10s
-    50K .......... .......... .......... .......... ..........  1%  839K 10s
-   100K .......... .......... .......... .......... ..........  1% 1.44M 9s
-   150K .......... .......... .......... .......... ..........  2% 1.39M 8s
-   200K .......... .......... .......... .......... ..........  2% 1.54M 7s
-   250K .......... .......... .......... .......... ..........  3%  476K 9s
-   300K .......... .......... .......... .......... ..........  4% 1.72M 8s
-   350K .......... .......... .......... .......... ..........  4% 2.45M 8s
-   400K .......... .......... .......... .......... ..........  5% 5.97M 7s
-   450K .......... .......... .......... .......... ..........  5%  225K 10s
-   500K .......... .......... .......... .......... ..........  6%  164M 9s
-   550K .......... .......... .......... .......... ..........  7% 1.54M 8s
-   600K .......... .......... .......... .......... ..........  7%  236K 10s
-   650K .......... .......... .......... .......... ..........  8%  129M 9s
-   700K .......... .......... .......... .......... ..........  8% 1.68M 9s
-   750K .......... .......... .......... .......... ..........  9%  128M 8s
-   800K .......... .......... .......... .......... .......... 10% 1.62M 8s
-   850K .......... .......... .......... .......... .......... 10%  208K 10s
-   900K .......... .......... .......... .......... .......... 11% 1.52M 9s
-   950K .......... .......... .......... .......... .......... 11% 1.49M 9s
-  1000K .......... .......... .......... .......... .......... 12%  163M 9s
-  1050K .......... .......... .......... .......... .......... 12% 1.58M 8s
-  1100K .......... .......... .......... .......... .......... 13%  230K 9s
-  1150K .......... .......... .......... .......... .......... 14% 1.60M 9s
-  1200K .......... .......... .......... .......... .......... 14%  152M 9s
-  1250K .......... .......... .......... .......... .......... 15% 1.55M 8s
-  1300K .......... .......... .......... .......... .......... 15%  205K 9s
-  1350K .......... .......... .......... .......... .......... 16%  385K 10s
-  1400K .......... .......... .......... .......... .......... 17%  145M 9s
-  1450K .......... .......... .......... .......... .......... 17%  808K 9s
-  1500K .......... .......... .......... .......... .......... 18% 1.51M 9s
-  1550K .......... .......... .......... .......... .......... 18% 1.47M 9s
-  1600K .......... .......... .......... .......... .......... 19%  361K 9s
-  1650K .......... .......... .......... .......... .......... 20% 1.52M 9s
-  1700K .......... .......... .......... .......... .......... 20% 1.69M 9s
-  1750K .......... .......... .......... .......... .......... 21% 1.75M 8s
-  1800K .......... .......... .......... .......... .......... 21% 1.54M 8s
-  1850K .......... .......... .......... .......... .......... 22%  256K 9s
-  1900K .......... .......... .......... .......... .......... 22% 1.71M 8s
-  1950K .......... .......... .......... .......... .......... 23% 1.53M 8s
-  2000K .......... .......... .......... .......... .......... 24% 1.53M 8s
-  2050K .......... .......... .......... .......... .......... 24% 1.48M 8s
-  2100K .......... .......... .......... .......... .......... 25%  265K 8s
-  2150K .......... .......... .......... .......... .......... 25% 1.75M 8s
-  2200K .......... .......... .......... .......... .......... 26% 1.74M 8s
-  2250K .......... .......... .......... .......... .......... 27% 1.53M 8s
-  2300K .......... .......... .......... .......... .......... 27%  223K 8s
-  2350K .......... .......... .......... .......... .......... 28% 1.60M 8s
-  2400K .......... .......... .......... .......... .......... 28%  119M 8s
-  2450K .......... .......... .......... .......... .......... 29% 1.56M 8s
-  2500K .......... .......... .......... .......... .......... 30% 1.51M 7s
-  2550K .......... .......... .......... .......... .......... 30%  230K 8s
-  2600K .......... .......... .......... .......... .......... 31% 1.60M 8s
-  2650K .......... .......... .......... .......... .......... 31% 1.64M 7s
-  2700K .......... .......... .......... .......... .......... 32%  147M 7s
-  2750K .......... .......... .......... .......... .......... 32% 1.53M 7s
-  2800K .......... .......... .......... .......... .......... 33%  159K 8s
-  2850K .......... .......... .......... .......... .......... 34% 1.51M 7s
-  2900K .......... .......... .......... .......... .......... 34% 1.55M 7s
-  2950K .......... .......... .......... .......... .......... 35% 1.44M 7s
-  3000K .......... .......... .......... .......... .......... 35% 78.1K 8s
-  3050K .......... .......... .......... .......... .......... 36%  797K 8s
-  3100K .......... .......... .......... .......... .......... 37% 1.53M 8s
-  3150K .......... .......... .......... .......... .......... 37%  329K 8s
-  3200K .......... .......... .......... .......... .......... 38% 1.53M 8s
-  3250K .......... .......... .......... .......... .......... 38% 1.50M 8s
-  3300K .......... .......... .......... .......... .......... 39% 1.78M 8s
-  3350K .......... .......... .......... .......... .......... 40% 1.55M 7s
-  3400K .......... .......... .......... .......... .......... 40% 1.70M 7s
-  3450K .......... .......... .......... .......... .......... 41% 1.77M 7s
-  3500K .......... .......... .......... .......... .......... 41% 1.99M 7s
-  3550K .......... .......... .......... .......... .......... 42% 2.09M 7s
-  3600K .......... .......... .......... .......... .......... 42% 3.08M 7s
-  3650K .......... .......... .......... .......... .......... 43% 1.49M 7s
-  3700K .......... .......... .......... .......... .......... 44%  273K 7s
-  3750K .......... .......... .......... .......... .......... 44% 1.64M 7s
-  3800K .......... .......... .......... .......... .......... 45% 1.77M 6s
-  3850K .......... .......... .......... .......... .......... 45% 1.61M 6s
-  3900K .......... .......... .......... .......... .......... 46%  219K 6s
-  3950K .......... .......... .......... .......... .......... 47%  138M 6s
-  4000K .......... .......... .......... .......... .......... 47% 1.52M 6s
-  4050K .......... .......... .......... .......... .......... 48% 1.72M 6s
-  4100K .......... .......... .......... .......... .......... 48% 1.75M 6s
-  4150K .......... .......... .......... .......... .......... 49%  222K 6s
-  4200K .......... .......... .......... .......... .......... 50% 1.60M 6s
-  4250K .......... .......... .......... .......... .......... 50%  143M 6s
-  4300K .......... .......... .......... .......... .......... 51% 1.53M 6s
-  4350K .......... .......... .......... .......... .......... 51% 1.52M 6s
-  4400K .......... .......... .......... .......... .......... 52%  231K 6s
-  4450K .......... .......... .......... .......... .......... 52% 1.53M 6s
-  4500K .......... .......... .......... .......... .......... 53% 1.55M 5s
-  4550K .......... .......... .......... .......... .......... 54%  157M 5s
-  4600K .......... .......... .......... .......... .......... 54%  199K 5s
-  4650K .......... .......... .......... .......... .......... 55%  127M 5s
-  4700K .......... .......... .......... .......... .......... 55% 1.54M 5s
-  4750K .......... .......... .......... .......... .......... 56% 1.54M 5s
-  4800K .......... .......... .......... .......... .......... 57% 1.51M 5s
-  4850K .......... .......... .......... .......... .......... 57%  229K 5s
-  4900K .......... .......... .......... .......... .......... 58% 1.64M 5s
-  4950K .......... .......... .......... .......... .......... 58%  144M 5s
-  5000K .......... .......... .......... .......... .......... 59% 1.66M 5s
-  5050K .......... .......... .......... .......... .......... 60% 1.51M 5s
-  5100K .......... .......... .......... .......... .......... 60%  225K 5s
-  5150K .......... .......... .......... .......... .......... 61% 1.56M 5s
-  5200K .......... .......... .......... .......... .......... 61%  165M 4s
-  5250K .......... .......... .......... .......... .......... 62% 1.73M 4s
-  5300K .......... .......... .......... .......... .......... 62% 1.71M 4s
-  5350K .......... .......... .......... .......... .......... 63%  217K 4s
-  5400K .......... .......... .......... .......... .......... 64% 1.60M 4s
-  5450K .......... .......... .......... .......... .......... 64% 1.71M 4s
-  5500K .......... .......... .......... .......... .......... 65%  156M 4s
-  5550K .......... .......... .......... .......... .......... 65%  199K 4s
-  5600K .......... .......... .......... .......... .......... 66%  118M 4s
-  5650K .......... .......... .......... .......... .......... 67% 1.57M 4s
-  5700K .......... .......... .......... .......... .......... 67% 1.54M 4s
-  5750K .......... .......... .......... .......... .......... 68%  142M 4s
-  5800K .......... .......... .......... .......... .......... 68%  198K 4s
-  5850K .......... .......... .......... .......... .......... 69%  154M 4s
-  5900K .......... .......... .......... .......... .......... 70% 1.59M 3s
-  5950K .......... .......... .......... .......... .......... 70% 1.46M 3s
-  6000K .......... .......... .......... .......... .......... 71%  155M 3s
-  6050K .......... .......... .......... .......... .......... 71%  203K 3s
-  6100K .......... .......... .......... .......... .......... 72% 1.76M 3s
-  6150K .......... .......... .......... .......... .......... 72% 10.3M 3s
-  6200K .......... .......... .......... .......... .......... 73% 1.47M 3s
-  6250K .......... .......... .......... .......... .......... 74%  146M 3s
-  6300K .......... .......... .......... .......... .......... 74% 1.63M 3s
-  6350K .......... .......... .......... .......... .......... 75%  153K 3s
-  6400K .......... .......... .......... .......... .......... 75% 1.73M 3s
-  6450K .......... .......... .......... .......... .......... 76% 1.75M 3s
-  6500K .......... .......... .......... .......... .......... 77% 1.61M 3s
-  6550K .......... .......... .......... .......... .......... 77%  117M 3s
-  6600K .......... .......... .......... .......... .......... 78%  214K 3s
-  6650K .......... .......... .......... .......... .......... 78% 1.53M 2s
-  6700K .......... .......... .......... .......... .......... 79% 1.71M 2s
-  6750K .......... .......... .......... .......... .......... 80% 1.54M 2s
-  6800K .......... .......... .......... .......... .......... 80%  111M 2s
-  6850K .......... .......... .......... .......... .......... 81%  225K 2s
-  6900K .......... .......... .......... .......... .......... 81% 1.57M 2s
-  6950K .......... .......... .......... .......... .......... 82%  115M 2s
-  7000K .......... .......... .......... .......... .......... 82% 1.64M 2s
-  7050K .......... .......... .......... .......... .......... 83%  201K 2s
-  7100K .......... .......... .......... .......... .......... 84% 1.56M 2s
-  7150K .......... .......... .......... .......... .......... 84%  149M 2s
-  7200K .......... .......... .......... .......... .......... 85% 1.67M 2s
-  7250K .......... .......... .......... .......... .......... 85% 1.78M 2s
-  7300K .......... .......... .......... .......... .......... 86%  220K 2s
-  7350K .......... .......... .......... .......... .......... 87%  155M 1s
-  7400K .......... .......... .......... .......... .......... 87% 1.55M 1s
-  7450K .......... .......... .......... .......... .......... 88%  184M 1s
-  7500K .......... .......... .......... .......... .......... 88% 1.54M 1s
-  7550K .......... .......... .......... .......... .......... 89%  201K 1s
-  7600K .......... .......... .......... .......... .......... 90% 1.55M 1s
-  7650K .......... .......... .......... .......... .......... 90% 1.52M 1s
-  7700K .......... .......... .......... .......... .......... 91% 1.52M 1s
-  7750K .......... .......... .......... .......... .......... 91%  218K 1s
-  7800K .......... .......... .......... .......... .......... 92%  128M 1s
-  7850K .......... .......... .......... .......... .......... 92% 3.03M 1s
-  7900K .......... .......... .......... .......... .......... 93%  198M 1s
-  7950K .......... .......... .......... .......... .......... 94% 1.85M 1s
-  8000K .......... .......... .......... .......... .......... 94%  192K 1s
-  8050K .......... .......... .......... .......... .......... 95%  183M 1s
-  8100K .......... .......... .......... .......... .......... 95%  777K 0s
-  8150K .......... .......... .......... .......... .......... 96% 1.60M 0s
-  8200K .......... .......... .......... .......... .......... 97% 1.44M 0s
-  8250K .......... .......... .......... .......... .......... 97%  299K 0s
-  8300K .......... .......... .......... .......... .......... 98% 1.47M 0s
-  8350K .......... .......... .......... .......... .......... 98% 1.62M 0s
-  8400K .......... .......... .......... .......... .......... 99%  160M 0s
-  8450K .......... .......... .......... .......... .......   100%  187K=12s
-
-2016-12-07 12:17:48 (730 KB/s) - `freemessage.apk' saved [8700988/8700988]
-
+            <intent-filter
+                >
+                <action
+                    android:name="dropbox.gosms.start.dropboxbr"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.LAUNCHER"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".backup.netbackup.ui.BrScheduleActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".backup.netbackup.ui.LocalRestoreActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".backup.netbackup.ui.WebBrFolderPersonActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".backup.netbackup.ui.WebBrManagerActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F07003B, type 0x01>
+            android:name=".backup.netbackup.localdropbox.DropboxSettingActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <service
+            android:name=".billing.BillingService"
+            >
+        </service>
+        <service
+            android:name=".billing.BillingServiceGoStroe"
+            android:process=":gostoretheme"
+            >
+        </service>
+        <receiver
+            android:name=".billing.BillingReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.android.vending.billing.IN_APP_NOTIFY"
+                    >
+                </action>
+                <action
+                    android:name="com.android.vending.billing.RESPONSE_CODE"
+                    >
+                </action>
+                <action
+                    android:name="com.android.vending.billing.PURCHASE_STATE_CHANGED"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".ui.ApkInstalledReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.PACKAGE_ADDED"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.PACKAGE_REMOVED"
+                    >
+                </action>
+                <data
+                    android:scheme="package"
+                    >
+                </data>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name=".themeinfo.ThemeInstalledService"
+            >
+        </service>
+        <activity
+            android:name=".ui.purchase.PurchaseComboLevel1Activity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <receiver
+            android:name=".purchase.NetworkConnectivityReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".purchase.TimerReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.jb.gosms.purchase.timer"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".purchase.AccountChangedReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.accounts.LOGIN_ACCOUNTS_CHANGED"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name=".purchase.PurchaseService"
+            >
+        </service>
+        <activity
+            android:name="com.jb.gosms.facebook.sync.FacebookSyncLoginProxyActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.jb.gosms.facebook.sync.FacebookSyncProgressProxyActivity"
+            android:process=":FacebookSync"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.jb.gosms.facebook.sync.FacebookSyncContactsProxyActivity"
+            android:process=":FacebookSync"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.jb.gosms.facebook.sync.FacebookSyncFriendsProxyActivity"
+            android:process=":FacebookSync"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".qrcode.ScanQRCodeActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".qrcode.ShareQRCodeActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".privatebox.PrivateBoxModifySecurityQuestionActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <receiver
+            android:name="com.jb.gosms.ui.skin.DownloadGosmsthemeReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.jb.gosms.download.gosmstheme"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:theme=<0x7F07003B, type 0x01>
+            android:name="com.jb.gosms.ui.AboutActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <service
+            android:name="com.jb.gosms.GOSmsThreadService"
+            >
+        </service>
+        <activity
+            android:name=".schedule.ScheduleMessageDisplayActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".ui.groupsms.GroupSmsPluginActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".ui.groupsms.GroupSmsPluginDownActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".ui.FeedbackActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.jb.gosms.messagecenter.ui.MessageCenterActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.jb.gosms.messagecenter.ui.MessageContentActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.jb.gosms.messagecenter.ui.MessageNotifyActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F070019, type 0x01>
+            android:name="com.jb.gosms.account.login.AccountNavigateLoginActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.jb.gosms.account.login.AccountLoginActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.jb.gosms.account.login.AccountLoginActivity"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.jb.gosms.account.regist.AccountVerifyActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.jb.gosms.account.regist.AccountRegisFinishActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.jb.gosms.account.bind.BindMobileActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.jb.gosms.account.bind.BindEmailActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.jb.gosms.account.bind.BindFacebookActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.jb.gosms.account.bind.ChangePasswordActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.jb.gosms.account.bind.BindGoogleplusActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <provider
+            android:name="com.jb.gosms.account.AccountProvider"
+            android:authorities="com.jb.gosms.modules.account.provider"
+            >
+        </provider>
+        <provider
+            android:name="com.jb.gosms.background.pro.BgDataProviderPro"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:multiprocess=<0x0, type 0x12>
+            android:authorities="gosmsdatapro"
+            >
+        </provider>
+        <service
+            android:name="com.jb.gosms.floatpopup.FloatingService"
+            android:process=":floatpopup"
+            >
+        </service>
+        <service
+            android:name="com.jb.gosms.floatpopup.floatwindow.StandOutFloatWindow"
+            android:process=":floatpopup"
+            >
+        </service>
+        <service
+            android:name="com.jb.gosms.monitor.InstallMonitorService"
+            >
+        </service>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.jb.gosms.fm.ui.FreeMsgMainActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F07003B, type 0x01>
+            android:label=<0x7F0800B6, type 0x01>
+            android:name="com.jb.gosms.fm.ui.FreeMsgSettingPreference"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.jb.gosms.fm.ui.contact.FreeMsgSelectContactsActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.jb.gosms.fm.ui.groupchat.GroupsChatListActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.jb.gosms.fm.ui.groupchat.GroupChatMembers"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <service
+            android:name="com.jb.gosms.fm.core.service.FreeMsgService"
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.jb.gosms.fm.START_FREE_MSG_SERVICE"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.jb.gosms.fm.core.xmpp.service.FreeMsgXMPPService"
+            android:exported=<0x0, type 0x12>
+            android:process=":freemsg"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.jb.gosms.fm.START_FREE_MSG_XMPP_SERVICE"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <receiver
+            android:name="com.jb.gosms.fm.core.xmpp.receiver.FreeMsgXMPPReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.USER_PRESENT"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.jb.gosms.fm.core.receiver.SendMsgDelayAlarmReceiver"
+            >
+        </receiver>
+        <provider
+            android:name="com.jb.gosms.fm.core.data.db.FreeMsgContentProvider"
+            android:exported=<0x0, type 0x12>
+            android:authorities="com.jb.gosms.fm"
+            >
+        </provider>
+        <provider
+            android:name="com.jb.gosms.StaticDataContentProvider"
+            android:authorities="com.jb.gosms.staticsdkprovider"
+            >
+        </provider>
+        <receiver
+            android:name=".transaction.deliver.SmsDeliverReceiver"
+            android:permission="android.permission.BROADCAST_SMS"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.provider.Telephony.SMS_DELIVER"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name=".ui.NoConfirmationSendService"
+            android:permission="android.permission.SEND_RESPOND_VIA_MESSAGE"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.RESPOND_VIA_MESSAGE"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:scheme="sms"
+                    >
+                </data>
+                <data
+                    android:scheme="smsto"
+                    >
+                </data>
+                <data
+                    android:scheme="mms"
+                    >
+                </data>
+                <data
+                    android:scheme="mmsto"
+                    >
+                </data>
+            </intent-filter>
+        </service>
+        <activity
+            android:name="com.jb.gosms.bigmms.ImageFoldersActivity"
+            android:process=":bigmms"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.jb.gosms.bigmms.media.activity.MediaSelectActivity"
+            android:process=":bigmms"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.jb.gosms.bigmms.media.activity.MediaBigImageBrowserActivity"
+            android:process=":bigmms"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.jb.gosms.bigmms.ImageEditorForBigMms"
+            android:process=":bigmms"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <provider
+            android:name="com.jb.google.android.mms.TempFileProvider"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:multiprocess=<0xFFFFFFFF, type 0x12>
+            android:authorities="go_mms_temp_file"
+            >
+        </provider>
+        <service
+            android:label="GOService"
+            android:name="com.getjar.sdk.rewards.GetJarService"
+            >
+        </service>
+        <receiver
+            android:name="com.getjar.sdk.data.metadata.PackageMonitor"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.PACKAGE_ADDED"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.PACKAGE_REMOVED"
+                    >
+                </action>
+                <data
+                    android:scheme="package"
+                    >
+                </data>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.getjar.sdk.rewards.GetJarActivity"
+            android:configChanges=<0xFB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.jb.gosms.ui.mainscreen.GetjarInterstitialActivity"
+            android:taskAffinity="com.jb.getjar"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".seniorconvlist.stangersms.StangerSmsConvListActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.jb.gosms.sticker.StickerDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F07003B, type 0x01>
+            android:name="com.jb.gosms.ui.holidaysbox.HolidayActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges=<0xFB0, type 0x11>
+            >
+        </activity>
+        <service
+            android:name="com.jb.gosmsgsimpl.gservices.wearable.DataLayerListenerService"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.google.android.gms.wearable.BIND_LISTENER"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <activity
+            android:name="com.jb.gosms.webapp.card.InputTextActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name=".ui.setupwizard.FirstStartPage"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <service
+            android:name="com.jb.gosms.purchase.pro.getjar.GetjarPurchaseService"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.jb.gosms.theme.getjar.paid.service.local"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name=".privatebox.SetPrivateBoxEntryView"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name=".privatebox.ConfirmPrivateBoxEntryView"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+            <meta-data
+                android:name="disable_lock_guard"
+                android:value=<0xFFFFFFFF, type 0x12>
+                >
+            </meta-data>
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name=".themeinfo3.Theme3DetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name=".themeinfo3.Theme3LocalDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name=".themeinfo3.SpecialTopicActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name=".ui.skin.ThemeStyleSettingActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+    </application>
+    <uses-permission
+        android:name="android.permission.SYSTEM_ALERT_WINDOW"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_BOOT_COMPLETED"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CALL_PHONE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_CONTACTS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_CONTACTS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_MMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.SEND_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.VIBRATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WAKE_LOCK"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.INSTALL_DRM"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.GET_TASKS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.DISABLE_KEYGUARD"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_LOGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RESTART_PACKAGES"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.PERSISTENT_ACTIVITY"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.launcher.permission.INSTALL_SHORTCUT"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_WAP_PUSH"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required=<0x0, type 0x12>
+        >
+    </uses-feature>
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required=<0x0, type 0x12>
+        >
+    </uses-feature>
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required=<0x0, type 0x12>
+        >
+    </uses-feature>
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required=<0x0, type 0x12>
+        >
+    </uses-feature>
+    <uses-feature
+        android:name="android.hardware.microphone"
+        android:required=<0x0, type 0x12>
+        >
+    </uses-feature>
+    <uses-feature
+        android:name="android.hardware.location.network"
+        android:required=<0x0, type 0x12>
+        >
+    </uses-feature>
+    <uses-feature
+        android:name="android.hardware.location"
+        android:required=<0x0, type 0x12>
+        >
+    </uses-feature>
+    <uses-permission
+        android:name="android.permission.GET_ACCOUNTS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECORD_AUDIO"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.MODIFY_AUDIO_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.BROADCAST_STICKY"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CAMERA"
+        >
+    </uses-permission>
+    <uses-sdk
+        android:minSdkVersion=<0x9, type 0x10>
+        android:targetSdkVersion=<0xF, type 0x10>
+        >
+    </uses-sdk>
+    <supports-screens
+        android:anyDensity=<0xFFFFFFFF, type 0x12>
+        android:smallScreens=<0xFFFFFFFF, type 0x12>
+        android:normalScreens=<0xFFFFFFFF, type 0x12>
+        android:largeScreens=<0xFFFFFFFF, type 0x12>
+        >
+    </supports-screens>
+    <permission
+        android:name="com.jb.gosms.permission.provider.CHAT_INFO_ACCESS"
+        android:protectionLevel=<0x2, type 0x11>
+        >
+    </permission>
+    <uses-permission
+        android:name="com.jb.gosms.permission.provider.CHAT_INFO_ACCESS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_BOOT_COMPLETED"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WAKE_LOCK"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.VIBRATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.PERSISTENT_ACTIVITY"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.BROADCAST_STICKY"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.vending.BILLING"
+        >
+    </uses-permission>
+    <permission
+        android:name="com.jb.gosms.permission.provider.CUSTOM_PREFERENCE_ACCESS"
+        android:protectionLevel=<0x2, type 0x11>
+        >
+    </permission>
+</manifest>

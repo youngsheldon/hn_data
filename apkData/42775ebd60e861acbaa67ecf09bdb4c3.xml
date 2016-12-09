@@ -1,314 +1,970 @@
---2016-12-08 18:33:47--  https://s.tantanapp.com/
-Resolving s.tantanapp.com... 106.75.75.236, 106.75.75.234
-Connecting to s.tantanapp.com|106.75.75.236|:443... connected.
-HTTP request sent, awaiting response... 302 Moved Temporarily
-Location: https://lp.tantanapp.com/al/ [following]
---2016-12-08 18:33:47--  https://lp.tantanapp.com/al/
-Resolving lp.tantanapp.com... 106.75.75.234, 106.75.75.236
-Connecting to lp.tantanapp.com|106.75.75.234|:443... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: 1695 (1.7K) [text/html]
-Saving to: `index.html'
-
-     0K .                                                     100%  202M=0s
-
-2016-12-08 18:33:47 (202 MB/s) - `index.html' saved [1695/1695]
-
-=======================The second times wget =====================
---2016-12-08 18:33:47--  https://apk-ssl.tancdn.com/tantan-2.6.1.1_91_scp.apk
-Resolving apk-ssl.tancdn.com... 222.243.111.36, 222.243.149.21, 124.232.157.39
-Connecting to apk-ssl.tancdn.com|222.243.111.36|:443... connected.
-WARNING: certificate common name `www.chinanetcenter.com' doesn't match requested host name `apk-ssl.tancdn.com'.
-HTTP request sent, awaiting response... 200 OK
-Length: 14593832 (14M) [application/octet-stream]
-Saving to: `tantan-2.6.1.1_91_scp.apk'
-
-     0K .......... .......... .......... .......... ..........  0% 2.93M 5s
-    50K .......... .......... .......... .......... ..........  0%  675K 13s
-   100K .......... .......... .......... .......... ..........  1%  858K 14s
-   150K .......... .......... .......... .......... ..........  1%  828K 15s
-   200K .......... .......... .......... .......... ..........  1%  969K 15s
-   250K .......... .......... .......... .......... ..........  2%  831K 15s
-   300K .......... .......... .......... .......... ..........  2% 1.78M 14s
-   350K .......... .......... .......... .......... ..........  2%  919K 14s
-   400K .......... .......... .......... .......... ..........  3% 1.42M 13s
-   450K .......... .......... .......... .......... ..........  3%  894K 14s
-   500K .......... .......... .......... .......... ..........  3% 1.73M 13s
-   550K .......... .......... .......... .......... ..........  4% 1.35M 13s
-   600K .......... .......... .......... .......... ..........  4% 1.57M 12s
-   650K .......... .......... .......... .......... ..........  4% 1.51M 12s
-   700K .......... .......... .......... .......... ..........  5% 1.44M 12s
-   750K .......... .......... .......... .......... ..........  5% 1.45M 12s
-   800K .......... .......... .......... .......... ..........  5% 1.48M 11s
-   850K .......... .......... .......... .......... ..........  6% 1.14M 11s
-   900K .......... .......... .......... .......... ..........  6% 2.02M 11s
-   950K .......... .......... .......... .......... ..........  7% 1.72M 11s
-  1000K .......... .......... .......... .......... ..........  7% 2.08M 11s
-  1050K .......... .......... .......... .......... ..........  7% 1.61M 10s
-  1100K .......... .......... .......... .......... ..........  8% 2.44M 10s
-  1150K .......... .......... .......... .......... ..........  8% 1.40M 10s
-  1200K .......... .......... .......... .......... ..........  8% 2.44M 10s
-  1250K .......... .......... .......... .......... ..........  9% 1.98M 10s
-  1300K .......... .......... .......... .......... ..........  9% 3.10M 9s
-  1350K .......... .......... .......... .......... ..........  9% 1.78M 9s
-  1400K .......... .......... .......... .......... .......... 10% 1.49M 9s
-  1450K .......... .......... .......... .......... .......... 10% 3.00M 9s
-  1500K .......... .......... .......... .......... .......... 10% 2.46M 9s
-  1550K .......... .......... .......... .......... .......... 11% 2.04M 9s
-  1600K .......... .......... .......... .......... .......... 11% 3.42M 9s
-  1650K .......... .......... .......... .......... .......... 11% 2.23M 8s
-  1700K .......... .......... .......... .......... .......... 12% 2.56M 8s
-  1750K .......... .......... .......... .......... .......... 12% 1.96M 8s
-  1800K .......... .......... .......... .......... .......... 12% 2.66M 8s
-  1850K .......... .......... .......... .......... .......... 13% 2.27M 8s
-  1900K .......... .......... .......... .......... .......... 13% 3.39M 8s
-  1950K .......... .......... .......... .......... .......... 14% 2.43M 8s
-  2000K .......... .......... .......... .......... .......... 14% 3.07M 8s
-  2050K .......... .......... .......... .......... .......... 14% 2.82M 7s
-  2100K .......... .......... .......... .......... .......... 15% 3.25M 7s
-  2150K .......... .......... .......... .......... .......... 15% 2.81M 7s
-  2200K .......... .......... .......... .......... .......... 15% 6.61M 7s
-  2250K .......... .......... .......... .......... .......... 16% 2.05M 7s
-  2300K .......... .......... .......... .......... .......... 16% 6.27M 7s
-  2350K .......... .......... .......... .......... .......... 16% 3.08M 7s
-  2400K .......... .......... .......... .......... .......... 17%  740K 7s
-  2450K .......... .......... .......... .......... .......... 17% 2.84M 7s
-  2500K .......... .......... .......... .......... .......... 17% 2.64M 7s
-  2550K .......... .......... .......... .......... .......... 18% 2.42M 7s
-  2600K .......... .......... .......... .......... .......... 18% 2.45M 7s
-  2650K .......... .......... .......... .......... .......... 18% 3.94M 7s
-  2700K .......... .......... .......... .......... .......... 19% 3.08M 6s
-  2750K .......... .......... .......... .......... .......... 19% 2.87M 6s
-  2800K .......... .......... .......... .......... .......... 19% 4.59M 6s
-  2850K .......... .......... .......... .......... .......... 20% 3.87M 6s
-  2900K .......... .......... .......... .......... .......... 20% 2.46M 6s
-  2950K .......... .......... .......... .......... .......... 21% 3.35M 6s
-  3000K .......... .......... .......... .......... .......... 21% 3.06M 6s
-  3050K .......... .......... .......... .......... .......... 21% 3.31M 6s
-  3100K .......... .......... .......... .......... .......... 22% 3.11M 6s
-  3150K .......... .......... .......... .......... .......... 22% 3.01M 6s
-  3200K .......... .......... .......... .......... .......... 22% 3.35M 6s
-  3250K .......... .......... .......... .......... .......... 23% 2.24M 6s
-  3300K .......... .......... .......... .......... .......... 23% 4.76M 6s
-  3350K .......... .......... .......... .......... .......... 23% 2.83M 6s
-  3400K .......... .......... .......... .......... .......... 24% 3.53M 6s
-  3450K .......... .......... .......... .......... .......... 24% 3.11M 5s
-  3500K .......... .......... .......... .......... .......... 24% 3.13M 5s
-  3550K .......... .......... .......... .......... .......... 25% 2.93M 5s
-  3600K .......... .......... .......... .......... .......... 25% 3.29M 5s
-  3650K .......... .......... .......... .......... .......... 25% 3.50M 5s
-  3700K .......... .......... .......... .......... .......... 26% 3.32M 5s
-  3750K .......... .......... .......... .......... .......... 26% 2.80M 5s
-  3800K .......... .......... .......... .......... .......... 27% 3.50M 5s
-  3850K .......... .......... .......... .......... .......... 27% 3.55M 5s
-  3900K .......... .......... .......... .......... .......... 27% 3.08M 5s
-  3950K .......... .......... .......... .......... .......... 28% 2.97M 5s
-  4000K .......... .......... .......... .......... .......... 28% 3.95M 5s
-  4050K .......... .......... .......... .......... .......... 28% 2.82M 5s
-  4100K .......... .......... .......... .......... .......... 29% 3.68M 5s
-  4150K .......... .......... .......... .......... .......... 29% 3.47M 5s
-  4200K .......... .......... .......... .......... .......... 29% 3.48M 5s
-  4250K .......... .......... .......... .......... .......... 30% 3.39M 5s
-  4300K .......... .......... .......... .......... .......... 30% 2.95M 5s
-  4350K .......... .......... .......... .......... .......... 30% 3.83M 5s
-  4400K .......... .......... .......... .......... .......... 31% 3.04M 5s
-  4450K .......... .......... .......... .......... .......... 31% 2.29M 5s
-  4500K .......... .......... .......... .......... .......... 31% 4.93M 4s
-  4550K .......... .......... .......... .......... .......... 32% 4.68M 4s
-  4600K .......... .......... .......... .......... .......... 32% 3.31M 4s
-  4650K .......... .......... .......... .......... .......... 32% 2.21M 4s
-  4700K .......... .......... .......... .......... .......... 33% 4.57M 4s
-  4750K .......... .......... .......... .......... .......... 33% 4.04M 4s
-  4800K .......... .......... .......... .......... .......... 34% 3.02M 4s
-  4850K .......... .......... .......... .......... .......... 34% 3.94M 4s
-  4900K .......... .......... .......... .......... .......... 34% 3.20M 4s
-  4950K .......... .......... .......... .......... .......... 35% 3.87M 4s
-  5000K .......... .......... .......... .......... .......... 35% 3.25M 4s
-  5050K .......... .......... .......... .......... .......... 35% 2.33M 4s
-  5100K .......... .......... .......... .......... .......... 36% 8.67M 4s
-  5150K .......... .......... .......... .......... .......... 36% 3.85M 4s
-  5200K .......... .......... .......... .......... .......... 36% 4.67M 4s
-  5250K .......... .......... .......... .......... .......... 37% 2.86M 4s
-  5300K .......... .......... .......... .......... .......... 37% 3.59M 4s
-  5350K .......... .......... .......... .......... .......... 37% 4.50M 4s
-  5400K .......... .......... .......... .......... .......... 38% 3.01M 4s
-  5450K .......... .......... .......... .......... .......... 38% 3.50M 4s
-  5500K .......... .......... .......... .......... .......... 38% 4.47M 4s
-  5550K .......... .......... .......... .......... .......... 39% 3.13M 4s
-  5600K .......... .......... .......... .......... .......... 39% 3.43M 4s
-  5650K .......... .......... .......... .......... .......... 39% 4.82M 4s
-  5700K .......... .......... .......... .......... .......... 40% 2.89M 4s
-  5750K .......... .......... .......... .......... .......... 40% 4.10M 4s
-  5800K .......... .......... .......... .......... .......... 41% 3.93M 4s
-  5850K .......... .......... .......... .......... .......... 41% 2.45M 4s
-  5900K .......... .......... .......... .......... .......... 41% 5.90M 3s
-  5950K .......... .......... .......... .......... .......... 42% 3.76M 3s
-  6000K .......... .......... .......... .......... .......... 42% 3.26M 3s
-  6050K .......... .......... .......... .......... .......... 42% 3.61M 3s
-  6100K .......... .......... .......... .......... .......... 43% 4.71M 3s
-  6150K .......... .......... .......... .......... .......... 43% 4.20M 3s
-  6200K .......... .......... .......... .......... .......... 43% 5.03M 3s
-  6250K .......... .......... .......... .......... .......... 44% 3.16M 3s
-  6300K .......... .......... .......... .......... .......... 44% 6.64M 3s
-  6350K .......... .......... .......... .......... .......... 44% 3.76M 3s
-  6400K .......... .......... .......... .......... .......... 45% 4.14M 3s
-  6450K .......... .......... .......... .......... .......... 45% 6.10M 3s
-  6500K .......... .......... .......... .......... .......... 45% 7.94M 3s
-  6550K .......... .......... .......... .......... .......... 46% 6.16M 3s
-  6600K .......... .......... .......... .......... .......... 46% 5.11M 3s
-  6650K .......... .......... .......... .......... .......... 47% 7.96M 3s
-  6700K .......... .......... .......... .......... .......... 47% 7.53M 3s
-  6750K .......... .......... .......... .......... .......... 47% 5.06M 3s
-  6800K .......... .......... .......... .......... .......... 48% 6.19M 3s
-  6850K .......... .......... .......... .......... .......... 48% 8.97M 3s
-  6900K .......... .......... .......... .......... .......... 48% 7.32M 3s
-  6950K .......... .......... .......... .......... .......... 49% 11.5M 3s
-  7000K .......... .......... .......... .......... .......... 49% 11.4M 3s
-  7050K .......... .......... .......... .......... .......... 49% 12.1M 3s
-  7100K .......... .......... .......... .......... .......... 50% 7.35M 3s
-  7150K .......... .......... .......... .......... .......... 50% 19.0M 3s
-  7200K .......... .......... .......... .......... .......... 50% 10.4M 3s
-  7250K .......... .......... .......... .......... .......... 51% 8.31M 3s
-  7300K .......... .......... .......... .......... .......... 51% 10.0M 3s
-  7350K .......... .......... .......... .......... .......... 51% 11.2M 3s
-  7400K .......... .......... .......... .......... .......... 52% 12.6M 2s
-  7450K .......... .......... .......... .......... .......... 52% 14.1M 2s
-  7500K .......... .......... .......... .......... .......... 52% 8.14M 2s
-  7550K .......... .......... .......... .......... .......... 53% 9.01M 2s
-  7600K .......... .......... .......... .......... .......... 53% 12.1M 2s
-  7650K .......... .......... .......... .......... .......... 54% 14.0M 2s
-  7700K .......... .......... .......... .......... .......... 54% 16.1M 2s
-  7750K .......... .......... .......... .......... .......... 54% 20.3M 2s
-  7800K .......... .......... .......... .......... .......... 55% 9.95M 2s
-  7850K .......... .......... .......... .......... .......... 55% 11.5M 2s
-  7900K .......... .......... .......... .......... .......... 55% 16.4M 2s
-  7950K .......... .......... .......... .......... .......... 56% 20.2M 2s
-  8000K .......... .......... .......... .......... .......... 56% 15.8M 2s
-  8050K .......... .......... .......... .......... .......... 56% 8.01M 2s
-  8100K .......... .......... .......... .......... .......... 57% 11.9M 2s
-  8150K .......... .......... .......... .......... .......... 57% 11.6M 2s
-  8200K .......... .......... .......... .......... .......... 57% 15.3M 2s
-  8250K .......... .......... .......... .......... .......... 58% 21.9M 2s
-  8300K .......... .......... .......... .......... .......... 58% 17.3M 2s
-  8350K .......... .......... .......... .......... .......... 58% 16.6M 2s
-  8400K .......... .......... .......... .......... .......... 59% 14.4M 2s
-  8450K .......... .......... .......... .......... .......... 59% 21.5M 2s
-  8500K .......... .......... .......... .......... .......... 59% 17.1M 2s
-  8550K .......... .......... .......... .......... .......... 60% 30.9M 2s
-  8600K .......... .......... .......... .......... .......... 60% 18.4M 2s
-  8650K .......... .......... .......... .......... .......... 61% 11.4M 2s
-  8700K .......... .......... .......... .......... .......... 61% 11.2M 2s
-  8750K .......... .......... .......... .......... .......... 61% 13.4M 2s
-  8800K .......... .......... .......... .......... .......... 62% 19.5M 2s
-  8850K .......... .......... .......... .......... .......... 62% 19.4M 2s
-  8900K .......... .......... .......... .......... .......... 62% 29.4M 2s
-  8950K .......... .......... .......... .......... .......... 63% 21.3M 2s
-  9000K .......... .......... .......... .......... .......... 63% 12.1M 2s
-  9050K .......... .......... .......... .......... .......... 63% 12.7M 2s
-  9100K .......... .......... .......... .......... .......... 64% 5.79M 2s
-  9150K .......... .......... .......... .......... .......... 64% 10.9M 2s
-  9200K .......... .......... .......... .......... .......... 64% 11.6M 2s
-  9250K .......... .......... .......... .......... .......... 65% 12.4M 2s
-  9300K .......... .......... .......... .......... .......... 65% 32.8M 1s
-  9350K .......... .......... .......... .......... .......... 65% 15.5M 1s
-  9400K .......... .......... .......... .......... .......... 66% 26.6M 1s
-  9450K .......... .......... .......... .......... .......... 66% 17.5M 1s
-  9500K .......... .......... .......... .......... .......... 67% 34.2M 1s
-  9550K .......... .......... .......... .......... .......... 67% 27.2M 1s
-  9600K .......... .......... .......... .......... .......... 67% 29.4M 1s
-  9650K .......... .......... .......... .......... .......... 68% 24.8M 1s
-  9700K .......... .......... .......... .......... .......... 68% 36.9M 1s
-  9750K .......... .......... .......... .......... .......... 68% 31.8M 1s
-  9800K .......... .......... .......... .......... .......... 69% 30.1M 1s
-  9850K .......... .......... .......... .......... .......... 69% 31.2M 1s
-  9900K .......... .......... .......... .......... .......... 69% 30.7M 1s
-  9950K .......... .......... .......... .......... .......... 70% 27.2M 1s
- 10000K .......... .......... .......... .......... .......... 70% 28.2M 1s
- 10050K .......... .......... .......... .......... .......... 70% 33.8M 1s
- 10100K .......... .......... .......... .......... .......... 71% 32.1M 1s
- 10150K .......... .......... .......... .......... .......... 71% 16.8M 1s
- 10200K .......... .......... .......... .......... .......... 71% 17.5M 1s
- 10250K .......... .......... .......... .......... .......... 72% 17.8M 1s
- 10300K .......... .......... .......... .......... .......... 72% 13.1M 1s
- 10350K .......... .......... .......... .......... .......... 72% 12.7M 1s
- 10400K .......... .......... .......... .......... .......... 73% 33.2M 1s
- 10450K .......... .......... .......... .......... .......... 73% 33.4M 1s
- 10500K .......... .......... .......... .......... .......... 74% 16.8M 1s
- 10550K .......... .......... .......... .......... .......... 74% 31.1M 1s
- 10600K .......... .......... .......... .......... .......... 74% 32.9M 1s
- 10650K .......... .......... .......... .......... .......... 75% 30.3M 1s
- 10700K .......... .......... .......... .......... .......... 75% 30.1M 1s
- 10750K .......... .......... .......... .......... .......... 75% 11.5M 1s
- 10800K .......... .......... .......... .......... .......... 76% 13.6M 1s
- 10850K .......... .......... .......... .......... .......... 76% 27.9M 1s
- 10900K .......... .......... .......... .......... .......... 76% 16.8M 1s
- 10950K .......... .......... .......... .......... .......... 77% 31.3M 1s
- 11000K .......... .......... .......... .......... .......... 77% 20.4M 1s
- 11050K .......... .......... .......... .......... .......... 77% 25.1M 1s
- 11100K .......... .......... .......... .......... .......... 78% 32.8M 1s
- 11150K .......... .......... .......... .......... .......... 78% 31.1M 1s
- 11200K .......... .......... .......... .......... .......... 78% 30.5M 1s
- 11250K .......... .......... .......... .......... .......... 79% 20.0M 1s
- 11300K .......... .......... .......... .......... .......... 79% 28.8M 1s
- 11350K .......... .......... .......... .......... .......... 79% 27.9M 1s
- 11400K .......... .......... .......... .......... .......... 80% 29.4M 1s
- 11450K .......... .......... .......... .......... .......... 80% 29.1M 1s
- 11500K .......... .......... .......... .......... .......... 81% 26.9M 1s
- 11550K .......... .......... .......... .......... .......... 81% 35.0M 1s
- 11600K .......... .......... .......... .......... .......... 81% 28.0M 1s
- 11650K .......... .......... .......... .......... .......... 82% 26.9M 1s
- 11700K .......... .......... .......... .......... .......... 82% 21.2M 1s
- 11750K .......... .......... .......... .......... .......... 82% 11.7M 1s
- 11800K .......... .......... .......... .......... .......... 83% 14.6M 1s
- 11850K .......... .......... .......... .......... .......... 83% 27.7M 1s
- 11900K .......... .......... .......... .......... .......... 83% 20.0M 1s
- 11950K .......... .......... .......... .......... .......... 84% 24.0M 1s
- 12000K .......... .......... .......... .......... .......... 84% 30.3M 1s
- 12050K .......... .......... .......... .......... .......... 84% 23.8M 1s
- 12100K .......... .......... .......... .......... .......... 85% 36.1M 1s
- 12150K .......... .......... .......... .......... .......... 85% 26.8M 1s
- 12200K .......... .......... .......... .......... .......... 85% 31.6M 0s
- 12250K .......... .......... .......... .......... .......... 86% 23.3M 0s
- 12300K .......... .......... .......... .......... .......... 86% 28.8M 0s
- 12350K .......... .......... .......... .......... .......... 87% 29.6M 0s
- 12400K .......... .......... .......... .......... .......... 87% 23.9M 0s
- 12450K .......... .......... .......... .......... .......... 87% 32.0M 0s
- 12500K .......... .......... .......... .......... .......... 88% 27.6M 0s
- 12550K .......... .......... .......... .......... .......... 88% 35.9M 0s
- 12600K .......... .......... .......... .......... .......... 88% 30.4M 0s
- 12650K .......... .......... .......... .......... .......... 89% 29.8M 0s
- 12700K .......... .......... .......... .......... .......... 89% 34.3M 0s
- 12750K .......... .......... .......... .......... .......... 89% 32.8M 0s
- 12800K .......... .......... .......... .......... .......... 90% 25.0M 0s
- 12850K .......... .......... .......... .......... .......... 90% 17.0M 0s
- 12900K .......... .......... .......... .......... .......... 90% 22.8M 0s
- 12950K .......... .......... .......... .......... .......... 91% 28.7M 0s
- 13000K .......... .......... .......... .......... .......... 91% 32.4M 0s
- 13050K .......... .......... .......... .......... .......... 91% 29.0M 0s
- 13100K .......... .......... .......... .......... .......... 92% 30.3M 0s
- 13150K .......... .......... .......... .......... .......... 92% 27.8M 0s
- 13200K .......... .......... .......... .......... .......... 92% 27.7M 0s
- 13250K .......... .......... .......... .......... .......... 93% 25.7M 0s
- 13300K .......... .......... .......... .......... .......... 93% 38.5M 0s
- 13350K .......... .......... .......... .......... .......... 94% 32.2M 0s
- 13400K .......... .......... .......... .......... .......... 94% 24.6M 0s
- 13450K .......... .......... .......... .......... .......... 94% 17.9M 0s
- 13500K .......... .......... .......... .......... .......... 95% 22.4M 0s
- 13550K .......... .......... .......... .......... .......... 95% 26.1M 0s
- 13600K .......... .......... .......... .......... .......... 95% 29.8M 0s
- 13650K .......... .......... .......... .......... .......... 96% 28.1M 0s
- 13700K .......... .......... .......... .......... .......... 96% 31.7M 0s
- 13750K .......... .......... .......... .......... .......... 96% 28.4M 0s
- 13800K .......... .......... .......... .......... .......... 97% 30.7M 0s
- 13850K .......... .......... .......... .......... .......... 97% 28.9M 0s
- 13900K .......... .......... .......... .......... .......... 97% 32.4M 0s
- 13950K .......... .......... .......... .......... .......... 98% 29.3M 0s
- 14000K .......... .......... .......... .......... .......... 98% 28.8M 0s
- 14050K .......... .......... .......... .......... .......... 98% 30.3M 0s
- 14100K .......... .......... .......... .......... .......... 99% 22.2M 0s
- 14150K .......... .......... .......... .......... .......... 99% 31.7M 0s
- 14200K .......... .......... .......... .......... .......... 99% 33.5M 0s
- 14250K .                                                     100% 25.0M=3.0s
-
-2016-12-08 18:33:51 (4.57 MB/s) - `tantan-2.6.1.1_91_scp.apk' saved [14593832/14593832]
-
+<manifest
+    android:versionCode=<0x5B, type 0x10>
+    android:versionName="2.6.1.1"
+    package="com.p1.mobile.putong"
+    platformBuildVersionCode=<0x18, type 0x10>
+    platformBuildVersionName=<0x40E00000, type 0x04>
+    >
+    <uses-sdk
+        android:minSdkVersion=<0xE, type 0x10>
+        android:targetSdkVersion=<0x16, type 0x10>
+        >
+    </uses-sdk>
+    <permission
+        android:name="com.p1.mobile.putong.permission.JPUSH_MESSAGE"
+        android:protectionLevel=<0x2, type 0x11>
+        >
+    </permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.p1.mobile.putong.permission.JPUSH_MESSAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.VIBRATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_LOGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_CONTACTS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.REORDER_TASKS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WAKE_LOCK"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECORD_AUDIO"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.MODIFY_AUDIO_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.MANAGE_ACCOUNTS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.GET_ACCOUNTS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.BLUETOOTH"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_BOOT_COMPLETED"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_USER_PRESENT"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.SYSTEM_ALERT_WINDOW"
+        >
+    </uses-permission>
+    <uses-feature
+        android:glEsVersion=<0x20000, type 0x11>
+        android:required=<0xFFFFFFFF, type 0x12>
+        >
+    </uses-feature>
+    <application
+        android:theme=<0x7F0A012D, type 0x01>
+        android:label=<0x7F08002B, type 0x01>
+        android:icon=<0x7F020102, type 0x01>
+        android:name="l.zo"
+        android:allowBackup=<0xFFFFFFFF, type 0x12>
+        android:largeHeap=<0xFFFFFFFF, type 0x12>
+        android:supportsRtl=<0x0, type 0x12>
+        >
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="534e662c56240b8f2f0048e4"
+            >
+        </meta-data>
+        <meta-data
+            android:name="UMENG_MESSAGE_SECRET"
+            android:value="3aa4382fc54dce3d19d735f6fdd187ca"
+            >
+        </meta-data>
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="organic"
+            >
+        </meta-data>
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="islEGFAbydBfWxshdNB3jYeG"
+            >
+        </meta-data>
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAEnrM9GENNmqXzzplnvyepaN9J3dOMdSE"
+            >
+        </meta-data>
+        <meta-data
+            android:name="AuthorizeAdapter"
+            android:value="com.p1.mobile.putong.ui.share.ShareSDKAuthorizeAdapter"
+            >
+        </meta-data>
+        <activity
+            android:theme=<0x7F0A013B, type 0x01>
+            android:label=<0x7F0801D5, type 0x01>
+            android:name=".ui.splash.SplashAct"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x80, type 0x11>
+            android:windowSoftInputMode=<0x30, type 0x11>
+            >
+            <intent-filter
+                >
+                <data
+                    android:scheme="tantanapp"
+                    >
+                </data>
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.LAUNCHER"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0A0138, type 0x01>
+            android:label=<0x7F0801D5, type 0x01>
+            android:name=".ui.welcome.WelcomeAct"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x80, type 0x11>
+            android:windowSoftInputMode=<0x30, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0803ED, type 0x01>
+            android:name=".ui.account.VerifyDeviceIntroAct"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x80, type 0x11>
+            android:windowSoftInputMode=<0x33, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F08014E, type 0x01>
+            android:name=".ui.account.PasswordVerificationAct"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x80, type 0x11>
+            android:windowSoftInputMode=<0x15, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0803B4, type 0x01>
+            android:name=".ui.account.SignUpDetailsAct"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x80, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0802DE, type 0x01>
+            android:name=".ui.account.PasswordResetAct"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x80, type 0x11>
+            android:windowSoftInputMode=<0x15, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F08014F, type 0x01>
+            android:name=".ui.account.PasswordChangeAct"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x80, type 0x11>
+            android:windowSoftInputMode=<0x15, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".ui.account.PhoneVerificationAct"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x80, type 0x11>
+            android:windowSoftInputMode=<0x15, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0801E1, type 0x01>
+            android:name=".ui.account.SignInAct"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x80, type 0x11>
+            android:windowSoftInputMode=<0x15, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A012D, type 0x01>
+            android:label=<0x7F0801D5, type 0x01>
+            android:name=".ui.main.MainAct"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x80, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A013C, type 0x01>
+            android:label=<0x7F0801D5, type 0x01>
+            android:name=".ui.main.TutorialAct"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x80, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A013C, type 0x01>
+            android:name=".ui.match.MatchAct"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x80, type 0x11>
+            android:windowSoftInputMode=<0x30, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A013C, type 0x01>
+            android:name=".ui.popup.ProfileHiddenPopup"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x80, type 0x11>
+            android:windowSoftInputMode=<0x30, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A013C, type 0x01>
+            android:name=".ui.popup.ProfileThinPopup"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x80, type 0x11>
+            android:windowSoftInputMode=<0x30, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A012C, type 0x01>
+            android:name=".ui.messages.MessagesAct"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <service
+            android:label=<0x7F0801D5, type 0x01>
+            android:name=".ui.messages.ChooserTargetService"
+            android:permission="android.permission.BIND_CHOOSER_TARGET_SERVICE"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.service.chooser.ChooserTargetService"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <activity
+            android:theme=<0x7F0A012D, type 0x01>
+            android:label=<0x7F0801DD, type 0x01>
+            android:name=".ui.map.MapPreviewAct"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A012D, type 0x01>
+            android:label=<0x7F0801DD, type 0x01>
+            android:name=".ui.map.GoogleMapPreviewAct"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A012D, type 0x01>
+            android:label=<0x7F0801DA, type 0x01>
+            android:name=".ui.map.MapAct"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x30, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.SEARCH"
+                    >
+                </action>
+            </intent-filter>
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource=<0x7F060000, type 0x01>
+                >
+            </meta-data>
+        </activity>
+        <activity
+            android:theme=<0x7F0A0133, type 0x01>
+            android:name=".ui.profile.ProfileAct_CustomTransition"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x80, type 0x11>
+            android:windowSoftInputMode=<0x30, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A012D, type 0x01>
+            android:name=".ui.profile.EditProfileAct"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x80, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0132, type 0x01>
+            android:name=".ui.profile.ProfileAct"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x80, type 0x11>
+            android:windowSoftInputMode=<0x30, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A012D, type 0x01>
+            android:label=<0x7F08024F, type 0x01>
+            android:name=".ui.mutualcontacts.MutualContactsAct"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x80, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0137, type 0x01>
+            android:name=".ui.mediapreview.MediaPreviewAct"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x80, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0136, type 0x01>
+            android:name="com.p1.mobile.android.ui.crop.CropImageAct"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x80, type 0x11>
+            android:windowSoftInputMode=<0x30, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0134, type 0x01>
+            android:name=".ui.mediapicker.MediaPickerAct"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x80, type 0x11>
+            android:windowSoftInputMode=<0x30, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A012E, type 0x01>
+            android:name=".ui.mediapicker.MediaPreviewAct"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x80, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A012D, type 0x01>
+            android:label=<0x7F080352, type 0x01>
+            android:name=".ui.settings.AccountDetailsAct"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x80, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A012D, type 0x01>
+            android:label=<0x7F080374, type 0x01>
+            android:name=".ui.settings.PrivacyAndNotifAct"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x80, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A012D, type 0x01>
+            android:label=<0x7F08036E, type 0x01>
+            android:name=".ui.settings.MomentMutedAct"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x80, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A012D, type 0x01>
+            android:label=<0x7F08035F, type 0x01>
+            android:name=".ui.settings.DataAndStorageAct"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x80, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A012D, type 0x01>
+            android:label=<0x7F0801A1, type 0x01>
+            android:name=".ui.helpcenter.QuestionAndAnswerAct"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x80, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A012D, type 0x01>
+            android:label=<0x7F0801D5, type 0x01>
+            android:name=".ui.messages.SelectContactAct"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x80, type 0x11>
+            >
+            <meta-data
+                android:name="android.service.chooser.chooser_target_service"
+                android:value=".ui.messages.ChooserTargetService"
+                >
+            </meta-data>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.SEND"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:mimeType="image/*"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.SEND"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:mimeType="text/plain"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.SEND_MULTIPLE"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:mimeType="image/*"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0A012D, type 0x01>
+            android:label=<0x7F080248, type 0x01>
+            android:icon=<0x7F020161, type 0x01>
+            android:name=".ui.moments.CaptionAct"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x80, type 0x11>
+            android:windowSoftInputMode=<0x15, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.SEND"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:mimeType="image/*"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.SEND"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:mimeType="text/plain"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.SEND_MULTIPLE"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:mimeType="image/*"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0A012D, type 0x01>
+            android:name=".ui.moments.MomentsInProfileAct"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x80, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0130, type 0x01>
+            android:name=".ui.moments.MomentsInProfilePreviewAct"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x80, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A012F, type 0x01>
+            android:name=".ui.moments.MomentsInProfileTextAct"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x80, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A012D, type 0x01>
+            android:name=".ui.moments.MomentActivitiesAct"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x80, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A012D, type 0x01>
+            android:name=".ui.moments.MomentsFeedAct"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x80, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0136, type 0x01>
+            android:name=".ui.moments.MomentsSimpleTextAct"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x80, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0137, type 0x01>
+            android:name=".ui.moments.MomentsFeedPreviewAct"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x80, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A012D, type 0x01>
+            android:name=".ui.moments.MomentDetailAct"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x80, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A012D, type 0x01>
+            android:name=".ui.moments.LikesDetailAct"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x80, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A012D, type 0x01>
+            android:name=".ui.scenario.ScenarioPickerAct"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x80, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A013C, type 0x01>
+            android:name=".ui.scenario.ScenarioMenuPopupAct"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x80, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A012D, type 0x01>
+            android:name=".ui.profile.PersonalStat"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x80, type 0x11>
+            >
+        </activity>
+        <receiver
+            android:name="com.p1.mobile.android.net.ConnectivityReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="l.zl"
+            >
+        </receiver>
+        <activity
+            android:theme=<0x7F0A013C, type 0x01>
+            android:name=".ui.DialogAct"
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <receiver
+            android:name=".ui.notifications.SysnotifListener"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="dismiss"
+                    >
+                </action>
+                <action
+                    android:name="reply"
+                    >
+                </action>
+                <action
+                    android:name="read"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".api.push.BootReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.BOOT_COMPLETED"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".api.push.JPushReceiver"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="cn.jpush.android.intent.REGISTRATION"
+                    >
+                </action>
+                <action
+                    android:name="cn.jpush.android.intent.UNREGISTRATION"
+                    >
+                </action>
+                <action
+                    android:name="cn.jpush.android.intent.MESSAGE_RECEIVED"
+                    >
+                </action>
+                <action
+                    android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED"
+                    >
+                </action>
+                <action
+                    android:name="cn.jpush.android.intent.NOTIFICATION_OPENED"
+                    >
+                </action>
+                <action
+                    android:name="cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK"
+                    >
+                </action>
+                <action
+                    android:name="cn.jpush.android.intent.CONNECTION"
+                    >
+                </action>
+                <category
+                    android:name="com.p1.mobile.putong"
+                    >
+                </category>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="cn.jpush.android.ui.PushActivity"
+            android:exported=<0x0, type 0x12>
+            android:configChanges=<0xA0, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="cn.jpush.android.ui.PushActivity"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="com.p1.mobile.putong"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <service
+            android:name="cn.jpush.android.service.DownloadService"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:exported=<0x0, type 0x12>
+            >
+        </service>
+        <service
+            android:name="cn.jpush.android.service.PushService"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="cn.jpush.android.intent.REGISTER"
+                    >
+                </action>
+                <action
+                    android:name="cn.jpush.android.intent.REPORT"
+                    >
+                </action>
+                <action
+                    android:name="cn.jpush.android.intent.PushService"
+                    >
+                </action>
+                <action
+                    android:name="cn.jpush.android.intent.PUSH_TIME"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <service
+            android:name="cn.jpush.android.service.DaemonService"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="cn.jpush.android.intent.DaemonService"
+                    >
+                </action>
+                <category
+                    android:name="com.p1.mobile.putong"
+                    >
+                </category>
+            </intent-filter>
+        </service>
+        <receiver
+            android:name="cn.jpush.android.service.PushReceiver"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                android:priority=<0x3E8, type 0x10>
+                >
+                <action
+                    android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY"
+                    >
+                </action>
+                <category
+                    android:name="com.p1.mobile.putong"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.USER_PRESENT"
+                    >
+                </action>
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.PACKAGE_ADDED"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.PACKAGE_REMOVED"
+                    >
+                </action>
+                <data
+                    android:scheme="package"
+                    >
+                </data>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="cn.jpush.android.service.AlarmReceiver"
+            android:exported=<0x0, type 0x12>
+            >
+        </receiver>
+        <meta-data
+            android:name="JPUSH_CHANNEL"
+            android:value="default"
+            >
+        </meta-data>
+        <meta-data
+            android:name="JPUSH_APPKEY"
+            android:value="8e5cf4ca06728a452207f701"
+            >
+        </meta-data>
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:process=":remote"
+            >
+        </service>
+        <service
+            android:name="com.umeng.update.net.DownloadingService"
+            android:process=":DownloadingService"
+            >
+        </service>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.umeng.update.UpdateDialogActivity"
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.mob.tools.MobUIShell"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+            <intent-filter
+                >
+                <data
+                    android:scheme="tencent1101365593"
+                    >
+                </data>
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name=".wxapi.WXEntryActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.zxinsight.common.base.MWActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:configChanges=<0x4E0, type 0x11>
+            >
+        </activity>
+        <meta-data
+            android:name="MW_APPID"
+            android:value="Q586W9M0OLO85HF0FC782O32WSI5AUEZ"
+            >
+        </meta-data>
+        <meta-data
+            android:name="MW_CHANNEL"
+            android:value="organic"
+            >
+        </meta-data>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported=<0x0, type 0x12>
+            >
+        </activity>
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value=<0x7F0C0009, type 0x01>
+            >
+        </meta-data>
+    </application>
+</manifest>

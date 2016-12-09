@@ -72,7 +72,7 @@ class PushBug(object):
             xml_path = apk_path + md5 + '.xml'
             log_path = apk_path + md5 + '.log'
             xml_out = 'cat ' + xml_path + ' > ' + 'apkData/' + md5 + '.xml'
-            log_out = 'cat ' + log_path + ' > ' + 'apkData/' + md5 + '.xml'
+            log_out = 'cat ' + log_path + ' > ' + 'apkData/' + md5 + '.log'
             os.system(xml_out)
             os.system(log_out)
 

@@ -1,0 +1,32 @@
+--2016-12-08 18:13:10--  http://t.cn/RVC5Lt6
+Resolving t.cn... 180.149.135.224
+Connecting to t.cn|180.149.135.224|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://m.jiekuanzhuanjia.com/spreadIndex?type=14&channel=lwy100sd4 [following]
+--2016-12-08 18:13:12--  http://m.jiekuanzhuanjia.com/spreadIndex?type=14&channel=lwy100sd4
+Resolving m.jiekuanzhuanjia.com... 121.40.96.52
+Connecting to m.jiekuanzhuanjia.com|121.40.96.52|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 15128 (15K) [text/html]
+Saving to: `spreadIndex?type=14&channel=lwy100sd4'
+
+     0K .......... ....                                       100% 3.18K=4.6s
+
+2016-12-08 18:13:17 (3.18 KB/s) - `spreadIndex?type=14&channel=lwy100sd4' saved [15128/15128]
+
+=======================The second times wget =====================
+--2016-12-08 18:13:17--  http://www.jiekuanzhuanjia.com/apk/jkzj_v1.3.2_x75_14.apk
+Resolving www.jiekuanzhuanjia.com... 121.40.96.52
+Connecting to www.jiekuanzhuanjia.com|121.40.96.52|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 19640797 (19M) [application/octet-stream]
+Saving to: `jkzj_v1.3.2_x75_14.apk'
+
+     0K .......... .......... .......... .......... ..........  0% 5.07K 62m52s
+    50K .......... .......... .......... .......... ..........  0% 9.28K 48m29s
+   100K .......... .......... .......... .......... ..........  0% 2.17K 80m55s
+   150K .......... .......... .......... .......... ..........  1% 3.14K 85m44s
+   200K ...                                                     1% 7.34K=55s
+
+2016-12-08 18:14:33 (3.72 KB/s) - Read error at byte 208512/19640797 (Connection timed out). Giving up.
+
