@@ -1,0 +1,20 @@
+--2016-12-03 12:52:49--  http://hhhzs.cn/efgh
+Resolving hhhzs.cn... 103.214.167.5
+Connecting to hhhzs.cn|103.214.167.5|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://hhhzs.cn/efgh/ [following]
+--2016-12-03 12:52:53--  http://hhhzs.cn/efgh/
+Reusing existing connection to hhhzs.cn:80.
+HTTP request sent, awaiting response... 302 Object moved
+Location: luxiang.apk [following]
+--2016-12-03 12:52:54--  http://hhhzs.cn/efgh/luxiang.apk
+Reusing existing connection to hhhzs.cn:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 213283 (208K) [application/vnd.android.package-archive]
+Saving to: `luxiang.apk'
+
+     0K .......... .......... .......... .......... .......... 24% 8.18K 19s
+    50K .......... .......... ...                              35% 16.2K=7.5s
+
+2016-12-03 12:53:24 (9.70 KB/s) - Read error at byte 74990/213283 (Connection timed out). Giving up.
+

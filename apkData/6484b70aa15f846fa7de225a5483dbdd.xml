@@ -1,0 +1,35 @@
+--2016-12-09 13:20:47--  http://bpmei.com/wzcx
+Resolving bpmei.com... 198.44.179.62
+Connecting to bpmei.com|198.44.179.62|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://bpmei.com/wzcx/ [following]
+--2016-12-09 13:20:50--  http://bpmei.com/wzcx/
+Reusing existing connection to bpmei.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 250 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 11.4M=0s
+
+2016-12-09 13:20:50 (11.4 MB/s) - `index.html' saved [250/250]
+
+=======================The second times wget =====================
+--2016-12-09 13:20:50--  http://bpmei.com/wzcx/%CE%A5%D5%C2%D7%CA%C1%CF.apk
+Resolving bpmei.com... 198.44.179.62
+Connecting to bpmei.com|198.44.179.62|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 459142 (448K) [application/vnd.android.package-archive]
+Saving to: `违章资料.apk'
+
+     0K .......... .......... .......... .......... .......... 11%  123K 3s
+    50K .......... .......... .......... .......... .......... 22%  104K 3s
+   100K .......... .......... .......... .......... .......... 33%  144K 2s
+   150K .......... .......... .......... .......... .......... 44%  116K 2s
+   200K .......... .......... .......... .......... .......... 55%  119K 2s
+   250K .......... .......... .......... .......... .......... 66%  112K 1s
+   300K .......... .......... .......... .......... .......... 78% 67.9K 1s
+   350K .......... .......... .......... .......... .......... 89%  105K 0s
+   400K .......... .......... .......... .......... ........  100%  121K=4.1s
+
+2016-12-09 13:20:57 (108 KB/s) - `违章资料.apk' saved [459142/459142]
+
