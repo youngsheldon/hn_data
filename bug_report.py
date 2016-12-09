@@ -25,14 +25,12 @@ def update_all():
 
 def push_origin():
     add = 'git add --all'
-    commit = 'git commit -m ' + get_datetime()
+    commit = 'git commit -m ' + '\"' + get_datetime() + '\"' 
     push = 'git push origin master'
     os.system('cd ' + origin_path)
     os.system(add)
     os.system(commit)
     os.system(push)
 
-while 1:
-    update_all()
-    push_origin()
-    time.sleep(3600)
+update_all()
+push_origin()
