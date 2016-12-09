@@ -1,0 +1,1552 @@
+[2016-12-07 19:40:11,897] [INFO] apk_report_run.py:84 [5dcae41d211c802aa898b0bf44230beb:begin to decode apk]
+[2016-12-07 19:40:28,816] [INFO] apk_report_run.py:87 [5dcae41d211c802aa898b0bf44230beb:begin to generate data for apk_report_yyyymm]
+[2016-12-07 19:40:43,125] [INFO] apk_report_run.py:90 [5dcae41d211c802aa898b0bf44230beb:begin to upload data to apk_report_yyyymm]
+[2016-12-07 19:40:43,435] [INFO] apk_report_run.py:92 [5dcae41d211c802aa898b0bf44230beb:begin to generate data for apk_resource]
+[2016-12-07 19:40:43,465] [INFO] apk_report_run.py:95 [5dcae41d211c802aa898b0bf44230beb:begin to upload data to apk_resource]
+[2016-12-07 19:40:43,570] [INFO] apk_report_run.py:97 [5dcae41d211c802aa898b0bf44230beb:begin to generate data for apk_basic_info]
+[2016-12-07 19:40:57,710] [ERROR] apk_report_run.py:111 5dcae41d211c802aa898b0bf44230beb
+Traceback (most recent call last):
+  File "apk_report_run.py", line 99, in apk_analyze_run
+    apk_basic_obj.basic_info_collect()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/basic_info_sort.py", line 64, in basic_info_collect
+    target_ip_attribution = get_ip_attribution(target_ip)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/file_hash.py", line 134, in get_ip_attribution
+    f = urllib2.urlopen(url).read()
+  File "/usr/local/python27/lib/python2.7/urllib2.py", line 127, in urlopen
+    return _opener.open(url, data, timeout)
+  File "/usr/local/python27/lib/python2.7/urllib2.py", line 404, in open
+    response = self._open(req, data)
+  File "/usr/local/python27/lib/python2.7/urllib2.py", line 422, in _open
+    '_open', req)
+  File "/usr/local/python27/lib/python2.7/urllib2.py", line 382, in _call_chain
+    result = func(*args)
+  File "/usr/local/python27/lib/python2.7/urllib2.py", line 1214, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "/usr/local/python27/lib/python2.7/urllib2.py", line 1187, in do_open
+    r = h.getresponse(buffering=True)
+  File "/usr/local/python27/lib/python2.7/httplib.py", line 1045, in getresponse
+    response.begin()
+  File "/usr/local/python27/lib/python2.7/httplib.py", line 409, in begin
+    version, status, reason = self._read_status()
+  File "/usr/local/python27/lib/python2.7/httplib.py", line 365, in _read_status
+    line = self.fp.readline(_MAXLINE + 1)
+  File "/usr/local/python27/lib/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+[2016-12-07 19:40:57,793] [INFO] apk_report_run.py:84 [e2b1e03e66f5a0b834142c498b713b58:begin to decode apk]
+[2016-12-07 19:41:12,079] [INFO] apk_report_run.py:87 [e2b1e03e66f5a0b834142c498b713b58:begin to generate data for apk_report_yyyymm]
+[2016-12-07 19:41:25,873] [INFO] apk_report_run.py:90 [e2b1e03e66f5a0b834142c498b713b58:begin to upload data to apk_report_yyyymm]
+[2016-12-07 19:41:26,046] [INFO] apk_report_run.py:92 [e2b1e03e66f5a0b834142c498b713b58:begin to generate data for apk_resource]
+[2016-12-07 19:41:26,076] [INFO] apk_report_run.py:95 [e2b1e03e66f5a0b834142c498b713b58:begin to upload data to apk_resource]
+[2016-12-07 19:41:26,207] [INFO] apk_report_run.py:97 [e2b1e03e66f5a0b834142c498b713b58:begin to generate data for apk_basic_info]
+[2016-12-07 19:41:59,322] [INFO] apk_report_run.py:100 [e2b1e03e66f5a0b834142c498b713b58:begin to upload data to apk_basic_info]
+[2016-12-07 19:41:59,544] [INFO] apk_report_run.py:105 [e2b1e03e66f5a0b834142c498b713b58:-------finish---------]
+[2016-12-07 19:41:59,681] [INFO] apk_report_run.py:84 [eb130f6a05e035ceaf950f1360581131:begin to decode apk]
+[2016-12-07 19:43:51,524] [INFO] apk_report_run.py:87 [eb130f6a05e035ceaf950f1360581131:begin to generate data for apk_report_yyyymm]
+[2016-12-07 19:49:22,989] [INFO] apk_report_run.py:90 [eb130f6a05e035ceaf950f1360581131:begin to upload data to apk_report_yyyymm]
+[2016-12-07 19:49:23,235] [INFO] apk_report_run.py:92 [eb130f6a05e035ceaf950f1360581131:begin to generate data for apk_resource]
+[2016-12-07 19:49:24,254] [INFO] apk_report_run.py:95 [eb130f6a05e035ceaf950f1360581131:begin to upload data to apk_resource]
+[2016-12-07 19:49:24,269] [INFO] apk_report_run.py:97 [eb130f6a05e035ceaf950f1360581131:begin to generate data for apk_basic_info]
+[2016-12-07 19:49:29,048] [ERROR] apk_report_run.py:111 eb130f6a05e035ceaf950f1360581131
+Traceback (most recent call last):
+  File "apk_report_run.py", line 99, in apk_analyze_run
+    apk_basic_obj.basic_info_collect()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/basic_info_sort.py", line 64, in basic_info_collect
+    target_ip_attribution = get_ip_attribution(target_ip)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/file_hash.py", line 137, in get_ip_attribution
+    ret.append(s['data']['ip'])
+TypeError: string indices must be integers, not str
+[2016-12-07 19:49:29,106] [INFO] apk_report_run.py:84 [1bf9fc0669d51cc00aee0af098670eb6:begin to decode apk]
+[2016-12-07 19:49:48,476] [INFO] apk_report_run.py:87 [1bf9fc0669d51cc00aee0af098670eb6:begin to generate data for apk_report_yyyymm]
+[2016-12-07 19:50:01,787] [INFO] apk_report_run.py:90 [1bf9fc0669d51cc00aee0af098670eb6:begin to upload data to apk_report_yyyymm]
+[2016-12-07 19:50:01,994] [INFO] apk_report_run.py:92 [1bf9fc0669d51cc00aee0af098670eb6:begin to generate data for apk_resource]
+[2016-12-07 19:50:02,047] [INFO] apk_report_run.py:95 [1bf9fc0669d51cc00aee0af098670eb6:begin to upload data to apk_resource]
+[2016-12-07 19:50:02,160] [INFO] apk_report_run.py:97 [1bf9fc0669d51cc00aee0af098670eb6:begin to generate data for apk_basic_info]
+[2016-12-07 19:50:16,178] [ERROR] apk_report_run.py:111 1bf9fc0669d51cc00aee0af098670eb6
+Traceback (most recent call last):
+  File "apk_report_run.py", line 99, in apk_analyze_run
+    apk_basic_obj.basic_info_collect()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/basic_info_sort.py", line 63, in basic_info_collect
+    init_ip_attribution = get_ip_attribution(init_ip)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/file_hash.py", line 134, in get_ip_attribution
+    f = urllib2.urlopen(url).read()
+  File "/usr/local/python27/lib/python2.7/urllib2.py", line 127, in urlopen
+    return _opener.open(url, data, timeout)
+  File "/usr/local/python27/lib/python2.7/urllib2.py", line 404, in open
+    response = self._open(req, data)
+  File "/usr/local/python27/lib/python2.7/urllib2.py", line 422, in _open
+    '_open', req)
+  File "/usr/local/python27/lib/python2.7/urllib2.py", line 382, in _call_chain
+    result = func(*args)
+  File "/usr/local/python27/lib/python2.7/urllib2.py", line 1214, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "/usr/local/python27/lib/python2.7/urllib2.py", line 1187, in do_open
+    r = h.getresponse(buffering=True)
+  File "/usr/local/python27/lib/python2.7/httplib.py", line 1045, in getresponse
+    response.begin()
+  File "/usr/local/python27/lib/python2.7/httplib.py", line 409, in begin
+    version, status, reason = self._read_status()
+  File "/usr/local/python27/lib/python2.7/httplib.py", line 365, in _read_status
+    line = self.fp.readline(_MAXLINE + 1)
+  File "/usr/local/python27/lib/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+[2016-12-07 19:50:16,215] [INFO] apk_report_run.py:84 [b27aa04ea8ff6d867e23733b8a441ba1:begin to decode apk]
+[2016-12-07 19:50:40,018] [INFO] apk_report_run.py:87 [b27aa04ea8ff6d867e23733b8a441ba1:begin to generate data for apk_report_yyyymm]
+[2016-12-07 19:50:53,574] [INFO] apk_report_run.py:90 [b27aa04ea8ff6d867e23733b8a441ba1:begin to upload data to apk_report_yyyymm]
+[2016-12-07 19:50:53,818] [INFO] apk_report_run.py:92 [b27aa04ea8ff6d867e23733b8a441ba1:begin to generate data for apk_resource]
+[2016-12-07 19:50:53,864] [INFO] apk_report_run.py:95 [b27aa04ea8ff6d867e23733b8a441ba1:begin to upload data to apk_resource]
+[2016-12-07 19:50:53,994] [INFO] apk_report_run.py:97 [b27aa04ea8ff6d867e23733b8a441ba1:begin to generate data for apk_basic_info]
+[2016-12-07 19:50:56,142] [INFO] apk_report_run.py:100 [b27aa04ea8ff6d867e23733b8a441ba1:begin to upload data to apk_basic_info]
+[2016-12-07 19:50:56,325] [INFO] apk_report_run.py:105 [b27aa04ea8ff6d867e23733b8a441ba1:-------finish---------]
+[2016-12-07 19:50:56,370] [INFO] apk_report_run.py:84 [e088597f4b72ac4e191f7fbf22613851:begin to decode apk]
+[2016-12-07 19:51:12,268] [INFO] apk_report_run.py:87 [e088597f4b72ac4e191f7fbf22613851:begin to generate data for apk_report_yyyymm]
+[2016-12-07 19:51:26,684] [INFO] apk_report_run.py:90 [e088597f4b72ac4e191f7fbf22613851:begin to upload data to apk_report_yyyymm]
+[2016-12-07 19:51:26,888] [INFO] apk_report_run.py:92 [e088597f4b72ac4e191f7fbf22613851:begin to generate data for apk_resource]
+[2016-12-07 19:51:26,919] [INFO] apk_report_run.py:95 [e088597f4b72ac4e191f7fbf22613851:begin to upload data to apk_resource]
+[2016-12-07 19:51:26,998] [INFO] apk_report_run.py:97 [e088597f4b72ac4e191f7fbf22613851:begin to generate data for apk_basic_info]
+[2016-12-07 19:51:31,189] [INFO] apk_report_run.py:100 [e088597f4b72ac4e191f7fbf22613851:begin to upload data to apk_basic_info]
+[2016-12-07 19:51:31,346] [INFO] apk_report_run.py:105 [e088597f4b72ac4e191f7fbf22613851:-------finish---------]
+[2016-12-07 19:51:31,872] [INFO] apk_report_run.py:84 [fe376fb66d9230e7e610ec2f10d37a43:begin to decode apk]
+[2016-12-07 19:52:17,047] [INFO] apk_report_run.py:87 [fe376fb66d9230e7e610ec2f10d37a43:begin to generate data for apk_report_yyyymm]
+[2016-12-07 19:53:35,088] [INFO] apk_report_run.py:90 [fe376fb66d9230e7e610ec2f10d37a43:begin to upload data to apk_report_yyyymm]
+[2016-12-07 19:53:35,523] [INFO] apk_report_run.py:92 [fe376fb66d9230e7e610ec2f10d37a43:begin to generate data for apk_resource]
+[2016-12-07 19:53:35,825] [INFO] apk_report_run.py:95 [fe376fb66d9230e7e610ec2f10d37a43:begin to upload data to apk_resource]
+[2016-12-07 19:53:37,397] [INFO] apk_report_run.py:97 [fe376fb66d9230e7e610ec2f10d37a43:begin to generate data for apk_basic_info]
+[2016-12-07 19:54:01,970] [INFO] apk_report_run.py:100 [fe376fb66d9230e7e610ec2f10d37a43:begin to upload data to apk_basic_info]
+[2016-12-07 19:54:02,146] [INFO] apk_report_run.py:105 [fe376fb66d9230e7e610ec2f10d37a43:-------finish---------]
+[2016-12-07 19:54:02,517] [INFO] apk_report_run.py:84 [900e9c688190ddfbc61828c157752ae5:begin to decode apk]
+[2016-12-07 19:54:14,387] [INFO] apk_report_run.py:87 [900e9c688190ddfbc61828c157752ae5:begin to generate data for apk_report_yyyymm]
+[2016-12-07 19:54:15,991] [INFO] apk_report_run.py:90 [900e9c688190ddfbc61828c157752ae5:begin to upload data to apk_report_yyyymm]
+[2016-12-07 19:54:16,099] [INFO] apk_report_run.py:92 [900e9c688190ddfbc61828c157752ae5:begin to generate data for apk_resource]
+[2016-12-07 19:54:16,184] [INFO] apk_report_run.py:95 [900e9c688190ddfbc61828c157752ae5:begin to upload data to apk_resource]
+[2016-12-07 19:54:16,909] [INFO] apk_report_run.py:97 [900e9c688190ddfbc61828c157752ae5:begin to generate data for apk_basic_info]
+[2016-12-07 19:54:40,463] [ERROR] apk_report_run.py:111 900e9c688190ddfbc61828c157752ae5
+Traceback (most recent call last):
+  File "apk_report_run.py", line 99, in apk_analyze_run
+    apk_basic_obj.basic_info_collect()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/basic_info_sort.py", line 63, in basic_info_collect
+    init_ip_attribution = get_ip_attribution(init_ip)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/file_hash.py", line 134, in get_ip_attribution
+    f = urllib2.urlopen(url).read()
+  File "/usr/local/python27/lib/python2.7/urllib2.py", line 127, in urlopen
+    return _opener.open(url, data, timeout)
+  File "/usr/local/python27/lib/python2.7/urllib2.py", line 404, in open
+    response = self._open(req, data)
+  File "/usr/local/python27/lib/python2.7/urllib2.py", line 422, in _open
+    '_open', req)
+  File "/usr/local/python27/lib/python2.7/urllib2.py", line 382, in _call_chain
+    result = func(*args)
+  File "/usr/local/python27/lib/python2.7/urllib2.py", line 1214, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "/usr/local/python27/lib/python2.7/urllib2.py", line 1187, in do_open
+    r = h.getresponse(buffering=True)
+  File "/usr/local/python27/lib/python2.7/httplib.py", line 1045, in getresponse
+    response.begin()
+  File "/usr/local/python27/lib/python2.7/httplib.py", line 409, in begin
+    version, status, reason = self._read_status()
+  File "/usr/local/python27/lib/python2.7/httplib.py", line 365, in _read_status
+    line = self.fp.readline(_MAXLINE + 1)
+  File "/usr/local/python27/lib/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+[2016-12-07 19:54:41,284] [INFO] apk_report_run.py:84 [c52c29d5741812e7b5fc36205464fc04:begin to decode apk]
+[2016-12-07 19:57:16,985] [INFO] apk_report_run.py:87 [c52c29d5741812e7b5fc36205464fc04:begin to generate data for apk_report_yyyymm]
+[2016-12-07 20:16:07,033] [INFO] apk_report_run.py:90 [c52c29d5741812e7b5fc36205464fc04:begin to upload data to apk_report_yyyymm]
+[2016-12-07 20:16:07,388] [INFO] apk_report_run.py:92 [c52c29d5741812e7b5fc36205464fc04:begin to generate data for apk_resource]
+[2016-12-07 20:16:08,319] [INFO] apk_report_run.py:95 [c52c29d5741812e7b5fc36205464fc04:begin to upload data to apk_resource]
+[2016-12-07 20:16:08,351] [INFO] apk_report_run.py:97 [c52c29d5741812e7b5fc36205464fc04:begin to generate data for apk_basic_info]
+[2016-12-07 20:17:44,732] [INFO] apk_report_run.py:100 [c52c29d5741812e7b5fc36205464fc04:begin to upload data to apk_basic_info]
+[2016-12-07 20:17:44,902] [INFO] apk_report_run.py:105 [c52c29d5741812e7b5fc36205464fc04:-------finish---------]
+[2016-12-07 20:17:45,179] [INFO] apk_report_run.py:84 [f8f9e60f7124f9822969c9729db56970:begin to decode apk]
+[2016-12-07 20:18:15,988] [INFO] apk_report_run.py:87 [f8f9e60f7124f9822969c9729db56970:begin to generate data for apk_report_yyyymm]
+[2016-12-07 20:18:49,661] [INFO] apk_report_run.py:90 [f8f9e60f7124f9822969c9729db56970:begin to upload data to apk_report_yyyymm]
+[2016-12-07 20:18:49,823] [INFO] apk_report_run.py:92 [f8f9e60f7124f9822969c9729db56970:begin to generate data for apk_resource]
+[2016-12-07 20:18:49,987] [INFO] apk_report_run.py:95 [f8f9e60f7124f9822969c9729db56970:begin to upload data to apk_resource]
+[2016-12-07 20:18:50,915] [INFO] apk_report_run.py:97 [f8f9e60f7124f9822969c9729db56970:begin to generate data for apk_basic_info]
+[2016-12-07 20:18:55,981] [INFO] apk_report_run.py:100 [f8f9e60f7124f9822969c9729db56970:begin to upload data to apk_basic_info]
+[2016-12-07 20:18:56,165] [INFO] apk_report_run.py:105 [f8f9e60f7124f9822969c9729db56970:-------finish---------]
+[2016-12-07 20:18:56,240] [INFO] apk_report_run.py:84 [bb0cdffc5e68c872c49a87568dfa0b5e:begin to decode apk]
+[2016-12-07 20:19:10,867] [INFO] apk_report_run.py:87 [bb0cdffc5e68c872c49a87568dfa0b5e:begin to generate data for apk_report_yyyymm]
+[2016-12-07 20:19:24,466] [INFO] apk_report_run.py:90 [bb0cdffc5e68c872c49a87568dfa0b5e:begin to upload data to apk_report_yyyymm]
+[2016-12-07 20:19:24,628] [INFO] apk_report_run.py:92 [bb0cdffc5e68c872c49a87568dfa0b5e:begin to generate data for apk_resource]
+[2016-12-07 20:19:24,658] [INFO] apk_report_run.py:95 [bb0cdffc5e68c872c49a87568dfa0b5e:begin to upload data to apk_resource]
+[2016-12-07 20:19:24,772] [INFO] apk_report_run.py:97 [bb0cdffc5e68c872c49a87568dfa0b5e:begin to generate data for apk_basic_info]
+[2016-12-07 20:19:25,684] [INFO] apk_report_run.py:100 [bb0cdffc5e68c872c49a87568dfa0b5e:begin to upload data to apk_basic_info]
+[2016-12-07 20:19:25,841] [INFO] apk_report_run.py:105 [bb0cdffc5e68c872c49a87568dfa0b5e:-------finish---------]
+[2016-12-07 20:19:26,046] [INFO] apk_report_run.py:84 [d85e1e9388fe6d1e696a2f13f3457ab4:begin to decode apk]
+[2016-12-07 20:20:27,638] [INFO] apk_report_run.py:87 [d85e1e9388fe6d1e696a2f13f3457ab4:begin to generate data for apk_report_yyyymm]
+[2016-12-07 20:23:26,885] [INFO] apk_report_run.py:90 [d85e1e9388fe6d1e696a2f13f3457ab4:begin to upload data to apk_report_yyyymm]
+[2016-12-07 20:23:27,185] [INFO] apk_report_run.py:92 [d85e1e9388fe6d1e696a2f13f3457ab4:begin to generate data for apk_resource]
+[2016-12-07 20:23:27,460] [INFO] apk_report_run.py:95 [d85e1e9388fe6d1e696a2f13f3457ab4:begin to upload data to apk_resource]
+[2016-12-07 20:23:28,018] [INFO] apk_report_run.py:97 [d85e1e9388fe6d1e696a2f13f3457ab4:begin to generate data for apk_basic_info]
+[2016-12-07 20:23:28,493] [ERROR] apk_report_run.py:111 d85e1e9388fe6d1e696a2f13f3457ab4
+Traceback (most recent call last):
+  File "apk_report_run.py", line 99, in apk_analyze_run
+    apk_basic_obj.basic_info_collect()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/basic_info_sort.py", line 56, in basic_info_collect
+    min_sdk,fit_sdk = apk_sdk_obj.parserSdkVersion()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 134, in parserSdkVersion
+    tarSdkVersion = v.split('\"')[3]
+IndexError: list index out of range
+[2016-12-07 20:23:28,520] [INFO] apk_report_run.py:84 [d9b0210ddfc5e880b2937519fd43801c:begin to decode apk]
+[2016-12-07 20:23:43,192] [INFO] apk_report_run.py:87 [d9b0210ddfc5e880b2937519fd43801c:begin to generate data for apk_report_yyyymm]
+[2016-12-07 20:23:57,309] [INFO] apk_report_run.py:90 [d9b0210ddfc5e880b2937519fd43801c:begin to upload data to apk_report_yyyymm]
+[2016-12-07 20:23:57,501] [INFO] apk_report_run.py:92 [d9b0210ddfc5e880b2937519fd43801c:begin to generate data for apk_resource]
+[2016-12-07 20:23:57,530] [INFO] apk_report_run.py:95 [d9b0210ddfc5e880b2937519fd43801c:begin to upload data to apk_resource]
+[2016-12-07 20:23:57,621] [INFO] apk_report_run.py:97 [d9b0210ddfc5e880b2937519fd43801c:begin to generate data for apk_basic_info]
+[2016-12-07 20:24:29,137] [INFO] apk_report_run.py:100 [d9b0210ddfc5e880b2937519fd43801c:begin to upload data to apk_basic_info]
+[2016-12-07 20:24:29,310] [INFO] apk_report_run.py:105 [d9b0210ddfc5e880b2937519fd43801c:-------finish---------]
+[2016-12-07 20:24:29,455] [INFO] apk_report_run.py:84 [bcc0a99add4141fb80b3985dca95a592:begin to decode apk]
+[2016-12-07 20:25:49,736] [INFO] apk_report_run.py:87 [bcc0a99add4141fb80b3985dca95a592:begin to generate data for apk_report_yyyymm]
+[2016-12-07 20:29:59,639] [INFO] apk_report_run.py:90 [bcc0a99add4141fb80b3985dca95a592:begin to upload data to apk_report_yyyymm]
+[2016-12-07 20:29:59,928] [INFO] apk_report_run.py:92 [bcc0a99add4141fb80b3985dca95a592:begin to generate data for apk_resource]
+[2016-12-07 20:30:00,481] [INFO] apk_report_run.py:95 [bcc0a99add4141fb80b3985dca95a592:begin to upload data to apk_resource]
+[2016-12-07 20:30:00,496] [INFO] apk_report_run.py:97 [bcc0a99add4141fb80b3985dca95a592:begin to generate data for apk_basic_info]
+[2016-12-07 20:33:08,329] [ERROR] apk_report_run.py:111 bcc0a99add4141fb80b3985dca95a592
+Traceback (most recent call last):
+  File "apk_report_run.py", line 99, in apk_analyze_run
+    apk_basic_obj.basic_info_collect()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/basic_info_sort.py", line 64, in basic_info_collect
+    target_ip_attribution = get_ip_attribution(target_ip)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/file_hash.py", line 134, in get_ip_attribution
+    f = urllib2.urlopen(url).read()
+  File "/usr/local/python27/lib/python2.7/urllib2.py", line 127, in urlopen
+    return _opener.open(url, data, timeout)
+  File "/usr/local/python27/lib/python2.7/urllib2.py", line 404, in open
+    response = self._open(req, data)
+  File "/usr/local/python27/lib/python2.7/urllib2.py", line 422, in _open
+    '_open', req)
+  File "/usr/local/python27/lib/python2.7/urllib2.py", line 382, in _call_chain
+    result = func(*args)
+  File "/usr/local/python27/lib/python2.7/urllib2.py", line 1214, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "/usr/local/python27/lib/python2.7/urllib2.py", line 1187, in do_open
+    r = h.getresponse(buffering=True)
+  File "/usr/local/python27/lib/python2.7/httplib.py", line 1045, in getresponse
+    response.begin()
+  File "/usr/local/python27/lib/python2.7/httplib.py", line 409, in begin
+    version, status, reason = self._read_status()
+  File "/usr/local/python27/lib/python2.7/httplib.py", line 365, in _read_status
+    line = self.fp.readline(_MAXLINE + 1)
+  File "/usr/local/python27/lib/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+[2016-12-07 20:33:09,358] [INFO] apk_report_run.py:84 [279d3694219d100c8c4ae374c0d16fba:begin to decode apk]
+[2016-12-07 20:34:27,580] [INFO] apk_report_run.py:87 [279d3694219d100c8c4ae374c0d16fba:begin to generate data for apk_report_yyyymm]
+[2016-12-07 20:38:26,325] [INFO] apk_report_run.py:90 [279d3694219d100c8c4ae374c0d16fba:begin to upload data to apk_report_yyyymm]
+[2016-12-07 20:38:26,632] [INFO] apk_report_run.py:92 [279d3694219d100c8c4ae374c0d16fba:begin to generate data for apk_resource]
+[2016-12-07 20:38:27,047] [INFO] apk_report_run.py:95 [279d3694219d100c8c4ae374c0d16fba:begin to upload data to apk_resource]
+[2016-12-07 20:38:27,062] [INFO] apk_report_run.py:97 [279d3694219d100c8c4ae374c0d16fba:begin to generate data for apk_basic_info]
+[2016-12-07 20:38:59,714] [INFO] apk_report_run.py:100 [279d3694219d100c8c4ae374c0d16fba:begin to upload data to apk_basic_info]
+[2016-12-07 20:38:59,925] [INFO] apk_report_run.py:105 [279d3694219d100c8c4ae374c0d16fba:-------finish---------]
+[2016-12-07 20:39:00,356] [INFO] apk_report_run.py:84 [be99a0d108527063bf16c12701d6e5c0:begin to decode apk]
+[2016-12-07 20:40:20,541] [INFO] apk_report_run.py:87 [be99a0d108527063bf16c12701d6e5c0:begin to generate data for apk_report_yyyymm]
+[2016-12-07 20:43:31,580] [ERROR] apk_report_run.py:111 be99a0d108527063bf16c12701d6e5c0
+Traceback (most recent call last):
+  File "apk_report_run.py", line 89, in apk_analyze_run
+    apk_report.run()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 53, in run
+    self.parser_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 45, in parser_xml
+    obj2 = XmlParser(self.apk_path,self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 16, in __init__
+    self.get_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 20, in get_xml
+    obj = APK(self.apk_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/axmlparserpy/apk.py", line 65, in __init__
+    self.zip = zipfile.ZipFile(StringIO.StringIO(self.__raw))
+  File "/usr/local/python27/lib/python2.7/zipfile.py", line 766, in __init__
+    self._RealGetContents()
+  File "/usr/local/python27/lib/python2.7/zipfile.py", line 853, in _RealGetContents
+    x._decodeExtra()
+  File "/usr/local/python27/lib/python2.7/zipfile.py", line 388, in _decodeExtra
+    tp, ln = unpack('<HH', extra[:4])
+error: unpack requires a string argument of length 4
+[2016-12-07 20:43:31,629] [INFO] apk_report_run.py:84 [4b8e958880d3ae4fa88547b365187bc2:begin to decode apk]
+[2016-12-07 20:43:47,034] [INFO] apk_report_run.py:87 [4b8e958880d3ae4fa88547b365187bc2:begin to generate data for apk_report_yyyymm]
+[2016-12-07 20:44:00,992] [INFO] apk_report_run.py:90 [4b8e958880d3ae4fa88547b365187bc2:begin to upload data to apk_report_yyyymm]
+[2016-12-07 20:44:01,212] [INFO] apk_report_run.py:92 [4b8e958880d3ae4fa88547b365187bc2:begin to generate data for apk_resource]
+[2016-12-07 20:44:01,241] [INFO] apk_report_run.py:95 [4b8e958880d3ae4fa88547b365187bc2:begin to upload data to apk_resource]
+[2016-12-07 20:44:01,338] [INFO] apk_report_run.py:97 [4b8e958880d3ae4fa88547b365187bc2:begin to generate data for apk_basic_info]
+[2016-12-07 20:44:17,446] [INFO] apk_report_run.py:100 [4b8e958880d3ae4fa88547b365187bc2:begin to upload data to apk_basic_info]
+[2016-12-07 20:44:17,610] [INFO] apk_report_run.py:105 [4b8e958880d3ae4fa88547b365187bc2:-------finish---------]
+[2016-12-07 20:44:17,634] [INFO] apk_report_run.py:84 [d876ce2e67b447339662a7a3a0ea492b:begin to decode apk]
+[2016-12-07 20:44:32,875] [INFO] apk_report_run.py:87 [d876ce2e67b447339662a7a3a0ea492b:begin to generate data for apk_report_yyyymm]
+[2016-12-07 20:44:46,634] [INFO] apk_report_run.py:90 [d876ce2e67b447339662a7a3a0ea492b:begin to upload data to apk_report_yyyymm]
+[2016-12-07 20:44:46,810] [INFO] apk_report_run.py:92 [d876ce2e67b447339662a7a3a0ea492b:begin to generate data for apk_resource]
+[2016-12-07 20:44:46,841] [INFO] apk_report_run.py:95 [d876ce2e67b447339662a7a3a0ea492b:begin to upload data to apk_resource]
+[2016-12-07 20:44:46,925] [INFO] apk_report_run.py:97 [d876ce2e67b447339662a7a3a0ea492b:begin to generate data for apk_basic_info]
+[2016-12-07 20:45:22,215] [INFO] apk_report_run.py:100 [d876ce2e67b447339662a7a3a0ea492b:begin to upload data to apk_basic_info]
+[2016-12-07 20:45:22,395] [INFO] apk_report_run.py:105 [d876ce2e67b447339662a7a3a0ea492b:-------finish---------]
+[2016-12-07 20:45:22,644] [INFO] apk_report_run.py:84 [e4aacc5f059a25d167cf4a99744255f8:begin to decode apk]
+[2016-12-07 20:46:49,450] [INFO] apk_report_run.py:87 [e4aacc5f059a25d167cf4a99744255f8:begin to generate data for apk_report_yyyymm]
+[2016-12-07 21:00:41,435] [INFO] apk_report_run.py:90 [e4aacc5f059a25d167cf4a99744255f8:begin to upload data to apk_report_yyyymm]
+[2016-12-07 21:00:42,787] [INFO] apk_report_run.py:92 [e4aacc5f059a25d167cf4a99744255f8:begin to generate data for apk_resource]
+[2016-12-07 21:00:43,231] [INFO] apk_report_run.py:95 [e4aacc5f059a25d167cf4a99744255f8:begin to upload data to apk_resource]
+[2016-12-07 21:00:43,656] [INFO] apk_report_run.py:97 [e4aacc5f059a25d167cf4a99744255f8:begin to generate data for apk_basic_info]
+[2016-12-07 21:01:01,370] [ERROR] apk_report_run.py:111 e4aacc5f059a25d167cf4a99744255f8
+Traceback (most recent call last):
+  File "apk_report_run.py", line 99, in apk_analyze_run
+    apk_basic_obj.basic_info_collect()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/basic_info_sort.py", line 64, in basic_info_collect
+    target_ip_attribution = get_ip_attribution(target_ip)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/file_hash.py", line 134, in get_ip_attribution
+    f = urllib2.urlopen(url).read()
+  File "/usr/local/python27/lib/python2.7/urllib2.py", line 127, in urlopen
+    return _opener.open(url, data, timeout)
+  File "/usr/local/python27/lib/python2.7/urllib2.py", line 404, in open
+    response = self._open(req, data)
+  File "/usr/local/python27/lib/python2.7/urllib2.py", line 422, in _open
+    '_open', req)
+  File "/usr/local/python27/lib/python2.7/urllib2.py", line 382, in _call_chain
+    result = func(*args)
+  File "/usr/local/python27/lib/python2.7/urllib2.py", line 1214, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "/usr/local/python27/lib/python2.7/urllib2.py", line 1187, in do_open
+    r = h.getresponse(buffering=True)
+  File "/usr/local/python27/lib/python2.7/httplib.py", line 1045, in getresponse
+    response.begin()
+  File "/usr/local/python27/lib/python2.7/httplib.py", line 409, in begin
+    version, status, reason = self._read_status()
+  File "/usr/local/python27/lib/python2.7/httplib.py", line 365, in _read_status
+    line = self.fp.readline(_MAXLINE + 1)
+  File "/usr/local/python27/lib/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+[2016-12-07 21:01:01,924] [INFO] apk_report_run.py:84 [a4cff74df8efea9dff494c6994abd432:begin to decode apk]
+[2016-12-07 21:01:24,831] [INFO] apk_report_run.py:87 [a4cff74df8efea9dff494c6994abd432:begin to generate data for apk_report_yyyymm]
+[2016-12-07 21:01:29,534] [INFO] apk_report_run.py:90 [a4cff74df8efea9dff494c6994abd432:begin to upload data to apk_report_yyyymm]
+[2016-12-07 21:01:29,734] [INFO] apk_report_run.py:92 [a4cff74df8efea9dff494c6994abd432:begin to generate data for apk_resource]
+[2016-12-07 21:01:30,021] [INFO] apk_report_run.py:95 [a4cff74df8efea9dff494c6994abd432:begin to upload data to apk_resource]
+[2016-12-07 21:01:30,042] [INFO] apk_report_run.py:97 [a4cff74df8efea9dff494c6994abd432:begin to generate data for apk_basic_info]
+[2016-12-07 21:02:25,511] [INFO] apk_report_run.py:100 [a4cff74df8efea9dff494c6994abd432:begin to upload data to apk_basic_info]
+[2016-12-07 21:02:25,950] [INFO] apk_report_run.py:105 [a4cff74df8efea9dff494c6994abd432:-------finish---------]
+[2016-12-07 21:02:26,045] [INFO] apk_report_run.py:84 [b09e4473cbcbddea7e6f0946eeff620a:begin to decode apk]
+[2016-12-07 21:02:43,277] [INFO] apk_report_run.py:87 [b09e4473cbcbddea7e6f0946eeff620a:begin to generate data for apk_report_yyyymm]
+[2016-12-07 21:02:56,916] [INFO] apk_report_run.py:90 [b09e4473cbcbddea7e6f0946eeff620a:begin to upload data to apk_report_yyyymm]
+[2016-12-07 21:02:57,104] [INFO] apk_report_run.py:92 [b09e4473cbcbddea7e6f0946eeff620a:begin to generate data for apk_resource]
+[2016-12-07 21:02:57,134] [INFO] apk_report_run.py:95 [b09e4473cbcbddea7e6f0946eeff620a:begin to upload data to apk_resource]
+[2016-12-07 21:02:57,290] [INFO] apk_report_run.py:97 [b09e4473cbcbddea7e6f0946eeff620a:begin to generate data for apk_basic_info]
+[2016-12-07 21:03:32,435] [INFO] apk_report_run.py:100 [b09e4473cbcbddea7e6f0946eeff620a:begin to upload data to apk_basic_info]
+[2016-12-07 21:03:32,599] [INFO] apk_report_run.py:105 [b09e4473cbcbddea7e6f0946eeff620a:-------finish---------]
+[2016-12-07 21:03:32,640] [INFO] apk_report_run.py:84 [27495dc3bdf5a6d9f3d190a74215d4c8:begin to decode apk]
+[2016-12-07 21:03:47,756] [INFO] apk_report_run.py:87 [27495dc3bdf5a6d9f3d190a74215d4c8:begin to generate data for apk_report_yyyymm]
+[2016-12-07 21:04:01,877] [INFO] apk_report_run.py:90 [27495dc3bdf5a6d9f3d190a74215d4c8:begin to upload data to apk_report_yyyymm]
+[2016-12-07 21:04:02,058] [INFO] apk_report_run.py:92 [27495dc3bdf5a6d9f3d190a74215d4c8:begin to generate data for apk_resource]
+[2016-12-07 21:04:02,091] [INFO] apk_report_run.py:95 [27495dc3bdf5a6d9f3d190a74215d4c8:begin to upload data to apk_resource]
+[2016-12-07 21:04:02,180] [INFO] apk_report_run.py:97 [27495dc3bdf5a6d9f3d190a74215d4c8:begin to generate data for apk_basic_info]
+[2016-12-07 21:04:05,969] [ERROR] apk_report_run.py:111 27495dc3bdf5a6d9f3d190a74215d4c8
+Traceback (most recent call last):
+  File "apk_report_run.py", line 99, in apk_analyze_run
+    apk_basic_obj.basic_info_collect()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/basic_info_sort.py", line 63, in basic_info_collect
+    init_ip_attribution = get_ip_attribution(init_ip)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/file_hash.py", line 134, in get_ip_attribution
+    f = urllib2.urlopen(url).read()
+  File "/usr/local/python27/lib/python2.7/urllib2.py", line 127, in urlopen
+    return _opener.open(url, data, timeout)
+  File "/usr/local/python27/lib/python2.7/urllib2.py", line 404, in open
+    response = self._open(req, data)
+  File "/usr/local/python27/lib/python2.7/urllib2.py", line 422, in _open
+    '_open', req)
+  File "/usr/local/python27/lib/python2.7/urllib2.py", line 382, in _call_chain
+    result = func(*args)
+  File "/usr/local/python27/lib/python2.7/urllib2.py", line 1214, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "/usr/local/python27/lib/python2.7/urllib2.py", line 1187, in do_open
+    r = h.getresponse(buffering=True)
+  File "/usr/local/python27/lib/python2.7/httplib.py", line 1045, in getresponse
+    response.begin()
+  File "/usr/local/python27/lib/python2.7/httplib.py", line 409, in begin
+    version, status, reason = self._read_status()
+  File "/usr/local/python27/lib/python2.7/httplib.py", line 373, in _read_status
+    raise BadStatusLine(line)
+BadStatusLine: ''
+[2016-12-07 21:04:06,252] [INFO] apk_report_run.py:84 [367d7603dead4cdcb030ec3e1a6ecb5e:begin to decode apk]
+[2016-12-07 21:05:00,519] [INFO] apk_report_run.py:87 [367d7603dead4cdcb030ec3e1a6ecb5e:begin to generate data for apk_report_yyyymm]
+[2016-12-07 21:06:47,120] [INFO] apk_report_run.py:90 [367d7603dead4cdcb030ec3e1a6ecb5e:begin to upload data to apk_report_yyyymm]
+[2016-12-07 21:06:47,436] [INFO] apk_report_run.py:92 [367d7603dead4cdcb030ec3e1a6ecb5e:begin to generate data for apk_resource]
+[2016-12-07 21:06:47,812] [INFO] apk_report_run.py:95 [367d7603dead4cdcb030ec3e1a6ecb5e:begin to upload data to apk_resource]
+[2016-12-07 21:06:47,824] [INFO] apk_report_run.py:97 [367d7603dead4cdcb030ec3e1a6ecb5e:begin to generate data for apk_basic_info]
+[2016-12-07 21:06:53,497] [INFO] apk_report_run.py:100 [367d7603dead4cdcb030ec3e1a6ecb5e:begin to upload data to apk_basic_info]
+[2016-12-07 21:06:53,683] [INFO] apk_report_run.py:105 [367d7603dead4cdcb030ec3e1a6ecb5e:-------finish---------]
+[2016-12-07 21:06:54,494] [INFO] apk_report_run.py:84 [29b95ff530c038fd9632c8d1eef79e20:begin to decode apk]
+[2016-12-07 21:10:29,662] [INFO] apk_report_run.py:87 [29b95ff530c038fd9632c8d1eef79e20:begin to generate data for apk_report_yyyymm]
+[2016-12-07 21:22:49,803] [INFO] apk_report_run.py:90 [29b95ff530c038fd9632c8d1eef79e20:begin to upload data to apk_report_yyyymm]
+[2016-12-07 21:22:50,080] [INFO] apk_report_run.py:92 [29b95ff530c038fd9632c8d1eef79e20:begin to generate data for apk_resource]
+[2016-12-07 21:22:51,671] [INFO] apk_report_run.py:95 [29b95ff530c038fd9632c8d1eef79e20:begin to upload data to apk_resource]
+[2016-12-07 21:22:51,701] [INFO] apk_report_run.py:97 [29b95ff530c038fd9632c8d1eef79e20:begin to generate data for apk_basic_info]
+[2016-12-07 21:23:06,519] [INFO] apk_report_run.py:100 [29b95ff530c038fd9632c8d1eef79e20:begin to upload data to apk_basic_info]
+[2016-12-07 21:23:06,697] [INFO] apk_report_run.py:105 [29b95ff530c038fd9632c8d1eef79e20:-------finish---------]
+[2016-12-07 21:23:07,352] [INFO] apk_report_run.py:84 [3775c1fa06338d3a740c909d0b7f76a4:begin to decode apk]
+[2016-12-07 21:23:36,833] [INFO] apk_report_run.py:87 [3775c1fa06338d3a740c909d0b7f76a4:begin to generate data for apk_report_yyyymm]
+[2016-12-07 21:23:39,296] [INFO] apk_report_run.py:90 [3775c1fa06338d3a740c909d0b7f76a4:begin to upload data to apk_report_yyyymm]
+[2016-12-07 21:23:39,480] [INFO] apk_report_run.py:92 [3775c1fa06338d3a740c909d0b7f76a4:begin to generate data for apk_resource]
+[2016-12-07 21:23:39,619] [INFO] apk_report_run.py:95 [3775c1fa06338d3a740c909d0b7f76a4:begin to upload data to apk_resource]
+[2016-12-07 21:23:39,635] [INFO] apk_report_run.py:97 [3775c1fa06338d3a740c909d0b7f76a4:begin to generate data for apk_basic_info]
+[2016-12-07 21:24:29,771] [INFO] apk_report_run.py:100 [3775c1fa06338d3a740c909d0b7f76a4:begin to upload data to apk_basic_info]
+[2016-12-07 21:24:30,010] [INFO] apk_report_run.py:105 [3775c1fa06338d3a740c909d0b7f76a4:-------finish---------]
+[2016-12-07 21:24:30,073] [INFO] apk_report_run.py:84 [75270e00962fc74f6d7055dc72f61f84:begin to decode apk]
+[2016-12-07 21:24:47,750] [INFO] apk_report_run.py:87 [75270e00962fc74f6d7055dc72f61f84:begin to generate data for apk_report_yyyymm]
+[2016-12-07 21:25:01,660] [INFO] apk_report_run.py:90 [75270e00962fc74f6d7055dc72f61f84:begin to upload data to apk_report_yyyymm]
+[2016-12-07 21:25:01,907] [INFO] apk_report_run.py:92 [75270e00962fc74f6d7055dc72f61f84:begin to generate data for apk_resource]
+[2016-12-07 21:25:01,935] [INFO] apk_report_run.py:95 [75270e00962fc74f6d7055dc72f61f84:begin to upload data to apk_resource]
+[2016-12-07 21:25:02,028] [INFO] apk_report_run.py:97 [75270e00962fc74f6d7055dc72f61f84:begin to generate data for apk_basic_info]
+[2016-12-07 21:25:03,730] [INFO] apk_report_run.py:100 [75270e00962fc74f6d7055dc72f61f84:begin to upload data to apk_basic_info]
+[2016-12-07 21:25:03,932] [INFO] apk_report_run.py:105 [75270e00962fc74f6d7055dc72f61f84:-------finish---------]
+[2016-12-07 21:25:03,956] [INFO] apk_report_run.py:84 [6a06670aeb8fd04c1f254f0763916002:begin to decode apk]
+[2016-12-07 21:25:04,644] [INFO] apk_report_run.py:87 [6a06670aeb8fd04c1f254f0763916002:begin to generate data for apk_report_yyyymm]
+[2016-12-07 21:25:04,658] [ERROR] apk_report_run.py:111 6a06670aeb8fd04c1f254f0763916002
+Traceback (most recent call last):
+  File "apk_report_run.py", line 89, in apk_analyze_run
+    apk_report.run()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 53, in run
+    self.parser_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 45, in parser_xml
+    obj2 = XmlParser(self.apk_path,self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 16, in __init__
+    self.get_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 20, in get_xml
+    obj = APK(self.apk_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/axmlparserpy/apk.py", line 65, in __init__
+    self.zip = zipfile.ZipFile(StringIO.StringIO(self.__raw))
+  File "/usr/local/python27/lib/python2.7/zipfile.py", line 766, in __init__
+    self._RealGetContents()
+  File "/usr/local/python27/lib/python2.7/zipfile.py", line 807, in _RealGetContents
+    raise BadZipfile, "File is not a zip file"
+BadZipfile: File is not a zip file
+[2016-12-07 21:25:05,077] [INFO] apk_report_run.py:84 [8f5532e8f1d25dd2ae78453834620485:begin to decode apk]
+[2016-12-07 21:25:47,967] [INFO] apk_report_run.py:87 [8f5532e8f1d25dd2ae78453834620485:begin to generate data for apk_report_yyyymm]
+[2016-12-07 21:27:05,126] [INFO] apk_report_run.py:90 [8f5532e8f1d25dd2ae78453834620485:begin to upload data to apk_report_yyyymm]
+[2016-12-07 21:27:07,769] [INFO] apk_report_run.py:92 [8f5532e8f1d25dd2ae78453834620485:begin to generate data for apk_resource]
+[2016-12-07 21:27:08,060] [INFO] apk_report_run.py:95 [8f5532e8f1d25dd2ae78453834620485:begin to upload data to apk_resource]
+[2016-12-07 21:27:08,559] [INFO] apk_report_run.py:97 [8f5532e8f1d25dd2ae78453834620485:begin to generate data for apk_basic_info]
+[2016-12-07 21:27:15,736] [INFO] apk_report_run.py:100 [8f5532e8f1d25dd2ae78453834620485:begin to upload data to apk_basic_info]
+[2016-12-07 21:27:15,902] [INFO] apk_report_run.py:105 [8f5532e8f1d25dd2ae78453834620485:-------finish---------]
+[2016-12-07 21:27:16,187] [INFO] apk_report_run.py:84 [68711b2db766a9055265359739bbae5a:begin to decode apk]
+[2016-12-07 21:27:39,105] [INFO] apk_report_run.py:87 [68711b2db766a9055265359739bbae5a:begin to generate data for apk_report_yyyymm]
+[2016-12-07 21:37:02,870] [INFO] apk_report_run.py:90 [68711b2db766a9055265359739bbae5a:begin to upload data to apk_report_yyyymm]
+[2016-12-07 21:37:03,056] [INFO] apk_report_run.py:92 [68711b2db766a9055265359739bbae5a:begin to generate data for apk_resource]
+[2016-12-07 21:37:03,131] [INFO] apk_report_run.py:95 [68711b2db766a9055265359739bbae5a:begin to upload data to apk_resource]
+[2016-12-07 21:37:03,281] [INFO] apk_report_run.py:97 [68711b2db766a9055265359739bbae5a:begin to generate data for apk_basic_info]
+[2016-12-07 21:37:16,461] [INFO] apk_report_run.py:100 [68711b2db766a9055265359739bbae5a:begin to upload data to apk_basic_info]
+[2016-12-07 21:37:16,659] [INFO] apk_report_run.py:105 [68711b2db766a9055265359739bbae5a:-------finish---------]
+[2016-12-07 21:37:17,090] [INFO] apk_report_run.py:84 [da0fda638a7964454c02e387e4e63c25:begin to decode apk]
+[2016-12-07 21:41:31,202] [INFO] apk_report_run.py:87 [da0fda638a7964454c02e387e4e63c25:begin to generate data for apk_report_yyyymm]
+[2016-12-07 21:58:15,882] [INFO] apk_report_run.py:90 [da0fda638a7964454c02e387e4e63c25:begin to upload data to apk_report_yyyymm]
+[2016-12-07 21:58:16,160] [INFO] apk_report_run.py:92 [da0fda638a7964454c02e387e4e63c25:begin to generate data for apk_resource]
+[2016-12-07 21:58:18,173] [INFO] apk_report_run.py:95 [da0fda638a7964454c02e387e4e63c25:begin to upload data to apk_resource]
+[2016-12-07 21:58:18,209] [INFO] apk_report_run.py:97 [da0fda638a7964454c02e387e4e63c25:begin to generate data for apk_basic_info]
+[2016-12-07 22:01:26,775] [ERROR] apk_report_run.py:111 da0fda638a7964454c02e387e4e63c25
+Traceback (most recent call last):
+  File "apk_report_run.py", line 99, in apk_analyze_run
+    apk_basic_obj.basic_info_collect()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/basic_info_sort.py", line 63, in basic_info_collect
+    init_ip_attribution = get_ip_attribution(init_ip)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/file_hash.py", line 134, in get_ip_attribution
+    f = urllib2.urlopen(url).read()
+  File "/usr/local/python27/lib/python2.7/urllib2.py", line 127, in urlopen
+    return _opener.open(url, data, timeout)
+  File "/usr/local/python27/lib/python2.7/urllib2.py", line 404, in open
+    response = self._open(req, data)
+  File "/usr/local/python27/lib/python2.7/urllib2.py", line 422, in _open
+    '_open', req)
+  File "/usr/local/python27/lib/python2.7/urllib2.py", line 382, in _call_chain
+    result = func(*args)
+  File "/usr/local/python27/lib/python2.7/urllib2.py", line 1214, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "/usr/local/python27/lib/python2.7/urllib2.py", line 1187, in do_open
+    r = h.getresponse(buffering=True)
+  File "/usr/local/python27/lib/python2.7/httplib.py", line 1045, in getresponse
+    response.begin()
+  File "/usr/local/python27/lib/python2.7/httplib.py", line 409, in begin
+    version, status, reason = self._read_status()
+  File "/usr/local/python27/lib/python2.7/httplib.py", line 365, in _read_status
+    line = self.fp.readline(_MAXLINE + 1)
+  File "/usr/local/python27/lib/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+[2016-12-07 22:01:26,805] [INFO] apk_report_run.py:84 [d4931241423aa8918665772f4e6b5085:begin to decode apk]
+[2016-12-07 22:01:42,080] [INFO] apk_report_run.py:87 [d4931241423aa8918665772f4e6b5085:begin to generate data for apk_report_yyyymm]
+[2016-12-07 22:01:56,124] [INFO] apk_report_run.py:90 [d4931241423aa8918665772f4e6b5085:begin to upload data to apk_report_yyyymm]
+[2016-12-07 22:01:56,408] [INFO] apk_report_run.py:92 [d4931241423aa8918665772f4e6b5085:begin to generate data for apk_resource]
+[2016-12-07 22:01:56,438] [INFO] apk_report_run.py:95 [d4931241423aa8918665772f4e6b5085:begin to upload data to apk_resource]
+[2016-12-07 22:01:56,532] [INFO] apk_report_run.py:97 [d4931241423aa8918665772f4e6b5085:begin to generate data for apk_basic_info]
+[2016-12-07 22:01:58,653] [INFO] apk_report_run.py:100 [d4931241423aa8918665772f4e6b5085:begin to upload data to apk_basic_info]
+[2016-12-07 22:01:58,840] [INFO] apk_report_run.py:105 [d4931241423aa8918665772f4e6b5085:-------finish---------]
+[2016-12-07 22:01:59,543] [INFO] apk_report_run.py:84 [66c47bc756bf23055b4e840a0dc95978:begin to decode apk]
+[2016-12-07 22:06:29,416] [INFO] apk_report_run.py:87 [66c47bc756bf23055b4e840a0dc95978:begin to generate data for apk_report_yyyymm]
+[2016-12-07 22:42:36,662] [INFO] apk_report_run.py:90 [66c47bc756bf23055b4e840a0dc95978:begin to upload data to apk_report_yyyymm]
+[2016-12-07 22:42:37,140] [INFO] apk_report_run.py:92 [66c47bc756bf23055b4e840a0dc95978:begin to generate data for apk_resource]
+[2016-12-07 22:42:39,788] [INFO] apk_report_run.py:95 [66c47bc756bf23055b4e840a0dc95978:begin to upload data to apk_resource]
+[2016-12-07 22:42:39,822] [INFO] apk_report_run.py:97 [66c47bc756bf23055b4e840a0dc95978:begin to generate data for apk_basic_info]
+[2016-12-07 22:42:45,326] [INFO] apk_report_run.py:100 [66c47bc756bf23055b4e840a0dc95978:begin to upload data to apk_basic_info]
+[2016-12-07 22:42:45,493] [INFO] apk_report_run.py:105 [66c47bc756bf23055b4e840a0dc95978:-------finish---------]
+[2016-12-07 22:42:46,348] [INFO] apk_report_run.py:84 [2d932b11b4698468e6740f007443cbf2:begin to decode apk]
+[2016-12-07 22:42:48,368] [INFO] apk_report_run.py:87 [2d932b11b4698468e6740f007443cbf2:begin to generate data for apk_report_yyyymm]
+[2016-12-07 22:42:48,395] [ERROR] apk_report_run.py:111 2d932b11b4698468e6740f007443cbf2
+Traceback (most recent call last):
+  File "apk_report_run.py", line 89, in apk_analyze_run
+    apk_report.run()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 53, in run
+    self.parser_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 45, in parser_xml
+    obj2 = XmlParser(self.apk_path,self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 16, in __init__
+    self.get_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 20, in get_xml
+    obj = APK(self.apk_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/axmlparserpy/apk.py", line 65, in __init__
+    self.zip = zipfile.ZipFile(StringIO.StringIO(self.__raw))
+  File "/usr/local/python27/lib/python2.7/zipfile.py", line 766, in __init__
+    self._RealGetContents()
+  File "/usr/local/python27/lib/python2.7/zipfile.py", line 807, in _RealGetContents
+    raise BadZipfile, "File is not a zip file"
+BadZipfile: File is not a zip file
+[2016-12-07 22:42:48,457] [INFO] apk_report_run.py:84 [369979f4e4c306b814101c61f9eddd90:begin to decode apk]
+[2016-12-07 22:43:04,235] [INFO] apk_report_run.py:87 [369979f4e4c306b814101c61f9eddd90:begin to generate data for apk_report_yyyymm]
+[2016-12-07 22:43:18,701] [INFO] apk_report_run.py:90 [369979f4e4c306b814101c61f9eddd90:begin to upload data to apk_report_yyyymm]
+[2016-12-07 22:43:18,874] [INFO] apk_report_run.py:92 [369979f4e4c306b814101c61f9eddd90:begin to generate data for apk_resource]
+[2016-12-07 22:43:18,903] [INFO] apk_report_run.py:95 [369979f4e4c306b814101c61f9eddd90:begin to upload data to apk_resource]
+[2016-12-07 22:43:19,039] [INFO] apk_report_run.py:97 [369979f4e4c306b814101c61f9eddd90:begin to generate data for apk_basic_info]
+[2016-12-07 22:43:50,105] [INFO] apk_report_run.py:100 [369979f4e4c306b814101c61f9eddd90:begin to upload data to apk_basic_info]
+[2016-12-07 22:43:50,294] [INFO] apk_report_run.py:105 [369979f4e4c306b814101c61f9eddd90:-------finish---------]
+[2016-12-07 22:43:50,334] [INFO] apk_report_run.py:84 [fda49f37c3695e45d8c3ff84fa575346:begin to decode apk]
+[2016-12-07 22:44:04,999] [INFO] apk_report_run.py:87 [fda49f37c3695e45d8c3ff84fa575346:begin to generate data for apk_report_yyyymm]
+[2016-12-07 22:44:19,518] [INFO] apk_report_run.py:90 [fda49f37c3695e45d8c3ff84fa575346:begin to upload data to apk_report_yyyymm]
+[2016-12-07 22:44:19,722] [INFO] apk_report_run.py:92 [fda49f37c3695e45d8c3ff84fa575346:begin to generate data for apk_resource]
+[2016-12-07 22:44:19,753] [INFO] apk_report_run.py:95 [fda49f37c3695e45d8c3ff84fa575346:begin to upload data to apk_resource]
+[2016-12-07 22:44:19,832] [INFO] apk_report_run.py:97 [fda49f37c3695e45d8c3ff84fa575346:begin to generate data for apk_basic_info]
+[2016-12-07 22:44:21,213] [INFO] apk_report_run.py:100 [fda49f37c3695e45d8c3ff84fa575346:begin to upload data to apk_basic_info]
+[2016-12-07 22:44:21,362] [INFO] apk_report_run.py:105 [fda49f37c3695e45d8c3ff84fa575346:-------finish---------]
+[2016-12-07 22:44:21,577] [INFO] apk_report_run.py:84 [cb89c1d7526afb6f3af5b655f489e8a1:begin to decode apk]
+[2016-12-07 22:45:22,172] [INFO] apk_report_run.py:87 [cb89c1d7526afb6f3af5b655f489e8a1:begin to generate data for apk_report_yyyymm]
+[2016-12-07 22:52:45,360] [INFO] apk_report_run.py:90 [cb89c1d7526afb6f3af5b655f489e8a1:begin to upload data to apk_report_yyyymm]
+[2016-12-07 22:52:45,586] [INFO] apk_report_run.py:92 [cb89c1d7526afb6f3af5b655f489e8a1:begin to generate data for apk_resource]
+[2016-12-07 22:52:45,966] [INFO] apk_report_run.py:95 [cb89c1d7526afb6f3af5b655f489e8a1:begin to upload data to apk_resource]
+[2016-12-07 22:52:46,602] [INFO] apk_report_run.py:97 [cb89c1d7526afb6f3af5b655f489e8a1:begin to generate data for apk_basic_info]
+[2016-12-07 22:52:51,087] [INFO] apk_report_run.py:100 [cb89c1d7526afb6f3af5b655f489e8a1:begin to upload data to apk_basic_info]
+[2016-12-07 22:52:51,265] [INFO] apk_report_run.py:105 [cb89c1d7526afb6f3af5b655f489e8a1:-------finish---------]
+[2016-12-07 22:52:51,719] [INFO] apk_report_run.py:84 [008cf307e43662886a9bf85620e5d4d9:begin to decode apk]
+[2016-12-07 22:53:25,156] [INFO] apk_report_run.py:87 [008cf307e43662886a9bf85620e5d4d9:begin to generate data for apk_report_yyyymm]
+[2016-12-07 22:53:30,165] [INFO] apk_report_run.py:90 [008cf307e43662886a9bf85620e5d4d9:begin to upload data to apk_report_yyyymm]
+[2016-12-07 22:53:30,282] [INFO] apk_report_run.py:92 [008cf307e43662886a9bf85620e5d4d9:begin to generate data for apk_resource]
+[2016-12-07 22:53:30,528] [INFO] apk_report_run.py:95 [008cf307e43662886a9bf85620e5d4d9:begin to upload data to apk_resource]
+[2016-12-07 22:53:30,549] [INFO] apk_report_run.py:97 [008cf307e43662886a9bf85620e5d4d9:begin to generate data for apk_basic_info]
+[2016-12-07 22:53:32,000] [ERROR] apk_report_run.py:111 008cf307e43662886a9bf85620e5d4d9
+Traceback (most recent call last):
+  File "apk_report_run.py", line 99, in apk_analyze_run
+    apk_basic_obj.basic_info_collect()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/basic_info_sort.py", line 59, in basic_info_collect
+    virus_score = virus_apk_tell_obj.virus_tell()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/tell_virus_apk.py", line 107, in virus_tell
+    value = self.codeblock_evaluation()+self.permis_evaluation() + self.act_evaluation()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/tell_virus_apk.py", line 60, in codeblock_evaluation
+    senderCouter = self.item_couter(sender)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/tell_virus_apk.py", line 34, in item_couter
+    code_key_list = self.get_code_key()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/tell_virus_apk.py", line 43, in get_code_key
+    with open(self.code_key_path,'r') as f:
+IOError: [Errno 2] No such file or directory: 'data/008cf307e43662886a9bf85620e5d4d9/code_key.txt'
+[2016-12-07 22:53:32,042] [INFO] apk_report_run.py:84 [c1f60ffea1f58cc0a4516af086aefd9f:begin to decode apk]
+[2016-12-07 22:53:46,293] [INFO] apk_report_run.py:87 [c1f60ffea1f58cc0a4516af086aefd9f:begin to generate data for apk_report_yyyymm]
+[2016-12-07 22:54:00,995] [INFO] apk_report_run.py:90 [c1f60ffea1f58cc0a4516af086aefd9f:begin to upload data to apk_report_yyyymm]
+[2016-12-07 22:54:01,153] [INFO] apk_report_run.py:92 [c1f60ffea1f58cc0a4516af086aefd9f:begin to generate data for apk_resource]
+[2016-12-07 22:54:01,183] [INFO] apk_report_run.py:95 [c1f60ffea1f58cc0a4516af086aefd9f:begin to upload data to apk_resource]
+[2016-12-07 22:54:01,258] [INFO] apk_report_run.py:97 [c1f60ffea1f58cc0a4516af086aefd9f:begin to generate data for apk_basic_info]
+[2016-12-07 22:54:02,035] [INFO] apk_report_run.py:100 [c1f60ffea1f58cc0a4516af086aefd9f:begin to upload data to apk_basic_info]
+[2016-12-07 22:54:02,185] [INFO] apk_report_run.py:105 [c1f60ffea1f58cc0a4516af086aefd9f:-------finish---------]
+[2016-12-07 22:54:02,251] [INFO] apk_report_run.py:84 [c713f3fd573c86c67a073d01e8c15deb:begin to decode apk]
+[2016-12-07 22:54:18,931] [INFO] apk_report_run.py:87 [c713f3fd573c86c67a073d01e8c15deb:begin to generate data for apk_report_yyyymm]
+[2016-12-07 22:54:33,369] [INFO] apk_report_run.py:90 [c713f3fd573c86c67a073d01e8c15deb:begin to upload data to apk_report_yyyymm]
+[2016-12-07 22:54:33,556] [INFO] apk_report_run.py:92 [c713f3fd573c86c67a073d01e8c15deb:begin to generate data for apk_resource]
+[2016-12-07 22:54:33,585] [INFO] apk_report_run.py:95 [c713f3fd573c86c67a073d01e8c15deb:begin to upload data to apk_resource]
+[2016-12-07 22:54:33,694] [INFO] apk_report_run.py:97 [c713f3fd573c86c67a073d01e8c15deb:begin to generate data for apk_basic_info]
+[2016-12-07 22:55:09,545] [INFO] apk_report_run.py:100 [c713f3fd573c86c67a073d01e8c15deb:begin to upload data to apk_basic_info]
+[2016-12-07 22:55:09,994] [INFO] apk_report_run.py:105 [c713f3fd573c86c67a073d01e8c15deb:-------finish---------]
+[2016-12-07 22:55:10,046] [INFO] apk_report_run.py:84 [bc255a7d48466d1102e65ca70e2dc917:begin to decode apk]
+[2016-12-07 22:55:24,632] [INFO] apk_report_run.py:87 [bc255a7d48466d1102e65ca70e2dc917:begin to generate data for apk_report_yyyymm]
+[2016-12-07 22:55:38,872] [INFO] apk_report_run.py:90 [bc255a7d48466d1102e65ca70e2dc917:begin to upload data to apk_report_yyyymm]
+[2016-12-07 22:55:39,075] [INFO] apk_report_run.py:92 [bc255a7d48466d1102e65ca70e2dc917:begin to generate data for apk_resource]
+[2016-12-07 22:55:39,105] [INFO] apk_report_run.py:95 [bc255a7d48466d1102e65ca70e2dc917:begin to upload data to apk_resource]
+[2016-12-07 22:55:39,187] [INFO] apk_report_run.py:97 [bc255a7d48466d1102e65ca70e2dc917:begin to generate data for apk_basic_info]
+[2016-12-07 22:55:39,649] [INFO] apk_report_run.py:100 [bc255a7d48466d1102e65ca70e2dc917:begin to upload data to apk_basic_info]
+[2016-12-07 22:55:39,813] [INFO] apk_report_run.py:105 [bc255a7d48466d1102e65ca70e2dc917:-------finish---------]
+[2016-12-07 22:55:40,514] [INFO] apk_report_run.py:84 [23815334c285bbcbf84803b768d578ec:begin to decode apk]
+[2016-12-07 22:57:52,429] [INFO] apk_report_run.py:87 [23815334c285bbcbf84803b768d578ec:begin to generate data for apk_report_yyyymm]
+[2016-12-07 23:16:16,368] [INFO] apk_report_run.py:90 [23815334c285bbcbf84803b768d578ec:begin to upload data to apk_report_yyyymm]
+[2016-12-07 23:16:16,682] [INFO] apk_report_run.py:92 [23815334c285bbcbf84803b768d578ec:begin to generate data for apk_resource]
+[2016-12-07 23:16:17,682] [INFO] apk_report_run.py:95 [23815334c285bbcbf84803b768d578ec:begin to upload data to apk_resource]
+[2016-12-07 23:16:17,714] [INFO] apk_report_run.py:97 [23815334c285bbcbf84803b768d578ec:begin to generate data for apk_basic_info]
+[2016-12-07 23:16:19,405] [ERROR] apk_report_run.py:111 23815334c285bbcbf84803b768d578ec
+Traceback (most recent call last):
+  File "apk_report_run.py", line 99, in apk_analyze_run
+    apk_basic_obj.basic_info_collect()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/basic_info_sort.py", line 68, in basic_info_collect
+    out = self.apk_code + '|' + apk_file_name + '|' + md5 + '|' + sha1 + '|' + sha256  + '|' + sha512 + '|' + self.first_found_time + '|' + last_found_time + '|' + short_url + '|' + long_url + '|' + self.sms_content + '|' + virus_score + '|' + virus_grade + '|' + apk_analyze_run_time + '|' + min_sdk +   '|' + fit_sdk + '|' + init_ip + '|' + init_ip_attribution + '|' + target_ip + '|' + target_ip_attribution + '|' + str(apk_file_size) + '|' + str(apk_source_file_num) + '\n'
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xc7 in position 435: invalid continuation byte
+[2016-12-07 23:16:19,456] [INFO] apk_report_run.py:84 [ab5c166cd1b8717f4b1d502ec8230555:begin to decode apk]
+[2016-12-07 23:16:34,287] [INFO] apk_report_run.py:87 [ab5c166cd1b8717f4b1d502ec8230555:begin to generate data for apk_report_yyyymm]
+[2016-12-07 23:16:48,596] [INFO] apk_report_run.py:90 [ab5c166cd1b8717f4b1d502ec8230555:begin to upload data to apk_report_yyyymm]
+[2016-12-07 23:16:48,976] [INFO] apk_report_run.py:92 [ab5c166cd1b8717f4b1d502ec8230555:begin to generate data for apk_resource]
+[2016-12-07 23:16:49,006] [INFO] apk_report_run.py:95 [ab5c166cd1b8717f4b1d502ec8230555:begin to upload data to apk_resource]
+[2016-12-07 23:16:49,152] [INFO] apk_report_run.py:97 [ab5c166cd1b8717f4b1d502ec8230555:begin to generate data for apk_basic_info]
+[2016-12-07 23:17:20,498] [INFO] apk_report_run.py:100 [ab5c166cd1b8717f4b1d502ec8230555:begin to upload data to apk_basic_info]
+[2016-12-07 23:17:20,681] [INFO] apk_report_run.py:105 [ab5c166cd1b8717f4b1d502ec8230555:-------finish---------]
+[2016-12-07 23:17:20,840] [INFO] apk_report_run.py:84 [888cd8a816ff59f36192c2e08af54072:begin to decode apk]
+[2016-12-07 23:18:35,451] [INFO] apk_report_run.py:87 [888cd8a816ff59f36192c2e08af54072:begin to generate data for apk_report_yyyymm]
+[2016-12-07 23:20:05,859] [INFO] apk_report_run.py:90 [888cd8a816ff59f36192c2e08af54072:begin to upload data to apk_report_yyyymm]
+[2016-12-07 23:20:06,107] [INFO] apk_report_run.py:92 [888cd8a816ff59f36192c2e08af54072:begin to generate data for apk_resource]
+[2016-12-07 23:20:06,777] [INFO] apk_report_run.py:95 [888cd8a816ff59f36192c2e08af54072:begin to upload data to apk_resource]
+[2016-12-07 23:20:06,790] [INFO] apk_report_run.py:97 [888cd8a816ff59f36192c2e08af54072:begin to generate data for apk_basic_info]
+[2016-12-07 23:20:08,885] [INFO] apk_report_run.py:100 [888cd8a816ff59f36192c2e08af54072:begin to upload data to apk_basic_info]
+[2016-12-07 23:20:09,048] [INFO] apk_report_run.py:105 [888cd8a816ff59f36192c2e08af54072:-------finish---------]
+[2016-12-07 23:20:09,258] [INFO] apk_report_run.py:84 [e3766d5dc8cef6e075e1e95d8292b416:begin to decode apk]
+[2016-12-07 23:20:24,734] [INFO] apk_report_run.py:87 [e3766d5dc8cef6e075e1e95d8292b416:begin to generate data for apk_report_yyyymm]
+[2016-12-07 23:20:38,737] [INFO] apk_report_run.py:90 [e3766d5dc8cef6e075e1e95d8292b416:begin to upload data to apk_report_yyyymm]
+[2016-12-07 23:20:38,910] [INFO] apk_report_run.py:92 [e3766d5dc8cef6e075e1e95d8292b416:begin to generate data for apk_resource]
+[2016-12-07 23:20:38,941] [INFO] apk_report_run.py:95 [e3766d5dc8cef6e075e1e95d8292b416:begin to upload data to apk_resource]
+[2016-12-07 23:20:39,091] [INFO] apk_report_run.py:97 [e3766d5dc8cef6e075e1e95d8292b416:begin to generate data for apk_basic_info]
+[2016-12-07 23:20:40,335] [INFO] apk_report_run.py:100 [e3766d5dc8cef6e075e1e95d8292b416:begin to upload data to apk_basic_info]
+[2016-12-07 23:20:40,507] [INFO] apk_report_run.py:105 [e3766d5dc8cef6e075e1e95d8292b416:-------finish---------]
+[2016-12-07 23:20:40,866] [INFO] apk_report_run.py:84 [434279fc1b5bb08f263bdbc153273b08:begin to decode apk]
+[2016-12-07 23:22:10,553] [INFO] apk_report_run.py:87 [434279fc1b5bb08f263bdbc153273b08:begin to generate data for apk_report_yyyymm]
+[2016-12-07 23:37:36,077] [INFO] apk_report_run.py:90 [434279fc1b5bb08f263bdbc153273b08:begin to upload data to apk_report_yyyymm]
+[2016-12-07 23:37:36,413] [INFO] apk_report_run.py:92 [434279fc1b5bb08f263bdbc153273b08:begin to generate data for apk_resource]
+[2016-12-07 23:37:37,084] [INFO] apk_report_run.py:95 [434279fc1b5bb08f263bdbc153273b08:begin to upload data to apk_resource]
+[2016-12-07 23:37:37,101] [INFO] apk_report_run.py:97 [434279fc1b5bb08f263bdbc153273b08:begin to generate data for apk_basic_info]
+[2016-12-07 23:37:39,989] [INFO] apk_report_run.py:100 [434279fc1b5bb08f263bdbc153273b08:begin to upload data to apk_basic_info]
+[2016-12-07 23:37:40,178] [INFO] apk_report_run.py:105 [434279fc1b5bb08f263bdbc153273b08:-------finish---------]
+[2016-12-07 23:37:40,363] [INFO] apk_report_run.py:84 [5d2bc63fddb5f65156548e7b0e5739d2:begin to decode apk]
+[2016-12-07 23:37:55,625] [INFO] apk_report_run.py:87 [5d2bc63fddb5f65156548e7b0e5739d2:begin to generate data for apk_report_yyyymm]
+[2016-12-07 23:38:09,950] [INFO] apk_report_run.py:90 [5d2bc63fddb5f65156548e7b0e5739d2:begin to upload data to apk_report_yyyymm]
+[2016-12-07 23:38:10,108] [INFO] apk_report_run.py:92 [5d2bc63fddb5f65156548e7b0e5739d2:begin to generate data for apk_resource]
+[2016-12-07 23:38:10,139] [INFO] apk_report_run.py:95 [5d2bc63fddb5f65156548e7b0e5739d2:begin to upload data to apk_resource]
+[2016-12-07 23:38:10,237] [INFO] apk_report_run.py:97 [5d2bc63fddb5f65156548e7b0e5739d2:begin to generate data for apk_basic_info]
+[2016-12-07 23:38:14,827] [INFO] apk_report_run.py:100 [5d2bc63fddb5f65156548e7b0e5739d2:begin to upload data to apk_basic_info]
+[2016-12-07 23:38:14,968] [INFO] apk_report_run.py:105 [5d2bc63fddb5f65156548e7b0e5739d2:-------finish---------]
+[2016-12-07 23:38:15,039] [INFO] apk_report_run.py:84 [f01579c41f150a67da10f12ebe0d6a4a:begin to decode apk]
+[2016-12-07 23:38:29,604] [INFO] apk_report_run.py:87 [f01579c41f150a67da10f12ebe0d6a4a:begin to generate data for apk_report_yyyymm]
+[2016-12-07 23:38:43,800] [INFO] apk_report_run.py:90 [f01579c41f150a67da10f12ebe0d6a4a:begin to upload data to apk_report_yyyymm]
+[2016-12-07 23:38:44,079] [INFO] apk_report_run.py:92 [f01579c41f150a67da10f12ebe0d6a4a:begin to generate data for apk_resource]
+[2016-12-07 23:38:44,107] [INFO] apk_report_run.py:95 [f01579c41f150a67da10f12ebe0d6a4a:begin to upload data to apk_resource]
+[2016-12-07 23:38:44,185] [INFO] apk_report_run.py:97 [f01579c41f150a67da10f12ebe0d6a4a:begin to generate data for apk_basic_info]
+[2016-12-07 23:38:45,167] [INFO] apk_report_run.py:100 [f01579c41f150a67da10f12ebe0d6a4a:begin to upload data to apk_basic_info]
+[2016-12-07 23:38:45,339] [INFO] apk_report_run.py:105 [f01579c41f150a67da10f12ebe0d6a4a:-------finish---------]
+[2016-12-07 23:38:45,478] [INFO] apk_report_run.py:84 [ba28bf831ac91e1c711b945e763e3a7d:begin to decode apk]
+[2016-12-07 23:39:49,358] [INFO] apk_report_run.py:87 [ba28bf831ac91e1c711b945e763e3a7d:begin to generate data for apk_report_yyyymm]
+[2016-12-07 23:42:55,192] [INFO] apk_report_run.py:90 [ba28bf831ac91e1c711b945e763e3a7d:begin to upload data to apk_report_yyyymm]
+[2016-12-07 23:42:55,434] [INFO] apk_report_run.py:92 [ba28bf831ac91e1c711b945e763e3a7d:begin to generate data for apk_resource]
+[2016-12-07 23:42:55,951] [INFO] apk_report_run.py:95 [ba28bf831ac91e1c711b945e763e3a7d:begin to upload data to apk_resource]
+[2016-12-07 23:42:55,965] [INFO] apk_report_run.py:97 [ba28bf831ac91e1c711b945e763e3a7d:begin to generate data for apk_basic_info]
+[2016-12-07 23:42:58,422] [INFO] apk_report_run.py:100 [ba28bf831ac91e1c711b945e763e3a7d:begin to upload data to apk_basic_info]
+[2016-12-07 23:42:58,618] [INFO] apk_report_run.py:105 [ba28bf831ac91e1c711b945e763e3a7d:-------finish---------]
+[2016-12-07 23:42:59,125] [INFO] apk_report_run.py:84 [cb3ce1b3b36399dced1d3263d2c4451e:begin to decode apk]
+[2016-12-07 23:43:11,405] [INFO] apk_report_run.py:87 [cb3ce1b3b36399dced1d3263d2c4451e:begin to generate data for apk_report_yyyymm]
+[2016-12-07 23:43:13,203] [INFO] apk_report_run.py:90 [cb3ce1b3b36399dced1d3263d2c4451e:begin to upload data to apk_report_yyyymm]
+[2016-12-07 23:43:13,352] [INFO] apk_report_run.py:92 [cb3ce1b3b36399dced1d3263d2c4451e:begin to generate data for apk_resource]
+[2016-12-07 23:43:13,448] [INFO] apk_report_run.py:95 [cb3ce1b3b36399dced1d3263d2c4451e:begin to upload data to apk_resource]
+[2016-12-07 23:43:13,463] [INFO] apk_report_run.py:97 [cb3ce1b3b36399dced1d3263d2c4451e:begin to generate data for apk_basic_info]
+[2016-12-07 23:43:17,463] [INFO] apk_report_run.py:100 [cb3ce1b3b36399dced1d3263d2c4451e:begin to upload data to apk_basic_info]
+[2016-12-07 23:43:17,624] [INFO] apk_report_run.py:105 [cb3ce1b3b36399dced1d3263d2c4451e:-------finish---------]
+[2016-12-07 23:43:18,054] [INFO] apk_report_run.py:84 [1f81f53945fa83151787922f685de14e:begin to decode apk]
+[2016-12-07 23:44:15,320] [INFO] apk_report_run.py:87 [1f81f53945fa83151787922f685de14e:begin to generate data for apk_report_yyyymm]
+[2016-12-07 23:48:03,732] [INFO] apk_report_run.py:90 [1f81f53945fa83151787922f685de14e:begin to upload data to apk_report_yyyymm]
+[2016-12-07 23:48:04,000] [INFO] apk_report_run.py:92 [1f81f53945fa83151787922f685de14e:begin to generate data for apk_resource]
+[2016-12-07 23:48:04,314] [INFO] apk_report_run.py:95 [1f81f53945fa83151787922f685de14e:begin to upload data to apk_resource]
+[2016-12-07 23:48:04,328] [INFO] apk_report_run.py:97 [1f81f53945fa83151787922f685de14e:begin to generate data for apk_basic_info]
+[2016-12-07 23:48:08,774] [INFO] apk_report_run.py:100 [1f81f53945fa83151787922f685de14e:begin to upload data to apk_basic_info]
+[2016-12-07 23:48:08,958] [INFO] apk_report_run.py:105 [1f81f53945fa83151787922f685de14e:-------finish---------]
+[2016-12-07 23:48:09,077] [INFO] apk_report_run.py:84 [876c252778eab5c95b1a7d468638832d:begin to decode apk]
+[2016-12-07 23:48:23,910] [INFO] apk_report_run.py:87 [876c252778eab5c95b1a7d468638832d:begin to generate data for apk_report_yyyymm]
+[2016-12-07 23:48:37,898] [INFO] apk_report_run.py:90 [876c252778eab5c95b1a7d468638832d:begin to upload data to apk_report_yyyymm]
+[2016-12-07 23:48:38,068] [INFO] apk_report_run.py:92 [876c252778eab5c95b1a7d468638832d:begin to generate data for apk_resource]
+[2016-12-07 23:48:38,099] [INFO] apk_report_run.py:95 [876c252778eab5c95b1a7d468638832d:begin to upload data to apk_resource]
+[2016-12-07 23:48:38,187] [INFO] apk_report_run.py:97 [876c252778eab5c95b1a7d468638832d:begin to generate data for apk_basic_info]
+[2016-12-07 23:48:39,387] [INFO] apk_report_run.py:100 [876c252778eab5c95b1a7d468638832d:begin to upload data to apk_basic_info]
+[2016-12-07 23:48:39,547] [INFO] apk_report_run.py:105 [876c252778eab5c95b1a7d468638832d:-------finish---------]
+[2016-12-07 23:48:39,587] [INFO] apk_report_run.py:84 [9a5b4725d0f74061e9b19f908699a954:begin to decode apk]
+[2016-12-07 23:48:56,206] [INFO] apk_report_run.py:87 [9a5b4725d0f74061e9b19f908699a954:begin to generate data for apk_report_yyyymm]
+[2016-12-07 23:49:10,056] [INFO] apk_report_run.py:90 [9a5b4725d0f74061e9b19f908699a954:begin to upload data to apk_report_yyyymm]
+[2016-12-07 23:49:10,254] [INFO] apk_report_run.py:92 [9a5b4725d0f74061e9b19f908699a954:begin to generate data for apk_resource]
+[2016-12-07 23:49:10,284] [INFO] apk_report_run.py:95 [9a5b4725d0f74061e9b19f908699a954:begin to upload data to apk_resource]
+[2016-12-07 23:49:10,387] [INFO] apk_report_run.py:97 [9a5b4725d0f74061e9b19f908699a954:begin to generate data for apk_basic_info]
+[2016-12-07 23:49:43,682] [INFO] apk_report_run.py:100 [9a5b4725d0f74061e9b19f908699a954:begin to upload data to apk_basic_info]
+[2016-12-07 23:49:43,844] [INFO] apk_report_run.py:105 [9a5b4725d0f74061e9b19f908699a954:-------finish---------]
+[2016-12-07 23:49:43,889] [INFO] apk_report_run.py:84 [192fc1167f82bbb1df019bb42da4bf15:begin to decode apk]
+[2016-12-07 23:49:58,732] [INFO] apk_report_run.py:87 [192fc1167f82bbb1df019bb42da4bf15:begin to generate data for apk_report_yyyymm]
+[2016-12-07 23:50:12,895] [INFO] apk_report_run.py:90 [192fc1167f82bbb1df019bb42da4bf15:begin to upload data to apk_report_yyyymm]
+[2016-12-07 23:50:13,055] [INFO] apk_report_run.py:92 [192fc1167f82bbb1df019bb42da4bf15:begin to generate data for apk_resource]
+[2016-12-07 23:50:13,085] [INFO] apk_report_run.py:95 [192fc1167f82bbb1df019bb42da4bf15:begin to upload data to apk_resource]
+[2016-12-07 23:50:13,155] [INFO] apk_report_run.py:97 [192fc1167f82bbb1df019bb42da4bf15:begin to generate data for apk_basic_info]
+[2016-12-07 23:50:17,232] [INFO] apk_report_run.py:100 [192fc1167f82bbb1df019bb42da4bf15:begin to upload data to apk_basic_info]
+[2016-12-07 23:50:17,411] [INFO] apk_report_run.py:105 [192fc1167f82bbb1df019bb42da4bf15:-------finish---------]
+[2016-12-07 23:50:17,470] [INFO] apk_report_run.py:84 [1ceb6ac5e3103c1e1fccf57b146d4959:begin to decode apk]
+[2016-12-07 23:50:31,823] [INFO] apk_report_run.py:87 [1ceb6ac5e3103c1e1fccf57b146d4959:begin to generate data for apk_report_yyyymm]
+[2016-12-07 23:50:45,483] [INFO] apk_report_run.py:90 [1ceb6ac5e3103c1e1fccf57b146d4959:begin to upload data to apk_report_yyyymm]
+[2016-12-07 23:50:45,644] [INFO] apk_report_run.py:92 [1ceb6ac5e3103c1e1fccf57b146d4959:begin to generate data for apk_resource]
+[2016-12-07 23:50:45,674] [INFO] apk_report_run.py:95 [1ceb6ac5e3103c1e1fccf57b146d4959:begin to upload data to apk_resource]
+[2016-12-07 23:50:45,754] [INFO] apk_report_run.py:97 [1ceb6ac5e3103c1e1fccf57b146d4959:begin to generate data for apk_basic_info]
+[2016-12-07 23:50:46,232] [INFO] apk_report_run.py:100 [1ceb6ac5e3103c1e1fccf57b146d4959:begin to upload data to apk_basic_info]
+[2016-12-07 23:50:46,398] [INFO] apk_report_run.py:105 [1ceb6ac5e3103c1e1fccf57b146d4959:-------finish---------]
+[2016-12-07 23:50:46,607] [INFO] apk_report_run.py:84 [d956a87c7c7f9d391dd3d7ec7d66ee0e:begin to decode apk]
+[2016-12-07 23:52:12,984] [INFO] apk_report_run.py:87 [d956a87c7c7f9d391dd3d7ec7d66ee0e:begin to generate data for apk_report_yyyymm]
+[2016-12-08 00:00:51,911] [INFO] apk_report_run.py:90 [d956a87c7c7f9d391dd3d7ec7d66ee0e:begin to upload data to apk_report_yyyymm]
+[2016-12-08 00:00:52,239] [INFO] apk_report_run.py:92 [d956a87c7c7f9d391dd3d7ec7d66ee0e:begin to generate data for apk_resource]
+[2016-12-08 00:00:52,725] [INFO] apk_report_run.py:95 [d956a87c7c7f9d391dd3d7ec7d66ee0e:begin to upload data to apk_resource]
+[2016-12-08 00:00:52,738] [INFO] apk_report_run.py:97 [d956a87c7c7f9d391dd3d7ec7d66ee0e:begin to generate data for apk_basic_info]
+[2016-12-08 00:00:54,450] [INFO] apk_report_run.py:100 [d956a87c7c7f9d391dd3d7ec7d66ee0e:begin to upload data to apk_basic_info]
+[2016-12-08 00:00:54,613] [INFO] apk_report_run.py:105 [d956a87c7c7f9d391dd3d7ec7d66ee0e:-------finish---------]
+[2016-12-08 00:00:55,096] [INFO] apk_report_run.py:84 [af9a1dd8e0d7397f0bf600390d1f78d9:begin to decode apk]
+[2016-12-08 00:02:10,423] [INFO] apk_report_run.py:87 [af9a1dd8e0d7397f0bf600390d1f78d9:begin to generate data for apk_report_yyyymm]
+[2016-12-08 00:05:27,024] [ERROR] apk_report_run.py:111 af9a1dd8e0d7397f0bf600390d1f78d9
+Traceback (most recent call last):
+  File "apk_report_run.py", line 89, in apk_analyze_run
+    apk_report.run()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 53, in run
+    self.parser_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 45, in parser_xml
+    obj2 = XmlParser(self.apk_path,self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 16, in __init__
+    self.get_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 20, in get_xml
+    obj = APK(self.apk_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/axmlparserpy/apk.py", line 65, in __init__
+    self.zip = zipfile.ZipFile(StringIO.StringIO(self.__raw))
+  File "/usr/local/python27/lib/python2.7/zipfile.py", line 766, in __init__
+    self._RealGetContents()
+  File "/usr/local/python27/lib/python2.7/zipfile.py", line 853, in _RealGetContents
+    x._decodeExtra()
+  File "/usr/local/python27/lib/python2.7/zipfile.py", line 388, in _decodeExtra
+    tp, ln = unpack('<HH', extra[:4])
+error: unpack requires a string argument of length 4
+[2016-12-08 00:05:27,063] [INFO] apk_report_run.py:84 [7bc3963ad7105e9b3366afd7d3c262e1:begin to decode apk]
+[2016-12-08 00:05:41,913] [INFO] apk_report_run.py:87 [7bc3963ad7105e9b3366afd7d3c262e1:begin to generate data for apk_report_yyyymm]
+[2016-12-08 00:05:56,096] [INFO] apk_report_run.py:90 [7bc3963ad7105e9b3366afd7d3c262e1:begin to upload data to apk_report_yyyymm]
+[2016-12-08 00:05:56,317] [INFO] apk_report_run.py:92 [7bc3963ad7105e9b3366afd7d3c262e1:begin to generate data for apk_resource]
+[2016-12-08 00:05:56,347] [INFO] apk_report_run.py:95 [7bc3963ad7105e9b3366afd7d3c262e1:begin to upload data to apk_resource]
+[2016-12-08 00:05:56,456] [INFO] apk_report_run.py:97 [7bc3963ad7105e9b3366afd7d3c262e1:begin to generate data for apk_basic_info]
+[2016-12-08 00:05:57,561] [INFO] apk_report_run.py:100 [7bc3963ad7105e9b3366afd7d3c262e1:begin to upload data to apk_basic_info]
+[2016-12-08 00:05:57,722] [INFO] apk_report_run.py:105 [7bc3963ad7105e9b3366afd7d3c262e1:-------finish---------]
+[2016-12-08 00:05:57,758] [INFO] apk_report_run.py:84 [eb4a5befcd78fe37bfe7e98567ae0cf1:begin to decode apk]
+[2016-12-08 00:06:12,993] [INFO] apk_report_run.py:87 [eb4a5befcd78fe37bfe7e98567ae0cf1:begin to generate data for apk_report_yyyymm]
+[2016-12-08 00:06:26,705] [INFO] apk_report_run.py:90 [eb4a5befcd78fe37bfe7e98567ae0cf1:begin to upload data to apk_report_yyyymm]
+[2016-12-08 00:06:26,876] [INFO] apk_report_run.py:92 [eb4a5befcd78fe37bfe7e98567ae0cf1:begin to generate data for apk_resource]
+[2016-12-08 00:06:26,904] [INFO] apk_report_run.py:95 [eb4a5befcd78fe37bfe7e98567ae0cf1:begin to upload data to apk_resource]
+[2016-12-08 00:06:26,978] [INFO] apk_report_run.py:97 [eb4a5befcd78fe37bfe7e98567ae0cf1:begin to generate data for apk_basic_info]
+[2016-12-08 00:06:27,183] [INFO] apk_report_run.py:100 [eb4a5befcd78fe37bfe7e98567ae0cf1:begin to upload data to apk_basic_info]
+[2016-12-08 00:06:27,359] [INFO] apk_report_run.py:105 [eb4a5befcd78fe37bfe7e98567ae0cf1:-------finish---------]
+[2016-12-08 00:06:27,722] [INFO] apk_report_run.py:84 [d3a745ea8cd31e2eeed647d01ae61c42:begin to decode apk]
+[2016-12-08 00:08:05,499] [INFO] apk_report_run.py:87 [d3a745ea8cd31e2eeed647d01ae61c42:begin to generate data for apk_report_yyyymm]
+[2016-12-08 00:13:13,298] [INFO] apk_report_run.py:90 [d3a745ea8cd31e2eeed647d01ae61c42:begin to upload data to apk_report_yyyymm]
+[2016-12-08 00:13:13,621] [INFO] apk_report_run.py:92 [d3a745ea8cd31e2eeed647d01ae61c42:begin to generate data for apk_resource]
+[2016-12-08 00:13:14,221] [INFO] apk_report_run.py:95 [d3a745ea8cd31e2eeed647d01ae61c42:begin to upload data to apk_resource]
+[2016-12-08 00:13:14,243] [INFO] apk_report_run.py:97 [d3a745ea8cd31e2eeed647d01ae61c42:begin to generate data for apk_basic_info]
+[2016-12-08 00:13:16,112] [INFO] apk_report_run.py:100 [d3a745ea8cd31e2eeed647d01ae61c42:begin to upload data to apk_basic_info]
+[2016-12-08 00:13:16,282] [INFO] apk_report_run.py:105 [d3a745ea8cd31e2eeed647d01ae61c42:-------finish---------]
+[2016-12-08 00:13:17,058] [INFO] apk_report_run.py:84 [170749d7c95179ca93347ee98628ab6b:begin to decode apk]
+[2016-12-08 00:14:30,828] [INFO] apk_report_run.py:87 [170749d7c95179ca93347ee98628ab6b:begin to generate data for apk_report_yyyymm]
+[2016-12-08 00:16:04,379] [INFO] apk_report_run.py:90 [170749d7c95179ca93347ee98628ab6b:begin to upload data to apk_report_yyyymm]
+[2016-12-08 00:16:04,633] [INFO] apk_report_run.py:92 [170749d7c95179ca93347ee98628ab6b:begin to generate data for apk_resource]
+[2016-12-08 00:16:04,989] [INFO] apk_report_run.py:95 [170749d7c95179ca93347ee98628ab6b:begin to upload data to apk_resource]
+[2016-12-08 00:16:05,007] [INFO] apk_report_run.py:97 [170749d7c95179ca93347ee98628ab6b:begin to generate data for apk_basic_info]
+[2016-12-08 00:16:05,877] [ERROR] apk_report_run.py:111 170749d7c95179ca93347ee98628ab6b
+Traceback (most recent call last):
+  File "apk_report_run.py", line 99, in apk_analyze_run
+    apk_basic_obj.basic_info_collect()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/basic_info_sort.py", line 56, in basic_info_collect
+    min_sdk,fit_sdk = apk_sdk_obj.parserSdkVersion()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 132, in parserSdkVersion
+    v = nodes[0].toxml()
+IndexError: list index out of range
+[2016-12-08 00:16:05,926] [INFO] apk_report_run.py:84 [58eec019a415c94277d2073eaf2a3b83:begin to decode apk]
+[2016-12-08 00:16:20,702] [INFO] apk_report_run.py:87 [58eec019a415c94277d2073eaf2a3b83:begin to generate data for apk_report_yyyymm]
+[2016-12-08 00:16:34,605] [INFO] apk_report_run.py:90 [58eec019a415c94277d2073eaf2a3b83:begin to upload data to apk_report_yyyymm]
+[2016-12-08 00:16:34,764] [INFO] apk_report_run.py:92 [58eec019a415c94277d2073eaf2a3b83:begin to generate data for apk_resource]
+[2016-12-08 00:16:34,797] [INFO] apk_report_run.py:95 [58eec019a415c94277d2073eaf2a3b83:begin to upload data to apk_resource]
+[2016-12-08 00:16:34,930] [INFO] apk_report_run.py:97 [58eec019a415c94277d2073eaf2a3b83:begin to generate data for apk_basic_info]
+[2016-12-08 00:17:05,819] [INFO] apk_report_run.py:100 [58eec019a415c94277d2073eaf2a3b83:begin to upload data to apk_basic_info]
+[2016-12-08 00:17:05,990] [INFO] apk_report_run.py:105 [58eec019a415c94277d2073eaf2a3b83:-------finish---------]
+[2016-12-08 00:17:06,032] [INFO] apk_report_run.py:84 [d1d3d2a449ac5713ab1d30abddb6aaa7:begin to decode apk]
+[2016-12-08 00:17:20,940] [INFO] apk_report_run.py:87 [d1d3d2a449ac5713ab1d30abddb6aaa7:begin to generate data for apk_report_yyyymm]
+[2016-12-08 00:17:35,196] [INFO] apk_report_run.py:90 [d1d3d2a449ac5713ab1d30abddb6aaa7:begin to upload data to apk_report_yyyymm]
+[2016-12-08 00:17:35,408] [INFO] apk_report_run.py:92 [d1d3d2a449ac5713ab1d30abddb6aaa7:begin to generate data for apk_resource]
+[2016-12-08 00:17:35,443] [INFO] apk_report_run.py:95 [d1d3d2a449ac5713ab1d30abddb6aaa7:begin to upload data to apk_resource]
+[2016-12-08 00:17:35,526] [INFO] apk_report_run.py:97 [d1d3d2a449ac5713ab1d30abddb6aaa7:begin to generate data for apk_basic_info]
+[2016-12-08 00:17:36,189] [INFO] apk_report_run.py:100 [d1d3d2a449ac5713ab1d30abddb6aaa7:begin to upload data to apk_basic_info]
+[2016-12-08 00:17:36,336] [INFO] apk_report_run.py:105 [d1d3d2a449ac5713ab1d30abddb6aaa7:-------finish---------]
+[2016-12-08 00:17:36,756] [INFO] apk_report_run.py:84 [30eb4817e288cae787c7396f2b3038cb:begin to decode apk]
+[2016-12-08 00:20:41,883] [INFO] apk_report_run.py:87 [30eb4817e288cae787c7396f2b3038cb:begin to generate data for apk_report_yyyymm]
+[2016-12-08 00:25:10,782] [INFO] apk_report_run.py:90 [30eb4817e288cae787c7396f2b3038cb:begin to upload data to apk_report_yyyymm]
+[2016-12-08 00:25:11,161] [INFO] apk_report_run.py:92 [30eb4817e288cae787c7396f2b3038cb:begin to generate data for apk_resource]
+[2016-12-08 00:25:11,954] [INFO] apk_report_run.py:95 [30eb4817e288cae787c7396f2b3038cb:begin to upload data to apk_resource]
+[2016-12-08 00:25:12,001] [INFO] apk_report_run.py:97 [30eb4817e288cae787c7396f2b3038cb:begin to generate data for apk_basic_info]
+[2016-12-08 00:25:16,011] [INFO] apk_report_run.py:100 [30eb4817e288cae787c7396f2b3038cb:begin to upload data to apk_basic_info]
+[2016-12-08 00:25:16,185] [INFO] apk_report_run.py:105 [30eb4817e288cae787c7396f2b3038cb:-------finish---------]
+[2016-12-08 00:25:16,430] [INFO] apk_report_run.py:84 [fcf9ec15a02d2465a0bacd0dbfd909eb:begin to decode apk]
+[2016-12-08 00:25:32,447] [INFO] apk_report_run.py:87 [fcf9ec15a02d2465a0bacd0dbfd909eb:begin to generate data for apk_report_yyyymm]
+[2016-12-08 00:25:46,405] [INFO] apk_report_run.py:90 [fcf9ec15a02d2465a0bacd0dbfd909eb:begin to upload data to apk_report_yyyymm]
+[2016-12-08 00:25:46,573] [INFO] apk_report_run.py:92 [fcf9ec15a02d2465a0bacd0dbfd909eb:begin to generate data for apk_resource]
+[2016-12-08 00:25:46,603] [INFO] apk_report_run.py:95 [fcf9ec15a02d2465a0bacd0dbfd909eb:begin to upload data to apk_resource]
+[2016-12-08 00:25:46,703] [INFO] apk_report_run.py:97 [fcf9ec15a02d2465a0bacd0dbfd909eb:begin to generate data for apk_basic_info]
+[2016-12-08 00:25:47,501] [INFO] apk_report_run.py:100 [fcf9ec15a02d2465a0bacd0dbfd909eb:begin to upload data to apk_basic_info]
+[2016-12-08 00:25:47,655] [INFO] apk_report_run.py:105 [fcf9ec15a02d2465a0bacd0dbfd909eb:-------finish---------]
+[2016-12-08 00:25:47,714] [INFO] apk_report_run.py:84 [8d0967e4929b49e73c1832e730269d28:begin to decode apk]
+[2016-12-08 00:26:03,425] [INFO] apk_report_run.py:87 [8d0967e4929b49e73c1832e730269d28:begin to generate data for apk_report_yyyymm]
+[2016-12-08 00:26:17,525] [INFO] apk_report_run.py:90 [8d0967e4929b49e73c1832e730269d28:begin to upload data to apk_report_yyyymm]
+[2016-12-08 00:26:17,710] [INFO] apk_report_run.py:92 [8d0967e4929b49e73c1832e730269d28:begin to generate data for apk_resource]
+[2016-12-08 00:26:17,740] [INFO] apk_report_run.py:95 [8d0967e4929b49e73c1832e730269d28:begin to upload data to apk_resource]
+[2016-12-08 00:26:17,832] [INFO] apk_report_run.py:97 [8d0967e4929b49e73c1832e730269d28:begin to generate data for apk_basic_info]
+[2016-12-08 00:26:20,748] [INFO] apk_report_run.py:100 [8d0967e4929b49e73c1832e730269d28:begin to upload data to apk_basic_info]
+[2016-12-08 00:26:20,957] [INFO] apk_report_run.py:105 [8d0967e4929b49e73c1832e730269d28:-------finish---------]
+[2016-12-08 00:26:21,008] [INFO] apk_report_run.py:84 [b3f6821097e0802b1d6c549e70c29381:begin to decode apk]
+[2016-12-08 00:26:35,080] [INFO] apk_report_run.py:87 [b3f6821097e0802b1d6c549e70c29381:begin to generate data for apk_report_yyyymm]
+[2016-12-08 00:26:49,228] [INFO] apk_report_run.py:90 [b3f6821097e0802b1d6c549e70c29381:begin to upload data to apk_report_yyyymm]
+[2016-12-08 00:26:49,402] [INFO] apk_report_run.py:92 [b3f6821097e0802b1d6c549e70c29381:begin to generate data for apk_resource]
+[2016-12-08 00:26:49,431] [INFO] apk_report_run.py:95 [b3f6821097e0802b1d6c549e70c29381:begin to upload data to apk_resource]
+[2016-12-08 00:26:49,507] [INFO] apk_report_run.py:97 [b3f6821097e0802b1d6c549e70c29381:begin to generate data for apk_basic_info]
+[2016-12-08 00:26:49,724] [INFO] apk_report_run.py:100 [b3f6821097e0802b1d6c549e70c29381:begin to upload data to apk_basic_info]
+[2016-12-08 00:26:49,879] [INFO] apk_report_run.py:105 [b3f6821097e0802b1d6c549e70c29381:-------finish---------]
+[2016-12-08 00:26:54,630] [INFO] apk_report_run.py:84 [6a6cf78bc8415a814c6213adadfbdecf:begin to decode apk]
+[2016-12-08 00:28:02,342] [INFO] apk_report_run.py:87 [6a6cf78bc8415a814c6213adadfbdecf:begin to generate data for apk_report_yyyymm]
+[2016-12-08 00:35:53,609] [INFO] apk_report_run.py:90 [6a6cf78bc8415a814c6213adadfbdecf:begin to upload data to apk_report_yyyymm]
+[2016-12-08 00:35:53,856] [INFO] apk_report_run.py:92 [6a6cf78bc8415a814c6213adadfbdecf:begin to generate data for apk_resource]
+[2016-12-08 00:35:54,157] [INFO] apk_report_run.py:95 [6a6cf78bc8415a814c6213adadfbdecf:begin to upload data to apk_resource]
+[2016-12-08 00:35:54,704] [INFO] apk_report_run.py:97 [6a6cf78bc8415a814c6213adadfbdecf:begin to generate data for apk_basic_info]
+[2016-12-08 00:36:05,918] [INFO] apk_report_run.py:100 [6a6cf78bc8415a814c6213adadfbdecf:begin to upload data to apk_basic_info]
+[2016-12-08 00:36:06,079] [INFO] apk_report_run.py:105 [6a6cf78bc8415a814c6213adadfbdecf:-------finish---------]
+[2016-12-08 00:36:06,204] [INFO] apk_report_run.py:84 [9a9221a5349274f7b2cb591fbaf285a7:begin to decode apk]
+[2016-12-08 00:36:09,540] [INFO] apk_report_run.py:87 [9a9221a5349274f7b2cb591fbaf285a7:begin to generate data for apk_report_yyyymm]
+[2016-12-08 00:36:10,003] [INFO] apk_report_run.py:90 [9a9221a5349274f7b2cb591fbaf285a7:begin to upload data to apk_report_yyyymm]
+[2016-12-08 00:36:10,111] [INFO] apk_report_run.py:92 [9a9221a5349274f7b2cb591fbaf285a7:begin to generate data for apk_resource]
+[2016-12-08 00:36:10,116] [INFO] apk_report_run.py:95 [9a9221a5349274f7b2cb591fbaf285a7:begin to upload data to apk_resource]
+[2016-12-08 00:36:10,202] [INFO] apk_report_run.py:97 [9a9221a5349274f7b2cb591fbaf285a7:begin to generate data for apk_basic_info]
+[2016-12-08 00:36:42,013] [INFO] apk_report_run.py:100 [9a9221a5349274f7b2cb591fbaf285a7:begin to upload data to apk_basic_info]
+[2016-12-08 00:36:42,182] [INFO] apk_report_run.py:105 [9a9221a5349274f7b2cb591fbaf285a7:-------finish---------]
+[2016-12-08 00:36:42,229] [INFO] apk_report_run.py:84 [95bc09181eb464a107d9b9f31b58d85a:begin to decode apk]
+[2016-12-08 00:36:57,081] [INFO] apk_report_run.py:87 [95bc09181eb464a107d9b9f31b58d85a:begin to generate data for apk_report_yyyymm]
+[2016-12-08 00:37:11,119] [INFO] apk_report_run.py:90 [95bc09181eb464a107d9b9f31b58d85a:begin to upload data to apk_report_yyyymm]
+[2016-12-08 00:37:11,302] [INFO] apk_report_run.py:92 [95bc09181eb464a107d9b9f31b58d85a:begin to generate data for apk_resource]
+[2016-12-08 00:37:11,332] [INFO] apk_report_run.py:95 [95bc09181eb464a107d9b9f31b58d85a:begin to upload data to apk_resource]
+[2016-12-08 00:37:11,417] [INFO] apk_report_run.py:97 [95bc09181eb464a107d9b9f31b58d85a:begin to generate data for apk_basic_info]
+[2016-12-08 00:37:12,159] [INFO] apk_report_run.py:100 [95bc09181eb464a107d9b9f31b58d85a:begin to upload data to apk_basic_info]
+[2016-12-08 00:37:12,299] [INFO] apk_report_run.py:105 [95bc09181eb464a107d9b9f31b58d85a:-------finish---------]
+[2016-12-08 00:37:12,343] [INFO] apk_report_run.py:84 [966cec0052bd2ae2788c3dea4bead880:begin to decode apk]
+[2016-12-08 00:37:13,018] [INFO] apk_report_run.py:87 [966cec0052bd2ae2788c3dea4bead880:begin to generate data for apk_report_yyyymm]
+[2016-12-08 00:37:13,034] [ERROR] apk_report_run.py:111 966cec0052bd2ae2788c3dea4bead880
+Traceback (most recent call last):
+  File "apk_report_run.py", line 89, in apk_analyze_run
+    apk_report.run()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 53, in run
+    self.parser_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 45, in parser_xml
+    obj2 = XmlParser(self.apk_path,self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 16, in __init__
+    self.get_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 20, in get_xml
+    obj = APK(self.apk_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/axmlparserpy/apk.py", line 65, in __init__
+    self.zip = zipfile.ZipFile(StringIO.StringIO(self.__raw))
+  File "/usr/local/python27/lib/python2.7/zipfile.py", line 766, in __init__
+    self._RealGetContents()
+  File "/usr/local/python27/lib/python2.7/zipfile.py", line 807, in _RealGetContents
+    raise BadZipfile, "File is not a zip file"
+BadZipfile: File is not a zip file
+[2016-12-08 00:37:13,087] [INFO] apk_report_run.py:84 [7f6baf188d018d4060dd0cb715fe471d:begin to decode apk]
+[2016-12-08 00:37:27,742] [INFO] apk_report_run.py:87 [7f6baf188d018d4060dd0cb715fe471d:begin to generate data for apk_report_yyyymm]
+[2016-12-08 00:37:41,692] [INFO] apk_report_run.py:90 [7f6baf188d018d4060dd0cb715fe471d:begin to upload data to apk_report_yyyymm]
+[2016-12-08 00:37:41,881] [INFO] apk_report_run.py:92 [7f6baf188d018d4060dd0cb715fe471d:begin to generate data for apk_resource]
+[2016-12-08 00:37:41,910] [INFO] apk_report_run.py:95 [7f6baf188d018d4060dd0cb715fe471d:begin to upload data to apk_resource]
+[2016-12-08 00:37:41,995] [INFO] apk_report_run.py:97 [7f6baf188d018d4060dd0cb715fe471d:begin to generate data for apk_basic_info]
+[2016-12-08 00:37:43,544] [INFO] apk_report_run.py:100 [7f6baf188d018d4060dd0cb715fe471d:begin to upload data to apk_basic_info]
+[2016-12-08 00:37:43,695] [INFO] apk_report_run.py:105 [7f6baf188d018d4060dd0cb715fe471d:-------finish---------]
+[2016-12-08 00:37:43,750] [INFO] apk_report_run.py:84 [ae4047758b598080fd55cecf288a97c0:begin to decode apk]
+[2016-12-08 00:37:59,744] [INFO] apk_report_run.py:87 [ae4047758b598080fd55cecf288a97c0:begin to generate data for apk_report_yyyymm]
+[2016-12-08 00:38:13,921] [INFO] apk_report_run.py:90 [ae4047758b598080fd55cecf288a97c0:begin to upload data to apk_report_yyyymm]
+[2016-12-08 00:38:14,117] [INFO] apk_report_run.py:92 [ae4047758b598080fd55cecf288a97c0:begin to generate data for apk_resource]
+[2016-12-08 00:38:14,148] [INFO] apk_report_run.py:95 [ae4047758b598080fd55cecf288a97c0:begin to upload data to apk_resource]
+[2016-12-08 00:38:14,246] [INFO] apk_report_run.py:97 [ae4047758b598080fd55cecf288a97c0:begin to generate data for apk_basic_info]
+[2016-12-08 00:38:16,422] [INFO] apk_report_run.py:100 [ae4047758b598080fd55cecf288a97c0:begin to upload data to apk_basic_info]
+[2016-12-08 00:38:16,611] [INFO] apk_report_run.py:105 [ae4047758b598080fd55cecf288a97c0:-------finish---------]
+[2016-12-08 00:38:16,873] [INFO] apk_report_run.py:84 [9a86ab46160a5cacd7df2f3932b48262:begin to decode apk]
+[2016-12-08 00:38:21,644] [INFO] apk_report_run.py:87 [9a86ab46160a5cacd7df2f3932b48262:begin to generate data for apk_report_yyyymm]
+[2016-12-08 00:38:22,588] [INFO] apk_report_run.py:90 [9a86ab46160a5cacd7df2f3932b48262:begin to upload data to apk_report_yyyymm]
+[2016-12-08 00:38:22,758] [INFO] apk_report_run.py:92 [9a86ab46160a5cacd7df2f3932b48262:begin to generate data for apk_resource]
+[2016-12-08 00:38:22,796] [INFO] apk_report_run.py:95 [9a86ab46160a5cacd7df2f3932b48262:begin to upload data to apk_resource]
+[2016-12-08 00:38:23,385] [INFO] apk_report_run.py:97 [9a86ab46160a5cacd7df2f3932b48262:begin to generate data for apk_basic_info]
+[2016-12-08 00:38:23,933] [INFO] apk_report_run.py:100 [9a86ab46160a5cacd7df2f3932b48262:begin to upload data to apk_basic_info]
+[2016-12-08 00:38:24,091] [INFO] apk_report_run.py:105 [9a86ab46160a5cacd7df2f3932b48262:-------finish---------]
+[2016-12-08 00:38:24,568] [INFO] apk_report_run.py:84 [df967924043637e25f91f02b790b36df:begin to decode apk]
+[2016-12-08 00:38:53,109] [INFO] apk_report_run.py:87 [df967924043637e25f91f02b790b36df:begin to generate data for apk_report_yyyymm]
+[2016-12-08 00:39:35,601] [INFO] apk_report_run.py:90 [df967924043637e25f91f02b790b36df:begin to upload data to apk_report_yyyymm]
+[2016-12-08 00:39:35,807] [INFO] apk_report_run.py:92 [df967924043637e25f91f02b790b36df:begin to generate data for apk_resource]
+[2016-12-08 00:39:35,980] [INFO] apk_report_run.py:95 [df967924043637e25f91f02b790b36df:begin to upload data to apk_resource]
+[2016-12-08 00:39:35,999] [INFO] apk_report_run.py:97 [df967924043637e25f91f02b790b36df:begin to generate data for apk_basic_info]
+[2016-12-08 00:39:37,935] [INFO] apk_report_run.py:100 [df967924043637e25f91f02b790b36df:begin to upload data to apk_basic_info]
+[2016-12-08 00:39:38,090] [INFO] apk_report_run.py:105 [df967924043637e25f91f02b790b36df:-------finish---------]
+[2016-12-08 00:39:38,163] [INFO] apk_report_run.py:84 [9a72544d642e8eaecbf3194b0ae9cc16:begin to decode apk]
+[2016-12-08 00:39:53,307] [INFO] apk_report_run.py:87 [9a72544d642e8eaecbf3194b0ae9cc16:begin to generate data for apk_report_yyyymm]
+[2016-12-08 00:40:07,188] [INFO] apk_report_run.py:90 [9a72544d642e8eaecbf3194b0ae9cc16:begin to upload data to apk_report_yyyymm]
+[2016-12-08 00:40:07,358] [INFO] apk_report_run.py:92 [9a72544d642e8eaecbf3194b0ae9cc16:begin to generate data for apk_resource]
+[2016-12-08 00:40:07,387] [INFO] apk_report_run.py:95 [9a72544d642e8eaecbf3194b0ae9cc16:begin to upload data to apk_resource]
+[2016-12-08 00:40:07,492] [INFO] apk_report_run.py:97 [9a72544d642e8eaecbf3194b0ae9cc16:begin to generate data for apk_basic_info]
+[2016-12-08 00:40:38,275] [INFO] apk_report_run.py:100 [9a72544d642e8eaecbf3194b0ae9cc16:begin to upload data to apk_basic_info]
+[2016-12-08 00:40:38,439] [INFO] apk_report_run.py:105 [9a72544d642e8eaecbf3194b0ae9cc16:-------finish---------]
+[2016-12-08 00:40:38,576] [INFO] apk_report_run.py:84 [f139361e8597e28b802fb1323e47eef9:begin to decode apk]
+[2016-12-08 00:40:39,305] [INFO] apk_report_run.py:87 [f139361e8597e28b802fb1323e47eef9:begin to generate data for apk_report_yyyymm]
+[2016-12-08 00:40:39,331] [ERROR] apk_report_run.py:111 f139361e8597e28b802fb1323e47eef9
+Traceback (most recent call last):
+  File "apk_report_run.py", line 89, in apk_analyze_run
+    apk_report.run()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 53, in run
+    self.parser_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 45, in parser_xml
+    obj2 = XmlParser(self.apk_path,self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 16, in __init__
+    self.get_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 20, in get_xml
+    obj = APK(self.apk_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/axmlparserpy/apk.py", line 65, in __init__
+    self.zip = zipfile.ZipFile(StringIO.StringIO(self.__raw))
+  File "/usr/local/python27/lib/python2.7/zipfile.py", line 766, in __init__
+    self._RealGetContents()
+  File "/usr/local/python27/lib/python2.7/zipfile.py", line 807, in _RealGetContents
+    raise BadZipfile, "File is not a zip file"
+BadZipfile: File is not a zip file
+[2016-12-08 00:40:39,359] [INFO] apk_report_run.py:84 [8fd824ecc9a76cd262169410d5fcd823:begin to decode apk]
+[2016-12-08 00:40:53,681] [INFO] apk_report_run.py:87 [8fd824ecc9a76cd262169410d5fcd823:begin to generate data for apk_report_yyyymm]
+[2016-12-08 00:41:07,722] [INFO] apk_report_run.py:90 [8fd824ecc9a76cd262169410d5fcd823:begin to upload data to apk_report_yyyymm]
+[2016-12-08 00:41:07,899] [INFO] apk_report_run.py:92 [8fd824ecc9a76cd262169410d5fcd823:begin to generate data for apk_resource]
+[2016-12-08 00:41:07,930] [INFO] apk_report_run.py:95 [8fd824ecc9a76cd262169410d5fcd823:begin to upload data to apk_resource]
+[2016-12-08 00:41:08,018] [INFO] apk_report_run.py:97 [8fd824ecc9a76cd262169410d5fcd823:begin to generate data for apk_basic_info]
+[2016-12-08 00:41:08,961] [INFO] apk_report_run.py:100 [8fd824ecc9a76cd262169410d5fcd823:begin to upload data to apk_basic_info]
+[2016-12-08 00:41:09,120] [INFO] apk_report_run.py:105 [8fd824ecc9a76cd262169410d5fcd823:-------finish---------]
+[2016-12-08 00:41:09,156] [INFO] apk_report_run.py:84 [ccd480aad6fda544551adda8428b74c1:begin to decode apk]
+[2016-12-08 00:41:09,873] [INFO] apk_report_run.py:87 [ccd480aad6fda544551adda8428b74c1:begin to generate data for apk_report_yyyymm]
+[2016-12-08 00:41:09,891] [ERROR] apk_report_run.py:111 ccd480aad6fda544551adda8428b74c1
+Traceback (most recent call last):
+  File "apk_report_run.py", line 89, in apk_analyze_run
+    apk_report.run()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 53, in run
+    self.parser_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 45, in parser_xml
+    obj2 = XmlParser(self.apk_path,self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 16, in __init__
+    self.get_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 20, in get_xml
+    obj = APK(self.apk_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/axmlparserpy/apk.py", line 65, in __init__
+    self.zip = zipfile.ZipFile(StringIO.StringIO(self.__raw))
+  File "/usr/local/python27/lib/python2.7/zipfile.py", line 766, in __init__
+    self._RealGetContents()
+  File "/usr/local/python27/lib/python2.7/zipfile.py", line 807, in _RealGetContents
+    raise BadZipfile, "File is not a zip file"
+BadZipfile: File is not a zip file
+[2016-12-08 00:41:09,932] [INFO] apk_report_run.py:84 [ab65cb68092dd51040ede3c37a1d2463:begin to decode apk]
+[2016-12-08 00:41:25,519] [INFO] apk_report_run.py:87 [ab65cb68092dd51040ede3c37a1d2463:begin to generate data for apk_report_yyyymm]
+[2016-12-08 00:41:39,563] [INFO] apk_report_run.py:90 [ab65cb68092dd51040ede3c37a1d2463:begin to upload data to apk_report_yyyymm]
+[2016-12-08 00:41:39,745] [INFO] apk_report_run.py:92 [ab65cb68092dd51040ede3c37a1d2463:begin to generate data for apk_resource]
+[2016-12-08 00:41:39,774] [INFO] apk_report_run.py:95 [ab65cb68092dd51040ede3c37a1d2463:begin to upload data to apk_resource]
+[2016-12-08 00:41:39,849] [INFO] apk_report_run.py:97 [ab65cb68092dd51040ede3c37a1d2463:begin to generate data for apk_basic_info]
+[2016-12-08 00:41:40,213] [INFO] apk_report_run.py:100 [ab65cb68092dd51040ede3c37a1d2463:begin to upload data to apk_basic_info]
+[2016-12-08 00:41:40,371] [INFO] apk_report_run.py:105 [ab65cb68092dd51040ede3c37a1d2463:-------finish---------]
+[2016-12-08 00:41:40,680] [INFO] apk_report_run.py:84 [899b9a0f8cf8fe63bddc609c5ddde342:begin to decode apk]
+[2016-12-08 00:43:08,427] [INFO] apk_report_run.py:87 [899b9a0f8cf8fe63bddc609c5ddde342:begin to generate data for apk_report_yyyymm]
+[2016-12-08 00:49:04,706] [INFO] apk_report_run.py:90 [899b9a0f8cf8fe63bddc609c5ddde342:begin to upload data to apk_report_yyyymm]
+[2016-12-08 00:49:04,970] [INFO] apk_report_run.py:92 [899b9a0f8cf8fe63bddc609c5ddde342:begin to generate data for apk_resource]
+[2016-12-08 00:49:05,703] [INFO] apk_report_run.py:95 [899b9a0f8cf8fe63bddc609c5ddde342:begin to upload data to apk_resource]
+[2016-12-08 00:49:05,721] [INFO] apk_report_run.py:97 [899b9a0f8cf8fe63bddc609c5ddde342:begin to generate data for apk_basic_info]
+[2016-12-08 00:49:08,415] [INFO] apk_report_run.py:100 [899b9a0f8cf8fe63bddc609c5ddde342:begin to upload data to apk_basic_info]
+[2016-12-08 00:49:08,580] [INFO] apk_report_run.py:105 [899b9a0f8cf8fe63bddc609c5ddde342:-------finish---------]
+[2016-12-08 00:49:08,795] [INFO] apk_report_run.py:84 [802a9fe7f295d4b9232b90d301ed99e4:begin to decode apk]
+[2016-12-08 00:49:23,483] [INFO] apk_report_run.py:87 [802a9fe7f295d4b9232b90d301ed99e4:begin to generate data for apk_report_yyyymm]
+[2016-12-08 00:49:37,542] [INFO] apk_report_run.py:90 [802a9fe7f295d4b9232b90d301ed99e4:begin to upload data to apk_report_yyyymm]
+[2016-12-08 00:49:37,760] [INFO] apk_report_run.py:92 [802a9fe7f295d4b9232b90d301ed99e4:begin to generate data for apk_resource]
+[2016-12-08 00:49:37,791] [INFO] apk_report_run.py:95 [802a9fe7f295d4b9232b90d301ed99e4:begin to upload data to apk_resource]
+[2016-12-08 00:49:37,873] [INFO] apk_report_run.py:97 [802a9fe7f295d4b9232b90d301ed99e4:begin to generate data for apk_basic_info]
+[2016-12-08 00:49:40,005] [INFO] apk_report_run.py:100 [802a9fe7f295d4b9232b90d301ed99e4:begin to upload data to apk_basic_info]
+[2016-12-08 00:49:40,154] [INFO] apk_report_run.py:105 [802a9fe7f295d4b9232b90d301ed99e4:-------finish---------]
+[2016-12-08 00:49:40,712] [INFO] apk_report_run.py:84 [7ed5383f257dda59fc2213b4fbabb609:begin to decode apk]
+[2016-12-08 00:51:11,108] [INFO] apk_report_run.py:87 [7ed5383f257dda59fc2213b4fbabb609:begin to generate data for apk_report_yyyymm]
+[2016-12-08 00:54:40,036] [INFO] apk_report_run.py:90 [7ed5383f257dda59fc2213b4fbabb609:begin to upload data to apk_report_yyyymm]
+[2016-12-08 00:54:40,241] [INFO] apk_report_run.py:92 [7ed5383f257dda59fc2213b4fbabb609:begin to generate data for apk_resource]
+[2016-12-08 00:54:40,767] [INFO] apk_report_run.py:95 [7ed5383f257dda59fc2213b4fbabb609:begin to upload data to apk_resource]
+[2016-12-08 00:54:40,780] [INFO] apk_report_run.py:97 [7ed5383f257dda59fc2213b4fbabb609:begin to generate data for apk_basic_info]
+[2016-12-08 00:54:42,138] [INFO] apk_report_run.py:100 [7ed5383f257dda59fc2213b4fbabb609:begin to upload data to apk_basic_info]
+[2016-12-08 00:54:42,299] [INFO] apk_report_run.py:105 [7ed5383f257dda59fc2213b4fbabb609:-------finish---------]
+[2016-12-08 00:54:42,776] [INFO] apk_report_run.py:84 [9bfc25c64c6e3aafe383951f60b3b8eb:begin to decode apk]
+[2016-12-08 00:57:16,770] [INFO] apk_report_run.py:87 [9bfc25c64c6e3aafe383951f60b3b8eb:begin to generate data for apk_report_yyyymm]
+[2016-12-08 01:02:21,849] [INFO] apk_report_run.py:90 [9bfc25c64c6e3aafe383951f60b3b8eb:begin to upload data to apk_report_yyyymm]
+[2016-12-08 01:02:22,166] [INFO] apk_report_run.py:92 [9bfc25c64c6e3aafe383951f60b3b8eb:begin to generate data for apk_resource]
+[2016-12-08 01:02:23,278] [INFO] apk_report_run.py:95 [9bfc25c64c6e3aafe383951f60b3b8eb:begin to upload data to apk_resource]
+[2016-12-08 01:02:23,304] [INFO] apk_report_run.py:97 [9bfc25c64c6e3aafe383951f60b3b8eb:begin to generate data for apk_basic_info]
+[2016-12-08 01:02:25,950] [INFO] apk_report_run.py:100 [9bfc25c64c6e3aafe383951f60b3b8eb:begin to upload data to apk_basic_info]
+[2016-12-08 01:02:26,144] [INFO] apk_report_run.py:105 [9bfc25c64c6e3aafe383951f60b3b8eb:-------finish---------]
+[2016-12-08 01:02:26,553] [INFO] apk_report_run.py:84 [fbac0c8e544a8f7273da6d1ff74e496a:begin to decode apk]
+[2016-12-08 01:03:07,688] [INFO] apk_report_run.py:87 [fbac0c8e544a8f7273da6d1ff74e496a:begin to generate data for apk_report_yyyymm]
+[2016-12-08 01:04:25,975] [INFO] apk_report_run.py:90 [fbac0c8e544a8f7273da6d1ff74e496a:begin to upload data to apk_report_yyyymm]
+[2016-12-08 01:04:26,210] [INFO] apk_report_run.py:92 [fbac0c8e544a8f7273da6d1ff74e496a:begin to generate data for apk_resource]
+[2016-12-08 01:04:26,384] [INFO] apk_report_run.py:95 [fbac0c8e544a8f7273da6d1ff74e496a:begin to upload data to apk_resource]
+[2016-12-08 01:04:27,025] [INFO] apk_report_run.py:97 [fbac0c8e544a8f7273da6d1ff74e496a:begin to generate data for apk_basic_info]
+[2016-12-08 01:04:58,799] [INFO] apk_report_run.py:100 [fbac0c8e544a8f7273da6d1ff74e496a:begin to upload data to apk_basic_info]
+[2016-12-08 01:04:58,983] [INFO] apk_report_run.py:105 [fbac0c8e544a8f7273da6d1ff74e496a:-------finish---------]
+[2016-12-08 01:04:59,056] [INFO] apk_report_run.py:84 [18076cdffcee54fb51bef51a5839d9d0:begin to decode apk]
+[2016-12-08 01:05:13,516] [INFO] apk_report_run.py:87 [18076cdffcee54fb51bef51a5839d9d0:begin to generate data for apk_report_yyyymm]
+[2016-12-08 01:05:27,920] [INFO] apk_report_run.py:90 [18076cdffcee54fb51bef51a5839d9d0:begin to upload data to apk_report_yyyymm]
+[2016-12-08 01:05:28,091] [INFO] apk_report_run.py:92 [18076cdffcee54fb51bef51a5839d9d0:begin to generate data for apk_resource]
+[2016-12-08 01:05:28,121] [INFO] apk_report_run.py:95 [18076cdffcee54fb51bef51a5839d9d0:begin to upload data to apk_resource]
+[2016-12-08 01:05:28,250] [INFO] apk_report_run.py:97 [18076cdffcee54fb51bef51a5839d9d0:begin to generate data for apk_basic_info]
+[2016-12-08 01:05:59,296] [INFO] apk_report_run.py:100 [18076cdffcee54fb51bef51a5839d9d0:begin to upload data to apk_basic_info]
+[2016-12-08 01:05:59,469] [INFO] apk_report_run.py:105 [18076cdffcee54fb51bef51a5839d9d0:-------finish---------]
+[2016-12-08 01:05:59,760] [INFO] apk_report_run.py:84 [5dc0bee60112ba2d4d8efb697e9093a0:begin to decode apk]
+[2016-12-08 01:06:08,344] [INFO] apk_report_run.py:87 [5dc0bee60112ba2d4d8efb697e9093a0:begin to generate data for apk_report_yyyymm]
+[2016-12-08 01:06:09,105] [INFO] apk_report_run.py:90 [5dc0bee60112ba2d4d8efb697e9093a0:begin to upload data to apk_report_yyyymm]
+[2016-12-08 01:06:09,257] [INFO] apk_report_run.py:92 [5dc0bee60112ba2d4d8efb697e9093a0:begin to generate data for apk_resource]
+[2016-12-08 01:06:09,284] [INFO] apk_report_run.py:95 [5dc0bee60112ba2d4d8efb697e9093a0:begin to upload data to apk_resource]
+[2016-12-08 01:06:09,664] [INFO] apk_report_run.py:97 [5dc0bee60112ba2d4d8efb697e9093a0:begin to generate data for apk_basic_info]
+[2016-12-08 01:06:09,963] [ERROR] apk_report_run.py:111 5dc0bee60112ba2d4d8efb697e9093a0
+Traceback (most recent call last):
+  File "apk_report_run.py", line 99, in apk_analyze_run
+    apk_basic_obj.basic_info_collect()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/basic_info_sort.py", line 56, in basic_info_collect
+    min_sdk,fit_sdk = apk_sdk_obj.parserSdkVersion()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 134, in parserSdkVersion
+    tarSdkVersion = v.split('\"')[3]
+IndexError: list index out of range
+[2016-12-08 01:06:09,988] [INFO] apk_report_run.py:84 [97082f995f0de0220825829d40f31cc0:begin to decode apk]
+[2016-12-08 01:06:24,879] [INFO] apk_report_run.py:87 [97082f995f0de0220825829d40f31cc0:begin to generate data for apk_report_yyyymm]
+[2016-12-08 01:06:38,899] [INFO] apk_report_run.py:90 [97082f995f0de0220825829d40f31cc0:begin to upload data to apk_report_yyyymm]
+[2016-12-08 01:06:39,073] [INFO] apk_report_run.py:92 [97082f995f0de0220825829d40f31cc0:begin to generate data for apk_resource]
+[2016-12-08 01:06:39,105] [INFO] apk_report_run.py:95 [97082f995f0de0220825829d40f31cc0:begin to upload data to apk_resource]
+[2016-12-08 01:06:39,202] [INFO] apk_report_run.py:97 [97082f995f0de0220825829d40f31cc0:begin to generate data for apk_basic_info]
+[2016-12-08 01:06:40,465] [INFO] apk_report_run.py:100 [97082f995f0de0220825829d40f31cc0:begin to upload data to apk_basic_info]
+[2016-12-08 01:06:40,627] [INFO] apk_report_run.py:105 [97082f995f0de0220825829d40f31cc0:-------finish---------]
+[2016-12-08 01:06:42,398] [INFO] apk_report_run.py:84 [2f22050b637d96de9473258b39ec7dd0:begin to decode apk]
+[2016-12-08 01:06:49,739] [INFO] apk_report_run.py:87 [2f22050b637d96de9473258b39ec7dd0:begin to generate data for apk_report_yyyymm]
+[2016-12-08 01:06:58,321] [INFO] apk_report_run.py:90 [2f22050b637d96de9473258b39ec7dd0:begin to upload data to apk_report_yyyymm]
+[2016-12-08 01:06:58,528] [INFO] apk_report_run.py:92 [2f22050b637d96de9473258b39ec7dd0:begin to generate data for apk_resource]
+[2016-12-08 01:06:58,565] [INFO] apk_report_run.py:95 [2f22050b637d96de9473258b39ec7dd0:begin to upload data to apk_resource]
+[2016-12-08 01:06:58,669] [INFO] apk_report_run.py:97 [2f22050b637d96de9473258b39ec7dd0:begin to generate data for apk_basic_info]
+[2016-12-08 01:07:03,126] [INFO] apk_report_run.py:100 [2f22050b637d96de9473258b39ec7dd0:begin to upload data to apk_basic_info]
+[2016-12-08 01:07:03,295] [INFO] apk_report_run.py:105 [2f22050b637d96de9473258b39ec7dd0:-------finish---------]
+[2016-12-08 01:07:03,338] [INFO] apk_report_run.py:84 [67846b1c64524be5192e3d8a5571cd35:begin to decode apk]
+[2016-12-08 01:07:17,379] [INFO] apk_report_run.py:87 [67846b1c64524be5192e3d8a5571cd35:begin to generate data for apk_report_yyyymm]
+[2016-12-08 01:07:31,654] [INFO] apk_report_run.py:90 [67846b1c64524be5192e3d8a5571cd35:begin to upload data to apk_report_yyyymm]
+[2016-12-08 01:07:31,853] [INFO] apk_report_run.py:92 [67846b1c64524be5192e3d8a5571cd35:begin to generate data for apk_resource]
+[2016-12-08 01:07:31,884] [INFO] apk_report_run.py:95 [67846b1c64524be5192e3d8a5571cd35:begin to upload data to apk_resource]
+[2016-12-08 01:07:31,991] [INFO] apk_report_run.py:97 [67846b1c64524be5192e3d8a5571cd35:begin to generate data for apk_basic_info]
+[2016-12-08 01:07:32,646] [INFO] apk_report_run.py:100 [67846b1c64524be5192e3d8a5571cd35:begin to upload data to apk_basic_info]
+[2016-12-08 01:07:32,812] [INFO] apk_report_run.py:105 [67846b1c64524be5192e3d8a5571cd35:-------finish---------]
+[2016-12-08 01:07:33,469] [INFO] apk_report_run.py:84 [012413c9e8ccbee34d7543588ed89143:begin to decode apk]
+[2016-12-08 01:09:00,757] [INFO] apk_report_run.py:87 [012413c9e8ccbee34d7543588ed89143:begin to generate data for apk_report_yyyymm]
+[2016-12-08 01:19:39,130] [INFO] apk_report_run.py:90 [012413c9e8ccbee34d7543588ed89143:begin to upload data to apk_report_yyyymm]
+[2016-12-08 01:19:39,313] [INFO] apk_report_run.py:92 [012413c9e8ccbee34d7543588ed89143:begin to generate data for apk_resource]
+[2016-12-08 01:19:40,058] [INFO] apk_report_run.py:95 [012413c9e8ccbee34d7543588ed89143:begin to upload data to apk_resource]
+[2016-12-08 01:19:40,111] [INFO] apk_report_run.py:97 [012413c9e8ccbee34d7543588ed89143:begin to generate data for apk_basic_info]
+[2016-12-08 01:19:42,973] [INFO] apk_report_run.py:100 [012413c9e8ccbee34d7543588ed89143:begin to upload data to apk_basic_info]
+[2016-12-08 01:19:43,124] [INFO] apk_report_run.py:105 [012413c9e8ccbee34d7543588ed89143:-------finish---------]
+[2016-12-08 01:19:43,353] [INFO] apk_report_run.py:84 [f3a657b672548f80351f6d52f4ce81cf:begin to decode apk]
+[2016-12-08 01:19:57,525] [INFO] apk_report_run.py:87 [f3a657b672548f80351f6d52f4ce81cf:begin to generate data for apk_report_yyyymm]
+[2016-12-08 01:20:11,713] [INFO] apk_report_run.py:90 [f3a657b672548f80351f6d52f4ce81cf:begin to upload data to apk_report_yyyymm]
+[2016-12-08 01:20:11,882] [INFO] apk_report_run.py:92 [f3a657b672548f80351f6d52f4ce81cf:begin to generate data for apk_resource]
+[2016-12-08 01:20:11,914] [INFO] apk_report_run.py:95 [f3a657b672548f80351f6d52f4ce81cf:begin to upload data to apk_resource]
+[2016-12-08 01:20:12,016] [INFO] apk_report_run.py:97 [f3a657b672548f80351f6d52f4ce81cf:begin to generate data for apk_basic_info]
+[2016-12-08 01:20:42,633] [INFO] apk_report_run.py:100 [f3a657b672548f80351f6d52f4ce81cf:begin to upload data to apk_basic_info]
+[2016-12-08 01:20:42,813] [INFO] apk_report_run.py:105 [f3a657b672548f80351f6d52f4ce81cf:-------finish---------]
+[2016-12-08 01:20:43,568] [INFO] apk_report_run.py:84 [fd86fa1145030bec819afdd68b302c73:begin to decode apk]
+[2016-12-08 01:24:54,865] [INFO] apk_report_run.py:87 [fd86fa1145030bec819afdd68b302c73:begin to generate data for apk_report_yyyymm]
+[2016-12-08 01:59:50,141] [INFO] apk_report_run.py:90 [fd86fa1145030bec819afdd68b302c73:begin to upload data to apk_report_yyyymm]
+[2016-12-08 01:59:50,600] [INFO] apk_report_run.py:92 [fd86fa1145030bec819afdd68b302c73:begin to generate data for apk_resource]
+[2016-12-08 01:59:52,991] [INFO] apk_report_run.py:95 [fd86fa1145030bec819afdd68b302c73:begin to upload data to apk_resource]
+[2016-12-08 01:59:53,291] [INFO] apk_report_run.py:97 [fd86fa1145030bec819afdd68b302c73:begin to generate data for apk_basic_info]
+[2016-12-08 01:59:58,544] [INFO] apk_report_run.py:100 [fd86fa1145030bec819afdd68b302c73:begin to upload data to apk_basic_info]
+[2016-12-08 01:59:58,729] [INFO] apk_report_run.py:105 [fd86fa1145030bec819afdd68b302c73:-------finish---------]
+[2016-12-08 01:59:59,510] [INFO] apk_report_run.py:84 [597a19780e2aceafaf607b063580df08:begin to decode apk]
+[2016-12-08 02:00:16,565] [INFO] apk_report_run.py:87 [597a19780e2aceafaf607b063580df08:begin to generate data for apk_report_yyyymm]
+[2016-12-08 02:00:30,249] [INFO] apk_report_run.py:90 [597a19780e2aceafaf607b063580df08:begin to upload data to apk_report_yyyymm]
+[2016-12-08 02:00:30,481] [INFO] apk_report_run.py:92 [597a19780e2aceafaf607b063580df08:begin to generate data for apk_resource]
+[2016-12-08 02:00:30,511] [INFO] apk_report_run.py:95 [597a19780e2aceafaf607b063580df08:begin to upload data to apk_resource]
+[2016-12-08 02:00:30,636] [INFO] apk_report_run.py:97 [597a19780e2aceafaf607b063580df08:begin to generate data for apk_basic_info]
+[2016-12-08 02:01:01,988] [INFO] apk_report_run.py:100 [597a19780e2aceafaf607b063580df08:begin to upload data to apk_basic_info]
+[2016-12-08 02:01:02,257] [INFO] apk_report_run.py:105 [597a19780e2aceafaf607b063580df08:-------finish---------]
+[2016-12-08 02:01:02,455] [INFO] apk_report_run.py:84 [e95903352510b5595c5240ab5e065257:begin to decode apk]
+[2016-12-08 02:01:17,103] [INFO] apk_report_run.py:87 [e95903352510b5595c5240ab5e065257:begin to generate data for apk_report_yyyymm]
+[2016-12-08 02:01:18,781] [INFO] apk_report_run.py:90 [e95903352510b5595c5240ab5e065257:begin to upload data to apk_report_yyyymm]
+[2016-12-08 02:01:18,897] [INFO] apk_report_run.py:92 [e95903352510b5595c5240ab5e065257:begin to generate data for apk_resource]
+[2016-12-08 02:01:18,992] [INFO] apk_report_run.py:95 [e95903352510b5595c5240ab5e065257:begin to upload data to apk_resource]
+[2016-12-08 02:01:19,007] [INFO] apk_report_run.py:97 [e95903352510b5595c5240ab5e065257:begin to generate data for apk_basic_info]
+[2016-12-08 02:01:19,824] [INFO] apk_report_run.py:100 [e95903352510b5595c5240ab5e065257:begin to upload data to apk_basic_info]
+[2016-12-08 02:01:19,968] [INFO] apk_report_run.py:105 [e95903352510b5595c5240ab5e065257:-------finish---------]
+[2016-12-08 02:01:20,538] [INFO] apk_report_run.py:84 [8a403fd3f31144ad40afb7b1d71ee73c:begin to decode apk]
+[2016-12-08 02:04:52,918] [INFO] apk_report_run.py:87 [8a403fd3f31144ad40afb7b1d71ee73c:begin to generate data for apk_report_yyyymm]
+[2016-12-08 02:22:57,551] [INFO] apk_report_run.py:90 [8a403fd3f31144ad40afb7b1d71ee73c:begin to upload data to apk_report_yyyymm]
+[2016-12-08 02:22:57,984] [INFO] apk_report_run.py:92 [8a403fd3f31144ad40afb7b1d71ee73c:begin to generate data for apk_resource]
+[2016-12-08 02:22:59,565] [INFO] apk_report_run.py:95 [8a403fd3f31144ad40afb7b1d71ee73c:begin to upload data to apk_resource]
+[2016-12-08 02:22:59,614] [INFO] apk_report_run.py:97 [8a403fd3f31144ad40afb7b1d71ee73c:begin to generate data for apk_basic_info]
+[2016-12-08 02:23:03,309] [INFO] apk_report_run.py:100 [8a403fd3f31144ad40afb7b1d71ee73c:begin to upload data to apk_basic_info]
+[2016-12-08 02:23:03,509] [INFO] apk_report_run.py:105 [8a403fd3f31144ad40afb7b1d71ee73c:-------finish---------]
+[2016-12-08 02:23:04,099] [INFO] apk_report_run.py:84 [7ca2b30470edc579b6676f29bc5a5244:begin to decode apk]
+[2016-12-08 02:24:02,976] [INFO] apk_report_run.py:87 [7ca2b30470edc579b6676f29bc5a5244:begin to generate data for apk_report_yyyymm]
+[2016-12-08 02:27:48,263] [INFO] apk_report_run.py:90 [7ca2b30470edc579b6676f29bc5a5244:begin to upload data to apk_report_yyyymm]
+[2016-12-08 02:27:48,656] [INFO] apk_report_run.py:92 [7ca2b30470edc579b6676f29bc5a5244:begin to generate data for apk_resource]
+[2016-12-08 02:27:48,952] [INFO] apk_report_run.py:95 [7ca2b30470edc579b6676f29bc5a5244:begin to upload data to apk_resource]
+[2016-12-08 02:27:49,649] [INFO] apk_report_run.py:97 [7ca2b30470edc579b6676f29bc5a5244:begin to generate data for apk_basic_info]
+[2016-12-08 02:27:50,357] [ERROR] apk_report_run.py:111 7ca2b30470edc579b6676f29bc5a5244
+Traceback (most recent call last):
+  File "apk_report_run.py", line 99, in apk_analyze_run
+    apk_basic_obj.basic_info_collect()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/basic_info_sort.py", line 56, in basic_info_collect
+    min_sdk,fit_sdk = apk_sdk_obj.parserSdkVersion()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 134, in parserSdkVersion
+    tarSdkVersion = v.split('\"')[3]
+IndexError: list index out of range
+[2016-12-08 02:27:50,430] [INFO] apk_report_run.py:84 [bc5703b00af3d43db88c9b11d9c85c85:begin to decode apk]
+[2016-12-08 02:28:06,890] [INFO] apk_report_run.py:87 [bc5703b00af3d43db88c9b11d9c85c85:begin to generate data for apk_report_yyyymm]
+[2016-12-08 02:28:20,896] [INFO] apk_report_run.py:90 [bc5703b00af3d43db88c9b11d9c85c85:begin to upload data to apk_report_yyyymm]
+[2016-12-08 02:28:21,097] [INFO] apk_report_run.py:92 [bc5703b00af3d43db88c9b11d9c85c85:begin to generate data for apk_resource]
+[2016-12-08 02:28:21,128] [INFO] apk_report_run.py:95 [bc5703b00af3d43db88c9b11d9c85c85:begin to upload data to apk_resource]
+[2016-12-08 02:28:21,237] [INFO] apk_report_run.py:97 [bc5703b00af3d43db88c9b11d9c85c85:begin to generate data for apk_basic_info]
+[2016-12-08 02:28:23,489] [INFO] apk_report_run.py:100 [bc5703b00af3d43db88c9b11d9c85c85:begin to upload data to apk_basic_info]
+[2016-12-08 02:28:23,747] [INFO] apk_report_run.py:105 [bc5703b00af3d43db88c9b11d9c85c85:-------finish---------]
+[2016-12-08 02:28:23,792] [INFO] apk_report_run.py:84 [e148766259e375d18cd2a262969b9f05:begin to decode apk]
+[2016-12-08 02:28:37,773] [INFO] apk_report_run.py:87 [e148766259e375d18cd2a262969b9f05:begin to generate data for apk_report_yyyymm]
+[2016-12-08 02:28:51,456] [INFO] apk_report_run.py:90 [e148766259e375d18cd2a262969b9f05:begin to upload data to apk_report_yyyymm]
+[2016-12-08 02:28:51,650] [INFO] apk_report_run.py:92 [e148766259e375d18cd2a262969b9f05:begin to generate data for apk_resource]
+[2016-12-08 02:28:51,680] [INFO] apk_report_run.py:95 [e148766259e375d18cd2a262969b9f05:begin to upload data to apk_resource]
+[2016-12-08 02:28:51,757] [INFO] apk_report_run.py:97 [e148766259e375d18cd2a262969b9f05:begin to generate data for apk_basic_info]
+[2016-12-08 02:28:51,967] [INFO] apk_report_run.py:100 [e148766259e375d18cd2a262969b9f05:begin to upload data to apk_basic_info]
+[2016-12-08 02:28:52,121] [INFO] apk_report_run.py:105 [e148766259e375d18cd2a262969b9f05:-------finish---------]
+[2016-12-08 02:28:52,216] [INFO] apk_report_run.py:84 [154b4dc57e1a9079179f6b24b6f52941:begin to decode apk]
+[2016-12-08 02:28:52,926] [INFO] apk_report_run.py:87 [154b4dc57e1a9079179f6b24b6f52941:begin to generate data for apk_report_yyyymm]
+[2016-12-08 02:28:52,945] [ERROR] apk_report_run.py:111 154b4dc57e1a9079179f6b24b6f52941
+Traceback (most recent call last):
+  File "apk_report_run.py", line 89, in apk_analyze_run
+    apk_report.run()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 53, in run
+    self.parser_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 45, in parser_xml
+    obj2 = XmlParser(self.apk_path,self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 16, in __init__
+    self.get_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 20, in get_xml
+    obj = APK(self.apk_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/axmlparserpy/apk.py", line 65, in __init__
+    self.zip = zipfile.ZipFile(StringIO.StringIO(self.__raw))
+  File "/usr/local/python27/lib/python2.7/zipfile.py", line 766, in __init__
+    self._RealGetContents()
+  File "/usr/local/python27/lib/python2.7/zipfile.py", line 807, in _RealGetContents
+    raise BadZipfile, "File is not a zip file"
+BadZipfile: File is not a zip file
+[2016-12-08 02:28:53,372] [INFO] apk_report_run.py:84 [0f4569bbbfd6bab5ccc936908e06193f:begin to decode apk]
+[2016-12-08 02:29:21,417] [INFO] apk_report_run.py:87 [0f4569bbbfd6bab5ccc936908e06193f:begin to generate data for apk_report_yyyymm]
+[2016-12-08 02:29:23,851] [INFO] apk_report_run.py:90 [0f4569bbbfd6bab5ccc936908e06193f:begin to upload data to apk_report_yyyymm]
+[2016-12-08 02:29:24,036] [INFO] apk_report_run.py:92 [0f4569bbbfd6bab5ccc936908e06193f:begin to generate data for apk_resource]
+[2016-12-08 02:29:24,168] [INFO] apk_report_run.py:95 [0f4569bbbfd6bab5ccc936908e06193f:begin to upload data to apk_resource]
+[2016-12-08 02:29:24,188] [INFO] apk_report_run.py:97 [0f4569bbbfd6bab5ccc936908e06193f:begin to generate data for apk_basic_info]
+[2016-12-08 02:29:26,982] [INFO] apk_report_run.py:100 [0f4569bbbfd6bab5ccc936908e06193f:begin to upload data to apk_basic_info]
+[2016-12-08 02:29:27,161] [INFO] apk_report_run.py:105 [0f4569bbbfd6bab5ccc936908e06193f:-------finish---------]
+[2016-12-08 02:29:30,145] [INFO] apk_report_run.py:77 [c52c29d5741812e7b5fc36205464fc04:update last_update]
+[2016-12-08 02:29:30,618] [INFO] apk_report_run.py:77 [9bfc25c64c6e3aafe383951f60b3b8eb:update last_update]
+[2016-12-08 02:29:31,225] [INFO] apk_report_run.py:77 [279d3694219d100c8c4ae374c0d16fba:update last_update]
+[2016-12-08 02:29:31,821] [INFO] apk_report_run.py:77 [29b95ff530c038fd9632c8d1eef79e20:update last_update]
+[2016-12-08 02:29:32,300] [INFO] apk_report_run.py:84 [42775ebd60e861acbaa67ecf09bdb4c3:begin to decode apk]
+[2016-12-08 02:31:52,542] [INFO] apk_report_run.py:87 [42775ebd60e861acbaa67ecf09bdb4c3:begin to generate data for apk_report_yyyymm]
+[2016-12-08 04:56:14,002] [ERROR] apk_report_run.py:111 42775ebd60e861acbaa67ecf09bdb4c3
+Traceback (most recent call last):
+  File "apk_report_run.py", line 89, in apk_analyze_run
+    apk_report.run()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 53, in run
+    self.parser_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 45, in parser_xml
+    obj2 = XmlParser(self.apk_path,self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 16, in __init__
+    self.get_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 20, in get_xml
+    obj = APK(self.apk_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/axmlparserpy/apk.py", line 72, in __init__
+    self.xml[i] = minidom.parseString(AXMLPrinter(self.zip.read(i)).getBuff())
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/axmlparserpy/axmlprinter.py", line 37, in __init__
+    _type = self.axml.next()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/axmlparserpy/axmlparser.py", line 59, in next
+    self.doNext()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/axmlparserpy/axmlparser.py", line 99, in doNext
+    raise("ooo")
+TypeError: exceptions must be old-style classes or derived from BaseException, not str
+[2016-12-08 04:56:14,064] [INFO] apk_report_run.py:84 [592b13fa09b5cac0c260b4d453af5b8c:begin to decode apk]
+[2016-12-08 04:56:27,863] [INFO] apk_report_run.py:87 [592b13fa09b5cac0c260b4d453af5b8c:begin to generate data for apk_report_yyyymm]
+[2016-12-08 04:56:41,794] [INFO] apk_report_run.py:90 [592b13fa09b5cac0c260b4d453af5b8c:begin to upload data to apk_report_yyyymm]
+[2016-12-08 04:56:42,177] [INFO] apk_report_run.py:92 [592b13fa09b5cac0c260b4d453af5b8c:begin to generate data for apk_resource]
+[2016-12-08 04:56:42,207] [INFO] apk_report_run.py:95 [592b13fa09b5cac0c260b4d453af5b8c:begin to upload data to apk_resource]
+[2016-12-08 04:56:42,356] [INFO] apk_report_run.py:97 [592b13fa09b5cac0c260b4d453af5b8c:begin to generate data for apk_basic_info]
+[2016-12-08 04:56:45,615] [INFO] apk_report_run.py:100 [592b13fa09b5cac0c260b4d453af5b8c:begin to upload data to apk_basic_info]
+[2016-12-08 04:56:45,838] [INFO] apk_report_run.py:105 [592b13fa09b5cac0c260b4d453af5b8c:-------finish---------]
+[2016-12-08 04:56:45,874] [INFO] apk_report_run.py:84 [89a71915dc765123b5815a1ca664c237:begin to decode apk]
+[2016-12-08 04:57:00,599] [INFO] apk_report_run.py:87 [89a71915dc765123b5815a1ca664c237:begin to generate data for apk_report_yyyymm]
+[2016-12-08 04:57:14,557] [INFO] apk_report_run.py:90 [89a71915dc765123b5815a1ca664c237:begin to upload data to apk_report_yyyymm]
+[2016-12-08 04:57:14,740] [INFO] apk_report_run.py:92 [89a71915dc765123b5815a1ca664c237:begin to generate data for apk_resource]
+[2016-12-08 04:57:14,769] [INFO] apk_report_run.py:95 [89a71915dc765123b5815a1ca664c237:begin to upload data to apk_resource]
+[2016-12-08 04:57:14,890] [INFO] apk_report_run.py:97 [89a71915dc765123b5815a1ca664c237:begin to generate data for apk_basic_info]
+[2016-12-08 04:57:16,274] [INFO] apk_report_run.py:100 [89a71915dc765123b5815a1ca664c237:begin to upload data to apk_basic_info]
+[2016-12-08 04:57:16,433] [INFO] apk_report_run.py:105 [89a71915dc765123b5815a1ca664c237:-------finish---------]
+[2016-12-08 04:57:16,661] [INFO] apk_report_run.py:77 [d85e1e9388fe6d1e696a2f13f3457ab4:update last_update]
+[2016-12-08 04:57:17,044] [INFO] apk_report_run.py:84 [88bf0840e8e8c1311eec6c7790840659:begin to decode apk]
+[2016-12-08 05:01:08,641] [INFO] apk_report_run.py:87 [88bf0840e8e8c1311eec6c7790840659:begin to generate data for apk_report_yyyymm]
+[2016-12-08 05:13:36,839] [INFO] apk_report_run.py:90 [88bf0840e8e8c1311eec6c7790840659:begin to upload data to apk_report_yyyymm]
+[2016-12-08 05:13:37,291] [INFO] apk_report_run.py:92 [88bf0840e8e8c1311eec6c7790840659:begin to generate data for apk_resource]
+[2016-12-08 05:13:39,006] [INFO] apk_report_run.py:95 [88bf0840e8e8c1311eec6c7790840659:begin to upload data to apk_resource]
+[2016-12-08 05:13:39,032] [INFO] apk_report_run.py:97 [88bf0840e8e8c1311eec6c7790840659:begin to generate data for apk_basic_info]
+[2016-12-08 05:13:41,952] [INFO] apk_report_run.py:100 [88bf0840e8e8c1311eec6c7790840659:begin to upload data to apk_basic_info]
+[2016-12-08 05:13:42,116] [INFO] apk_report_run.py:105 [88bf0840e8e8c1311eec6c7790840659:-------finish---------]
+[2016-12-08 05:13:42,662] [INFO] apk_report_run.py:77 [d4931241423aa8918665772f4e6b5085:update last_update]
+[2016-12-08 05:13:43,158] [INFO] apk_report_run.py:77 [af9a1dd8e0d7397f0bf600390d1f78d9:update last_update]
+[2016-12-08 05:13:43,271] [INFO] apk_report_run.py:84 [9df8fb9a9a0e90c13d336a31b581b74f:begin to decode apk]
+[2016-12-08 05:13:59,725] [INFO] apk_report_run.py:87 [9df8fb9a9a0e90c13d336a31b581b74f:begin to generate data for apk_report_yyyymm]
+[2016-12-08 05:14:13,438] [INFO] apk_report_run.py:90 [9df8fb9a9a0e90c13d336a31b581b74f:begin to upload data to apk_report_yyyymm]
+[2016-12-08 05:14:13,633] [INFO] apk_report_run.py:92 [9df8fb9a9a0e90c13d336a31b581b74f:begin to generate data for apk_resource]
+[2016-12-08 05:14:13,661] [INFO] apk_report_run.py:95 [9df8fb9a9a0e90c13d336a31b581b74f:begin to upload data to apk_resource]
+[2016-12-08 05:14:13,773] [INFO] apk_report_run.py:97 [9df8fb9a9a0e90c13d336a31b581b74f:begin to generate data for apk_basic_info]
+[2016-12-08 05:14:14,432] [INFO] apk_report_run.py:100 [9df8fb9a9a0e90c13d336a31b581b74f:begin to upload data to apk_basic_info]
+[2016-12-08 05:14:14,584] [INFO] apk_report_run.py:105 [9df8fb9a9a0e90c13d336a31b581b74f:-------finish---------]
+[2016-12-08 05:14:15,073] [INFO] apk_report_run.py:77 [7ed5383f257dda59fc2213b4fbabb609:update last_update]
+[2016-12-08 05:54:47,550] [INFO] apk_report_run.py:84 [39834607668e91010ff7388f0a427168:begin to decode apk]
+[2016-12-08 05:55:01,622] [INFO] apk_report_run.py:87 [39834607668e91010ff7388f0a427168:begin to generate data for apk_report_yyyymm]
+[2016-12-08 05:55:15,583] [INFO] apk_report_run.py:90 [39834607668e91010ff7388f0a427168:begin to upload data to apk_report_yyyymm]
+[2016-12-08 05:55:15,825] [INFO] apk_report_run.py:92 [39834607668e91010ff7388f0a427168:begin to generate data for apk_resource]
+[2016-12-08 05:55:15,854] [INFO] apk_report_run.py:95 [39834607668e91010ff7388f0a427168:begin to upload data to apk_resource]
+[2016-12-08 05:55:15,973] [INFO] apk_report_run.py:97 [39834607668e91010ff7388f0a427168:begin to generate data for apk_basic_info]
+[2016-12-08 05:55:46,322] [INFO] apk_report_run.py:100 [39834607668e91010ff7388f0a427168:begin to upload data to apk_basic_info]
+[2016-12-08 05:55:46,601] [INFO] apk_report_run.py:105 [39834607668e91010ff7388f0a427168:-------finish---------]
+[2016-12-08 06:40:02,440] [INFO] apk_report_run.py:84 [d85fb68e55c8ff304413f722b14cd779:begin to decode apk]
+[2016-12-08 06:40:18,406] [INFO] apk_report_run.py:87 [d85fb68e55c8ff304413f722b14cd779:begin to generate data for apk_report_yyyymm]
+[2016-12-08 06:40:32,367] [INFO] apk_report_run.py:90 [d85fb68e55c8ff304413f722b14cd779:begin to upload data to apk_report_yyyymm]
+[2016-12-08 06:40:32,666] [INFO] apk_report_run.py:92 [d85fb68e55c8ff304413f722b14cd779:begin to generate data for apk_resource]
+[2016-12-08 06:40:32,695] [INFO] apk_report_run.py:95 [d85fb68e55c8ff304413f722b14cd779:begin to upload data to apk_resource]
+[2016-12-08 06:40:32,860] [INFO] apk_report_run.py:97 [d85fb68e55c8ff304413f722b14cd779:begin to generate data for apk_basic_info]
+[2016-12-08 06:41:03,594] [INFO] apk_report_run.py:100 [d85fb68e55c8ff304413f722b14cd779:begin to upload data to apk_basic_info]
+[2016-12-08 06:41:03,858] [INFO] apk_report_run.py:105 [d85fb68e55c8ff304413f722b14cd779:-------finish---------]
+[2016-12-08 06:41:05,001] [INFO] apk_report_run.py:77 [d4931241423aa8918665772f4e6b5085:update last_update]
+[2016-12-08 07:22:49,153] [INFO] apk_report_run.py:84 [d0800aa69566e8909e86b25a3608b04a:begin to decode apk]
+[2016-12-08 07:23:05,033] [INFO] apk_report_run.py:87 [d0800aa69566e8909e86b25a3608b04a:begin to generate data for apk_report_yyyymm]
+[2016-12-08 07:23:19,204] [INFO] apk_report_run.py:90 [d0800aa69566e8909e86b25a3608b04a:begin to upload data to apk_report_yyyymm]
+[2016-12-08 07:23:19,449] [INFO] apk_report_run.py:92 [d0800aa69566e8909e86b25a3608b04a:begin to generate data for apk_resource]
+[2016-12-08 07:23:19,478] [INFO] apk_report_run.py:95 [d0800aa69566e8909e86b25a3608b04a:begin to upload data to apk_resource]
+[2016-12-08 07:23:19,623] [INFO] apk_report_run.py:97 [d0800aa69566e8909e86b25a3608b04a:begin to generate data for apk_basic_info]
+[2016-12-08 07:23:21,333] [INFO] apk_report_run.py:100 [d0800aa69566e8909e86b25a3608b04a:begin to upload data to apk_basic_info]
+[2016-12-08 07:23:21,526] [INFO] apk_report_run.py:105 [d0800aa69566e8909e86b25a3608b04a:-------finish---------]
+[2016-12-08 07:50:11,283] [INFO] apk_report_run.py:84 [3f3a9e5b56ec7189e56cf7f7aa6d92cf:begin to decode apk]
+[2016-12-08 07:50:54,574] [INFO] apk_report_run.py:87 [3f3a9e5b56ec7189e56cf7f7aa6d92cf:begin to generate data for apk_report_yyyymm]
+[2016-12-08 07:55:38,710] [INFO] apk_report_run.py:90 [3f3a9e5b56ec7189e56cf7f7aa6d92cf:begin to upload data to apk_report_yyyymm]
+[2016-12-08 07:55:38,933] [INFO] apk_report_run.py:92 [3f3a9e5b56ec7189e56cf7f7aa6d92cf:begin to generate data for apk_resource]
+[2016-12-08 07:55:39,150] [INFO] apk_report_run.py:95 [3f3a9e5b56ec7189e56cf7f7aa6d92cf:begin to upload data to apk_resource]
+[2016-12-08 07:55:40,038] [INFO] apk_report_run.py:97 [3f3a9e5b56ec7189e56cf7f7aa6d92cf:begin to generate data for apk_basic_info]
+[2016-12-08 07:56:16,745] [INFO] apk_report_run.py:100 [3f3a9e5b56ec7189e56cf7f7aa6d92cf:begin to upload data to apk_basic_info]
+[2016-12-08 07:56:16,993] [INFO] apk_report_run.py:105 [3f3a9e5b56ec7189e56cf7f7aa6d92cf:-------finish---------]
+[2016-12-08 08:17:34,855] [INFO] apk_report_run.py:77 [af9a1dd8e0d7397f0bf600390d1f78d9:update last_update]
+[2016-12-08 08:21:39,322] [INFO] apk_report_run.py:77 [9bfc25c64c6e3aafe383951f60b3b8eb:update last_update]
+[2016-12-08 08:31:02,797] [INFO] apk_report_run.py:77 [9df8fb9a9a0e90c13d336a31b581b74f:update last_update]
+[2016-12-08 08:31:04,053] [INFO] apk_report_run.py:77 [9a9221a5349274f7b2cb591fbaf285a7:update last_update]
+[2016-12-08 08:45:29,904] [INFO] apk_report_run.py:77 [0f4569bbbfd6bab5ccc936908e06193f:update last_update]
+[2016-12-08 08:50:19,784] [INFO] apk_report_run.py:77 [18076cdffcee54fb51bef51a5839d9d0:update last_update]
+[2016-12-08 08:59:45,345] [INFO] apk_report_run.py:77 [d3a745ea8cd31e2eeed647d01ae61c42:update last_update]
+[2016-12-08 09:13:33,155] [INFO] apk_report_run.py:84 [810ff14b0a85a9ded33fc9593c6be69f:begin to decode apk]
+[2016-12-08 09:13:52,647] [INFO] apk_report_run.py:87 [810ff14b0a85a9ded33fc9593c6be69f:begin to generate data for apk_report_yyyymm]
+[2016-12-08 09:14:07,280] [INFO] apk_report_run.py:90 [810ff14b0a85a9ded33fc9593c6be69f:begin to upload data to apk_report_yyyymm]
+[2016-12-08 09:14:07,546] [INFO] apk_report_run.py:92 [810ff14b0a85a9ded33fc9593c6be69f:begin to generate data for apk_resource]
+[2016-12-08 09:14:07,575] [INFO] apk_report_run.py:95 [810ff14b0a85a9ded33fc9593c6be69f:begin to upload data to apk_resource]
+[2016-12-08 09:14:07,727] [INFO] apk_report_run.py:97 [810ff14b0a85a9ded33fc9593c6be69f:begin to generate data for apk_basic_info]
+[2016-12-08 09:14:10,955] [INFO] apk_report_run.py:100 [810ff14b0a85a9ded33fc9593c6be69f:begin to upload data to apk_basic_info]
+[2016-12-08 09:14:11,157] [INFO] apk_report_run.py:105 [810ff14b0a85a9ded33fc9593c6be69f:-------finish---------]
+[2016-12-08 09:14:12,302] [INFO] apk_report_run.py:84 [8fab4a4e1340f5a9b2aa3ae56faa02b8:begin to decode apk]
+[2016-12-08 09:14:27,281] [INFO] apk_report_run.py:87 [8fab4a4e1340f5a9b2aa3ae56faa02b8:begin to generate data for apk_report_yyyymm]
+[2016-12-08 09:14:42,114] [INFO] apk_report_run.py:90 [8fab4a4e1340f5a9b2aa3ae56faa02b8:begin to upload data to apk_report_yyyymm]
+[2016-12-08 09:14:42,363] [INFO] apk_report_run.py:92 [8fab4a4e1340f5a9b2aa3ae56faa02b8:begin to generate data for apk_resource]
+[2016-12-08 09:14:42,393] [INFO] apk_report_run.py:95 [8fab4a4e1340f5a9b2aa3ae56faa02b8:begin to upload data to apk_resource]
+[2016-12-08 09:14:42,499] [INFO] apk_report_run.py:97 [8fab4a4e1340f5a9b2aa3ae56faa02b8:begin to generate data for apk_basic_info]
+[2016-12-08 09:15:13,082] [INFO] apk_report_run.py:100 [8fab4a4e1340f5a9b2aa3ae56faa02b8:begin to upload data to apk_basic_info]
+[2016-12-08 09:15:13,250] [INFO] apk_report_run.py:105 [8fab4a4e1340f5a9b2aa3ae56faa02b8:-------finish---------]
+[2016-12-08 09:31:20,710] [INFO] apk_report_run.py:77 [0f4569bbbfd6bab5ccc936908e06193f:update last_update]
+[2016-12-08 09:43:31,014] [INFO] apk_report_run.py:77 [d4931241423aa8918665772f4e6b5085:update last_update]
+[2016-12-08 09:44:16,203] [INFO] apk_report_run.py:77 [af9a1dd8e0d7397f0bf600390d1f78d9:update last_update]
+[2016-12-08 09:44:45,777] [INFO] apk_report_run.py:84 [ef8a5f0a130721304c5ea5d9914e566b:begin to decode apk]
+[2016-12-08 09:47:03,900] [INFO] apk_report_run.py:87 [ef8a5f0a130721304c5ea5d9914e566b:begin to generate data for apk_report_yyyymm]
+[2016-12-08 10:04:30,346] [INFO] apk_report_run.py:90 [ef8a5f0a130721304c5ea5d9914e566b:begin to upload data to apk_report_yyyymm]
+[2016-12-08 10:04:30,751] [INFO] apk_report_run.py:92 [ef8a5f0a130721304c5ea5d9914e566b:begin to generate data for apk_resource]
+[2016-12-08 10:04:31,418] [INFO] apk_report_run.py:95 [ef8a5f0a130721304c5ea5d9914e566b:begin to upload data to apk_resource]
+[2016-12-08 10:04:31,432] [INFO] apk_report_run.py:97 [ef8a5f0a130721304c5ea5d9914e566b:begin to generate data for apk_basic_info]
+[2016-12-08 10:04:38,638] [INFO] apk_report_run.py:100 [ef8a5f0a130721304c5ea5d9914e566b:begin to upload data to apk_basic_info]
+[2016-12-08 10:04:38,945] [INFO] apk_report_run.py:105 [ef8a5f0a130721304c5ea5d9914e566b:-------finish---------]
+[2016-12-08 10:04:40,303] [INFO] apk_report_run.py:77 [af9a1dd8e0d7397f0bf600390d1f78d9:update last_update]
+[2016-12-08 10:04:40,393] [INFO] apk_report_run.py:77 [d85fb68e55c8ff304413f722b14cd779:update last_update]
+[2016-12-08 10:22:45,066] [INFO] apk_report_run.py:77 [9a9221a5349274f7b2cb591fbaf285a7:update last_update]
+[2016-12-08 10:32:51,214] [INFO] apk_report_run.py:77 [279d3694219d100c8c4ae374c0d16fba:update last_update]
+[2016-12-08 10:32:54,806] [INFO] apk_report_run.py:77 [a4cff74df8efea9dff494c6994abd432:update last_update]
+[2016-12-08 10:32:59,505] [INFO] apk_report_run.py:77 [0f4569bbbfd6bab5ccc936908e06193f:update last_update]
+[2016-12-08 10:42:03,265] [INFO] apk_report_run.py:77 [88bf0840e8e8c1311eec6c7790840659:update last_update]
+[2016-12-08 10:42:06,901] [INFO] apk_report_run.py:77 [8fab4a4e1340f5a9b2aa3ae56faa02b8:update last_update]
+[2016-12-08 10:42:16,016] [INFO] apk_report_run.py:77 [af9a1dd8e0d7397f0bf600390d1f78d9:update last_update]
+[2016-12-08 10:51:21,621] [INFO] apk_report_run.py:77 [af9a1dd8e0d7397f0bf600390d1f78d9:update last_update]
+[2016-12-08 11:14:38,027] [INFO] apk_report_run.py:77 [0f4569bbbfd6bab5ccc936908e06193f:update last_update]
+[2016-12-08 11:19:23,506] [INFO] apk_report_run.py:84 [cde6644be952b60e275032278324ab77:begin to decode apk]
+[2016-12-08 11:19:38,854] [INFO] apk_report_run.py:87 [cde6644be952b60e275032278324ab77:begin to generate data for apk_report_yyyymm]
+[2016-12-08 11:19:52,824] [INFO] apk_report_run.py:90 [cde6644be952b60e275032278324ab77:begin to upload data to apk_report_yyyymm]
+[2016-12-08 11:19:53,109] [INFO] apk_report_run.py:92 [cde6644be952b60e275032278324ab77:begin to generate data for apk_resource]
+[2016-12-08 11:19:53,136] [INFO] apk_report_run.py:95 [cde6644be952b60e275032278324ab77:begin to upload data to apk_resource]
+[2016-12-08 11:19:53,278] [INFO] apk_report_run.py:97 [cde6644be952b60e275032278324ab77:begin to generate data for apk_basic_info]
+[2016-12-08 11:19:54,298] [INFO] apk_report_run.py:100 [cde6644be952b60e275032278324ab77:begin to upload data to apk_basic_info]
+[2016-12-08 11:19:54,485] [INFO] apk_report_run.py:105 [cde6644be952b60e275032278324ab77:-------finish---------]
+[2016-12-08 11:19:59,113] [INFO] apk_report_run.py:77 [9bfc25c64c6e3aafe383951f60b3b8eb:update last_update]
+[2016-12-08 11:45:38,989] [INFO] apk_report_run.py:77 [8a403fd3f31144ad40afb7b1d71ee73c:update last_update]
+[2016-12-08 11:50:46,221] [INFO] apk_report_run.py:77 [88bf0840e8e8c1311eec6c7790840659:update last_update]
+[2016-12-08 11:51:58,635] [INFO] apk_report_run.py:77 [af9a1dd8e0d7397f0bf600390d1f78d9:update last_update]
+[2016-12-08 12:00:31,523] [INFO] apk_report_run.py:84 [44ce78e59e828f61f3743f087456d437:begin to decode apk]
+[2016-12-08 12:00:47,857] [INFO] apk_report_run.py:87 [44ce78e59e828f61f3743f087456d437:begin to generate data for apk_report_yyyymm]
+[2016-12-08 12:01:02,413] [INFO] apk_report_run.py:90 [44ce78e59e828f61f3743f087456d437:begin to upload data to apk_report_yyyymm]
+[2016-12-08 12:01:02,828] [INFO] apk_report_run.py:92 [44ce78e59e828f61f3743f087456d437:begin to generate data for apk_resource]
+[2016-12-08 12:01:02,861] [INFO] apk_report_run.py:95 [44ce78e59e828f61f3743f087456d437:begin to upload data to apk_resource]
+[2016-12-08 12:01:03,003] [INFO] apk_report_run.py:97 [44ce78e59e828f61f3743f087456d437:begin to generate data for apk_basic_info]
+[2016-12-08 12:01:19,616] [INFO] apk_report_run.py:100 [44ce78e59e828f61f3743f087456d437:begin to upload data to apk_basic_info]
+[2016-12-08 12:01:19,819] [INFO] apk_report_run.py:105 [44ce78e59e828f61f3743f087456d437:-------finish---------]
+[2016-12-08 12:07:47,478] [INFO] apk_report_run.py:84 [600b115d082d0a22c901fd906347b165:begin to decode apk]
+[2016-12-08 12:08:02,060] [INFO] apk_report_run.py:87 [600b115d082d0a22c901fd906347b165:begin to generate data for apk_report_yyyymm]
+[2016-12-08 12:08:16,135] [INFO] apk_report_run.py:90 [600b115d082d0a22c901fd906347b165:begin to upload data to apk_report_yyyymm]
+[2016-12-08 12:08:16,553] [INFO] apk_report_run.py:92 [600b115d082d0a22c901fd906347b165:begin to generate data for apk_resource]
+[2016-12-08 12:08:16,581] [INFO] apk_report_run.py:95 [600b115d082d0a22c901fd906347b165:begin to upload data to apk_resource]
+[2016-12-08 12:08:16,876] [INFO] apk_report_run.py:97 [600b115d082d0a22c901fd906347b165:begin to generate data for apk_basic_info]
+[2016-12-08 12:08:37,932] [INFO] apk_report_run.py:100 [600b115d082d0a22c901fd906347b165:begin to upload data to apk_basic_info]
+[2016-12-08 12:08:38,205] [INFO] apk_report_run.py:105 [600b115d082d0a22c901fd906347b165:-------finish---------]
+[2016-12-08 12:11:45,883] [INFO] apk_report_run.py:84 [b15bc9ca56850b9502246945ec0d0764:begin to decode apk]
+[2016-12-08 12:12:00,497] [INFO] apk_report_run.py:87 [b15bc9ca56850b9502246945ec0d0764:begin to generate data for apk_report_yyyymm]
+[2016-12-08 12:12:14,645] [INFO] apk_report_run.py:90 [b15bc9ca56850b9502246945ec0d0764:begin to upload data to apk_report_yyyymm]
+[2016-12-08 12:12:14,855] [INFO] apk_report_run.py:92 [b15bc9ca56850b9502246945ec0d0764:begin to generate data for apk_resource]
+[2016-12-08 12:12:14,884] [INFO] apk_report_run.py:95 [b15bc9ca56850b9502246945ec0d0764:begin to upload data to apk_resource]
+[2016-12-08 12:12:15,017] [INFO] apk_report_run.py:97 [b15bc9ca56850b9502246945ec0d0764:begin to generate data for apk_basic_info]
+[2016-12-08 12:12:31,707] [INFO] apk_report_run.py:100 [b15bc9ca56850b9502246945ec0d0764:begin to upload data to apk_basic_info]
+[2016-12-08 12:12:31,901] [INFO] apk_report_run.py:105 [b15bc9ca56850b9502246945ec0d0764:-------finish---------]
+[2016-12-08 12:24:23,032] [INFO] apk_report_run.py:84 [82865d56f3d168471a5c4af7512645cb:begin to decode apk]
+[2016-12-08 12:25:06,429] [INFO] apk_report_run.py:87 [82865d56f3d168471a5c4af7512645cb:begin to generate data for apk_report_yyyymm]
+[2016-12-08 12:25:12,101] [INFO] apk_report_run.py:90 [82865d56f3d168471a5c4af7512645cb:begin to upload data to apk_report_yyyymm]
+[2016-12-08 12:25:12,358] [INFO] apk_report_run.py:92 [82865d56f3d168471a5c4af7512645cb:begin to generate data for apk_resource]
+[2016-12-08 12:25:12,667] [INFO] apk_report_run.py:95 [82865d56f3d168471a5c4af7512645cb:begin to upload data to apk_resource]
+[2016-12-08 12:25:12,685] [INFO] apk_report_run.py:97 [82865d56f3d168471a5c4af7512645cb:begin to generate data for apk_basic_info]
+[2016-12-08 12:25:22,494] [INFO] apk_report_run.py:100 [82865d56f3d168471a5c4af7512645cb:begin to upload data to apk_basic_info]
+[2016-12-08 12:25:22,683] [INFO] apk_report_run.py:105 [82865d56f3d168471a5c4af7512645cb:-------finish---------]
+[2016-12-08 12:25:23,961] [INFO] apk_report_run.py:77 [af9a1dd8e0d7397f0bf600390d1f78d9:update last_update]
+[2016-12-08 12:25:24,052] [INFO] apk_report_run.py:77 [d4931241423aa8918665772f4e6b5085:update last_update]
+[2016-12-08 12:49:38,690] [INFO] apk_report_run.py:84 [06647afc1e1a70028c3a49bd741507bc:begin to decode apk]
+[2016-12-08 12:49:55,063] [INFO] apk_report_run.py:87 [06647afc1e1a70028c3a49bd741507bc:begin to generate data for apk_report_yyyymm]
+[2016-12-08 12:50:09,365] [INFO] apk_report_run.py:90 [06647afc1e1a70028c3a49bd741507bc:begin to upload data to apk_report_yyyymm]
+[2016-12-08 12:50:09,669] [INFO] apk_report_run.py:92 [06647afc1e1a70028c3a49bd741507bc:begin to generate data for apk_resource]
+[2016-12-08 12:50:09,699] [INFO] apk_report_run.py:95 [06647afc1e1a70028c3a49bd741507bc:begin to upload data to apk_resource]
+[2016-12-08 12:50:09,841] [INFO] apk_report_run.py:97 [06647afc1e1a70028c3a49bd741507bc:begin to generate data for apk_basic_info]
+[2016-12-08 12:50:27,358] [INFO] apk_report_run.py:100 [06647afc1e1a70028c3a49bd741507bc:begin to upload data to apk_basic_info]
+[2016-12-08 12:50:27,597] [INFO] apk_report_run.py:105 [06647afc1e1a70028c3a49bd741507bc:-------finish---------]
+[2016-12-08 12:50:28,749] [INFO] apk_report_run.py:77 [b27aa04ea8ff6d867e23733b8a441ba1:update last_update]
+[2016-12-08 13:02:53,945] [INFO] apk_report_run.py:84 [1a9965ce1684ed9710d46751fa39a70e:begin to decode apk]
+[2016-12-08 13:04:14,576] [INFO] apk_report_run.py:87 [1a9965ce1684ed9710d46751fa39a70e:begin to generate data for apk_report_yyyymm]
+[2016-12-08 13:07:52,134] [INFO] apk_report_run.py:90 [1a9965ce1684ed9710d46751fa39a70e:begin to upload data to apk_report_yyyymm]
+[2016-12-08 13:07:52,579] [INFO] apk_report_run.py:92 [1a9965ce1684ed9710d46751fa39a70e:begin to generate data for apk_resource]
+[2016-12-08 13:07:52,895] [INFO] apk_report_run.py:95 [1a9965ce1684ed9710d46751fa39a70e:begin to upload data to apk_resource]
+[2016-12-08 13:07:53,911] [INFO] apk_report_run.py:97 [1a9965ce1684ed9710d46751fa39a70e:begin to generate data for apk_basic_info]
+[2016-12-08 13:08:04,484] [INFO] apk_report_run.py:100 [1a9965ce1684ed9710d46751fa39a70e:begin to upload data to apk_basic_info]
+[2016-12-08 13:08:04,690] [INFO] apk_report_run.py:105 [1a9965ce1684ed9710d46751fa39a70e:-------finish---------]
+[2016-12-08 13:08:06,766] [INFO] apk_report_run.py:84 [f74f95080729bff800e530ab6d4114bb:begin to decode apk]
+[2016-12-08 13:08:23,457] [INFO] apk_report_run.py:87 [f74f95080729bff800e530ab6d4114bb:begin to generate data for apk_report_yyyymm]
+[2016-12-08 13:08:37,419] [INFO] apk_report_run.py:90 [f74f95080729bff800e530ab6d4114bb:begin to upload data to apk_report_yyyymm]
+[2016-12-08 13:08:37,590] [INFO] apk_report_run.py:92 [f74f95080729bff800e530ab6d4114bb:begin to generate data for apk_resource]
+[2016-12-08 13:08:37,621] [INFO] apk_report_run.py:95 [f74f95080729bff800e530ab6d4114bb:begin to upload data to apk_resource]
+[2016-12-08 13:08:37,739] [INFO] apk_report_run.py:97 [f74f95080729bff800e530ab6d4114bb:begin to generate data for apk_basic_info]
+[2016-12-08 13:09:08,537] [INFO] apk_report_run.py:100 [f74f95080729bff800e530ab6d4114bb:begin to upload data to apk_basic_info]
+[2016-12-08 13:09:08,692] [INFO] apk_report_run.py:105 [f74f95080729bff800e530ab6d4114bb:-------finish---------]
+[2016-12-08 13:09:08,877] [INFO] apk_report_run.py:77 [279d3694219d100c8c4ae374c0d16fba:update last_update]
+[2016-12-08 13:53:40,825] [INFO] apk_report_run.py:84 [0d6b539d004d5f9c059c08f770bf363d:begin to decode apk]
+[2016-12-08 13:53:57,649] [INFO] apk_report_run.py:87 [0d6b539d004d5f9c059c08f770bf363d:begin to generate data for apk_report_yyyymm]
+[2016-12-08 13:54:11,932] [INFO] apk_report_run.py:90 [0d6b539d004d5f9c059c08f770bf363d:begin to upload data to apk_report_yyyymm]
+[2016-12-08 13:54:12,252] [INFO] apk_report_run.py:92 [0d6b539d004d5f9c059c08f770bf363d:begin to generate data for apk_resource]
+[2016-12-08 13:54:12,282] [INFO] apk_report_run.py:95 [0d6b539d004d5f9c059c08f770bf363d:begin to upload data to apk_resource]
+[2016-12-08 13:54:12,423] [INFO] apk_report_run.py:97 [0d6b539d004d5f9c059c08f770bf363d:begin to generate data for apk_basic_info]
+[2016-12-08 13:54:13,596] [INFO] apk_report_run.py:100 [0d6b539d004d5f9c059c08f770bf363d:begin to upload data to apk_basic_info]
+[2016-12-08 13:54:13,841] [INFO] apk_report_run.py:105 [0d6b539d004d5f9c059c08f770bf363d:-------finish---------]
+[2016-12-08 13:54:14,992] [INFO] apk_report_run.py:84 [5f9cd7641b862fec88ee2f22396bdf7a:begin to decode apk]
+[2016-12-08 13:54:32,022] [INFO] apk_report_run.py:87 [5f9cd7641b862fec88ee2f22396bdf7a:begin to generate data for apk_report_yyyymm]
+[2016-12-08 13:54:45,771] [INFO] apk_report_run.py:90 [5f9cd7641b862fec88ee2f22396bdf7a:begin to upload data to apk_report_yyyymm]
+[2016-12-08 13:54:45,961] [INFO] apk_report_run.py:92 [5f9cd7641b862fec88ee2f22396bdf7a:begin to generate data for apk_resource]
+[2016-12-08 13:54:45,989] [INFO] apk_report_run.py:95 [5f9cd7641b862fec88ee2f22396bdf7a:begin to upload data to apk_resource]
+[2016-12-08 13:54:46,107] [INFO] apk_report_run.py:97 [5f9cd7641b862fec88ee2f22396bdf7a:begin to generate data for apk_basic_info]
+[2016-12-08 13:54:47,971] [INFO] apk_report_run.py:100 [5f9cd7641b862fec88ee2f22396bdf7a:begin to upload data to apk_basic_info]
+[2016-12-08 13:54:48,148] [INFO] apk_report_run.py:105 [5f9cd7641b862fec88ee2f22396bdf7a:-------finish---------]
+[2016-12-08 13:58:20,010] [INFO] apk_report_run.py:84 [fd76d80ebeeae4be13fc5763388c05bf:begin to decode apk]
+[2016-12-08 13:58:35,379] [INFO] apk_report_run.py:87 [fd76d80ebeeae4be13fc5763388c05bf:begin to generate data for apk_report_yyyymm]
+[2016-12-08 13:58:49,490] [INFO] apk_report_run.py:90 [fd76d80ebeeae4be13fc5763388c05bf:begin to upload data to apk_report_yyyymm]
+[2016-12-08 13:58:49,794] [INFO] apk_report_run.py:92 [fd76d80ebeeae4be13fc5763388c05bf:begin to generate data for apk_resource]
+[2016-12-08 13:58:49,825] [INFO] apk_report_run.py:95 [fd76d80ebeeae4be13fc5763388c05bf:begin to upload data to apk_resource]
+[2016-12-08 13:58:49,949] [INFO] apk_report_run.py:97 [fd76d80ebeeae4be13fc5763388c05bf:begin to generate data for apk_basic_info]
+[2016-12-08 13:58:51,050] [INFO] apk_report_run.py:100 [fd76d80ebeeae4be13fc5763388c05bf:begin to upload data to apk_basic_info]
+[2016-12-08 13:58:51,226] [INFO] apk_report_run.py:105 [fd76d80ebeeae4be13fc5763388c05bf:-------finish---------]
+[2016-12-08 14:13:00,462] [INFO] apk_report_run.py:77 [d4931241423aa8918665772f4e6b5085:update last_update]
+[2016-12-08 14:35:09,685] [INFO] apk_report_run.py:77 [af9a1dd8e0d7397f0bf600390d1f78d9:update last_update]
+[2016-12-08 14:50:57,550] [INFO] apk_report_run.py:77 [9a9221a5349274f7b2cb591fbaf285a7:update last_update]
+[2016-12-08 14:51:07,990] [INFO] apk_report_run.py:77 [b15bc9ca56850b9502246945ec0d0764:update last_update]
+[2016-12-08 15:01:33,938] [INFO] apk_report_run.py:84 [1bee442c6d97284755f6361e7b41ec4c:begin to decode apk]
+[2016-12-08 15:01:48,689] [INFO] apk_report_run.py:87 [1bee442c6d97284755f6361e7b41ec4c:begin to generate data for apk_report_yyyymm]
+[2016-12-08 15:02:02,543] [INFO] apk_report_run.py:90 [1bee442c6d97284755f6361e7b41ec4c:begin to upload data to apk_report_yyyymm]
+[2016-12-08 15:02:02,880] [INFO] apk_report_run.py:92 [1bee442c6d97284755f6361e7b41ec4c:begin to generate data for apk_resource]
+[2016-12-08 15:02:02,909] [INFO] apk_report_run.py:95 [1bee442c6d97284755f6361e7b41ec4c:begin to upload data to apk_resource]
+[2016-12-08 15:02:03,061] [INFO] apk_report_run.py:97 [1bee442c6d97284755f6361e7b41ec4c:begin to generate data for apk_basic_info]
+[2016-12-08 15:02:04,401] [INFO] apk_report_run.py:100 [1bee442c6d97284755f6361e7b41ec4c:begin to upload data to apk_basic_info]
+[2016-12-08 15:02:04,756] [INFO] apk_report_run.py:105 [1bee442c6d97284755f6361e7b41ec4c:-------finish---------]
+[2016-12-08 15:02:12,674] [INFO] apk_report_run.py:77 [06647afc1e1a70028c3a49bd741507bc:update last_update]
+[2016-12-08 15:07:37,922] [INFO] apk_report_run.py:84 [5c9380e0d84e6044072059dd9fa17d95:begin to decode apk]
+[2016-12-08 15:07:51,858] [INFO] apk_report_run.py:87 [5c9380e0d84e6044072059dd9fa17d95:begin to generate data for apk_report_yyyymm]
+[2016-12-08 15:08:06,002] [INFO] apk_report_run.py:90 [5c9380e0d84e6044072059dd9fa17d95:begin to upload data to apk_report_yyyymm]
+[2016-12-08 15:08:06,230] [INFO] apk_report_run.py:92 [5c9380e0d84e6044072059dd9fa17d95:begin to generate data for apk_resource]
+[2016-12-08 15:08:06,260] [INFO] apk_report_run.py:95 [5c9380e0d84e6044072059dd9fa17d95:begin to upload data to apk_resource]
+[2016-12-08 15:08:06,366] [INFO] apk_report_run.py:97 [5c9380e0d84e6044072059dd9fa17d95:begin to generate data for apk_basic_info]
+[2016-12-08 15:08:08,576] [INFO] apk_report_run.py:100 [5c9380e0d84e6044072059dd9fa17d95:begin to upload data to apk_basic_info]
+[2016-12-08 15:08:08,730] [INFO] apk_report_run.py:105 [5c9380e0d84e6044072059dd9fa17d95:-------finish---------]
+[2016-12-08 15:49:29,381] [INFO] apk_report_run.py:77 [7ed5383f257dda59fc2213b4fbabb609:update last_update]
+[2016-12-08 16:01:31,591] [INFO] apk_report_run.py:77 [9bfc25c64c6e3aafe383951f60b3b8eb:update last_update]
+[2016-12-08 16:24:39,896] [INFO] apk_report_run.py:77 [9a9221a5349274f7b2cb591fbaf285a7:update last_update]
+[2016-12-08 16:40:41,850] [INFO] apk_report_run.py:77 [af9a1dd8e0d7397f0bf600390d1f78d9:update last_update]
+[2016-12-08 16:51:07,442] [INFO] apk_report_run.py:84 [f4a41f8a26e34d1530ca05b218cf9f6f:begin to decode apk]
+[2016-12-08 16:51:51,901] [INFO] apk_report_run.py:87 [f4a41f8a26e34d1530ca05b218cf9f6f:begin to generate data for apk_report_yyyymm]
+[2016-12-08 16:51:57,287] [INFO] apk_report_run.py:90 [f4a41f8a26e34d1530ca05b218cf9f6f:begin to upload data to apk_report_yyyymm]
+[2016-12-08 16:51:57,536] [INFO] apk_report_run.py:92 [f4a41f8a26e34d1530ca05b218cf9f6f:begin to generate data for apk_resource]
+[2016-12-08 16:51:57,840] [INFO] apk_report_run.py:95 [f4a41f8a26e34d1530ca05b218cf9f6f:begin to upload data to apk_resource]
+[2016-12-08 16:51:57,858] [INFO] apk_report_run.py:97 [f4a41f8a26e34d1530ca05b218cf9f6f:begin to generate data for apk_basic_info]
+[2016-12-08 16:52:05,381] [INFO] apk_report_run.py:100 [f4a41f8a26e34d1530ca05b218cf9f6f:begin to upload data to apk_basic_info]
+[2016-12-08 16:52:05,572] [INFO] apk_report_run.py:105 [f4a41f8a26e34d1530ca05b218cf9f6f:-------finish---------]
+[2016-12-08 16:57:38,264] [INFO] apk_report_run.py:77 [279d3694219d100c8c4ae374c0d16fba:update last_update]
+[2016-12-08 17:25:05,870] [INFO] apk_report_run.py:77 [af9a1dd8e0d7397f0bf600390d1f78d9:update last_update]
+[2016-12-08 17:56:48,901] [INFO] apk_report_run.py:77 [af9a1dd8e0d7397f0bf600390d1f78d9:update last_update]
+[2016-12-08 18:03:00,199] [INFO] apk_report_run.py:84 [ee3dc704574fa9a0d3f4eccc93774427:begin to decode apk]
+[2016-12-08 18:03:39,198] [INFO] apk_report_run.py:87 [ee3dc704574fa9a0d3f4eccc93774427:begin to generate data for apk_report_yyyymm]
+[2016-12-08 18:04:45,304] [INFO] apk_report_run.py:90 [ee3dc704574fa9a0d3f4eccc93774427:begin to upload data to apk_report_yyyymm]
+[2016-12-08 18:04:45,521] [INFO] apk_report_run.py:92 [ee3dc704574fa9a0d3f4eccc93774427:begin to generate data for apk_resource]
+[2016-12-08 18:04:45,664] [INFO] apk_report_run.py:95 [ee3dc704574fa9a0d3f4eccc93774427:begin to upload data to apk_resource]
+[2016-12-08 18:04:46,121] [INFO] apk_report_run.py:97 [ee3dc704574fa9a0d3f4eccc93774427:begin to generate data for apk_basic_info]
+[2016-12-08 18:11:06,797] [INFO] apk_report_run.py:100 [ee3dc704574fa9a0d3f4eccc93774427:begin to upload data to apk_basic_info]
+[2016-12-08 18:11:07,001] [INFO] apk_report_run.py:105 [ee3dc704574fa9a0d3f4eccc93774427:-------finish---------]
+[2016-12-08 18:14:38,713] [INFO] apk_report_run.py:84 [9515d0aec9c218c5bb35c53bd3f3cb41:begin to decode apk]
+[2016-12-08 18:14:39,375] [INFO] apk_report_run.py:87 [9515d0aec9c218c5bb35c53bd3f3cb41:begin to generate data for apk_report_yyyymm]
+[2016-12-08 18:14:39,383] [ERROR] apk_report_run.py:111 9515d0aec9c218c5bb35c53bd3f3cb41
+Traceback (most recent call last):
+  File "apk_report_run.py", line 89, in apk_analyze_run
+    apk_report.run()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 53, in run
+    self.parser_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 45, in parser_xml
+    obj2 = XmlParser(self.apk_path,self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 16, in __init__
+    self.get_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 20, in get_xml
+    obj = APK(self.apk_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/axmlparserpy/apk.py", line 65, in __init__
+    self.zip = zipfile.ZipFile(StringIO.StringIO(self.__raw))
+  File "/usr/local/python27/lib/python2.7/zipfile.py", line 766, in __init__
+    self._RealGetContents()
+  File "/usr/local/python27/lib/python2.7/zipfile.py", line 807, in _RealGetContents
+    raise BadZipfile, "File is not a zip file"
+BadZipfile: File is not a zip file
+[2016-12-08 18:33:58,677] [INFO] apk_report_run.py:77 [42775ebd60e861acbaa67ecf09bdb4c3:update last_update]
+[2016-12-08 19:05:10,565] [INFO] apk_report_run.py:77 [af9a1dd8e0d7397f0bf600390d1f78d9:update last_update]
+[2016-12-08 19:13:29,631] [INFO] apk_report_run.py:84 [ea316ca5ccc84887b9c877d8cde85bf0:begin to decode apk]
+[2016-12-08 19:13:47,234] [INFO] apk_report_run.py:87 [ea316ca5ccc84887b9c877d8cde85bf0:begin to generate data for apk_report_yyyymm]
+[2016-12-08 19:14:01,440] [INFO] apk_report_run.py:90 [ea316ca5ccc84887b9c877d8cde85bf0:begin to upload data to apk_report_yyyymm]
+[2016-12-08 19:14:01,777] [INFO] apk_report_run.py:92 [ea316ca5ccc84887b9c877d8cde85bf0:begin to generate data for apk_resource]
+[2016-12-08 19:14:01,808] [INFO] apk_report_run.py:95 [ea316ca5ccc84887b9c877d8cde85bf0:begin to upload data to apk_resource]
+[2016-12-08 19:14:02,124] [INFO] apk_report_run.py:97 [ea316ca5ccc84887b9c877d8cde85bf0:begin to generate data for apk_basic_info]
+[2016-12-08 19:14:12,032] [INFO] apk_report_run.py:100 [ea316ca5ccc84887b9c877d8cde85bf0:begin to upload data to apk_basic_info]
+[2016-12-08 19:14:12,324] [INFO] apk_report_run.py:105 [ea316ca5ccc84887b9c877d8cde85bf0:-------finish---------]
+[2016-12-08 19:28:31,277] [INFO] apk_report_run.py:84 [8f2e3cb07c350da3d799efde99bbbdd0:begin to decode apk]
+[2016-12-08 19:28:44,508] [INFO] apk_report_run.py:87 [8f2e3cb07c350da3d799efde99bbbdd0:begin to generate data for apk_report_yyyymm]
+[2016-12-08 19:28:47,900] [INFO] apk_report_run.py:90 [8f2e3cb07c350da3d799efde99bbbdd0:begin to upload data to apk_report_yyyymm]
+[2016-12-08 19:28:48,180] [INFO] apk_report_run.py:92 [8f2e3cb07c350da3d799efde99bbbdd0:begin to generate data for apk_resource]
+[2016-12-08 19:28:48,365] [INFO] apk_report_run.py:95 [8f2e3cb07c350da3d799efde99bbbdd0:begin to upload data to apk_resource]
+[2016-12-08 19:28:48,376] [INFO] apk_report_run.py:97 [8f2e3cb07c350da3d799efde99bbbdd0:begin to generate data for apk_basic_info]
+[2016-12-08 19:28:51,981] [INFO] apk_report_run.py:100 [8f2e3cb07c350da3d799efde99bbbdd0:begin to upload data to apk_basic_info]
+[2016-12-08 19:28:52,248] [INFO] apk_report_run.py:105 [8f2e3cb07c350da3d799efde99bbbdd0:-------finish---------]
+[2016-12-08 19:52:24,675] [INFO] apk_report_run.py:77 [9a9221a5349274f7b2cb591fbaf285a7:update last_update]
+[2016-12-08 19:52:31,856] [INFO] apk_report_run.py:84 [ac26a443564f41f0b2d8af30718abd54:begin to decode apk]
+[2016-12-08 19:52:47,271] [INFO] apk_report_run.py:87 [ac26a443564f41f0b2d8af30718abd54:begin to generate data for apk_report_yyyymm]
+[2016-12-08 19:53:03,763] [INFO] apk_report_run.py:90 [ac26a443564f41f0b2d8af30718abd54:begin to upload data to apk_report_yyyymm]
+[2016-12-08 19:53:04,053] [INFO] apk_report_run.py:92 [ac26a443564f41f0b2d8af30718abd54:begin to generate data for apk_resource]
+[2016-12-08 19:53:04,089] [INFO] apk_report_run.py:95 [ac26a443564f41f0b2d8af30718abd54:begin to upload data to apk_resource]
+[2016-12-08 19:53:04,225] [INFO] apk_report_run.py:97 [ac26a443564f41f0b2d8af30718abd54:begin to generate data for apk_basic_info]
+[2016-12-08 19:53:44,267] [INFO] apk_report_run.py:100 [ac26a443564f41f0b2d8af30718abd54:begin to upload data to apk_basic_info]
+[2016-12-08 19:53:44,451] [INFO] apk_report_run.py:105 [ac26a443564f41f0b2d8af30718abd54:-------finish---------]
+[2016-12-08 20:26:27,086] [INFO] apk_report_run.py:77 [810ff14b0a85a9ded33fc9593c6be69f:update last_update]
+[2016-12-08 20:54:10,269] [INFO] apk_report_run.py:77 [d4931241423aa8918665772f4e6b5085:update last_update]
+[2016-12-08 21:04:48,722] [INFO] apk_report_run.py:77 [af9a1dd8e0d7397f0bf600390d1f78d9:update last_update]
+[2016-12-08 21:06:32,430] [INFO] apk_report_run.py:77 [d4931241423aa8918665772f4e6b5085:update last_update]
+[2016-12-08 21:43:38,530] [INFO] apk_report_run.py:77 [af9a1dd8e0d7397f0bf600390d1f78d9:update last_update]
+[2016-12-08 22:04:26,715] [INFO] apk_report_run.py:77 [af9a1dd8e0d7397f0bf600390d1f78d9:update last_update]
+[2016-12-08 22:04:31,471] [INFO] apk_report_run.py:84 [e73e754667c2bb32935b24efc41b7f37:begin to decode apk]
+[2016-12-08 22:04:46,361] [INFO] apk_report_run.py:87 [e73e754667c2bb32935b24efc41b7f37:begin to generate data for apk_report_yyyymm]
+[2016-12-08 22:05:01,007] [INFO] apk_report_run.py:90 [e73e754667c2bb32935b24efc41b7f37:begin to upload data to apk_report_yyyymm]
+[2016-12-08 22:05:01,383] [INFO] apk_report_run.py:92 [e73e754667c2bb32935b24efc41b7f37:begin to generate data for apk_resource]
+[2016-12-08 22:05:01,413] [INFO] apk_report_run.py:95 [e73e754667c2bb32935b24efc41b7f37:begin to upload data to apk_resource]
+[2016-12-08 22:05:01,541] [INFO] apk_report_run.py:97 [e73e754667c2bb32935b24efc41b7f37:begin to generate data for apk_basic_info]
+[2016-12-08 22:05:02,471] [INFO] apk_report_run.py:100 [e73e754667c2bb32935b24efc41b7f37:begin to upload data to apk_basic_info]
+[2016-12-08 22:05:02,676] [INFO] apk_report_run.py:105 [e73e754667c2bb32935b24efc41b7f37:-------finish---------]
+[2016-12-08 22:20:52,577] [INFO] apk_report_run.py:77 [88bf0840e8e8c1311eec6c7790840659:update last_update]
+[2016-12-08 22:53:57,312] [INFO] apk_report_run.py:77 [af9a1dd8e0d7397f0bf600390d1f78d9:update last_update]
+[2016-12-08 23:04:26,485] [INFO] apk_report_run.py:84 [719fb37b4c677b5516099f7cc96cbdb7:begin to decode apk]
+[2016-12-08 23:04:40,684] [INFO] apk_report_run.py:87 [719fb37b4c677b5516099f7cc96cbdb7:begin to generate data for apk_report_yyyymm]
+[2016-12-08 23:04:55,095] [INFO] apk_report_run.py:90 [719fb37b4c677b5516099f7cc96cbdb7:begin to upload data to apk_report_yyyymm]
+[2016-12-08 23:04:55,325] [INFO] apk_report_run.py:92 [719fb37b4c677b5516099f7cc96cbdb7:begin to generate data for apk_resource]
+[2016-12-08 23:04:55,357] [INFO] apk_report_run.py:95 [719fb37b4c677b5516099f7cc96cbdb7:begin to upload data to apk_resource]
+[2016-12-08 23:04:55,489] [INFO] apk_report_run.py:97 [719fb37b4c677b5516099f7cc96cbdb7:begin to generate data for apk_basic_info]
+[2016-12-08 23:05:27,154] [INFO] apk_report_run.py:100 [719fb37b4c677b5516099f7cc96cbdb7:begin to upload data to apk_basic_info]
+[2016-12-08 23:05:27,360] [INFO] apk_report_run.py:105 [719fb37b4c677b5516099f7cc96cbdb7:-------finish---------]
+[2016-12-08 23:54:31,067] [INFO] apk_report_run.py:77 [9bfc25c64c6e3aafe383951f60b3b8eb:update last_update]
+[2016-12-09 07:40:59,582] [INFO] apk_report_run.py:77 [af9a1dd8e0d7397f0bf600390d1f78d9:update last_update]
+[2016-12-09 07:41:26,972] [INFO] apk_report_run.py:77 [af9a1dd8e0d7397f0bf600390d1f78d9:update last_update]
+[2016-12-09 08:23:36,303] [INFO] apk_report_run.py:77 [af9a1dd8e0d7397f0bf600390d1f78d9:update last_update]
+[2016-12-09 08:42:44,176] [INFO] apk_report_run.py:84 [cbe570e0167a0a485b1d95c7e4b7afba:begin to decode apk]
+[2016-12-09 08:43:02,106] [INFO] apk_report_run.py:87 [cbe570e0167a0a485b1d95c7e4b7afba:begin to generate data for apk_report_yyyymm]
+[2016-12-09 08:43:16,268] [INFO] apk_report_run.py:90 [cbe570e0167a0a485b1d95c7e4b7afba:begin to upload data to apk_report_yyyymm]
+[2016-12-09 08:43:16,602] [INFO] apk_report_run.py:92 [cbe570e0167a0a485b1d95c7e4b7afba:begin to generate data for apk_resource]
+[2016-12-09 08:43:16,633] [INFO] apk_report_run.py:95 [cbe570e0167a0a485b1d95c7e4b7afba:begin to upload data to apk_resource]
+[2016-12-09 08:43:16,758] [INFO] apk_report_run.py:97 [cbe570e0167a0a485b1d95c7e4b7afba:begin to generate data for apk_basic_info]
+[2016-12-09 08:43:19,803] [INFO] apk_report_run.py:100 [cbe570e0167a0a485b1d95c7e4b7afba:begin to upload data to apk_basic_info]
+[2016-12-09 08:43:20,066] [INFO] apk_report_run.py:105 [cbe570e0167a0a485b1d95c7e4b7afba:-------finish---------]
+[2016-12-09 08:49:50,345] [INFO] apk_report_run.py:84 [69879a8fa0ddeda4ef1a09bf2df22988:begin to decode apk]
+[2016-12-09 08:50:07,773] [INFO] apk_report_run.py:87 [69879a8fa0ddeda4ef1a09bf2df22988:begin to generate data for apk_report_yyyymm]
+[2016-12-09 08:50:22,203] [INFO] apk_report_run.py:90 [69879a8fa0ddeda4ef1a09bf2df22988:begin to upload data to apk_report_yyyymm]
+[2016-12-09 08:50:22,441] [INFO] apk_report_run.py:92 [69879a8fa0ddeda4ef1a09bf2df22988:begin to generate data for apk_resource]
+[2016-12-09 08:50:22,477] [INFO] apk_report_run.py:95 [69879a8fa0ddeda4ef1a09bf2df22988:begin to upload data to apk_resource]
+[2016-12-09 08:50:22,561] [INFO] apk_report_run.py:97 [69879a8fa0ddeda4ef1a09bf2df22988:begin to generate data for apk_basic_info]
+[2016-12-09 08:50:23,791] [INFO] apk_report_run.py:100 [69879a8fa0ddeda4ef1a09bf2df22988:begin to upload data to apk_basic_info]
+[2016-12-09 08:50:23,996] [INFO] apk_report_run.py:105 [69879a8fa0ddeda4ef1a09bf2df22988:-------finish---------]
+[2016-12-09 09:10:42,306] [INFO] apk_report_run.py:77 [9a9221a5349274f7b2cb591fbaf285a7:update last_update]
+[2016-12-09 09:10:53,877] [INFO] apk_report_run.py:84 [3c20a8abbba3c0d48de5bde041f205e9:begin to decode apk]
+[2016-12-09 09:11:10,799] [INFO] apk_report_run.py:87 [3c20a8abbba3c0d48de5bde041f205e9:begin to generate data for apk_report_yyyymm]
+[2016-12-09 09:11:27,304] [INFO] apk_report_run.py:90 [3c20a8abbba3c0d48de5bde041f205e9:begin to upload data to apk_report_yyyymm]
+[2016-12-09 09:11:27,530] [INFO] apk_report_run.py:92 [3c20a8abbba3c0d48de5bde041f205e9:begin to generate data for apk_resource]
+[2016-12-09 09:11:27,562] [INFO] apk_report_run.py:95 [3c20a8abbba3c0d48de5bde041f205e9:begin to upload data to apk_resource]
+[2016-12-09 09:11:27,745] [INFO] apk_report_run.py:97 [3c20a8abbba3c0d48de5bde041f205e9:begin to generate data for apk_basic_info]
+[2016-12-09 09:11:30,863] [INFO] apk_report_run.py:100 [3c20a8abbba3c0d48de5bde041f205e9:begin to upload data to apk_basic_info]
+[2016-12-09 09:11:31,076] [INFO] apk_report_run.py:105 [3c20a8abbba3c0d48de5bde041f205e9:-------finish---------]
+[2016-12-09 09:11:32,267] [INFO] apk_report_run.py:77 [af9a1dd8e0d7397f0bf600390d1f78d9:update last_update]
+[2016-12-09 10:11:33,619] [INFO] apk_report_run.py:84 [53853916fcdf0d2f9592f11ce9c000a1:begin to decode apk]
+[2016-12-09 10:11:55,881] [INFO] apk_report_run.py:87 [53853916fcdf0d2f9592f11ce9c000a1:begin to generate data for apk_report_yyyymm]
+[2016-12-09 10:12:10,670] [INFO] apk_report_run.py:90 [53853916fcdf0d2f9592f11ce9c000a1:begin to upload data to apk_report_yyyymm]
+[2016-12-09 10:12:10,932] [INFO] apk_report_run.py:92 [53853916fcdf0d2f9592f11ce9c000a1:begin to generate data for apk_resource]
+[2016-12-09 10:12:10,963] [INFO] apk_report_run.py:95 [53853916fcdf0d2f9592f11ce9c000a1:begin to upload data to apk_resource]
+[2016-12-09 10:12:11,092] [INFO] apk_report_run.py:97 [53853916fcdf0d2f9592f11ce9c000a1:begin to generate data for apk_basic_info]
+[2016-12-09 10:12:12,105] [INFO] apk_report_run.py:100 [53853916fcdf0d2f9592f11ce9c000a1:begin to upload data to apk_basic_info]
+[2016-12-09 10:12:12,426] [INFO] apk_report_run.py:105 [53853916fcdf0d2f9592f11ce9c000a1:-------finish---------]
+[2016-12-09 10:12:47,676] [INFO] apk_report_run.py:77 [af9a1dd8e0d7397f0bf600390d1f78d9:update last_update]
+[2016-12-09 10:20:26,785] [INFO] apk_report_run.py:77 [3c20a8abbba3c0d48de5bde041f205e9:update last_update]
+[2016-12-09 10:21:38,744] [INFO] apk_report_run.py:77 [ee3dc704574fa9a0d3f4eccc93774427:update last_update]
+[2016-12-09 10:29:48,072] [INFO] apk_report_run.py:77 [9a9221a5349274f7b2cb591fbaf285a7:update last_update]
+[2016-12-09 10:38:57,091] [INFO] apk_report_run.py:84 [0a79b9ff7960502471a8470824170de4:begin to decode apk]
+[2016-12-09 10:39:12,938] [INFO] apk_report_run.py:87 [0a79b9ff7960502471a8470824170de4:begin to generate data for apk_report_yyyymm]
+[2016-12-09 10:39:25,199] [INFO] apk_report_run.py:90 [0a79b9ff7960502471a8470824170de4:begin to upload data to apk_report_yyyymm]
+[2016-12-09 10:39:25,415] [INFO] apk_report_run.py:92 [0a79b9ff7960502471a8470824170de4:begin to generate data for apk_resource]
+[2016-12-09 10:39:25,432] [INFO] apk_report_run.py:95 [0a79b9ff7960502471a8470824170de4:begin to upload data to apk_resource]
+[2016-12-09 10:39:25,646] [INFO] apk_report_run.py:97 [0a79b9ff7960502471a8470824170de4:begin to generate data for apk_basic_info]
+[2016-12-09 10:39:40,084] [INFO] apk_report_run.py:100 [0a79b9ff7960502471a8470824170de4:begin to upload data to apk_basic_info]
+[2016-12-09 10:39:40,293] [INFO] apk_report_run.py:105 [0a79b9ff7960502471a8470824170de4:-------finish---------]
+[2016-12-09 10:51:40,625] [INFO] apk_report_run.py:77 [af9a1dd8e0d7397f0bf600390d1f78d9:update last_update]
