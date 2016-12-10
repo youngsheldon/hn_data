@@ -1,0 +1,44 @@
+--2016-12-09 23:00:47--  http://t.cn/RchrV90
+Resolving t.cn... 180.149.135.224
+Connecting to t.cn|180.149.135.224|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://hn93.10006.info/hn_ty/ty?n=UVQ= [following]
+--2016-12-09 23:00:47--  http://hn93.10006.info/hn_ty/ty?n=UVQ=
+Resolving hn93.10006.info... 218.77.121.93
+Connecting to hn93.10006.info|218.77.121.93|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1891 (1.8K) [text/html]
+Saving to: `ty?n=UVQ='
+
+     0K .                                                     100%  129M=0s
+
+2016-12-09 23:00:48 (129 MB/s) - `ty?n=UVQ=' saved [1891/1891]
+
+=======================The second times wget =====================
+--2016-12-09 23:00:48--  http://api.tv189.com/v2/115020310221__02870121.apk?
+Resolving api.tv189.com... 180.153.149.13
+Connecting to api.tv189.com|180.153.149.13|:80... connected.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: http://lteams.tv189.com/uploads/client/2016-12-09/Com_TYSX_VIDEO_PLUS_5.3.13.xx_gt_5.3.13.26ctch1_AD_P_20161208_02870121.apk [following]
+--2016-12-09 23:00:48--  http://lteams.tv189.com/uploads/client/2016-12-09/Com_TYSX_VIDEO_PLUS_5.3.13.xx_gt_5.3.13.26ctch1_AD_P_20161208_02870121.apk
+Resolving lteams.tv189.com... 180.153.149.15
+Connecting to lteams.tv189.com|180.153.149.15|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 10775980 (10M) [application/vnd.android.package-archive]
+Saving to: `Com_TYSX_VIDEO_PLUS_5.3.13.xx_gt_5.3.13.26ctch1_AD_P_20161208_02870121.apk'
+
+     0K .......... .......... .......... .......... ..........  0%  594K 18s
+    50K .......... .......... .......... .......... ..........  0% 1.14M 13s
+   100K .......... .......... .......... .......... ..........  1% 1.16M 12s
+   150K .......... .......... .......... .......... ..........  1%  477K 14s
+   200K .......... .......... .......... .......... ..........  2%  473K 16s
+   250K .......... .......... .......... .......... ..........  2%  295K 19s
+   300K .......... .......... .......... .......... ..........  3%  262K 21s
+   350K .......... .......... .......... .......... ..........  3%  227K 24s
+   400K .......... .......... .......... .......... ..........  4%  237K 26s
+   450K .......... .......... .......... .......... ..........  4%  397K 26s
+   500K .......... .......... .......... .......... ..........  5%  337K 26s
+   550K .......... .......... .......... .......... .....       5%  344K=1.6s
+
+2016-12-09 23:01:12 (377 KB/s) - Read error at byte 610200/10775980 (Connection timed out). Giving up.
+

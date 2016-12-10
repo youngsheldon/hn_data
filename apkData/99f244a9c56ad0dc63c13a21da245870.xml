@@ -1,0 +1,937 @@
+<manifest
+    android:versionCode=<0x9CA6, type 0x10>
+    android:versionName="4.1.42"
+    android:installLocation=<0x0, type 0x10>
+    package="com.happyelements.happyfishandroidcn"
+    >
+    <uses-sdk
+        android:minSdkVersion=<0x8, type 0x10>
+        android:targetSdkVersion=<0xB, type 0x10>
+        >
+    </uses-sdk>
+    <supports-screens
+        android:anyDensity=<0xFFFFFFFF, type 0x12>
+        android:smallScreens=<0xFFFFFFFF, type 0x12>
+        android:normalScreens=<0xFFFFFFFF, type 0x12>
+        android:largeScreens=<0xFFFFFFFF, type 0x12>
+        >
+    </supports-screens>
+    <uses-permission
+        android:name="android.permission.CHANGE_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WAKE_LOCK"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.VIBRATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.GET_ACCOUNTS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.GET_TASKS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.vending.CHECK_LICENSE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_LOGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.DISABLE_KEYGUARD"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.SEND_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.SEND_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.SEND_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.VIBRATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.GET_TASKS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CALL_PHONE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.GET_PACKAGE_SIZE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.SEND_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.DEVICE_POWER"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WAKE_LOCK"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.SIGNAL_PERSISTENT_PROCESSES"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.KILL_BACKGROUND_PROCESSES"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_BOOT_COMPLETED"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.VIBRATE"
+        >
+    </uses-permission>
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required=<0x0, type 0x12>
+        >
+    </uses-feature>
+    <application
+        android:label=<0x7F080088, type 0x01>
+        android:icon=<0x7F0200AA, type 0x01>
+        android:name="com.happyelements.happyfish.jira.MainApplication"
+        android:debuggable=<0x0, type 0x12>
+        >
+        <activity
+            android:theme=<0x1030007, type 0x01>
+            android:label=<0x7F080088, type 0x01>
+            android:name="com.happyelements.happyfish.ApplicationActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x0, type 0x10>
+            android:configChanges=<0x1E4, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.happyelements.happyfish_application_activity"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <receiver
+            android:name="com.happyelements.happyfish.notification.AlarmReceiver"
+            >
+        </receiver>
+        <activity
+            android:label=<0x7F08004D, type 0x01>
+            android:name="com.atlassian.jconnect.droid.activity.FeedbackActivity"
+            android:screenOrientation=<0x0, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F080050, type 0x01>
+            android:name="com.atlassian.jconnect.droid.activity.SendPhotoActivity"
+            android:screenOrientation=<0x0, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F08004F, type 0x01>
+            android:name="com.atlassian.jconnect.droid.activity.FeedbackInboxActivity"
+            android:screenOrientation=<0x0, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F08004B, type 0x01>
+            android:name="com.atlassian.jconnect.droid.activity.SelectFeedCategoryActivity"
+            android:screenOrientation=<0x0, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F08004F, type 0x01>
+            android:name="com.atlassian.jconnect.droid.activity.ViewFeedbackActivity"
+            android:screenOrientation=<0x0, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <service
+            android:name="com.atlassian.jconnect.droid.service.RemoteFeedbackService"
+            >
+        </service>
+        <service
+            android:name="com.atlassian.jconnect.droid.service.FeedbackPollingService"
+            >
+        </service>
+        <activity
+            android:label=<0x7F080088, type 0x01>
+            android:name="com.happyelements.happyfish.ContactUsActivity"
+            android:screenOrientation=<0x0, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F080088, type 0x01>
+            android:name="com.happyelements.happyfish.MailSendActivity"
+            android:screenOrientation=<0x0, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103000B, type 0x01>
+            android:name="org.acra.CrashReportDialog"
+            android:finishOnTaskLaunch=<0xFFFFFFFF, type 0x12>
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x3, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F080088, type 0x01>
+            android:name="com.happyelements.happyfish.PaymentWebViewActivity"
+            android:screenOrientation=<0x0, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:process=":remote"
+            >
+        </service>
+        <service
+            android:name="com.happyelements.happyfish.pay.BillingService"
+            >
+        </service>
+        <receiver
+            android:name="com.happyelements.happyfish.pay.BillingReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.android.vending.billing.IN_APP_NOTIFY"
+                    >
+                </action>
+                <action
+                    android:name="com.android.vending.billing.RESPONSE_CODE"
+                    >
+                </action>
+                <action
+                    android:name="com.android.vending.billing.PURCHASE_STATE_CHANGED"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.happyelements.happyfish.notification.RemoteNotificationService"
+            android:process="com.happyelements.happyfish.notification.RemoteNotificationService"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.happyelements.happyfish.notification.REMOTE_SERVICE"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </service>
+        <activity
+            android:theme=<0x1030007, type 0x01>
+            android:label=<0x7F080088, type 0x01>
+            android:name="com.happyelements.happyfish.SplashingActivity"
+            android:screenOrientation=<0x0, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.LAUNCHER"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="happyfish"
+                    android:host="cn.app"
+                    android:pathPrefix="/openwith"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="happyfish"
+                    android:host="all.app"
+                    android:pathPrefix="/openwith"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <service
+            android:name="com.happyelements.happyfish.apkUpdate.ApkDownloadService"
+            android:process="com.happyelements.happyfish.apkUpdate.ApkDownloadService"
+            >
+        </service>
+        <service
+            android:name="mm.purchasesdk.iapservice.PurchaseService"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                android:priority=<0x12D, type 0x10>
+                >
+                <action
+                    android:name="com.aspire.purchaseservice.BIND"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                android:priority=<0x12D, type 0x10>
+                >
+                <action
+                    android:name="com.happyelements.happyfishandroidcn.purchaseservice.BIND"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                android:priority=<0x12D, type 0x10>
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.SAFIAP.COMPONENT"
+                    >
+                </category>
+            </intent-filter>
+        </service>
+        <activity
+            android:theme=<0x103000F, type 0x01>
+            android:name="mm.purchasesdk.iapservice.BillingLayoutActivity"
+            android:configChanges=<0xA0, type 0x11>
+            >
+            <intent-filter
+                android:priority=<0x12D, type 0x10>
+                >
+                <action
+                    android:name="com.happyelements.happyfishandroidcn.com.mmiap.activity"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <service
+            android:name="safiap.framework.SafFrameworkManager"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:process="safiap.framework"
+            >
+            <intent-filter
+                android:priority=<0x276, type 0x10>
+                >
+                <action
+                    android:name="safiap.framework.sdk.ISAFFramework"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                android:priority=<0x276, type 0x10>
+                >
+                <action
+                    android:name="safiap.framework.ACTION_START_DOWNLOAD"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                android:priority=<0x276, type 0x10>
+                >
+                <action
+                    android:name="safiap.framework.ACTION_CHECK_UPDATE"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <receiver
+            android:name="safiap.framework.CheckUpdateReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="safiap.framework.ACTION_CANCEL_NOTIFICATION"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="safiap.GET_SHARED_DATA"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="safiap.framework.ACTION_SET_TIMER"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="safiap.framework.ui.UpdateHintActivity"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x3, type 0x10>
+            android:configChanges=<0x80, type 0x11>
+            >
+            <intent-filter
+                android:priority=<0x276, type 0x10>
+                >
+                <action
+                    android:name="safiap.framework.ACTION_TO_UPDATE"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                android:priority=<0x276, type 0x10>
+                >
+                <action
+                    android:name="safiap.framework.ACTION_TO_INSTALL"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                android:priority=<0x276, type 0x10>
+                >
+                <action
+                    android:name="safiap.framework.ACTION_TO_INSTALL_IAP"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                android:priority=<0x276, type 0x10>
+                >
+                <action
+                    android:name="safiap.framework.ACTION_NETWORK_ERROR"
+                    >
+                </action>
+            </intent-filter>
+        </activity>
+        <service
+            android:name="safiap.framework.logreport.monitor.handler.LogreportHandler"
+            android:process=":remote"
+            >
+        </service>
+        <activity
+            android:label=<0x7F080088, type 0x01>
+            android:name=".wxapi.WXEntryActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103000B, type 0x01>
+            android:label=<0x7F080088, type 0x01>
+            android:name="com.happyelements.gsp.android.payment.PaymentActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:alwaysRetainTaskState=<0xFFFFFFFF, type 0x12>
+            android:allowTaskReparenting=<0xFFFFFFFF, type 0x12>
+            >
+        </activity>
+        <service
+            android:name="com.happyelements.gsp.android.GspModuleLoader"
+            >
+            <meta-data
+                android:name="DC"
+                android:value="com.happyelements.gsp.android.dc.GspDcAgent"
+                >
+            </meta-data>
+            <meta-data
+                android:name="AD"
+                android:value="com.happyelements.gsp.android.advertisement.GspAdAgent"
+                >
+            </meta-data>
+            <meta-data
+                android:name="PAYMENT"
+                android:value="com.happyelements.gsp.android.payment.PaymentAgent"
+                >
+            </meta-data>
+            <meta-data
+                android:name="NOTIFICATION"
+                android:value="com.happyelements.gsp.android.notification.GspNotificationAgent"
+                >
+            </meta-data>
+            <meta-data
+                android:name="CUSTOMERSUPPORT"
+                android:value="com.happyelements.gsp.android.customersupport.GspCustomerSupportAgent"
+                >
+            </meta-data>
+        </service>
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value=<0x7F090000, type 0x01>
+            >
+        </meta-data>
+        <activity
+            android:name="com.tapjoy.TJCOffersWebView"
+            android:screenOrientation=<0x0, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.tapjoy.TapjoyFullScreenAdWebView"
+            android:screenOrientation=<0x0, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.tapjoy.TapjoyDailyRewardAdWebView"
+            android:screenOrientation=<0x0, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.tapjoy.TapjoyVideoView"
+            android:screenOrientation=<0x0, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030011, type 0x01>
+            android:name="com.tapjoy.TJAdUnitView"
+            android:screenOrientation=<0x0, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:hardwareAccelerated=<0xFFFFFFFF, type 0x12>
+            >
+        </activity>
+        <activity
+            android:name="com.tapjoy.mraid.view.ActionHandler"
+            android:screenOrientation=<0x0, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.tapjoy.mraid.view.Browser"
+            android:screenOrientation=<0x0, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <meta-data
+            android:name="APP_ID"
+            android:value="4c5d933e4c4fd3bf237fc51b1a586400"
+            >
+        </meta-data>
+        <meta-data
+            android:name="APP_PID"
+            android:value="mmw"
+            >
+        </meta-data>
+        <activity
+            android:name="net.miidiwall.SDK.MyWallActivity"
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <meta-data
+            android:name="EGAME_CHANNEL"
+            android:value=<0x4C4DB8F, type 0x10>
+            >
+        </meta-data>
+        <activity
+            android:theme=<0x1030011, type 0x01>
+            android:name="cn.egame.terminal.paysdk.EgamePayActivity"
+            android:screenOrientation=<0x0, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="cn.play.dserv.EmpActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <service
+            android:label="dservice"
+            android:name="cn.play.dserv.DService"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:exported=<0x0, type 0x12>
+            android:process=":dservice_v1"
+            >
+        </service>
+        <receiver
+            android:name="cn.play.dserv.DsReceiver"
+            android:process=":dservice_v1"
+            >
+            <intent-filter
+                android:priority=<0x3E8, type 0x10>
+                >
+                <action
+                    android:name="cn.play.dservice"
+                    >
+                </action>
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                android:priority=<0x3E8, type 0x10>
+                >
+                <action
+                    android:name="android.intent.action.PACKAGE_ADDED"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.PACKAGE_REMOVED"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.PACKAGE_REPLACED"
+                    >
+                </action>
+                <data
+                    android:scheme="package"
+                    >
+                </data>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.cmcc.aoe.receiver.AoeNetReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.cmcc.aoe.receiver.BootReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.BOOT_COMPLETED"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.USER_PRESENT"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.cmcc.aoe.receiver.PackageReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.PACKAGE_REMOVED"
+                    >
+                </action>
+                <data
+                    android:scheme="package"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.PACKAGE_ADDED"
+                    >
+                </action>
+                <data
+                    android:scheme="package"
+                    >
+                </data>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.cmcc.aoe.receiver.SMSDataReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.DATA_SMS_RECEIVED"
+                    >
+                </action>
+                <data
+                    android:scheme="sms"
+                    android:host="localhost"
+                    android:port="16861"
+                    >
+                </data>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.cmcc.aoe.receiver.SMSNotifyReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.aoe.action.SMSNotify"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.cmcc.aoe.receiver.SMSWakeupReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.DATA_SMS_RECEIVED"
+                    >
+                </action>
+                <data
+                    android:scheme="sms"
+                    android:host="localhost"
+                    android:port="16860"
+                    >
+                </data>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.happyelements.happyfish.sdkaoe.RebindReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.aoe.action.WAKEUP_APP_REBIND"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.happyelements.happyfish.sdkaoe.BindAoeService"
+            >
+        </service>
+        <service
+            android:name="com.cmcc.aoe.AoeService"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:process="com.cmcc.aoe.AOEService"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.cmcc.aoe.AOEService.Register"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+            <meta-data
+                android:name="service_version"
+                android:value="1.0.9"
+                >
+            </meta-data>
+        </service>
+        <meta-data
+            android:name="appid_with_aoe"
+            android:value="appid(300008236012)"
+            >
+        </meta-data>
+        <receiver
+            android:name="com.cmcc.aoe.receiver.NotifyCationReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.leadtone.receiver.appid.300008236012"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:theme=<0x103000B, type 0x01>
+            android:name="com.cmcc.aoe.activity.MessageAlert"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+    </application>
+</manifest>

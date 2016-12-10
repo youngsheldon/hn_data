@@ -1,0 +1,33 @@
+--2016-12-10 18:10:32--  http://rvbte.com/dlks
+Resolving rvbte.com... 103.228.131.204
+Connecting to rvbte.com|103.228.131.204|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://rvbte.com/dlks/ [following]
+--2016-12-10 18:10:50--  http://rvbte.com/dlks/
+Reusing existing connection to rvbte.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 246 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 13.8M=0s
+
+2016-12-10 18:10:56 (13.8 MB/s) - `index.html' saved [246/246]
+
+=======================The second times wget =====================
+--2016-12-10 18:10:56--  http://rvbte.com/dlks/%C2%BC%CF%F1.apk
+Resolving rvbte.com... 103.228.131.204
+Connecting to rvbte.com|103.228.131.204|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 322359 (315K) [application/vnd.android.package-archive]
+Saving to: `Â¼Ïñ.apk'
+
+     0K .......... .......... .......... .......... .......... 15%  753  6m0s
+    50K .......... .......... .......... .......... .......... 31% 1.76K 3m27s
+   100K .......... .......... .......... .......... .......... 47% 1.98K 2m14s
+   150K .......... .......... .......... .......... .......... 63% 2.38K 82s
+   200K .......... .......... .......... .......... .......... 79% 1.33K 47s
+   250K .......... .......... .......... .......... .......... 95% 1.45K 11s
+   300K .......... ....                                       100% 2.08K=3m42s
+
+2016-12-10 18:14:52 (1.42 KB/s) - `Â¼Ïñ.apk' saved [322359/322359]
+
