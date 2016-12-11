@@ -1,0 +1,27 @@
+--2016-12-10 23:40:55--  http://qchre.com/dfkj
+Resolving qchre.com... 103.228.130.84
+Connecting to qchre.com|103.228.130.84|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://qchre.com/dfkj/ [following]
+--2016-12-10 23:41:04--  http://qchre.com/dfkj/
+Reusing existing connection to qchre.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 246 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 16.8M=0s
+
+2016-12-10 23:41:08 (16.8 MB/s) - `index.html' saved [246/246]
+
+=======================The second times wget =====================
+--2016-12-10 23:41:08--  http://qchre.com/dfkj/%C2%BC%CF%F1.apk
+Resolving qchre.com... 103.228.130.84
+Connecting to qchre.com|103.228.130.84|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 208999 (204K) [application/vnd.android.package-archive]
+Saving to: `Â¼Ïñ.apk'
+
+     0K .......... .......... ...                              11%  879 =28s
+
+2016-12-10 23:42:04 (879 B/s) - Read error at byte 24310/208999 (Connection timed out). Giving up.
+

@@ -1,0 +1,19 @@
+--2016-12-11 12:11:41--  http://cxpfsw.com/zxcvd
+Resolving cxpfsw.com... 103.229.127.223
+Connecting to cxpfsw.com|103.229.127.223|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://cxpfsw.com/zxcvd/ [following]
+--2016-12-11 12:11:54--  http://cxpfsw.com/zxcvd/
+Reusing existing connection to cxpfsw.com:80.
+HTTP request sent, awaiting response... 302 Object moved
+Location: shipin.apk [following]
+--2016-12-11 12:12:00--  http://cxpfsw.com/zxcvd/shipin.apk
+Reusing existing connection to cxpfsw.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 209312 (204K) [application/vnd.android.package-archive]
+Saving to: `shipin.apk'
+
+     0K ......                                                  3%  319 =22s
+
+2016-12-11 12:12:44 (319 B/s) - Read error at byte 6874/209312 (Connection timed out). Giving up.
+
