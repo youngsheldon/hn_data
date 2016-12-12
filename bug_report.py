@@ -3,7 +3,7 @@
 # @Author: anchen
 # @Date:   2016-12-09 11:14:43
 # @Last Modified by:   anchen
-# @Last Modified time: 2016-12-09 16:10:43
+# @Last Modified time: 2016-12-12 11:59:52
 import os
 import time
 
@@ -60,11 +60,30 @@ class PushBug(object):
                         index = 0 
         return bug_list
 
+    def sort_bug_list(self):
+        bug_dict = {}
+        v_list = []
+        l = self.get_bug_list()
+        for v in l:
+            error_type = v.split('\n')[-2]
+            bug_dict[error_type] = v
+        for k,v in bug_dict.items():
+            for value in l:
+                error_type = value.split('\n')[-2]
+                if error_type == k:
+                    v_list.append(value)
+            bug_dict[k] = v_list
+            v_list = []    
+        return bug_dict
+
     def bug_out_to_file(self):
+        ret_dict = self.sort_bug_list()
         with open('bug_out.txt','w+') as f:
-            l = self.get_bug_list()
-            for v in l:
-                f.write(v)
+            for k,vs in ret_dict.items():
+                f.write('-------------------' + k + '-----------------------' + '\n')
+                for value in vs:
+                    f.write(value)
+                f.write('\n')
 
     def get_pro_apk_relate_isue(self):
         pro_md5_list = self.get_problem_md5()
