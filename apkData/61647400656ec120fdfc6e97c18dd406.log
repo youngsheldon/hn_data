@@ -1,0 +1,36 @@
+--2016-12-12 18:21:39--  http://www.60080555.com/
+Resolving www.60080555.com... 125.227.34.129
+Connecting to www.60080555.com|125.227.34.129|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://www.60080555.com/robot?uri=http%3A%2F%2Fwww.60080555.com%2F [following]
+--2016-12-12 18:21:45--  http://www.60080555.com/robot?uri=http%3A%2F%2Fwww.60080555.com%2F
+Reusing existing connection to www.60080555.com:80.
+HTTP request sent, awaiting response... 302 Found
+Location: http://www.60080555.com/ [following]
+--2016-12-12 18:21:45--  http://www.60080555.com/
+Reusing existing connection to www.60080555.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `index.html'
+
+     0K .......... .......... ..                                252K=0.09s
+
+2016-12-12 18:21:45 (252 KB/s) - `index.html' saved [22742]
+
+=======================The second times wget =====================
+--2016-12-12 18:21:45--  http://resigner.valueactive.eu/igaminga4.apk
+Resolving resigner.valueactive.eu... 78.24.213.24
+Connecting to resigner.valueactive.eu|78.24.213.24|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 58106662 (55M) [application/vnd.android.package-archive]
+Saving to: `igaminga4.apk'
+
+     0K .......... .......... .......... .......... ..........  0% 46.8K 20m11s
+    50K .......... .......... .......... .......... ..........  0% 16.2K 39m8s
+   100K .......... .......... .......... .......... ..........  0% 27.9K 37m19s
+   150K .......... .......... .......... .......... ..........  0% 46.5K 33m2s
+   200K .......... .......... .......... .......... ..........  0% 45.3K 30m34s
+   250K .......... .......... .......                           0% 3.10K=17s
+
+2016-12-12 18:22:24 (16.3 KB/s) - Read error at byte 284552/58106662 (Connection timed out). Giving up.
+
