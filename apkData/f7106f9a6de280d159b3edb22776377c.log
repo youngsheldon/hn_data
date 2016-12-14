@@ -1,0 +1,43 @@
+--2016-12-13 18:48:00--  http://youku.com/v_show/id_XMzMwOTUyNDg0
+Resolving youku.com... 59.82.2.37, 43.250.12.42
+Connecting to youku.com|59.82.2.37|:80... connected.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: http://www.youku.com/v_show/id_XMzMwOTUyNDg0 [following]
+--2016-12-13 18:48:06--  http://www.youku.com/v_show/id_XMzMwOTUyNDg0
+Resolving www.youku.com... 59.82.2.37
+Connecting to www.youku.com|59.82.2.37|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://v.youku.com/v_show/id_XMzMwOTUyNDg0 [following]
+--2016-12-13 18:48:06--  http://v.youku.com/v_show/id_XMzMwOTUyNDg0
+Resolving v.youku.com... 59.82.2.38
+Connecting to v.youku.com|59.82.2.38|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 39631 (39K) [text/html]
+Saving to: `id_XMzMwOTUyNDg0'
+
+     0K .......... .......... .......... ........             100%  719K=0.05s
+
+2016-12-13 18:48:07 (719 KB/s) - `id_XMzMwOTUyNDg0' saved [39631/39631]
+
+=======================The second times wget =====================
+--2016-12-13 18:48:08--  http://youku.com/v_show/id_XMzMwOTUyNDg0///dl.m.cc.youku.com/android/phone/Youku_Android_Pcyongshoujikan.apk
+Resolving youku.com... 59.82.2.37, 43.250.12.42
+Connecting to youku.com|59.82.2.37|:80... connected.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: http://www.youku.com/v_show/id_XMzMwOTUyNDg0///dl.m.cc.youku.com/android/phone/Youku_Android_Pcyongshoujikan.apk [following]
+--2016-12-13 18:48:13--  http://www.youku.com/v_show/id_XMzMwOTUyNDg0///dl.m.cc.youku.com/android/phone/Youku_Android_Pcyongshoujikan.apk
+Resolving www.youku.com... 59.82.2.37
+Connecting to www.youku.com|59.82.2.37|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://v.youku.com/v_show/id_XMzMwOTUyNDg0///dl.m.cc.youku.com/android/phone/Youku_Android_Pcyongshoujikan.apk [following]
+--2016-12-13 18:48:13--  http://v.youku.com/v_show/id_XMzMwOTUyNDg0///dl.m.cc.youku.com/android/phone/Youku_Android_Pcyongshoujikan.apk
+Resolving v.youku.com... 59.82.2.38
+Connecting to v.youku.com|59.82.2.38|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 39686 (39K) [text/html]
+Saving to: `Youku_Android_Pcyongshoujikan.apk'
+
+     0K .......... .......... .......... ........             100%  648K=0.06s
+
+2016-12-13 18:48:13 (648 KB/s) - `Youku_Android_Pcyongshoujikan.apk' saved [39686/39686]
+

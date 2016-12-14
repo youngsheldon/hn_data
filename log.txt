@@ -2713,3 +2713,251 @@ BadZipfile: File is not a zip file
 [2016-12-13 16:50:06,219] [INFO] apk_report_run.py:77 [a4cff74df8efea9dff494c6994abd432:update last_update]
 [2016-12-13 17:29:34,709] [INFO] apk_report_run.py:77 [5dc0bee60112ba2d4d8efb697e9093a0:update last_update]
 [2016-12-13 17:35:58,027] [INFO] apk_report_run.py:77 [9054b1cc620dff012f610b9d0e664438:update last_update]
+[2016-12-13 18:22:24,066] [INFO] apk_report_run.py:77 [9054b1cc620dff012f610b9d0e664438:update last_update]
+[2016-12-13 18:48:18,578] [INFO] apk_report_run.py:84 [f7106f9a6de280d159b3edb22776377c:begin to decode apk]
+[2016-12-13 18:48:19,307] [INFO] apk_report_run.py:87 [f7106f9a6de280d159b3edb22776377c:begin to generate data for apk_report_yyyymm]
+[2016-12-13 18:48:19,316] [ERROR] apk_report_run.py:111 f7106f9a6de280d159b3edb22776377c
+Traceback (most recent call last):
+  File "apk_report_run.py", line 89, in apk_analyze_run
+    apk_report.run()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 53, in run
+    self.parser_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 45, in parser_xml
+    obj2 = XmlParser(self.apk_path,self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 16, in __init__
+    self.get_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 20, in get_xml
+    obj = APK(self.apk_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/axmlparserpy/apk.py", line 65, in __init__
+    self.zip = zipfile.ZipFile(StringIO.StringIO(self.__raw))
+  File "/usr/local/python27/lib/python2.7/zipfile.py", line 766, in __init__
+    self._RealGetContents()
+  File "/usr/local/python27/lib/python2.7/zipfile.py", line 807, in _RealGetContents
+    raise BadZipfile, "File is not a zip file"
+BadZipfile: File is not a zip file
+[2016-12-13 18:52:12,123] [INFO] apk_report_run.py:84 [266331d045c4dfbfea29539f6017af0a:begin to decode apk]
+[2016-12-13 18:52:26,746] [INFO] apk_report_run.py:87 [266331d045c4dfbfea29539f6017af0a:begin to generate data for apk_report_yyyymm]
+[2016-12-13 18:52:41,153] [INFO] apk_report_run.py:90 [266331d045c4dfbfea29539f6017af0a:begin to upload data to apk_report_yyyymm]
+[2016-12-13 18:52:41,478] [INFO] apk_report_run.py:92 [266331d045c4dfbfea29539f6017af0a:begin to generate data for apk_resource]
+[2016-12-13 18:52:41,509] [INFO] apk_report_run.py:95 [266331d045c4dfbfea29539f6017af0a:begin to upload data to apk_resource]
+[2016-12-13 18:52:41,658] [INFO] apk_report_run.py:97 [266331d045c4dfbfea29539f6017af0a:begin to generate data for apk_basic_info]
+[2016-12-13 18:53:26,623] [INFO] apk_report_run.py:100 [266331d045c4dfbfea29539f6017af0a:begin to upload data to apk_basic_info]
+[2016-12-13 18:53:26,885] [INFO] apk_report_run.py:105 [266331d045c4dfbfea29539f6017af0a:-------finish---------]
+[2016-12-13 19:03:10,657] [INFO] apk_report_run.py:77 [9054b1cc620dff012f610b9d0e664438:update last_update]
+[2016-12-13 19:03:25,737] [INFO] apk_report_run.py:77 [279d3694219d100c8c4ae374c0d16fba:update last_update]
+[2016-12-13 19:06:26,016] [INFO] apk_report_run.py:84 [a2d365b0a26497d8c5f1cd03618be657:begin to decode apk]
+[2016-12-13 19:06:40,022] [INFO] apk_report_run.py:87 [a2d365b0a26497d8c5f1cd03618be657:begin to generate data for apk_report_yyyymm]
+[2016-12-13 19:06:54,132] [INFO] apk_report_run.py:90 [a2d365b0a26497d8c5f1cd03618be657:begin to upload data to apk_report_yyyymm]
+[2016-12-13 19:06:54,426] [INFO] apk_report_run.py:92 [a2d365b0a26497d8c5f1cd03618be657:begin to generate data for apk_resource]
+[2016-12-13 19:06:54,455] [INFO] apk_report_run.py:95 [a2d365b0a26497d8c5f1cd03618be657:begin to upload data to apk_resource]
+[2016-12-13 19:06:54,592] [INFO] apk_report_run.py:97 [a2d365b0a26497d8c5f1cd03618be657:begin to generate data for apk_basic_info]
+[2016-12-13 19:07:25,490] [INFO] apk_report_run.py:100 [a2d365b0a26497d8c5f1cd03618be657:begin to upload data to apk_basic_info]
+[2016-12-13 19:07:25,653] [INFO] apk_report_run.py:105 [a2d365b0a26497d8c5f1cd03618be657:-------finish---------]
+[2016-12-13 19:12:15,412] [INFO] apk_report_run.py:77 [9054b1cc620dff012f610b9d0e664438:update last_update]
+[2016-12-13 19:24:38,838] [INFO] apk_report_run.py:84 [7002a8e89a97d2dfdde408e1cf275fe6:begin to decode apk]
+[2016-12-13 19:24:39,543] [INFO] apk_report_run.py:87 [7002a8e89a97d2dfdde408e1cf275fe6:begin to generate data for apk_report_yyyymm]
+[2016-12-13 19:24:39,552] [ERROR] apk_report_run.py:111 7002a8e89a97d2dfdde408e1cf275fe6
+Traceback (most recent call last):
+  File "apk_report_run.py", line 89, in apk_analyze_run
+    apk_report.run()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 53, in run
+    self.parser_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 45, in parser_xml
+    obj2 = XmlParser(self.apk_path,self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 16, in __init__
+    self.get_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 20, in get_xml
+    obj = APK(self.apk_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/axmlparserpy/apk.py", line 65, in __init__
+    self.zip = zipfile.ZipFile(StringIO.StringIO(self.__raw))
+  File "/usr/local/python27/lib/python2.7/zipfile.py", line 766, in __init__
+    self._RealGetContents()
+  File "/usr/local/python27/lib/python2.7/zipfile.py", line 807, in _RealGetContents
+    raise BadZipfile, "File is not a zip file"
+BadZipfile: File is not a zip file
+[2016-12-13 20:16:50,385] [INFO] apk_report_run.py:77 [42775ebd60e861acbaa67ecf09bdb4c3:update last_update]
+[2016-12-13 20:32:56,818] [INFO] apk_report_run.py:77 [df967924043637e25f91f02b790b36df:update last_update]
+[2016-12-13 20:36:50,457] [INFO] apk_report_run.py:77 [279d3694219d100c8c4ae374c0d16fba:update last_update]
+[2016-12-13 21:29:49,119] [INFO] apk_report_run.py:84 [5681c6365f1b654a3cd769d1bc41b9e1:begin to decode apk]
+[2016-12-13 21:30:04,317] [INFO] apk_report_run.py:87 [5681c6365f1b654a3cd769d1bc41b9e1:begin to generate data for apk_report_yyyymm]
+[2016-12-13 21:30:19,357] [INFO] apk_report_run.py:90 [5681c6365f1b654a3cd769d1bc41b9e1:begin to upload data to apk_report_yyyymm]
+[2016-12-13 21:30:19,696] [INFO] apk_report_run.py:92 [5681c6365f1b654a3cd769d1bc41b9e1:begin to generate data for apk_resource]
+[2016-12-13 21:30:19,725] [INFO] apk_report_run.py:95 [5681c6365f1b654a3cd769d1bc41b9e1:begin to upload data to apk_resource]
+[2016-12-13 21:30:19,863] [INFO] apk_report_run.py:97 [5681c6365f1b654a3cd769d1bc41b9e1:begin to generate data for apk_basic_info]
+[2016-12-13 21:30:22,909] [INFO] apk_report_run.py:100 [5681c6365f1b654a3cd769d1bc41b9e1:begin to upload data to apk_basic_info]
+[2016-12-13 21:30:23,182] [INFO] apk_report_run.py:105 [5681c6365f1b654a3cd769d1bc41b9e1:-------finish---------]
+[2016-12-13 21:33:58,440] [INFO] apk_report_run.py:77 [9054b1cc620dff012f610b9d0e664438:update last_update]
+[2016-12-13 21:51:42,977] [INFO] apk_report_run.py:77 [2f22050b637d96de9473258b39ec7dd0:update last_update]
+[2016-12-13 21:58:59,278] [INFO] apk_report_run.py:77 [266331d045c4dfbfea29539f6017af0a:update last_update]
+[2016-12-13 23:32:22,360] [INFO] apk_report_run.py:77 [279d3694219d100c8c4ae374c0d16fba:update last_update]
+[2016-12-14 00:40:48,149] [INFO] apk_report_run.py:77 [279d3694219d100c8c4ae374c0d16fba:update last_update]
+[2016-12-14 01:03:19,786] [INFO] apk_report_run.py:84 [78d802cee7d6a21b739adb9cc5356983:begin to decode apk]
+[2016-12-14 01:03:53,449] [INFO] apk_report_run.py:87 [78d802cee7d6a21b739adb9cc5356983:begin to generate data for apk_report_yyyymm]
+[2016-12-14 01:04:47,887] [INFO] apk_report_run.py:90 [78d802cee7d6a21b739adb9cc5356983:begin to upload data to apk_report_yyyymm]
+[2016-12-14 01:04:48,144] [INFO] apk_report_run.py:92 [78d802cee7d6a21b739adb9cc5356983:begin to generate data for apk_resource]
+[2016-12-14 01:04:48,217] [INFO] apk_report_run.py:95 [78d802cee7d6a21b739adb9cc5356983:begin to upload data to apk_resource]
+[2016-12-14 01:04:48,388] [INFO] apk_report_run.py:97 [78d802cee7d6a21b739adb9cc5356983:begin to generate data for apk_basic_info]
+[2016-12-14 01:04:55,109] [INFO] apk_report_run.py:100 [78d802cee7d6a21b739adb9cc5356983:begin to upload data to apk_basic_info]
+[2016-12-14 01:04:55,307] [INFO] apk_report_run.py:105 [78d802cee7d6a21b739adb9cc5356983:-------finish---------]
+[2016-12-14 01:44:38,159] [INFO] apk_report_run.py:77 [279d3694219d100c8c4ae374c0d16fba:update last_update]
+[2016-12-14 08:20:42,174] [INFO] apk_report_run.py:77 [9054b1cc620dff012f610b9d0e664438:update last_update]
+[2016-12-14 08:30:07,631] [INFO] apk_report_run.py:77 [279d3694219d100c8c4ae374c0d16fba:update last_update]
+[2016-12-14 08:41:22,404] [INFO] apk_report_run.py:84 [83f20818e2918e3454174fa0369b77d4:begin to decode apk]
+[2016-12-14 08:41:38,311] [INFO] apk_report_run.py:87 [83f20818e2918e3454174fa0369b77d4:begin to generate data for apk_report_yyyymm]
+[2016-12-14 08:41:52,703] [INFO] apk_report_run.py:90 [83f20818e2918e3454174fa0369b77d4:begin to upload data to apk_report_yyyymm]
+[2016-12-14 08:41:53,011] [INFO] apk_report_run.py:92 [83f20818e2918e3454174fa0369b77d4:begin to generate data for apk_resource]
+[2016-12-14 08:41:53,042] [INFO] apk_report_run.py:95 [83f20818e2918e3454174fa0369b77d4:begin to upload data to apk_resource]
+[2016-12-14 08:41:53,170] [INFO] apk_report_run.py:97 [83f20818e2918e3454174fa0369b77d4:begin to generate data for apk_basic_info]
+[2016-12-14 08:41:54,025] [INFO] apk_report_run.py:100 [83f20818e2918e3454174fa0369b77d4:begin to upload data to apk_basic_info]
+[2016-12-14 08:41:54,230] [INFO] apk_report_run.py:105 [83f20818e2918e3454174fa0369b77d4:-------finish---------]
+[2016-12-14 09:10:43,254] [INFO] apk_report_run.py:77 [9054b1cc620dff012f610b9d0e664438:update last_update]
+[2016-12-14 09:19:55,634] [INFO] apk_report_run.py:77 [9a9221a5349274f7b2cb591fbaf285a7:update last_update]
+[2016-12-14 09:30:38,125] [INFO] apk_report_run.py:77 [5d3ebd5a490c395a0d80e4d35bd962d1:update last_update]
+[2016-12-14 09:31:13,635] [INFO] apk_report_run.py:77 [279d3694219d100c8c4ae374c0d16fba:update last_update]
+[2016-12-14 10:01:31,020] [INFO] apk_report_run.py:77 [9bfc25c64c6e3aafe383951f60b3b8eb:update last_update]
+[2016-12-14 10:20:52,563] [INFO] apk_report_run.py:77 [df967924043637e25f91f02b790b36df:update last_update]
+[2016-12-14 10:40:52,688] [INFO] apk_report_run.py:84 [c314b50b19b69fa1ab9368d161d631b5:begin to decode apk]
+[2016-12-14 10:40:53,398] [INFO] apk_report_run.py:87 [c314b50b19b69fa1ab9368d161d631b5:begin to generate data for apk_report_yyyymm]
+[2016-12-14 10:40:53,407] [ERROR] apk_report_run.py:111 c314b50b19b69fa1ab9368d161d631b5
+Traceback (most recent call last):
+  File "apk_report_run.py", line 89, in apk_analyze_run
+    apk_report.run()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 53, in run
+    self.parser_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 45, in parser_xml
+    obj2 = XmlParser(self.apk_path,self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 16, in __init__
+    self.get_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 20, in get_xml
+    obj = APK(self.apk_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/axmlparserpy/apk.py", line 65, in __init__
+    self.zip = zipfile.ZipFile(StringIO.StringIO(self.__raw))
+  File "/usr/local/python27/lib/python2.7/zipfile.py", line 766, in __init__
+    self._RealGetContents()
+  File "/usr/local/python27/lib/python2.7/zipfile.py", line 807, in _RealGetContents
+    raise BadZipfile, "File is not a zip file"
+BadZipfile: File is not a zip file
+[2016-12-14 11:00:30,776] [INFO] apk_report_run.py:84 [0634e4d65e381ff8c3ec7747dcc58005:begin to decode apk]
+[2016-12-14 11:02:54,587] [INFO] apk_report_run.py:87 [0634e4d65e381ff8c3ec7747dcc58005:begin to generate data for apk_report_yyyymm]
+[2016-12-14 11:06:47,115] [INFO] apk_report_run.py:90 [0634e4d65e381ff8c3ec7747dcc58005:begin to upload data to apk_report_yyyymm]
+[2016-12-14 11:06:48,015] [INFO] apk_report_run.py:92 [0634e4d65e381ff8c3ec7747dcc58005:begin to generate data for apk_resource]
+[2016-12-14 11:06:48,312] [INFO] apk_report_run.py:95 [0634e4d65e381ff8c3ec7747dcc58005:begin to upload data to apk_resource]
+[2016-12-14 11:06:51,746] [INFO] apk_report_run.py:97 [0634e4d65e381ff8c3ec7747dcc58005:begin to generate data for apk_basic_info]
+[2016-12-14 11:06:52,940] [INFO] apk_report_run.py:100 [0634e4d65e381ff8c3ec7747dcc58005:begin to upload data to apk_basic_info]
+[2016-12-14 11:06:53,280] [INFO] apk_report_run.py:105 [0634e4d65e381ff8c3ec7747dcc58005:-------finish---------]
+[2016-12-14 11:20:45,006] [INFO] apk_report_run.py:77 [0634e4d65e381ff8c3ec7747dcc58005:update last_update]
+[2016-12-14 11:26:04,568] [INFO] apk_report_run.py:77 [9a9221a5349274f7b2cb591fbaf285a7:update last_update]
+[2016-12-14 11:54:43,585] [INFO] apk_report_run.py:77 [88bf0840e8e8c1311eec6c7790840659:update last_update]
+[2016-12-14 12:01:31,757] [INFO] apk_report_run.py:77 [ee3dc704574fa9a0d3f4eccc93774427:update last_update]
+[2016-12-14 12:01:35,363] [INFO] apk_report_run.py:84 [4759c9bccb55b0cc222eddc7daf18855:begin to decode apk]
+[2016-12-14 12:02:35,504] [INFO] apk_report_run.py:87 [4759c9bccb55b0cc222eddc7daf18855:begin to generate data for apk_report_yyyymm]
+[2016-12-14 12:04:33,643] [INFO] apk_report_run.py:90 [4759c9bccb55b0cc222eddc7daf18855:begin to upload data to apk_report_yyyymm]
+[2016-12-14 12:04:33,967] [INFO] apk_report_run.py:92 [4759c9bccb55b0cc222eddc7daf18855:begin to generate data for apk_resource]
+[2016-12-14 12:04:34,259] [INFO] apk_report_run.py:95 [4759c9bccb55b0cc222eddc7daf18855:begin to upload data to apk_resource]
+[2016-12-14 12:04:34,755] [INFO] apk_report_run.py:97 [4759c9bccb55b0cc222eddc7daf18855:begin to generate data for apk_basic_info]
+[2016-12-14 12:04:35,527] [INFO] apk_report_run.py:100 [4759c9bccb55b0cc222eddc7daf18855:begin to upload data to apk_basic_info]
+[2016-12-14 12:04:35,719] [INFO] apk_report_run.py:105 [4759c9bccb55b0cc222eddc7daf18855:-------finish---------]
+[2016-12-14 12:21:09,549] [INFO] apk_report_run.py:77 [9054b1cc620dff012f610b9d0e664438:update last_update]
+[2016-12-14 12:52:29,136] [INFO] apk_report_run.py:84 [4c037c661c5b76141c451c51dd2acf47:begin to decode apk]
+[2016-12-14 12:52:29,845] [INFO] apk_report_run.py:87 [4c037c661c5b76141c451c51dd2acf47:begin to generate data for apk_report_yyyymm]
+[2016-12-14 12:52:29,855] [ERROR] apk_report_run.py:111 4c037c661c5b76141c451c51dd2acf47
+Traceback (most recent call last):
+  File "apk_report_run.py", line 89, in apk_analyze_run
+    apk_report.run()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 53, in run
+    self.parser_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 45, in parser_xml
+    obj2 = XmlParser(self.apk_path,self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 16, in __init__
+    self.get_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 20, in get_xml
+    obj = APK(self.apk_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/axmlparserpy/apk.py", line 65, in __init__
+    self.zip = zipfile.ZipFile(StringIO.StringIO(self.__raw))
+  File "/usr/local/python27/lib/python2.7/zipfile.py", line 766, in __init__
+    self._RealGetContents()
+  File "/usr/local/python27/lib/python2.7/zipfile.py", line 807, in _RealGetContents
+    raise BadZipfile, "File is not a zip file"
+BadZipfile: File is not a zip file
+[2016-12-14 13:01:17,613] [INFO] apk_report_run.py:77 [279d3694219d100c8c4ae374c0d16fba:update last_update]
+[2016-12-14 13:02:53,252] [INFO] apk_report_run.py:84 [2991b4bdfecd59da6a67c9ef923f076e:begin to decode apk]
+[2016-12-14 13:02:53,940] [INFO] apk_report_run.py:87 [2991b4bdfecd59da6a67c9ef923f076e:begin to generate data for apk_report_yyyymm]
+[2016-12-14 13:02:53,949] [ERROR] apk_report_run.py:111 2991b4bdfecd59da6a67c9ef923f076e
+Traceback (most recent call last):
+  File "apk_report_run.py", line 89, in apk_analyze_run
+    apk_report.run()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 53, in run
+    self.parser_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 45, in parser_xml
+    obj2 = XmlParser(self.apk_path,self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 16, in __init__
+    self.get_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 20, in get_xml
+    obj = APK(self.apk_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/axmlparserpy/apk.py", line 65, in __init__
+    self.zip = zipfile.ZipFile(StringIO.StringIO(self.__raw))
+  File "/usr/local/python27/lib/python2.7/zipfile.py", line 766, in __init__
+    self._RealGetContents()
+  File "/usr/local/python27/lib/python2.7/zipfile.py", line 807, in _RealGetContents
+    raise BadZipfile, "File is not a zip file"
+BadZipfile: File is not a zip file
+[2016-12-14 13:21:32,723] [INFO] apk_report_run.py:84 [6bb04c2fbd0f26cd20d5539117410cf9:begin to decode apk]
+[2016-12-14 13:21:33,437] [INFO] apk_report_run.py:87 [6bb04c2fbd0f26cd20d5539117410cf9:begin to generate data for apk_report_yyyymm]
+[2016-12-14 13:21:33,446] [ERROR] apk_report_run.py:111 6bb04c2fbd0f26cd20d5539117410cf9
+Traceback (most recent call last):
+  File "apk_report_run.py", line 89, in apk_analyze_run
+    apk_report.run()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 53, in run
+    self.parser_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 45, in parser_xml
+    obj2 = XmlParser(self.apk_path,self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 16, in __init__
+    self.get_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 20, in get_xml
+    obj = APK(self.apk_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/axmlparserpy/apk.py", line 65, in __init__
+    self.zip = zipfile.ZipFile(StringIO.StringIO(self.__raw))
+  File "/usr/local/python27/lib/python2.7/zipfile.py", line 766, in __init__
+    self._RealGetContents()
+  File "/usr/local/python27/lib/python2.7/zipfile.py", line 807, in _RealGetContents
+    raise BadZipfile, "File is not a zip file"
+BadZipfile: File is not a zip file
+[2016-12-14 13:39:05,915] [INFO] apk_report_run.py:77 [9054b1cc620dff012f610b9d0e664438:update last_update]
+[2016-12-14 13:45:01,598] [INFO] apk_report_run.py:77 [5dc0bee60112ba2d4d8efb697e9093a0:update last_update]
+[2016-12-14 14:00:47,277] [INFO] apk_report_run.py:77 [9bfc25c64c6e3aafe383951f60b3b8eb:update last_update]
+[2016-12-14 14:02:52,358] [INFO] apk_report_run.py:77 [a4cff74df8efea9dff494c6994abd432:update last_update]
+[2016-12-14 14:03:20,969] [INFO] apk_report_run.py:77 [279d3694219d100c8c4ae374c0d16fba:update last_update]
+[2016-12-14 14:34:45,146] [INFO] apk_report_run.py:77 [5dc0bee60112ba2d4d8efb697e9093a0:update last_update]
+[2016-12-14 14:50:21,611] [INFO] apk_report_run.py:77 [9054b1cc620dff012f610b9d0e664438:update last_update]
+[2016-12-14 14:56:01,892] [INFO] apk_report_run.py:84 [5b25fd1b53d92e370af68f486ec1f4bb:begin to decode apk]
+[2016-12-14 14:57:16,495] [INFO] apk_report_run.py:87 [5b25fd1b53d92e370af68f486ec1f4bb:begin to generate data for apk_report_yyyymm]
+[2016-12-14 14:57:20,744] [INFO] apk_report_run.py:90 [5b25fd1b53d92e370af68f486ec1f4bb:begin to upload data to apk_report_yyyymm]
+[2016-12-14 14:57:20,984] [INFO] apk_report_run.py:92 [5b25fd1b53d92e370af68f486ec1f4bb:begin to generate data for apk_resource]
+[2016-12-14 14:57:21,203] [INFO] apk_report_run.py:95 [5b25fd1b53d92e370af68f486ec1f4bb:begin to upload data to apk_resource]
+[2016-12-14 14:57:21,214] [INFO] apk_report_run.py:97 [5b25fd1b53d92e370af68f486ec1f4bb:begin to generate data for apk_basic_info]
+[2016-12-14 14:57:23,720] [INFO] apk_report_run.py:100 [5b25fd1b53d92e370af68f486ec1f4bb:begin to upload data to apk_basic_info]
+[2016-12-14 14:57:23,952] [INFO] apk_report_run.py:105 [5b25fd1b53d92e370af68f486ec1f4bb:-------finish---------]
+[2016-12-14 14:58:03,846] [INFO] apk_report_run.py:77 [9bfc25c64c6e3aafe383951f60b3b8eb:update last_update]
+[2016-12-14 15:20:22,671] [INFO] apk_report_run.py:77 [279d3694219d100c8c4ae374c0d16fba:update last_update]
+[2016-12-14 15:51:01,804] [INFO] apk_report_run.py:84 [03617a256ca73f445e7cd6a249abbc40:begin to decode apk]
+[2016-12-14 15:51:40,828] [INFO] apk_report_run.py:87 [03617a256ca73f445e7cd6a249abbc40:begin to generate data for apk_report_yyyymm]
+[2016-12-14 15:52:41,357] [INFO] apk_report_run.py:90 [03617a256ca73f445e7cd6a249abbc40:begin to upload data to apk_report_yyyymm]
+[2016-12-14 15:52:41,681] [INFO] apk_report_run.py:92 [03617a256ca73f445e7cd6a249abbc40:begin to generate data for apk_resource]
+[2016-12-14 15:52:41,837] [INFO] apk_report_run.py:95 [03617a256ca73f445e7cd6a249abbc40:begin to upload data to apk_resource]
+[2016-12-14 15:52:42,229] [INFO] apk_report_run.py:97 [03617a256ca73f445e7cd6a249abbc40:begin to generate data for apk_basic_info]
+[2016-12-14 15:52:49,163] [INFO] apk_report_run.py:100 [03617a256ca73f445e7cd6a249abbc40:begin to upload data to apk_basic_info]
+[2016-12-14 15:52:49,388] [INFO] apk_report_run.py:105 [03617a256ca73f445e7cd6a249abbc40:-------finish---------]
+[2016-12-14 16:22:57,837] [INFO] apk_report_run.py:77 [731a109417fff380cc5f6383bb070dbc:update last_update]
+[2016-12-14 16:29:02,903] [INFO] apk_report_run.py:77 [9bfc25c64c6e3aafe383951f60b3b8eb:update last_update]
+[2016-12-14 16:42:01,814] [INFO] apk_report_run.py:77 [9054b1cc620dff012f610b9d0e664438:update last_update]
+[2016-12-14 16:54:11,325] [INFO] apk_report_run.py:84 [7e9f6caffaf629ada7ae513ae4c2e157:begin to decode apk]
+[2016-12-14 16:54:26,865] [INFO] apk_report_run.py:87 [7e9f6caffaf629ada7ae513ae4c2e157:begin to generate data for apk_report_yyyymm]
+[2016-12-14 16:54:41,669] [INFO] apk_report_run.py:90 [7e9f6caffaf629ada7ae513ae4c2e157:begin to upload data to apk_report_yyyymm]
+[2016-12-14 16:54:41,982] [INFO] apk_report_run.py:92 [7e9f6caffaf629ada7ae513ae4c2e157:begin to generate data for apk_resource]
+[2016-12-14 16:54:42,012] [INFO] apk_report_run.py:95 [7e9f6caffaf629ada7ae513ae4c2e157:begin to upload data to apk_resource]
+[2016-12-14 16:54:42,159] [INFO] apk_report_run.py:97 [7e9f6caffaf629ada7ae513ae4c2e157:begin to generate data for apk_basic_info]
+[2016-12-14 16:54:48,187] [INFO] apk_report_run.py:100 [7e9f6caffaf629ada7ae513ae4c2e157:begin to upload data to apk_basic_info]
+[2016-12-14 16:54:48,393] [INFO] apk_report_run.py:105 [7e9f6caffaf629ada7ae513ae4c2e157:-------finish---------]
+[2016-12-14 17:00:23,401] [INFO] apk_report_run.py:77 [a4cff74df8efea9dff494c6994abd432:update last_update]
+[2016-12-14 17:42:19,091] [INFO] apk_report_run.py:77 [731a109417fff380cc5f6383bb070dbc:update last_update]
+[2016-12-14 17:52:20,417] [INFO] apk_report_run.py:77 [9054b1cc620dff012f610b9d0e664438:update last_update]

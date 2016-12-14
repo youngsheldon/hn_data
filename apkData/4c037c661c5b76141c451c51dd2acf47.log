@@ -1,0 +1,37 @@
+--2016-12-14 12:50:34--  http://www.mfcclub.net/
+Resolving www.mfcclub.net... 192.74.226.106, 209.222.108.12, 172.106.19.87, ...
+Connecting to www.mfcclub.net|192.74.226.106|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://www.mfcclub.net/login.jsp [following]
+--2016-12-14 12:50:39--  https://www.mfcclub.net/login.jsp
+Connecting to www.mfcclub.net|192.74.226.106|:443... connected.
+WARNING: certificate common name `mfcclub.net' doesn't match requested host name `www.mfcclub.net'.
+HTTP request sent, awaiting response... 200 OK
+Length: 8060 (7.9K) [text/html]
+Saving to: `login.jsp'
+
+     0K .......                                               100%  427M=0s
+
+2016-12-14 12:50:49 (427 MB/s) - `login.jsp' saved [8060/8060]
+
+=======================The second times wget =====================
+--2016-12-14 12:50:49--  http://www.mfcclub.net//downloads/mobile/o2olr.apk
+Resolving www.mfcclub.net... 192.74.226.106, 209.222.108.12, 142.4.124.18, ...
+Connecting to www.mfcclub.net|192.74.226.106|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 5612090 (5.4M) [application/octet-stream]
+Saving to: `o2olr.apk'
+
+     0K .......... .......... .......... .......... ..........  0% 13.4K 6m46s
+    50K .......... .......... .......... .......... ..........  1% 4.99K 12m20s
+   100K .......... .......... .......... .......... ..........  2% 8.54K 11m37s
+   150K .......... .......... .......... .......... ..........  3% 3.73K 14m31s
+   200K .......... .......... .......... .......... ..........  4% 7.37K 13m52s
+   250K .......... .......... .......... .......... ..........  5% 4.64K 14m33s
+   300K .......... .......... .......... .......... ..........  6% 12.1K 13m22s
+   350K .......... .......... .......... .......... ..........  7% 12.0K 12m28s
+   400K .......... .......... .......... .......... ..........  8% 4.67K 12m58s
+   450K .......... .......... .......... ..........             8% 8.89K=74s
+
+2016-12-14 12:52:23 (6.62 KB/s) - Read error at byte 502214/5612090 (Connection timed out). Giving up.
+
