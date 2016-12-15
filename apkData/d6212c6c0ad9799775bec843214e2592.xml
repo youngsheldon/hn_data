@@ -1,0 +1,2256 @@
+<manifest
+    android:versionCode=<0xF2, type 0x10>
+    android:versionName="6.5.0"
+    package="com.qihoo360.mobilesafe"
+    platformBuildVersionCode=<0x15, type 0x10>
+    platformBuildVersionName="5.0.1-1624448"
+    >
+    <uses-sdk
+        android:minSdkVersion=<0xA, type 0x10>
+        android:targetSdkVersion=<0x13, type 0x10>
+        >
+    </uses-sdk>
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.MODIFY_PHONE_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CAMERA"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.FLASHLIGHT"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WAKE_LOCK"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.VIBRATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.BLUETOOTH"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.BLUETOOTH_ADMIN"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RESTART_PACKAGES"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.KILL_BACKGROUND_PROCESSES"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.GET_TASKS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.SYSTEM_ALERT_WINDOW"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_BOOT_COMPLETED"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CALL_PHONE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.SEND_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.PROCESS_OUTGOING_CALLS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_CONTACTS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_CONTACTS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_MMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_WAP_PUSH"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_CALL_LOG"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_CALL_LOG"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.BATTERY_STATS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.GET_PACKAGE_SIZE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CLEAR_APP_CACHE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.REORDER_TASKS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.GET_ACCOUNTS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.FORCE_STOP_PACKAGES"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.EXPAND_STATUS_BAR"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.alarm.permission.SET_ALARM"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECORD_AUDIO"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.browser.permission.WRITE_HISTORY_BOOKMARKS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_MTK_MMHW"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_SYNC_SETTINGS"
+        >
+    </uses-permission>
+    <permission
+        android:name="com.qihoo360.mobilesafe.permission.DAZEN_CLEAN"
+        android:protectionLevel=<0x3, type 0x11>
+        >
+    </permission>
+    <permission
+        android:name="com.qihoo360.mobilesafe.permission.QIKU_CLEAN"
+        android:protectionLevel=<0x3, type 0x11>
+        >
+    </permission>
+    <uses-permission
+        android:name="com.android.launcher.permission.INSTALL_SHORTCUT"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.launcher.permission.READ_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.launcher.permission.WRITE_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.huawei.android.launcher.permission.READ_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.oppo.launcher.permission.READ_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.oppo.launcher.permission.WRITE_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.htc.launcher.permission.READ_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.htc.launcher.permission.WRITE_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.INTERACT_ACROSS_USERS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="yulong.permission.READ_WRITE_YLSECURE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.MANAGE_USERS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.INTERACT_ACROSS_USERS_FULL"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.htc.launcher.permission.DELETE_PACKAGES"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.PACKAGE_USAGE_STATS"
+        >
+    </uses-permission>
+    <permission
+        android:name="com.qihoo360.permission.msafe.ASSIST_MKILLER"
+        android:protectionLevel=<0x2, type 0x11>
+        >
+    </permission>
+    <uses-permission
+        android:name="com.qihoo360.permission.mkiller.ASSIST_MSAFE"
+        >
+    </uses-permission>
+    <permission
+        android:name="com.qihoo360.mcontacts.ACCESS_PESERVICE"
+        android:protectionLevel=<0x2, type 0x11>
+        >
+    </permission>
+    <uses-permission
+        android:name="com.qihoo360.mcontacts.ACCESS_PESERVICE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.USE_FINGERPRINT"
+        >
+    </uses-permission>
+    <application
+        android:theme=<0x7F08003F, type 0x01>
+        android:label=<0x7F09001A, type 0x01>
+        android:icon=<0x7F020024, type 0x01>
+        android:name=".ui.index.MobileSafeApplication"
+        android:allowBackup=<0x0, type 0x12>
+        >
+        <meta-data
+            android:name="com.qihoo360.mobilesafe.payguard.enabled"
+            android:value=<0xFFFFFFFF, type 0x12>
+            >
+        </meta-data>
+        <meta-data
+            android:name="com.qihoo360.mobilesafe.provider.authorities"
+            android:value="com.qihoo360.mobilesafeguard"
+            >
+        </meta-data>
+        <meta-data
+            android:name="com.qihoo360.mobilesafe.payguard.support.browser"
+            android:value=<0xFFFFFFFF, type 0x12>
+            >
+        </meta-data>
+        <meta-data
+            android:name="com.qihoo360.mobilesafe.enter.from.appstore"
+            android:value="43|44|70|4901"
+            >
+        </meta-data>
+        <meta-data
+            android:name="com.qihoo360.mobilesafe.smsmmssdk.enabled"
+            android:value=<0xFFFFFFFF, type 0x12>
+            >
+        </meta-data>
+        <activity
+            android:theme=<0x7F080041, type 0x01>
+            android:name=".ui.index.AppEnterActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.LAUNCHER"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.qihoo360.mobilesafe.exam.action.STARTEXAM"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F08003D, type 0x01>
+            android:name="com.qihoo360.mobilesafe.support.crashhandler.UploadActivity"
+            android:exported=<0x0, type 0x12>
+            android:process=":crashhandler"
+            android:launchMode=<0x3, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080016, type 0x01>
+            android:label=<0x7F09001A, type 0x01>
+            android:name=".support.ms.EmptyExitActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x3, type 0x10>
+            android:screenOrientation=<0x3, type 0x10>
+            >
+        </activity>
+        <service
+            android:label=<0x7F090404, type 0x01>
+            android:name=".service.SafeManageService"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.qihoo360.mobilesafe.service.UI_ADAPTER"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <service
+            android:label=<0x7F090402, type 0x01>
+            android:name=".service.helper.GuardHelperService"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:process=":GuardService"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.qihoo360.mobilesafe.service.PhoneNumberService"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.qihoo360.mobilesafe.QihooAlliance"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.qihoo360.mobilesafe.service.StartAllService"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <provider
+            android:name=".provider.SafeGuardProvider"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:process=":GuardService"
+            android:authorities="com.qihoo360.mobilesafeguard"
+            >
+        </provider>
+        <service
+            android:label=<0x7F090403, type 0x01>
+            android:name=".service.GuardCoreService"
+            android:exported=<0x0, type 0x12>
+            android:process=":GuardService"
+            >
+        </service>
+        <provider
+            android:name="com.qihoo.appstore.provider.secstore.appinfoignore.IgnoreUpdateAppProvider"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:authorities="360secstoreignoreappinfo"
+            >
+        </provider>
+        <service
+            android:label=<0x7F090405, type 0x01>
+            android:name=".service.PluginSetupService"
+            android:exported=<0x0, type 0x12>
+            android:process=":PluginsService"
+            >
+        </service>
+        <service
+            android:name=".service.helper.RestartService"
+            android:exported=<0x0, type 0x12>
+            android:process=":RestartService"
+            >
+        </service>
+        <service
+            android:name=".main.CasualService"
+            android:exported=<0x0, type 0x12>
+            >
+        </service>
+        <provider
+            android:name="com.qihoo360.mobilesafe.svcmanager.ServiceProvider"
+            android:exported=<0x0, type 0x12>
+            android:process=":GuardService"
+            android:multiprocess=<0x0, type 0x12>
+            android:authorities="com.qihoo360.mobilesafe.svcmanager"
+            >
+        </provider>
+        <receiver
+            android:name=".receiver.DazenCleanReceiver"
+            android:permission="com.qihoo360.mobilesafe.permission.DAZEN_CLEAN"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.yulong.android.launcher3.action.SoftwareSpeedUp"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".receiver.QiKuCleanReceiver"
+            android:permission="com.qihoo360.mobilesafe.permission.QIKU_CLEAN"
+            android:process=":GuardService"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.qiku.android.action.QIKU_CLEAN"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".receiver.BootActionReceiver"
+            android:process=":GuardService"
+            >
+            <intent-filter
+                android:priority=<0x7FFFFFFF, type 0x11>
+                >
+                <action
+                    android:name="android.intent.action.BOOT_COMPLETED"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".receiver.ScreenUnlockReceiver"
+            android:process=":GuardService"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.USER_PRESENT"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".receiver.PhoneCallReceiver"
+            android:process=":GuardService"
+            >
+            <intent-filter
+                android:priority=<0x7FFFFFFF, type 0x11>
+                >
+                <action
+                    android:name="android.intent.action.NEW_OUTGOING_CALL"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.HOME"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                android:priority=<0x7FFFFFFF, type 0x11>
+                >
+                <action
+                    android:name="android.intent.action.PHONE_STATE"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".receiver.NetStatReceiver"
+            android:process=":GuardService"
+            >
+            <intent-filter
+                android:priority=<0x7FFFFFFF, type 0x11>
+                >
+                <action
+                    android:name="android.bluetooth.adapter.action.STATE_CHANGED"
+                    >
+                </action>
+                <action
+                    android:name="android.net.wifi.WIFI_STATE_CHANGED"
+                    >
+                </action>
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.ANY_DATA_STATE"
+                    >
+                </action>
+                <action
+                    android:name="android.net.wifi.STATE_CHANGE"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                android:priority=<0x7FFFFFFF, type 0x11>
+                >
+                <action
+                    android:name="android.intent.action.MEDIA_UNMOUNTED"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.MEDIA_REMOVED"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.MEDIA_CHECKING"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.MEDIA_EJECT"
+                    >
+                </action>
+                <data
+                    android:scheme="file"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                android:priority=<0x7FFFFFFF, type 0x11>
+                >
+                <action
+                    android:name="android.intent.action.SERVICE_STATE"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                android:priority=<0x7FFFFFFF, type 0x11>
+                >
+                <action
+                    android:name="android.intent.action.SIM_STATE_CHANGED"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".contacts.ContactsReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.qihoo360.contacts.intent.deal_misscall"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.qihoo360.contacts.action.systemcall"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.provider.Telephony.SIM_FULL"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="action_sent_privacy_message_broadcast"
+                    >
+                </action>
+                <action
+                    android:name="action_delivery_privacy_message_broadcast"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <provider
+            android:name="com.qihoo360.mobilesafe.loader.p.MainProvider"
+            android:exported=<0x0, type 0x12>
+            android:process=":GuardService"
+            android:authorities="com.qihoo360.mobilesafe.loader.p.main"
+            >
+        </provider>
+        <provider
+            android:name="com.qihoo360.mobilesafe.loader.p.PluginProviderN1"
+            android:exported=<0x0, type 0x12>
+            android:authorities="com.qihoo360.mobilesafe.loader.p.mainN1"
+            >
+        </provider>
+        <provider
+            android:name="com.qihoo360.mobilesafe.loader.p.ProviderN1"
+            android:exported=<0x0, type 0x12>
+            android:authorities="com.qihoo360.mobilesafe.loader.p.prN1"
+            >
+        </provider>
+        <service
+            android:name="com.qihoo360.mobilesafe.loader.s.ServiceN1"
+            android:exported=<0x0, type 0x12>
+            >
+        </service>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.qihoo360.mobilesafe.loader.a.ActivityN1ST0"
+            android:exported=<0x0, type 0x12>
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.qihoo360.mobilesafe.loader.a.ActivityN1ST1"
+            android:exported=<0x0, type 0x12>
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.qihoo360.mobilesafe.loader.a.ActivityN1ST2"
+            android:exported=<0x0, type 0x12>
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.qihoo360.mobilesafe.loader.a.ActivityN1ST3"
+            android:exported=<0x0, type 0x12>
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.qihoo360.mobilesafe.loader.a.ActivityN1ST4"
+            android:exported=<0x0, type 0x12>
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.qihoo360.mobilesafe.loader.a.ActivityN1ST5"
+            android:exported=<0x0, type 0x12>
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.qihoo360.mobilesafe.loader.a.ActivityN1SI0"
+            android:exported=<0x0, type 0x12>
+            android:launchMode=<0x3, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.qihoo360.mobilesafe.loader.a.ActivityN1SI1"
+            android:exported=<0x0, type 0x12>
+            android:launchMode=<0x3, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.qihoo360.mobilesafe.loader.a.ActivityN1SI2"
+            android:exported=<0x0, type 0x12>
+            android:launchMode=<0x3, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.qihoo360.mobilesafe.loader.a.ActivityN1SIT0"
+            android:exported=<0x0, type 0x12>
+            android:launchMode=<0x3, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.qihoo360.mobilesafe.loader.a.ActivityN1SIT1"
+            android:exported=<0x0, type 0x12>
+            android:launchMode=<0x3, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.qihoo360.mobilesafe.loader.a.ActivityN1SIT2"
+            android:exported=<0x0, type 0x12>
+            android:launchMode=<0x3, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.qihoo360.mobilesafe.loader.a.ActivityN1TA0"
+            android:exported=<0x0, type 0x12>
+            android:taskAffinity=":ui0"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.qihoo360.mobilesafe.loader.a.ActivityN1TA1"
+            android:exported=<0x0, type 0x12>
+            android:taskAffinity=":ui1"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.qihoo360.mobilesafe.loader.a.ActivityN1TA2"
+            android:exported=<0x0, type 0x12>
+            android:taskAffinity=":ui2"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.qihoo360.mobilesafe.loader.a.ActivityN1TA3"
+            android:exported=<0x0, type 0x12>
+            android:taskAffinity=":ui3"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.qihoo360.mobilesafe.loader.a.ActivityN1TA4"
+            android:exported=<0x0, type 0x12>
+            android:taskAffinity=":ui4"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.qihoo360.mobilesafe.loader.a.ActivityN1TA5"
+            android:exported=<0x0, type 0x12>
+            android:taskAffinity=":ui5"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030007, type 0x01>
+            android:name="com.qihoo360.mobilesafe.loader.a.ActivityN1F0"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030007, type 0x01>
+            android:name="com.qihoo360.mobilesafe.loader.a.ActivityN1F1"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030007, type 0x01>
+            android:name="com.qihoo360.mobilesafe.loader.a.ActivityN1F2"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.qihoo360.mobilesafe.loader.a.ActivityN1T0"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.qihoo360.mobilesafe.loader.a.ActivityN1T1"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.qihoo360.mobilesafe.loader.a.ActivityN1T2"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030011, type 0x01>
+            android:name="com.qihoo360.mobilesafe.loader.a.ActivityN1TF0"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030011, type 0x01>
+            android:name="com.qihoo360.mobilesafe.loader.a.ActivityN1TF1"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030011, type 0x01>
+            android:name="com.qihoo360.mobilesafe.loader.a.ActivityN1TF2"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103000B, type 0x01>
+            android:name="com.qihoo360.mobilesafe.loader.a.ActivityN1D0"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103000B, type 0x01>
+            android:name="com.qihoo360.mobilesafe.loader.a.ActivityN1D1"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103000B, type 0x01>
+            android:name="com.qihoo360.mobilesafe.loader.a.ActivityN1D2"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103000B, type 0x01>
+            android:name="com.qihoo360.mobilesafe.loader.a.ActivityN1SID0"
+            android:exported=<0x0, type 0x12>
+            android:launchMode=<0x3, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103000B, type 0x01>
+            android:name="com.qihoo360.mobilesafe.loader.a.ActivityN1SID1"
+            android:exported=<0x0, type 0x12>
+            android:launchMode=<0x3, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103000B, type 0x01>
+            android:name="com.qihoo360.mobilesafe.loader.a.ActivityN1SID2"
+            android:exported=<0x0, type 0x12>
+            android:launchMode=<0x3, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.qihoo360.mobilesafe.loader.a.ActivityN1NR0"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.qihoo360.mobilesafe.loader.a.ActivityN1NR1"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.qihoo360.mobilesafe.loader.a.ActivityN1NR2"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.qihoo360.mobilesafe.loader.a.ActivityN1NR3"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.qihoo360.mobilesafe.loader.a.ActivityN1NR4"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.qihoo360.mobilesafe.loader.a.ActivityN1NR5"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <provider
+            android:name="com.qihoo360.mobilesafe.loader.p.PluginProvider0"
+            android:exported=<0x0, type 0x12>
+            android:process=":loader0"
+            android:authorities="com.qihoo360.mobilesafe.loader.p.main0"
+            >
+        </provider>
+        <provider
+            android:name="com.qihoo360.mobilesafe.loader.p.Provider0"
+            android:exported=<0x0, type 0x12>
+            android:process=":loader0"
+            android:authorities="com.qihoo360.mobilesafe.loader.p.pr0"
+            >
+        </provider>
+        <service
+            android:name="com.qihoo360.mobilesafe.loader.s.Service0"
+            android:exported=<0x0, type 0x12>
+            android:process=":loader0"
+            >
+        </service>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.qihoo360.mobilesafe.loader.a.Activity0_singleTask1"
+            android:exported=<0x0, type 0x12>
+            android:process=":loader0"
+            android:taskAffinity=":loader0"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.qihoo360.mobilesafe.loader.a.Activity0_singleInstance1"
+            android:exported=<0x0, type 0x12>
+            android:process=":loader0"
+            android:launchMode=<0x3, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.qihoo360.mobilesafe.loader.a.Activity0_task"
+            android:exported=<0x0, type 0x12>
+            android:process=":loader0"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030007, type 0x01>
+            android:name="com.qihoo360.mobilesafe.loader.a.Activity0_fullscreen"
+            android:exported=<0x0, type 0x12>
+            android:process=":loader0"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.qihoo360.mobilesafe.loader.a.Activity0_translucent"
+            android:exported=<0x0, type 0x12>
+            android:process=":loader0"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030011, type 0x01>
+            android:name="com.qihoo360.mobilesafe.loader.a.Activity0_translucent_fullscreen"
+            android:exported=<0x0, type 0x12>
+            android:process=":loader0"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103000B, type 0x01>
+            android:name="com.qihoo360.mobilesafe.loader.a.Activity0_dialog"
+            android:exported=<0x0, type 0x12>
+            android:process=":loader0"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.qihoo360.mobilesafe.loader.a.Activity0"
+            android:exported=<0x0, type 0x12>
+            android:process=":loader0"
+            android:taskAffinity=":loader0"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <provider
+            android:name="com.qihoo360.mobilesafe.loader.p.PluginProvider1"
+            android:exported=<0x0, type 0x12>
+            android:process=":loader1"
+            android:authorities="com.qihoo360.mobilesafe.loader.p.main1"
+            >
+        </provider>
+        <provider
+            android:name="com.qihoo360.mobilesafe.loader.p.Provider1"
+            android:exported=<0x0, type 0x12>
+            android:process=":loader1"
+            android:authorities="com.qihoo360.mobilesafe.loader.p.pr1"
+            >
+        </provider>
+        <service
+            android:name="com.qihoo360.mobilesafe.loader.s.Service1"
+            android:exported=<0x0, type 0x12>
+            android:process=":loader1"
+            >
+        </service>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.qihoo360.mobilesafe.loader.a.Activity1_singleTask1"
+            android:exported=<0x0, type 0x12>
+            android:process=":loader1"
+            android:taskAffinity=":loader1"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.qihoo360.mobilesafe.loader.a.Activity1_singleInstance1"
+            android:exported=<0x0, type 0x12>
+            android:process=":loader1"
+            android:launchMode=<0x3, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.qihoo360.mobilesafe.loader.a.Activity1_task"
+            android:exported=<0x0, type 0x12>
+            android:process=":loader1"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030007, type 0x01>
+            android:name="com.qihoo360.mobilesafe.loader.a.Activity1_fullscreen"
+            android:exported=<0x0, type 0x12>
+            android:process=":loader1"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.qihoo360.mobilesafe.loader.a.Activity1_translucent"
+            android:exported=<0x0, type 0x12>
+            android:process=":loader1"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030011, type 0x01>
+            android:name="com.qihoo360.mobilesafe.loader.a.Activity1_translucent_fullscreen"
+            android:exported=<0x0, type 0x12>
+            android:process=":loader1"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103000B, type 0x01>
+            android:name="com.qihoo360.mobilesafe.loader.a.Activity1_dialog"
+            android:exported=<0x0, type 0x12>
+            android:process=":loader1"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.qihoo360.mobilesafe.loader.a.Activity1"
+            android:exported=<0x0, type 0x12>
+            android:process=":loader1"
+            android:taskAffinity=":loader1"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <service
+            android:name="com.qihoo.permmgr.PermService"
+            android:exported=<0x0, type 0x12>
+            android:process=":permmgr"
+            >
+        </service>
+        <service
+            android:label=<0x7F090407, type 0x01>
+            android:name="com.qihoo360.mobilesafe.update.impl.UpdateService"
+            android:exported=<0x0, type 0x12>
+            android:process=":update"
+            >
+        </service>
+        <service
+            android:label=<0x7F090408, type 0x01>
+            android:name="com.qihoo360.mobilesafe.update.UpdateScreenHiddenService"
+            android:exported=<0x0, type 0x12>
+            android:process=":GuardService"
+            >
+        </service>
+        <activity
+            android:theme=<0x7F08003C, type 0x01>
+            android:name=".update.UpdateScreen"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x3, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080016, type 0x01>
+            android:name="com.qihoo360.loader2.updater.PluginDownloadActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <service
+            android:name="com.qihoo360.mobilesafe.support.report.ReportService"
+            android:exported=<0x0, type 0x12>
+            android:process=":report"
+            >
+        </service>
+        <activity
+            android:name=".accounts.a.LoginRegisterActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".accounts.a.SettingsActivity"
+            android:exported=<0x0, type 0x12>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.qihoo360.accounts.ui.a.WebViewActivity"
+            android:exported=<0x0, type 0x12>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <service
+            android:name="com.qihoo.security.services.DeepScanService"
+            android:exported=<0x0, type 0x12>
+            android:process=":scan"
+            >
+        </service>
+        <service
+            android:name="com.qihoo.security.services.ScanEngineService"
+            android:exported=<0x0, type 0x12>
+            android:process=":engine"
+            >
+        </service>
+        <provider
+            android:name="com.qihoo360.mobilesafe.paysafe.db.PaySafeProvider"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:process=":GuardService"
+            android:authorities="com.qihoo360.mobilesafe.paysafe"
+            >
+        </provider>
+        <activity
+            android:theme=<0x7F080016, type 0x01>
+            android:label=<0x7F09001A, type 0x01>
+            android:name=".netprotection.urlsafe.UrlSafeDetailAlertActivity"
+            android:exported=<0x0, type 0x12>
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x3, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <service
+            android:name=".floatwin.service.FloatService"
+            android:exported=<0x0, type 0x12>
+            android:process=":FloatWindow"
+            >
+        </service>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name=".floatwin.ui.switcher.ChangeBrightness"
+            android:taskAffinity="com.qihoo360.mobilesafe.ChangeBrightness"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x0, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080016, type 0x01>
+            android:name=".floatwin.ui.floatpage.view.MtkMobileDataDialog"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x3, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".floatwin.ui.setting.FloatWinSettingsActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <service
+            android:name=".floatwin.biz.ledlight.LedLightService"
+            android:exported=<0x0, type 0x12>
+            android:process=":LedLight"
+            >
+        </service>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name=".floatwin.biz.ledlight.LedLightCameraActivity"
+            android:process=":LedLight"
+            android:launchMode=<0x3, type 0x10>
+            android:screenOrientation=<0xFFFFFFFF, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name=".clean.notify.CleanNotifyActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x3, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <service
+            android:name="com.qihoo360.mobilesafe.blockmanagement.BlockCentralService"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:process=":GuardService"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.qihoo360.mobilesafe.blockmanagement.CONNECT_TO_SERVICE"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <receiver
+            android:name="com.qihoo360.mobilesafe.blockmanagement.candidaterule.EnableServiceReceiver"
+            >
+            <meta-data
+                android:name="priority"
+                android:value=<0x63, type 0x10>
+                >
+            </meta-data>
+            <meta-data
+                android:name="codeVersion"
+                android:value=<0x1, type 0x10>
+                >
+            </meta-data>
+            <intent-filter
+                >
+                <action
+                    android:name="com.qihoo360.mobilesafe.blockmanagement.ACTION_GET_VERSION"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.qihoo360.mobilesafe.blockmanagement.ACTION_ENABLE_SERVICE"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <service
+            android:label="UpdateMarkerService"
+            android:name=".block.update.UpdateMarkerService"
+            android:exported=<0x0, type 0x12>
+            android:process=":GuardService"
+            >
+        </service>
+        <service
+            android:label="UploadMarkerService"
+            android:name=".block.update.UploadMarkerService"
+            android:exported=<0x0, type 0x12>
+            android:process=":GuardService"
+            >
+        </service>
+        <service
+            android:label="UploadBlockSystemInfoService"
+            android:name=".block.update.UploadBlockSystemInfoService"
+            android:exported=<0x0, type 0x12>
+            android:process=":GuardService"
+            >
+        </service>
+        <activity
+            android:theme=<0x7F08003D, type 0x01>
+            android:label=<0x7F09001A, type 0x01>
+            android:name=".block.notify.BlockSmsActivity"
+            android:exported=<0x0, type 0x12>
+            android:launchMode=<0x3, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <service
+            android:name=".callshow.LocalShowManager"
+            android:exported=<0x0, type 0x12>
+            android:process=":GuardUIService"
+            >
+        </service>
+        <service
+            android:name=".callshow.api.UpdateRealityShowService"
+            android:exported=<0x0, type 0x12>
+            android:process=":GuardService"
+            >
+        </service>
+        <service
+            android:name=".callshow.contact.ContactLogicService"
+            android:exported=<0x0, type 0x12>
+            android:process=":ContactLogicService"
+            >
+        </service>
+        <provider
+            android:name="com.qihoo360.apm.apmdatamanager.ApmDataProvider"
+            android:exported=<0x0, type 0x12>
+            android:process=":GuardService"
+            android:authorities="com.qihoo360.apm.apmdatamanager.ApmDataProvider"
+            >
+        </provider>
+        <receiver
+            android:name="com.qihoo360.mobilesafe.utils2.ApmFlowDataUtil"
+            android:permission="com.qihoo360.mobilesafe.permission.broadcast"
+            android:exported=<0x0, type 0x12>
+            android:process=":GuardService"
+            >
+            <intent-filter
+                android:priority=<0x7FFFFFFF, type 0x11>
+                >
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:name="com.qihoo360.mobilesafe.notification.ui.NotificationConfigurationActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F08003D, type 0x01>
+            android:name="com.qihoo360.mobilesafe.notification.NotificationEnterActivity"
+            android:exported=<0x0, type 0x12>
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x3, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.qihoo360.mobilesafe.notification.CLICK"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <receiver
+            android:name="com.qihoo360.mobilesafe.notification.NotificationEnterRecerver"
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.qihoo360.mobilesafe.notification.CLICK"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </receiver>
+        <provider
+            android:name="com.qihoo.antivirus.shield.server.ServerProvider"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:exported=<0x0, type 0x12>
+            android:process=":GuardService"
+            android:authorities="com.qihoo.antivirus.shield.server"
+            >
+        </provider>
+        <provider
+            android:name="com.qihoo.antivirus.shield.server.ShieldExportProvider"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:process=":GuardService"
+            android:authorities="com.qihoo.antivirus.shield.server.export"
+            >
+        </provider>
+        <provider
+            android:name="com.qihoo.antivirus.shield.app.EmptyProviderForMobilesafe"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:process=":remote"
+            android:authorities="com.qihoo360.mobilesafe.shield.emptyContent"
+            >
+        </provider>
+        <receiver
+            android:name="com.qihoo.antivirus.server.app.FilterReceiver"
+            android:process=":GuardService"
+            >
+            <intent-filter
+                android:priority=<0x7FFFFFFF, type 0x11>
+                >
+                <action
+                    android:name="android.provider.Telephony.SMS_RECEIVED"
+                    >
+                </action>
+                <action
+                    android:name="android.provider.Telephony.SMS_DELIVER"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <provider
+            android:name="com.qihoo.antivirus.shieldui.Provider"
+            android:exported=<0x0, type 0x12>
+            android:authorities="com.qihoo360.mobilesafe.shieldui.provider"
+            >
+        </provider>
+        <meta-data
+            android:name="com.qihoo360.mobilesafe.stage"
+            android:value=<0x1, type 0x10>
+            >
+        </meta-data>
+        <service
+            android:name="com.qihoo.antivirus.autostart.bind.AutoStartServiceForMobilesafe"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:process=":GuardService"
+            >
+        </service>
+        <activity
+            android:theme=<0x7F08003D, type 0x01>
+            android:name=".callshow.RealityShowCardWindow"
+            android:process=":GuardUIService"
+            android:taskAffinity="com.qihoo360.mobilesafe.callshow"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F08003D, type 0x01>
+            android:name=".ui.marker.MarkerDialog"
+            android:process=":GuardUIService"
+            android:taskAffinity="com.qihoo360.mobilesafe.marker"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+             >
+
+        </activity>
+        <activity
+            android:theme=<0x7F08003D, type 0x01>
+            android:name=".callshow.ui.ErrorCorrectDialogOfTradeShow"
+            android:process=":GuardUIService"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080016, type 0x01>
+            android:name=".callshow.miuiadaptation.GuideOpenFloatSettingForCallShow"
+            android:process=":GuardUIService"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <service
+            android:name=".ui.marker.MarkerManager"
+            android:exported=<0x0, type 0x12>
+            android:process=":GuardUIService"
+            >
+        </service>
+        <receiver
+            android:name="com.qihoo360.mobilesafe.assist.floatinterface.EnableFloatWindowForMiuiReceiver"
+            android:exported=<0x0, type 0x12>
+            >
+        </receiver>
+        <activity
+            android:theme=<0x7F08003D, type 0x01>
+            android:name=".clean.notify.CleanDialogActivity"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x3, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <service
+            android:label="ApkScanService"
+            android:name="com.qihoo360.mobilesafe.clean.rely.ApkScanService"
+            android:exported=<0x0, type 0x12>
+            android:process=":apk_scan"
+            >
+        </service>
+        <activity
+            android:name=".main.ui.SettingsMainActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".main.ui.SettingsGeneralActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".main.ui.SettingsAppmgrActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".main.ui.SettingsToolsActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.qihoo360.mobilesafe.notification.ui.NotificationSettingActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".main.ui.FeedbackActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".main.ui.AboutMainActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".main.ui.AppManagerActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".main.ui.AboutThanksActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".main.ui.AboutOfficialActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".ui.SimpleBrowserActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".skin.SkinActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <service
+            android:name="com.qihoo360.mobilesafe.support.download.DownloadService"
+            android:exported=<0x0, type 0x12>
+            android:process=":download"
+            >
+        </service>
+        <activity
+            android:theme=<0x7F080016, type 0x01>
+            android:name="com.qihoo360.mobilesafe.support.extension.DownloadConfirmDlg"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.qihoo360.mobilesafe.main.ui.RootInterimSuperModeHelper"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.qihoo360.mobilesafe.protection_v3.ProtectionV3PortalActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            android:windowSoftInputMode=<0x15, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:scheme="com.qihoo360.mobilesafe"
+                    android:host="antitheft"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <service
+            android:name="com.qihoo360.mobilesafe.protection_v3.AntiTheftExternalService"
+            android:exported=<0x0, type 0x12>
+            android:process=":AntiTheft"
+            >
+        </service>
+        <provider
+            android:name="com.qihoo360.mobilesafe.protection_v3.AntiTheftProvider"
+            android:exported=<0x0, type 0x12>
+            android:process=":GuardService"
+            android:authorities="com.qihoo360.mobilesafe.AntitheftProvider"
+            >
+        </provider>
+        <receiver
+            android:label=<0x7F090429, type 0x01>
+            android:name="com.qihoo360.mobilesafe.protection_v3.defence.ProtectionDeviceAdminReceiver"
+            android:permission="android.permission.BIND_DEVICE_ADMIN"
+            android:exported=<0x0, type 0x12>
+            android:process=":GuardService"
+            android:description=<0x7F09042B, type 0x01>
+            >
+            <meta-data
+                android:name="android.app.device_admin"
+                android:resource=<0x7F050003, type 0x01>
+                >
+            </meta-data>
+            <intent-filter
+                >
+                <action
+                    android:name="android.app.action.DEVICE_ADMIN_ENABLED"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.qihoo360.mobilesafe.protection_v3.ProtectionNetworkReceiver"
+            android:permission="com.qihoo360.mobilesafe.permission.broadcast"
+            android:exported=<0x0, type 0x12>
+            android:process=":GuardService"
+            >
+            <intent-filter
+                android:priority=<0x7FFFFFFF, type 0x11>
+                >
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.qihoo360.mobilesafe.wifiexam.plugin.WifiExamExternalService"
+            android:exported=<0x0, type 0x12>
+            android:process=":WifiExam"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.qihoo360.mobilesafe.service.WIFIEXAM"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <service
+            android:name=".beacon.BeaconSvc"
+            android:exported=<0x0, type 0x12>
+            >
+        </service>
+        <service
+            android:name=".beacon.BeaconXSvc"
+            android:exported=<0x0, type 0x12>
+            android:process=":GuardService"
+            >
+        </service>
+        <service
+            android:name="com.qihoo360.mobilesafe.vpn.VpnCoreService"
+            android:permission="android.permission.BIND_VPN_SERVICE"
+            android:process=":vpn"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.net.VpnService"
+                    >
+                </action>
+                <action
+                    android:name="com.qihoo360.mobilesafe.vpn.VPNCORESERVICE"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <activity
+            android:name="com.qihoo360.mobilesafe.support.rom.PermissionSetting"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.qihoo360.mobilesafe.support.rom.GuideToAccSetting"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.qihoo360.mobilesafe.share.ShareActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F09001A, type 0x01>
+            android:name="com.qihoo360.mobilesafe.wxapi.WXEntryActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F09001A, type 0x01>
+            android:name="com.qihoo360.mobilesafe.apshare.ShareEntryActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+        </activity>
+        <activity
+            android:name=".main.ui.MoreToolsActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.qihoo.antivirus.preuninstall.ui.PreUninstallActivity"
+            android:launchMode=<0x3, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name=".main.safereport.SafeReportListActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".main.safereport.SafeReportItemActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".promotion.PromotionActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <provider
+            android:name="com.qihoo360.mobilesafe.backup.provider.LocalSmsProvider"
+            android:exported=<0x0, type 0x12>
+            android:process=":GuardService"
+            android:authorities="com.qihoo360.localsms"
+            >
+        </provider>
+        <receiver
+            android:name="com.qihoo360.mobilesafe.receiver.SmsReceiver"
+            android:permission="android.permission.BROADCAST_SMS"
+            android:process=":GuardService"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.provider.Telephony.SMS_DELIVER"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.qihoo360.mobilesafe.receiver.MmsReceiver"
+            android:permission="android.permission.BROADCAST_WAP_PUSH"
+            android:process=":GuardService"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.provider.Telephony.WAP_PUSH_DELIVER"
+                    >
+                </action>
+                <data
+                    android:mimeType="application/vnd.wap.mms-message"
+                    >
+                </data>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:name=".backup.defaultsms.ComposeSmsActivity"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.SEND"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.SENDTO"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="sms"
+                    >
+                </data>
+                <data
+                    android:scheme="smsto"
+                    >
+                </data>
+                <data
+                    android:scheme="mms"
+                    >
+                </data>
+                <data
+                    android:scheme="mmsto"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <service
+            android:name=".backup.defaultsms.HeadlessSmsSendService"
+            android:permission="android.permission.SEND_RESPOND_VIA_MESSAGE"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.RESPOND_VIA_MESSAGE"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:scheme="sms"
+                    >
+                </data>
+                <data
+                    android:scheme="smsto"
+                    >
+                </data>
+                <data
+                    android:scheme="mms"
+                    >
+                </data>
+                <data
+                    android:scheme="mmsto"
+                    >
+                </data>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.qihoo.smsmmssdk.service.MessageService"
+            android:exported=<0x0, type 0x12>
+            >
+        </service>
+        <receiver
+            android:name="com.qihoo.smsmmssdk.receiver.SmsReceiver"
+            android:permission="com.qihoo.contacts.permission.broadcast"
+            >
+        </receiver>
+        <service
+            android:name="com.mms.trans.TransactionService"
+            android:exported=<0x0, type 0x12>
+            >
+        </service>
+        <receiver
+            android:name="com.qihoo.smsmmssdk.receiver.MmsReceiver"
+            android:permission="com.qihoo.contacts.permission.broadcast"
+            >
+        </receiver>
+        <meta-data
+            android:name="QHPUSH_APPID"
+            android:value=<0x186A1, type 0x10>
+            >
+        </meta-data>
+        <service
+            android:label=<0x7F090406, type 0x01>
+            android:name="com.qihoo360.mobilesafe.support.qpush.QihooPushService"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:process=":GuardService"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.qihoo360.pushsdk.ACTION_LOCAL_HEART_BEAT"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <service
+            android:name=".pcdaemon.service.DaemonService"
+            android:exported=<0x0, type 0x12>
+            android:process=":PcDaemon"
+            >
+        </service>
+        <receiver
+            android:name=".pcdaemon.receiver.DaemonBroadcastReceiver"
+            android:process=":PcDaemon"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.qihoo360.mobilesafe.NotifyDaemonStart"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.qihoo360.mobilesafe.NotifyDaemonStop"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <service
+            android:label=<0x7F09044E, type 0x01>
+            android:name="com.qihoo360.mobilesafe.lib.adapter.service.AccService"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE"
+            android:process=":Accessibility"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.accessibilityservice.AccessibilityService"
+                    >
+                </action>
+            </intent-filter>
+            <meta-data
+                android:name="android.accessibilityservice"
+                android:resource=<0x7F050002, type 0x01>
+                >
+            </meta-data>
+        </service>
+        <service
+            android:name="com.qihoo360.mobilesafe.lib.adapter.service.AccManagerService"
+            android:exported=<0x0, type 0x12>
+            android:process=":Accessibility"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.qihoo360.mobilesafe.service.ACCMANAGERSERVICE"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.qihoo360.mobilesafe.privacyspace.PrivacySpaceCasualService"
+            android:exported=<0x0, type 0x12>
+            android:process=":PrivacySpace"
+            >
+        </service>
+        <service
+            android:name="com.qihoo360.mobilesafe.privacyspace.PrivacySpaceGuardService"
+            android:exported=<0x0, type 0x12>
+            android:process=":GuardService"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.qihoo360.mobilesafe.action.ACTION_BIND_APP_LOCK_SERVICE"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <service
+            android:label=<0x7F0901D1, type 0x01>
+            android:name="com.qihoo360.mobilesafe.contacts.ContactsExternalService"
+            android:exported=<0x0, type 0x12>
+            android:process=":GuardService"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.qihoo360.mobilesafe.action.ACTION_CONTACTS_PERSIST"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <provider
+            android:name="com.qihoo360.mobilesafe.block.sdk.BlockCoolPadProvider"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:process=":GuardService"
+            android:authorities="com.qihoo360.block.coolpad.provider"
+            >
+        </provider>
+        <activity
+            android:theme=<0x7F08003D, type 0x01>
+            android:name="com.qihoo360.qiku.ProxyActivity"
+            android:exported=<0x0, type 0x12>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".main.ui.CardHolderActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <provider
+            android:name="com.qihoo360.mobilesafe.contacts.ContactsProvider"
+            android:exported=<0x0, type 0x12>
+            android:process=":GuardService"
+            android:authorities="com.qihoo360.plugin.contacts"
+            >
+        </provider>
+        <activity
+            android:theme=<0x7F08003D, type 0x01>
+            android:name=".clean.situationalizationnotify.ui.WeiXinCleanDialogActivity"
+            android:exported=<0x0, type 0x12>
+            android:taskAffinity="com.qihoo360.mobilesafe.wx"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <service
+            android:label=<0x7F09044F, type 0x01>
+            android:name=".service.NLService"
+            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE"
+            android:exported=<0x0, type 0x12>
+            android:process=":GuardService"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.service.notification.NotificationListenerService"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.qihoo360.mobilesafe.service.KLJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:enabled=<0x0, type 0x12>
+            android:exported=<0x0, type 0x12>
+            android:process=":GuardService"
+            >
+        </service>
+        <service
+            android:name=".switchx.SwitchXSvc"
+            android:exported=<0x0, type 0x12>
+            android:process=":GuardService"
+            >
+        </service>
+        <activity
+            android:name="com.qihoo360.mobilesafe.applock.activity.MayflyLockActivity"
+            android:exported=<0x0, type 0x12>
+            android:process=":GuardService"
+            android:taskAffinity="com.qihoo360.mobilesafe.applock"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F08003D, type 0x01>
+            android:name="com.qihoo360.mobilesafe.applock.guide.AppLockDialogActivity"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x3, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <provider
+            android:name="com.qihoo360.mobilesafe.applock.data.AppLockContentProvider"
+            android:exported=<0x0, type 0x12>
+            android:process=":GuardService"
+            android:authorities="com.qihoo360.mobilesafe.applock"
+            >
+        </provider>
+        <service
+            android:name="com.qihoo360.mobilesafe.applock.service.AppLockGuardService"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:exported=<0x0, type 0x12>
+            android:process=":GuardService"
+            >
+        </service>
+    </application>
+</manifest>
