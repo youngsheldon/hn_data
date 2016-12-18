@@ -1,0 +1,31 @@
+--2016-12-18 13:41:16--  http://wap.ffawj.cc/duo
+Resolving wap.ffawj.cc... 69.165.77.39
+Connecting to wap.ffawj.cc|69.165.77.39|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://wap.ffawj.cc/duo/ [following]
+--2016-12-18 13:41:18--  http://wap.ffawj.cc/duo/
+Reusing existing connection to wap.ffawj.cc:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 247 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 13.9M=0s
+
+2016-12-18 13:41:19 (13.9 MB/s) - `index.html' saved [247/247]
+
+=======================The second times wget =====================
+--2016-12-18 13:41:19--  http://wap.ffawj.cc/duo/%C2%BC%CF%F12.apk
+Resolving wap.ffawj.cc... 69.165.77.39
+Connecting to wap.ffawj.cc|69.165.77.39|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 209334 (204K) [application/vnd.android.package-archive]
+Saving to: `Â¼Ïñ2.apk'
+
+     0K .......... .......... .......... .......... .......... 24% 18.3K 8s
+    50K .......... .......... .......... .......... .......... 48% 25.6K 5s
+   100K .......... .......... .......... .......... .......... 73% 2.24K 10s
+   150K .......... .......... .......... .......... .......... 97% 24.2K 1s
+   200K ....                                                  100%  137K=29s
+
+2016-12-18 13:41:56 (7.03 KB/s) - `Â¼Ïñ2.apk' saved [209334/209334]
+

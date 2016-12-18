@@ -1,0 +1,1565 @@
+<manifest
+    package="com.lingtuan.yiqibo"
+    platformBuildVersionCode=<0x16, type 0x10>
+    platformBuildVersionName="5.1.1-1819727"
+    android:versionCode=<0x3ED, type 0x10>
+    android:versionName="1.1.1"
+    >
+    <uses-sdk
+        android:minSdkVersion=<0xE, type 0x10>
+        android:targetSdkVersion=<0x16, type 0x10>
+        >
+    </uses-sdk>
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_CONFIGURATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECORD_AUDIO"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_CONTACTS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WAKE_LOCK"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_BOOT_COMPLETED"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.SYSTEM_ALERT_WINDOW"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CAMERA"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.VIBRATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.FLASHLIGHT"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.INTERACT_ACROSS_USERS_FULL"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.KILL_BACKGROUND_PROCESSES"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.GET_TASKS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.MODIFY_AUDIO_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RESTART_PACKAGES"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.BROADCAST_STICKY"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_USER_PRESENT"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_LOGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.BLUETOOTH"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.BATTERY_STATS"
+        >
+    </uses-permission>
+    <meta-data
+        android:name="com.samsung.android.sdk.multiwindow.enable"
+        android:value=<0xFFFFFFFF, type 0x12>
+        >
+    </meta-data>
+    <meta-data
+        android:name="com.samsung.android.sdk.multiwindow.multiinstance.enable"
+        android:value=<0xFFFFFFFF, type 0x12>
+        >
+    </meta-data>
+    <meta-data
+        android:name="com.sec.android.multiwindow.STYLE"
+        android:value="fixedRatio"
+        >
+    </meta-data>
+    <meta-data
+        android:name="com.sec.android.support.multiwindow"
+        android:value=<0xFFFFFFFF, type 0x12>
+        >
+    </meta-data>
+    <supports-screens
+        android:anyDensity=<0xFFFFFFFF, type 0x12>
+        android:smallScreens=<0xFFFFFFFF, type 0x12>
+        android:normalScreens=<0xFFFFFFFF, type 0x12>
+        android:largeScreens=<0xFFFFFFFF, type 0x12>
+        android:resizeable=<0xFFFFFFFF, type 0x12>
+        >
+    </supports-screens>
+    <application
+        android:theme=<0x7F0A007A, type 0x01>
+        android:label=<0x7F08002F, type 0x01>
+        android:icon=<0x7F030000, type 0x01>
+        android:name="com.qihoo.util.StubApp170997426"
+        android:sharedUserId="android.uid.system"
+        android:debuggable=<0x0, type 0x12>
+        android:description=<0x7F08002E, type 0x01>
+        android:hardwareAccelerated=<0xFFFFFFFF, type 0x12>
+        android:qihoo="activity"
+        >
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="5776453867e58e8867001846"
+            >
+        </meta-data>
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="FenST"
+            >
+        </meta-data>
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="446aa3aae2b376d45c3e6e592e5c6694"
+            >
+        </meta-data>
+        <service
+            android:name="com.amap.api.location.APSService"
+            >
+        </service>
+        <activity
+            android:label=<0x7F08002F, type 0x01>
+            android:name="com.lingtuan.yiqibo.ui.LoadingUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.LAUNCHER"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.MULTIWINDOW_LAUNCHER"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x103005F, type 0x01>
+            android:name="com.qihoo.util.CommonActivity"
+            android:exported=<0x0, type 0x12>
+            android:excludeFromRecents=<0x1, type 0x12>
+            >
+        </activity>
+        <service
+            android:name="com.qihoo.util.CommonService"
+            android:enabled=<0x1, type 0x12>
+            android:exported=<0x1, type 0x12>
+            >
+        </service>
+        <receiver
+            android:name="com.qihoo.util.CommonReceiver"
+            android:enabled=<0x1, type 0x12>
+            android:exported=<0x0, type 0x12>
+            >
+        </receiver>
+        <provider
+            android:name="com.qihoo.util.CommonProvider"
+            android:exported=<0x1, type 0x12>
+            android:authorities="com.lingtuan.yiqibo.COMMONPROVIDER"
+            >
+        </provider>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.recordvideo.NewRecordVideoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.recordvideo.SelectVideoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.recordvideo.PublishVideoUI"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.recordvideo.ThumbVideoUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.login.GuideUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.login.SettingPwdUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.contact.ContactSearchUI"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.contact.CloudAppListUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.contact.CloudFriendInfoUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.contact.AddStrangerVerificationUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.contact.CloudContactUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.group.GroupDetailUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.group.JoinGroupUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.group.ApplyToJoinGroupSuccessUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.group.GroupMemberListUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.group.GroupInviteMemberUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.group.GroupManagerUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.group.GroupSpaceUI"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.group.GroupSpaceDetailUI"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.group.FansGroupUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.group.ApplyMemberListUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.login.RegPhoneUI"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.login.CountryCodeUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.setting.MyCenterUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.setting.MyStudentsUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.setting.MyEarningsUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.setting.ShareYiQiBoUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.setting.CertificationUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.setting.YueNiCertificationUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.setting.YueNiBankCardCretificationUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.setting.YueNiCertificationFinishUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.login.RegPwdUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.login.RegInfoUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.login.LoginUI"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.setting.SaveFavGifActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A007C, type 0x01>
+            android:name="com.lingtuan.yiqibo.ui.fragment.MainFragmentUI"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x30, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="event"
+                    android:path="/event"
+                    >
+                </data>
+                <data
+                    android:scheme="shopevent"
+                    >
+                </data>
+                <data
+                    android:scheme="groupdetail"
+                    >
+                </data>
+                <data
+                    android:scheme="groupevent"
+                    >
+                </data>
+                <data
+                    android:scheme="createVideo"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.nearby.NearbyInviteUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.message.GifDetailUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.nearby.CustomSceneSelectUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.nearby.ShopActivityUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.nearby.ShopActivityApplyListUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.EventDetailUI"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.wxapi.WXEntryActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.nearby.InviteListUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.nearby.GroupActivityAddInListUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.nearby.NearByPeopleUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.nearby.NearbyOtherAppPeopleUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.nearby.LikePeopleUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.nearby.DatingSceneUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.nearby.AddInBlackOtherUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.nearby.ShopDetailUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.setting.YueNiBindUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.setting.AccountBindUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.setting.UnBindWeixinUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.setting.AboutUsUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.setting.ClearChatSettingUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.setting.ConnectionUsUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.setting.WebViewUI"
+            android:screenOrientation=<0x1, type 0x10>
+            android:hardwareAccelerated=<0xFFFFFFFF, type 0x12>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.setting.SettingVideoPlayModelUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.setting.MarkUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.setting.SettingUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.setting.ClearImageOrVideoCacheUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.setting.BlackListUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.socialcircle.PrivacyUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.setting.MessageNotifyUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.socialcircle.PrivacySettingUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.socialcircle.DontLetSeeUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.socialcircle.DontSeeOtherUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.socialcircle.DontLetTaSeeMyFriendUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.socialcircle.DontLetMyFriendSeeTaUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.setting.MySelfDetailEditUI"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.setting.InformationSettingUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.setting.RequestMeetPrivacySetUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.setting.PraiseListUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.setting.OtherPraiseListUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.setting.FeedbackUI"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x5, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.setting.DynamicListUI"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.setting.DynamicDetailUI"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.setting.HotDynamicDetailUI"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.nearby.CreateDynamicUI"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.group.CreateDynamicGroupActivityUI"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.nearby.CreateDynamicShopDetailUI"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.setting.ScanMoreShopUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.nearby.ShopProductListUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.nearby.ShopProductDetailUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.nearby.MoveGroupUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.nearby.LauncherInviteUI"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.nearby.LauncherInviteSimpleUI"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.nearby.LauncherNearByPeopleUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.setting.PhotoGroupUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.setting.ShowGroupImageUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.nearby.DatingCardUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.imagescan.ScanLargePic"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.imagescan.CropActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.imagescan.LivingCropActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.setting.NoDisturbSettingUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.contact.AddFriendsUI"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sina.weibo.sdk.component.WeiboSdkBrowser"
+            android:exported=<0x0, type 0x12>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.contact.ContactAddPressBuildUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.contact.AddContactFriendsNewUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:noHistory=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="tencent1105484748"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.contact.ContactManagerUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.contact.DiscussGroupMemberListUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.contact.DiscussGroupListUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.contact.DiscussGroupSettingUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.contact.AddSinaWeiboFriendsUI"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.contact.ContactAddPressUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.message.ChattingUI"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.recordvideo.SelectRecordVideoUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.recordvideo.RecordVideoDetailUI"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.setting.EditFavGifUI"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.message.ChatHistoryUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.setting.ChattingSetUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.setting.ChatReportReasonUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.message.ChattingLocationUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.message.MsgAddContactListUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.message.MsgInviteListUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.contact.ContactSearchNickUI"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.ShowTextUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.contact.ContactSelectedUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.contact.SelectContactUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00B0, type 0x01>
+            android:name="com.lingtuan.yiqibo.ui.base.AlertActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.contact.DiscussGroupJoinUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="nextqm"
+                    android:path=""
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.quickmark.QuickMarkShowUI"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.quickmark.GroupQuickMarkShowUI"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.quickmark.CaptureActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.quickmark.QuickMarkUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.contact.FriendInfoUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.setting.DynamicNewMsgListUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.city.SelectCityUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.socialcircle.SocialCircleUI"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.living.HomeVipLiveUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.living.HomeLiveUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.living.ExpertsAndEnterpriseUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A007C, type 0x01>
+            android:name="com.lingtuan.yiqibo.ui.living.AvActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x14, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A007B, type 0x01>
+            android:name="com.lingtuan.yiqibo.ui.living.ReleaseLiveActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.living.LivingSearchUI"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A007B, type 0x01>
+            android:name="com.lingtuan.yiqibo.ui.living.RecordVideoPlayerActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.living.AVCloseUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.living.AvWactherCloseUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.living.RankingListUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.living.RankingDetailUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.message.MsgUnFriendListUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.message.SelectGroupMemberListUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.contact.RecommentContactListUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.contact.RegisterRecommendUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.contact.RegisterRecommendListUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.group.GroupListUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.group.FriendGroupList"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.group.GroupAddressSelected"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.group.NearbyGroupSearchUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.nearby.NearbyCloudGroupSearchUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.group.AnnounceListUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.group.GroupActivityDetailUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.group.GroupEditActivityUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.contact.ContactGroupManagerUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.contact.EditTipOffReasonUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.group.GroupInfoEditUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.group.GroupInfoModifyUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.group.GroupFullUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.message.MsgGroupListUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.group.SelectAddressUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.group.EditGroupNameAndHeaderUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.group.GroupClassifyUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.group.GroupVodUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.message.MsgMoneyListUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.message.RedPacketDetailUI"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.pay.YueniBalanceUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.pay.YueniTicketUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.pay.YueniBeanUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.pay.ExchangeTicketUI"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.pay.VipCenterUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.pay.VipOrGroupGuideUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.pay.BuyVipUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.pay.BuyVipTypeUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.pay.ReChargeUI"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x24, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.pay.GetMoneyToBalanceUI"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x24, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.pay.SendRedPackageUI"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x24, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.pay.SendGroupRedPackageUI"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x24, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.pay.ReChargePayUI"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:scheme="wx584431662b11c35d"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.pay.RechargeGoldUI"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:scheme="wx584431662b11c35d"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.pay.ReChargePaySuccessUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.pay.GetMoneyUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.pay.RecordUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.pay.SetPayPassUI"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x24, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.pay.SetPayPassSuccessUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00B0, type 0x01>
+            android:name="com.lingtuan.yiqibo.ui.pay.PayPassInputUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.pay.MyPayRecordUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.pay.MyVirtualToolUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.living.GiftContributorUI"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.message.SendGiftPackageUI"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <service
+            android:name="com.lingtuan.yiqibo.service.LoadDataService"
+            >
+        </service>
+        <service
+            android:name="com.lingtuan.yiqibo.service.XmppService"
+            >
+        </service>
+        <service
+            android:name="com.lingtuan.yiqibo.service.UpdateVersionService"
+            >
+        </service>
+        <receiver
+            android:name="com.lingtuan.yiqibo.receiver.BootBroadcastReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.BOOT_COMPLETED"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.LAUNCHER"
+                    >
+                </category>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.lingtuan.yiqibo.receiver.UpdateVersionBroadcastReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.lingtuan.yiqibo.updateversion"
+                    >
+                </action>
+                <action
+                    android:name="com.lingtuan.yiqibo.floatstatrav"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.lingtuan.yiqibo.receiver.OffLineNetworkReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.lingtuan.yiqibo.receiver.CallAlarm"
+            android:process=":remote"
+            >
+        </receiver>
+        <activity
+            android:label=<0x7F08002F, type 0x01>
+            android:name="com.lingtuan.yiqibo.ui.PayActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:scheme="wx67ef6dbea60a1039"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lingtuan.yiqibo.wxapi.WXPayEntryActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x3, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.alipay.sdk.auth.AuthActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x3, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            >
+        </activity>
+        <receiver
+            android:name="com.lingtuan.yiqibo.util.AppRegister"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.tencent.mm.plugin.openapi.Intent.ACTION_REFRESH_WXAPP"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:name="com.lingtuan.yiqibo.ui.living.MyVideoListUi"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <service
+            android:name="com.tencent.qalsdk.service.QalService"
+            android:exported=<0x0, type 0x12>
+            android:process=":QALSERVICE"
+            >
+        </service>
+        <receiver
+            android:name="com.tencent.qalsdk.QALBroadcastReceiver"
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.tencent.qalsdk.broadcast.qal"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.tencent.qalsdk.core.NetConnInfoCenter"
+            android:process=":QALSERVICE"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.BOOT_COMPLETED"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.TIME_SET"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.TIMEZONE_CHANGED"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value=<0x7F0C000A, type 0x01>
+            >
+        </meta-data>
+    </application>
+</manifest>
