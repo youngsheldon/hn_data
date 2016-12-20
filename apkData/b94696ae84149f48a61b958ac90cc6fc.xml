@@ -1,0 +1,716 @@
+<manifest
+    android:versionCode=<0x10F, type 0x10>
+    android:versionName="2.7.1"
+    package="com.pingan.pabank.activity"
+    >
+    <supports-screens
+        android:anyDensity=<0xFFFFFFFF, type 0x12>
+        android:smallScreens=<0xFFFFFFFF, type 0x12>
+        android:normalScreens=<0xFFFFFFFF, type 0x12>
+        android:largeScreens=<0xFFFFFFFF, type 0x12>
+        android:resizeable=<0xFFFFFFFF, type 0x12>
+        >
+    </supports-screens>
+    <uses-sdk
+        android:minSdkVersion=<0xE, type 0x10>
+        >
+    </uses-sdk>
+    <permission
+        android:label=<0x7F0A0031, type 0x01>
+        android:name="com.pingan.pabank.permission.OPEN"
+        android:protectionLevel=<0x1, type 0x11>
+        >
+    </permission>
+    <uses-permission
+        android:name="android.permission.RECORD_AUDIO"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.MODIFY_AUDIO_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.VIBRATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_CONTACTS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CAMERA"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.FLASHLIGHT"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.GET_TASKS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.pingan.pabank.permission.OPEN"
+        >
+    </uses-permission>
+    <uses-feature
+        android:name="android.hardware.camera"
+        >
+    </uses-feature>
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        >
+    </uses-feature>
+    <uses-permission
+        android:name="com.android.launcher.permission.INSTALL_SHORTCUT"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_BOOT_COMPLETED"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.BROADCAST_STICKY"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WAKE_LOCK"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.SYSTEM_ALERT_WINDOW"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CALL_PHONE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.BLUETOOTH"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        >
+    </uses-permission>
+    <application
+        android:theme=<0x7F0D0011, type 0x01>
+        android:label=<0x7F0A000B, type 0x01>
+        android:icon=<0x7F020125, type 0x01>
+        android:name="com.secneo.apkwrapper.ApplicationWrapper"
+        android:allowBackup=<0x0, type 0x12>
+        android:hardwareAccelerated=<0xFFFFFFFF, type 0x12>
+        >
+        <meta-data
+            android:name="TD_APP_ID"
+            android:value="24FF3B61BD0A355548C5FC0E04E50994"
+            >
+        </meta-data>
+        <meta-data
+            android:name="TD_CHANNEL_ID"
+            android:value="www.pingan.com"
+            >
+        </meta-data>
+        <meta-data
+            android:name="MPUSH_GATEWAY"
+            android:value="http://push-gw.pingan.com.cn:3000"
+            >
+        </meta-data>
+        <meta-data
+            android:name="MPUSH_APPID"
+            android:value="554a00ae8dbd1a37490018f7"
+            >
+        </meta-data>
+        <activity
+            android:name="com.paic.pabank.module.notice.activity.TestNoticeAct"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0D0012, type 0x01>
+            android:label=<0x7F0A000B, type 0x01>
+            android:name="com.paic.pabank.activity.LoadingActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.LAUNCHER"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="pabank"
+                    android:host="com.pingan.pabank"
+                    android:path="/notlogin/forward"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="pabank"
+                    android:host="com.pingan.pabank"
+                    android:path="/login/forward"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="pabank"
+                    android:host="com.pingan.pabank"
+                    android:path="/forward"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.paic.barcode.CaptureActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.paic.pabank.PAAndroidBankActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x1B4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.paic.pabank.PAAndroidWebViewActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x1B4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.paic.pabank.PABankWebViewDialogActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x1B4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.paic.pabank.PAJSWebViewActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x1B4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.paic.pabank.activity.PAMainActivity"
+            android:exported=<0x0, type 0x12>
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x1B4, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.paic.pabank.activity.PAMainActivity"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.paic.pabank.activity.CutImageActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x1B4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.paic.pabank.activity.SubIndexActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.paic.pabank.activity.SubBankActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.paic.pabank.activity.SubLifeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.paic.pabank.activity.HelperActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.paic.pabank.activity.RedGuideActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.paic.pabank.activity.PAWebviewActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x1B4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.paic.pabnk.graphpwd.SetPasswordActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x1B4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.paic.pabnk.graphpwd.GzzfSetPasswordActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x1B4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.paic.gesture.login.GestureLoginPasswordActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x1B4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.paic.pabank.activity.PAAndroidTXTActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.paic.pabank.activity.PAAndroidTxtTreatyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.paic.pabank.activity.GzzfPayActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.paic.pabank.activity.GzzfAddActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.paic.pabank.offline.activity.OLinePAMainActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x1B4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.paic.pabank.offline.activity.OLineSubIndexActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.paic.pabank.offline.activity.OLineSubBankActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.paic.pabank.offline.activity.OLineSubLifeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.paic.pabank.activity.TestEnvironment"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.mrocker.push.richmedia.MPushWebView"
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.paic.example.simpleapp"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x103000C, type 0x01>
+            android:name="com.pingan.anydoor.hybrid.activity.CacheableWebViewActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:scheme="anydoorlogin"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.pingan.anydoor.hybrid.activity.MsgCenterWebviewActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:scheme="anydoorlogin"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x103000F, type 0x01>
+            android:name="com.pingan.anydoor.hybrid.activity.ProtocolWebViewActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:noHistory=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="tencent1104138759"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0D000C, type 0x01>
+            android:name="com.paic.pabank.activity.DialogActivity"
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A000B, type 0x01>
+            android:name="com.paic.pabank.activity.ShareBarcodeActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <receiver
+            android:name="com.paic.util.wifi.WifiStateChangedReceiver"
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+                <action
+                    android:name="android.net.wifi.WIFI_STATE_CHANGED"
+                    >
+                </action>
+                <action
+                    android:name="android.net.wifi.STATE_CHANGE"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:process=":remote"
+            >
+        </service>
+        <service
+            android:name="com.paic.pabank.AppStatusService"
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.paic.pabank.AppStatusService_Bank"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.mrocker.push.service.PushService"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:exported=<0x0, type 0x12>
+            android:process=":push"
+            >
+        </service>
+        <receiver
+            android:name="com.mrocker.push.service.PushServiceReceiver"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.CMD"
+                    >
+                </action>
+                <action
+                    android:name="android.mpushservice.action.notification.SHOW"
+                    >
+                </action>
+                <action
+                    android:name="android.mpushservice.action.media.MESSAGE"
+                    >
+                </action>
+                <action
+                    android:name="android.mpushservice.action.media.CLICK"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.BOOT_COMPLETED"
+                    >
+                </action>
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.USER_PRESENT"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                android:priority=<0x3E7, type 0x10>
+                >
+                <action
+                    android:name="android.intent.action.PACKAGE_REMOVED"
+                    >
+                </action>
+                <data
+                    android:scheme="com.pingan.pabank.activity"
+                    >
+                </data>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.paic.receiver.PAPushMessageReceiver"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.mpushservice.action.media.MESSAGE"
+                    >
+                </action>
+                <action
+                    android:name="android.mpushservice.action.media.CLICK"
+                    >
+                </action>
+                <action
+                    android:name="android.mpushservice.action.media.CLICK_AFTER"
+                    >
+                </action>
+                <action
+                    android:name="android.mpushservice.action.media.TOKEN"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.pingan.anydoor.module.push.receiver.ADcustomPushReceiver"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.mpushservice.action.media.MESSAGE"
+                    >
+                </action>
+                <action
+                    android:name="android.mpushservice.action.media.CLICK"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:name="com.sina.weibo.sdk.component.WeiboSdkBrowser"
+            android:exported=<0x0, type 0x12>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A000B, type 0x01>
+            android:name="com.pingan.insuranceofphone.web.WebActivity"
+            android:exported=<0x0, type 0x12>
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A000B, type 0x01>
+            android:name="com.pingan.insuranceofphone.web.DayotelActivity"
+            android:exported=<0x0, type 0x12>
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <service
+            android:name="com.sina.weibo.sdk.net.DownloadService"
+            android:exported=<0x0, type 0x12>
+            >
+        </service>
+        <receiver
+            android:name="com.paic.pabank.PABankAppStateBroacastReceiver"
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.paic.pabank.PABankAppStateBroacastReceiver.APP_STATE_CHANGE_ACTION"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

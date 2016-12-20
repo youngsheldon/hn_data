@@ -1,0 +1,1196 @@
+<manifest
+    android:versionCode=<0x142, type 0x10>
+    android:versionName="4.0.322"
+    package="com.nenglong.jxhd.client.yxt2.activity"
+    platformBuildVersionCode=<0x17, type 0x10>
+    platformBuildVersionName="6.0-2438415"
+    >
+    <uses-sdk
+        android:minSdkVersion=<0xA, type 0x10>
+        >
+    </uses-sdk>
+    <application
+        android:theme=<0x7F0A000D, type 0x01>
+        android:label=<0x7F070000, type 0x01>
+        android:icon=<0x7F02011E, type 0x01>
+        android:name="com.nenglong.jxhd.client.yxt.activity.app.MyApp"
+        android:persistent=<0xFFFFFFFF, type 0x12>
+        android:screenOrientation=<0x1, type 0x10>
+        android:hardwareAccelerated=<0xFFFFFFFF, type 0x12>
+        >
+        <meta-data
+            android:name="SERVER_NAME"
+            android:value="hunan"
+            >
+        </meta-data>
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="55e67fd567e58ef965000325"
+            >
+        </meta-data>
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="yxt"
+            >
+        </meta-data>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="cn.jpush.android.ui.PushActivity"
+            android:configChanges=<0xA0, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="cn.jpush.android.ui.PushActivity"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="com.nenglong.jxhd.client.yxt2.activity"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <service
+            android:name="cn.jpush.android.service.DownloadService"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:exported=<0x0, type 0x12>
+            >
+        </service>
+        <service
+            android:name="cn.jpush.android.service.PushService"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="cn.jpush.android.intent.REGISTER"
+                    >
+                </action>
+                <action
+                    android:name="cn.jpush.android.intent.REPORT"
+                    >
+                </action>
+                <action
+                    android:name="cn.jpush.android.intent.PushService"
+                    >
+                </action>
+                <action
+                    android:name="cn.jpush.android.intent.PUSH_TIME"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <receiver
+            android:name="cn.jpush.android.service.PushReceiver"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                android:priority=<0x3E8, type 0x10>
+                >
+                <action
+                    android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY"
+                    >
+                </action>
+                <category
+                    android:name="com.nenglong.jxhd.client.yxt2.activity"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.USER_PRESENT"
+                    >
+                </action>
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.PACKAGE_ADDED"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.PACKAGE_REMOVED"
+                    >
+                </action>
+                <data
+                    android:scheme="package"
+                    >
+                </data>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="cn.jpush.android.service.AlarmReceiver"
+            >
+        </receiver>
+        <receiver
+            android:name="com.nenglong.jxhd.client.yxt.util.NLJPushReceiver"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="cn.jpush.android.intent.REGISTRATION"
+                    >
+                </action>
+                <action
+                    android:name="cn.jpush.android.intent.UNREGISTRATION"
+                    >
+                </action>
+                <action
+                    android:name="cn.jpush.android.intent.MESSAGE_RECEIVED"
+                    >
+                </action>
+                <action
+                    android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED"
+                    >
+                </action>
+                <action
+                    android:name="cn.jpush.android.intent.NOTIFICATION_OPENED"
+                    >
+                </action>
+                <category
+                    android:name="com.nenglong.jxhd.client.yxt2.activity"
+                    >
+                </category>
+                <action
+                    android:name="cn.jpush.android.intent.CONNECTION"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <meta-data
+            android:name="JPUSH_CHANNEL"
+            android:value="developer-default"
+            >
+        </meta-data>
+        <meta-data
+            android:name="JPUSH_APPKEY"
+            android:value="9caeca9361c08f9e32b3a17f"
+            >
+        </meta-data>
+        <activity
+            android:theme=<0x7F0A0008, type 0x01>
+            android:name="com.umeng.socialize.view.ShareActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:configChanges=<0x90, type 0x11>
+            android:windowSoftInputMode=<0x14, type 0x11>
+            android:noHistory=<0xFFFFFFFF, type 0x12>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name=".wxapi.WXEntryActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name=".yxapi.YXEntryActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:noHistory=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="tencent100861086"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F070000, type 0x01>
+            android:name="com.nenglong.jxhd.client.yxt.activity.system.MainActivity"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.LAUNCHER"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="openYxtAndroidApp"
+                    >
+                </data>
+                <data
+                    android:scheme="openyxtandroidapp"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0A0049, type 0x01>
+            android:name="com.nenglong.jxhd.client.yxt.activity.system.LoginActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0049, type 0x01>
+            android:name="com.nenglong.jxhd.client.yxt.activity.system.LoginForUniteActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.system.PersonImageActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.system.ModifyPassWord"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.system.RequestLogActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.system.RequestLogDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.member.MemberActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.member.TeacherFileViewActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.member.StudentFileViewActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.member.MemberDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.member.UserSelectorActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.video.VideoPlayerActivity"
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.video.VideoMonitorActivity"
+            android:screenOrientation=<0x0, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.video.VideoListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.video.VideoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.video.VideoCategoryAddActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.video.VideoMainActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.video.MediaPlayerActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.video.VideoShareActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.video.HMVideoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.video.RtspVideoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.album.AlbumImageDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.album.AlbumGridViewActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x80, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.album.AlbumActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x80, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.album.AlbumAddPhotoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x80, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.album.AlbumMoveActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x80, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.album.CommentActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.album.EditActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.album.AlbumAddActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.album.AlbumThemeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0049, type 0x01>
+            android:label=<0x7F070000, type 0x01>
+            android:name="com.nenglong.jxhd.client.yxt.activity.album.ReceiveShareImageActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.SEND"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:mimeType="image/*"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.SEND_MULTIPLE"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:mimeType="image/*"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0A0049, type 0x01>
+            android:name="com.nenglong.jxhd.client.yxt.activity.album.AlbumVideoRecordActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.album.AlbumVideoAddActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0049, type 0x01>
+            android:name="com.nenglong.jxhd.client.yxt.activity.album.TouchImageActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.common.FileManager"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.common.TakePicture"
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.common.UserSelector"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.common.UserSelectorNew"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.common.ClassSelectorNew"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0049, type 0x01>
+            android:name="com.nenglong.jxhd.client.yxt.activity.common.ImageCrop"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0049, type 0x01>
+            android:name="com.nenglong.jxhd.client.yxt.activity.common.WebviewActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0049, type 0x01>
+            android:name="com.nenglong.jxhd.client.yxt.activity.common.NLCordovaActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.common.ImageMutilSelectImageActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.common.ImageMutilSelectAlbumActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.common.ImageMutilDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.common.VideoMutilSelectActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.news.NoticeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.news.NoticeDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.news.NoticeAreaActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.news.NoticeAddActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.news.NoticeCommentActity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.information.InformationActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.information.InformationDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.information.InformationSavedActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.news.NoticeEpidemicActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.video.WatchActvity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.calendar.CurriculumMainActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.calendar.CurriculumTeacherActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.calendar.CurriculumDailyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.calendar.CurriculumWeekActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.circle.CircleActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.circle.CircleDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.circle.TopicAddActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.circle.TopicDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.circle.TopicReportActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.circle.CommentDialogActity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.dormitory.DormitoryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.dormitory.DormitoryAddActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.dormitory.DormitorySearchActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.message.SmsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.message.SmsDailyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.message.SmsReplyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.message.SmsCommonActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.message.SmsDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.message.SmsUnityActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.message.SmsSearchActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.message.SmsDialogActity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.message.SmsSendActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.work.WorkActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.work.WorkAddActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x80, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.work.WorkCheckActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.work.WorkSearchActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.work.WorkViewParentActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.work.WorkViewParentItemActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.work.WorkLeaveActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.work.WorkAnswerActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x80, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.work.HomeWorkParentItemActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.work.HomeWorkTeacherItemActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.work.HomeworkPublishActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.work.HomeWorkGradeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.work.WorkProgressParentActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.work.WorkProgressTeacherActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.work.WorkProgressStudentListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.work.WorkProgressParentSetProgressActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.grade.GradeSearchActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.grade.GradeListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.grade.GradeParentListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.grade.GradeDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.grade.GradeDetailParentActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.grade.GradeAnalyseParentActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.grade.CoachOnlineActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.work.GradeParentSearchActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.blog.BlogListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.blog.BlogAddActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.blog.BlogLeaveWordActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.blog.BlogDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.card.CardDailyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.card.CardDailySearchActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.card.CardDailyDayActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.card.CardDailyStudentActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.card.CardImageAndVideoStudentActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.card.CardCommentActity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.lesson.LessonTimeListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.lesson.LessonRecordActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.lesson.LeaveRecordListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.lesson.LeaveRecordInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.lesson.LeaveRecordAddActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.lesson.LessonRecordAddActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.lesson.LessonRecordInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.lesson.LessonRecordStudentSelectorActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.lesson.LessonRecordParentActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.system.IntentActivityRefresh"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.system.StartPersonApp"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.system.GuideActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.share.ShareContactActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.common.AppStoreActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0048, type 0x01>
+            android:name="com.nenglong.jxhd.client.yxt.activity.system.ForgetPwdActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0048, type 0x01>
+            android:name="com.nenglong.jxhd.client.yxt.activity.system.ValidateTelecomCardActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <service
+            android:name="com.nenglong.jxhd.client.yxt.util.DownLoadService"
+            >
+        </service>
+        <receiver
+            android:name="com.nenglong.jxhd.client.yxt.util.LoginBroadcastReceiver"
+            >
+            <intent-filter
+                >
+                
+??????	
+                <action
+                    android:name="yxt.login.nl"
+                    >
+                </action>
+                
+???	
+            </intent-filter>
+        </receiver>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.system.FunctionActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.share.AdviceActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.system.MoreActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.system.MessageActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.nenglong.jxhd.client.yxt.activity.system.SchoolActivity2"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0049, type 0x01>
+            android:name="com.nenglong.jxhd.client.yxt.activity.system.MainPanelActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0049, type 0x01>
+            android:name="com.nenglong.jxhd.client.yxt.activity.system.JPushActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0049, type 0x01>
+            android:name="com.nenglong.jxhd.client.yxt.activity.system.OpenJPushMsgActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0048, type 0x01>
+            android:name="com.nenglong.jxhd.client.yxt.activity.system.SwitchPlatformActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0049, type 0x01>
+            android:label=<0x7F070000, type 0x01>
+            android:name="com.nenglong.jxhd.client.yxt.activity.system.SendMsgFromWidgetActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <receiver
+            android:label=<0x7F070000, type 0x01>
+            android:name="com.nenglong.jxhd.client.yxt.activity.system.AppInstallReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.PACKAGE_ADDED"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.PACKAGE_REMOVED"
+                    >
+                </action>
+                <data
+                    android:scheme="package"
+                    >
+                </data>
+            </intent-filter>
+        </receiver>
+    </application>
+    <uses-permission
+        android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RESTART_PACKAGES"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CAMERA"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.SEND_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CALL_PHONE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_CONTACTS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_CONTACTS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.VIBRATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECORD_AUDIO"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECORD_VIDEO"
+        >
+    </uses-permission>
+    <permission
+        android:name="com.nenglong.jxhd.client.yxt2.activity.permission.JPUSH_MESSAGE"
+        android:protectionLevel=<0x2, type 0x11>
+        >
+    </permission>
+    <uses-permission
+        android:name="com.nenglong.jxhd.client.yxt2.activity.permission.JPUSH_MESSAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_USER_PRESENT"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WAKE_LOCK"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.SYSTEM_ALERT_WINDOW"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_UPDATES"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        >
+    </uses-permission>
+</manifest>
