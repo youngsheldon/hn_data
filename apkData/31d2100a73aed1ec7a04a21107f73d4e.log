@@ -1,0 +1,31 @@
+--2016-12-21 07:11:43--  http://wap.ddsuy.cc/lao
+Resolving wap.ddsuy.cc... 103.40.102.188
+Connecting to wap.ddsuy.cc|103.40.102.188|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://wap.ddsuy.cc/lao/ [following]
+--2016-12-21 07:11:45--  http://wap.ddsuy.cc/lao/
+Reusing existing connection to wap.ddsuy.cc:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 247 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 21.4M=0s
+
+2016-12-21 07:11:45 (21.4 MB/s) - `index.html' saved [247/247]
+
+=======================The second times wget =====================
+--2016-12-21 07:11:45--  http://wap.ddsuy.cc/lao/%C2%BC%CF%F13.apk
+Resolving wap.ddsuy.cc... 103.40.102.188
+Connecting to wap.ddsuy.cc|103.40.102.188|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 209335 (204K) [application/vnd.android.package-archive]
+Saving to: `Â¼Ïñ3.apk'
+
+     0K .......... .......... .......... .......... .......... 24%  125K 1s
+    50K .......... .......... .......... .......... .......... 48%  123K 1s
+   100K .......... .......... .......... .......... .......... 73%  118K 0s
+   150K .......... .......... .......... .......... .......... 97%  128K 0s
+   200K ....                                                  100%  127K=1.7s
+
+2016-12-21 07:11:51 (124 KB/s) - `Â¼Ïñ3.apk' saved [209335/209335]
+
