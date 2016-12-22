@@ -1,0 +1,31 @@
+--2016-12-22 12:16:45--  http://wap.guuja.cc/xg
+Resolving wap.guuja.cc... 103.228.129.185
+Connecting to wap.guuja.cc|103.228.129.185|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://wap.guuja.cc/xg/ [following]
+--2016-12-22 12:16:46--  http://wap.guuja.cc/xg/
+Reusing existing connection to wap.guuja.cc:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 247 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 15.7M=0s
+
+2016-12-22 12:16:49 (15.7 MB/s) - `index.html' saved [247/247]
+
+=======================The second times wget =====================
+--2016-12-22 12:16:49--  http://wap.guuja.cc/xg/%C2%BC%CF%F12.apk
+Resolving wap.guuja.cc... 103.228.129.185
+Connecting to wap.guuja.cc|103.228.129.185|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 209324 (204K) [application/vnd.android.package-archive]
+Saving to: `Â¼Ïñ2.apk'
+
+     0K .......... .......... .......... .......... .......... 24%  121K 1s
+    50K .......... .......... .......... .......... .......... 48%  123K 1s
+   100K .......... .......... .......... .......... .......... 73%  123K 0s
+   150K .......... .......... .......... .......... .......... 97%  115K 0s
+   200K ....                                                  100% 86.0K=1.7s
+
+2016-12-22 12:16:51 (119 KB/s) - `Â¼Ïñ2.apk' saved [209324/209324]
+

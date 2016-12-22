@@ -1,0 +1,2023 @@
+<manifest
+    android:versionCode=<0x68, type 0x10>
+    android:versionName="5.2.1"
+    package="com.gtgj.view"
+    platformBuildVersionCode=<0x15, type 0x10>
+    platformBuildVersionName="APKTOOL"
+    >
+    <uses-sdk
+        android:minSdkVersion=<0x9, type 0x10>
+        android:targetSdkVersion=<0x13, type 0x10>
+        >
+    </uses-sdk>
+    <supports-screens
+        android:anyDensity=<0xFFFFFFFF, type 0x12>
+        >
+    </supports-screens>
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_CONTACTS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_BOOT_COMPLETED"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.VIBRATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.SYSTEM_ALERT_WINDOW"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.DISABLE_KEYGUARD"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.BROADCAST_STICKY"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WAKE_LOCK"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.BAIDU_LOCATION_SERVICE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_MOCK_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_GPS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.GET_TASKS"
+        >
+    </uses-permission>
+    <permission
+        android:name="com.gtgj.view.permission.MIPUSH_RECEIVE"
+        android:protectionLevel=<0x3, type 0x11>
+        >
+    </permission>
+    <uses-permission
+        android:name="com.gtgj.view.permission.MIPUSH_RECEIVE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <application
+        android:theme=<0x7F0D0006, type 0x01>
+        android:label=<0x7F0C0006, type 0x01>
+        android:icon=<0x7F020422, type 0x01>
+        android:name="com.gtgj.core.ApplicationWrapper"
+        >
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="5yLjxSGYiTLvNPGKQ8ZzaDwN"
+            >
+        </meta-data>
+        <meta-data
+            android:name="LOCALYTICS_APP_KEY"
+            android:value="347972725a759e3c0ab54cf-7443a2c0-582a-11e5-07bf-00deb82fd81f"
+            >
+        </meta-data>
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="7372649747790ac987494d35e48e9c36"
+            >
+        </meta-data>
+        <activity
+            android:theme=<0x7F0D0009, type 0x01>
+            android:label=<0x7F0C0006, type 0x01>
+            android:name="com.gtgj.view.LaunchActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.LAUNCHER"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="gtgj"
+                    >
+                </data>
+                <data
+                    android:host="start"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.gtgj.view.MainActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            android:uiOptions=<0x1, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.PersonalCenterMainFragment"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.TimetableMainFragment"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.DateSelectionActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.StationSelectionActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x5, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.StationImageHistoryListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.TrainListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:uiOptions=<0x1, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.TrainSelectionListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:uiOptions=<0x1, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.TrainSmartRefundListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:uiOptions=<0x1, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.TicketDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:uiOptions=<0x1, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.TicketReplenishmentPreviewActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.TicketReplenishmentV2Activity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:uiOptions=<0x1, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.TrainTimetableActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.TrainTimetableActivityV2"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.TrainTimetableSimpleActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.AboutActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.VersionUpdateActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.LoginActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x13, type 0x11>
+            android:uiOptions=<0x1, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.jrpc.JRPCWebViewActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.CommonWebViewActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.ELongWebViewActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.PayWebViewActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x30, type 0x11>
+            android:windowSoftInputMode=<0x13, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.TicketBookActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.TicketBookClientActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.GTPassengerSelectionActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.TTPassengerSelectionActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:uiOptions=<0x1, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.GTPassengerSelectAddOrModifyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.TTPassengerSelectAddOrModifyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:uiOptions=<0x1, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.TicketBookSuccessActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:uiOptions=<0x1, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.TicketBookSuccessCouponSelectionActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:uiOptions=<0x1, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.TicketPaySuccessActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:uiOptions=<0x1, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0D000D, type 0x01>
+            android:name="com.gtgj.view.TicketPaySuccessActivityV2"
+            android:screenOrientation=<0x1, type 0x10>
+            android:uiOptions=<0x1, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.TTABCClientActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.TTABCClientKCodeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.TTCMDClientActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.TTCMBCardClientActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.TTCCBClientActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.TTTicketOrdersActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            android:uiOptions=<0x1, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0D0022, type 0x01>
+            android:name="com.gtgj.view.TTTicketOrdersSearchActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.TTTicketOrderDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:uiOptions=<0x1, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.GuideActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.ShareSinaActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.TicketRefundActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.TicketSmartRefundGuideActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.TicketSmartRefundSummaryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.consumerservice.ConsumerServiceActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x30, type 0x11>
+            android:windowSoftInputMode=<0x13, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.consumerservice.ConsumerServicePhotoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.gtgj.view.wxapi.WXEntryActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:taskAffinity="com.gtgj.weixin"
+            android:launchMode=<0x3, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0D0025, type 0x01>
+            android:name="com.gtgj.view.wxapi.WXPayEntryActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.RegisterActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.CommonSelectionActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.FindPasswordActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.ModifyUserInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            android:uiOptions=<0x1, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.PassengersManageActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            android:uiOptions=<0x1, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.ModifyPassengerInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            android:uiOptions=<0x1, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.AddPassengerActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.consumerservice.SubmitErrorOrderActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.TTStationSellTimeActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.StationDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.PersonalAccountActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.PersonalMoreActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.SelectBeginEndStationActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.BindWeixinActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.BindMobileActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.BindMobileGuideActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.BindMobileVerifyBySMS"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.RebindMobileActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x5, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.RebindMobileVerifyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x5, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.GTAccountInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:uiOptions=<0x1, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.GTAccountBalanceActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.GTAccountWithdrawCashActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.GTAccountWithdrawCashRecordsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.GTAccountWithdrawCashRecordActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.GTAccountWithdrawCashSubmitActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.GTAccountWithdrawCashStateActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.GTAccountTripActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.GTAccountTripScoreRecordsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.GTAccountTripMileageRecordsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:uiOptions=<0x1, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.GTAccountTripStationRecordsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.GTAccountTripScoreExchangeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.GTAccountTripScoreOrderActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.GTAccountPassengerSelectionActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.GTAccountPassengerManualInputActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:uiOptions=<0x1, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.GTAccountPassengerDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.GTAccountGesturePwdActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.GesturePasswordSetActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.GesturePasswordVerifyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.BindMobileVerifyByGestureActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.TimeTableStationsListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.TTCmbPhonePayActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.TTCmbPhonePayConfirmActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.TTCmbPhonePayCompleteActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.GesturePasswordGuideActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.TicketReplenishmentGuideActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.TrainOutletsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.TrainOutletsMapActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.RegionSelectActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.TrainOutletDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.OutletsFeedBackActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.huoli.hotel.hb.BookRoomPayActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.huoli.hotel.gt.BookRoomPayActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.huoli.hotel.activity.AddrMapActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.huoli.hotel.activity.OrderDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.huoli.hotel.activity.OrdersActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.huoli.hotel.activity.ShareSinaActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.huoli.hotel.activity.TuangBranchesActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.huoli.hotel.activity.TuangDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.huoli.hotel.activity.TuangOrderDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.huoli.hotel.activity.WebActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.EmailVerifyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.RegisterSuccessActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.TimetableHistoryActivityV2"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.TrainDelayInfoListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.AccoutDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.GTAccountCouponActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.GTInnerAccountCouponActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.GTInnerAccountCouponDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.GTInnerAccountCouponExtendsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.GTAccountCouponDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.GTAccountCouponChangeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.SimpleIdCardRegisterActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.Change12306PasswordActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.OtherOrderListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.OtherOrderActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.TicketMapActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.gtclient.activity.GrubListActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.gtclient.activity.GrubBuildActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.gtclient.activity.GrubSingleTrainBuildActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.gtclient.activity.GrubSingleTrainEditActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.gtclient.activity.GrubEditActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.gtclient.activity.GrubStatusActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.gtclient.activity.GrubContactSelectActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.gtclient.activity.GrubContactAddActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.gtclient.activity.GrubTrainSelectActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.remind.activity.RemindListActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.remind.activity.RemindBuildActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.remind.activity.RemindStatusActivty"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.RegisterChoiceActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.GTFeedbackActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030007, type 0x01>
+            android:name="com.gtgj.view.GTFeedbackEditorActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.TicketMainActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.TicketMainActivityV2"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.ticket.SimpleTicketMainActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.ticket.SearchCityActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.ticket.DatePickerActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.ticket.RoundTripTicketOrder"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.ticket.InternationalTicketList"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.ticket.TicketDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.ticket.InternationalTicketDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.ticket.TicketOrderActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.ticket.TicketOrderSelectionActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.ticket.GrabTicketActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.ticket.GrabTicketSelectionActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.ticket.GrabTicketSelectionDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.ticket.GrabNotifyActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.ticket.GrabTicketNotifyDetailActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.ticket.GrabTicketNotifyList"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.ticket.GrabTicketDetailActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.ticket.GrabTicketPayActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.ticket.RefundOrChangeRuleActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.ticket.InputInvoiceActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.ticket.InputPassengerPinyinActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.ticket.PostAddressOperateActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.ticket.SelectPostAddressActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.ticket.SelectNationalityActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.ticket.SelectRefundChangeFlightActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.ticket.SelectRefundChangeTicketActionActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.ticket.SelfAddrActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.ticket.AddPassenger"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.AddPassengerActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.ticket.AddOrEditPassenger"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.ticket.ModifyPinyinActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.ticket.ResendReimburseActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.ticket.RefundOrChangeTicketActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.ticket.ChooseChaneOrRefundPassenger"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.ticket.ChooseFlightReplace"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.ticket.RefundTicketConfirmActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.ticket.RefundTicketSubmitSuccessActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.ticket.ChangeTicketPayActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.ticket.ChangeTicketConfirmActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.ticket.ChangeTicketSubmitSuccessActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.ticket.TicketOrderSure"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.ticket.TicketOrderPayActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.ticket.DelayProofActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.ticket.AddMultiPassengerActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.pay.CCBankWebViewActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.ExternalWebViewActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.ticket.PrivacyDescActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.ticket.TicketOrderPaySuccessActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.pay.AddNewBankCardActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.BookProductSuccessActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.BookProductWapPayActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.pay.EditNewBankCardActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.pay.FlyPayBankCardListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.pay.FlyPayEditBankCardActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.pay.PayOrderBankSmsVerifyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.pay.OrderPayVerifyCodeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.pay.SFYWapPayActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.BookProductAliWapPayActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.OtherProductPayActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.TicketOrderListActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0D0025, type 0x01>
+            android:name="com.flightmanager.view.RequestHBAuthcodeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.ticket.TicketOrderDetailPage"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.ticket.FlightChangeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.ticket.OrderAuthShareActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.ticket.AddOrderShareAccountActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.ticket.NoticePurchaserActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.ticket.TicketOrderDetailPriceActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.ticket.TicketOrderStateActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.ticket.TicketOrderPassengerActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.ticket.ResultList"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0D0025, type 0x01>
+            android:name="com.flightmanager.view.ticket.RefundChangeEmptyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0D0025, type 0x01>
+            android:name="com.flightmanager.view.ticket.TransParentActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.helpcenter.HelpCenterGuideActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x13, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.helpcenter.HelpFeedbackActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.helpcenter.OrderSelectActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.helpcenter.OrderSelectTabActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0D0025, type 0x01>
+            android:name="com.flightmanager.view.ticket.TotalPayPriceDetail"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0D0025, type 0x01>
+            android:name="com.flightmanager.view.ticket.TranslucentTicketOrderDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0D0025, type 0x01>
+            android:name="com.flightmanager.view.ticket.TranslucentInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.watch.activity.WatchConnectActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0D0025, type 0x01>
+            android:name="com.flightmanager.view.ticket.NoteLinkAcyivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.CouponsListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.CouponsDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="io.card.payment.CardIOActivity"
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="io.card.payment.DataEntryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.TrainRuningStateMapActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.TrainRouteDetailActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:uiOptions=<0x1, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.TrainRouteDetailActivityV2"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:uiOptions=<0x1, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.TrainRouteDetailActivityV3"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:uiOptions=<0x1, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.TravelRemainSettingActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:uiOptions=<0x1, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.TimetableAddAttentionActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.CommentListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:uiOptions=<0x1, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.CommentListActivityV3"
+            android:screenOrientation=<0x1, type 0x10>
+            android:uiOptions=<0x1, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.JustReplyCommentActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:uiOptions=<0x1, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.TrainDelayInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.AddCommentActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x13, type 0x11>
+            android:uiOptions=<0x1, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.AddCommentActivityV2"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x13, type 0x11>
+            android:uiOptions=<0x1, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.MapLocationActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.UploadOntimeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.LaunchAdActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.CommentDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x14, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.ModifyMobileUserInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.ModifyMobileUserNickNameActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.TrainLineRemainSetting"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103000B, type 0x01>
+            android:name="com.gtgj.view.AlarmActivity"
+            android:launchMode=<0x3, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.FaultAnalysisActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x13, type 0x11>
+            android:uiOptions=<0x1, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.RecognizeNewPasscodeGameActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.helpticket.activity.HelpBuyTicketGuideActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.helpticket.activity.HelpBuyTicketInputUserInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.helpticket.activity.HelpBuyTicketSelectHelpUserActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.helpticket.activity.HelpBuyTicketSetTicketInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.helpticket.activity.HelpBuyTicketCommunicationActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.gtgj.helpticket.activity.EmptyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.helpticket.activity.HelpBuyTicketSetHelpUserInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.TicketResignActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.BlankVerifyGestureActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.GtThirdAppRequestLoginActivity"
+            android:taskAffinity="com.gtgj.view.thirdtask"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="gtgjauth"
+                    >
+                </data>
+                <data
+                    android:host="start"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x3, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.alipay.sdk.auth.AuthActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x3, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            >
+        </activity>
+        <receiver
+            android:name="com.gtgj.broadcast.BindMobileChangeReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.gtgj.view.broadcast.BIND_CHANGE"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:name="com.flightmanager.view.pay.NativeWebProductPayActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.PostAddressListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.PostAddressManageActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.TicketRemindGuideActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.TicketChooseSeatGuideActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.huoli.bus.BusTicketMainActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.huoli.bus.BusStationSelectionActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.huoli.bus.BusLineListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.huoli.bus.BusLineCollectionSortActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.huoli.bus.BusInsurancesListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.huoli.bus.BusTicketBookActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.huoli.bus.BusTicketBookSuccessActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.huoli.bus.BusOrderDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.huoli.bus.BusOrderListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gtgj.view.GTDateSelectionActivityV2"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <service
+            android:name="com.gtgj.component.DownloadApkService"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            >
+        </service>
+        <service
+            android:name="com.gtgj.service.FetchTimeListService"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            >
+        </service>
+        <service
+            android:name="com.gtgj.service.FetchTimetableMenuService"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            >
+        </service>
+        <service
+            android:name="com.gtgj.gtclient.service.GrubService"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            >
+        </service>
+        <service
+            android:name="com.gtgj.service.CustomPushMsgProcessService"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            >
+        </service>
+        <service
+            android:name="com.gtgj.service.AlarmIntentService"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            >
+        </service>
+        <receiver
+            android:name="com.gtgj.broadcast.GTGJCardBroadcast"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.gtgj.view.shelper.card"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.gtgj.broadcast.GrubNotifyBroadcast"
+            >
+        </receiver>
+        <receiver
+            android:name="com.gtgj.broadcast.GTGJBootBroadcast"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.BOOT_COMPLETED"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:process=":remote"
+            >
+        </service>
+        <service
+            android:name="com.xiaomi.push.service.XMPushService"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:process=":pushservice"
+            >
+        </service>
+        <service
+            android:name="com.xiaomi.mipush.sdk.PushMessageHandler"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+        </service>
+        <service
+            android:name="com.xiaomi.mipush.sdk.MessageHandleService"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            >
+        </service>
+        <receiver
+            android:name="com.gtgj.broadcast.MIUIPushReceiver"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.xiaomi.mipush.RECEIVE_MESSAGE"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.xiaomi.mipush.ERROR"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.xiaomi.push.service.receivers.NetworkStatusReceiver"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.xiaomi.push.service.receivers.PingReceiver"
+            android:exported=<0x0, type 0x12>
+            android:process=":pushservice"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.xiaomi.push.PING_TIMER"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.xiaomi.push.service.receivers.PkgUninstallReceiver"
+            android:exported=<0x0, type 0x12>
+            android:process=":pushservice"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.PACKAGE_REMOVED"
+                    >
+                </action>
+                <data
+                    android:scheme="package"
+                    >
+                </data>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:name="com.gtgj.view.PersonalRecommandActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.dynamic.HBLocationChooseActivity"
+            android:launchMode=<0x0, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.dynamic.NativeMapPoiSearchActivity"
+            android:launchMode=<0x0, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.dynamic.HbLocationChoseActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.checkin.PlaneCheckinMainActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.checkin.PlaneFlightListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.checkin.PlaneCheckinSettingSeatActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.checkin.PlaneCheckinServiceAgreementActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.checkin.PlaneCheckinSuccessActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.checkin.PlaneCheckinHistoryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.checkin.PlaneCancelCheckinSettingCodeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.checkin.PlaneCheckinListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.checkin.PlaneCheckinSelectPassengerActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.checkin.PlaneCheckinWapActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.checkin.PlaneCheckinNormalVerifyCodeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.checkin.PlaneReceiveBoardingActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.checkin.PlaneCheckinFrequentFlyerActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.checkin.InternationalCheckinAirlineActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.checkin.CheckinAirportListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.checkin.PlaneCheckinQRCodeListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.checkin.PlaneCheckinQRCodeCardDetailActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.flightmanager.view.checkin.CheckinMultiplePassenagersActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+    </application>
+</manifest>
