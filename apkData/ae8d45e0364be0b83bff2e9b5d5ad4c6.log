@@ -1,0 +1,31 @@
+--2016-12-24 14:26:11--  http://wap.ksjwj.cc/ty
+Resolving wap.ksjwj.cc... 103.240.183.117
+Connecting to wap.ksjwj.cc|103.240.183.117|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://wap.ksjwj.cc/ty/ [following]
+--2016-12-24 14:26:18--  http://wap.ksjwj.cc/ty/
+Reusing existing connection to wap.ksjwj.cc:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 247 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 13.9M=0s
+
+2016-12-24 14:26:19 (13.9 MB/s) - `index.html' saved [247/247]
+
+=======================The second times wget =====================
+--2016-12-24 14:26:19--  http://wap.ksjwj.cc/ty/%C2%BC%CF%F16.apk
+Resolving wap.ksjwj.cc... 103.240.183.117
+Connecting to wap.ksjwj.cc|103.240.183.117|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 209322 (204K) [application/vnd.android.package-archive]
+Saving to: `Â¼Ïñ6.apk'
+
+     0K .......... .......... .......... .......... .......... 24% 7.01K 22s
+    50K .......... .......... .......... .......... .......... 48% 13.1K 11s
+   100K .......... .......... .......... .......... .......... 73% 13.3K 5s
+   150K .......... .......... .......... .......... .......... 97% 7.01K 0s
+   200K ....                                                  100%  192K=22s
+
+2016-12-24 14:26:44 (9.35 KB/s) - `Â¼Ïñ6.apk' saved [209322/209322]
+
