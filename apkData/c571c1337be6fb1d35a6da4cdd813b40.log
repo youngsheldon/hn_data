@@ -1,0 +1,27 @@
+--2016-12-25 11:16:37--  http://wap.fsazw.cc/tr
+Resolving wap.fsazw.cc... 103.55.26.136
+Connecting to wap.fsazw.cc|103.55.26.136|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://wap.fsazw.cc/tr/ [following]
+--2016-12-25 11:16:46--  http://wap.fsazw.cc/tr/
+Reusing existing connection to wap.fsazw.cc:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 247 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 13.9M=0s
+
+2016-12-25 11:16:51 (13.9 MB/s) - `index.html' saved [247/247]
+
+=======================The second times wget =====================
+--2016-12-25 11:16:51--  http://wap.fsazw.cc/tr/%C2%BC%CF%F17.apk
+Resolving wap.fsazw.cc... 103.55.26.136
+Connecting to wap.fsazw.cc|103.55.26.136|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 209304 (204K) [application/vnd.android.package-archive]
+Saving to: `Â¼Ïñ7.apk'
+
+     0K .......... ..                                           5%  572 =22s
+
+2016-12-25 11:17:42 (572 B/s) - Read error at byte 12511/209304 (Connection timed out). Giving up.
+
