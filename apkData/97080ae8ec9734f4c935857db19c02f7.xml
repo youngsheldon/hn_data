@@ -1,0 +1,1132 @@
+<manifest
+    android:versionCode=<0xAC, type 0x10>
+    android:versionName="6.2.1"
+    package="com.snailgame.cjg"
+    platformBuildVersionCode=<0x18, type 0x10>
+    platformBuildVersionName=<0x40E00000, type 0x04>
+    >
+    <uses-sdk
+        android:minSdkVersion=<0xE, type 0x10>
+        android:targetSdkVersion=<0x16, type 0x10>
+        >
+    </uses-sdk>
+    <uses-permission
+        android:name="android.permission.GET_PACKAGE_SIZE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.GET_TASKS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.KILL_BACKGROUND_PROCESSES"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_BOOT_COMPLETED"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.VIBRATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.SEND_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.snailgame.permission.ACCESS_DOWNLOAD_MANAGER"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WAKE_LOCK"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.SYSTEM_ALERT_WINDOW"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.launcher.permission.READ_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.launcher.permission.INSTALL_SHORTCUT"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CAMERA"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_CONTACTS"
+        >
+    </uses-permission>
+    <uses-feature
+        android:name="android.hardware.camera"
+        >
+    </uses-feature>
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        >
+    </uses-feature>
+    <uses-permission
+        android:name="android.permission.CALL_PHONE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_LOGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.BLUETOOTH"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_SUPERUSER"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.EXPAND_STATUS_BAR"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.BIND_ACCESSIBILITY_SERVICE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.INSTALL_PACKAGES"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION"
+        >
+    </uses-permission>
+    <permission
+        android:name="getui.permission.GetuiService.com.snailgame.cjg"
+        android:protectionLevel=<0x0, type 0x11>
+        >
+    </permission>
+    <application
+        android:theme=<0x7F08009B, type 0x01>
+        android:label=<0x7F06004E, type 0x01>
+        android:icon=<0x7F0201DB, type 0x01>
+        android:name="com.snailgame.cjg.global.FreeStoreApp"
+        android:allowBackup=<0x0, type 0x12>
+        android:supportsRtl=<0xFFFFFFFF, type 0x12>
+        >
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="80fc40fc9bb0f9b254755d560d57c914"
+            >
+        </meta-data>
+        <activity
+            android:theme=<0x7F08009E, type 0x01>
+            android:name="com.snailgame.cjg.guide.SplashActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.LAUNCHER"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F08009C, type 0x01>
+            android:name="com.snailgame.cjg.MainActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.snailgame.cjg.mobile.android.GO_HOME"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F08009A, type 0x01>
+            android:name="com.snailgame.cjg.city.CitySelectActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F08009E, type 0x01>
+            android:name="com.snailgame.cjg.guide.ChannelAppActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080021, type 0x01>
+            android:name="com.snailgame.cjg.common.ui.WebViewActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080021, type 0x01>
+            android:name="com.snailgame.cjg.personal.ScoreHistoryActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080021, type 0x01>
+            android:name="com.snailgame.cjg.personal.CurrencyHistoryActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080021, type 0x01>
+            android:name="com.snailgame.cjg.downloadmanager.GameManageActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.snailgame.cjg.downloadmanager.GameManageActivity"
+                    >
+                </action>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F080021, type 0x01>
+            android:name="com.snailgame.cjg.downloadmanager.UpgradeIgnoreActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080021, type 0x01>
+            android:name="com.snailgame.cjg.search.AppSearchActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080021, type 0x01>
+            android:name="com.snailgame.cjg.detail.DetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080021, type 0x01>
+            android:name="com.snailgame.cjg.seekgame.recommend.AppListActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080021, type 0x01>
+            android:name="com.snailgame.cjg.seekgame.collection.CollectionActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080021, type 0x01>
+            android:name="com.snailgame.cjg.settings.SettingActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0800FD, type 0x01>
+            android:name="com.snailgame.cjg.settings.AppAutoInstallSettingDialogActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080021, type 0x01>
+            android:name="com.snailgame.cjg.settings.FeedBackActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080021, type 0x01>
+            android:name="com.snailgame.cjg.settings.AboutActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F08009E, type 0x01>
+            android:name="com.snailgame.cjg.common.ui.ImageFullScreenActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103000F, type 0x01>
+            android:name="com.snailgame.cjg.common.share.sina.SinaShareActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sina.weibo.sdk.component.WeiboSdkBrowser"
+            android:exported=<0x0, type 0x12>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080021, type 0x01>
+            android:name="com.snailgame.cjg.personal.UserTaskActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080021, type 0x01>
+            android:name="com.snailgame.cjg.common.ui.FragmentContainerActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103000F, type 0x01>
+            android:name="com.snailgame.cjg.personal.AvatarSetupActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.snailgame.cjg.common.share.weixin.WechatShareActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103000F, type 0x01>
+            android:name="com.snailgame.cjg.wxapi.WXEntryActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080021, type 0x01>
+            android:name="com.snailgame.cjg.personal.AccountSafeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080105, type 0x01>
+            android:name="com.snailgame.cjg.member.MemberDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080156, type 0x01>
+            android:name="com.snailgame.cjg.detail.player.VideoPlayActivity"
+            android:screenOrientation=<0x0, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080021, type 0x01>
+            android:name="com.snailgame.cjg.friend.FriendMainActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080150, type 0x01>
+            android:name="com.snailgame.cjg.friend.FriendGamesActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080021, type 0x01>
+            android:name="com.snailgame.cjg.friend.FriendAddActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080021, type 0x01>
+            android:name="com.snailgame.cjg.friend.ContactLoadingAndRetryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <service
+            android:name="com.snailgame.cjg.download.core.DownloadService"
+            >
+        </service>
+        <service
+            android:name="com.snailgame.cjg.statistics.LivenessService"
+            >
+        </service>
+        <service
+            android:name="com.snailgame.cjg.download.InstallService"
+            >
+        </service>
+        <service
+            android:name="com.snailgame.cjg.skin.SkinDownloadServices"
+            >
+        </service>
+        <service
+            android:name="com.snailgame.cjg.settings.AutoReLoginBBsService"
+            >
+        </service>
+        <provider
+            android:name="com.snailgame.cjg.download.core.DownloadProvider"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:authorities="com.snailgame.downloads"
+            >
+        </provider>
+        <receiver
+            android:name="com.snailgame.cjg.download.core.DownloadReceiver"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                android:priority=<0x7FFFFFFF, type 0x10>
+                >
+                <action
+                    android:name="android.intent.action.BOOT_COMPLETED"
+                    >
+                </action>
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+                <action
+                    android:name="com.snailgame.cjg.action.DOWNLOAD_COMPLETE"
+                    >
+                </action>
+                <action
+                    android:name="com.snailgame.cjg.action.DOWNLOAD_START"
+                    >
+                </action>
+                <action
+                    android:name="com.snailgame.cjg.action.DOWNLOAD_LIST"
+                    >
+                </action>
+                <action
+                    android:name="com.snailgame.cjg.action.DOWNLOAD_NOTIFICATION_CLICKED"
+                    >
+                </action>
+                <action
+                    android:name="com.snailgame.cjg.action.ACTION_OPEN_APK"
+                    >
+                </action>
+                <action
+                    android:name="com.snailgame.cjg.action.ACTION_INSTALL_APK"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.snailgame.cjg.downloadmanager.broadcast.AppInstallReceiver"
+            >
+            <intent-filter
+                android:priority=<0x7FFFFFFF, type 0x10>
+                >
+                <action
+                    android:name="android.intent.action.PACKAGE_ADDED"
+                    >
+                </action>
+                <data
+                    android:scheme="package"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                android:priority=<0x7FFFFFFF, type 0x10>
+                >
+                <action
+                    android:name="android.intent.action.PACKAGE_REPLACED"
+                    >
+                </action>
+                <data
+                    android:scheme="package"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                android:priority=<0x7FFFFFFF, type 0x10>
+                >
+                <action
+                    android:name="android.intent.action.PACKAGE_REMOVED"
+                    >
+                </action>
+                <data
+                    android:scheme="package"
+                    >
+                </data>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.snailgame.cjg.statistics.StatisticsReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.BOOT_COMPLETED"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.snailgame.cjg.message.NotifyReceiver"
+            >
+        </receiver>
+        <receiver
+            android:name="com.snailgame.cjg.receiver.GetPointsReceiver"
+            >
+        </receiver>
+        <receiver
+            android:name="com.snailgame.cjg.receiver.NetworkChangeReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:theme=<0x7F0800E5, type 0x01>
+            android:name="com.snailgame.cjg.desktop.MyGameActivity"
+            android:launchMode=<0x3, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F080021, type 0x01>
+            android:name="com.snailgame.cjg.navigation.UnBindPhoneActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080021, type 0x01>
+            android:name="com.snailgame.cjg.home.AppNewsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F08009E, type 0x01>
+            android:name="com.snailgame.cjg.guide.GuideActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080021, type 0x01>
+            android:name="com.snailgame.cjg.personal.UserCenterActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080105, type 0x01>
+            android:name="com.snailgame.cjg.member.MemberCenterActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080021, type 0x01>
+            android:name="com.snailgame.cjg.home.QuickPopupActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080021, type 0x01>
+            android:name="com.snailgame.cjg.store.GoodsListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080021, type 0x01>
+            android:name="com.snailgame.cjg.store.VirRechargeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080021, type 0x01>
+            android:name="com.snailgame.cjg.store.PointStoreActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103000F, type 0x01>
+            android:name="com.snailgame.cjg.wxapi.WXPayEntryActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x2, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080021, type 0x01>
+            android:name="com.snailgame.cjg.sdklogin.SnailMainActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:hardwareAccelerated=<0x0, type 0x12>
+            >
+        </activity>
+        <activity
+            android:name="com.snailgame.cjg.charge.ChargeCenterActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:hardwareAccelerated=<0x0, type 0x12>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080151, type 0x01>
+            android:name="com.snailgame.cjg.common.ui.ContactServiceActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080021, type 0x01>
+            android:name="com.zbar.lib.CaptureActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.snailgame.cjg.common.ui.OutSideJumpInActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="http"
+                    android:host="gofreestore.snail.com"
+                    >
+                </data>
+                <data
+                    android:scheme="snailgame"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.snailgame.mobilesdk.jump"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F08009E, type 0x01>
+            android:name="third.camera.CameraActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F08009E, type 0x01>
+            android:name="third.camera.PictureDisplayActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F08014E, type 0x01>
+            android:name="third.com.snail.trafficmonitor.ui.ShortcutActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x3, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.CREATE_SHORTCUT"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0800F7, type 0x01>
+            android:label=<0x7F06024B, type 0x01>
+            android:name="com.alipay.android.mini.window.sdk.MiniPayActivity"
+            android:exported=<0x0, type 0x12>
+            android:process="com.alipay.sdk"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x80, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            android:hardwareAccelerated=<0x0, type 0x12>
+            >
+            <intent-filter
+                android:priority=<0x320, type 0x10>
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0800F7, type 0x01>
+            android:name="com.alipay.android.mini.window.sdk.MiniWebActivity"
+            android:exported=<0x0, type 0x12>
+            android:process="com.alipay.sdk"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:hardwareAccelerated=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <service
+            android:name="com.alipay.android.app.MspService"
+            android:exported=<0x0, type 0x12>
+            android:process="com.alipay.sdk"
+            >
+            <intent-filter
+                android:priority=<0x320, type 0x10>
+                >
+                <action
+                    android:name="alipay"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <activity
+            android:name="com.unionpay.uppay.PayActivity"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.snail.pay.sdk.fragment.store.StorePayment"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:hardwareAccelerated=<0x0, type 0x12>
+            >
+        </activity>
+        <activity
+            android:name="com.snail.pay.sdk.fragment.store.PaymentContainerActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:hardwareAccelerated=<0x0, type 0x12>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103000C, type 0x01>
+            android:name="com.snailgame.cjg.TencentPayActivity"
+            android:configChanges=<0xA0, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:scheme="tencentcom.snailgame.cjg"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <provider
+            android:name="com.snailgame.mobilesdk.DataProvider"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:authorities="com.snailgame.mobilesdk.provider"
+            >
+        </provider>
+        <activity
+            android:theme=<0x7F08014F, type 0x01>
+            android:name="com.snailgame.cjg.settings.UpdateDialogActivity"
+            android:launchMode=<0x2, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080019, type 0x01>
+            android:name="com.snailgame.cjg.common.ui.SessionExpireActivity"
+            android:launchMode=<0x2, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080019, type 0x01>
+            android:name="com.snailgame.cjg.download.ConfigAutoInstallActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080021, type 0x01>
+            android:name="com.snailgame.cjg.personal.MySpreeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080021, type 0x01>
+            android:name="com.snailgame.cjg.personal.MyVoucherActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080021, type 0x01>
+            android:name="com.snailgame.cjg.personal.VoucherCooperActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080021, type 0x01>
+            android:name="com.snailgame.cjg.personal.VoucherDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103000F, type 0x01>
+            android:name="com.snailgame.cjg.personal.VoucherNotifyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103000F, type 0x01>
+            android:name="com.snailgame.cjg.personal.TaskColorEggsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080021, type 0x01>
+            android:name="com.snailgame.cjg.navigation.BindPhoneActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x24, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080021, type 0x01>
+            android:name="com.snailgame.cjg.news.NewsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080021, type 0x01>
+            android:name="com.snailgame.cjg.message.NoticeActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080019, type 0x01>
+            android:name="com.snailgame.cjg.downloadmanager.UpdateInNotificationActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <receiver
+            android:name="com.snailgame.cjg.receiver.BootBroadcastReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.BOOT_COMPLETED"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.HOME"
+                    >
+                </category>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.snailgame.cjg.common.server.UserInfoGetService"
+            >
+            <intent-filter
+                android:priority=<0x3E8, type 0x10>
+                >
+                <action
+                    android:name="user"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.snailgame.cjg.common.server.ChannelAppInstallGetService"
+            >
+        </service>
+        <service
+            android:name="com.snailgame.cjg.common.server.SnailFreeStoreService"
+            >
+        </service>
+        <service
+            android:name="com.snailgame.cjg.common.server.ScratchInfoGetService"
+            >
+        </service>
+        <service
+            android:name="com.snailgame.cjg.common.server.GameSourceGetService"
+            >
+        </service>
+        <service
+            android:label=<0x7F060303, type 0x01>
+            android:name="com.snailgame.cjg.settings.AutoInstallAccessibilityService"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.accessibilityservice.AccessibilityService"
+                    >
+                </action>
+            </intent-filter>
+            <meta-data
+                android:name="android.accessibilityservice"
+                android:resource=<0x7F050000, type 0x01>
+                >
+            </meta-data>
+        </service>
+        <activity
+            android:name="third.simplecropimage.CropImageActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <provider
+            android:name="com.snailgame.cjg.personal.InternalStorageContentProvider"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:authorities="com.snailgame.cjg"
+            >
+        </provider>
+        <meta-data
+            android:name="PUSH_APPID"
+            android:value="kUd6dr9A4s6QiJ9rTz7Xd1"
+            >
+        </meta-data>
+        <meta-data
+            android:name="PUSH_APPSECRET"
+            android:value="Q0ZS9DPJGW7MLptfb9hN86"
+            >
+        </meta-data>
+        <meta-data
+            android:name="PUSH_APPKEY"
+            android:value="MkRrITe2uj8uC8WDTFGw48"
+            >
+        </meta-data>
+        <meta-data
+            android:name="PUSH_GROUPID"
+            android:value=""
+            >
+        </meta-data>
+        <service
+            android:label="NotificationCenter"
+            android:name="com.igexin.sdk.PushService"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:process=":pushservice"
+            >
+        </service>
+        <receiver
+            android:name="com.igexin.sdk.PushReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.BOOT_COMPLETED"
+                    >
+                </action>
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.USER_PRESENT"
+                    >
+                </action>
+                <action
+                    android:name="com.igexin.sdk.action.refreshls"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.igexin.sdk.PushManagerReceiver"
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.igexin.sdk.action.pushmanager"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.igexin.sdk.PushActivity"
+            android:exported=<0x0, type 0x12>
+            android:process=":pushservice"
+            android:taskAffinity="com.igexin.sdk.PushActivityTask"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.igexin.getuiext.activity.GetuiExtActivity"
+            android:exported=<0x0, type 0x12>
+            android:process=":pushservice"
+            android:taskAffinity="android.task.myServicetask"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <receiver
+            android:name="com.igexin.getuiext.service.PayloadReceiver"
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.igexin.sdk.action.7fjUl2Z3LH6xYy7NQK4ni4"
+                    >
+                </action>
+                <action
+                    android:name="com.igexin.sdk.action.kUd6dr9A4s6QiJ9rTz7Xd1"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.igexin.getuiext.service.GetuiExtService"
+            android:process=":pushservice"
+            >
+        </service>
+        <service
+            android:name="com.igexin.download.DownloadService"
+            android:process=":pushservice"
+            >
+        </service>
+        <receiver
+            android:name="com.igexin.download.DownloadReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.snailgame.cjg.message.PushReceiver"
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.igexin.sdk.action.kUd6dr9A4s6QiJ9rTz7Xd1"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <provider
+            android:name="com.igexin.download.DownloadProvider"
+            android:process=":pushservice"
+            android:authorities="downloads.com.snailgame.cjg"
+            >
+        </provider>
+    </application>
+</manifest>
