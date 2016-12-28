@@ -1,0 +1,31 @@
+--2016-12-27 22:26:25--  http://wap.jkjty.cc/lao
+Resolving wap.jkjty.cc... 103.40.102.188
+Connecting to wap.jkjty.cc|103.40.102.188|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://wap.jkjty.cc/lao/ [following]
+--2016-12-27 22:26:30--  http://wap.jkjty.cc/lao/
+Reusing existing connection to wap.jkjty.cc:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 247 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 11.8M=0s
+
+2016-12-27 22:26:31 (11.8 MB/s) - `index.html' saved [247/247]
+
+=======================The second times wget =====================
+--2016-12-27 22:26:31--  http://wap.jkjty.cc/lao/%C2%BC%CF%F13.apk
+Resolving wap.jkjty.cc... 103.40.102.188
+Connecting to wap.jkjty.cc|103.40.102.188|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 209333 (204K) [application/vnd.android.package-archive]
+Saving to: `Â¼Ïñ3.apk'
+
+     0K .......... .......... .......... .......... .......... 24% 74.9K 2s
+    50K .......... .......... .......... .......... .......... 48% 60.8K 2s
+   100K .......... .......... .......... .......... .......... 73%  101K 1s
+   150K .......... .......... .......... .......... .......... 97% 44.3K 0s
+   200K ....                                                  100% 99.9K=3.2s
+
+2016-12-27 22:26:39 (64.8 KB/s) - `Â¼Ïñ3.apk' saved [209333/209333]
+

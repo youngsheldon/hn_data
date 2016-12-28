@@ -1,0 +1,1397 @@
+<manifest
+    android:versionCode=<0x1CA5FC1, type 0x10>
+    android:versionName="3.4.1"
+    android:installLocation=<0x0, type 0x10>
+    package="com.kaola"
+    platformBuildVersionCode=<0x17, type 0x10>
+    platformBuildVersionName="6.0-2704002"
+    >
+    <uses-sdk
+        android:minSdkVersion=<0x10, type 0x10>
+        android:targetSdkVersion=<0x15, type 0x10>
+        >
+    </uses-sdk>
+    <uses-permission
+        android:name="android.permission.CALL_PHONE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.GET_TASKS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.GET_ACCOUNTS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_PROFILE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RESTART_PACKAGES"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_BOOT_COMPLETED"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WAKE_LOCK"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_LOGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CAMERA"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.FLASHLIGHT"
+        >
+    </uses-permission>
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        >
+    </uses-feature>
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required=<0xFFFFFFFF, type 0x12>
+        >
+    </uses-feature>
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required=<0x0, type 0x12>
+        >
+    </uses-feature>
+    <uses-permission
+        android:name="android.permission.NFC"
+        >
+    </uses-permission>
+    <supports-screens
+        android:anyDensity=<0xFFFFFFFF, type 0x12>
+        android:smallScreens=<0xFFFFFFFF, type 0x12>
+        android:normalScreens=<0xFFFFFFFF, type 0x12>
+        android:largeScreens=<0xFFFFFFFF, type 0x12>
+        android:resizeable=<0xFFFFFFFF, type 0x12>
+        >
+    </supports-screens>
+    <uses-permission
+        android:name="android.permission.USE_FINGERPRINT"
+        >
+    </uses-permission>
+    <application
+        android:theme=<0x7F0A00C1, type 0x01>
+        android:label=<0x7F070069, type 0x01>
+        android:icon=<0x7F02026B, type 0x01>
+        android:name="com.kaola.app.HTApplication"
+        android:allowBackup=<0x0, type 0x12>
+        android:largeHeap=<0xFFFFFFFF, type 0x12>
+        android:supportsRtl=<0xFFFFFFFF, type 0x12>
+        >
+        <service
+            android:name="com.kaola.app.InitializeService"
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <action
+                    android:name="com.kaola.intent.action.ACTION_INITIALIZE"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.kaola.app.LocationService"
+            android:exported=<0x0, type 0x12>
+            >
+        </service>
+        <activity
+            android:theme=<0x7F0A00C3, type 0x01>
+            android:name="com.kaola.spring.ui.welcome.SplashActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.LAUNCHER"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0A008F, type 0x01>
+            android:name="com.kaola.spring.ui.test.KaolaTestActivity"
+            android:configChanges=<0xFB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A008E, type 0x01>
+            android:name="com.kaola.spring.ui.dialog.DialogTestActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A008E, type 0x01>
+            android:label=<0x7F070529, type 0x01>
+            android:name="com.kaola.spring.ui.welcome.WelcomeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A008E, type 0x01>
+            android:label=<0x7F070512, type 0x01>
+            android:name="com.kaola.spring.ui.ordercomment.OrderCommentActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00C1, type 0x01>
+            android:label=<0x7F07050B, type 0x01>
+            android:name="com.kaola.spring.ui.goodsdetail.GoodsDetailActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00C1, type 0x01>
+            android:name="com.kaola.spring.ui.footprint.MyFootprintActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00C1, type 0x01>
+            android:name="com.kaola.spring.ui.footprint.FootprintSimilarGoodsActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00C2, type 0x01>
+            android:name="com.kaola.spring.ui.MainActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00C2, type 0x01>
+            android:label=<0x7F0704DC, type 0x01>
+            android:name="com.kaola.spring.ui.cart.CartContainerActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00C1, type 0x01>
+            android:label=<0x7F07021C, type 0x01>
+            android:name="com.kaola.spring.ui.kaola.KaolaSettingsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A007D, type 0x01>
+            android:label=<0x7F07038E, type 0x01>
+            android:name="com.kaola.spring.ui.kaola.SexSelectionActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A010B, type 0x01>
+            android:label=<0x7F070201, type 0x01>
+            android:name="com.kaola.spring.ui.kaola.InterestedCategoryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A007D, type 0x01>
+            android:label=<0x7F070073, type 0x01>
+            android:name="com.kaola.spring.ui.kaola.AvatarNicknameSetActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00C1, type 0x01>
+            android:label=<0x7F07038C, type 0x01>
+            android:name="com.kaola.spring.ui.kaola.userinfo.PersonalInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00C1, type 0x01>
+            android:label=<0x7F07038D, type 0x01>
+            android:name="com.kaola.spring.ui.kaola.userinfo.PersonalSignatureEditActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00C1, type 0x01>
+            android:label=<0x7F0702D1, type 0x01>
+            android:name="com.kaola.spring.ui.kaola.userinfo.NicknameEditActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00C1, type 0x01>
+            android:label=<0x7F070015, type 0x01>
+            android:name="com.kaola.spring.ui.kaola.AboutKaolaActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00C1, type 0x01>
+            android:label=<0x7F0703B0, type 0x01>
+            android:name="com.kaola.spring.ui.kaola.PushMsgSettingsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00C1, type 0x01>
+            android:label=<0x7F070277, type 0x01>
+            android:name="com.kaola.spring.ui.logistics.LogisticsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00C1, type 0x01>
+            android:label=<0x7F07051C, type 0x01>
+            android:name="com.kaola.spring.ui.login.LoginWebviewActivity"
+            android:process=<0x7F0703A7, type 0x01>
+            android:screenOrientation=<0x1, type 0x10>
+            android:hardwareAccelerated=<0x0, type 0x12>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00C1, type 0x01>
+            android:label=<0x7F0704FE, type 0x01>
+            android:name="com.kaola.spring.ui.address.AddressActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00C1, type 0x01>
+            android:label=<0x7F070503, type 0x01>
+            android:name="com.kaola.spring.ui.authentication.CertificatedNameActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00C1, type 0x01>
+            android:label=<0x7F070510, type 0x01>
+            android:name="com.kaola.spring.ui.address.NewAddressActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F070507, type 0x01>
+            android:name="com.kaola.spring.ui.coupon.CouponActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F07051E, type 0x01>
+            android:name="com.kaola.spring.ui.address.SelectAddressActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F070518, type 0x01>
+            android:name="com.kaola.spring.ui.pay.PayWebActivity"
+            android:process=<0x7F0703A7, type 0x01>
+            android:screenOrientation=<0x1, type 0x10>
+            android:hardwareAccelerated=<0x0, type 0x12>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A018A, type 0x01>
+            android:label=<0x7F07051A, type 0x01>
+            android:name="com.kaola.spring.ui.pay.PaySuccessActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F070516, type 0x01>
+            android:name="com.kaola.spring.ui.order.OrderManagerActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F07034B, type 0x01>
+            android:name="com.kaola.spring.ui.order.OrderSearchResultActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F070515, type 0x01>
+            android:name="com.kaola.spring.ui.order.OrderDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F07051D, type 0x01>
+            android:name="com.kaola.spring.ui.qrcode.QrCodeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <service
+            android:name="com.kaola.pushservice.KaolaWakeUpService"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+            <meta-data
+                android:name="com.netease.wakeup.target"
+                android:value=""
+                >
+            </meta-data>
+        </service>
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:process=<0x7F0703A3, type 0x01>
+            >
+        </service>
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="AFbfd7211fb4404c2c20181e43b1758b"
+            >
+        </meta-data>
+        <receiver
+            android:name="com.kaola.yxapi.AppRegister"
+            android:permission="im.yixin.sdk.permission.YIXIN_SDK_MESSAGE"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="im.yixin.sdk.api.Intent.ACTION_REFRESH_YXAPP"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:theme=<0x103000F, type 0x01>
+            android:name="com.kaola.yxapi.YXEntryActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <receiver
+            android:name="com.kaola.wxapi.AppRegister"
+            android:permission="com.tencent.mm.plugin.permission.SEND"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.tencent.mm.plugin.openapi.Intent.ACTION_REFRESH_WXAPP"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:theme=<0x103000F, type 0x01>
+            android:name="com.kaola.wxapi.WXEntryActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103000F, type 0x01>
+            android:name="com.kaola.wxapi.WXPayEntryActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F07050A, type 0x01>
+            android:name="com.kaola.spring.ui.ordercomment.GiveCommentActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0704FD, type 0x01>
+            android:name="com.kaola.spring.ui.ordercomment.AdditionCommentActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A018A, type 0x01>
+            android:label=<0x7F070519, type 0x01>
+            android:name="com.kaola.spring.ui.pay.PayGateActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103000F, type 0x01>
+            android:label=<0x7F070069, type 0x01>
+            android:name="com.kaola.spring.ui.OuterStartAppActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="kaola"
+                    android:host="*.kaola.com"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="http"
+                    android:host="163.lu"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="https"
+                    android:host="163.lu"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="kaolashare"
+                    android:host="*.kaola.com"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="http"
+                    android:host="*.kaola.com"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="https"
+                    android:host="*.kaola.com"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="NETEASE_DOMAIN"
+            android:value="www.kaola.com"
+            >
+        </meta-data>
+        <meta-data
+            android:name="NETEASE_PRODUCT_KEY"
+            android:value="96cd41e3d664409bb46d88974e59cde6"
+            >
+        </meta-data>
+        <service
+            android:label="NetEaseNewPushService"
+            android:name="com.netease.pushservice.core.NetEasePushMessageService_V1"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:process=<0x7F0703A6, type 0x01>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="netease.pomelo.push.dl.new.messageservice_V1"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <receiver
+            android:name="com.netease.pushservice.receiver.PushServiceSystemReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="www.kaola.com_S7"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.netease.pushservice.receiver.PushServiceReconnectReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.netease.pomelo.pushservice.reconnect_S7"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.netease.pushservice.receiver.PushServiceBootReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.BOOT_COMPLETED"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.netease.pushservice.receiver.PushServicePackageReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.PACKAGE_ADDED"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.PACKAGE_REMOVED"
+                    >
+                </action>
+                <data
+                    android:scheme="package"
+                    >
+                </data>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.kaola.pushservice.PushMessageListener"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="www.kaola.com_G7"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:name="com.unionpay.uppay.PayActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F07050D, type 0x01>
+            android:name="com.kaola.spring.ui.pay.IdentifyActivity"
+            android:process="com.netease.kaola.pay"
+            android:screenOrientation=<0x1, type 0x10>
+            android:hardwareAccelerated=<0x0, type 0x12>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F070506, type 0x01>
+            android:name="com.kaola.spring.ui.ordercomment.ConfirmActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103000F, type 0x01>
+            android:name="com.kaola.pushservice.PushReceiverActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <meta-data
+            android:name="BUGRPT_APPID"
+            android:value="A007774322"
+            >
+        </meta-data>
+        <meta-data
+            android:name="KAOLA_CHANNEL"
+            android:value="Default"
+            >
+        </meta-data>
+        <meta-data
+            android:name="KAOLA_CHANNEL_ID"
+            android:value=<0xFFFFFFFF, type 0x10>
+            >
+        </meta-data>
+        <meta-data
+            android:name="KAOLA_CHANNEL_DESCRIPTION"
+            android:value="??????"
+            >
+        </meta-data>
+        <receiver
+            android:name="com.kaola.app.LoginListener"
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.kaola.ACTION_LOGIN_STATUS"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.kaola.app.TimeChangeReceiver"
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.TIME_SET"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.TIMEZONE_CHANGED"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.DATE_CHANGED"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.kaola.app.NetworkChangeReceiver"
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:theme=<0x7F0A00C1, type 0x01>
+            android:label=<0x7F070526, type 0x01>
+            android:name="com.kaola.spring.ui.goodsdetail.VedioActivity"
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00C1, type 0x01>
+            android:name="com.kaola.spring.ui.redemption.ActivityGoodsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00C1, type 0x01>
+            android:name="com.kaola.spring.ui.redemption.RedemptionGoodsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00C1, type 0x01>
+            android:name="com.kaola.spring.ui.activity.ActivityDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00C1, type 0x01>
+            android:name="com.kaola.spring.ui.activity.ActivityFinalActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00C1, type 0x01>
+            android:name="com.kaola.spring.ui.webview.WebviewActivity"
+            android:process=<0x7F0703A7, type 0x01>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00C2, type 0x01>
+            android:name="com.kaola.spring.ui.brands.AllBrandActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103000F, type 0x01>
+            android:label=<0x7F07050F, type 0x01>
+            android:name="com.kaola.spring.ui.login.LoginActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:hardwareAccelerated=<0xFFFFFFFF, type 0x12>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A018A, type 0x01>
+            android:name="com.kaola.spring.ui.cart.CartSettlementPopActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A018A, type 0x01>
+            android:name="com.kaola.spring.ui.pay.PayPopWindowActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00C2, type 0x01>
+            android:name="com.kaola.spring.ui.kaola.MyBrandFocusActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00C2, type 0x01>
+            android:name="com.kaola.spring.ui.kaola.MyHobbiesActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00C2, type 0x01>
+            android:name="com.kaola.spring.ui.message.MessageActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00C2, type 0x01>
+            android:name="com.kaola.spring.ui.message.InteractiveMessageActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00C2, type 0x01>
+            android:name="com.kaola.spring.ui.message.CommonMessageActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A018A, type 0x01>
+            android:name="com.kaola.spring.ui.goodsdetail.SkuPopWindowActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00C2, type 0x01>
+            android:name="com.kaola.spring.ui.search.SearchActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A008E, type 0x01>
+            android:name="com.kaola.spring.ui.search.SearchKeyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00C1, type 0x01>
+            android:name="com.kaola.spring.ui.goodsdetail.CommentListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00C1, type 0x01>
+            android:name="com.kaola.modules.customer.CustomerAssistantActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00C1, type 0x01>
+            android:name="com.kaola.modules.customer.QuestionListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x3, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            android:hardwareAccelerated=<0x0, type 0x12>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103000F, type 0x01>
+            android:name="com.kaola.share.WeiboResultActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <service
+            android:name="com.kaola.spring.ui.webview.StartWebService"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:exported=<0x0, type 0x12>
+            android:process=<0x7F0703A7, type 0x01>
+            >
+        </service>
+        <activity
+            android:theme=<0x7F0A00C2, type 0x01>
+            android:name="com.kaola.spring.ui.aftersale.AfterSaleActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00C2, type 0x01>
+            android:name="com.kaola.spring.ui.aftersale.ReturnGoodsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00C2, type 0x01>
+            android:name="com.kaola.spring.ui.aftersale.FillLogisticsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F070513, type 0x01>
+            android:name="com.kaola.spring.ui.ordercomment.OrderCommentContentActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x14, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00C2, type 0x01>
+            android:name="com.kaola.spring.ui.imagepicker.ImagePickerActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.kaola.action.IMAGE_CAPTURE"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.kaola.action.IMAGE_PICK"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kaola.modules.image.IDTakePhotoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x30, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00C2, type 0x01>
+            android:name="com.kaola.modules.image.IDPreviewActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x30, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00C2, type 0x01>
+            android:name="com.kaola.modules.image.IDCropActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x30, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00C2, type 0x01>
+            android:name="com.kaola.spring.ui.aftersale.SelectLogisticsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x30, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00C2, type 0x01>
+            android:name="com.kaola.spring.ui.goodsdetail.BannerImagePopActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00C2, type 0x01>
+            android:name="com.kaola.spring.ui.brands.BrandDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00C2, type 0x01>
+            android:name="com.kaola.spring.ui.brands.BrandHotActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A018A, type 0x01>
+            android:name="com.kaola.spring.ui.home.AdvertisePopActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00C2, type 0x01>
+            android:name="com.kaola.spring.ui.order.CertificationActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00C2, type 0x01>
+            android:name="com.kaola.spring.ui.cps.CPSCertificationActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00C2, type 0x01>
+            android:name="com.kaola.spring.ui.authentication.NewCertificationActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00C2, type 0x01>
+            android:name="com.kaola.spring.ui.articleset.ArticleSetActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00C2, type 0x01>
+            android:name="com.kaola.spring.ui.albums.AlbumDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+         //TENCENT Config
+
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:noHistory=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="tencent1104306484"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+         //Sina sdk register
+
+        <activity
+            android:name="com.sina.weibo.sdk.component.WeiboSdkBrowser"
+            android:exported=<0x0, type 0x12>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+         //alipay login
+
+        <activity
+            android:name="com.alipay.sdk.app.H5AuthActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x3, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00C2, type 0x01>
+            android:name="com.kaola.spring.ui.coupon.SortActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00C2, type 0x01>
+            android:name="com.kaola.spring.ui.goodsdetail.SingleCommentShowActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00C2, type 0x01>
+            android:name="com.kaola.spring.ui.brands.BrandsListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00C2, type 0x01>
+            android:name="com.kaola.spring.ui.sortfirst.SortFirstActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <service
+            android:name="com.kaola.spring.ui.update.DownloadService"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:exported=<0x0, type 0x12>
+            >
+        </service>
+        <activity
+            android:theme=<0x7F0A00C2, type 0x01>
+            android:name="com.kaola.spring.ui.brands.BrandsListSearchActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00C2, type 0x01>
+            android:name="com.kaola.spring.ui.search.CategoryDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00C2, type 0x01>
+            android:name="com.kaola.spring.ui.label.LabelDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00C2, type 0x01>
+            android:name="com.kaola.spring.ui.aftersale.AfterSaleStateActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00C2, type 0x01>
+            android:name="com.kaola.spring.ui.aftersale.AfterSaleOrdersActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00C2, type 0x01>
+            android:label=<0x7F07050E, type 0x01>
+            android:name="com.kaola.modules.netlive.activity.LiveRoomActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A008E, type 0x01>
+            android:name="com.netease.kchatsdk.activity.OnLineActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A008E, type 0x01>
+            android:name="com.netease.kchatsdk.activity.OrderListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A008E, type 0x01>
+            android:name="com.netease.kchatsdk.activity.AfterSaleListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00C2, type 0x01>
+            android:label=<0x7F070021, type 0x01>
+            android:name="com.kaola.modules.netlive.activity.LiveFeedActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <meta-data
+            android:name="com.netease.nim.appKey"
+            android:value="c1175f1fbcc0b28f17cff6ce2e465c2e"
+            >
+        </meta-data>
+        <service
+            android:name="com.netease.nimlib.service.NimService"
+            android:process=<0x7F0703A5, type 0x01>
+            >
+        </service>
+        <service
+            android:name="com.netease.nimlib.service.NimService$Aux"
+            android:process=<0x7F0703A5, type 0x01>
+            >
+        </service>
+        <activity
+            android:theme=<0x7F0A00C2, type 0x01>
+            android:name="com.kaola.modules.debugpanel.DebugPanelActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103000F, type 0x01>
+            android:name="com.kaola.share.QQShareActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.kaola.modules.debugpanel.RestartActivity"
+            android:exported=<0x0, type 0x12>
+            android:process=":klrestart"
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.netease.epay.sdk.ui.activity.PayingActivity"
+            android:screenOrientation=<0x3, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.netease.epay.sdk.ui.activity.DeviceRegisterActivity"
+            android:screenOrientation=<0x3, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103000D, type 0x01>
+            android:name="com.netease.epay.sdk.ui.activity.AddCardFirstActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103000D, type 0x01>
+            android:name="com.netease.epay.sdk.ui.activity.AddCardSecondActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103000D, type 0x01>
+            android:name="com.netease.epay.sdk.ui.activity.ForgetPwdHomeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103000D, type 0x01>
+            android:name="com.netease.epay.sdk.ui.activity.ForgetPwdValidateActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103000D, type 0x01>
+            android:name="com.netease.epay.sdk.ui.activity.AddCard3SmsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103000D, type 0x01>
+            android:name="com.netease.epay.sdk.ui.activity.ResetPwdActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103000D, type 0x01>
+            android:name="com.netease.epay.sdk.ui.activity.ServeCompactActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103000D, type 0x01>
+            android:name="com.netease.epay.sdk.ui.activity.DepositWithdrawActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103000D, type 0x01>
+            android:name="com.netease.epay.sdk.ui.activity.VerifyPwdActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103000D, type 0x01>
+            android:name="com.netease.epay.sdk.ui.activity.WithdrawSuccActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103000D, type 0x01>
+            android:name="com.netease.epay.sdk.ui.activity.AccountDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103000D, type 0x01>
+            android:name="com.netease.epay.sdk.ui.activity.RedPaperActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103000D, type 0x01>
+            android:name="com.netease.epay.sdk.ui.activity.WalletBankCardListActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103000D, type 0x01>
+            android:name="com.netease.epay.sdk.ui.activity.WalletBankCardDetailActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103000D, type 0x01>
+            android:name="com.netease.epay.sdk.ui.activity.WalletPayManagerActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103000D, type 0x01>
+            android:name="com.netease.epay.sdk.ui.activity.WebActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+    </application>
+</manifest>

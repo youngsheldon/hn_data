@@ -1,0 +1,708 @@
+<manifest
+    android:versionCode=<0x2D, type 0x10>
+    android:versionName="V2.2.04_160922_Release"
+    package="com.asiainfo.cm10085"
+    platformBuildVersionCode=<0x17, type 0x10>
+    platformBuildVersionName="6.0-2704002"
+    >
+    <uses-sdk
+        android:minSdkVersion=<0xE, type 0x10>
+        android:targetSdkVersion=<0x16, type 0x10>
+        >
+    </uses-sdk>
+    <permission
+        android:label=<0x7F07005E, type 0x01>
+        android:name="com.asiainfo.cm10085.IDENTITY_AUTHENTICATION"
+        android:protectionLevel=<0x1, type 0x11>
+        android:description=<0x7F07004C, type 0x01>
+        >
+    </permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.asiainfo.cm10085.IDENTITY_AUTHENTICATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CAMERA"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.NFC"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.BLUETOOTH_ADMIN"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.BLUETOOTH"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WAKE_LOCK"
+        >
+    </uses-permission>
+    <uses-feature
+        android:name="android.hardware.camera"
+        >
+    </uses-feature>
+    <uses-feature
+        android:name="android.hardware.nfc"
+        android:required=<0xFFFFFFFF, type 0x12>
+        >
+    </uses-feature>
+    <uses-feature
+        android:name="android.hardware.location.gps"
+        android:required=<0x0, type 0x12>
+        >
+    </uses-feature>
+    <uses-feature
+        android:name="android.hardware.location.network"
+        android:required=<0x0, type 0x12>
+        >
+    </uses-feature>
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_LOGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.SYSTEM_ALERT_WINDOW"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <application
+        android:theme=<0x7F090014, type 0x01>
+        android:label=<0x7F070046, type 0x01>
+        android:icon=<0x7F0200B0, type 0x01>
+        android:name="com.asiainfo.cm10085.App"
+        android:allowBackup=<0x0, type 0x12>
+        >
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.asiainfo.cm10085.PatternGuideActivity"
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090013, type 0x01>
+            android:name="com.haibison.android.lockpattern.LockPatternActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090013, type 0x01>
+            android:name="com.haibison.android.lockpattern.LoginPatternActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.asiainfo.cm10085.PatternSettingActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.asiainfo.cm10085.fapiao.InvoiceInfoInputActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.asiainfo.cm10085.fapiao.InvoiceCreateActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.asiainfo.cm10085.fapiao.InvoicePrintActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.asiainfo.cm10085.fapiao.InvoiceSuccessActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F070046, type 0x01>
+            android:name="com.asiainfo.cm10085.account.LoginActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090018, type 0x01>
+            android:name="com.asiainfo.cm10085.realname.portrait.PortraitActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.asiainfo.cm10085.WelcomeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.LAUNCHER"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.asiainfo.cm10085.card.reissue.step1.PhoneNumberVerifyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.asiainfo.cm10085.card.reissue.step2.ReviewWaitActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.asiainfo.cm10085.card.reissue.step3.SuccessActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.asiainfo.cm10085.kaihu.step1.PickNumberActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.asiainfo.cm10085.kaihu.step1.RepickNumberActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.asiainfo.cm10085.kaihu.step4.SimNumberOtgActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.asiainfo.cm10085.kaihu.step4.SimNumberBtActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.asiainfo.cm10085.kaihu.step4.SimWriteOtgActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.asiainfo.cm10085.kaihu.step4.SimWriteBtActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.asiainfo.cm10085.kaihu.step4.InfoConfirmActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.asiainfo.cm10085.card.reissue.step3.WriteCardOtgActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.asiainfo.cm10085.card.reissue.step3.WriteCardBtActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.asiainfo.cm10085.PaperSubmitActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090018, type 0x01>
+            android:name="com.asiainfo.cm10085.PaperActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090018, type 0x01>
+            android:name="com.asiainfo.cm10085.PaperConfirmActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.asiainfo.cm10085.user_query.Step1Activity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x14, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.asiainfo.cm10085.user_query.Step2Activity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.asiainfo.cm10085.user_query.Step3Activity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.asiainfo.cm10085.user_query.ManualCheckActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.asiainfo.cm10085.user_query.ManualCheckListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090018, type 0x01>
+            android:name="com.asiainfo.cm10085.user_query.CertificateActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090018, type 0x01>
+            android:name="com.asiainfo.cm10085.user_query.CertificateConfirmActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.asiainfo.cm10085.realname.portrait.IdentityAuthenticationPortraitActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label="??"
+            android:name="com.asiainfo.cm10085.IdentityAuthenticationActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label="?????"
+            android:name="com.asiainfo.cm10085.realname.verify.ReadResultActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label="?????"
+            android:name="com.asiainfo.cm10085.kaihu.step2.InfoConfirmFromNfc"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label="?????"
+            android:name="com.asiainfo.cm10085.card.reissue.step2.InfoConfirmFromNfc"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.asiainfo.cm10085.card.reissue.step2.HuotiResultActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.asiainfo.cm10085.realname.portrait.HuotiResultActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090018, type 0x01>
+            android:label="????"
+            android:name="com.sensetime.stlivenesslibrary.ui.LivenessActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.asiainfo.cm10085.kaihu.step2.KaihuPortraitActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.asiainfo.cm10085.kaihu.step2.SuccessActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.asiainfo.cm10085.kaihu.step2.FailureActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.asiainfo.cm10085.kaihu.step3.SelectPackageActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.asiainfo.cm10085.kaihu.step3.SelectMarketActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.asiainfo.cm10085.kaihu.step3.ReselectPackageActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.asiainfo.cm10085.kaihu.step3.ReselectMarketActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label="OTG?????"
+            android:name="com.asiainfo.cm10085.realname.read.BluetoothActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label="???????"
+            android:name="com.asiainfo.cm10085.realname.read.OtgActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label="NFC?????"
+            android:name="com.asiainfo.cm10085.realname.read.NfcActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label="OTG?????"
+            android:name="com.asiainfo.cm10085.kaihu.step2.BluetoothActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label="???????"
+            android:name="com.asiainfo.cm10085.kaihu.step2.OtgActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label="NFC?????"
+            android:name="com.asiainfo.cm10085.kaihu.step2.NfcActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label="OTG?????"
+            android:name="com.asiainfo.cm10085.card.reissue.step2.BluetoothActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label="???????"
+            android:name="com.asiainfo.cm10085.card.reissue.step2.OtgActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label="NFC?????"
+            android:name="com.asiainfo.cm10085.card.reissue.step2.NfcActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label="??"
+            android:name="com.asiainfo.cm10085.kaihu.step4.SignActivity"
+            android:screenOrientation=<0x0, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label="??????"
+            android:name="com.asiainfo.cm10085.realname.number.check.IdentityAuthenticationNumberActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x14, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.asiainfo.cm10085.HomeActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.asiainfo.cm10085.SettingActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.asiainfo.cm10085.AboutActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.asiainfo.cm10085.NoticeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.asiainfo.cm10085.kaihu.KaihuSuccessActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.asiainfo.cm10085.NoticeDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <service
+            android:name="com.asiainfo.cm10085.UpdateService"
+            >
+        </service>
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="40860576ca472103363ef9c0c3d0490a"
+            >
+        </meta-data>
+        <activity
+            android:label="??????"
+            android:name="com.asiainfo.cm10085.old.Step1Activity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x14, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=""
+            android:name="com.asiainfo.cm10085.HtmlActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=""
+            android:name="com.asiainfo.cm10085.TrickActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label="??????"
+            android:name="com.asiainfo.cm10085.old.Step2Activity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x14, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label="??????"
+            android:name="com.asiainfo.cm10085.kaihu.step4.SimNumberInputActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.asiainfo.cm10085.kaihu.step1.QueryPreemptionActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.asiainfo.cm10085.kaihu.step1.QueryPhoneStatusActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.asiainfo.cm10085.kaihu.step1.QueryKaihuHistoryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.asiainfo.cm10085.kaihu.step1.KaiHuMoreActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.asiainfo.cm10085.kaihu.ElectronicWorkOrderActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.asiainfo.cm10085.kaihu.AgreementActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.asiainfo.cm10085.workorder.PaperConfirmActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.asiainfo.cm10085.workorder.PaperActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.asiainfo.cm10085.workorder.WorkOrderSubmitSuccessActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <service
+            android:name="com.asiainfo.cm10085.SubmitInfoService"
+            >
+        </service>
+        <service
+            android:name="com.asiainfo.cm10085.LocationService"
+            >
+        </service>
+        <service
+            android:name="com.asiainfo.cm10085.NoticeFeedbackService"
+            >
+        </service>
+        <activity
+            android:theme=<0x1030011, type 0x01>
+            android:name="com.bugtags.library.BugtagsActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <service
+            android:name="com.bugtags.library.BugtagsService"
+            >
+        </service>
+        <receiver
+            android:name="com.bugtags.library.BugtagsReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

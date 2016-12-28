@@ -1,0 +1,957 @@
+<manifest
+    android:versionCode=<0x133A191, type 0x10>
+    android:versionName="6.12"
+    package="com.xiangcaizq.dzh"
+    >
+    <uses-sdk
+        android:minSdkVersion=<0x8, type 0x10>
+        >
+    </uses-sdk>
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.launcher.permission.INSTALL_SHORTCUT"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.launcher.permission.READ_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CALL_PHONE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.SEND_SMS"
+        >
+    </uses-permission>
+    <application
+        android:label=<0x7F090001, type 0x01>
+        android:icon=<0x7F020065, type 0x01>
+        >
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name=".dzh"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.LAUNCHER"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label=""
+            android:name="com.android.dazhihui.WarnActivity"
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.DateActivity"
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.ProtectionActivity"
+            >
+        </activity>
+        <activity
+            android:label=""
+            android:name="com.android.dazhihui.view.InitScreen"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=""
+            android:name="com.android.dazhihui.view.NetSelectScreen"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=""
+            android:name="com.android.dazhihui.view.BulletScreen"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=""
+            android:name="com.android.dazhihui.view.MainMenuScreen"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=""
+            android:name="com.android.dazhihui.view.WorldMarketScreen"
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=""
+            android:name="com.android.dazhihui.view.ToldFriendScreen"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=""
+            android:name="com.android.dazhihui.view.RegisterScreen"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=""
+            android:name="com.android.dazhihui.view.BrowserScreen"
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=""
+            android:name="com.android.dazhihui.view.HKMarketScreen"
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=""
+            android:name="com.android.dazhihui.view.MinuteScreen"
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=""
+            android:name="com.android.dazhihui.view.StockInfoScreen"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=""
+            android:name="com.android.dazhihui.view.StockListScreen"
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=""
+            android:name="com.android.dazhihui.view.StockRegionListScreen"
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=""
+            android:name="com.android.dazhihui.view.SVListScreen"
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=""
+            android:name="com.android.dazhihui.view.StockMineListScreen"
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=""
+            android:name="com.android.dazhihui.view.StockAddMineListScreen"
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=""
+            android:name="com.android.dazhihui.view.CashRankingScreen"
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=""
+            android:name="com.android.dazhihui.view.InquireListScreen"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=""
+            android:name="com.android.dazhihui.view.PartstaticScreen"
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=""
+            android:name="com.android.dazhihui.view.KlineScreen"
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=""
+            android:name="com.android.dazhihui.view.Level2RankingScreen"
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=""
+            android:name="com.android.dazhihui.view.FundListScreen"
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=""
+            android:name="com.android.dazhihui.view.FundTabHost"
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=""
+            android:name="com.android.dazhihui.view.FundShare"
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=""
+            android:name="com.android.dazhihui.view.FundStruct"
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=""
+            android:name="com.android.dazhihui.view.FundTrend"
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=""
+            android:name="com.android.dazhihui.view.FundHold"
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=""
+            android:name="com.android.dazhihui.view.TradeOutsideScreen"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A000C, type 0x01>
+            android:label=""
+            android:name="com.android.dazhihui.view.FutruesScreen"
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=""
+            android:name="com.android.dazhihui.view.FiveMinuteListScreen"
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=""
+            android:name="com.android.dazhihui.view.SubMenuScreen"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=""
+            android:name="com.android.dazhihui.view.StockPondScreen"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=""
+            android:name="com.android.dazhihui.view.StockPondSMSScreen"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090000, type 0x01>
+            android:name="com.android.dazhihui.view.HotKeySettingScreen"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=""
+            android:name="com.android.dazhihui.view.BondScreen"
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=""
+            android:name="com.android.dazhihui.view.FundTextScreen"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=""
+            android:name="com.android.dazhihui.view.RefreshSettingScreen"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=""
+            android:name="com.android.dazhihui.view.InterestLevelScreen"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=""
+            android:name="com.android.dazhihui.view.StockPondMSGScreen"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=""
+            android:name="com.android.dazhihui.view.StockDetailScreen"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=""
+            android:name="com.android.dazhihui.view.TableF10Screen"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=""
+            android:name="com.android.dazhihui.view.RadioGroupScreen"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=""
+            android:name="com.android.dazhihui.view.ScrectScreen"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=""
+            android:name="com.android.dazhihui.view.ShortCutSettingScreen"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=""
+            android:name="com.android.dazhihui.view.SearchStockScreen"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.NewShareEntrust"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.newshare.NewShareGiveup"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.newshare.NewShareReplenishment"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.newshare.NewSharePrioritySetting"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.newshare.NewShareBatchEntrust"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.FundTransfer"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.FundInfo"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.FundDividend"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.FundMS"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.MobileVerifed"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.MobileLogin"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.TradeMenu"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.FundMenu"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.IFundMenu"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.TransferMenu"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.RegionTable"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.DepartTable"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.TradeLogin"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.RemoveAccount"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.CancelTable"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.FundOpenTable"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.FundHoldingTable"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.FundBargainTable"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.FundEntrustTable"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.Warrant"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.FundCancelTable"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.TransferQuiry"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.FundCompanyTable"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.FundOpenForm"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.ProtectorForm"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.Transfer"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.Transfer2"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.FundEntrust"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.FundAtone"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.IFundEntrust"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.IFundAtone"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.TradeText"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.FundCancel"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.ServiceInfo"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.AccountPass"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.CapitalandHoldingTable"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.EntrustTable"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.BargainTable"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.EntrustNew"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.HistoryMenu"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.HistoryQuiry"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.SignProtocol"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.SetupMenu"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.AccountPass2"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.CapitalTransfer"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.CapitalMerge"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.CapitalTransferTableH"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.CapitalMergeTable"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.CapitalTransferTable"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.ThreeEntrust"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.ThreeMarketLook"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.ThreeMarketTable"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.ThreeTradeMenu"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.FundRiskEvaluation"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.FundRiskEvaluation2"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.SelectHostActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.InitVerifedBySmsPwd"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.TradeBrowser"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.ClientManagerInfo"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.MarColTrade"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.MarColTransfer"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.MarColMenu"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.MarComQuiry"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.MarCreTrade"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.MarEntrust"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.MarginMenu"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.MarginQuirys"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.MarginTabHost"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.MarginTransaction"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.MarContrQue"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.MarColVerify"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.HoldQuiry"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.view.EducationScreen"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.shanghaiandhongkong.ShAndHkTradeMenu"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.shanghaiandhongkong.ShAndHkQuiry"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.shanghaiandhongkong.ShAndHkCaptialHolding"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.shanghaiandhongkong.ShAndHkEntrust"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=""
+            android:name="com.android.dazhihui.hq.stockoptions.StockOptionsHqScreen"
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=""
+            android:name="com.android.dazhihui.hq.stockoptions.StockSingleOptionsHqScreen"
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.stockoptions.StockOptionsMenu"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.stockoptions.StockOptionsPropertyHolding"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.stockoptions.StockOptionsQuiry"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.stockoptions.StockOptionsEntrust"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.stockoptions.StockOptionsWarrant"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.stockoptions.StockOptionsSecondVerify"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.stockoptions.StockOptionsWithStocksEntrust"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.VoteShareholderMeeting"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090001, type 0x01>
+            android:name="com.android.dazhihui.trade.f.VoteScreen"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <service
+            android:name="com.android.dazhihui.trade.f.ProtectorServe"
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="action.start.protector"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+    </application>
+    <supports-screens
+        android:anyDensity=<0xFFFFFFFF, type 0x12>
+        android:largeScreens=<0xFFFFFFFF, type 0x12>
+        >
+    </supports-screens>
+</manifest>
