@@ -1,0 +1,1603 @@
+<manifest
+    android:versionCode=<0x2DDA49, type 0x10>
+    android:versionName="V3.005.001.696ctch1"
+    android:installLocation=<0x0, type 0x10>
+    package="com.imusic.iting"
+    platformBuildVersionCode=<0x17, type 0x10>
+    platformBuildVersionName="6.0-2704002"
+    >
+    <uses-sdk
+        android:minSdkVersion=<0xE, type 0x10>
+        android:targetSdkVersion=<0x17, type 0x10>
+        >
+    </uses-sdk>
+    <uses-permission
+        android:name="android.permission.CHANGE_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_BOOT_COMPLETED"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="getui.permission.GetuiService.com.imusic.iting"
+        >
+    </uses-permission>
+    <permission
+        android:name="getui.permission.GetuiService.com.imusic.iting"
+        android:protectionLevel=<0x0, type 0x11>
+        >
+    </permission>
+    <uses-permission
+        android:name="android.permission.BLUETOOTH"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.BLUETOOTH_ADMIN"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_LOGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECORD_AUDIO"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.GET_TASKS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.launcher.permission.INSTALL_SHORTCUT"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_CONTACTS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RESTART_PACKAGES"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.SYSTEM_ALERT_WINDOW"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.SEND_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.MODIFY_AUDIO_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.PROCESS_OUTGOING_CALLS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.INTERACT_ACROSS_USERS_FULL"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_CONTACTS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WAKE_LOCK"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.VIBRATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CAMERA"
+        >
+    </uses-permission>
+    <uses-feature
+        android:name="android.hardware.camera"
+        >
+    </uses-feature>
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        >
+    </uses-feature>
+    <supports-screens
+        android:anyDensity=<0xFFFFFFFF, type 0x12>
+        android:smallScreens=<0xFFFFFFFF, type 0x12>
+        android:normalScreens=<0xFFFFFFFF, type 0x12>
+        android:largeScreens=<0xFFFFFFFF, type 0x12>
+        >
+    </supports-screens>
+    <application
+        android:theme=<0x7F090038, type 0x01>
+        android:label=<0x7F060015, type 0x01>
+        android:icon=<0x7F020212, type 0x01>
+        android:name="com.gwsoft.imusic.controller.ImusicApplication"
+        android:allowBackup=<0x0, type 0x12>
+        android:hardwareAccelerated=<0xFFFFFFFF, type 0x12>
+        android:largeHeap=<0xFFFFFFFF, type 0x12>
+        >
+        <activity
+            android:theme=<0x7F0901A0, type 0x01>
+            android:label=<0x7F060015, type 0x01>
+            android:icon=<0x7F020212, type 0x01>
+            android:name="com.gwsoft.imusic.controller.LoadingActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000004, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.LAUNCHER"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.gwsoft.imusic.controller.LoadingActivity"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:scheme="content"
+                    >
+                </data>
+                <data
+                    android:scheme="file"
+                    >
+                </data>
+                <data
+                    android:mimeType="audio/*"
+                    >
+                </data>
+                <data
+                    android:mimeType="application/ogg"
+                    >
+                </data>
+                <data
+                    android:mimeType="application/x-ogg"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <data
+                    android:scheme="iting"
+                    android:host="118100.cn"
+                    >
+                </data>
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.LAUNCHER"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <service
+            android:name="com.gwsoft.imusic.controller.ITing4gMusicService"
+            >
+        </service>
+        <meta-data
+            android:name="GWSOFT_APPKEY"
+            android:value=<0x7F060040, type 0x01>
+            >
+        </meta-data>
+        <meta-data
+            android:name="GWSOFT_CHANNEL"
+            android:value="Android Market"
+            >
+        </meta-data>
+        <activity
+            android:name="com.imusic.iting.wxapi.WXPayEntryActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103000F, type 0x01>
+            android:name="com.imusic.iting.wxapi.WXEntryActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:scheme="wx1f278a90fc2cd134"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <receiver
+            android:name="com.imusic.iting.yxapi.YXBroadcastReceiver"
+            android:permission="im.yixin.sdk.permission.YIXIN_SDK_MESSAGE"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="im.yixin.sdk.api.Intent.ACTION_REFRESH_YXAPP"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:theme=<0x103000F, type 0x01>
+            android:name="com.imusic.iting.yxapi.YXEntryActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:noHistory=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="tencent1101695065"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="5396a28656240b0029031fdd"
+            >
+        </meta-data>
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value=<0x1312D49, type 0x10>
+            >
+        </meta-data>
+        <meta-data
+            android:name="app_key"
+            android:value="9503c41006398be2271c9eb32304946c"
+            >
+        </meta-data>
+        <meta-data
+            android:name="pack_id"
+            android:value="com.imusic.iting"
+            >
+        </meta-data>
+        <service
+            android:name="com.ximalaya.ting.android.opensdk.player.service.XmPlayerService"
+            android:process=":player"
+            >
+        </service>
+        <meta-data
+            android:name="PUSH_APPID"
+            android:value="ADMFrIymQh8x5jkOlZe5y"
+            >
+        </meta-data>
+        <meta-data
+            android:name="PUSH_APPKEY"
+            android:value="KQBvx7VbWwAfMDRGvYFwC2"
+            >
+        </meta-data>
+        <meta-data
+            android:name="PUSH_APPSECRET"
+            android:value="sQ6FfmLj8O7CJSxHQsNFC9"
+            >
+        </meta-data>
+        <meta-data
+            android:name="PUSH_GROUPID"
+            android:value=""
+            >
+        </meta-data>
+        <receiver
+            android:name="com.gwsoft.olcmd.receiver.PushGetuiReceiver"
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.igexin.sdk.action.ADMFrIymQh8x5jkOlZe5y"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <service
+            android:label="NotificationCenter"
+            android:name="com.igexin.sdk.PushService"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:process=":pushservice"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.igexin.sdk.action.service.message"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <service
+            android:label="NotificationCenterUser"
+            android:name="com.igexin.sdk.PushServiceUser"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.igexin.sdk.action.user.message"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <receiver
+            android:name="com.igexin.sdk.PushReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.BOOT_COMPLETED"
+                    >
+                </action>
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.USER_PRESENT"
+                    >
+                </action>
+                <action
+                    android:name="com.igexin.sdk.action.refreshls"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.MEDIA_MOUNTED"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.ACTION_POWER_CONNECTED"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.ACTION_POWER_DISCONNECTED"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.igexin.sdk.PushManagerReceiver"
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.igexin.sdk.action.pushmanager"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.igexin.sdk.PushActivity"
+            android:exported=<0x0, type 0x12>
+            android:process=":pushservice"
+            android:taskAffinity="com.igexin.sdk.PushActivityTask"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.igexin.sdk.GActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:process=":pushservice"
+            android:taskAffinity="com.igexin.sdk.PushActivityTask"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            >
+        </activity>
+        <service
+            android:name="com.igexin.download.DownloadService"
+            android:process=":pushservice"
+            >
+        </service>
+        <receiver
+            android:name="com.igexin.download.DownloadReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <provider
+            android:name="com.igexin.download.DownloadProvider"
+            android:process=":pushservice"
+            android:authorities="downloads.com.imusic.iting"
+            >
+        </provider>
+        <receiver
+            android:name="com.gwsoft.olcmd.receiver.HandlerCmdReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.imusic.iting.olcmd.HandlerCmdReceiver"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.gwsoft.olcmd.OLCmdClient$ExecuteReqReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.imusic.iting.olcmd.ExecuteReqReceiver"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.gwsoft.olcmd.receiver.TipTaskCmdReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.imusic.iting.olcmd.receiver.TipTaskCmdReceiver"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.gwsoft.olcmd.receiver.DownloadReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.imusic.iting.olcmd.receiver.DownloadReceiver"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:theme=<0x7F090082, type 0x01>
+            android:name="com.gwsoft.imusic.cr.RingBoxActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000004, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090082, type 0x01>
+            android:name="com.gwsoft.imusic.cr.RingIndexActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000004, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090082, type 0x01>
+            android:name="com.gwsoft.imusic.cr.RingBoxListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000004, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.cr.MyColoringHistory"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090082, type 0x01>
+            android:name="com.gwsoft.imusic.cr.RingListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000004, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090082, type 0x01>
+            android:name="com.gwsoft.imusic.cr.MyColorRing"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000004, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.cr.OrderOtherRingActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000004, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090082, type 0x01>
+            android:name="com.gwsoft.imusic.controller.myself.CommendOrPresent"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000004, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090082, type 0x01>
+            android:name="com.gwsoft.imusic.controller.GuideActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000000, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.lottery.LotteryMainActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000000, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.lottery.LotteryDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000000, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.lottery.LotteryWinnersActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000000, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.diy.DIYMainActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000000, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090082, type 0x01>
+            android:name="com.gwsoft.imusic.controller.diy.DIYUserMainActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000004, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090082, type 0x01>
+            android:name="com.gwsoft.imusic.controller.diy.DIYUserOrderDiyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000004, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.share.APPShareActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000000, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090082, type 0x01>
+            android:name="com.gwsoft.imusic.controller.diy.DiyDiscoverActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000004, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090082, type 0x01>
+            android:name="com.gwsoft.imusic.controller.diy.ManagerPersonDiyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000004, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.iting.musiclib.Activity_Comment"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.iting.musiclib.Activty_ResourcesComment"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.diy.DIYComment"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.iting.musiclib.Activity_Album"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.iting.musiclib.Activity_RingBoxFromAd"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.iting.musiclib.Activity_UserHome"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <service
+            android:name="com.gwsoft.music.service.MusicPlayerService"
+            >
+        </service>
+        <service
+            android:label=<0x7F060015, type 0x01>
+            android:name="com.gwsoft.imusic.utils.UpdateService"
+            >
+        </service>
+        <service
+            android:name="com.gwsoft.imusic.service.InformationService"
+            >
+        </service>
+        <receiver
+            android:name="com.gwsoft.globalLibrary.util.HeadsetUtil$HeadsetMediaButtonClickReceiver"
+            >
+            <intent-filter
+                android:priority=<0x3E8, type 0x10>
+                >
+                <action
+                    android:name="android.intent.action.MEDIA_BUTTON"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:name="com.gwsoft.imusic.share.weibo.SinaWeiboV2"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sina.weibo.sdk.component.WeiboSdkBrowser"
+            android:exported=<0x0, type 0x12>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.IMusicMainActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000004, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E9, type 0x01>
+            android:name="com.gwsoft.imusic.controller.PlayerActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.MusicCategoryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000004, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.iting.musiclib.radio.FmCategoryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000004, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.vip.VipMainActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000000, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.vip.MemberCenterActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000000, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.vip.VipPaymentActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000000, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="imusicalipay"
+                    android:host="firstpayactivity"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.vip.SongPaymentActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000000, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.pay.PayChosiceAcitivty"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000000, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="imusicalipay"
+                    android:host="musicpackageactivity"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F09013F, type 0x01>
+            android:name="com.gwsoft.imusic.mv.VideoPlayerActivity"
+            android:screenOrientation=<0x0, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <receiver
+            android:name="com.gwsoft.imusic.utils.AppUtils$MvProcessBroadcast"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.gwsoft.imusic.mvprocessbroadcast"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:name="com.gwsoft.imusic.controller.set.StoragePathChooseActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000004, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090134, type 0x01>
+            android:name="com.gwsoft.imusic.live.ui.LiveActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="cn.com.chinatelecom.account.lib.AuthorizeActivity"
+            android:launchMode=<0x0, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="cn.com.chinatelecom.account.lib.WebViewActivity"
+            android:launchMode=<0x2, type 0x10>
+            >
+        </activity>
+        <meta-data
+            android:name="E189CN_APPKEY"
+            android:value="118110"
+            >
+        </meta-data>
+        <activity
+            android:name="com.gwsoft.imusic.controller.app.AppMainTabFragment"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000004, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.more.MoreFreeDataActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000004, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.more.SleepTimingSet"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000004, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.more.msgcenter.MsgChatListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000004, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.more.msgcenter.MsgCateActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000004, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.more.systemsettings.SysSettingsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000004, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.more.systemsettings.SysSettingsOnlineQualityActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000004, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.more.systemsettings.SysSettingsDownloadQualityActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000004, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.more.systemsettings.SysSettingsSongSaveDirActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000004, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.more.feedback.FeedBackWriteActivityNew"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000004, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.more.feedback.FeedBackWriteDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000004, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.more.feedback.FeedBackMineActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000004, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.more.feedback.FeedBackReplyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000004, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.more.resComment.ResourcesComment"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.webview.WebViewActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000004, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.webview.DIYWebViewActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000004, type 0x11>
+            android:hardwareAccelerated=<0x0, type 0x12>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.iting.musiclib.Activity_WebViewPageCooperate"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000004, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.cloud.CloudMainActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000004, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.cloud.CloudBatchManageActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000004, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.cloud.CloudPhoneFileActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000004, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.cloud.CloudFolderDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000004, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.cloud.CloudSearchActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000004, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.cloud.CloudUploadManageActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000004, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.cloud.CloudFolderManageActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000004, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E9, type 0x01>
+            android:name="com.gwsoft.imusic.controller.privatefm.PrivateFmActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E9, type 0x01>
+            android:name="com.gwsoft.imusic.controller.fm.FMPlayerActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.o2ting.O2tingPlayerActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000004, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.ximalaya.XimalayaCategoryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000004, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.iting.musiclib.radio.Ctrl_RadioProgramActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000004, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.app.AppDownloadListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000000, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.app.AppDetailActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000000, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.app.AppDetailPopupActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000000, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.login.LoginActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000004, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.login.ThirdLogin"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000004, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.login.RegisterUser"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000004, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.login.PasswordReset"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000004, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.login.Verification"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000004, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.base.FullActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000004, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.registerlogin.JumpLogin"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000004, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.playlist.fragment.PlayListInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000004, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.localmusic.scan.ScanActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000004, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.localmusic.scan.DIYScanFolderActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000004, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.localmusic.scan.ScanFilterActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000004, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.RingPresentActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.RingtonePresentActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <service
+            android:name="com.gwsoft.imusic.lockScreen.LockService"
+            >
+        </service>
+        <service
+            android:name="com.gwsoft.imusic.service.DeskLrcService"
+            >
+        </service>
+        <activity
+            android:theme=<0x7F090138, type 0x01>
+            android:name="com.gwsoft.imusic.lockScreen.LockActivity"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x3, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000000, type 0x11>
+            android:fitsSystemWindows=<0xFFFFFFFF, type 0x12>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.iting.musiclib.WebViewActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.multiscreen.MultiScreenMainActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.multiscreen.MultiScreenMVCategoryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.zxing.qrcode.CaptureActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <receiver
+            android:label="NetworkConnection"
+            android:name="com.gwsoft.olcmd.receiver.ConnectionChangeReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x3, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090139, type 0x01>
+            android:name="com.alipay.sdk.auth.AuthActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x3, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.diy.LocalOnlineChosiceActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000000, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.more.jifen.JiFenMissionActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000000, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F060015, type 0x01>
+            android:name="com.kkmusicfm1.activity.cat.MakePostCardActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.kkmusicfm1.activity.cat.MakePostCardModeActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.kkmusicfm1.activity.cat.MakePostCardPreviewActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.kkmusicfm1.activity.postcard.PhotoWallActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.kkmusicfm1.activity.cat.ClipPictureActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.kkmusicfm1.activity.postcard.PhotoAlbumActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.kkmusicfm1.activity.cat.DIYMusicActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.playlist.fragment.PlayListSubmitActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000004, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.diy.LyricShowActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000000, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.kkmusicfm1.activity.cat.DIYLyricShowMusicActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000000, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090136, type 0x01>
+            android:name="com.gwsoft.imusic.o2ting.O2tingCategoryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090136, type 0x01>
+            android:name="com.gwsoft.imusic.itingcar.ItingCarMainActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090136, type 0x01>
+            android:name="com.gwsoft.imusic.itingcar.ItingCarRadioActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.vip.unicom.UnicomFlowPackageDescriptionActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.vip.unicom.UnicomOrderDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x26, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.vip.unicom.UnicomActivateFlowPackageActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.vip.unicom.UnicomOrderFlowPackageActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x26, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.more.SkinListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.login.UserInfoFocusActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000000, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.more.msgcenter.LocalSystemMessageShowing"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000000, type 0x11>
+            >
+        </activity>
+        <receiver
+            android:name="com.gwsoft.imusic.itingcar.OutBlueToothReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.bluetooth.device.action.ACL_CONNECTED"
+                    >
+                </action>
+                <action
+                    android:name="android.bluetooth.device.action.ACL_DISCONNECTED"
+                    >
+                </action>
+                <action
+                    android:name="android.bluetooth.device.action.FOUND"
+                    >
+                </action>
+                <action
+                    android:name="android.bluetooth.device.action.ACL_DISCONNECT_REQUESTED"
+                    >
+                </action>
+                <action
+                    android:name="android.bluetooth.device.action.ACTION_BOND_STATE_CHANGED"
+                    >
+                </action>
+                <action
+                    android:name="android.bluetooth.device.action.ACTION_ACL_DISCONNECT_REQUESTED"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:label=<0x7F060015, type 0x01>
+            android:name="com.bestpay.app.H5PayActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dotrust"
+                    android:host="cn.md.dt"
+                    android:pathPrefix=""
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.gwsoft.cn21.util.EAccountFlowQueryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.login.FindPasswordActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.diy.DiyContactActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000004, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.diy.BackgoundOnlineActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000000, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.diy.EmptyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000000, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030005, type 0x01>
+            android:name="com.gwsoft.imusic.controller.diy.record.DiyCompletedActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000000, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.diy.record.DubListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000000, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.diy.CuttingActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000000, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.diy.DIYSearchActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000000, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gwsoft.imusic.controller.diy.DiyMyActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gwsoft.imusic.controller.diy.ShakeActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gwsoft.imusic.controller.diy.DIYFindActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.diy.DIYCuttingCatalogDetailsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000000, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.diy.DIYMakeChosiceActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000000, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.gwsoft.imusic.controller.diy.search.DIYSearchProductActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000000, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.diy.ringedit.ringdroid.RingdroidEditActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000000, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.gwsoft.imusic.crdiy.RING_EDIT"
+                    >
+                </action>
+                <data
+                    android:mimeType="audio/*"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.diy.ringedit.DIYProductPublishedActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000000, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.gwsoft.imusic.controller.diy.search.DIYSearchResultActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000000, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F060015, type 0x01>
+            android:name="com.gwsoft.imusic.controller.diy.wxapi.WXEntryActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gwsoft.imusic.controller.diy.share.SinaWeiboV2"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
