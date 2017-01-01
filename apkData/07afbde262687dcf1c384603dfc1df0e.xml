@@ -1,0 +1,84 @@
+<manifest
+    android:versionCode=<0x1, type 0x10>
+    android:versionName="1.0"
+    package="lingwb.cashwb.news"
+    >
+    <uses-sdk
+        android:minSdkVersion=<0x7, type 0x10>
+        >
+    </uses-sdk>
+    <application
+        android:label=<0x7F040001, type 0x01>
+        android:icon=<0x7F020002, type 0x01>
+        >
+        <activity
+            android:label=<0x7F040001, type 0x01>
+            android:name=".CashinBankActivity"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.LAUNCHER"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="Wooboo_PID"
+            android:value="19f501c37e6e4f07a6d646d649457451"
+            >
+        </meta-data>
+        <meta-data
+            android:name="Market_ID"
+            android:value=<0x1, type 0x10>
+            >
+        </meta-data>
+        <activity
+            android:name="com.wooboo.adlib_android.AdActivity"
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.wooboo.adlib_android.FullActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+    </application>
+    <uses-permission
+        android:name="android.permission.READ_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_CONTACTS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE"
+        >
+    </uses-permission>
+</manifest>
