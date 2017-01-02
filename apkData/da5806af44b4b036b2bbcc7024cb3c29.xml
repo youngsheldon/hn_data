@@ -1,0 +1,921 @@
+<manifest
+    android:versionCode=<0x1DB, type 0x10>
+    android:versionName="2.16.12.29.01"
+    package="com.terma.tapp"
+    platformBuildVersionCode=<0x17, type 0x10>
+    platformBuildVersionName="6.0-2704002"
+    >
+    <uses-sdk
+        android:minSdkVersion=<0xE, type 0x10>
+        android:targetSdkVersion=<0x17, type 0x10>
+        >
+    </uses-sdk>
+    <supports-screens
+        android:anyDensity=<0xFFFFFFFF, type 0x12>
+        android:smallScreens=<0xFFFFFFFF, type 0x12>
+        android:normalScreens=<0xFFFFFFFF, type 0x12>
+        android:largeScreens=<0xFFFFFFFF, type 0x12>
+        >
+    </supports-screens>
+    <uses-permission
+        android:name="android.permission.CAMERA"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.GET_ACCOUNTS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.USE_CREDENTIALS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.MANAGE_ACCOUNTS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.AUTHENTICATE_ACCOUNTS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.launcher.permission.READ_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WAKE_LOCK"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.VIBRATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.GET_TASKS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CAMERA"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CALL_PHONE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_BOOT_COMPLETED"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.BROADCAST_STICKY"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.MODIFY_AUDIO_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECORD_AUDIO"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.SEND_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_CONTACTS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_CONTACTS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RESTART_PACKAGES"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_DOWNLOAD_MANAGER"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.DISABLE_KEYGUARD"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_BOOT_COMPLETED"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.VIBRATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_DOWNLOAD_MANAGER"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.DISABLE_KEYGUARD"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.EXPAND_STATUS_BAR"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="baidu.push.permission.WRITE_PUSHINFOPROVIDER.com.terma.tapp"
+        >
+    </uses-permission>
+    <permission
+        android:name="baidu.push.permission.WRITE_PUSHINFOPROVIDER.com.terma.tapp"
+        android:protectionLevel=<0x0, type 0x11>
+        >
+    </permission>
+    <application
+        android:theme=<0x7F0A0087, type 0x01>
+        android:label=<0x7F060014, type 0x01>
+        android:icon=<0x7F020087, type 0x01>
+        android:name="com.terma.tapp.App"
+        android:allowBackup=<0xFFFFFFFF, type 0x12>
+        >
+        <activity
+            android:label=<0x7F060014, type 0x01>
+            android:name="com.terma.tapp.SplashActivity"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.LAUNCHER"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.terma.tapp.common.ParamMapActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0086, type 0x01>
+            android:label=<0x7F06001D, type 0x01>
+            android:name="com.terma.tapp.information.ScannerActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0086, type 0x01>
+            android:label=<0x7F06001D, type 0x01>
+            android:name="com.terma.tapp.information.ScannerDriverActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.information.GoodProviderActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.ContactUsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.ChangeServerUrlActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.AppVersionActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.WebTurnViewActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.MessageSettingActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.SelectCarTypeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.QueryDistance"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.QueryAddress"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.LoginActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.BusinessTypeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.MainInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.MainDriverActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.MainFullEditionActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.driver.DriverIdcardCheckActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.MessageListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.driver.DriverGrabGoodsSetActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.driver.DriverSearchGoodsKeyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.driver.DriverGrabGoodListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.driver.DriverAccountManagerActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.driver.DriverPublishCarActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.driver.DriverSearchGoodsDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.view.city.SelectAddressActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.view.city.QuerySelectCityActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.driver.DriverPersonInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.information.InfoMoreOperationActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.driver.DriverModifyPasswordActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.ModifyPasswordActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.information.InfoPersonInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.information.InfoYuanQuActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.AccountPaymentDriverActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.AccountPaymentFullEditionActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.AccountPaymentInformationActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.driver.DriverAsUsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.driver.DriverSumbitQuestionActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.SystemSettingActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.information.InfoAccountManagerActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.information.InfoSearchCarsKeyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.information.InfoPublishGoodActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.information.FullEditionPublishActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.information.InfoPublishGoodRecordActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.agent.AgentAccountManagementDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.BytesActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.MessageAnnouncement"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.agent.CustomRenew"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.driver.YardInviteActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.driver.BlackWhiteAddDriverActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.driver.DriverMoreOperationActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.information.InfoCheKuManagementActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.information.AgentSearchActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.information.InfoDiaoDuManagementActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.union.SpecialUnionActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.union.UnionMineTabsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.information.ScanCodeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.union.UnionInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.union.UnionProtocolActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.union.UnionApplyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.union.SearchRecommedActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.view.city.RegionSelectActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.union.UnionMemberListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.information.InfoSearchCarManagementActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.PublishRecordActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.union.UnionParternerAddActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.union.UnionSelectRoutesActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.circle.CarsManagementActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.circle.DriverSearchActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.circle.BlackListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.circle.DispatchersManagementActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.circle.ProvidersManagementActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.circle.DriverRegisterActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.circle.DriverShareActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.information.InfoSearchForDriverActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.terma.tapp.wxapi.WXEntryActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <receiver
+            android:name="com.terma.tapp.comp.MyPushMessageReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.baidu.android.pushservice.action.MESSAGE"
+                    >
+                </action>
+                <action
+                    android:name="com.baidu.android.pushservice.action.RECEIVE"
+                    >
+                </action>
+                <action
+                    android:name="com.baidu.android.pushservice.action.notification.CLICK"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.baidu.android.pushservice.PushServiceReceiver"
+            android:process=":bdservice_v1"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.BOOT_COMPLETED"
+                    >
+                </action>
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+                <action
+                    android:name="com.baidu.android.pushservice.action.notification.SHOW"
+                    >
+                </action>
+                <action
+                    android:name="com.baidu.android.pushservice.action.media.CLICK"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.MEDIA_MOUNTED"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.USER_PRESENT"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.ACTION_POWER_CONNECTED"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.ACTION_POWER_DISCONNECTED"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.baidu.android.pushservice.RegistrationReceiver"
+            android:process=":bdservice_v1"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.baidu.android.pushservice.action.METHOD"
+                    >
+                </action>
+                <action
+                    android:name="com.baidu.android.pushservice.action.BIND_SYNC"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.PACKAGE_REMOVED"
+                    >
+                </action>
+                <data
+                    android:scheme="package"
+                    >
+                </data>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.baidu.android.pushservice.PushService"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:process=":bdservice_v1"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.baidu.android.pushservice.action.PUSH_SERVICE"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.baidu.android.pushservice.CommandService"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+        </service>
+        <provider
+            android:name="com.baidu.android.pushservice.PushInfoProvider"
+            android:writePermission="baidu.push.permission.WRITE_PUSHINFOPROVIDER.com.terma.tapp"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:authorities="com.terma.tapp.bdpush"
+            >
+        </provider>
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:process=":remote"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.baidu.location.service_v2.2"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="C1QxhZeECWGXypT931irzjvP"
+            >
+        </meta-data>
+        <meta-data
+            android:name="push_api_key_cs"
+            android:value="j3MqpGjuGvAd5Uv6aatkWwI9"
+            >
+        </meta-data>
+        <meta-data
+            android:name="push_api_key_zs"
+            android:value="aMBaSzQGGbVDnKmYINfPiM5P"
+            >
+        </meta-data>
+        <meta-data
+            android:name="push_api_key_zs_test_run"
+            android:value="UDIQv0GhD1s98Ce4Vi51ntvU"
+            >
+        </meta-data>
+        <meta-data
+            android:name="ny_official_website_address"
+            android:value="http://www.ny256.com"
+            >
+        </meta-data>
+        <meta-data
+            android:name="ny_official_download_address"
+            android:value="http://56.ny256.com"
+            >
+        </meta-data>
+        <meta-data
+            android:name="ny_copy_right"
+            android:value="Copyright ? NiuYun. All Rights Reserved ? ????????????????"
+            >
+        </meta-data>
+        <meta-data
+            android:name="ch_official_website_address"
+            android:value="http://www.56chehai.com"
+            >
+        </meta-data>
+        <meta-data
+            android:name="ch_copy_right"
+            android:value="Copyright ? 2013-2015 Chehai.All Rights Reserved"
+            >
+        </meta-data>
+        <meta-data
+            android:name="unicon_official_website_address"
+            android:value="http://www.56tj.cn"
+            >
+        </meta-data>
+        <meta-data
+            android:name="unicon_copy_right"
+            android:value="Copyright ? Terjoy.All Rights Reserved"
+            >
+        </meta-data>
+        <service
+            android:name="com.terma.tapp.service.LocationService"
+            >
+        </service>
+        <service
+            android:name="com.terma.tapp.service.DataQuotaService"
+            >
+        </service>
+        <service
+            android:name="com.terma.tapp.service.DownloadService"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.terma.tapp.service.DownloadService"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <receiver
+            android:name="com.terma.tapp.receiver.NetWorkBroadcastReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>
