@@ -1,0 +1,31 @@
+--2017-01-03 17:16:04--  http://wap.dsffo.cc/tr
+Resolving wap.dsffo.cc... 103.55.26.136
+Connecting to wap.dsffo.cc|103.55.26.136|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://wap.dsffo.cc/tr/ [following]
+--2017-01-03 17:16:07--  http://wap.dsffo.cc/tr/
+Reusing existing connection to wap.dsffo.cc:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 247 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 14.7M=0s
+
+2017-01-03 17:16:07 (14.7 MB/s) - `index.html' saved [247/247]
+
+=======================The second times wget =====================
+--2017-01-03 17:16:07--  http://wap.dsffo.cc/tr/%C2%BC%CF%F13.apk
+Resolving wap.dsffo.cc... 103.55.26.136
+Connecting to wap.dsffo.cc|103.55.26.136|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 209277 (204K) [application/vnd.android.package-archive]
+Saving to: `Â¼Ïñ3.apk'
+
+     0K .......... .......... .......... .......... .......... 24%  129K 1s
+    50K .......... .......... .......... .......... .......... 48%  121K 1s
+   100K .......... .......... .......... .......... .......... 73%  120K 0s
+   150K .......... .......... .......... .......... .......... 97%  117K 0s
+   200K ....                                                  100%  217K=1.7s
+
+2017-01-03 17:16:09 (123 KB/s) - `Â¼Ïñ3.apk' saved [209277/209277]
+

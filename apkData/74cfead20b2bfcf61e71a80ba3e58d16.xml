@@ -1,0 +1,1846 @@
+<manifest
+    android:versionCode=<0x38, type 0x10>
+    android:versionName="5.7"
+    android:installLocation=<0x0, type 0x10>
+    package="ctrip.android.view"
+    >
+    <uses-sdk
+        android:minSdkVersion=<0x8, type 0x10>
+        android:targetSdkVersion=<0xE, type 0x10>
+        >
+    </uses-sdk>
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CAMERA"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.GET_TASKS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.INTERACT_ACROSS_USERS_FULL"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.MODIFY_AUDIO_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_BOOT_COMPLETED"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_CONTACTS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECORD_AUDIO"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_LOGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.SYSTEM_ALERT_WINDOW"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WAKE_LOCK"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.VIBRATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.launcher.permission.INSTALL_SHORTCUT"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.launcher.permission.READ_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.INTERACT_ACROSS_USERS_FULL"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        >
+    </uses-permission>
+    <permission
+        android:name="ctrip.android.view.permission.MIPUSH_RECEIVE"
+        android:protectionLevel=<0x3, type 0x11>
+        >
+    </permission>
+    <uses-permission
+        android:name="ctrip.android.view.permission.MIPUSH_RECEIVE"
+        >
+    </uses-permission>
+    <permission
+        android:name="ctrip.android.view.push"
+        >
+    </permission>
+    <uses-permission
+        android:name="ctrip.android.view.push"
+        >
+    </uses-permission>
+    <supports-screens
+        android:anyDensity=<0xFFFFFFFF, type 0x12>
+        android:smallScreens=<0xFFFFFFFF, type 0x12>
+        android:normalScreens=<0xFFFFFFFF, type 0x12>
+        android:largeScreens=<0xFFFFFFFF, type 0x12>
+        android:resizeable=<0xFFFFFFFF, type 0x12>
+        >
+    </supports-screens>
+    <application
+        android:theme=<0x7F0D002D, type 0x01>
+        android:label=<0x7F0C007A, type 0x01>
+        android:icon=<0x7F020274, type 0x01>
+        android:name="ctrip.base.logical.component.CtripBaseApplication"
+        android:debuggable=<0x0, type 0x12>
+        >
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="0e9680eed7f5ffc60a7b02167d0182a3"
+            >
+        </meta-data>
+        <activity
+            android:name="com.crittercism.NotificationActivity"
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:noHistory=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="tencent100234303"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ctrip.android.view.h5.activity.H5Container"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x13, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.destination.h5.GSH5Container"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x13, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.h5.activity.H5AdvContainer"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x13, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.h5.activity.H5Setting"
+            android:taskAffinity="ctrip.android.view"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="ctrip.android.view.myctrip.MantisActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:launchMode=<0x3, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="ctrip.android.view.myctrip.Cp4Activity"
+            android:taskAffinity="ctrip.android.view"
+            android:launchMode=<0x0, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="ctrip.android.view.myctrip.Cp4LoginActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:launchMode=<0x0, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="ctrip.android.view.myctrip.CheckPageInfoActivityV2"
+            android:taskAffinity="ctrip.android.view"
+            android:launchMode=<0x3, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="ctrip.android.view.myctrip.CheckPageInfoActivityV3"
+            android:taskAffinity="ctrip.android.view"
+            android:launchMode=<0x3, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0D002F, type 0x01>
+            android:name="ctrip.android.view.home.CtripSplashActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:launchMode=<0x0, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.LAUNCHER"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0D002E, type 0x01>
+            android:name="ctrip.android.view.home.CtripHomeActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:allowTaskReparenting=<0xFFFFFFFF, type 0x12>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="ctrip.android.view.home.CtripBootActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:allowTaskReparenting=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                android:priority=<0x3E8, type 0x10>
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="ctrip"
+                    android:host="wireless"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:scheme="ctrip"
+                    android:host="hotelSearch"
+                    android:pathPrefix="/"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:scheme="ctrip"
+                    android:host="vacationSearch"
+                    android:pathPrefix="/"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:scheme="aladdin"
+                    android:host="flight"
+                    android:pathPrefix="/"
+                    >
+                </data>
+                <data
+                    android:scheme="ctrip"
+                    android:host="flightSearch"
+                    android:pathPrefix="/"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:scheme="ctrip"
+                    android:host="trainSearch"
+                    android:pathPrefix="/"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ctrip.android.view.schedule.activity.TravelHotelSearchActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.schedule.activity.TravelPoiSearchActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.base.logical.component.commonview.listchoice.ListChoiceActivityForAirportStrategy"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x23, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.flight.global.GlobalListActivityForGo"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.flight.global.GlobalListActivityForReturn"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0C007A, type 0x01>
+            android:name="ctrip.android.view.flight.global.GlobalFlightTransitionActivity"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0C007A, type 0x01>
+            android:name="ctrip.android.view.flight.global.GlobalImageListActivity"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.flight.global.GlobalOrderActiviy"
+            android:taskAffinity="ctrip.android.view"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x23, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.flight.global.GlobalTempOrderResultActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x23, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.flight.global.GlobalOrderResultActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.flight.global.GlobalFlightTempOrderActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.flight.global.MyGlobalOrderDetailActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.flight.global.GlobalOrderDetailOperationActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.hotel.inland.HotelCommentActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.hotel.inland.HotelInquireActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.hotel.inland.HotelListActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.hotel.wise.WiseHotelListActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.hotel.wise.WiseHotelDetailActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.hotel.wise.WiseHotelDetailMapActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.hotel.wise.WiseHotelListMapActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.hotel.inland.HotelListMapActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.hotel.inland.HotelDetailActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.hotel.overseas.OverseaHotelDetailActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.hotel.inland.HotelOrderCommentActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.hotel.overseas.OverseaOrderActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.hotel.inland.HotelOrderActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.hotel.inland.HotelDelayOrderActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.hotel.inland.HotelMyHotelTabList"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.hotel.inland.HotelOrderCommentSuccessActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.hotel.inland.HotelOrderModifyActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.hotel.inland.HotelOrderResultActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.hotel.inland.HotelDetailMapActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.hotel.inland.HotelDetailMapRouteActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.hotel.overseas.OverseaHotelListMapActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.hotel.overseas.OverseaHotelDetailMapActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.flight.showboard.FlightDynamicDetailActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.flight.showboard.FlightDynamicListActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.flight.showboard.FlightDynamicInquireActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.flight.showboard.ShowBoardListActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.flight.showboard.ShowBoardDetailActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.flight.showboard.ShowBoardMessageListActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.flight.airportstrategy.AirportStrategyActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.flight.airportstrategy.AirportStrategyBusActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.flight.airportstrategy.AirportStrategyCompanyActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.flight.airportstrategy.AirportStrategySubwayActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.flight.airportstrategy.AirportStrategyTaxiActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.flight.airportstrategy.AirportStrategyTelActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.train.TrainInquireActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.train.TrainListActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.train.TrainOrderActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.train.TrainOrderResultActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.train.TrainSettingActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.home.ADPromotionActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x11, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0D0036, type 0x01>
+            android:label=<0x7F0C007A, type 0x01>
+            android:name="ctrip.android.view.flight.inland.FlightInquireActivity"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0D0036, type 0x01>
+            android:label=<0x7F0C007A, type 0x01>
+            android:name="ctrip.android.view.flight.common.view.FlightCityListActivity"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0C007A, type 0x01>
+            android:name="ctrip.android.view.flight.inland.FlightListActivity"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0C007A, type 0x01>
+            android:name="ctrip.android.view.flight.inland.FlightSingleTransitionActivityV2"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0C007A, type 0x01>
+            android:name="ctrip.android.view.flight.inland.FlightGoTransitionActivityV2"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0C007A, type 0x01>
+            android:name="ctrip.android.view.flight.inland.FlightBackTransitionActivityV2"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0C007A, type 0x01>
+            android:name="ctrip.android.view.flight.inland.FlightHxOrderActivity"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0C007A, type 0x01>
+            android:name="ctrip.android.view.flight.inland.FlightListActivityForReturn"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.flight.inland.FlightOrderResultActivity"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0C007A, type 0x01>
+            android:name="ctrip.android.view.flight.inland.FlightOrderDetailActivity"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0C007A, type 0x01>
+            android:name="ctrip.android.view.flight.inland.FlightDispatchInfoEditActivity"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0C007A, type 0x01>
+            android:name="ctrip.android.view.carrental.CarRentalMainActivity"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.myctrip.MyCtripHomeActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.myctrip.MyCtripContainerActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.order.MyCtripOrderListActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.myctrip.LowPriceListActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="ctrip.android.view.myctrip.thirdLogin.WeiBoEntryActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:taskAffinity="ctrip.android.view"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="ctrip.android.view.myctrip.thirdLogin.QQSSOEntryActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:taskAffinity="ctrip.android.view"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.myctrip.thirdLogin.WeiBoAuthorizeActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:taskAffinity="ctrip.android.view"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.myctrip.thirdLogin.QQAuthorizeActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:taskAffinity="ctrip.android.view"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.myctrip.thirdLogin.RenRenAuthorizeActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:taskAffinity="ctrip.android.view"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.voice.VoiceFAQListActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.myctrip.SettingActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.myctrip.SettingCtripIpConfigActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.myctrip.more.NewFunctionActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.myctrip.more.FAQListActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.myctrip.more.SurveyActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.train.TrainOrderDetailActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.train.ReturnTrainTicketActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.hotel.inland.HotelOrderDetailActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.base.logical.component.share.ShareToWeiboActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x11, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.base.logical.component.share.WeiboAuthorizeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x11, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="ctrip.android.activity.CtripSSOActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ctrip.base.logical.component.commonview.citylist.CityListActivityV2"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.base.logical.component.commonview.login.CtripLoginActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.base.logical.component.commonview.calender.CalendarSelectActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x11, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.base.logical.component.commonview.otherpay.OtherPayActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x23, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.myctrip.CtripLowPriceTransitActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x11, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.destination.common.GSGenericFragmentActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.destination.gshome.GSHomeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.destination.dest.CityDetailActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.destination.dest.CountryDetailActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.destination.poi.list.map.PoiListGaodeMapActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.destination.poi.list.map.PoiListOverseaMapActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.destination.gshome.mygs.MyCommunityLetterDetailActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.destination.dest.guide.GSGuideActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.destination.travels.read.ItineraryCommentListActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.destination.travels.edit.EditActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.destination.travels.publish.PublishItineraryActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.destination.travels.publish.PublishFinishActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.destination.travels.edit.AddImgActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.destination.travels.edit.PoiCreateMapActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.destination.travels.read.ImageDisplayActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.destination.travels.read.ItineraryDetailActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.destination.travels.read.OldItineraryDetailActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.destination.gshome.around.GSAroundCityActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x11, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.destination.poi.detail.PoiDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.travel.VacationInquireActivityV2"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.travel.FreeTripInquireActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.travel.NearByInquireActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.travel.CruisesInquireActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.travel.FreeTripListActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.travel.FreeTripOrderDetailActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.travel.FreeTripGoFlightListActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.travel.FreeTripBackFlightListActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.travel.NearbyListActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.travel.CruisesListActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.travel.VacationCruisesDetailActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.ticket.VacationTicketDetailActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.ticket.VacationTicketOrderActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.ticket.VacationTicketOrderResultActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.travel.FreeTripDetailActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.travel.WeekendTripConfirmActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.travel.WeekendTripOrderActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.travel.WeekendOrderResultActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.travel.NearbyVacationDetailActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.voip.CtripVoipActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.travel.WeekendTripProductDetailActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.travel.WeekendTripOrderDetailActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.flight.inland.FlightReturnTicketActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.flight.inland.FlightRerEndActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.travel.FreeTripOrderActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.travel.FreeTripOrderResultActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.travel.WeekendTripListActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.travel.WeekendTripSearchResultListActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.travel.fragment.FreetripInsureanceDeclareActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="ctrip.android.view.urihandle.IntentUriHandlerActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+            <intent-filter
+                android:priority=<0x3E8, type 0x10>
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:scheme="ctriplocal"
+                    android:pathPrefix="/"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ctrip.android.view.flight.showboard.ShowBoardListActivityV2"
+            android:taskAffinity="ctrip.android.view"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.flight.showboard.ShowBoardDetailActivityV2"
+            android:taskAffinity="ctrip.android.view"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.flight.showboard.ShowBoardMessageListActivityV2"
+            android:taskAffinity="ctrip.android.view"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.flight.checkin.SeatSelectActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.flight.checkin.SeatSelectForTravelScheduleActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.flight.checkin.SeatInfoActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.flight.checkin.FlightCheckInDetailActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.flight.checkin.CheckInListOtherActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.flight.checkin.CheckInSeatSelectActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.flight.checkin.CheckInSubmitActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.flight.checkin.CheckInCommonActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.flight.checkin.CheckInResultActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.flight.checkin.FlightCheckInCancelActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:label=<0x7F0C007A, type 0x01>
+            android:name="ctrip.android.view.wxapi.WXEntryActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:taskAffinity="ctrip.android"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.wxapi.WXPayEntryActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.myctrip.ToAccountBindActivity"
+            android:taskAffinity="ctrip.android.view"
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.myctrip.AccountBindActivity"
+            >
+        </activity>
+        <activity
+            android:name="ctrip.android.view.myctrip.ToThirdAccountBindActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.base.logical.component.commonview.invoicetitle.InvoiceTitleListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400004A4, type 0x11>
+            >
+        </activity>
+        <receiver
+            android:name="ctrip.android.view.receiver.CtripFocusUpdateReceiver"
+            >
+        </receiver>
+        <receiver
+            android:name="ctrip.android.view.receiver.CtripLowReceiver"
+            >
+        </receiver>
+        <receiver
+            android:name="ctrip.android.view.receiver.WakeUpReceiver"
+            >
+        </receiver>
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:process=":remote"
+            >
+        </service>
+        <receiver
+            android:name="ctrip.android.view.push.PushMsgCenter"
+            android:exported=<0x0, type 0x12>
+            android:process=":push"
+            >
+            <intent-filter
+                android:priority=<0x3E8, type 0x10>
+                >
+                <action
+                    android:name="ctrip.android.view.push.msgcenter"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="ctrip.android.view.push.ctrip.PushService"
+            android:permission="ctrip.android.view.push"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:process=":push"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="ctrip.android.view.push.service"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.default"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.BOOT_COMPLETED"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <receiver
+            android:name="ctrip.android.view.push.ctrip.DaemonReceiver"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:process=":pushdaemon"
+            >
+            <intent-filter
+                android:priority=<0x2710, type 0x10>
+                >
+                <action
+                    android:name="android.intent.action.BOOT_COMPLETED"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="ctrip.android.view.push.PushReceiver"
+            android:permission="ctrip.android.view.push"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                android:priority=<0x3E8, type 0x10>
+                >
+                <action
+                    android:name="ctrip.android.view.push.receiver"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                android:priority=<0x3E8, type 0x10>
+                >
+                <data
+                    android:scheme="ctrip"
+                    android:host="push"
+                    >
+                </data>
+                <action
+                    android:name="ctrip.android.view.push.receiver"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <provider
+            android:name="ctrip.android.view.h5.activity.LocalHtmlProvider"
+            android:authorities="ctrip.android.view.localhtmlprovider"
+            >
+        </provider>
+        <activity
+            android:name="ctrip.android.view.hotel.inland.TestActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="ctrip.android.view.hotel.inland.ScenicActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0D002F, type 0x01>
+            android:name="ctrip.base.logical.picupload.ImagePickerActivity"
+            android:taskAffinity="ctrip.android.view"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="ctrip.base.logical.picupload.cropimage.CropImage"
+            >
+        </activity>
+        <activity
+            android:name="ctrip.base.logical.picupload.CameraActivity"
+            >
+        </activity>
+        <service
+            android:name="com.xiaomi.push.service.XMPushService"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:process=":xmpush"
+            >
+        </service>
+        <service
+            android:name="com.xiaomi.mipush.sdk.PushMessageHandler"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:process=":xmpush"
+            >
+        </service>
+        <service
+            android:name="com.xiaomi.mipush.sdk.MessageHandleService"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:process=":xmpush"
+            >
+        </service>
+        <receiver
+            android:name="com.xiaomi.push.service.receivers.NetworkStatusReceiver"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:process=":xmpush"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.xiaomi.push.service.receivers.PingReceiver"
+            android:exported=<0x0, type 0x12>
+            android:process=":xmpush"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.xiaomi.push.PING_TIMER"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="ctrip.android.view.push.xiaomi.XmMessageReceiver"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:process=":xmpush"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.xiaomi.mipush.RECEIVE_MESSAGE"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.xiaomi.mipush.ERROR"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

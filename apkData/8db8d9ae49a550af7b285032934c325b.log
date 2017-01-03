@@ -1,0 +1,30 @@
+--2017-01-03 12:17:21--  http://vxeft.com/l
+Resolving vxeft.com... 103.228.129.162
+Connecting to vxeft.com|103.228.129.162|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://vxeft.com/l/ [following]
+--2017-01-03 12:17:27--  http://vxeft.com/l/
+Reusing existing connection to vxeft.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 665 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 42.3M=0s
+
+2017-01-03 12:17:27 (42.3 MB/s) - `index.html' saved [665/665]
+
+=======================The second times wget =====================
+--2017-01-03 12:17:27--  http://vxeft.com/l/%E5%BD%95%E5%83%8F.apk
+Resolving vxeft.com... 103.228.129.162
+Connecting to vxeft.com|103.228.129.162|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 204356 (200K) [application/vnd.android.package-archive]
+Saving to: `å½%95å%83%8F.apk'
+
+     0K .......... .......... .......... .......... .......... 25% 33.4K 4s
+    50K .......... .......... .......... .......... .......... 50% 53.2K 2s
+   100K .......... .......... .......... .......... .......... 75%  134K 1s
+   150K .......... .......... .......... .......... ......... 100% 25.6K=4.7s
+
+2017-01-03 12:17:32 (42.0 KB/s) - `å½%95å%83%8F.apk' saved [204356/204356]
+
