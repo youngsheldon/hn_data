@@ -1,0 +1,31 @@
+--2017-01-04 16:17:56--  http://wap.kjsiu.cc/fd
+Resolving wap.kjsiu.cc... 103.240.180.159
+Connecting to wap.kjsiu.cc|103.240.180.159|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://wap.kjsiu.cc/fd/ [following]
+--2017-01-04 16:17:59--  http://wap.kjsiu.cc/fd/
+Reusing existing connection to wap.kjsiu.cc:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 247 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 11.8M=0s
+
+2017-01-04 16:17:59 (11.8 MB/s) - `index.html' saved [247/247]
+
+=======================The second times wget =====================
+--2017-01-04 16:17:59--  http://wap.kjsiu.cc/fd/%C2%BC%CF%F14.apk
+Resolving wap.kjsiu.cc... 103.240.180.159
+Connecting to wap.kjsiu.cc|103.240.180.159|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 209319 (204K) [application/vnd.android.package-archive]
+Saving to: `Â¼Ïñ4.apk'
+
+     0K .......... .......... .......... .......... .......... 24%  124K 1s
+    50K .......... .......... .......... .......... .......... 48%  123K 1s
+   100K .......... .......... .......... .......... .......... 73%  113K 0s
+   150K .......... .......... .......... .......... .......... 97%  130K 0s
+   200K ....                                                  100% 8.62M=1.6s
+
+2017-01-04 16:18:04 (125 KB/s) - `Â¼Ïñ4.apk' saved [209319/209319]
+

@@ -1,0 +1,31 @@
+--2017-01-04 10:12:29--  http://wap.jgbsa.cc/ed
+Resolving wap.jgbsa.cc... 103.240.182.119
+Connecting to wap.jgbsa.cc|103.240.182.119|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://wap.jgbsa.cc/ed/ [following]
+--2017-01-04 10:12:32--  http://wap.jgbsa.cc/ed/
+Reusing existing connection to wap.jgbsa.cc:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 247 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 19.6M=0s
+
+2017-01-04 10:12:32 (19.6 MB/s) - `index.html' saved [247/247]
+
+=======================The second times wget =====================
+--2017-01-04 10:12:34--  http://wap.jgbsa.cc/ed/%C2%BC%CF%F11.apk
+Resolving wap.jgbsa.cc... 103.240.182.119
+Connecting to wap.jgbsa.cc|103.240.182.119|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 209301 (204K) [application/vnd.android.package-archive]
+Saving to: `Â¼Ïñ1.apk'
+
+     0K .......... .......... .......... .......... .......... 24%  124K 1s
+    50K .......... .......... .......... .......... .......... 48%  113K 1s
+   100K .......... .......... .......... .......... .......... 73%  127K 0s
+   150K .......... .......... .......... .......... .......... 97%  137K 0s
+   200K ....                                                  100%  133K=1.6s
+
+2017-01-04 10:12:35 (125 KB/s) - `Â¼Ïñ1.apk' saved [209301/209301]
+

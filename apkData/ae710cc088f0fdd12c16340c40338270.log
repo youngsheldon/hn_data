@@ -1,0 +1,31 @@
+--2017-01-03 21:27:39--  http://ouetx.com/l
+Resolving ouetx.com... 103.228.129.168
+Connecting to ouetx.com|103.228.129.168|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://ouetx.com/l/ [following]
+--2017-01-03 21:27:44--  http://ouetx.com/l/
+Reusing existing connection to ouetx.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 674 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 42.9M=0s
+
+2017-01-03 21:27:44 (42.9 MB/s) - `index.html' saved [674/674]
+
+=======================The second times wget =====================
+--2017-01-03 21:27:44--  http://ouetx.com/l/%E5%BD%95%E5%83%8F.apk
+Resolving ouetx.com... 103.228.129.168
+Connecting to ouetx.com|103.228.129.168|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 209257 (204K) [application/vnd.android.package-archive]
+Saving to: `å½%95å%83%8F.apk'
+
+     0K .......... .......... .......... .......... .......... 24% 7.70K 20s
+    50K .......... .......... .......... .......... .......... 48% 58.8K 8s
+   100K .......... .......... .......... .......... .......... 73% 40.9K 3s
+   150K .......... .......... .......... .......... .......... 97% 63.1K 0s
+   200K ....                                                  100% 89.1K=9.4s
+
+2017-01-03 21:27:54 (21.7 KB/s) - `å½%95å%83%8F.apk' saved [209257/209257]
+

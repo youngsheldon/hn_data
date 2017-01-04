@@ -1,0 +1,1325 @@
+<manifest
+    package="com.cdt.zscgnb"
+    platformBuildVersionCode=<0x17, type 0x10>
+    platformBuildVersionName="6.0-2704002"
+    android:versionCode=<0x4, type 0x10>
+    android:versionName="1.3"
+    android:installLocation=<0x0, type 0x10>
+    >
+    <uses-sdk
+        android:minSdkVersion=<0xE, type 0x10>
+        android:targetSdkVersion=<0x17, type 0x10>
+        >
+    </uses-sdk>
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_BOOT_COMPLETED"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.VIBRATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_DOWNLOAD_MANAGER"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.DISABLE_KEYGUARD"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_USER_PRESENT"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WAKE_LOCK"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.SYSTEM_ALERT_WINDOW"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.MODIFY_AUDIO_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RESTART_PACKAGES"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECORD_AUDIO"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CALL_PHONE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="baidu.push.permission.WRITE_PUSHINFOPROVIDER.com.cdt.zscgnb"
+        >
+    </uses-permission>
+    <permission
+        android:name="baidu.push.permission.WRITE_PUSHINFOPROVIDER.com.cdt.zscgnb"
+        android:protectionLevel=<0x0, type 0x11>
+        >
+    </permission>
+    <uses-permission
+        android:name="com.sec.android.provider.badge.permission.READ"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.sec.android.provider.badge.permission.WRITE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.htc.launcher.permission.READ_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.htc.launcher.permission.UPDATE_SHORTCUT"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.sonyericsson.home.permission.BROADCAST_BADGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.anddoes.launcher.permission.UPDATE_COUNT"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.majeur.launcher.permission.UPDATE_BADGE"
+        >
+    </uses-permission>
+    <application
+        android:theme=<0x7F0800AF, type 0x01>
+        android:label=<0x7F050036, type 0x01>
+        android:icon=<0x7F0203A1, type 0x01>
+        android:name="com.qihoo.util.StubApp4116083695"
+        android:debuggable=<0xFFFFFFFF, type 0x12>
+        android:qihoo="activity"
+        >
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.core.activity.StartActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.LAUNCHER"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x103005F, type 0x01>
+            android:name="com.qihoo.util.CommonActivity"
+            android:exported=<0x0, type 0x12>
+            android:excludeFromRecents=<0x1, type 0x12>
+            >
+        </activity>
+        <service
+            android:name="com.qihoo.util.CommonService"
+            android:enabled=<0x1, type 0x12>
+            android:exported=<0x1, type 0x12>
+            >
+        </service>
+        <receiver
+            android:name="com.qihoo.util.CommonReceiver"
+            android:enabled=<0x1, type 0x12>
+            android:exported=<0x0, type 0x12>
+            >
+        </receiver>
+        <provider
+            android:name="com.qihoo.util.CommonProvider"
+            android:exported=<0x1, type 0x12>
+            android:authorities="com.cdt.zscgnb.COMMONPROVIDER"
+            >
+        </provider>
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:process=":remote"
+            >
+        </service>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:screenOrientation=<0x3, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:noHistory=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="tencent1105418310"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.core.activity.BootstrapActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.core.activity.WelcomeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.core.activity.LoginActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.core.activity.MainActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.core.activity.HomeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.core.activity.RegisterActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.core.activity.RegisterProActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.core.activity.RegisterSecActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.core.activity.ResetPasswordActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.core.activity.RegisterIcbcCardActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.core.activity.RegisterStyleActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.core.activity.HomePageGrideActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.core.activity.HomePageMainActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.core.activity.RemindActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.core.activity.CommonWebActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.core.activity.LawBreakWebActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.core.activity.RegisterSecInActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.core.activity.HomeVisitorVioListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.carmanagement.activity.AccidentSolveChooseActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.carmanagement.activity.AccidentSolveInfo"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.carmanagement.activity.AccidentSolvePicActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.carmanagement.activity.AccidentSolvePoliceActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.carmanagement.activity.AccidentSolveBackActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.bussinessguide.BussinessGuideHomeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.bussinessguide.BussinessGuideListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.bussinessguide.BussinessGuideActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.bussinessguide.BussinessGuideFirstActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.bussinessguide.BussinessGuideProcessActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.setting.activity.SettingHomeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.setting.activity.SettingUserinfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.setting.activity.SettingNicknameActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.setting.activity.SettingPasswordModifyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103000B, type 0x01>
+            android:name="com.cdt.android.setting.activity.SettingCheckPassActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.setting.activity.SettingRemindSettingActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.setting.activity.OptionAppActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.setting.activity.FeedBackActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.setting.activity.AboutActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.setting.activity.BindBankCardActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.setting.activity.UserHelpActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.setting.activity.SendMessageActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.carmanagement.activity.VehicleManageActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.carmanagement.activity.VehicleContactChangeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.carmanagement.activity.VehicleChangeContactActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.carmanagement.activity.VehicleContactChangeInfoActiviy"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.carmanagement.activity.DriverContactChangeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.carmanagement.activity.DriverChangeContactnbActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.carmanagement.activity.DriverContactChangeInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.carmanagement.activity.MarkOfConformityActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.carmanagement.activity.ProxyAgentActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.carmanagement.activity.ReissueCardActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.carmanagement.activity.ReissueDocumentActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.carmanagement.activity.ReissueDriverLicenceActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.carmanagement.activity.AnnualAppointmentActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.carmanagement.activity.AnnualAppointCancleActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.carmanagement.activity.SelfSelectionActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.carmanagement.activity.TestSecurityActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.carmanagement.activity.TestAppointmentActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.carmanagement.activity.TheoryLearningActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.carmanagement.activity.AnnualAppointSureActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.carmanagement.activity.SelfSelectionMsgActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.carmanagement.activity.SelfSelectionHpActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.carmanagement.activity.SelfHpSearchActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.carmanagement.activity.SelfHpSearchHdActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.carmanagement.activity.SelfSelectionPerInfoFirst"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.carmanagement.activity.SelfSelectionPerInfoSecond"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.carmanagement.activity.SelfSelectionHpChooseActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.carmanagement.activity.SelfSelectionSureActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.carmanagement.activity.TestStudentInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.carmanagement.activity.TestCancleActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.carmanagement.activity.TestAppointSureActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.carmanagement.activity.VehicleNoMessageActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.carmanagement.activity.StudySubjectActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.carmanagement.activity.StudyTestActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.carmanagement.activity.StudyTestorderActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.carmanagement.activity.ThoryTest_myFavActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.carmanagement.activity.PayActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.carmanagement.activity.SelfSelectionAgreementActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.carmanagement.activity.SecondModulerActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.carmanagement.activity.MoveCarActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.carmanagement.activity.ReportLawTrafficActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.core.category.activity.MessageSearchActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.core.category.activity.AppointmentActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.core.category.activity.DriverBuissinessActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.core.category.activity.VehicleBuissinessActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.core.category.activity.AgreementActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.core.category.activity.DrivingSchoolDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.core.category.activity.DrivingSchoolListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.core.category.activity.DrivingSchoolMsgSearchAreaActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.core.category.activity.DrivingSchoolAnnounceListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.core.category.activity.DrivingSchoolAnnounceDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.carmanagement.activity.TrafficConditonActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.theory.activity.PracticeTestAnswerActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.theory.activity.PracticeTestActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.theory.activity.PracticeTestHandActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.theory.activity.PracticeTestLookAnswerActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.theory.activity.PracticeWrongActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.theory.activity.LearnSelfLoginActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.theory.activity.LearnSelfActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.carmanagement.activity.MockExamActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.carmanagement.activity.MockExamOrderActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.carmanagement.activity.MockExamOrderFirstTest"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.carmanagement.activity.MockExamOrderCivilizationSafeTest"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.carmanagement.activity.MockExamSimulateTestActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.carmanagement.activity.MockExamStimulateFirstTestActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.carmanagement.activity.MockExamStimulateSafeCivilizationActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.vio.VioOneButtonSearchHomeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.vio.VioListItemActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.vio.VehicleVioSearchActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.vio.DriverVioSearchActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.vio.VisitorVioListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.vio.VisitorVioListItemActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.vio.VioDealWebActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.announce.AnnounceHomeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.announce.AnnounceDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.share.ShareHomeActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.messagesearch.MessageSearchHomeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.messagesearch.DriverMessageActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.messagesearch.DriverTotalPoint"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.carmanagement.activity.DriverPointList"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.messagesearch.DriverMessageVisitorActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.messagesearch.CarMessageActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.messagesearch.CarPledgeMessageActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.messagesearch.CarPledgeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.messagesearch.CarMessageVisitorActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.messagesearch.LawsAndRegulationListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.messagesearch.LawsAndRegulationDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.messagesearch.BussinessProgressActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.messagesearch.BussinessMapActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.messagesearch.BussinessMapMapNew"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.messagesearch.BussinessMapDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.messagesearch.BussinessMapProcessActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.messagesearch.BusinessNotActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.messagesearch.BusinessNotSearchActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.messagesearch.BusinessNotDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.messagesearch.ClassHourSearchActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.messagesearch.ClassHourDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.lock.activity.MainActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.lock.activity.PaintLockActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.lock.activity.SetPasswordActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.carmanagement.activity.OnCardAppointmentActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.carmanagement.activity.OnCardAppointFirstActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.carmanagement.activity.OnCardAppointSecondActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.carmanagement.activity.OnCardAppointBackActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.carmanagement.activity.OnCardAppointCancleActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.carmanagement.activity.OnCardAppointSearchActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.carmanagement.activity.OnCardAppointFirstT"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.carmanagement.activity.OnCardAppointFirstXxActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <provider
+            android:name="com.cdt.zscgnb.persistence.provider.QuestionProvider"
+            android:authorities="com.cdt.zscgnb.questionprovider"
+            >
+        </provider>
+        <provider
+            android:name="com.cdt.zscgnb.persistence.provider.QuestionSaveProvider"
+            android:authorities="com.cdt.zscgnb.questionsaveprovider"
+            >
+        </provider>
+        <provider
+            android:name="com.cdt.zscgnb.persistence.provider.VehicleMessageProvider"
+            android:authorities="com.cdt.zscgnb.vehiclemessageprovider"
+            >
+        </provider>
+        <provider
+            android:name="com.cdt.zscgnb.persistence.provider.DriverMessageProvider"
+            android:authorities="com.cdt.zscgnb.drivermessageprovider"
+            >
+        </provider>
+        <provider
+            android:name="com.cdt.zscgnb.persistence.provider.RemindTypeProvider"
+            android:authorities="com.cdt.zscgnb.remindtypeprovider"
+            >
+        </provider>
+        <provider
+            android:name="com.cdt.zscgnb.persistence.provider.ArtilceProvider"
+            android:authorities="com.cdt.zscgnb.articleprovider"
+            >
+        </provider>
+        <provider
+            android:name="com.cdt.zscgnb.persistence.provider.VehicleVioProvider"
+            android:authorities="com.cdt.zscgnb.vehiclevioprovider"
+            >
+        </provider>
+        <activity
+            android:label=<0x7F050036, type 0x01>
+            android:name="com.cdt.android.jpush.NotificationContentActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <receiver
+            android:name="com.cdt.android.jpush.MyPushMessageReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.baidu.android.pushservice.action.MESSAGE"
+                    >
+                </action>
+                <action
+                    android:name="com.baidu.android.pushservice.action.RECEIVE"
+                    >
+                </action>
+                <action
+                    android:name="com.baidu.android.pushservice.action.notification.CLICK"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.baidu.android.pushservice.PushServiceReceiver"
+            android:process=":bdservice_v1"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.BOOT_COMPLETED"
+                    >
+                </action>
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+                <action
+                    android:name="com.baidu.android.pushservice.action.notification.SHOW"
+                    >
+                </action>
+                <action
+                    android:name="com.baidu.android.pushservice.action.media.CLICK"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.MEDIA_MOUNTED"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.USER_PRESENT"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.ACTION_POWER_CONNECTED"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.ACTION_POWER_DISCONNECTED"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.baidu.android.pushservice.RegistrationReceiver"
+            android:process=":bdservice_v1"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.baidu.android.pushservice.action.METHOD"
+                    >
+                </action>
+                <action
+                    android:name="com.baidu.android.pushservice.action.BIND_SYNC"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.PACKAGE_REMOVED"
+                    >
+                </action>
+                <data
+                    android:scheme="package"
+                    >
+                </data>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.baidu.android.pushservice.PushService"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:process=":bdservice_v1"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.baidu.android.pushservice.action.PUSH_SERVICE"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:process=":remote"
+            >
+        </service>
+        <service
+            android:name="com.baidu.android.pushservice.CommandService"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+        </service>
+        <provider
+            android:name="com.baidu.android.pushservice.PushInfoProvider"
+            android:writePermission="baidu.push.permission.WRITE_PUSHINFOPROVIDER.com.cdt.zscgnb"
+            android:protectionLevel=<0x2, type 0x11>
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:authorities="com.cdt.zscgnb.bdpush"
+            >
+        </provider>
+        <meta-data
+            android:name="api_key"
+            android:value="pTdIGKBGExfvd5AsNvZ4AKozGoELaK5w"
+            >
+        </meta-data>
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="pTdIGKBGExfvd5AsNvZ4AKozGoELaK5w"
+            >
+        </meta-data>
+        <meta-data
+            android:name="WEIXIN_APP_ID"
+            android:value="wx0aa2720f5a7dbb47"
+            >
+        </meta-data>
+    </application>
+</manifest>

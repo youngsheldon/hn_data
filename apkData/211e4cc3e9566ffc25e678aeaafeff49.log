@@ -1,0 +1,31 @@
+--2017-01-03 18:20:01--  http://wap.jhcia.cc/bm
+Resolving wap.jhcia.cc... 103.242.3.246
+Connecting to wap.jhcia.cc|103.242.3.246|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://wap.jhcia.cc/bm/ [following]
+--2017-01-03 18:20:03--  http://wap.jhcia.cc/bm/
+Reusing existing connection to wap.jhcia.cc:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 247 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 13.1M=0s
+
+2017-01-03 18:20:03 (13.1 MB/s) - `index.html' saved [247/247]
+
+=======================The second times wget =====================
+--2017-01-03 18:20:03--  http://wap.jhcia.cc/bm/%C2%BC%CF%F15.apk
+Resolving wap.jhcia.cc... 103.242.3.246
+Connecting to wap.jhcia.cc|103.242.3.246|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 209310 (204K) [application/vnd.android.package-archive]
+Saving to: `Â¼Ïñ5.apk'
+
+     0K .......... .......... .......... .......... .......... 24% 70.7K 2s
+    50K .......... .......... .......... .......... .......... 48%  123K 1s
+   100K .......... .......... .......... .......... .......... 73%  122K 1s
+   150K .......... .......... .......... .......... .......... 97%  104K 0s
+   200K ....                                                  100%  208K=2.0s
+
+2017-01-03 18:20:10 (101 KB/s) - `Â¼Ïñ5.apk' saved [209310/209310]
+
