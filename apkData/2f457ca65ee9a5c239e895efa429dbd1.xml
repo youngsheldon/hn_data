@@ -1,0 +1,2363 @@
+<manifest
+    android:versionCode=<0x1644, type 0x10>
+    android:versionName="5.7.0"
+    android:installLocation=<0x1, type 0x10>
+    platformBuildVersionName="4.4.2-1456859"
+    platformBuildVersionCode=<0x13, type 0x10>
+    package="com.ct.client"
+    >
+    <uses-sdk
+        android:minSdkVersion=<0xE, type 0x10>
+        android:targetSdkVersion=<0x17, type 0x10>
+        >
+    </uses-sdk>
+    <uses-permission
+        android:name="android.permission.SYSTEM_ALERT_WINDOW"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_LOGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.launcher.permission.READ_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.launcher.permission.INSTALL_SHORTCUT"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.htc.launcher.permission.READ_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_CONTACTS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_CONTACTS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.GET_ACCOUNTS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.VIBRATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_CALL_LOG"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CAMERA"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.FLASHLIGHT"
+        >
+    </uses-permission>
+    <uses-feature
+        android:name="android.hardware.camera"
+        >
+    </uses-feature>
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        >
+    </uses-feature>
+    <uses-permission
+        android:name="android.permission.MANAGE_ACCOUNTS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_BOOT_COMPLETED"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.GET_TASKS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.BROADCAST_STICKY"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.GET_ACCOUNTS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.SET_WALLPAPER_HINTS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.SET_WALLPAPER"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.BATTERY_STATS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.GET_PACKAGE_SIZE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.GET_TASKS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RESTART_PACKAGES"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.SEND_SMS"
+        >
+    </uses-permission>
+    <permission
+        android:name="com.ct.client.permission.JPUSH_MESSAGE"
+        android:protectionLevel=<0x2, type 0x11>
+        >
+    </permission>
+    <uses-permission
+        android:name="com.ct.client.permission.JPUSH_MESSAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_USER_PRESENT"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WAKE_LOCK"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.SYSTEM_ALERT_WINDOW"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.BLUETOOTH"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.BLUETOOTH_ADMIN"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_UPDATES"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_CALL_LOG"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS"
+        >
+    </uses-permission>
+    <supports-screens
+        android:anyDensity=<0xFFFFFFFF, type 0x12>
+        android:smallScreens=<0xFFFFFFFF, type 0x12>
+        android:normalScreens=<0xFFFFFFFF, type 0x12>
+        android:largeScreens=<0xFFFFFFFF, type 0x12>
+        android:resizeable=<0xFFFFFFFF, type 0x12>
+        >
+    </supports-screens>
+    <uses-permission
+        android:name="android.permission.CALL_PHONE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.MODIFY_AUDIO_SETTINGS"
+        >
+    </uses-permission>
+    <application
+        android:label=<0x7F080000, type 0x01>
+        android:icon=<0x7F030000, type 0x01>
+        android:name="com.qihoo.util.StubApp3218907111"
+        android:allowBackup=<0x0, type 0x12>
+        android:qihoo="activity"
+        >
+         ??
+
+        <activity
+            android:theme=<0x7F0A003D, type 0x01>
+            android:label=<0x7F080000, type 0x01>
+            android:name="com.ct.client.SplashActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.LAUNCHER"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <data
+                    android:scheme="ctclient"
+                    android:host="startapp"
+                    >
+                </data>
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.MainActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            android:alwaysRetainTaskState=<0xFFFFFFFF, type 0x12>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103000F, type 0x01>
+            android:name="com.ct.client.promotion.MyPromotionAliaActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            android:windowSoftInputMode=<0x23, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103000F, type 0x01>
+            android:name="com.ct.client.promotion.MyPromotionTypeAllActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.more.BroadbandZoneActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.more.AboutActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.SwitchUserActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.selfservice.PkgUsingQuaryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.selfservice.TelFareQuaryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.selfservice.HadPkgQueryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.selfservice.productoffer.ProductOfferQueryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.selfservice.productoffer.ProductOfferAddResultActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.selfservice.productoffer.ProductOfferDelResultActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.recharge.PrepaidCardResultActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.recharge.ReChargeMainActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.recharge.BuyPrepaidCardActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.recharge.ReChargeSuccessActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.selfservice.support.AreaCodeResultActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.selfservice.support.LocationActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.selfservice.support.LocationResultActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.selfservice.support.PukSearchActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A005C, type 0x01>
+            android:name="com.ct.client.common.ConfirmDialogActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.selfservice.PaymentInfoQueryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.selfservice.HistoryBillQueryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.ForgetPwdActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.myinfo.points.ctpoints.PointsQueryActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.myinfo.points.ctpoints.PointsQueryExchangeMoreActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.myinfo.points.ctpoints.ConfirmExchangeActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.myinfo.points.ctpoints.PointsRecordActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.myinfo.points.ctpoints.PointsExchangeSuccessActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.myinfo.ClearPersonalDetailsActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.myinfo.ClearPersonalDetailsSucceedActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.map.BroadbandQueryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.common.webview.OnlineServiceActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.selfservice.flowservice.FlowServiceActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.selfservice.flowservice.FlowShopActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.selfservice.flowservice.FlowUsageHelperActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.more.feedback.NewFeedBackActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.more.feedback.FeedBackListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.more.feedback.FeedBackDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.common.webview.OnlinePaymentActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.myinfo.myorder.MyOrderListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.myinfo.myorder.MyOrderInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A000B, type 0x01>
+            android:name="com.ct.client.myinfo.myorder.MyAddressActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.myinfo.myorder.AddAddressActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.myinfo.myorder.ModifyAddrActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.UserGuideActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.myinfo.msgcenter.MsgCenterActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.packagebuy.personal.ChangeHistoryListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.packagebuy.personal.GrChangeSuccessActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.common.webview.CommWebkitActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            android:hardwareAccelerated=<0xFFFFFFFF, type 0x12>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.ContactActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.more.UpdateActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.more.UpdateTestActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.more.HelpActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.myinfo.myorder.LogisticsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.selfservice.productoffer.ProductOfferAddActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.common.webview.OnlineBusinessWebkitActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.common.webview.OnlineShowDetailWebkitActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.myinfo.points.ctpoints.RedeemMainActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.myinfo.points.ctpoints.PointListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.myinfo.points.ctpoints.PointInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.myinfo.points.ctpoints.OrderPwdInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.phonenum.PhoneNumDetialActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.phonenum.PhoneNumActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.phonenum.FavoritePhoneNumActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.phonenum.SelectPhonenumPackageActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.phonenum.PhoneNumOrderPackageActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.phonenum.LocatinListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.phonenum.ShakeOutLuckyNumber"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.phonenum.PhoneNumOrderPickingActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.myinfo.myorder.QuickOrderActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.myinfo.myorder.QryOrderListByOtherActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.phonenum.PhonenumOrderAddressActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.promotion.comm.AccessNetworkInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.phonenum.PhonenumOrderSubmitActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.phonenum.PhoneProtocolActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.phonenum.PhoneNumForBdProductActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.addressbook.AddressBookMainActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.addressbook.LoadSuccActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.addressbook.LoadHistoryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.promotion.phone.CommPhoneShopWebkitActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A005C, type 0x01>
+            android:name="com.ct.client.push.ShowPushMsgActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.recommend.RecomAwardsRuleActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.recommend.GetRecomAwardsActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.ctclient.CtClientActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.ctclient.CtClientLinkActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00AE, type 0x01>
+            android:name="com.ct.client.CommMaskActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.ct.client.recommend.RecommendDialogActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            android:windowSoftInputMode=<0x11, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.ct.client.recommend.RecommendDialogBackgroundActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.birthremind.BirthRemindActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00AE, type 0x01>
+            android:name="com.ct.client.birthremind.BirthSendWishActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00AE, type 0x01>
+            android:name="com.ct.client.selfservice2.JfySmsInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00AE, type 0x01>
+            android:name="com.ct.client.selfservice2.JfyVoiceInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00AE, type 0x01>
+            android:name="com.ct.client.selfservice2.JfyFlowInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00AE, type 0x01>
+            android:name="com.ct.client.selfservice2.JfyBillInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.recharge.PayConfirmActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:scheme="wxdf261c3b90ffbc25"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.packagebuy.PackageSelectSelf4gActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.common.webview.PhoneSearchActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.ctclient.TwoNumberWithinOnePhoneActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.selfservice2.BillDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.selfservice2.AuthActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.selfservice2.MyBusinessActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.selfservice2.BroadbandBalanceActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.selfservice2.JfyHisBillActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.selfservice2.JfyHisBillAreaChartActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.selfservice2.PayRecordActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.widget.calendarFragment.MyCaldroidActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.zxing.activity.CaptureActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.zxing.activity.ResultActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.zxing.ScanLoginActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A000B, type 0x01>
+            android:name="com.ct.client.promotion.comm.EditUIMTypeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103000F, type 0x01>
+            android:name="com.ct.client.homepage.FaviroteIcon2Activity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.promotion.phone.ProductInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.kefu.push.JpushJumpActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.homepage.HomeSearchActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.promotion.phonenum.EditPhonenumActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.selfservice3.activity.RealTimeCallsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.selfservice3.activity.RealTimeCallsDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.selfservice3.activity.BalanceDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0019, type 0x01>
+            android:name="com.ct.client.selfservice3.activity.HistoryCallsDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.selfservice3.activity.BookedBusinessActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.selfservice3.activity.DetailCheckActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.selfservice3.activity.DateCheckActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.selfservice3.activity.AuthNewActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.promotion.comm.CustomCameraActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.promotion.comm.RealNameAuthenticationActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.promotion.comm.RealNameApproveActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="cn.sharesdk.framework.ShareSDKUIShell"
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+            <meta-data
+                android:name="AuthorizeAdapter"
+                android:value="cn.sharesdk.demo.MyAdapter"
+                >
+            </meta-data>
+            <meta-data
+                android:name="QZoneWebShareAdapter"
+                android:value="cn.sharesdk.demo.MyQZoneWebShareAdapter"
+                >
+            </meta-data>
+            <intent-filter
+                >
+                <data
+                    android:scheme="db-7janx53ilz11gbs"
+                    >
+                </data>
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <data
+                    android:scheme="tencent100371282"
+                    >
+                </data>
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.ct.client.wxapi.WXEntryActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.ct.client.yxapi.YXEntryActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.ct.client.myinfo.myflow.MyFlowActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.myinfo.myflow.UnSubActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.myinfo.myflow.UnSubToActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.ct.client.myinfo.MyInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.ct.client.myinfo.MyMessageActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.common.FragmentInActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A000B, type 0x01>
+            android:name="com.ct.client.promotion.pkg.SelectPackageActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.promotion.comm.ConfirmOrderInfoActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0016, type 0x01>
+            android:name="com.ct.client.recharge.ltepackage.BuyLtePackageActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.myinfo.points.happybeans.ShareRecordsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.myinfo.points.happybeans.RevenueDetailsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.recharge.ltepackage.LtePackageResultActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.myinfo.points.happybeans.activity.ShareListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.myinfo.points.happybeans.activity.ShareMapActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.registered.CheckRegPhoneNumActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.registered.SetPwdActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.registered.RegisteredSuccessActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.selfservice2.FlowNotCleanedActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.xiaohao.message.MHMessage"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.xiaohao.message.MHSelectContacts"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <service
+            android:name="com.ct.client.push.MsgService"
+            android:process=":remote"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.ct.client.push.start"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.ct.client.push.CtClientService"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.ct.client.push.ctclient"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <receiver
+            android:name="com.ct.client.push.BootBroadcastReceiver"
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.BOOT_COMPLETED"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.LAUNCHER"
+                    >
+                </category>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.ct.client.push.StarterReceiver"
+            >
+        </receiver>
+        <receiver
+            android:label=<0x7F080000, type 0x01>
+            android:name="com.ct.client.widget.FlowWidget"
+            >
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource=<0x7F060000, type 0x01>
+                >
+            </meta-data>
+            <intent-filter
+                >
+                <action
+                    android:name="android.appwidget.action.APPWIDGET_UPDATE"
+                    >
+                </action>
+                <action
+                    android:name="com.ct.client.widget.appstart"
+                    >
+                </action>
+                <action
+                    android:name="com.ct.client.widget.refresh"
+                    >
+                </action>
+                <action
+                    android:name="com.ct.client.widget.hgobillupdate"
+                    >
+                </action>
+                <action
+                    android:name="com.ct.client.widget.hgollyydxupdate"
+                    >
+                </action>
+                <action
+                    android:name="com.ct.client.widget.logindone"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.ct.client.birthremind.BirthRemindReceiver"
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="BIRTHREMIND_START"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.eshore.appstat.QasService"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.eshore.appstat.QasService"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <receiver
+            android:name="com.eshore.appstat.receiver.BootReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.BOOT_COMPLETED"
+                    >
+                </action>
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.PACKAGE_INSTALL"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.PACKAGE_ADDED"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.PACKAGE_CHANGED"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.PACKAGE_REMOVED"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.PACKAGE_REPLACED"
+                    >
+                </action>
+                <data
+                    android:scheme="package"
+                    >
+                </data>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x3, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.alipay.sdk.app.H5AuthActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x3, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            >
+        </activity>
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:process=":remote"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.baidu.location.service_v2.2"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="cn.jpush.android.ui.PushActivity"
+            android:configChanges=<0xA0, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="cn.jpush.android.ui.PushActivity"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="com.ct.client"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <service
+            android:name="cn.jpush.android.service.DownloadService"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:exported=<0x0, type 0x12>
+            >
+        </service>
+        <service
+            android:name="cn.jpush.android.service.PushService"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="cn.jpush.android.intent.REGISTER"
+                    >
+                </action>
+                <action
+                    android:name="cn.jpush.android.intent.REPORT"
+                    >
+                </action>
+                <action
+                    android:name="cn.jpush.android.intent.PushService"
+                    >
+                </action>
+                <action
+                    android:name="cn.jpush.android.intent.PUSH_TIME"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <receiver
+            android:name="cn.jpush.android.service.PushReceiver"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                android:priority=<0x3E8, type 0x10>
+                >
+                <action
+                    android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY"
+                    >
+                </action>
+                <category
+                    android:name="com.ct.client"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.USER_PRESENT"
+                    >
+                </action>
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="cn.jpush.android.service.AlarmReceiver"
+            >
+        </receiver>
+        <receiver
+            android:name="com.ct.client.kefu.push.MyReceiver"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="cn.jpush.android.intent.REGISTRATION"
+                    >
+                </action>
+                <action
+                    android:name="cn.jpush.android.intent.UNREGISTRATION"
+                    >
+                </action>
+                <action
+                    android:name="cn.jpush.android.intent.MESSAGE_RECEIVED"
+                    >
+                </action>
+                <action
+                    android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED"
+                    >
+                </action>
+                <action
+                    android:name="cn.jpush.android.intent.NOTIFICATION_OPENED"
+                    >
+                </action>
+                <action
+                    android:name="cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK"
+                    >
+                </action>
+                <action
+                    android:name="cn.jpush.android.intent.CONNECTION"
+                    >
+                </action>
+                <category
+                    android:name="com.ct.client"
+                    >
+                </category>
+            </intent-filter>
+        </receiver>
+        <meta-data
+            android:name="APP_CHANNEL_ID"
+            android:value="channel1"
+            >
+        </meta-data>
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value=<0x7F08000E, type 0x01>
+            >
+        </meta-data>
+        <meta-data
+            android:name="JPUSH_CHANNEL"
+            android:value="developer-default"
+            >
+        </meta-data>
+        <meta-data
+            android:name="JPUSH_APPKEY"
+            android:value=<0x7F080066, type 0x01>
+            >
+        </meta-data>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:label=<0x7F080000, type 0x01>
+            android:name="com.ct.client.kefu.activity.MainActivity"
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:label=<0x7F080000, type 0x01>
+            android:name="com.ct.client.kefu.activity.InlandJumpActivity"
+            >
+        </activity>
+        <activity
+            android:label=<0x7F080000, type 0x01>
+            android:name="com.hg.activity.HGProxyActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.hg.dynamicload.proxy.activity.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label=<0x7F080000, type 0x01>
+            android:name="com.hg.activity.HGProxyFragmentActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.hg.dynamicload.proxy.fragmentactivity.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x1030007, type 0x01>
+            android:name="com.ct.client.kefu.KFTestActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030007, type 0x01>
+            android:name="com.ct.client.KFAuthActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+            </intent-filter>
+        </activity>
+        <receiver
+            android:name="com.ct.client.kefu.receiver.ScreenReceiver"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:priority=<0x15F90, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.USER_PRESENT"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.ct.client.kefu.activity.ShareHelpActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.ct.client.myinfo.points.happybeans.HappyBeansBankActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.ct.client.promotion.phone.PhoneShopAllProductsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x23, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.ct.client.myinfo.SelectMyIconTypeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.ct.client.more.packagechange.PackageChangeActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.ct.client.more.call.CallRemindActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.ct.client.more.call.CallSetupActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.ct.client.myinfo.conpon.ConponActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.ct.client.myinfo.conpon.ConponDetailActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.ct.client.myinfo.MySignInActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.ct.client.myinfo.MySignInMaskActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.ct.client.xiaohao.activity.AddressMemDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.ct.client.xiaohao.activity.ContactsMain"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.ct.client.xiaohao.activity.MyAliaActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.ct.client.xiaohao.activity.ComposeMessageActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:mimeType="vnd.android-dir/mms-sms"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.SENDTO"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="sms"
+                    >
+                </data>
+                <data
+                    android:scheme="smsto"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.SENDTO"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="mms"
+                    >
+                </data>
+                <data
+                    android:scheme="mmsto"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.SEND"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.SEND"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.SEND"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.SEND_MULTIPLE"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.ct.client.selfservice3.activity.HistoryBillActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.ct.client.selfservice3.activity.MealAllowanceActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.ct.client.promotion.comm.ShowWebImageActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.ct.client.promotion.comm.InvoiceInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.ct.client.selfservice2.SpecialOfferActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.ct.client.promotion.comm.InvoiceHeadActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.ct.client.promotion.comm.OrderSubmitActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.ctclient.TestUIActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.ctclient.TestJiamiActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.ctclient.TestRealNameUIActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity-alias
+            android:name="com.ct.client.xiaohao.activity.ForwardMessageActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:targetActivity="com.ct.client.xiaohao.activity.ComposeMessageActivity"
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity-alias>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.ct.client.xiaohao.activity.ElectricInvoiceInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.ct.client.xiaohao.activity.ConfirmInvoiceInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.ct.client.xiaohao.activity.MakeOutInvoiceInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.ct.client.xiaohao.activity.InvoiceInfoResultActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.ct.client.xiaohao.activity.XhInvoiceHeadActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <provider
+            android:name="com.ct.client.xiaohao.model.CProvider"
+            android:exported=<0x0, type 0x12>
+            android:authorities="com.ct.client.sqlitecipher"
+            >
+        </provider>
+        <service
+            android:name="com.ct.client.xiaohao.calllog.ContentObserverService"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.ct.client.xiaohao.calllog.ContentObserverService"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.ForgetPwdActivity2"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x40000024, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A003B, type 0x01>
+            android:name="com.ct.client.xiaohao.activity.ShoppingRecordActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ct.client.wxapi.WXPayEntryActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x1, type 0x10>
+            >
+        </activity>
+        <receiver
+            android:name="com.ct.client.wxapi.AppRegister"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.tencent.mm.plugin.openapi.Intent.ACTION_REFRESH_WXAPP"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:name="com.ct.client.MemoryMonitorActivity"
+            >
+        </activity>
+        <service
+            android:name="com.ct.emmagee.EmmageeService"
+            >
+        </service>
+        <receiver
+            android:name="com.ct.client.push.UploadReceiver"
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="UPLOAD_START"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="BIGDATA_UPLOAD"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="cn.albatross.anchovy.receiver.Receiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="cn.albatross.anchovy.ANCHOVY_ACTION"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.BOOT_COMPLETED"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                android:priority=<0x7FFFFFFF, type 0x10>
+                >
+                <action
+                    android:name="android.provider.Telephony.SMS_RECEIVED"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.PHONE_STATE"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.PACKAGE_ADDED"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.PACKAGE_REMOVED"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.PACKAGE_REPLACED"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.PACKAGE_INSTALL"
+                    >
+                </action>
+                <data
+                    android:scheme="package"
+                    >
+                </data>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.oliveapp.camerasdk.MediaSaveService"
+            >
+        </service>
+        <activity
+            android:name="com.ct.client.ctclient.TestFacialActivity"
+            >
+        </activity>
+        <activity
+            android:name="com.gzt.faceid5sdk.ImageCaptureActivity"
+            >
+        </activity>
+        <activity
+            android:name="com.gzt.faceid5sdk.LivenessDetectionActivity"
+            >
+        </activity>
+    </application>
+</manifest>

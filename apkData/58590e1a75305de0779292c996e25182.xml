@@ -1,0 +1,1359 @@
+<manifest
+    android:versionCode=<0x35, type 0x10>
+    android:versionName="4.1.0"
+    package="com.ezg.smartbus"
+    platformBuildVersionCode=<0x14, type 0x10>
+    platformBuildVersionName="4.4W.2-1537038"
+    >
+    <uses-sdk
+        android:minSdkVersion=<0x8, type 0x10>
+        android:targetSdkVersion=<0x15, type 0x10>
+        >
+    </uses-sdk>
+    <supports-screens
+        android:anyDensity=<0xFFFFFFFF, type 0x12>
+        android:smallScreens=<0xFFFFFFFF, type 0x12>
+        android:normalScreens=<0xFFFFFFFF, type 0x12>
+        android:largeScreens=<0xFFFFFFFF, type 0x12>
+        android:xlargeScreens=<0xFFFFFFFF, type 0x12>
+        >
+    </supports-screens>
+    <permission
+        android:name="com.ezg.smartbus.permission.JPUSH_MESSAGE"
+        android:protectionLevel=<0x2, type 0x11>
+        >
+    </permission>
+    <uses-permission
+        android:name="com.ezg.smartbus.permission.JPUSH_MESSAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECORD_AUDIO"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_USER_PRESENT"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.SYSTEM_ALERT_WINDOW"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.GET_TASKS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.BROADCAST_STICKY"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_CONFIGURATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WAKE_LOCK"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_CONTACTS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CALL_PHONE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.VIBRATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.MANAGE_ACCOUNTS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.GET_ACCOUNTS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.MODIFY_AUDIO_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.FLASHLIGHT"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CAMERA"
+        >
+    </uses-permission>
+    <uses-feature
+        android:name="android.hardware.camera"
+        >
+    </uses-feature>
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        >
+    </uses-feature>
+    <application
+        android:theme=<0x7F0B0034, type 0x01>
+        android:label=<0x7F0A0000, type 0x01>
+        android:icon=<0x7F0201C7, type 0x01>
+        android:name=".AppContext"
+        android:exported=<0x0, type 0x12>
+        android:configChanges=<0x40000000, type 0x11>
+        android:allowBackup=<0xFFFFFFFF, type 0x12>
+        >
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.mob.tools.MobUIShell"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+            <intent-filter
+                >
+                <data
+                    android:scheme="tencent1104577821"
+                    >
+                </data>
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name=".wxapi.WXEntryActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <meta-data
+            android:name="BaiduMobAd_STAT_ID"
+            android:value="4aae465e61"
+            >
+        </meta-data>
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="e62bb2b6a01337be5d727c7bc1c82c49"
+            >
+        </meta-data>
+        <service
+            android:name="com.amap.api.location.APSService"
+            >
+        </service>
+        <activity
+            android:theme=<0x103000D, type 0x01>
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".Welcome"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.LAUNCHER"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="smartbus"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.MainActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:noHistory=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="1104510714"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0084, type 0x01>
+            android:name=".ui.IndexActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0084, type 0x01>
+            android:name=".ui.IndexDiscoveryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0085, type 0x01>
+            android:name=".ui.MyActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0086, type 0x01>
+            android:name=".ui.ShowActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0086, type 0x01>
+            android:name=".ui.ShowAddActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x13, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0086, type 0x01>
+            android:name=".ui.ShowInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0086, type 0x01>
+            android:name=".ui.ShowBusAddActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0086, type 0x01>
+            android:name=".ui.ShowModelAddActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.LoginActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.MyDataActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.MySetActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.MyPasswordActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.MyNicknameActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.RegisterActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.MyGoldActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.MyAdActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.ActivitiesActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.ActivitiesDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.ActivitiesShakeActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.FeedbackActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.AboutUsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.BaseWebActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.WebActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.MyMobileActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.MyMobileSecondActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.ForgetPasswordActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.ForgetPasswordSecondActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.WifiSetActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.MyProvinceActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.MyCityActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.MyActivitesActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0035, type 0x01>
+            android:name=".ui.CheckInActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.MyAddressActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.MyAddressAddActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.MyAddressEditActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.ShowNewActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.ShowInfoNewActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.ShowAddQuanActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x13, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.ShowAddRedpacketActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.ShowRedpacketInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.ShowPhraseActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.MyRedpacketActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0035, type 0x01>
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.MySexActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.GuideActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.IndexMapActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.BusLineInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.SearchByNavigationActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.SearchByNavigationDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.BusRouteActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.IndexBusRouteActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.BusSearchActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.BusSearchPoiActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.BusLineStationActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.BusLineStationSetActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.BusLineAttentionActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.BusStationLineActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".citylist.CityList"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".citylist.searchactivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.OfflineMapActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.ChooseMapAddress"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.IndexMapSearchActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.MyDiamondsActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:scheme="wx35e0b0f5d4121936"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.MyDiamondsListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.MyInviteActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.MyInviteHistoryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.ContactListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.BusLineInfoNewActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.BusLineStationNewActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.MyCashActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.MyPayManageActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.PayPasswordModifyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.PayPasswordModifySecondActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.PayPasswordResetActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.MyOrderActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.MyOrderPayActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.BindingPhoneActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.BindingPhoneSecondActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.MyDiamondsNewActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.MyShowOrderActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.MyShowOrderAddActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name="cn.hugo.android.scanner.CaptureActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.MyOrderInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.MyOrderPayResultActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.ShowReportActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.PersonalitySignActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.MyBlacklistActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.FriendRemarksActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name="com.king.photo.activity.ShowOrderAddActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.king.photo.activity.ImageGridActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.king.photo.activity.TestPicActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.king.photo.activity.PhotoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.king.photo.activity.AlbumActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.king.photo.activity.ImageFile"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.king.photo.activity.ShowAllPhoto"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.king.photo.activity.GalleryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <service
+            android:name=".service.GPSService"
+            >
+        </service>
+        <service
+            android:name="com.ezg.smartbus.LogUploadService"
+            >
+        </service>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.MyQRCodeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.MyPerfectInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.MemberCardActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name=".ui.SendPosition"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0A0000, type 0x01>
+            android:name="com.king.photo.activity.ShowPicActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.photoselector.ui.PhotoSelectorActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.photoselector.ui.PhotoPreviewActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.photoselector.ui.PhotoSelectorPreview"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label="??"
+            android:name="com.ezg.smartbus.stickfilterindexlistview.FriendActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.ezg.smartbus.ui.SysMessageInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="io.jchat.android.activity.BaseActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0005, type 0x01>
+            android:name="io.jchat.android.activity.JchatLoginActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:windowSoftInputMode=<0x13, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:label=<0x7F0A0000, type 0x01>
+            android:name="io.jchat.android.activity.JchatMainActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0005, type 0x01>
+            android:name="io.jchat.android.activity.RegisterActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0005, type 0x01>
+            android:name="io.jchat.android.activity.MeInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0005, type 0x01>
+            android:name="io.jchat.android.activity.ChatActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0005, type 0x01>
+            android:name="io.jchat.android.activity.ReloginActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x13, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0005, type 0x01>
+            android:name="io.jchat.android.activity.ChatDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0023, type 0x01>
+            android:name="io.jchat.android.activity.GroupSettingActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0005, type 0x01>
+            android:name="io.jchat.android.activity.FriendInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0005, type 0x01>
+            android:name="io.jchat.android.activity.CreateGroupActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0005, type 0x01>
+            android:name="io.jchat.android.activity.PickPictureTotalActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0005, type 0x01>
+            android:name="io.jchat.android.activity.PickPictureActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0005, type 0x01>
+            android:name="io.jchat.android.activity.BrowserViewPagerActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0005, type 0x01>
+            android:name="io.jchat.android.activity.SettingActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0005, type 0x01>
+            android:name="io.jchat.android.activity.NotificationSettingActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0005, type 0x01>
+            android:name="io.jchat.android.activity.DisturbSettingActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0005, type 0x01>
+            android:name="io.jchat.android.activity.ResetPasswordActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x15, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0005, type 0x01>
+            android:name="io.jchat.android.activity.FixProfileActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x15, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0005, type 0x01>
+            android:name="io.jchat.android.activity.ResetNickNameActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x15, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0005, type 0x01>
+            android:name="io.jchat.android.activity.SelectAreaActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x15, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0005, type 0x01>
+            android:name="io.jchat.android.activity.EditSignatureActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x15, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0005, type 0x01>
+            android:name="io.jchat.android.activity.EditNoteNameActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0005, type 0x01>
+            android:name="io.jchat.android.activity.AboutActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0005, type 0x01>
+            android:name="io.jchat.android.activity.SelectFriendActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0005, type 0x01>
+            android:name="io.jchat.android.activity.MembersInChatActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0005, type 0x01>
+            android:name="io.jchat.android.activity.CropImageActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name=".ui.TestJPushActivity"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="jpush.testAction"
+                    >
+                </action>
+                <category
+                    android:name="jpush.testCategory"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="cn.jpush.android.ui.PushActivity"
+            android:exported=<0x0, type 0x12>
+            android:configChanges=<0xA0, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="cn.jpush.android.ui.PushActivity"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="com.ezg.smartbus"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <service
+            android:name="cn.jpush.android.service.DownloadService"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:exported=<0x0, type 0x12>
+            >
+        </service>
+        <service
+            android:name="cn.jpush.android.service.PushService"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:exported=<0x0, type 0x12>
+            android:process=":remote"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="cn.jpush.android.intent.REGISTER"
+                    >
+                </action>
+                <action
+                    android:name="cn.jpush.android.intent.REPORT"
+                    >
+                </action>
+                <action
+                    android:name="cn.jpush.android.intent.PushService"
+                    >
+                </action>
+                <action
+                    android:name="cn.jpush.android.intent.PUSH_TIME"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <service
+            android:name="cn.jpush.android.service.DaemonService"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="cn.jpush.android.intent.DaemonService"
+                    >
+                </action>
+                <category
+                    android:name="com.ezg.smartbus"
+                    >
+                </category>
+            </intent-filter>
+        </service>
+        <receiver
+            android:name="cn.jpush.android.service.PushReceiver"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                android:priority=<0x3E8, type 0x10>
+                >
+                <action
+                    android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY"
+                    >
+                </action>
+                <category
+                    android:name="com.ezg.smartbus"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.USER_PRESENT"
+                    >
+                </action>
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.PACKAGE_ADDED"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.PACKAGE_REMOVED"
+                    >
+                </action>
+                <data
+                    android:scheme="package"
+                    >
+                </data>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="cn.jpush.android.service.AlarmReceiver"
+            >
+        </receiver>
+        <receiver
+            android:name=".service.MyReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="cn.jpush.android.intent.REGISTRATION"
+                    >
+                </action>
+                <action
+                    android:name="cn.jpush.android.intent.UNREGISTRATION"
+                    >
+                </action>
+                <action
+                    android:name="cn.jpush.android.intent.MESSAGE_RECEIVED"
+                    >
+                </action>
+                <action
+                    android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED"
+                    >
+                </action>
+                <action
+                    android:name="cn.jpush.android.intent.NOTIFICATION_OPENED"
+                    >
+                </action>
+                <action
+                    android:name="cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK"
+                    >
+                </action>
+                <action
+                    android:name="cn.jpush.android.intent.CONNECTION"
+                    >
+                </action>
+                <category
+                    android:name="com.ezg.smartbus"
+                    >
+                </category>
+            </intent-filter>
+        </receiver>
+        <meta-data
+            android:name="JPUSH_CHANNEL"
+            android:value="developer-default"
+            >
+        </meta-data>
+        <meta-data
+            android:name="JPUSH_APPKEY"
+            android:value="4e93b1333bbf5693064b3f67"
+            >
+        </meta-data>
+        <receiver
+            android:name="cn.jpush.im.android.helpers.IMReceiver"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                android:priority=<0x3E8, type 0x10>
+                >
+                <action
+                    android:name="cn.jpush.im.android.action.IM_RESPONSE"
+                    >
+                </action>
+                <action
+                    android:name="cn.jpush.im.android.action.NOTIFICATION_CLICK_PROXY"
+                    >
+                </action>
+                <category
+                    android:name="com.ezg.smartbus"
+                    >
+                </category>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:theme=<0x7F0B0035, type 0x01>
+            android:name=".ui.WifiFloatActivity"
+            >
+        </activity>
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x3, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ezg.smartbus.wxapi.WXPayEntryActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x1, type 0x10>
+            >
+        </activity>
+        <receiver
+            android:name="net.sourceforge.simcpux.AppRegister"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.tencent.mm.plugin.openapi.Intent.ACTION_REFRESH_WXAPP"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

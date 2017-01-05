@@ -1,0 +1,31 @@
+--2017-01-05 18:15:16--  http://wap.gdeuu.cc/ty
+Resolving wap.gdeuu.cc... 103.240.183.117
+Connecting to wap.gdeuu.cc|103.240.183.117|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://wap.gdeuu.cc/ty/ [following]
+--2017-01-05 18:15:19--  http://wap.gdeuu.cc/ty/
+Reusing existing connection to wap.gdeuu.cc:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 247 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 15.7M=0s
+
+2017-01-05 18:15:19 (15.7 MB/s) - `index.html' saved [247/247]
+
+=======================The second times wget =====================
+--2017-01-05 18:15:19--  http://wap.gdeuu.cc/ty/%C2%BC%CF%F12.apk
+Resolving wap.gdeuu.cc... 103.240.183.117
+Connecting to wap.gdeuu.cc|103.240.183.117|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 209323 (204K) [application/vnd.android.package-archive]
+Saving to: `Â¼Ïñ2.apk'
+
+     0K .......... .......... .......... .......... .......... 24% 26.1K 6s
+    50K .......... .......... .......... .......... .......... 48% 57.5K 3s
+   100K .......... .......... .......... .......... .......... 73% 65.6K 1s
+   150K .......... .......... .......... .......... .......... 97% 80.9K 0s
+   200K ....                                                  100%  104K=4.2s
+
+2017-01-05 18:15:25 (48.6 KB/s) - `Â¼Ïñ2.apk' saved [209323/209323]
+

@@ -1,0 +1,30 @@
+--2017-01-05 11:29:02--  http://gbwlp.com/Music
+Resolving gbwlp.com... 192.151.150.178
+Connecting to gbwlp.com|192.151.150.178|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://gbwlp.com/Music/ [following]
+--2017-01-05 11:29:06--  http://gbwlp.com/Music/
+Reusing existing connection to gbwlp.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 664 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 63.3M=0s
+
+2017-01-05 11:29:07 (63.3 MB/s) - `index.html' saved [664/664]
+
+=======================The second times wget =====================
+--2017-01-05 11:29:07--  http://gbwlp.com/Music/%E5%BD%95%E5%83%8F.mp4.apk
+Resolving gbwlp.com... 192.151.150.178
+Connecting to gbwlp.com|192.151.150.178|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 204375 (200K) [application/vnd.android.package-archive]
+Saving to: `å½%95å%83%8F.mp4.apk'
+
+     0K .......... .......... .......... .......... .......... 25% 42.2K 4s
+    50K .......... .......... .......... .......... .......... 50% 57.6K 2s
+   100K .......... .......... .......... .......... .......... 75% 88.6K 1s
+   150K .......... .......... .......... .......... ......... 100% 18.1K=5.4s
+
+2017-01-05 11:29:13 (37.2 KB/s) - `å½%95å%83%8F.mp4.apk' saved [204375/204375]
+

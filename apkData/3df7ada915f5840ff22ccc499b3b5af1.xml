@@ -1,0 +1,683 @@
+<manifest
+    android:versionCode=<0x2C, type 0x10>
+    android:versionName="3.22"
+    android:installLocation=<0x1, type 0x10>
+    package="net.qihoo.launcher.widget.clockweather"
+    >
+    <uses-sdk
+        android:minSdkVersion=<0x7, type 0x10>
+        android:targetSdkVersion=<0xA, type 0x10>
+        >
+    </uses-sdk>
+    <permission
+        android:label=<0x7F070004, type 0x01>
+        android:name="net.qihoo.clockweather.permission.READ_WEATHER"
+        android:protectionLevel=<0x0, type 0x10>
+        android:description=<0x7F070004, type 0x01>
+        >
+    </permission>
+    <uses-permission
+        android:name="android.permission.INTERACT_ACROSS_USERS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.INTERACT_ACROSS_USERS_FULL"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WAKE_LOCK"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_BOOT_COMPLETED"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.VIBRATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_CONTACTS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.DISABLE_KEYGUARD"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_USER_PRESENT"
+        >
+    </uses-permission>
+    <application
+        android:label=<0x7F070004, type 0x01>
+        android:icon=<0x7F020215, type 0x01>
+        android:name="net.qihoo.clockweather.ClockWeatherApplication"
+        android:debuggable=<0x0, type 0x12>
+        android:allowBackup=<0x0, type 0x12>
+        >
+        <activity
+            android:theme=<0x7F0B0042, type 0x01>
+            android:label=<0x7F0701DE, type 0x01>
+            android:name="net.qihoo.clockweather.CityQueryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="net.qihoo.clockweather.WeatherDetailActivityNew"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="net.qihoo.clockweather.splash.SplashActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B002B, type 0x01>
+            android:name="net.qihoo.clockweather.splash.EntryActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.LAUNCHER"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0B0043, type 0x01>
+            android:name="net.qihoo.launcher.widget.clockweather.skin.SkinOverview"
+            android:screenOrientation=<0xFFFFFFFF, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <service
+            android:name="net.qihoo.launcher.widget.clockweather.WeatherService"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:process="net.qihoo.launcher.widget.clockweather.WeatherService"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="net.qihoo.launcher.widget.clockweather.QihooAlliance"
+                    >
+                </action>
+                <action
+                    android:name="net.qihoo.launcher.WEATHER.ALARM_REFRESH"
+                    >
+                </action>
+                <action
+                    android:name="net.qihoo.launcher.widget.clockweather.WeatherService"
+                    >
+                </action>
+                <action
+                    android:name="net.qihoo.clockweather.ACTION_STANDARD_WIDGET_REFRESH_WEATHER"
+                    >
+                </action>
+                <action
+                    android:name="net.qihoo.clockweather.ACTION_SET_NEXT_CITY_DEFAULT"
+                    >
+                </action>
+                <action
+                    android:name="net.qihoo.clockweather.ACTION_APPLY_NEW_WIDGET_THEME"
+                    >
+                </action>
+                <action
+                    android:name="net.qihoo.clockweather.ACTION_LOCATE_NEW_CITY"
+                    >
+                </action>
+                <action
+                    android:name="net.qihoo.clockweather.ACTION_CANCEL_LOCATION"
+                    >
+                </action>
+                <action
+                    android:name="net.qihoo.clockweather.ACTION_REFRESH_WEATHER_WITH_CITYID"
+                    >
+                </action>
+                <action
+                    android:name="net.qihoo.clockweather.ACTION_START_DOWNLOAD"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <service
+            android:name="net.qihoo.launcher.widget.clockweather.GuardService"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:exported=<0x0, type 0x12>
+            android:process="net.qihoo.launcher.widget.clockweather.GuardService"
+            >
+        </service>
+        <activity
+            android:theme=<0x7F0B0042, type 0x01>
+            android:name="net.qihoo.clockweather.CityManageActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="net.qihoo.clockweather.AqiDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0043, type 0x01>
+            android:name="net.qihoo.clockweather.ShareActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="net.qihoo.clockweather.contact.ContactSelectActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="net.qihoo.clockweather.kinship.KinshipActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="net.qihoo.clockweather.barrage.BarrageActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <receiver
+            android:name="net.qihoo.clockweather.util.DummyReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="net.qihoo.clockweather.util.InitAction"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:theme=<0x7F0B0042, type 0x01>
+            android:name="net.qihoo.clockweather.AdsActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0042, type 0x01>
+            android:name="net.qihoo.clockweather.LifeInfoAdsActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="net.qihoo.clockweather.setting.MainSetting"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0042, type 0x01>
+            android:name="net.qihoo.clockweather.setting.NotificationAlertSetting"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0042, type 0x01>
+            android:name="net.qihoo.clockweather.setting.AutoUpdateSetting"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0042, type 0x01>
+            android:name="net.qihoo.clockweather.setting.FeedbackSetting"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0042, type 0x01>
+            android:name="net.qihoo.clockweather.setting.FaqSetting"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0042, type 0x01>
+            android:name="net.qihoo.clockweather.setting.AboutSetting"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0042, type 0x01>
+            android:name="net.qihoo.clockweather.setting.BackgroundSetting"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0042, type 0x01>
+            android:name="net.qihoo.clockweather.setting.VoiceAlarmSetting"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0042, type 0x01>
+            android:name="net.qihoo.clockweather.setting.VoiceTimeSetting"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0042, type 0x01>
+            android:name="net.qihoo.launcher.widget.clockweather.cropimage.CropImage"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="net.qihoo.launcher.widget.clockweather.crop.CropActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0042, type 0x01>
+            android:name="net.qihoo.clockweather.setting.WidgetThemeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0040, type 0x01>
+            android:name="net.qihoo.clockweather.voice.VoiceAlertFullScreen"
+            android:taskAffinity=""
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x3, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0043, type 0x01>
+            android:name="net.qihoo.clockweather.voice.VoiceAlertActivity"
+            android:taskAffinity=""
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x3, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <provider
+            android:name="net.qihoo.clockweather.service.WeatherProvider"
+            android:readPermission="net.qihoo.clockweather.permission.READ_WEATHER"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:process="net.qihoo.launcher.widget.clockweather.WeatherService"
+            android:authorities="net.qihoo.clockweather"
+            >
+        </provider>
+        <provider
+            android:name="net.qihoo.clockweather.voice.AlarmProvider"
+            android:exported=<0x0, type 0x12>
+            android:process="net.qihoo.launcher.widget.clockweather.WeatherService"
+            android:authorities="net.qihoo.launcher.widget.clockweather"
+            >
+        </provider>
+        <receiver
+            android:name="net.qihoo.clockweather.voice.AlarmReceiver"
+            android:exported=<0x0, type 0x12>
+            android:process="net.qihoo.launcher.widget.clockweather.WeatherService"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="net.qihoo.launcher.widget.clockweather.ALARM_ALERT"
+                    >
+                </action>
+                <action
+                    android:name="net.qihoo.launcher.widget.clockweather.ALARM_DONE"
+                    >
+                </action>
+                <action
+                    android:name="alarm_hide"
+                    >
+                </action>
+                <action
+                    android:name="qihooweather_mediaplayer_playing"
+                    >
+                </action>
+                <action
+                    android:name="qihooweather_mediaplayer_released"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="net.qihoo.clockweather.voice.AlarmService"
+            android:exported=<0x0, type 0x12>
+            android:process="net.qihoo.launcher.widget.clockweather.WeatherService"
+            android:description=<0x7F070137, type 0x01>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="net.qihoo.launcher.widget.clockweather.ALARM_ALERT"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <receiver
+            android:label=<0x7F070005, type 0x01>
+            android:icon=<0x7F020215, type 0x01>
+            android:name="net.qihoo.clockweather.widget.WidgetProvider42"
+            android:process="net.qihoo.launcher.widget.clockweather.WeatherService"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.appwidget.action.APPWIDGET_UPDATE"
+                    >
+                </action>
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource=<0x7F050003, type 0x01>
+                >
+            </meta-data>
+        </receiver>
+        <receiver
+            android:label=<0x7F070006, type 0x01>
+            android:icon=<0x7F020215, type 0x01>
+            android:name="net.qihoo.clockweather.widget.WidgetProvider41"
+            android:process="net.qihoo.launcher.widget.clockweather.WeatherService"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.appwidget.action.APPWIDGET_UPDATE"
+                    >
+                </action>
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource=<0x7F050002, type 0x01>
+                >
+            </meta-data>
+        </receiver>
+        <receiver
+            android:label=<0x7F070008, type 0x01>
+            android:icon=<0x7F020215, type 0x01>
+            android:name="net.qihoo.clockweather.widget.WidgetProvider52"
+            android:process="net.qihoo.launcher.widget.clockweather.WeatherService"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.appwidget.action.APPWIDGET_UPDATE"
+                    >
+                </action>
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource=<0x7F050005, type 0x01>
+                >
+            </meta-data>
+        </receiver>
+        <receiver
+            android:label=<0x7F070007, type 0x01>
+            android:icon=<0x7F020215, type 0x01>
+            android:name="net.qihoo.clockweather.widget.WidgetProvider51"
+            android:process="net.qihoo.launcher.widget.clockweather.WeatherService"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.appwidget.action.APPWIDGET_UPDATE"
+                    >
+                </action>
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource=<0x7F050004, type 0x01>
+                >
+            </meta-data>
+        </receiver>
+        <receiver
+            android:name="net.qihoo.clockweather.WeatherBootReceiver"
+            android:process="net.qihoo.launcher.widget.clockweather.WeatherService"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.BOOT_COMPLETED"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.USER_PRESENT"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.PHONE_STATE"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.PHONE_STATE_2"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.PHONE_STATE2"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.DUAL_PHONE_STATE"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.PHONE_STATE_EXT"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.TIME_SET"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.TIMEZONE_CHANGED"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.LOCALE_CHANGED"
+                    >
+                </action>
+                <action
+                    android:name="com.android.alarmclock.ALARM_ALERT"
+                    >
+                </action>
+                <action
+                    android:name="net.qihoo.clockweather.ACTION_SEND_KINSHIP_SMS"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="net.qihoo.clockweather.WeatherPackageReceiver"
+            android:process="net.qihoo.launcher.widget.clockweather.WeatherService"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.PACKAGE_REPLACED"
+                    >
+                </action>
+                <data
+                    android:scheme="package"
+                    >
+                </data>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="net.qihoo.clockweather.info.ForegroundReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="net.qihoo.launcher.widget.clockweather.ACTION_CITY_LIST_CHANGED"
+                    >
+                </action>
+                <action
+                    android:name="net.qihoo.launcher.widget.clockweather.ACTION_LOCATION_CITY_FAILED"
+                    >
+                </action>
+                <action
+                    android:name="net.qihoo.launcher.widget.clockweather.ACTION_UPDATE_CITY_WEATHER"
+                    >
+                </action>
+                <action
+                    android:name="net.qihoo.launcher.widget.clockweather.ACTION_UPDATE_CITY_WEATHER_FAILED"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <meta-data
+            android:name="skin_default"
+            android:value="clockweather_skin_id_default,clockweather_skin_id_default_gray"
+            >
+        </meta-data>
+        <meta-data
+            android:name="skin_widget41"
+            android:value="clockweather_skin_id_default41"
+            >
+        </meta-data>
+        <meta-data
+            android:name="widgetskin_default"
+            android:value="clockweather_skin_id_default,clockweather_skin_id_default_gray"
+            >
+        </meta-data>
+        <meta-data
+            android:name="widgetskin_widget41"
+            android:value="clockweather_skin_id_default41"
+            >
+        </meta-data>
+        <meta-data
+            android:name="pluginWidget"
+            android:value="net.qihoo.launcher.widget.clockweather"
+            >
+        </meta-data>
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="356dc7c6006a6fbbfecbb4c14419fe05"
+            >
+        </meta-data>
+        <service
+            android:label=<0x7F070004, type 0x01>
+            android:name="net.qihoo.launcher.widget.clockweather.wallpaperservice.WeatherWallpaperService"
+            android:permission="android.permission.BIND_WALLPAPER"
+            android:enabled=<0x7F0D0008, type 0x01>
+            android:process="net.qihoo.weather.livewallpaper"
+            >
+            <intent-filter
+                android:priority=<0x1, type 0x10>
+                >
+                <action
+                    android:name="android.service.wallpaper.WallpaperService"
+                    >
+                </action>
+            </intent-filter>
+            <meta-data
+                android:name="android.service.wallpaper"
+                android:resource=<0x7F050001, type 0x01>
+                >
+            </meta-data>
+        </service>
+        <service
+            android:name="net.qihoo.clockweather.service.WidgetService"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:process="net.qihoo.launcher.widget.clockweather.WeatherService"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="net.qihoo.clockweather.service.WidgetService"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.qihoo.appstore.updatelib.CheckUpdateService"
+            android:exported=<0x0, type 0x12>
+            >
+        </service>
+        <activity
+            android:theme=<0x103000F, type 0x01>
+            android:name="com.qihoo.appstore.updatelib.CheckUpdateActivity"
+            android:exported=<0x0, type 0x12>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103000F, type 0x01>
+            android:name="net.qihoo.clockweather.download.UpgradeActivity"
+            android:exported=<0x0, type 0x12>
+            >
+        </activity>
+    </application>
+</manifest>

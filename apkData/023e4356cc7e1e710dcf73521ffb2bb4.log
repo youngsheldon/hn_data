@@ -1,0 +1,27 @@
+--2017-01-05 14:45:46--  http://www.fcxsl.com/
+Resolving www.fcxsl.com... 192.151.150.178
+Connecting to www.fcxsl.com|192.151.150.178|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 637 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 40.5M=0s
+
+2017-01-05 14:45:50 (40.5 MB/s) - `index.html' saved [637/637]
+
+=======================The second times wget =====================
+--2017-01-05 14:45:50--  http://www.fcxsl.com//%E8%BF%9D%E7%AB%A0%E6%9F%A5%E8%AF%A2.apk
+Resolving www.fcxsl.com... 192.151.150.178
+Connecting to www.fcxsl.com|192.151.150.178|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 219863 (215K) [application/vnd.android.package-archive]
+Saving to: `è¿%9Dç« æ%9F¥è¯¢.apk'
+
+     0K .......... .......... .......... .......... .......... 23% 3.55K 46s
+    50K .......... .......... .......... .......... .......... 46% 22.9K 19s
+   100K .......... .......... .......... .......... .......... 69% 11.8K 9s
+   150K .......... .......... .......... .......... .......... 93% 40.9K 2s
+   200K .......... ....                                       100% 25.2K=22s
+
+2017-01-05 14:46:15 (9.62 KB/s) - `è¿%9Dç« æ%9F¥è¯¢.apk' saved [219863/219863]
+
