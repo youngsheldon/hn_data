@@ -1,0 +1,304 @@
+<manifest
+    android:versionCode=<0x13354AF, type 0x10>
+    android:versionName="1.50"
+    android:installLocation=<0x0, type 0x10>
+    package="com.caifuzq.gpad"
+    >
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        >
+    </uses-permission>
+    <application
+        android:label=<0x7F08004F, type 0x01>
+        android:icon=<0x7F02004D, type 0x01>
+        android:name="com.dazhihui.gpad.application.PadApplication"
+        >
+        <activity
+            android:theme=<0x7F090007, type 0x01>
+            android:name=".dzh"
+            android:configChanges=<0xA0, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.LAUNCHER"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F090007, type 0x01>
+            android:name="com.dazhihui.gpad.DateActivity"
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090007, type 0x01>
+            android:name="com.dazhihui.gpad.ProtectionActivity"
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090007, type 0x01>
+            android:name="com.dazhihui.gpad.view.InitScreen"
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090007, type 0x01>
+            android:name="com.dazhihui.gpad.view.NoticeScreen"
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090007, type 0x01>
+            android:name="com.dazhihui.gpad.view.HomePageScreen"
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090007, type 0x01>
+            android:name="com.dazhihui.gpad.view.BrowserScreen"
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090007, type 0x01>
+            android:name="com.dazhihui.gpad.view.MinuteScreen"
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090007, type 0x01>
+            android:name="com.dazhihui.gpad.view.FundLineScreen"
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090007, type 0x01>
+            android:name="com.dazhihui.gpad.view.StockRegionListScreen"
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090007, type 0x01>
+            android:name="com.dazhihui.gpad.view.HangqingListScreen"
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090007, type 0x01>
+            android:name="com.dazhihui.gpad.view.InquireListScreen"
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090007, type 0x01>
+            android:name="com.dazhihui.gpad.view.PartstaticScreen"
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090007, type 0x01>
+            android:name="com.dazhihui.gpad.view.KlineScreen"
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090007, type 0x01>
+            android:name="com.dazhihui.gpad.view.Level2RankingScreen"
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090007, type 0x01>
+            android:name="com.dazhihui.gpad.view.InterestLevelScreen"
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090007, type 0x01>
+            android:name="com.dazhihui.gpad.view.StockPondMSGScreen"
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090007, type 0x01>
+            android:name="com.dazhihui.gpad.view.ScrectScreen"
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090007, type 0x01>
+            android:name="com.dazhihui.gpad.view.ScrectScreen2"
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F09000D, type 0x01>
+            android:name="com.dazhihui.gpad.trade.PadTradeLoginCenter"
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F09000D, type 0x01>
+            android:name="com.dazhihui.gpad.trade.PadTradeLoginGuangfa"
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F09000D, type 0x01>
+            android:name="com.dazhihui.gpad.trade.PadQuickBuySell"
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F09000D, type 0x01>
+            android:name="com.dazhihui.gpad.trade.PadNewAccount"
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F09000D, type 0x01>
+            android:name="com.dazhihui.gpad.trade.PadDelAccount"
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F09000D, type 0x01>
+            android:name="com.dazhihui.gpad.trade.PadMobileLogin"
+            android:configChanges=<0x80, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F09000D, type 0x01>
+            android:name="com.dazhihui.gpad.trade.PadTradeLoginCenterNew"
+            android:configChanges=<0x80, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F09000D, type 0x01>
+            android:name="com.dazhihui.gpad.trade.PadMobileLoginInit"
+            android:configChanges=<0x80, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F09000D, type 0x01>
+            android:name="com.dazhihui.gpad.trade.PadMobileLoginGuotaiMode"
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F09000D, type 0x01>
+            android:name="com.dazhihui.gpad.trade.PadMobileLoginDonghaiMode"
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F09000D, type 0x01>
+            android:name="com.dazhihui.gpad.trade.PadTradeLogin"
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F09000D, type 0x01>
+            android:name="com.dazhihui.gpad.trade.PadAuthCodeRegister"
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F09000D, type 0x01>
+            android:name="com.dazhihui.gpad.trade.PadTradeDepartmentPicker"
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090007, type 0x01>
+            android:name="com.dazhihui.gpad.trade.TradeMainMenuFrame"
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090007, type 0x01>
+            android:name="com.dazhihui.gpad.trade.FinancingSecuritiesFrame"
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090007, type 0x01>
+            android:name="com.dazhihui.gpad.trade.PadCustomServicePage"
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <receiver
+            android:name="com.dazhihui.gpad.application.NetworkConnectivityReceiver"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.dazhihui.gpad.application.TradeStateReceiver"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.BOOT_COMPLETED"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.dazhihui.gpad.application.TradeMonitorService"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            >
+        </service>
+    </application>
+    <uses-sdk
+        android:minSdkVersion=<0x8, type 0x10>
+        android:targetSdkVersion=<0xB, type 0x10>
+        >
+    </uses-sdk>
+    <supports-screens
+        android:anyDensity=<0xFFFFFFFF, type 0x12>
+        android:largeScreens=<0xFFFFFFFF, type 0x12>
+        >
+    </supports-screens>
+</manifest>

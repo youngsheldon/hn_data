@@ -1,0 +1,31 @@
+--2017-01-05 19:25:57--  http://wap.bfrse.cc/yu
+Resolving wap.bfrse.cc... 45.125.12.242
+Connecting to wap.bfrse.cc|45.125.12.242|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://wap.bfrse.cc/yu/ [following]
+--2017-01-05 19:25:58--  http://wap.bfrse.cc/yu/
+Reusing existing connection to wap.bfrse.cc:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 247 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 18.1M=0s
+
+2017-01-05 19:25:58 (18.1 MB/s) - `index.html' saved [247/247]
+
+=======================The second times wget =====================
+--2017-01-05 19:25:58--  http://wap.bfrse.cc/yu/%C2%BC%CF%F12.apk
+Resolving wap.bfrse.cc... 45.125.12.242
+Connecting to wap.bfrse.cc|45.125.12.242|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 209302 (204K) [application/vnd.android.package-archive]
+Saving to: `Â¼Ïñ2.apk'
+
+     0K .......... .......... .......... .......... .......... 24%  127K 1s
+    50K .......... .......... .......... .......... .......... 48%  123K 1s
+   100K .......... .......... .......... .......... .......... 73%  124K 0s
+   150K .......... .......... .......... .......... .......... 97%  123K 0s
+   200K ....                                                  100% 90.7K=1.7s
+
+2017-01-05 19:26:01 (123 KB/s) - `Â¼Ïñ2.apk' saved [209302/209302]
+

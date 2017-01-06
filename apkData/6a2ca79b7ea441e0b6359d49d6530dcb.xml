@@ -1,0 +1,887 @@
+<manifest
+    android:versionCode=<0x50, type 0x10>
+    android:versionName="1.4.18"
+    package="com.ztesoft.yixiaobao"
+    platformBuildVersionCode=<0x15, type 0x10>
+    platformBuildVersionName="5.0.1-1624448"
+    >
+    <uses-sdk
+        android:minSdkVersion=<0xE, type 0x10>
+        android:targetSdkVersion=<0x13, type 0x10>
+        >
+    </uses-sdk>
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CAMERA"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.VIBRATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.INTERACT_ACROSS_USERS_FULL"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.BLUETOOTH"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.BLUETOOTH_ADMIN"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.NFC"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.pos.permission.CARD_READER_PICC"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.pos.permission.CARD_READER_ICC"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.pos.permission.CARD_READER_MAG"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.pos.permission.ACCESSORY_RFREGISTER"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        >
+    </uses-permission>
+    <uses-feature
+        android:name="android.hardware.nfc"
+        android:required=<0xFFFFFFFF, type 0x12>
+        >
+    </uses-feature>
+    <uses-feature
+        android:name="android.hardware.usb.host"
+        >
+    </uses-feature>
+    <application
+        android:theme=<0x7F0C0077, type 0x01>
+        android:label=<0x7F08006C, type 0x01>
+        android:icon=<0x7F030000, type 0x01>
+        android:name="com.ztesoft.yixiaobao.sys.framework.ApplicationBase"
+        android:allowBackup=<0xFFFFFFFF, type 0x12>
+        android:supportsRtl=<0xFFFFFFFF, type 0x12>
+        >
+        <activity
+            android:label=<0x7F08006C, type 0x01>
+            android:name="com.ztesoft.yixiaobao.client.login.SplashActivity"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.LAUNCHER"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.login.LoginActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.main.activity.MainActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.manage.activity.ShareActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.sharetool.wx.WXEntryActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+        </activity>
+        <activity-alias
+            android:name="com.ztesoft.yixiaobao.wxapi.WXEntryActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:targetActivity="com.ztesoft.sharetool.wx.WXEntryActivity"
+            >
+        </activity-alias>
+        <activity
+            android:name="com.ztesoft.sharetool.yx.YXEntryActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            >
+        </activity>
+        <receiver
+            android:name="com.ztesoft.sharetool.yx.YxAppRegister"
+            android:permission="im.yixin.sdk.permission.YIXIN_SDK_MESSAGE"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="im.yixin.sdk.api.Intent.ACTION_REFRESH_YXAPP"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.classification.activity.ChangeCardActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.cust.activity.AuthenticationActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.main.activity.Offer3To4Activity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.main.activity.SelectOfferActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.main.activity.CustomerInquiryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.classification.activity.ChangeCardSubmitOrderActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.main.activity.UpdateInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.manage.application.activity.ApplicationDownLoadActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <service
+            android:name="com.ztesoft.yixiaobao.client.manage.application.services.DownloadService"
+            >
+        </service>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.main.activity.AddClientActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.main.activity.AddFunctionActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.fusion.activity.OrderCombinActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.fusion.activity.SelectNumberActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.main.activity.DataReturnActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.fusion.activity.SelectAddressActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x34, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030007, type 0x01>
+            android:name="com.ztesoft.yixiaobao.sys.scan.CaptureActivity"
+            android:exported=<0x0, type 0x12>
+            android:clearTaskOnLaunch=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.phonegap.plugins.barcodescanner.SCAN"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.fusion.activity.SelectCustActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xC0, type 0x11>
+            android:windowSoftInputMode=<0x34, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.fusion.activity.SelectCustIDCardActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xC0, type 0x11>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.fusion.activity.OrderOtherActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.fusion.activity.OrderOtherPlatActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.fusion.activity.QueryDevelopmentActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x34, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.classification.activity.WebViewActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.gesture.GestureActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="5642b5b5e0f55a991e0019c2"
+            >
+        </meta-data>
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="Channel ID"
+            >
+        </meta-data>
+        <service
+            android:name="com.umeng.update.net.DownloadingService"
+            android:process=":DownloadingService"
+            >
+        </service>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.umeng.update.UpdateDialogActivity"
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.fusion.activity.QueryPartyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xC0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.main.activity.QueryDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.main.activity.ClientQueryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.login.RevisePasswordActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.fusion.activity.SelectTelNumberActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.classification.activity.NewInstallFor4GCustLocationActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.main.activity.MyOrderActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.fusion.activity.FastSaleActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.main.activity.MyOrderForAllActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.statistics.StatisticsLoginDataActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.statistics.StatisticsPreDataActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.statistics.StatisticsClickDataActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.statistics.StatisticsLanIdListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.main.activity.BroadbandContactsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.main.activity.PlatformPreSaleManagerActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.fusion.activity.OrderCombinPlatformPreSaleActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.statistics.DatePickerActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.statistics.StatisticsPreChannelActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.statistics.StatisticsOrderInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.classification.activity.ReleaseCardActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x34, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.fusion.activity.TransferMachineActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.fusion.activity.SelectMoveOfferActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.broadband.activity.SelectCustInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.broadband.activity.SelectNetOfferActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.broadband.activity.ConfirmAddressActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.broadband.activity.SelectAccessActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.broadband.activity.SelectDeviceInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.broadband.activity.BroadBandOrderActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.statistics.StatisticsPreRegionActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.statistics.RegionListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.statistics.StatisticsClickDataForRegionActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.broadband.activity.RenewOrSpeedUpActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.broadband.activity.BroadbandTranslationActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.broadband.activity.BroadBandRenewalActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="broadband.renewal"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.broadband.activity.BroadBandIncreaseSpeedActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="broadband.increasespeed"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.suggest.PublishSuggestActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.suggest.SuggestionListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.suggest.SuggestionDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.statistics.StatisticsLoginDataForRegionActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.manage.activity.IntegralActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.approval.activity.SelectApprovalPersonActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+             >
+
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.approval.activity.ApprovalClassifyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.approval.activity.NotApprovalListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.approval.activity.ApprovalInformationActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.approval.activity.ApprovalSearchConditionActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.approval.activity.ApprovalHistoryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.approval.activity.HadApprovalListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.approval.activity.ProtocolListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.other.activity.HangUpMessageActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.integral.IntegralIntroductionActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.other.activity.ProgramControlActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.statistics.IntegralTopHundredActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.approval.activity.ProtocolApprovalActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.approval.activity.ProtocolApprovalInformationActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.approval.activity.ProtocolSendOrdersOperationActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.approval.activity.ProtocolApproveOperationActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.approval.activity.ProtocolApproveHuiQianOperationActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.approval.activity.ProtocolApproveChooseActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.main.activity.QueryOffersRemainActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.main.activity.QueryBalanceActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.main.activity.SellBareTerminalActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.main.activity.QueryProductActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.main.activity.QueryProductDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.collect.activity.NetworkToCollectActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.collect.activity.NetWorkPhenomenontChooseActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.collect.activity.NetWorkCountyChooseActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.collect.activity.NetWorkStreetChooseActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.manage.activity.SwitchLanActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.main.activity.ProductInfoDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.main.activity.NFCTestActivity"
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.cust.activity.NFCAuthenticationActivity"
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.main.activity.CustArrearsDetailActivity"
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.fusion.activity.UploadPictureActivity"
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.classification.activity.ChangeNFCCardActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.login.IdentifyingCodeActivity"
+            >
+        </activity>
+        <activity
+            android:name="com.ztesoft.yixiaobao.client.main.activity.RechargeActivity"
+            >
+        </activity>
+    </application>
+</manifest>

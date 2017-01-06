@@ -1,0 +1,117 @@
+<manifest
+    android:versionCode=<0x2, type 0x10>
+    android:versionName="2.0"
+    package="com.sk7.gobo"
+    >
+    <uses-sdk
+        android:minSdkVersion=<0xE, type 0x10>
+        android:targetSdkVersion=<0x16, type 0x10>
+        >
+    </uses-sdk>
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_CONFIGURATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.VIBRATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CAMERA"
+        >
+    </uses-permission>
+    <uses-feature
+        android:name="android.hardware.camera"
+        >
+    </uses-feature>
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        >
+    </uses-feature>
+    <application
+        android:theme=<0x7F090001, type 0x01>
+        android:label="GB"
+        android:icon=<0x7F020002, type 0x01>
+        android:allowBackup=<0xFFFFFFFF, type 0x12>
+        android:hardwareAccelerated=<0xFFFFFFFF, type 0x12>
+        >
+        <activity
+            android:theme=<0x1030007, type 0x01>
+            android:label="GB"
+            android:name=".gobo"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x5B0, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.LAUNCHER"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".analytics.AnalyticsHome"
+            >
+        </activity>
+        <activity
+            android:name=".analytics.WebviewAnalytic"
+            >
+        </activity>
+        <activity
+            android:name=".analytics.FragmentStack"
+            >
+        </activity>
+        <activity
+            android:name=".analytics.FragmentTabs"
+            >
+        </activity>
+        <activity
+            android:name=".game.GameAnalyticsHome"
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030007, type 0x01>
+            android:name="com.sk7.gobo.ScanQRCode"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="580cae089f06fd202600519d"
+            >
+        </meta-data>
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="mobile"
+            >
+        </meta-data>
+    </application>
+</manifest>

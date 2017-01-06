@@ -1,0 +1,231 @@
+<manifest
+    android:versionCode=<0xACDA0, type 0x10>
+    android:versionName="1.608"
+    android:hardwareAccelerated=<0xFFFFFFFF, type 0x12>
+    package="com.yuxing.vehicleking.app"
+    platformBuildVersionCode=<0x16, type 0x10>
+    platformBuildVersionName="5.1.1-1819727"
+    >
+    <uses-sdk
+        android:minSdkVersion=<0xA, type 0x10>
+        android:targetSdkVersion=<0x16, type 0x10>
+        >
+    </uses-sdk>
+    <supports-screens
+        android:anyDensity=<0xFFFFFFFF, type 0x12>
+        android:smallScreens=<0xFFFFFFFF, type 0x12>
+        android:normalScreens=<0xFFFFFFFF, type 0x12>
+        android:largeScreens=<0xFFFFFFFF, type 0x12>
+        android:resizeable=<0xFFFFFFFF, type 0x12>
+        android:xlargeScreens=<0xFFFFFFFF, type 0x12>
+        >
+    </supports-screens>
+    <uses-permission
+        android:name="android.permission.SYSTEM_ALERT_WINDOW"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.VIBRATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_BOOT_COMPLETED"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_DOWNLOAD_MANAGER"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.DISABLE_KEYGUARD"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.EXPAND_STATUS_BAR"
+        >
+    </uses-permission>
+    <application
+        android:label=<0x7F040001, type 0x01>
+        android:icon=<0x7F020003, type 0x01>
+        android:name="com.baidu.frontia.FrontiaApplication"
+        android:debuggable=<0xFFFFFFFF, type 0x12>
+        android:hardwareAccelerated=<0xFFFFFFFF, type 0x12>
+        android:supportsRtl=<0xFFFFFFFF, type 0x12>
+        >
+        <activity
+            android:theme=<0x1030009, type 0x01>
+            android:label=<0x7F040000, type 0x01>
+            android:name="com.yuxing.vehicleking.app.MainActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4B4, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+            <intent-filter
+                android:label=<0x7F040002, type 0x01>
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.LAUNCHER"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="api_key"
+            android:value="oFhFfKCxYHh73EvaVMvEmAoS"
+            >
+        </meta-data>
+        <receiver
+            android:name="com.epnet.cordovaplugin.baidupush.MessageReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.baidu.android.pushservice.action.MESSAGE"
+                    >
+                </action>
+                <action
+                    android:name="com.baidu.android.pushservice.action.RECEIVE"
+                    >
+                </action>
+                <action
+                    android:name="com.baidu.android.pushservice.action.notification.CLICK"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.baidu.android.pushservice.PushServiceReceiver"
+            android:process=":bdservice_v1"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.BOOT_COMPLETED"
+                    >
+                </action>
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+                <action
+                    android:name="com.baidu.android.pushservice.action.notification.SHOW"
+                    >
+                </action>
+                <action
+                    android:name="com.baidu.android.pushservice.action.advertise.notification.SHOW"
+                    >
+                </action>
+                <action
+                    android:name="com.baidu.android.pushservice.action.media.CLICK"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.MEDIA_MOUNTED"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.USER_PRESENT"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.ACTION_POWER_CONNECTED"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.ACTION_POWER_DISCONNECTED"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.baidu.android.pushservice.RegistrationReceiver"
+            android:process=":bdservice_v1"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.baidu.android.pushservice.action.adnotification.ADCLICK"
+                    >
+                </action>
+                <action
+                    android:name="com.baidu.android.pushservice.action.adnotification.ADDELETE"
+                    >
+                </action>
+                <action
+                    android:name="com.baidu.android.pushservice.action.METHOD"
+                    >
+                </action>
+                <action
+                    android:name="com.baidu.android.pushservice.action.BIND_SYNC"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.PACKAGE_REMOVED"
+                    >
+                </action>
+                <data
+                    android:scheme="package"
+                    >
+                </data>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.baidu.android.pushservice.PushService"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:process=":bdservice_v1"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.baidu.android.pushservice.action.PUSH_SERVICE"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.baidu.android.pushservice.CommandService"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+        </service>
+    </application>
+</manifest>

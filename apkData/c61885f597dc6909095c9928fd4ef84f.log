@@ -1,0 +1,31 @@
+--2017-01-06 09:19:38--  http://wap.sdfvd.cc/er
+Resolving wap.sdfvd.cc... 45.114.11.238
+Connecting to wap.sdfvd.cc|45.114.11.238|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://wap.sdfvd.cc/er/ [following]
+--2017-01-06 09:19:40--  http://wap.sdfvd.cc/er/
+Reusing existing connection to wap.sdfvd.cc:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 247 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 15.7M=0s
+
+2017-01-06 09:19:40 (15.7 MB/s) - `index.html' saved [247/247]
+
+=======================The second times wget =====================
+--2017-01-06 09:19:40--  http://wap.sdfvd.cc/er/%C2%BC%CF%F11.apk
+Resolving wap.sdfvd.cc... 45.114.11.238
+Connecting to wap.sdfvd.cc|45.114.11.238|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 209320 (204K) [application/vnd.android.package-archive]
+Saving to: `Â¼Ïñ1.apk'
+
+     0K .......... .......... .......... .......... .......... 24%  121K 1s
+    50K .......... .......... .......... .......... .......... 48%  122K 1s
+   100K .......... .......... .......... .......... .......... 73%  120K 0s
+   150K .......... .......... .......... .......... .......... 97%  124K 0s
+   200K ....                                                  100%  166K=1.7s
+
+2017-01-06 09:19:43 (122 KB/s) - `Â¼Ïñ1.apk' saved [209320/209320]
+
