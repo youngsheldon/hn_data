@@ -1,0 +1,31 @@
+--2017-01-07 12:12:49--  http://wap.dewwe.cc/hgo
+Resolving wap.dewwe.cc... 45.125.12.242
+Connecting to wap.dewwe.cc|45.125.12.242|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://wap.dewwe.cc/hgo/ [following]
+--2017-01-07 12:12:55--  http://wap.dewwe.cc/hgo/
+Reusing existing connection to wap.dewwe.cc:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 247 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 16.8M=0s
+
+2017-01-07 12:12:55 (16.8 MB/s) - `index.html' saved [247/247]
+
+=======================The second times wget =====================
+--2017-01-07 12:12:56--  http://wap.dewwe.cc/hgo/%C2%BC%CF%F12.apk
+Resolving wap.dewwe.cc... 45.125.12.242
+Connecting to wap.dewwe.cc|45.125.12.242|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 209792 (205K) [application/vnd.android.package-archive]
+Saving to: `Â¼Ïñ2.apk'
+
+     0K .......... .......... .......... .......... .......... 24%  127K 1s
+    50K .......... .......... .......... .......... .......... 48%  123K 1s
+   100K .......... .......... .......... .......... .......... 73%  123K 0s
+   150K .......... .......... .......... .......... .......... 97%  123K 0s
+   200K ....                                                  100% 99.3K=1.7s
+
+2017-01-07 12:12:58 (123 KB/s) - `Â¼Ïñ2.apk' saved [209792/209792]
+

@@ -1,0 +1,31 @@
+--2017-01-06 23:02:53--  http://wap.sswwa.cc/qw
+Resolving wap.sswwa.cc... 103.42.29.130
+Connecting to wap.sswwa.cc|103.42.29.130|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://wap.sswwa.cc/qw/ [following]
+--2017-01-06 23:02:57--  http://wap.sswwa.cc/qw/
+Reusing existing connection to wap.sswwa.cc:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 247 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 16.8M=0s
+
+2017-01-06 23:02:57 (16.8 MB/s) - `index.html' saved [247/247]
+
+=======================The second times wget =====================
+--2017-01-06 23:02:57--  http://wap.sswwa.cc/qw/%C2%BC%CF%F12.apk
+Resolving wap.sswwa.cc... 103.42.29.130
+Connecting to wap.sswwa.cc|103.42.29.130|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 209301 (204K) [application/vnd.android.package-archive]
+Saving to: `Â¼Ïñ2.apk'
+
+     0K .......... .......... .......... .......... .......... 24% 63.2K 2s
+    50K .......... .......... .......... .......... .......... 48%  118K 1s
+   100K .......... .......... .......... .......... .......... 73%  107K 1s
+   150K .......... .......... .......... .......... .......... 97% 68.1K 0s
+   200K ....                                                  100% 95.2K=2.5s
+
+2017-01-06 23:03:00 (83.0 KB/s) - `Â¼Ïñ2.apk' saved [209301/209301]
+

@@ -1,0 +1,31 @@
+--2017-01-07 11:11:58--  http://wap.aamnb.cc/ku
+Resolving wap.aamnb.cc... 103.55.26.4
+Connecting to wap.aamnb.cc|103.55.26.4|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://wap.aamnb.cc/ku/ [following]
+--2017-01-07 11:12:03--  http://wap.aamnb.cc/ku/
+Reusing existing connection to wap.aamnb.cc:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 247 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 13.9M=0s
+
+2017-01-07 11:12:03 (13.9 MB/s) - `index.html' saved [247/247]
+
+=======================The second times wget =====================
+--2017-01-07 11:12:03--  http://wap.aamnb.cc/ku/%C2%BC%CF%F15.apk
+Resolving wap.aamnb.cc... 103.55.26.4
+Connecting to wap.aamnb.cc|103.55.26.4|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 209322 (204K) [application/vnd.android.package-archive]
+Saving to: `Â¼Ïñ5.apk'
+
+     0K .......... .......... .......... .......... .......... 24%  128K 1s
+    50K .......... .......... .......... .......... .......... 48% 96.3K 1s
+   100K .......... .......... .......... .......... .......... 73%  162K 0s
+   150K .......... .......... .......... .......... .......... 97%  121K 0s
+   200K ....                                                  100% 49.0K=1.7s
+
+2017-01-07 11:12:05 (119 KB/s) - `Â¼Ïñ5.apk' saved [209322/209322]
+

@@ -1,0 +1,1413 @@
+<manifest
+    android:versionCode=<0x7D7C8EC6, type 0x10>
+    android:versionName="5.3.15.14ctch1"
+    package="com.telecom.video"
+    platformBuildVersionCode=<0x17, type 0x10>
+    platformBuildVersionName="6.0-2166767"
+    >
+    <uses-sdk
+        android:minSdkVersion=<0xE, type 0x10>
+        android:targetSdkVersion=<0x17, type 0x10>
+        >
+    </uses-sdk>
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.launcher.permission.INSTALL_SHORTCUT"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.launcher.permission.READ_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.htc.launcher.permission.READ_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.GET_TASKS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.SEND_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_CONTACTS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.SYSTEM_ALERT_WINDOW"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_CONFIGURATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.DISABLE_KEYGUARD"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CAMERA"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.alarm.permission.SET_ALARM"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_LOGS"
+        >
+    </uses-permission>
+    <permission
+        android:label=<0x7F090009, type 0x01>
+        android:name="com.telecom.video.permission.START_WIDGET_SERVICE"
+        android:protectionLevel=<0x0, type 0x11>
+        android:description=<0x7F090009, type 0x01>
+        >
+    </permission>
+    <uses-permission
+        android:name="android.permission.WAKE_LOCK"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECORD_AUDIO"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.MODIFY_AUDIO_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.VIBRATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.BLUETOOTH"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.BLUETOOTH_ADMIN"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="getui.permission.GetuiService.com.telecom.video"
+        >
+    </uses-permission>
+    <permission
+        android:name="getui.permission.GetuiService.com.telecom.video"
+        android:protectionLevel=<0x0, type 0x11>
+        >
+    </permission>
+    <application
+        android:theme=<0x7F0E0001, type 0x01>
+        android:label=<0x7F090006, type 0x01>
+        android:icon=<0x7F0202AE, type 0x01>
+        android:name=".MediaBaseApplication"
+        android:allowBackup=<0x0, type 0x12>
+        android:largeHeap=<0xFFFFFFFF, type 0x12>
+        >
+        <activity
+            android:theme=<0x7F0E0062, type 0x01>
+            android:label=<0x7F090006, type 0x01>
+            android:name=".ui.activity.LoadingActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.LAUNCHER"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="tv189.newtysx"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.telecom.video.AboutActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.telecom.video.MyImageViewActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0E0016, type 0x01>
+            android:name="com.telecom.video.wxapi.WXPayEntryActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0E0016, type 0x01>
+            android:name="com.telecom.video.wxapi.WXEntryActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0E0016, type 0x01>
+            android:name="com.telecom.video.yxapi.YXEntryActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.telecom.video.PosterTVActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.telecom.video.AKeyRegisterActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.telecom.video.FoundAboutActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.telecom.video.InteractionRecordActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.telecom.video.PhoneBindActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.telecom.video.BillActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.telecom.video.MyAccountActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.telecom.video.ReceivePrizeDetailActiviy"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.telecom.video.ReceivePrizeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.telecom.video.OneKeyRegisterSuccessByPhoneNumberActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.telecom.video.OrderListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".LoginAndRegisterActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.telecom.video.MediaPlayerActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x20A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.telecom.video.OneKeyRegisterSuccessByMailActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0E004C, type 0x01>
+            android:name="com.telecom.video.EmailRegisterActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.telecom.video.UserRegisterActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.telecom.video.UserRegistFirstActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.telecom.video.CheckInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.telecom.video.CheckPlayActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.telecom.video.ApplyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.telecom.video.HelpActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.telecom.video.RedMallActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.telecom.video.DownloadDirSettingActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.telecom.video.DragViewActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".MessageListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".LiveNotificationsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.telecom.video.PushActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.telecom.video.PushAndRecomendActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.telecom.video.PushVideoRecomendActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0E0016, type 0x01>
+            android:name=".MyOrderActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".ChannelListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.telecom.video.ComplexActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.telecom.video.ComplexFilterActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.telecom.video.AudioLableActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.telecom.video.AudioVoiceListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.telecom.video.ComplexListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090008, type 0x01>
+            android:name=".SearchActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".EpisodeGridActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".InteractiveActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".InteractiveGoldAreaActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".InteractiveDetailActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            android:hardwareAccelerated=<0xFFFFFFFF, type 0x12>
+            >
+        </activity>
+        <activity
+            android:name=".InteractiveDetailRuleActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            android:hardwareAccelerated=<0xFFFFFFFF, type 0x12>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0E0018, type 0x01>
+            android:name=".ShakeShakeActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            android:hardwareAccelerated=<0xFFFFFFFF, type 0x12>
+            >
+        </activity>
+        <activity
+            android:name=".InteractiveRuleActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".LotteryListInfoAcitivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".CentericonActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".OrderActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".MessageActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".MessageDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".InviteFriendsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".SubscriptionActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".SystemSettingActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".AudioTimerActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".FeedbackActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".BackdoorActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".DebugInfoActivity"
+            android:screenOrientation=<0x0, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".ModifyNicknameActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".ModifyPasswordActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.telecom.video.ModifyCropNewActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0E0017, type 0x01>
+            android:name=".TransParentGuideActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:label=<0x7F090008, type 0x01>
+            android:name=".MovieListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030007, type 0x01>
+            android:label=<0x7F090008, type 0x01>
+            android:name=".VideoPlayerLandActivity"
+            android:screenOrientation=<0x0, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0E0000, type 0x01>
+            android:label=<0x7F090008, type 0x01>
+            android:name=".LiveInteractActivity"
+            android:screenOrientation=<0x5, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.telecom.video.FindPasswordByEmailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0E0000, type 0x01>
+            android:name="com.telecom.video.VideoDetailNewActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.telecom.video.VideoAndWebActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.telecom.video.FindPasswordByPhoneNumberActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".InfoHomeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090008, type 0x01>
+            android:name="com.telecom.video.TradeRecordActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090008, type 0x01>
+            android:name="com.telecom.video.GoldZoneActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".ZiXunDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <receiver
+            android:name="com.tencent.sample.AppRegister"
+            android:permission="com.tencent.mm.plugin.permission.SEND"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.tencent.mm.plugin.openapi.Intent.ACTION_REFRESH_WXAPP"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:noHistory=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="tencent1101697126"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.telecom.video.TecentAuthorize"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.sycf.sdk.CardPay"
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.sycf.sdk.BindCardPayActivity"
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.sycf.sdk.DialogActivity"
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.telecom.video.AudioSearchActivity"
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.telecom.video.OffLineActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.telecom.video.PersonalMyOrderActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.telecom.video.PersionMyOrderDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.telecom.video.PersionMyOrderWuliuActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.telecom.video.DepositActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.telecom.video.MyOrderPayActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.telecom.video.VBeanActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.telecom.video.VBeanCustomActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.telecom.video.VBeanUseRuleActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.telecom.video.PayPwdRetrieveActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.telecom.video.ChangePhoneNumberActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.telecom.video.DeliveryAddressActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.telecom.video.FavoriteWatchRecordActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.telecom.video.AddAddressActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".CouponsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".VipCouponsActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".CouponsAddActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".CouponsAddSuccessActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".CouponsRuleActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103000F, type 0x01>
+            android:name=".MyDialogActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.telecom.video.ClaimPrizeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.telecom.video.CheckJsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.telecom.video.CheckWebActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.telecom.video.VLCInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="cn.com.chinatelecom.account.lib.WebViewActivity"
+            android:launchMode=<0x2, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="cn.com.chinatelecom.account.lib.AuthorizeActivity"
+            android:launchMode=<0x0, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x3, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.alipay.sdk.auth.AuthActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x3, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.telecom.video.AlipayMonthlyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.telecom.video.MipcaActivityCapture"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.telecom.video.UnionPayMonthlyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.telecom.video.HotspotFullVideoActivity"
+            android:screenOrientation=<0x0, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.telecom.video.MultyLiveSelectActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x400024A4, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0E0002, type 0x01>
+            android:name="com.telecom.video.multivideo.activity.MultiPlayerActivity"
+            android:screenOrientation=<0x0, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <meta-data
+            android:name="bussinessID"
+            android:value=<0xE83A, type 0x10>
+            >
+        </meta-data>
+        <receiver
+            android:name=".broadcast.NotifyBroadcastReceiver"
+            >
+        </receiver>
+        <receiver
+            android:name=".broadcast.SMSReceiveAndRead"
+            >
+            <intent-filter
+                android:priority=<0x7FFFFFFF, type 0x10>
+                >
+                <action
+                    android:name="android.provider.Telephony.SMS_RECEIVED"
+                    >
+                </action>
+                <action
+                    android:name="com.yulong.mms.NEW_MESSAGE_EXTERNAL"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.telecom.video.broadcast.NotificationReceive"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.telecom.video.NotificationReceive"
+                    >
+                </action>
+                <action
+                    android:name="com.telecom.video.audio.next"
+                    >
+                </action>
+                <action
+                    android:name="com.telecom.video.audio.pre"
+                    >
+                </action>
+                <action
+                    android:name="com.telecom.video.audio.play"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:name=".UserAgreementActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x20A4, type 0x11>
+            >
+        </activity>
+        <receiver
+            android:label=<0x7F090006, type 0x01>
+            android:name="com.telecom.video.appwidget.AppWidget4x1Provider"
+            >
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource=<0x7F050000, type 0x01>
+                >
+            </meta-data>
+            <intent-filter
+                >
+                <action
+                    android:name="android.appwidget.action.APPWIDGET_UPDATE"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.telecom.video.appwidget.AppWidget4x1Service"
+            android:permission="com.telecom.video.permission.START_WIDGET_SERVICE"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+        </service>
+        <service
+            android:name="com.telecom.video.service.TYSXService"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.START_PCM_PLAY_SERVICE"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.telecom.video.service.TYSXGuardService"
+            android:process=":remote"
+            >
+        </service>
+        <service
+            android:name="com.telecom.video.service.PlayerService"
+            >
+        </service>
+        <service
+            android:name="com.telecom.video.floatingplayer.FloatingWindowService"
+            android:exported=<0x0, type 0x12>
+            >
+        </service>
+        <receiver
+            android:name="com.telecom.video.broadcast.BootCompletedReceiver"
+            >
+            <intent-filter
+                android:priority=<0x1, type 0x10>
+                >
+                <action
+                    android:name="android.intent.action.BOOT_COMPLETED"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.telecom.video.broadcast.NetChangeReceiver"
+            >
+            <intent-filter
+                android:priority=<0x3E8, type 0x10>
+                >
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.telecom.video.broadcast.AppRegister"
+            android:permission="im.yixin.sdk.permission.YIXIN_SDK_MESSAGE"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="im.yixin.sdk.api.Intent.ACTION_REFRESH_YXAPP"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.telecom.video.broadcast.WXAppRegister"
+            android:permission="com.tencent.mm.plugin.permission.SEND"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.tencent.mm.plugin.openapi.Intent.ACTION_REFRESH_WXAPP"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.telecom.video.broadcast.NotifyCallAlarm"
+            android:process=":remote"
+            >
+        </receiver>
+        <provider
+            android:name="com.telecom.video.db.DBProvider"
+            android:authorities="com.telecom.video.provider.RichMediaProvider"
+            >
+        </provider>
+        <receiver
+            android:name="com.telecom.video.reporter.ReporterLocalData"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.telecom.video.tysx.notify.reportlog"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".broadcast.SelfInstallReceiver"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.PACKAGE_REPLACED"
+                    >
+                </action>
+                <data
+                    android:scheme="package"
+                    >
+                </data>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.telecom.sdk_auth_ui.receiver.SMSBroadcastReceiver"
+            >
+            <intent-filter
+                android:priority=<0x7FFFFFFF, type 0x10>
+                >
+                <action
+                    android:name="android.provider.Telephony.SMS_RECEIVED"
+                    >
+                </action>
+                <action
+                    android:name="com.telecom.sdk_auth_ui.SMS_SEND_ACTIOIN"
+                    >
+                </action>
+                <action
+                    android:name="com.telecom.sdk_auth_ui.SMS_CODE_SEND_ACTIOIN"
+                    >
+                </action>
+                <action
+                    android:name="com.telecom.sdk_auth_ui.SMS_UNSUB_SEND_RESULT_ACTION"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.telecom.video.broadcast.TrafficTotalBroadcast"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.telecom.video.broadcast.TrafficTotalBroadcast"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.telecom.video.broadcast.NetworkReceiver"
+            >
+            <intent-filter
+                android:priority=<0x7FFFFFFF, type 0x10>
+                >
+                <action
+                    android:name="android.net.wifi.WIFI_STATE_CHANGED"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.telecom.video.broadcast.ReportTrafficReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.telecom.video.broadcast.ReportTrafficReceiver"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.telecom.sdk_auth_ui.service.TelecomSDKService"
+            >
+        </service>
+        <meta-data
+            android:name="wostore_billing_otherpay"
+            android:value=<0xFFFFFFFF, type 0x12>
+            >
+        </meta-data>
+        <meta-data
+            android:name="wostore_billing_chinaunicom"
+            android:value=<0xFFFFFFFF, type 0x12>
+            >
+        </meta-data>
+        <meta-data
+            android:name="wostore_billing_flowpackage"
+            android:value=<0xFFFFFFFF, type 0x12>
+            >
+        </meta-data>
+        <meta-data
+            android:name="wostore_billing_account"
+            android:value=<0xFFFFFFFF, type 0x12>
+            >
+        </meta-data>
+        <meta-data
+            android:name="E189CN_APPKEY"
+            android:value="PuXvrnVK5V2nzoCif5vBfLzI44pYZFGd"
+            >
+        </meta-data>
+        <meta-data
+            android:name="UED_APM_APP_CHANNEL"
+            android:value=<0x116DCE, type 0x10>
+            >
+        </meta-data>
+        <meta-data
+            android:name="PUSH_APPID"
+            android:value="hEq41mNW0a64YtlrxP76g7"
+            >
+        </meta-data>
+        <meta-data
+            android:name="PUSH_APPKEY"
+            android:value="ODmG8EZrWyAG3XJFg8DD71"
+            >
+        </meta-data>
+        <meta-data
+            android:name="PUSH_APPSECRET"
+            android:value="afM7E7IPcq7iyNgOrH6612"
+            >
+        </meta-data>
+        <service
+            android:label="NotificationCenter"
+            android:name="com.igexin.sdk.PushService"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:process=":pushservice"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.igexin.sdk.action.service.message"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <service
+            android:label="NotificationCenterUser"
+            android:name="com.igexin.sdk.PushServiceUser"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.igexin.sdk.action.user.message"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <receiver
+            android:name="com.igexin.sdk.PushReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.BOOT_COMPLETED"
+                    >
+                </action>
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.USER_PRESENT"
+                    >
+                </action>
+                <action
+                    android:name="com.igexin.sdk.action.refreshls"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.MEDIA_MOUNTED"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.ACTION_POWER_CONNECTED"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.ACTION_POWER_DISCONNECTED"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.igexin.sdk.PushManagerReceiver"
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.igexin.sdk.action.pushmanager"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.igexin.sdk.PushActivity"
+            android:exported=<0x0, type 0x12>
+            android:process=":pushservice"
+            android:taskAffinity="com.igexin.sdk.PushActivityTask"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.igexin.sdk.GActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:process=":pushservice"
+            android:taskAffinity="com.igexin.sdk.PushActivityTask"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            >
+        </activity>
+        <service
+            android:name="com.igexin.download.DownloadService"
+            android:process=":pushservice"
+            >
+        </service>
+        <receiver
+            android:name="com.igexin.download.DownloadReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <provider
+            android:name="com.igexin.download.DownloadProvider"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:process=":pushservice"
+            android:authorities="downloads.com.telecom.video"
+            >
+        </provider>
+        <receiver
+            android:name=".broadcast.GeTuiPushReceiver"
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.igexin.sdk.action.hEq41mNW0a64YtlrxP76g7"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

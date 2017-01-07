@@ -1,0 +1,23 @@
+--2017-01-07 17:35:12--  http://www.cxjml.com/xf.html
+Resolving www.cxjml.com... 192.151.150.178
+Connecting to www.cxjml.com|192.151.150.178|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3299 (3.2K) [text/html]
+Saving to: `xf.html'
+
+     0K ...                                                   100%  121M=0s
+
+2017-01-07 17:35:16 (121 MB/s) - `xf.html' saved [3299/3299]
+
+=======================The second times wget =====================
+--2017-01-07 17:35:24--  http://cxjml.com/%E5%9B%9E%E5%BF%86.apk
+Resolving cxjml.com... 192.151.150.178
+Connecting to cxjml.com|192.151.150.178|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 456479 (446K) [application/vnd.android.package-archive]
+Saving to: `å%9B%9Eå¿%86.apk'
+
+     0K .....                                                   1%  264M=0s
+
+2017-01-07 17:35:51 (264 MB/s) - Read error at byte 5533/456479 (Connection timed out). Giving up.
+

@@ -1,0 +1,31 @@
+--2017-01-07 17:34:57--  http://wap.mkuuk.cc/xd
+Resolving wap.mkuuk.cc... 45.127.99.136
+Connecting to wap.mkuuk.cc|45.127.99.136|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://wap.mkuuk.cc/xd/ [following]
+--2017-01-07 17:35:01--  http://wap.mkuuk.cc/xd/
+Reusing existing connection to wap.mkuuk.cc:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 247 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 19.6M=0s
+
+2017-01-07 17:35:01 (19.6 MB/s) - `index.html' saved [247/247]
+
+=======================The second times wget =====================
+--2017-01-07 17:35:01--  http://wap.mkuuk.cc/xd/%C2%BC%CF%F15.apk
+Resolving wap.mkuuk.cc... 45.127.99.136
+Connecting to wap.mkuuk.cc|45.127.99.136|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 209326 (204K) [application/vnd.android.package-archive]
+Saving to: `Â¼Ïñ5.apk'
+
+     0K .......... .......... .......... .......... .......... 24%  127K 1s
+    50K .......... .......... .......... .......... .......... 48% 81.2K 1s
+   100K .......... .......... .......... .......... .......... 73%  208K 0s
+   150K .......... .......... .......... .......... .......... 97%  133K 0s
+   200K ....                                                  100%  138K=1.7s
+
+2017-01-07 17:35:06 (123 KB/s) - `Â¼Ïñ5.apk' saved [209326/209326]
+
