@@ -1,0 +1,28 @@
+--2017-01-08 09:09:04--  http://103.212.33.249/Mp4
+Connecting to 103.212.33.249:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://103.212.33.249/Mp4/ [following]
+--2017-01-08 09:09:04--  http://103.212.33.249/Mp4/
+Reusing existing connection to 103.212.33.249:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 651 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 56.4M=0s
+
+2017-01-08 09:09:04 (56.4 MB/s) - `index.html' saved [651/651]
+
+=======================The second times wget =====================
+--2017-01-08 09:09:04--  http://103.212.33.249/Mp4/%E5%BD%95%E5%83%8F.mp4.apk
+Connecting to 103.212.33.249:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 201058 (196K) [application/vnd.android.package-archive]
+Saving to: `å½%95å%83%8F.mp4.apk'
+
+     0K .......... .......... .......... .......... .......... 25% 91.4K 2s
+    50K .......... .......... .......... .......... .......... 50%  199K 1s
+   100K .......... .......... .......... .......... .......... 76%  122K 0s
+   150K .......... .......... .......... .......... ......    100%  119K=1.6s
+
+2017-01-08 09:09:06 (123 KB/s) - `å½%95å%83%8F.mp4.apk' saved [201058/201058]
+

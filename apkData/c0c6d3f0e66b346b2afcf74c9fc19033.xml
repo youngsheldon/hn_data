@@ -1,0 +1,313 @@
+<manifest
+    android:versionCode=<0x91, type 0x10>
+    android:versionName="1.4.5"
+    platformBuildVersionName="6.0-2166767"
+    platformBuildVersionCode=<0x17, type 0x10>
+    package="com.kuaila.qhb"
+    >
+    <uses-sdk
+        android:minSdkVersion=<0x10, type 0x10>
+        android:targetSdkVersion=<0x17, type 0x10>
+        >
+    </uses-sdk>
+    <uses-permission
+        android:name="android.permission.SYSTEM_ALERT_WINDOW"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.DISABLE_KEYGUARD"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WAKE_LOCK"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.VIBRATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.launcher.permission.INSTALL_SHORTCUT"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.launcher.permission.READ_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.launcher.permission.WRITE_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.huawei.android.launcher.permission.READ_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        >
+    </uses-permission>
+    <application
+        android:theme=<0x7F0A007E, type 0x01>
+        android:label=<0x7F080015, type 0x01>
+        android:icon=<0x7F030000, type 0x01>
+        android:name="com.qihoo.util.StubApp1509936197"
+        android:process=":core"
+        android:allowBackup=<0xFFFFFFFF, type 0x12>
+        android:supportsRtl=<0xFFFFFFFF, type 0x12>
+        android:qihoo="activity"
+        >
+        <meta-data
+            android:name="YIWAN_CHANNEL"
+            android:value="1069"
+            >
+        </meta-data>
+        <activity
+            android:theme=<0x7F0A0080, type 0x01>
+            android:name="com.qhb.activity.StartActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.LAUNCHER"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <service
+            android:name="com.qihoo.util.QhJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:exported=<0x0, type 0x12>
+            >
+        </service>
+        <activity
+            android:theme=<0x103005F, type 0x01>
+            android:name="com.qihoo.util.CommonActivity"
+            android:exported=<0x0, type 0x12>
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            >
+        </activity>
+        <service
+            android:name="com.qihoo.util.CommonService"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+        </service>
+        <receiver
+            android:name="com.qihoo.util.CommonReceiver"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:exported=<0x0, type 0x12>
+            >
+        </receiver>
+        <provider
+            android:name="com.qihoo.util.CommonProvider"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:authorities="com.kuaila.qhb.COMMONPROVIDER"
+            >
+        </provider>
+        <activity
+            android:name="com.qhb.activity.MainActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.qhb.activity.SettingActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A007F, type 0x01>
+            android:name="com.qhb.activity.HintActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A007F, type 0x01>
+            android:name="com.qhb.activity.VipHintActivity"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.qhb.activity.HelpActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0083, type 0x01>
+            android:name="com.qhb.activity.TempActivity"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.qhb.activity.RecordActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.qhb.activity.FeedbackActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A007F, type 0x01>
+            android:name="com.qhb.activity.ContactActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A007F, type 0x01>
+            android:name="com.qhb.activity.ShareActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0082, type 0x01>
+            android:name="com.qhb.activity.PayActivity2"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0082, type 0x01>
+            android:name="com.qhb.pay.PayActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.qhb.activity.QhbActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0082, type 0x01>
+            android:name="com.qhb.activity.ShortcutActivity"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.qhb.activity.WebViewActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.qhb.point.PointActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A007F, type 0x01>
+            android:name="com.qhb.activity.JihuoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <receiver
+            android:name="com.qhb.activity.WebViewActivity$DownloadReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.DOWNLOAD_COMPLETE"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <service
+            android:label=<0x7F080024, type 0x01>
+            android:name="com.qhb.service.HongbaoService"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE"
+            >
+            <intent-filter
+                android:priority=<0x7FFFFFFF, type 0x11>
+                >
+                <action
+                    android:name="android.accessibilityservice.AccessibilityService"
+                    >
+                </action>
+            </intent-filter>
+            <meta-data
+                android:name="android.accessibilityservice"
+                android:resource=<0x7F060000, type 0x01>
+                >
+            </meta-data>
+        </service>
+        <receiver
+            android:name="com.qhb.service.QhbReceiver"
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                android:priority=<0x7FFFFFFF, type 0x11>
+                >
+                <action
+                    android:name="com.qhb.service.QhbReceiver.ACTION_QHB_NOTIFY"
+                    >
+                </action>
+                <action
+                    android:name="com.qhb.service.QhbReceiver.ACTION_QHB_NOTIFY_CLICK"
+                    >
+                </action>
+                <action
+                    android:name="com.qhb.service.QhbReceiver.ACTION_QHB_ENABLED"
+                    >
+                </action>
+                <action
+                    android:name="com.qhb.service.QhbReceiver.ACTION_QHB_DISABLED"
+                    >
+                </action>
+                <action
+                    android:name="com.qhb.service.QhbReceiver.ACTION_QHB_OPEN"
+                    >
+                </action>
+                <action
+                    android:name="com.qhb.service.QhbReceiver.ACTION_QHB_CLOSE"
+                    >
+                </action>
+                <action
+                    android:name="com.qhb.service.QhbReceiver.ACTION_QHB_RECORD"
+                    >
+                </action>
+                <action
+                    android:name="com.qhb.service.QhbReceiver.ACTION_QHB_UPDATE"
+                    >
+                </action>
+                <action
+                    android:name="com.qhb.service.QhbReceiver.ACTION_QHB_EXPIRE"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

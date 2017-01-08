@@ -1,0 +1,766 @@
+<manifest
+    android:versionCode=<0xE, type 0x10>
+    android:versionName="2.1.0"
+    package="com.unicom.wotv"
+    platformBuildVersionCode=<0x17, type 0x10>
+    platformBuildVersionName="6.0-2438415"
+    >
+    <uses-sdk
+        android:minSdkVersion=<0xE, type 0x10>
+        android:targetSdkVersion=<0x17, type 0x10>
+        >
+    </uses-sdk>
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:protectionLevel=<0x1, type 0x11>
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.INTERNAL_OVERLAY_WINDOW"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.GET_TASKS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_CONFIGURATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WAKE_LOCK"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_LOGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CALL_PHONE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.SET_DEBUG_APP"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.SYSTEM_ALERT_WINDOW"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.GET_ACCOUNTS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.USE_CREDENTIALS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.MANAGE_ACCOUNTS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.MODIFY_AUDIO_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_BOOT_COMPLETED"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.BROADCAST_PACKAGE_ADDED"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.BROADCAST_PACKAGE_CHANGED"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.BROADCAST_PACKAGE_INSTALL"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.BROADCAST_PACKAGE_REPLACED"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RESTART_PACKAGES"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.VIBRATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.SEND_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_SMS"
+        >
+    </uses-permission>
+    <uses-feature
+        android:glEsVersion=<0x20000, type 0x11>
+        android:required=<0xFFFFFFFF, type 0x12>
+        >
+    </uses-feature>
+    <supports-gl-texture
+        android:name="GL_OES_compressed_ETC1_RGB8_texture"
+        >
+    </supports-gl-texture>
+    <supports-gl-texture
+        android:name="GL_OES_compressed_paletted_texture"
+        >
+    </supports-gl-texture>
+    <application
+        android:theme=<0x7F0A0114, type 0x01>
+        android:label=<0x7F07001C, type 0x01>
+        android:icon=<0x7F030004, type 0x01>
+        android:name="com.unicom.wotv.WOTVApplication"
+        android:allowBackup=<0xFFFFFFFF, type 0x12>
+        android:hardwareAccelerated=<0xFFFFFFFF, type 0x12>
+        android:largeHeap=<0xFFFFFFFF, type 0x12>
+        android:supportsRtl=<0xFFFFFFFF, type 0x12>
+        >
+        <activity
+            android:label=<0x7F07001C, type 0x01>
+            android:name="com.unicom.wotv.controller.main.StartActivity"
+            android:screenOrientation=<0x0, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.LAUNCHER"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="wotv"
+                    android:host="17wo.cn"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="QBSDKAppKey"
+            android:value="q+fsWdnIfMFjbxqLcK5SzPN+"
+            >
+        </meta-data>
+        <activity
+            android:name="com.tencent.smtt.sdk.VideoActivity"
+            android:exported=<0x0, type 0x12>
+            android:launchMode=<0x2, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:alwaysRetainTaskState=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.tencent.smtt.tbs.video.PLAY"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="56d4ff46e0f55a64e80011d2"
+            >
+        </meta-data>
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="Wo17"
+            >
+        </meta-data>
+        <meta-data
+            android:name="UMENG_MESSAGE_SECRET"
+            android:value="33a990742e32b09ba42d7d88af86264d"
+            >
+        </meta-data>
+        <service
+            android:name="com.unicom.wotv.controller.message.NotificationService"
+            >
+        </service>
+        <service
+            android:name="com.unicom.wotv.controller.message.MyPushIntentService"
+            android:process=":push"
+            >
+        </service>
+        <receiver
+            android:name="com.umeng.message.NotificationProxyBroadcastReceiver"
+            android:exported=<0x0, type 0x12>
+            >
+        </receiver>
+        <receiver
+            android:name="com.umeng.message.SystemReceiver"
+            android:process=":push"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.BOOT_COMPLETED"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.PACKAGE_REMOVED"
+                    >
+                </action>
+                <data
+                    android:scheme="package"
+                    >
+                </data>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.umeng.message.MessageReceiver"
+            android:exported=<0x0, type 0x12>
+            android:process=":push"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="org.agoo.android.intent.action.RECEIVE"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.umeng.message.ElectionReceiver"
+            android:process=":push"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="org.agoo.android.intent.action.ELECTION_RESULT_V4"
+                    >
+                </action>
+                <category
+                    android:name="umeng"
+                    >
+                </category>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.umeng.message.RegistrationReceiver"
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.unicom.wotv.intent.action.COMMAND"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.umeng.message.UmengMessageBootReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.BOOT_COMPLETED"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <service
+            android:label="PushService"
+            android:name="com.umeng.message.UmengService"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:process=":push"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.unicom.wotv.intent.action.START"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.unicom.wotv.intent.action.COCKROACH"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="org.agoo.android.intent.action.PING_V4"
+                    >
+                </action>
+                <category
+                    android:name="umeng"
+                    >
+                </category>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.umeng.message.UmengIntentService"
+            android:process=":push"
+            >
+        </service>
+        <service
+            android:name="com.umeng.message.UmengMessageIntentReceiverService"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:process=":push"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="org.android.agoo.client.MessageReceiverService"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="org.android.agoo.client.ElectionReceiverService"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.umeng.message.UmengMessageCallbackHandlerService"
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.umeng.messge.registercallback.action"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.umeng.message.unregistercallback.action"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.umeng.message.message.handler.action"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.umeng.message.autoupdate.handler.action"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.umeng.message.UmengDownloadResourceService"
+            android:exported=<0x0, type 0x12>
+            >
+        </service>
+        <service
+            android:name="com.umeng.message.local.UmengLocalNotificationService"
+            android:exported=<0x0, type 0x12>
+            >
+        </service>
+        <activity
+            android:theme=<0x7F0A010D, type 0x01>
+            android:name="com.umeng.socialize.editorpage.ShareActivity"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            >
+        </activity>
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:noHistory=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="tencent1105207743"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <uses-library
+            android:name="com.google.android.maps"
+            android:required=<0x0, type 0x12>
+            >
+        </uses-library>
+        <uses-library
+            android:name="android.test.runner"
+            >
+        </uses-library>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.unicom.wotv.wxapi.WXEntryActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.unicom.wotv.WBShareActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sina.weibo.sdk.component.WeiboSdkBrowser"
+            android:exported=<0x0, type 0x12>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <service
+            android:name="com.sina.weibo.sdk.net.DownloadService"
+            android:exported=<0x0, type 0x12>
+            >
+        </service>
+        <activity
+            android:name="com.unicom.wotv.controller.oldversion.LoginActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x0, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.unicom.wotv.controller.account.LoginActivityV2"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x0, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.unicom.wotv.controller.CommonHWebViewActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x0, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.unicom.wotv.controller.CommonPWebViewActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.unicom.wotv.controller.main.SearchActivity"
+            android:screenOrientation=<0x0, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.unicom.wotv.controller.oldversion.LocalTVListInfoActivity"
+            android:screenOrientation=<0x0, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.unicom.wotv.controller.main.TVMainActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x0, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.unicom.wotv.controller.main.VideoDetailsHotPartActivity"
+            android:screenOrientation=<0x0, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.unicom.wotv.controller.main.personal.personalinfo.PersonInfoDetailsActivity"
+            android:screenOrientation=<0x0, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.unicom.wotv.controller.account.ResetPasswordActivity"
+            android:screenOrientation=<0x0, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.unicom.wotv.controller.main.VideoDetailsMoviePartActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x0, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.unicom.wotv.controller.main.VideoDetailsTodayShowPartActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x0, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.unicom.wotv.controller.account.RegisterActivity"
+            android:screenOrientation=<0x0, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.unicom.wotv.controller.main.personal.personalinfo.PicsPickOrCameraActivity"
+            android:screenOrientation=<0x0, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.unicom.wotv.controller.main.personal.personalinfo.PicsPreviewByViewpagerActivity"
+            android:screenOrientation=<0x0, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.unicom.wotv.controller.main.VideoFullscreenPlayerActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x4, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.unicom.wotv.controller.vr.VideoPlayerActivity"
+            android:process=":vrPlayer"
+            android:screenOrientation=<0x0, type 0x10>
+            android:configChanges=<0x480, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.unicom.wotv.controller.vr.BitmapPlayerActivity"
+            android:screenOrientation=<0x0, type 0x10>
+            android:configChanges=<0x480, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.unicom.wotv.controller.main.sopcast.SopcastPEActivity"
+            android:screenOrientation=<0x0, type 0x10>
+            android:configChanges=<0x480, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.unicom.wotv.controller.main.sopcast.multiscreen.VideoMultiScreenActivity"
+            android:screenOrientation=<0x0, type 0x10>
+            android:configChanges=<0x480, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.unicom.wotv.controller.main.sopcast.SopcastTVListInfoActivityV2"
+            android:screenOrientation=<0x0, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.unicom.wotv.controller.main.sopcast.SelectChannelActivity"
+            android:screenOrientation=<0x0, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.unicom.wotv.controller.main.sopcast.multiscreen.VideoDoubleDifferScreenActivity"
+            android:screenOrientation=<0x0, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.unicom.wotv.controller.main.sopcast.multiscreen.VideoDoubleScreenActivity"
+            android:screenOrientation=<0x0, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.unicom.wotv.controller.main.sport.SportMoreActivity"
+            android:screenOrientation=<0x0, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.unicom.wotv.controller.main.sport.SportActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x0, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.unicom.wotv.controller.main.ADActivity"
+            android:screenOrientation=<0x0, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.unicom.wotv.controller.main.VideoDetailsTeleplayPartActivityV3"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x0, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.unicom.wotv.controller.main.VideoDetailArtPartActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x0, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.unicom.wotv.controller.main.SpecialTagActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x0, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.remotecontrolsdk.RemoteControlActivity"
+            android:screenOrientation=<0x0, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.zeewavesdk.TestZeeWaveActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x0, type 0x10>
+            >
+        </activity>
+        <service
+            android:name="com.zeewavesdk.MyLongConnService"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:exported=<0x0, type 0x12>
+            >
+        </service>
+        <activity
+            android:name="com.unicom.wotv.controller.main.personal.PersonInfoActivityV2"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x0, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.unicom.wotv.controller.main.personal.PersonalCenterDetailActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x0, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.unicom.wotv.controller.main.WelcomeActivity"
+            android:screenOrientation=<0x0, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+    </application>
+</manifest>

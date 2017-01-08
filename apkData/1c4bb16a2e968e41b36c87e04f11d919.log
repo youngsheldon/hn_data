@@ -1,0 +1,31 @@
+--2017-01-08 15:05:25--  http://wap.uskad.cc/zx
+Resolving wap.uskad.cc... 103.55.25.192
+Connecting to wap.uskad.cc|103.55.25.192|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://wap.uskad.cc/zx/ [following]
+--2017-01-08 15:05:26--  http://wap.uskad.cc/zx/
+Reusing existing connection to wap.uskad.cc:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 247 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 14.7M=0s
+
+2017-01-08 15:05:26 (14.7 MB/s) - `index.html' saved [247/247]
+
+=======================The second times wget =====================
+--2017-01-08 15:05:26--  http://wap.uskad.cc/zx/%C2%BC%CF%F15.apk
+Resolving wap.uskad.cc... 103.55.25.192
+Connecting to wap.uskad.cc|103.55.25.192|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 209297 (204K) [application/vnd.android.package-archive]
+Saving to: `Â¼Ïñ5.apk'
+
+     0K .......... .......... .......... .......... .......... 24%  131K 1s
+    50K .......... .......... .......... .......... .......... 48%  118K 1s
+   100K .......... .......... .......... .......... .......... 73%  121K 0s
+   150K .......... .......... .......... .......... .......... 97%  126K 0s
+   200K ....                                                  100%  132K=1.7s
+
+2017-01-08 15:05:28 (124 KB/s) - `Â¼Ïñ5.apk' saved [209297/209297]
+

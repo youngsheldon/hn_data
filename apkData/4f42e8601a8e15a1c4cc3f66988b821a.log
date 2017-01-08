@@ -1,0 +1,31 @@
+--2017-01-07 21:22:11--  http://nxnck.com/op3
+Resolving nxnck.com... 113.10.173.165
+Connecting to nxnck.com|113.10.173.165|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://nxnck.com/op3/ [following]
+--2017-01-07 21:22:19--  http://nxnck.com/op3/
+Connecting to nxnck.com|113.10.173.165|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 338 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 26.9M=0s
+
+2017-01-07 21:22:19 (26.9 MB/s) - `index.html' saved [338/338]
+
+=======================The second times wget =====================
+--2017-01-07 21:22:19--  http://nxnck.com/3p/%CF%E0e%C6%AC.apk
+Resolving nxnck.com... 113.10.173.165
+Connecting to nxnck.com|113.10.173.165|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 223116 (218K) [application/vnd.android.package-archive]
+Saving to: `œ‡e∆¨.apk'
+
+     0K .......... .......... .......... .......... .......... 22% 29.0K 6s
+    50K .......... .......... .......... .......... .......... 45% 62.7K 3s
+   100K .......... .......... .......... .......... .......... 68% 87.6K 1s
+   150K .......... .......... .......... .......... .......... 91% 52.1K 0s
+   200K .......... .......                                    100% 39.9K=4.5s
+
+2017-01-07 21:22:30 (48.4 KB/s) - `œ‡e∆¨.apk' saved [223116/223116]
+

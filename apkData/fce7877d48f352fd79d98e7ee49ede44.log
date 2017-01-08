@@ -1,0 +1,31 @@
+--2017-01-08 12:57:50--  http://wbhdr.com/ty
+Resolving wbhdr.com... 103.240.183.117
+Connecting to wbhdr.com|103.240.183.117|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://wbhdr.com/ty/ [following]
+--2017-01-08 12:57:59--  http://wbhdr.com/ty/
+Reusing existing connection to wbhdr.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 247 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 12.4M=0s
+
+2017-01-08 12:57:59 (12.4 MB/s) - `index.html' saved [247/247]
+
+=======================The second times wget =====================
+--2017-01-08 12:57:59--  http://wbhdr.com/ty/%C2%BC%CF%F12.apk
+Resolving wbhdr.com... 103.240.183.117
+Connecting to wbhdr.com|103.240.183.117|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 209304 (204K) [application/vnd.android.package-archive]
+Saving to: `Â¼Ïñ2.apk'
+
+     0K .......... .......... .......... .......... .......... 24%  129K 1s
+    50K .......... .......... .......... .......... .......... 48%  121K 1s
+   100K .......... .......... .......... .......... .......... 73%  121K 0s
+   150K .......... .......... .......... .......... .......... 97%  127K 0s
+   200K ....                                                  100%  132K=1.6s
+
+2017-01-08 12:58:01 (124 KB/s) - `Â¼Ïñ2.apk' saved [209304/209304]
+

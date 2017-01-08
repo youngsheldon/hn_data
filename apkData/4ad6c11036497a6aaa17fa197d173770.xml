@@ -1,0 +1,80 @@
+<manifest
+    android:versionCode=<0x11, type 0x10>
+    android:versionName="2.2.5"
+    package="cn.hydom.baccarat"
+    platformBuildVersionCode=<0x17, type 0x10>
+    platformBuildVersionName="6.0-2704002"
+    >
+    <uses-sdk
+        android:minSdkVersion=<0xE, type 0x10>
+        android:targetSdkVersion=<0x17, type 0x10>
+        >
+    </uses-sdk>
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.MODIFY_AUDIO_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WAKE_LOCK"
+        >
+    </uses-permission>
+    <application
+        android:theme=<0x7F0A008C, type 0x01>
+        android:label=<0x7F07001B, type 0x01>
+        android:icon=<0x7F030038, type 0x01>
+        android:name="cn.hydom.baccarat.App"
+        android:allowBackup=<0xFFFFFFFF, type 0x12>
+        android:supportsRtl=<0xFFFFFFFF, type 0x12>
+        >
+        <activity
+            android:name="cn.hydom.baccarat.ui.MainActivity"
+            >
+        </activity>
+        <activity
+            android:name="cn.hydom.baccarat.login.LoginActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.LAUNCHER"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="cn.hydom.baccarat.baigame.BaiGameingActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="cn.hydom.baccarat.ui.hall.HallActivity"
+            >
+        </activity>
+        <activity
+            android:name="cn.hydom.baccarat.ui.bettingrecord.BetRecordActivity"
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="io.vov.vitamio.activity.InitActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:configChanges=<0xCF0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+    </application>
+</manifest>
