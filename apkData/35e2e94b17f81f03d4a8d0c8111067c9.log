@@ -1,0 +1,31 @@
+--2017-01-09 14:49:03--  http://wap.wwuty.cc/lx
+Resolving wap.wwuty.cc... 103.228.131.8
+Connecting to wap.wwuty.cc|103.228.131.8|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://wap.wwuty.cc/lx/ [following]
+--2017-01-09 14:49:04--  http://wap.wwuty.cc/lx/
+Reusing existing connection to wap.wwuty.cc:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 247 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 19.6M=0s
+
+2017-01-09 14:49:04 (19.6 MB/s) - `index.html' saved [247/247]
+
+=======================The second times wget =====================
+--2017-01-09 14:49:06--  http://wap.wwuty.cc/lx/%C2%BC%CF%F11.apk
+Resolving wap.wwuty.cc... 103.228.131.8
+Connecting to wap.wwuty.cc|103.228.131.8|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 209322 (204K) [application/vnd.android.package-archive]
+Saving to: `Â¼Ïñ1.apk'
+
+     0K .......... .......... .......... .......... .......... 24%  106K 1s
+    50K .......... .......... .......... .......... .......... 48% 32.3K 2s
+   100K .......... .......... .......... .......... .......... 73%  145M 1s
+   150K .......... .......... .......... .......... .......... 97% 35.1K 0s
+   200K ....                                                  100% 39.9M=3.4s
+
+2017-01-09 14:49:10 (59.3 KB/s) - `Â¼Ïñ1.apk' saved [209322/209322]
+

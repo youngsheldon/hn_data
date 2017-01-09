@@ -1,0 +1,1672 @@
+<manifest
+    android:versionCode=<0x4C, type 0x10>
+    android:versionName="3.2.2"
+    package="com.welove520.welove"
+    platformBuildVersionCode=<0x17, type 0x10>
+    platformBuildVersionName="6.0-2704002"
+    >
+    <uses-sdk
+        android:minSdkVersion=<0xE, type 0x10>
+        android:targetSdkVersion=<0x17, type 0x10>
+        >
+    </uses-sdk>
+    <permission
+        android:name="com.welove520.welove.permission.MAPS_RECEIVE"
+        android:protectionLevel=<0x2, type 0x11>
+        >
+    </permission>
+    <uses-permission
+        android:name="com.welove520.welove.permission.MAPS_RECEIVE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_BOOT_COMPLETED"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECORD_AUDIO"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.MODIFY_AUDIO_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.VIBRATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CALL_PHONE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.SEND_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WAKE_LOCK"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_LOGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.GET_TASKS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CAMERA"
+        >
+    </uses-permission>
+    <permission
+        android:name="com.welove520.welove.permission.MIPUSH_RECEIVE"
+        android:protectionLevel=<0x2, type 0x11>
+        >
+    </permission>
+    <uses-permission
+        android:name="com.welove520.welove.permission.MIPUSH_RECEIVE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="getui.permission.GetuiService.com.welove520.welove"
+        >
+    </uses-permission>
+    <permission
+        android:name="getui.permission.GetuiService.com.welove520.welove"
+        android:protectionLevel=<0x0, type 0x11>
+        >
+    </permission>
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required=<0x0, type 0x12>
+        >
+    </uses-feature>
+    <uses-feature
+        android:glEsVersion=<0x20000, type 0x11>
+        android:required=<0x0, type 0x12>
+        >
+    </uses-feature>
+    <application
+        android:theme=<0x7F090121, type 0x01>
+        android:label=<0x7F06051F, type 0x01>
+        android:icon=<0x7F020567, type 0x01>
+        android:name="com.welove520.welove.WeloveApplication"
+        android:largeHeap=<0xFFFFFFFF, type 0x12>
+        >
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="035b7eb76963f0a11f3518570f3998d5"
+            >
+        </meta-data>
+        <activity
+            android:theme=<0x7F09018D, type 0x01>
+            android:name="com.welove520.welove.LaunchActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.LAUNCHER"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F090137, type 0x01>
+            android:name="com.welove520.welove.shareV2.WeiboShareDataActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F090137, type 0x01>
+            android:name="com.welove520.welove.shareV2.QzoneShareDataActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090137, type 0x01>
+            android:name="com.welove520.welove.shareV2.QQShareDataActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090137, type 0x01>
+            android:name="com.welove520.welove.shareV2.QzonePublishDataActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090130, type 0x01>
+            android:name="com.welove520.welove.home.ABHomeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x13, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.welove520.welove.games.kissXkiss.KissGameActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.welove520.welove.games.kissXkiss.KissGameRankActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.welove520.welove.games.tree.TreeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.welove520.welove.games.tree.RenameActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x5, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.welove520.welove.games.tree.TreeMagicHouseActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.welove520.welove.games.house.HouseGameLoadingActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.welove520.welove.games.sugar.SugarGameLoadingActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.welove520.welove.games.farm.FarmGameLoadingActivity"
+            android:screenOrientation=<0x0, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030007, type 0x01>
+            android:name="com.welove520.welove.games.house.HouseGameActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030007, type 0x01>
+            android:name="com.welove520.welove.games.house.PetGameActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.games.house.audio.ApiDemoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030007, type 0x01>
+            android:name="com.welove520.welove.games.sugar.SugarGameActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030007, type 0x01>
+            android:name="com.welove520.welove.games.farm.FarmGameActivity"
+            android:screenOrientation=<0x0, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.welove520.welove.games.house.HouseGuideActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.games.ActivityWebview"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.welove520.welove.videoCompo.VideoRecActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.welove520.welove.videoCompo.VideoPlayActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.screenlock.ScreenLockPasswordActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.invite.InviteActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.invite.InvitedActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x14, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.register.ChooseLoginActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.register.ChooseRegisterActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090137, type 0x01>
+            android:name="com.welove520.welove.register.InitActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.register.LoginActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.register.NotRegisteredActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.register.RegisterActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x17, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090137, type 0x01>
+            android:name="com.welove520.welove.qqlovespace.LoverSpaceInitActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.qqlovespace.LoverSpaceConfirmActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.qqlovespace.LoverSpaceNotifyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.qqlovespace.LoveSpaceUpdateInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.register.PrivacyPolicyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.register.ForgotPwdActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.register.ConnectPlatformActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.register.BindWeloveActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.register.InviteHomeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.anni.AnniversaryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.anni.AnniversaryEditActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x30, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.anni.AnniversarySortActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x30, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.anni.AnniversaryRepeatActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x30, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090137, type 0x01>
+            android:name="com.welove520.welove.anni.AnniversaryShareActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.anni.AnniversaryDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x30, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.anni.AnniversaryChangeBgActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090138, type 0x01>
+            android:name="com.welove520.welove.anni.AnniversaryBgGuideActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.wish.WishListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.wish.WishDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.wish.PostWishActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x5, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.settings.SettingsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.settings.SetProfileActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.settings.SetUsageActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.settings.NotificationSoundActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.settings.HelpActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.settings.JoinUsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.settings.AboutActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.settings.FeedbackActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.settings.ChooseFeedbackActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.settings.test.MobileEnvTestActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.settings.BreakRelationActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.settings.RecommendAppsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.settings.background.ChangeBgActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.settings.ChatHistoryCalendarActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.settings.BrowseChatHistoryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.settings.BrowseChatHistoryActivity4Search"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.theme.AvatarListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.theme.ThemeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.map.amap.AMapActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.map.amap.AMapPlaceActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.pair.FullScreenImageActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.pair.ChatCallNumberActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.pair.ABChatPairActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x13, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.pair.ChatActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x13, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.pair.ChatImageListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.pair.ChatContentActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.chat.pageindicator.ChatImagePageIndicatorActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.pair.NetworkFailedActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.timeline.gallery.PreviewSelectedImageActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.timeline.gallery.EditSelectedImageActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.timeline.TimelinePostFeedActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.timeline.headphoto.TimelineHeadPhotoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.timeline.comment.TimelineNewestCommentsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.timeline.comment.TimelineSingleFeedActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.tools.imagePicker.WXImagePickerActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090130, type 0x01>
+            android:name="com.welove520.welove.life.v3.publish.LifePublishEditActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x13, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090130, type 0x01>
+            android:name="com.welove520.welove.life.v3.publish.LifePublishDescActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090130, type 0x01>
+            android:name="com.welove520.welove.life.v3.publish.LifePublishCookStuffActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x13, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090130, type 0x01>
+            android:name="com.welove520.welove.life.v3.publish.LifePublishContentDescActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090130, type 0x01>
+            android:name="com.welove520.welove.life.v3.publish.LifePublishBottomDescActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090130, type 0x01>
+            android:name="com.welove520.welove.life.v3.LifeDetailActivityV3"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.life.v3.LifeDetailPageActivityV3"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090130, type 0x01>
+            android:name="com.welove520.welove.life.v3.LifeTalentRuleActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090130, type 0x01>
+            android:name="com.welove520.welove.life.v3.LifeTalentApplyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090130, type 0x01>
+            android:name="com.welove520.welove.life.v3.LifeTalentRankActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090130, type 0x01>
+            android:name="com.welove520.welove.life.v3.LifeTalentUserActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090130, type 0x01>
+            android:name="com.welove520.welove.life.v3.profile.LifeUserCenterActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090130, type 0x01>
+            android:name="com.welove520.welove.life.v3.LifeFeedHomeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090130, type 0x01>
+            android:name="com.welove520.welove.life.v3.profile.LifeUserCenterListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090130, type 0x01>
+            android:name="com.welove520.welove.life.v3.notification.LifeNotificationListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x13, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090130, type 0x01>
+            android:name="com.welove520.welove.life.v4.SpecialTopicActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090130, type 0x01>
+            android:name="com.welove520.welove.group.GroupPublishActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x14, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090130, type 0x01>
+            android:name="com.welove520.welove.group.GroupFeedActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090130, type 0x01>
+            android:name="com.welove520.welove.group.GroupArticleActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x13, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.emotion.EmotionListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.emotion.EmotionDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.views.pageindicator.image.ImagePageIndicatorActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.views.activity.ConfirmPhotoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.welove520.welove.views.activity.FullScreenTextActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.views.activity.CommonWebviewActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.views.activity.UDouBaoWebviewActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.views.activity.LovespaceWebviewActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.games.YellowDiamondChargeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090130, type 0x01>
+            android:name="com.welove520.welove.views.activity.postComment.PostCommentActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.welove520.welove.capture.image.crop.CropImage"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.welove520.welove.capture.image.ImagePickerActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.tools.cropImage.CropImageActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F06051F, type 0x01>
+            android:name="com.welove520.welove.wxapi.WXEntryActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.welove520.welove.wxapi.WXPayEntryActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.chat.export.ChatExportActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.chat.export.upload.ChatUploadActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.chat.export.download.ChatDownloadActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.chat.export.download.ChatDownloadListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103000F, type 0x01>
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:noHistory=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="tencent100317148"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x3, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.alipay.sdk.auth.AuthActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x3, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.sina.weibo.sdk.component.WeiboSdkBrowser"
+            android:exported=<0x0, type 0x12>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.debug.ServerEnvChoiceActivity"
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.alarm.AlarmActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090130, type 0x01>
+            android:name="com.welove520.welove.alarm.RecordActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.alarm.AlarmNotifyActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.alarm.AlarmNoticeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090137, type 0x01>
+            android:name="com.welove520.welove.alarm.AlarmGuideActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.shop.ShopHomeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.shop.ShopOrderBuyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.shop.ShopAddrAddActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.shop.ShopAddrManagerActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.shop.ShopActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.shop.CityChooseActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.shop.ShopOrderDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.shop.ShopOrderListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090137, type 0x01>
+            android:name="com.welove520.welove.shop.ShopBuySucceedActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.shop.ShopRouteRecordActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900D5, type 0x01>
+            android:name="com.welove520.welove.checkin.CheckInHomeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900D5, type 0x01>
+            android:name="com.welove520.welove.checkin.CheckInSurveyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900D5, type 0x01>
+            android:name="com.welove520.welove.checkin.CheckInRecommendActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900D5, type 0x01>
+            android:name="com.welove520.welove.checkin.CheckInCreateActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900D5, type 0x01>
+            android:name="com.welove520.welove.checkin.CheckInDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900D5, type 0x01>
+            android:name="com.welove520.welove.checkin.CheckInSortActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090137, type 0x01>
+            android:name="com.welove520.welove.cover.ABCoverGuideActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090137, type 0x01>
+            android:name="com.welove520.welove.timeline.TimelineGuideActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.album.AlbumCreateActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.album.AlbumChooseActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.album.AlbumImageChooseActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.album.AlbumSendingListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.album.AlbumImageListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.album.AlbumManageImageActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.album.AlbumDescActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.album.AlbumImagePageIndicatorActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.album.AlbumAdPosterActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.settings.PhoneVerifyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090132, type 0x01>
+            android:name="com.welove520.welove.qqlovespace.CoverNotifyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F09018B, type 0x01>
+            android:name="com.huawei.android.pushselfshow.richpush.RichPushActivity"
+            android:process=":pushservice"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x2484, type 0x11>
+            >
+            <meta-data
+                android:name="hwc-theme"
+                android:value="androidhwext:style/Theme.Emui"
+                >
+            </meta-data>
+            <intent-filter
+                >
+                <action
+                    android:name="com.huawei.android.push.intent.RICHPUSH"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x1030134, type 0x01>
+            android:name="com.huawei.android.pushselfshow.permission.RequestPermissionsActivity"
+            android:exported=<0x0, type 0x12>
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x2484, type 0x11>
+            >
+        </activity>
+        <service
+            android:name="com.welove520.welove.push.service.PushService"
+            >
+        </service>
+        <service
+            android:name="com.welove520.welove.chat.upload.service.ChatMessageSendQueueService"
+            >
+        </service>
+        <service
+            android:name="com.welove520.welove.chat.upload.service.ChatReadSendQueueService"
+            >
+        </service>
+        <service
+            android:name="com.welove520.welove.chat.upload.service.ChatMediaSendQueueService"
+            >
+        </service>
+        <service
+            android:name="com.welove520.welove.chat.fetch.service.ChatAudioFetchQueueService"
+            >
+        </service>
+        <service
+            android:name="com.welove520.welove.timeline.feedqueue.TimelineFeedUploadService"
+            >
+        </service>
+        <service
+            android:name="com.welove520.welove.timeline.service.TimelineHeadPhotoService"
+            >
+        </service>
+        <service
+            android:name="com.welove520.welove.emotion.service.EmotionDownloadService"
+            >
+        </service>
+        <service
+            android:name="com.welove520.welove.download.DownloadServiceV2"
+            >
+        </service>
+        <service
+            android:name="com.welove520.welove.download.TreeGameResDownloadService"
+            >
+        </service>
+        <service
+            android:name="com.welove520.welove.download.house.HouseGameResDownloadService"
+            >
+        </service>
+        <service
+            android:name="com.welove520.welove.download.sugar.SugarGameResDownloadService"
+            >
+        </service>
+        <service
+            android:name="com.welove520.welove.download.farm.FarmGameResDownloadService"
+            >
+        </service>
+        <service
+            android:name="com.welove520.welove.chat.export.upload.ChatUploadService"
+            >
+        </service>
+        <service
+            android:name="com.welove520.welove.chat.export.download.ChatDownloadService"
+            >
+        </service>
+        <service
+            android:name="com.welove520.welove.alarm.AlarmCheckService"
+            >
+        </service>
+        <service
+            android:name="com.welove520.welove.alarm.AlarmNotifySoundService"
+            >
+        </service>
+        <service
+            android:name="com.welove520.welove.timeline.upload.ImageUploadService"
+            >
+        </service>
+        <service
+            android:name="com.amap.api.location.APSService"
+            >
+        </service>
+        <service
+            android:name="com.welove520.welove.push.thirdparty.tokenupload.PushTokenUploadService"
+            >
+        </service>
+        <service
+            android:name="com.xiaomi.push.service.XMPushService"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:process=":pushservice"
+            >
+        </service>
+        <service
+            android:name="com.xiaomi.mipush.sdk.PushMessageHandler"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+        </service>
+        <service
+            android:name="com.xiaomi.mipush.sdk.MessageHandleService"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            >
+        </service>
+        <service
+            android:name="com.huawei.android.pushagent.PushService"
+            android:process=":pushservice"
+            >
+        </service>
+        <receiver
+            android:name="com.welove520.welove.boot.BootReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.BOOT_COMPLETED"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.USER_PRESENT"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.welove520.welove.xmpp.receiver.ConnectivityReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.welove520.welove.notification.local.LocalNotificationReceiver"
+            >
+        </receiver>
+        <receiver
+            android:name="com.welove520.welove.alarm.ConnectionChangeReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.xiaomi.push.service.receivers.NetworkStatusReceiver"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.xiaomi.push.service.receivers.PingReceiver"
+            android:exported=<0x0, type 0x12>
+            android:process=":pushservice"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.xiaomi.push.PING_TIMER"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.welove520.welove.push.thirdparty.xiaomi.receiver.XiaomiPushReceiver"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.xiaomi.mipush.RECEIVE_MESSAGE"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.xiaomi.mipush.MESSAGE_ARRIVED"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.xiaomi.mipush.ERROR"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.welove520.welove.push.thirdparty.huawei.receiver.HuaweiPushReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.huawei.android.push.intent.REGISTRATION"
+                    >
+                </action>
+                <action
+                    android:name="com.huawei.android.push.intent.RECEIVE"
+                    >
+                </action>
+                <action
+                    android:name="com.huawei.android.push.intent.CLICK"
+                    >
+                </action>
+                <action
+                    android:name="com.huawei.intent.action.PUSH_STATE"
+                    >
+                </action>
+                <action
+                    android:name="com.huawei.android.push.plugin.RESPONSE"
+                    >
+                </action>
+            </intent-filter>
+            <meta-data
+                android:name="CS_cloud_ablitity"
+                android:value="successRateAnalytics"
+                >
+            </meta-data>
+        </receiver>
+        <receiver
+            android:name="com.huawei.android.pushagent.PushEventReceiver"
+            android:process=":pushservice"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.huawei.android.push.intent.REFRESH_PUSH_CHANNEL"
+                    >
+                </action>
+                <action
+                    android:name="com.huawei.intent.action.PUSH"
+                    >
+                </action>
+                <action
+                    android:name="com.huawei.intent.action.PUSH_ON"
+                    >
+                </action>
+                <action
+                    android:name="com.huawei.android.push.PLUGIN"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.PACKAGE_ADDED"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.PACKAGE_REMOVED"
+                    >
+                </action>
+                <data
+                    android:scheme="package"
+                    >
+                </data>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.huawei.android.pushagent.PushBootReceiver"
+            android:process=":pushservice"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.huawei.android.push.intent.REGISTER"
+                    >
+                </action>
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+            </intent-filter>
+            <meta-data
+                android:name="CS_cloud_version"
+                android:value="2705"
+                >
+            </meta-data>
+        </receiver>
+        <meta-data
+            android:name="com.crashlytics.ApiKey"
+            android:value="49d1fe0549894a6c96e21e57462d33503ec0588c"
+            >
+        </meta-data>
+        <meta-data
+            android:name="PUSH_APPID"
+            android:value="gljSOZVStk6k3I3wv9mmN7"
+            >
+        </meta-data>
+        <meta-data
+            android:name="PUSH_APPKEY"
+            android:value="yOTdKmgQXx7o6Z2D1JLoM7"
+            >
+        </meta-data>
+        <meta-data
+            android:name="PUSH_APPSECRET"
+            android:value="m5GyEhq5kw5meP50ykOdI"
+            >
+        </meta-data>
+        <service
+            android:label="NotificationCenter"
+            android:name="com.igexin.sdk.PushService"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:process=":pushservice"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.igexin.sdk.action.service.message"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <service
+            android:label="NotificationCenterUser"
+            android:name="com.igexin.sdk.PushServiceUser"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+        </service>
+        <receiver
+            android:name="com.igexin.sdk.PushReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.BOOT_COMPLETED"
+                    >
+                </action>
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.USER_PRESENT"
+                    >
+                </action>
+                <action
+                    android:name="com.igexin.sdk.action.refreshls"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.MEDIA_MOUNTED"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.ACTION_POWER_CONNECTED"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.ACTION_POWER_DISCONNECTED"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.igexin.sdk.PushManagerReceiver"
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.igexin.sdk.action.pushmanager"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.igexin.sdk.PushActivity"
+            android:exported=<0x0, type 0x12>
+            android:process=":pushservice"
+            android:taskAffinity="com.igexin.sdk.PushActivityTask"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.igexin.sdk.GActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:process=":pushservice"
+            android:taskAffinity="com.igexin.sdk.PushActivityTask"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            >
+        </activity>
+        <service
+            android:name="com.igexin.download.DownloadService"
+            android:process=":pushservice"
+            >
+        </service>
+        <receiver
+            android:name="com.igexin.download.DownloadReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <provider
+            android:name="com.igexin.download.DownloadProvider"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:process=":pushservice"
+            android:authorities="downloads.com.welove520.welove"
+            >
+        </provider>
+        <receiver
+            android:name="com.welove520.welove.push.thirdparty.getui.receiver.GetuiPushReceiver"
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.igexin.sdk.action.gljSOZVStk6k3I3wv9mmN7"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <meta-data
+            android:name="com.bumptech.glide.integration.volley.VolleyGlideModule"
+            android:value="GlideModule"
+            >
+        </meta-data>
+    </application>
+</manifest>

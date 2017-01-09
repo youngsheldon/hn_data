@@ -1,0 +1,31 @@
+--2017-01-09 01:27:49--  http://wap.wdsws.cc/xv
+Resolving wap.wdsws.cc... 103.230.122.175
+Connecting to wap.wdsws.cc|103.230.122.175|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://wap.wdsws.cc/xv/ [following]
+--2017-01-09 01:27:51--  http://wap.wdsws.cc/xv/
+Reusing existing connection to wap.wdsws.cc:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 247 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 13.9M=0s
+
+2017-01-09 01:27:51 (13.9 MB/s) - `index.html' saved [247/247]
+
+=======================The second times wget =====================
+--2017-01-09 01:27:51--  http://wap.wdsws.cc/xv/%C2%BC%CF%F18.apk
+Resolving wap.wdsws.cc... 103.230.122.175
+Connecting to wap.wdsws.cc|103.230.122.175|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 209300 (204K) [application/vnd.android.package-archive]
+Saving to: `Â¼Ïñ8.apk'
+
+     0K .......... .......... .......... .......... .......... 24%  121K 1s
+    50K .......... .......... .......... .......... .......... 48% 66.0K 1s
+   100K .......... .......... .......... .......... .......... 73%  402K 0s
+   150K .......... .......... .......... .......... .......... 97%  128K 0s
+   200K ....                                                  100%  138K=1.7s
+
+2017-01-09 01:27:54 (119 KB/s) - `Â¼Ïñ8.apk' saved [209300/209300]
+

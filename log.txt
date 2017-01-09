@@ -10682,3 +10682,542 @@ Traceback (most recent call last):
   File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/axmlparserpy/apk.py", line 87, in save_copy_xml
     with open(path,'w+') as f:
 IOError: [Errno 2] No such file or directory: '/opt/smmc/apk_parse/apk_source/d8d0f11aab5e80143532c23c47655c1c/AndroidManifest.xml'
+[2017-01-08 18:37:57,738] [INFO] apk_report_run.py:84 [35e2e94b17f81f03d4a8d0c8111067c9:begin to decode apk]
+[2017-01-08 18:37:57,740] [INFO] apk_report_run.py:87 [35e2e94b17f81f03d4a8d0c8111067c9:begin to generate data for apk_report_yyyymm]
+[2017-01-08 18:37:57,796] [ERROR] apk_report_run.py:111 35e2e94b17f81f03d4a8d0c8111067c9
+Traceback (most recent call last):
+  File "apk_report_run.py", line 89, in apk_analyze_run
+    apk_report.run()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 53, in run
+    self.parser_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 45, in parser_xml
+    obj2 = XmlParser(self.apk_path,self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 16, in __init__
+    self.get_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 21, in get_xml
+    obj.save_copy_xml(self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/axmlparserpy/apk.py", line 87, in save_copy_xml
+    with open(path,'w+') as f:
+IOError: [Errno 2] No such file or directory: '/opt/smmc/apk_parse/apk_source/35e2e94b17f81f03d4a8d0c8111067c9/AndroidManifest.xml'
+[2017-01-08 18:38:00,134] [INFO] apk_report_run.py:84 [334b105e80e6a0552d1423c5adc84d0a:begin to decode apk]
+[2017-01-08 18:38:00,136] [INFO] apk_report_run.py:87 [334b105e80e6a0552d1423c5adc84d0a:begin to generate data for apk_report_yyyymm]
+[2017-01-08 18:38:00,188] [ERROR] apk_report_run.py:111 334b105e80e6a0552d1423c5adc84d0a
+Traceback (most recent call last):
+  File "apk_report_run.py", line 89, in apk_analyze_run
+    apk_report.run()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 53, in run
+    self.parser_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 45, in parser_xml
+    obj2 = XmlParser(self.apk_path,self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 16, in __init__
+    self.get_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 21, in get_xml
+    obj.save_copy_xml(self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/axmlparserpy/apk.py", line 87, in save_copy_xml
+    with open(path,'w+') as f:
+IOError: [Errno 2] No such file or directory: '/opt/smmc/apk_parse/apk_source/334b105e80e6a0552d1423c5adc84d0a/AndroidManifest.xml'
+[2017-01-08 19:07:58,208] [INFO] apk_report_run.py:77 [85d2493110fbd6f84724abc6f0e74af7:update last_update]
+[2017-01-08 19:09:23,713] [INFO] apk_report_run.py:77 [9e794c1063e1184f05e49ce8a3cfd354:update last_update]
+[2017-01-08 19:10:11,550] [INFO] apk_report_run.py:77 [35e2e94b17f81f03d4a8d0c8111067c9:update last_update]
+[2017-01-08 19:18:52,164] [INFO] apk_report_run.py:77 [9e794c1063e1184f05e49ce8a3cfd354:update last_update]
+[2017-01-08 19:38:32,093] [INFO] apk_report_run.py:84 [f725af7fb887278e01b0cff7af515f7a:begin to decode apk]
+[2017-01-08 19:38:32,096] [INFO] apk_report_run.py:87 [f725af7fb887278e01b0cff7af515f7a:begin to generate data for apk_report_yyyymm]
+[2017-01-08 19:38:32,271] [ERROR] apk_report_run.py:111 f725af7fb887278e01b0cff7af515f7a
+Traceback (most recent call last):
+  File "apk_report_run.py", line 89, in apk_analyze_run
+    apk_report.run()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 53, in run
+    self.parser_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 45, in parser_xml
+    obj2 = XmlParser(self.apk_path,self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 16, in __init__
+    self.get_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 21, in get_xml
+    obj.save_copy_xml(self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/axmlparserpy/apk.py", line 87, in save_copy_xml
+    with open(path,'w+') as f:
+IOError: [Errno 2] No such file or directory: '/opt/smmc/apk_parse/apk_source/f725af7fb887278e01b0cff7af515f7a/AndroidManifest.xml'
+[2017-01-08 19:58:14,614] [INFO] apk_report_run.py:77 [4e55932ea69b439fd8438c7fd100ff04:update last_update]
+[2017-01-08 19:58:23,008] [INFO] apk_report_run.py:77 [5850a6c80be74d1791f40f7a2b1dbcba:update last_update]
+[2017-01-08 20:10:44,521] [INFO] apk_report_run.py:77 [35e2e94b17f81f03d4a8d0c8111067c9:update last_update]
+[2017-01-08 20:19:38,198] [INFO] apk_report_run.py:77 [fce7877d48f352fd79d98e7ee49ede44:update last_update]
+[2017-01-08 20:38:38,786] [INFO] apk_report_run.py:77 [4e55932ea69b439fd8438c7fd100ff04:update last_update]
+[2017-01-08 20:58:42,605] [INFO] apk_report_run.py:77 [4ad941754dad81b1132d23a3481fc28d:update last_update]
+[2017-01-08 21:06:59,748] [INFO] apk_report_run.py:84 [f0e349196344927e82d957745025a9d0:begin to decode apk]
+[2017-01-08 21:06:59,750] [INFO] apk_report_run.py:87 [f0e349196344927e82d957745025a9d0:begin to generate data for apk_report_yyyymm]
+[2017-01-08 21:06:59,806] [ERROR] apk_report_run.py:111 f0e349196344927e82d957745025a9d0
+Traceback (most recent call last):
+  File "apk_report_run.py", line 89, in apk_analyze_run
+    apk_report.run()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 53, in run
+    self.parser_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 45, in parser_xml
+    obj2 = XmlParser(self.apk_path,self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 16, in __init__
+    self.get_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 21, in get_xml
+    obj.save_copy_xml(self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/axmlparserpy/apk.py", line 87, in save_copy_xml
+    with open(path,'w+') as f:
+IOError: [Errno 2] No such file or directory: '/opt/smmc/apk_parse/apk_source/f0e349196344927e82d957745025a9d0/AndroidManifest.xml'
+[2017-01-08 21:16:56,004] [INFO] apk_report_run.py:77 [35e2e94b17f81f03d4a8d0c8111067c9:update last_update]
+[2017-01-08 21:38:54,452] [INFO] apk_report_run.py:84 [4cd3023a1f4af7bb1710b82a9bd50daa:begin to decode apk]
+[2017-01-08 21:38:54,454] [INFO] apk_report_run.py:87 [4cd3023a1f4af7bb1710b82a9bd50daa:begin to generate data for apk_report_yyyymm]
+[2017-01-08 21:38:54,512] [ERROR] apk_report_run.py:111 4cd3023a1f4af7bb1710b82a9bd50daa
+Traceback (most recent call last):
+  File "apk_report_run.py", line 89, in apk_analyze_run
+    apk_report.run()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 53, in run
+    self.parser_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 45, in parser_xml
+    obj2 = XmlParser(self.apk_path,self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 16, in __init__
+    self.get_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 21, in get_xml
+    obj.save_copy_xml(self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/axmlparserpy/apk.py", line 87, in save_copy_xml
+    with open(path,'w+') as f:
+IOError: [Errno 2] No such file or directory: '/opt/smmc/apk_parse/apk_source/4cd3023a1f4af7bb1710b82a9bd50daa/AndroidManifest.xml'
+[2017-01-08 21:42:10,310] [INFO] apk_report_run.py:84 [5542e8bbb7b55bb81a38fd5f8968249d:begin to decode apk]
+[2017-01-08 21:42:10,312] [INFO] apk_report_run.py:87 [5542e8bbb7b55bb81a38fd5f8968249d:begin to generate data for apk_report_yyyymm]
+[2017-01-08 21:42:10,356] [ERROR] apk_report_run.py:111 5542e8bbb7b55bb81a38fd5f8968249d
+Traceback (most recent call last):
+  File "apk_report_run.py", line 89, in apk_analyze_run
+    apk_report.run()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 53, in run
+    self.parser_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 45, in parser_xml
+    obj2 = XmlParser(self.apk_path,self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 16, in __init__
+    self.get_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 21, in get_xml
+    obj.save_copy_xml(self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/axmlparserpy/apk.py", line 87, in save_copy_xml
+    with open(path,'w+') as f:
+IOError: [Errno 2] No such file or directory: '/opt/smmc/apk_parse/apk_source/5542e8bbb7b55bb81a38fd5f8968249d/AndroidManifest.xml'
+[2017-01-08 21:48:04,191] [INFO] apk_report_run.py:84 [0a27b0f5d1d7df222fb03ff71038a513:begin to decode apk]
+[2017-01-08 21:48:04,193] [INFO] apk_report_run.py:87 [0a27b0f5d1d7df222fb03ff71038a513:begin to generate data for apk_report_yyyymm]
+[2017-01-08 21:48:04,250] [ERROR] apk_report_run.py:111 0a27b0f5d1d7df222fb03ff71038a513
+Traceback (most recent call last):
+  File "apk_report_run.py", line 89, in apk_analyze_run
+    apk_report.run()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 53, in run
+    self.parser_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 45, in parser_xml
+    obj2 = XmlParser(self.apk_path,self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 16, in __init__
+    self.get_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 21, in get_xml
+    obj.save_copy_xml(self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/axmlparserpy/apk.py", line 87, in save_copy_xml
+    with open(path,'w+') as f:
+IOError: [Errno 2] No such file or directory: '/opt/smmc/apk_parse/apk_source/0a27b0f5d1d7df222fb03ff71038a513/AndroidManifest.xml'
+[2017-01-08 21:49:09,007] [INFO] apk_report_run.py:77 [9e794c1063e1184f05e49ce8a3cfd354:update last_update]
+[2017-01-08 21:57:40,473] [INFO] apk_report_run.py:77 [02b08985f4f6b3f43b78910d168247f9:update last_update]
+[2017-01-08 21:57:53,464] [INFO] apk_report_run.py:77 [5850a6c80be74d1791f40f7a2b1dbcba:update last_update]
+[2017-01-08 22:05:03,680] [INFO] apk_report_run.py:84 [f483f0879a20e97d4c48008b9e59d558:begin to decode apk]
+[2017-01-08 22:05:03,682] [INFO] apk_report_run.py:87 [f483f0879a20e97d4c48008b9e59d558:begin to generate data for apk_report_yyyymm]
+[2017-01-08 22:05:03,741] [ERROR] apk_report_run.py:111 f483f0879a20e97d4c48008b9e59d558
+Traceback (most recent call last):
+  File "apk_report_run.py", line 89, in apk_analyze_run
+    apk_report.run()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 53, in run
+    self.parser_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 45, in parser_xml
+    obj2 = XmlParser(self.apk_path,self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 16, in __init__
+    self.get_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 21, in get_xml
+    obj.save_copy_xml(self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/axmlparserpy/apk.py", line 87, in save_copy_xml
+    with open(path,'w+') as f:
+IOError: [Errno 2] No such file or directory: '/opt/smmc/apk_parse/apk_source/f483f0879a20e97d4c48008b9e59d558/AndroidManifest.xml'
+[2017-01-08 22:08:40,058] [INFO] apk_report_run.py:84 [d6c0bbf1d05b030a64eb0b57781326ff:begin to decode apk]
+[2017-01-08 22:08:40,061] [INFO] apk_report_run.py:87 [d6c0bbf1d05b030a64eb0b57781326ff:begin to generate data for apk_report_yyyymm]
+[2017-01-08 22:08:40,117] [ERROR] apk_report_run.py:111 d6c0bbf1d05b030a64eb0b57781326ff
+Traceback (most recent call last):
+  File "apk_report_run.py", line 89, in apk_analyze_run
+    apk_report.run()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 53, in run
+    self.parser_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 45, in parser_xml
+    obj2 = XmlParser(self.apk_path,self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 16, in __init__
+    self.get_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 21, in get_xml
+    obj.save_copy_xml(self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/axmlparserpy/apk.py", line 87, in save_copy_xml
+    with open(path,'w+') as f:
+IOError: [Errno 2] No such file or directory: '/opt/smmc/apk_parse/apk_source/d6c0bbf1d05b030a64eb0b57781326ff/AndroidManifest.xml'
+[2017-01-08 22:17:22,336] [INFO] apk_report_run.py:77 [020d2abb85dc9feb164e2471cfd279e3:update last_update]
+[2017-01-09 00:38:10,527] [INFO] apk_report_run.py:84 [1a9eb69009d0da62069c73bf5b9e4ae1:begin to decode apk]
+[2017-01-09 00:38:10,530] [INFO] apk_report_run.py:87 [1a9eb69009d0da62069c73bf5b9e4ae1:begin to generate data for apk_report_yyyymm]
+[2017-01-09 00:38:10,538] [ERROR] apk_report_run.py:111 1a9eb69009d0da62069c73bf5b9e4ae1
+Traceback (most recent call last):
+  File "apk_report_run.py", line 89, in apk_analyze_run
+    apk_report.run()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 53, in run
+    self.parser_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 45, in parser_xml
+    obj2 = XmlParser(self.apk_path,self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 16, in __init__
+    self.get_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 20, in get_xml
+    obj = APK(self.apk_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/axmlparserpy/apk.py", line 65, in __init__
+    self.zip = zipfile.ZipFile(StringIO.StringIO(self.__raw))
+  File "/usr/local/python27/lib/python2.7/zipfile.py", line 766, in __init__
+    self._RealGetContents()
+  File "/usr/local/python27/lib/python2.7/zipfile.py", line 807, in _RealGetContents
+    raise BadZipfile, "File is not a zip file"
+BadZipfile: File is not a zip file
+[2017-01-09 01:28:00,294] [INFO] apk_report_run.py:77 [0a27b0f5d1d7df222fb03ff71038a513:update last_update]
+[2017-01-09 01:47:55,382] [INFO] apk_report_run.py:84 [82f5bc62ca0b3979bcb8d3ef31488fd4:begin to decode apk]
+[2017-01-09 01:47:55,385] [INFO] apk_report_run.py:87 [82f5bc62ca0b3979bcb8d3ef31488fd4:begin to generate data for apk_report_yyyymm]
+[2017-01-09 01:47:55,440] [ERROR] apk_report_run.py:111 82f5bc62ca0b3979bcb8d3ef31488fd4
+Traceback (most recent call last):
+  File "apk_report_run.py", line 89, in apk_analyze_run
+    apk_report.run()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 53, in run
+    self.parser_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 45, in parser_xml
+    obj2 = XmlParser(self.apk_path,self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 16, in __init__
+    self.get_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 21, in get_xml
+    obj.save_copy_xml(self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/axmlparserpy/apk.py", line 87, in save_copy_xml
+    with open(path,'w+') as f:
+IOError: [Errno 2] No such file or directory: '/opt/smmc/apk_parse/apk_source/82f5bc62ca0b3979bcb8d3ef31488fd4/AndroidManifest.xml'
+[2017-01-09 02:16:57,078] [INFO] apk_report_run.py:84 [b15b797e07ec1a416403b435b359b392:begin to decode apk]
+[2017-01-09 02:16:57,080] [INFO] apk_report_run.py:87 [b15b797e07ec1a416403b435b359b392:begin to generate data for apk_report_yyyymm]
+[2017-01-09 02:16:57,135] [ERROR] apk_report_run.py:111 b15b797e07ec1a416403b435b359b392
+Traceback (most recent call last):
+  File "apk_report_run.py", line 89, in apk_analyze_run
+    apk_report.run()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 53, in run
+    self.parser_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 45, in parser_xml
+    obj2 = XmlParser(self.apk_path,self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 16, in __init__
+    self.get_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 21, in get_xml
+    obj.save_copy_xml(self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/axmlparserpy/apk.py", line 87, in save_copy_xml
+    with open(path,'w+') as f:
+IOError: [Errno 2] No such file or directory: '/opt/smmc/apk_parse/apk_source/b15b797e07ec1a416403b435b359b392/AndroidManifest.xml'
+[2017-01-09 03:08:52,382] [INFO] apk_report_run.py:77 [d8d0f11aab5e80143532c23c47655c1c:update last_update]
+[2017-01-09 03:19:09,971] [INFO] apk_report_run.py:77 [b15b797e07ec1a416403b435b359b392:update last_update]
+[2017-01-09 03:57:17,204] [INFO] apk_report_run.py:77 [d8d0f11aab5e80143532c23c47655c1c:update last_update]
+[2017-01-09 07:09:57,293] [INFO] apk_report_run.py:77 [5850a6c80be74d1791f40f7a2b1dbcba:update last_update]
+[2017-01-09 07:28:54,746] [INFO] apk_report_run.py:77 [9e794c1063e1184f05e49ce8a3cfd354:update last_update]
+[2017-01-09 07:48:07,866] [INFO] apk_report_run.py:77 [fce7877d48f352fd79d98e7ee49ede44:update last_update]
+[2017-01-09 07:57:26,736] [INFO] apk_report_run.py:84 [25b1a06f7d948cf41d867e49e2a7a478:begin to decode apk]
+[2017-01-09 07:57:26,738] [INFO] apk_report_run.py:87 [25b1a06f7d948cf41d867e49e2a7a478:begin to generate data for apk_report_yyyymm]
+[2017-01-09 07:57:26,790] [ERROR] apk_report_run.py:111 25b1a06f7d948cf41d867e49e2a7a478
+Traceback (most recent call last):
+  File "apk_report_run.py", line 89, in apk_analyze_run
+    apk_report.run()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 53, in run
+    self.parser_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 45, in parser_xml
+    obj2 = XmlParser(self.apk_path,self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 16, in __init__
+    self.get_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 21, in get_xml
+    obj.save_copy_xml(self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/axmlparserpy/apk.py", line 87, in save_copy_xml
+    with open(path,'w+') as f:
+IOError: [Errno 2] No such file or directory: '/opt/smmc/apk_parse/apk_source/25b1a06f7d948cf41d867e49e2a7a478/AndroidManifest.xml'
+[2017-01-09 07:57:38,401] [INFO] apk_report_run.py:77 [020d2abb85dc9feb164e2471cfd279e3:update last_update]
+[2017-01-09 08:08:05,089] [INFO] apk_report_run.py:77 [35e2e94b17f81f03d4a8d0c8111067c9:update last_update]
+[2017-01-09 08:17:40,504] [INFO] apk_report_run.py:77 [d6d8f5b233b6f2f0012ad978e9a13e6d:update last_update]
+[2017-01-09 08:23:58,634] [INFO] apk_report_run.py:77 [9e794c1063e1184f05e49ce8a3cfd354:update last_update]
+[2017-01-09 08:41:18,191] [INFO] apk_report_run.py:84 [ed84498c26310ef2d433387e5a201a4d:begin to decode apk]
+[2017-01-09 08:41:18,194] [INFO] apk_report_run.py:87 [ed84498c26310ef2d433387e5a201a4d:begin to generate data for apk_report_yyyymm]
+[2017-01-09 08:41:18,248] [ERROR] apk_report_run.py:111 ed84498c26310ef2d433387e5a201a4d
+Traceback (most recent call last):
+  File "apk_report_run.py", line 89, in apk_analyze_run
+    apk_report.run()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 53, in run
+    self.parser_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 45, in parser_xml
+    obj2 = XmlParser(self.apk_path,self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 16, in __init__
+    self.get_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 21, in get_xml
+    obj.save_copy_xml(self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/axmlparserpy/apk.py", line 87, in save_copy_xml
+    with open(path,'w+') as f:
+IOError: [Errno 2] No such file or directory: '/opt/smmc/apk_parse/apk_source/ed84498c26310ef2d433387e5a201a4d/AndroidManifest.xml'
+[2017-01-09 08:42:50,369] [INFO] apk_report_run.py:84 [b934698c133f5d893bd7a227395598ae:begin to decode apk]
+[2017-01-09 08:42:50,371] [INFO] apk_report_run.py:87 [b934698c133f5d893bd7a227395598ae:begin to generate data for apk_report_yyyymm]
+[2017-01-09 08:42:50,424] [ERROR] apk_report_run.py:111 b934698c133f5d893bd7a227395598ae
+Traceback (most recent call last):
+  File "apk_report_run.py", line 89, in apk_analyze_run
+    apk_report.run()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 53, in run
+    self.parser_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 45, in parser_xml
+    obj2 = XmlParser(self.apk_path,self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 16, in __init__
+    self.get_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 21, in get_xml
+    obj.save_copy_xml(self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/axmlparserpy/apk.py", line 87, in save_copy_xml
+    with open(path,'w+') as f:
+IOError: [Errno 2] No such file or directory: '/opt/smmc/apk_parse/apk_source/b934698c133f5d893bd7a227395598ae/AndroidManifest.xml'
+[2017-01-09 08:48:27,035] [INFO] apk_report_run.py:77 [020d2abb85dc9feb164e2471cfd279e3:update last_update]
+[2017-01-09 09:07:11,286] [INFO] apk_report_run.py:77 [fce7877d48f352fd79d98e7ee49ede44:update last_update]
+[2017-01-09 09:18:25,053] [INFO] apk_report_run.py:77 [02b08985f4f6b3f43b78910d168247f9:update last_update]
+[2017-01-09 09:29:45,917] [INFO] apk_report_run.py:77 [ad0b9a91c5cf0e74b06a65e415491043:update last_update]
+[2017-01-09 09:29:54,243] [INFO] apk_report_run.py:77 [5850a6c80be74d1791f40f7a2b1dbcba:update last_update]
+[2017-01-09 09:31:26,717] [INFO] apk_report_run.py:77 [9e794c1063e1184f05e49ce8a3cfd354:update last_update]
+[2017-01-09 09:58:09,343] [INFO] apk_report_run.py:77 [dc80d96925e9f54175719832d3f0f675:update last_update]
+[2017-01-09 09:58:23,361] [INFO] apk_report_run.py:84 [d9de005162a6d87808ecb751b9239d9e:begin to decode apk]
+[2017-01-09 09:58:23,363] [INFO] apk_report_run.py:87 [d9de005162a6d87808ecb751b9239d9e:begin to generate data for apk_report_yyyymm]
+[2017-01-09 09:58:23,388] [ERROR] apk_report_run.py:111 d9de005162a6d87808ecb751b9239d9e
+Traceback (most recent call last):
+  File "apk_report_run.py", line 89, in apk_analyze_run
+    apk_report.run()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 53, in run
+    self.parser_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 45, in parser_xml
+    obj2 = XmlParser(self.apk_path,self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 16, in __init__
+    self.get_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 20, in get_xml
+    obj = APK(self.apk_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/axmlparserpy/apk.py", line 65, in __init__
+    self.zip = zipfile.ZipFile(StringIO.StringIO(self.__raw))
+  File "/usr/local/python27/lib/python2.7/zipfile.py", line 766, in __init__
+    self._RealGetContents()
+  File "/usr/local/python27/lib/python2.7/zipfile.py", line 807, in _RealGetContents
+    raise BadZipfile, "File is not a zip file"
+BadZipfile: File is not a zip file
+[2017-01-09 10:25:41,492] [INFO] apk_report_run.py:77 [fce7877d48f352fd79d98e7ee49ede44:update last_update]
+[2017-01-09 10:38:52,777] [INFO] apk_report_run.py:77 [9e794c1063e1184f05e49ce8a3cfd354:update last_update]
+[2017-01-09 10:48:52,195] [INFO] apk_report_run.py:84 [746c5b18e5988eeb365ab820f3809291:begin to decode apk]
+[2017-01-09 10:48:52,197] [INFO] apk_report_run.py:87 [746c5b18e5988eeb365ab820f3809291:begin to generate data for apk_report_yyyymm]
+[2017-01-09 10:48:52,365] [ERROR] apk_report_run.py:111 746c5b18e5988eeb365ab820f3809291
+Traceback (most recent call last):
+  File "apk_report_run.py", line 89, in apk_analyze_run
+    apk_report.run()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 53, in run
+    self.parser_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 45, in parser_xml
+    obj2 = XmlParser(self.apk_path,self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 16, in __init__
+    self.get_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 21, in get_xml
+    obj.save_copy_xml(self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/axmlparserpy/apk.py", line 87, in save_copy_xml
+    with open(path,'w+') as f:
+IOError: [Errno 2] No such file or directory: '/opt/smmc/apk_parse/apk_source/746c5b18e5988eeb365ab820f3809291/AndroidManifest.xml'
+[2017-01-09 10:49:12,319] [INFO] apk_report_run.py:84 [48c34f62190466a7085c69e93f9ea35a:begin to decode apk]
+[2017-01-09 10:49:12,322] [INFO] apk_report_run.py:87 [48c34f62190466a7085c69e93f9ea35a:begin to generate data for apk_report_yyyymm]
+[2017-01-09 10:49:12,514] [ERROR] apk_report_run.py:111 48c34f62190466a7085c69e93f9ea35a
+Traceback (most recent call last):
+  File "apk_report_run.py", line 89, in apk_analyze_run
+    apk_report.run()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 53, in run
+    self.parser_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 45, in parser_xml
+    obj2 = XmlParser(self.apk_path,self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 16, in __init__
+    self.get_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 20, in get_xml
+    obj = APK(self.apk_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/axmlparserpy/apk.py", line 72, in __init__
+    self.xml[i] = minidom.parseString(AXMLPrinter(self.zip.read(i)).getBuff())
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/axmlparserpy/axmlprinter.py", line 37, in __init__
+    _type = self.axml.next()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/axmlparserpy/axmlparser.py", line 59, in next
+    self.doNext()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/axmlparserpy/axmlparser.py", line 99, in doNext
+    raise("ooo")
+TypeError: exceptions must be old-style classes or derived from BaseException, not str
+[2017-01-09 11:08:12,841] [INFO] apk_report_run.py:77 [35e2e94b17f81f03d4a8d0c8111067c9:update last_update]
+[2017-01-09 11:12:09,105] [INFO] apk_report_run.py:77 [baf20dafcd0442597c5478e4b7d9ee43:update last_update]
+[2017-01-09 11:25:23,281] [INFO] apk_report_run.py:77 [9e794c1063e1184f05e49ce8a3cfd354:update last_update]
+[2017-01-09 11:27:11,877] [INFO] apk_report_run.py:77 [0f4569bbbfd6bab5ccc936908e06193f:update last_update]
+[2017-01-09 11:39:20,776] [INFO] apk_report_run.py:77 [5850a6c80be74d1791f40f7a2b1dbcba:update last_update]
+[2017-01-09 11:42:45,357] [INFO] apk_report_run.py:77 [09c3c25e31738d24c1e15298be23da19:update last_update]
+[2017-01-09 11:46:11,381] [INFO] apk_report_run.py:77 [7aa9cbe28295d8b762642bbaa09ee978:update last_update]
+[2017-01-09 11:58:41,709] [INFO] apk_report_run.py:77 [888cd8a816ff59f36192c2e08af54072:update last_update]
+[2017-01-09 12:07:41,241] [INFO] apk_report_run.py:84 [d08ae7852d538e4707100d14fd861920:begin to decode apk]
+[2017-01-09 12:07:41,244] [INFO] apk_report_run.py:87 [d08ae7852d538e4707100d14fd861920:begin to generate data for apk_report_yyyymm]
+[2017-01-09 12:07:41,456] [ERROR] apk_report_run.py:111 d08ae7852d538e4707100d14fd861920
+Traceback (most recent call last):
+  File "apk_report_run.py", line 89, in apk_analyze_run
+    apk_report.run()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 53, in run
+    self.parser_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 45, in parser_xml
+    obj2 = XmlParser(self.apk_path,self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 16, in __init__
+    self.get_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 21, in get_xml
+    obj.save_copy_xml(self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/axmlparserpy/apk.py", line 87, in save_copy_xml
+    with open(path,'w+') as f:
+IOError: [Errno 2] No such file or directory: '/opt/smmc/apk_parse/apk_source/d08ae7852d538e4707100d14fd861920/AndroidManifest.xml'
+[2017-01-09 12:17:55,385] [INFO] apk_report_run.py:77 [888cd8a816ff59f36192c2e08af54072:update last_update]
+[2017-01-09 12:27:24,112] [INFO] apk_report_run.py:77 [9e794c1063e1184f05e49ce8a3cfd354:update last_update]
+[2017-01-09 12:38:54,121] [INFO] apk_report_run.py:77 [85d2493110fbd6f84724abc6f0e74af7:update last_update]
+[2017-01-09 12:39:01,351] [INFO] apk_report_run.py:77 [020d2abb85dc9feb164e2471cfd279e3:update last_update]
+[2017-01-09 12:39:02,789] [INFO] apk_report_run.py:77 [b934698c133f5d893bd7a227395598ae:update last_update]
+[2017-01-09 12:49:59,937] [INFO] apk_report_run.py:77 [ad0b9a91c5cf0e74b06a65e415491043:update last_update]
+[2017-01-09 12:50:21,413] [INFO] apk_report_run.py:77 [dc80d96925e9f54175719832d3f0f675:update last_update]
+[2017-01-09 13:15:01,283] [INFO] apk_report_run.py:84 [d29b466ed7c0b314d0279155207507f2:begin to decode apk]
+[2017-01-09 13:15:01,285] [INFO] apk_report_run.py:87 [d29b466ed7c0b314d0279155207507f2:begin to generate data for apk_report_yyyymm]
+[2017-01-09 13:15:01,343] [ERROR] apk_report_run.py:111 d29b466ed7c0b314d0279155207507f2
+Traceback (most recent call last):
+  File "apk_report_run.py", line 89, in apk_analyze_run
+    apk_report.run()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 53, in run
+    self.parser_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 45, in parser_xml
+    obj2 = XmlParser(self.apk_path,self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 16, in __init__
+    self.get_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 21, in get_xml
+    obj.save_copy_xml(self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/axmlparserpy/apk.py", line 87, in save_copy_xml
+    with open(path,'w+') as f:
+IOError: [Errno 2] No such file or directory: '/opt/smmc/apk_parse/apk_source/d29b466ed7c0b314d0279155207507f2/AndroidManifest.xml'
+[2017-01-09 13:15:16,813] [INFO] apk_report_run.py:77 [9e794c1063e1184f05e49ce8a3cfd354:update last_update]
+[2017-01-09 13:28:23,779] [INFO] apk_report_run.py:77 [7aa9cbe28295d8b762642bbaa09ee978:update last_update]
+[2017-01-09 13:28:31,108] [INFO] apk_report_run.py:84 [63bbac9cf8e76121acbba00b51e951e9:begin to decode apk]
+[2017-01-09 13:28:31,110] [INFO] apk_report_run.py:87 [63bbac9cf8e76121acbba00b51e951e9:begin to generate data for apk_report_yyyymm]
+[2017-01-09 13:28:31,148] [ERROR] apk_report_run.py:111 63bbac9cf8e76121acbba00b51e951e9
+Traceback (most recent call last):
+  File "apk_report_run.py", line 89, in apk_analyze_run
+    apk_report.run()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 53, in run
+    self.parser_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 45, in parser_xml
+    obj2 = XmlParser(self.apk_path,self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 16, in __init__
+    self.get_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 21, in get_xml
+    obj.save_copy_xml(self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/axmlparserpy/apk.py", line 87, in save_copy_xml
+    with open(path,'w+') as f:
+IOError: [Errno 2] No such file or directory: '/opt/smmc/apk_parse/apk_source/63bbac9cf8e76121acbba00b51e951e9/AndroidManifest.xml'
+[2017-01-09 13:33:06,596] [INFO] apk_report_run.py:77 [888cd8a816ff59f36192c2e08af54072:update last_update]
+[2017-01-09 13:47:21,441] [INFO] apk_report_run.py:84 [78b4ae26a3e7d3dcc6557a3e37c4c0af:begin to decode apk]
+[2017-01-09 13:47:21,444] [INFO] apk_report_run.py:87 [78b4ae26a3e7d3dcc6557a3e37c4c0af:begin to generate data for apk_report_yyyymm]
+[2017-01-09 13:47:21,519] [ERROR] apk_report_run.py:111 78b4ae26a3e7d3dcc6557a3e37c4c0af
+Traceback (most recent call last):
+  File "apk_report_run.py", line 89, in apk_analyze_run
+    apk_report.run()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 53, in run
+    self.parser_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 45, in parser_xml
+    obj2 = XmlParser(self.apk_path,self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 16, in __init__
+    self.get_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 21, in get_xml
+    obj.save_copy_xml(self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/axmlparserpy/apk.py", line 87, in save_copy_xml
+    with open(path,'w+') as f:
+IOError: [Errno 2] No such file or directory: '/opt/smmc/apk_parse/apk_source/78b4ae26a3e7d3dcc6557a3e37c4c0af/AndroidManifest.xml'
+[2017-01-09 13:48:05,956] [INFO] apk_report_run.py:84 [6174359055b8ffb1e74a4d04b9c733ce:begin to decode apk]
+[2017-01-09 13:48:05,958] [INFO] apk_report_run.py:87 [6174359055b8ffb1e74a4d04b9c733ce:begin to generate data for apk_report_yyyymm]
+[2017-01-09 13:48:05,966] [ERROR] apk_report_run.py:111 6174359055b8ffb1e74a4d04b9c733ce
+Traceback (most recent call last):
+  File "apk_report_run.py", line 89, in apk_analyze_run
+    apk_report.run()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 53, in run
+    self.parser_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 45, in parser_xml
+    obj2 = XmlParser(self.apk_path,self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 16, in __init__
+    self.get_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 20, in get_xml
+    obj = APK(self.apk_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/axmlparserpy/apk.py", line 65, in __init__
+    self.zip = zipfile.ZipFile(StringIO.StringIO(self.__raw))
+  File "/usr/local/python27/lib/python2.7/zipfile.py", line 766, in __init__
+    self._RealGetContents()
+  File "/usr/local/python27/lib/python2.7/zipfile.py", line 807, in _RealGetContents
+    raise BadZipfile, "File is not a zip file"
+BadZipfile: File is not a zip file
+[2017-01-09 13:50:34,934] [INFO] apk_report_run.py:77 [888cd8a816ff59f36192c2e08af54072:update last_update]
+[2017-01-09 13:54:55,096] [INFO] apk_report_run.py:77 [dc80d96925e9f54175719832d3f0f675:update last_update]
+[2017-01-09 13:57:30,464] [INFO] apk_report_run.py:77 [09c3c25e31738d24c1e15298be23da19:update last_update]
+[2017-01-09 14:08:58,027] [INFO] apk_report_run.py:77 [eb998a1ce7215f14c7aa9c9775f210af:update last_update]
+[2017-01-09 14:23:23,375] [INFO] apk_report_run.py:77 [9e794c1063e1184f05e49ce8a3cfd354:update last_update]
+[2017-01-09 14:23:23,703] [INFO] apk_report_run.py:77 [7aa9cbe28295d8b762642bbaa09ee978:update last_update]
+[2017-01-09 14:30:09,797] [INFO] apk_report_run.py:77 [85d2493110fbd6f84724abc6f0e74af7:update last_update]
+[2017-01-09 14:49:16,760] [INFO] apk_report_run.py:77 [35e2e94b17f81f03d4a8d0c8111067c9:update last_update]
+[2017-01-09 14:56:11,732] [INFO] apk_report_run.py:77 [888cd8a816ff59f36192c2e08af54072:update last_update]
+[2017-01-09 15:06:52,754] [INFO] apk_report_run.py:77 [888cd8a816ff59f36192c2e08af54072:update last_update]
+[2017-01-09 15:15:19,844] [INFO] apk_report_run.py:77 [85d2493110fbd6f84724abc6f0e74af7:update last_update]
+[2017-01-09 15:17:15,321] [INFO] apk_report_run.py:77 [7aa9cbe28295d8b762642bbaa09ee978:update last_update]
+[2017-01-09 15:17:21,433] [INFO] apk_report_run.py:77 [0f4569bbbfd6bab5ccc936908e06193f:update last_update]
+[2017-01-09 15:18:21,122] [INFO] apk_report_run.py:77 [9e794c1063e1184f05e49ce8a3cfd354:update last_update]
+[2017-01-09 15:37:47,867] [INFO] apk_report_run.py:77 [888cd8a816ff59f36192c2e08af54072:update last_update]
+[2017-01-09 15:43:38,223] [INFO] apk_report_run.py:84 [82b8ff53f3f5fda340ea82d1308cc71a:begin to decode apk]
+[2017-01-09 15:43:38,226] [INFO] apk_report_run.py:87 [82b8ff53f3f5fda340ea82d1308cc71a:begin to generate data for apk_report_yyyymm]
+[2017-01-09 15:43:38,583] [ERROR] apk_report_run.py:111 82b8ff53f3f5fda340ea82d1308cc71a
+Traceback (most recent call last):
+  File "apk_report_run.py", line 89, in apk_analyze_run
+    apk_report.run()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 53, in run
+    self.parser_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 45, in parser_xml
+    obj2 = XmlParser(self.apk_path,self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 16, in __init__
+    self.get_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 21, in get_xml
+    obj.save_copy_xml(self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/axmlparserpy/apk.py", line 87, in save_copy_xml
+    with open(path,'w+') as f:
+IOError: [Errno 2] No such file or directory: '/opt/smmc/apk_parse/apk_source/82b8ff53f3f5fda340ea82d1308cc71a/AndroidManifest.xml'
+[2017-01-09 15:58:28,583] [INFO] apk_report_run.py:77 [85d2493110fbd6f84724abc6f0e74af7:update last_update]
+[2017-01-09 16:18:54,187] [INFO] apk_report_run.py:77 [8f5532e8f1d25dd2ae78453834620485:update last_update]
+[2017-01-09 16:18:55,643] [INFO] apk_report_run.py:84 [6d94c2e4f296cb54c5cb391d8ba077ae:begin to decode apk]
+[2017-01-09 16:18:55,645] [INFO] apk_report_run.py:87 [6d94c2e4f296cb54c5cb391d8ba077ae:begin to generate data for apk_report_yyyymm]
+[2017-01-09 16:18:55,702] [ERROR] apk_report_run.py:111 6d94c2e4f296cb54c5cb391d8ba077ae
+Traceback (most recent call last):
+  File "apk_report_run.py", line 89, in apk_analyze_run
+    apk_report.run()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 53, in run
+    self.parser_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 45, in parser_xml
+    obj2 = XmlParser(self.apk_path,self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 16, in __init__
+    self.get_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 21, in get_xml
+    obj.save_copy_xml(self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/axmlparserpy/apk.py", line 87, in save_copy_xml
+    with open(path,'w+') as f:
+IOError: [Errno 2] No such file or directory: '/opt/smmc/apk_parse/apk_source/6d94c2e4f296cb54c5cb391d8ba077ae/AndroidManifest.xml'
+[2017-01-09 16:19:23,971] [INFO] apk_report_run.py:77 [9e794c1063e1184f05e49ce8a3cfd354:update last_update]
+[2017-01-09 16:40:01,339] [INFO] apk_report_run.py:77 [9a11405b139b7d64bb54d8bca39c480c:update last_update]
+[2017-01-09 16:40:46,122] [INFO] apk_report_run.py:77 [4e55932ea69b439fd8438c7fd100ff04:update last_update]
+[2017-01-09 16:52:48,107] [INFO] apk_report_run.py:77 [888cd8a816ff59f36192c2e08af54072:update last_update]
+[2017-01-09 16:55:54,720] [INFO] apk_report_run.py:84 [47a6a2fbf7c3344d99eae057204eec3f:begin to decode apk]
+[2017-01-09 16:55:54,722] [INFO] apk_report_run.py:87 [47a6a2fbf7c3344d99eae057204eec3f:begin to generate data for apk_report_yyyymm]
+[2017-01-09 16:55:54,780] [ERROR] apk_report_run.py:111 47a6a2fbf7c3344d99eae057204eec3f
+Traceback (most recent call last):
+  File "apk_report_run.py", line 89, in apk_analyze_run
+    apk_report.run()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 53, in run
+    self.parser_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 45, in parser_xml
+    obj2 = XmlParser(self.apk_path,self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 16, in __init__
+    self.get_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 21, in get_xml
+    obj.save_copy_xml(self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/axmlparserpy/apk.py", line 87, in save_copy_xml
+    with open(path,'w+') as f:
+IOError: [Errno 2] No such file or directory: '/opt/smmc/apk_parse/apk_source/47a6a2fbf7c3344d99eae057204eec3f/AndroidManifest.xml'
+[2017-01-09 17:04:36,808] [INFO] apk_report_run.py:77 [d6d8f5b233b6f2f0012ad978e9a13e6d:update last_update]
+[2017-01-09 17:18:45,590] [INFO] apk_report_run.py:77 [7aa9cbe28295d8b762642bbaa09ee978:update last_update]
+[2017-01-09 17:19:24,585] [INFO] apk_report_run.py:77 [9e794c1063e1184f05e49ce8a3cfd354:update last_update]
+[2017-01-09 17:22:07,602] [INFO] apk_report_run.py:77 [093c2aec5aabc41be0adaacfca5402c8:update last_update]
+[2017-01-09 17:35:36,033] [INFO] apk_report_run.py:77 [0f4569bbbfd6bab5ccc936908e06193f:update last_update]

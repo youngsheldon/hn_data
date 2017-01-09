@@ -1,0 +1,31 @@
+--2017-01-09 10:48:35--  http://bpmrt.com/op2
+Resolving bpmrt.com... 113.10.173.165
+Connecting to bpmrt.com|113.10.173.165|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://bpmrt.com/op2/ [following]
+--2017-01-09 10:48:36--  http://bpmrt.com/op2/
+Connecting to bpmrt.com|113.10.173.165|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 338 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 23.0M=0s
+
+2017-01-09 10:48:36 (23.0 MB/s) - `index.html' saved [338/338]
+
+=======================The second times wget =====================
+--2017-01-09 10:48:38--  http://bpmrt.com/2p/%CF%E0r%C6%AC.apk
+Resolving bpmrt.com... 113.10.173.165
+Connecting to bpmrt.com|113.10.173.165|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 223110 (218K) [application/vnd.android.package-archive]
+Saving to: `œ‡r∆¨.apk'
+
+     0K .......... .......... .......... .......... .......... 22% 58.4K 3s
+    50K .......... .......... .......... .......... .......... 45% 61.7K 2s
+   100K .......... .......... .......... .......... .......... 68% 36.2K 1s
+   150K .......... .......... .......... .......... .......... 91% 54.6K 0s
+   200K .......... .......                                    100% 50.0K=4.3s
+
+2017-01-09 10:48:43 (50.4 KB/s) - `œ‡r∆¨.apk' saved [223110/223110]
+

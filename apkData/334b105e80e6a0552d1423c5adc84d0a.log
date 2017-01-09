@@ -1,0 +1,35 @@
+--2017-01-08 18:37:45--  http://qtwwx.com/yok
+Resolving qtwwx.com... 45.114.11.238
+Connecting to qtwwx.com|45.114.11.238|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://qtwwx.com/yok/ [following]
+--2017-01-08 18:37:50--  http://qtwwx.com/yok/
+Reusing existing connection to qtwwx.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 247 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 18.1M=0s
+
+2017-01-08 18:37:50 (18.1 MB/s) - `index.html' saved [247/247]
+
+=======================The second times wget =====================
+--2017-01-08 18:37:50--  http://qtwwx.com/yok/%C2%BC%CF%F11.apk
+Resolving qtwwx.com... 45.114.11.238
+Connecting to qtwwx.com|45.114.11.238|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 453596 (443K) [application/vnd.android.package-archive]
+Saving to: `Â¼Ïñ1.apk'
+
+     0K .......... .......... .......... .......... .......... 11%  130K 3s
+    50K .......... .......... .......... .......... .......... 22%  121K 3s
+   100K .......... .......... .......... .......... .......... 33%  123K 2s
+   150K .......... .......... .......... .......... .......... 45%  123K 2s
+   200K .......... .......... .......... .......... .......... 56%  121K 2s
+   250K .......... .......... .......... .......... .......... 67%  124K 1s
+   300K .......... .......... .......... .......... .......... 79%  128K 1s
+   350K .......... .......... .......... .......... .......... 90%  121K 0s
+   400K .......... .......... .......... .......... ..        100%  125K=3.6s
+
+2017-01-08 18:37:54 (124 KB/s) - `Â¼Ïñ1.apk' saved [453596/453596]
+
