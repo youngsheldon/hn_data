@@ -1,0 +1,1561 @@
+<manifest
+    android:versionCode=<0x7D, type 0x10>
+    android:versionName="5.5.1"
+    package="com.bokecc.dance"
+    platformBuildVersionCode=<0x19, type 0x10>
+    platformBuildVersionName="7.1.1"
+    >
+    <uses-sdk
+        android:minSdkVersion=<0xB, type 0x10>
+        android:targetSdkVersion=<0x16, type 0x10>
+        >
+    </uses-sdk>
+    <supports-screens
+        android:anyDensity=<0xFFFFFFFF, type 0x12>
+        android:smallScreens=<0xFFFFFFFF, type 0x12>
+        android:normalScreens=<0xFFFFFFFF, type 0x12>
+        android:largeScreens=<0xFFFFFFFF, type 0x12>
+        android:resizeable=<0xFFFFFFFF, type 0x12>
+        >
+    </supports-screens>
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        >
+    </uses-permission>
+    <protected-broadcast
+        android:name="android.intent.action.MEDIA_MOUNTED"
+        >
+    </protected-broadcast>
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.INTERACT_ACROSS_USERS_FULL"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.launcher.permission.INSTALL_SHORTCUT"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.SYSTEM_OVERLAY_WINDOW"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.SYSTEM_ALERT_WINDOW"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_CONTACTS"
+        >
+    </uses-permission>
+    <permission
+        android:name="android.permission.INTERACT_ACROSS_USERS_FULL"
+        android:protectionLevel=<0x2, type 0x11>
+        >
+    </permission>
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_BOOT_COMPLETED"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RESTART_PACKAGES"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.BROADCAST_STICKY"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_USER_PRESENT"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WAKE_LOCK"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.KILL_BACKGROUND_PROCESSES"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.GET_TASKS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.VIBRATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECORD_AUDIO"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CAMERA"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECORD_VIDEO"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY"
+        >
+    </uses-permission>
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required=<0xFFFFFFFF, type 0x12>
+        >
+    </uses-feature>
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required=<0x0, type 0x12>
+        >
+    </uses-feature>
+    <uses-feature
+        android:glEsVersion=<0x20000, type 0x11>
+        android:required=<0xFFFFFFFF, type 0x12>
+        >
+    </uses-feature>
+    <meta-data
+        android:name="com.samsung.android.sdk.multiwindow.enable"
+        android:value=<0xFFFFFFFF, type 0x12>
+        >
+    </meta-data>
+    <meta-data
+        android:name="com.samsung.android.sdk.multiwindow.multiinstance.enable"
+        android:value=<0xFFFFFFFF, type 0x12>
+        >
+    </meta-data>
+    <meta-data
+        android:name="com.sec.android.multiwindow.STYLE"
+        android:value="fixedRatio"
+        >
+    </meta-data>
+    <meta-data
+        android:name="com.sec.android.support.multiwindow"
+        android:value=<0xFFFFFFFF, type 0x12>
+        >
+    </meta-data>
+    <permission
+        android:name="com.bokecc.dance.permission.MIPUSH_RECEIVE"
+        android:protectionLevel=<0x3, type 0x11>
+        >
+    </permission>
+    <uses-permission
+        android:name="android.permission.BROADCAST_PACKAGE_ADDED"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.BROADCAST_PACKAGE_CHANGED"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.BROADCAST_PACKAGE_INSTALL"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.BROADCAST_PACKAGE_REPLACED"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.bokecc.dance.permission.MIPUSH_RECEIVE"
+        >
+    </uses-permission>
+    <application
+        android:theme=<0x7F0900A3, type 0x01>
+        android:label=<0x7F0600C9, type 0x01>
+        android:icon=<0x7F02010F, type 0x01>
+        android:name="com.bokecc.dance.GlobalApplication"
+        android:sharedUserId="android.uid.system"
+        android:allowBackup=<0xFFFFFFFF, type 0x12>
+        android:largeHeap=<0xFFFFFFFF, type 0x12>
+        >
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:label="??"
+            android:name="com.bokecc.dance.activity.MainActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x30, type 0x11>
+            >
+            <intent-filter
+                >
+                <data
+                    android:scheme=<0x7F060190, type 0x01>
+                    android:host="main"
+                    >
+                </data>
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.bokecc.dance.activity.WebViewActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            android:parentActivityName="com.bokecc.dance.activity.MainActivity"
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.MainActivity"
+                >
+            </meta-data>
+        </activity>
+        <activity
+            android:theme=<0x7F0900DF, type 0x01>
+            android:name="com.bokecc.dance.activity.PopupActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x15, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:label="???"
+            android:name="com.bokecc.dance.activity.FeedbackActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.bokecc.dance.activity.SplashActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.LAUNCHER"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.bokecc.dance.activity.SetActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900A2, type 0x01>
+            android:name="com.bokecc.dance.activity.PhotoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.bokecc.dance.activity.FansActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.bokecc.dance.MusicMissActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.bokecc.dance.activity.AddressChangeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900DD, type 0x01>
+            android:name="com.bokecc.dance.danceshow.activity.LocalVideoPlayerActivity"
+            android:screenOrientation=<0x0, type 0x10>
+            android:configChanges=<0x480, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900DD, type 0x01>
+            android:name="com.bokecc.dance.danceshow.activity.CameraVideoPlayerActivity"
+            android:screenOrientation=<0x0, type 0x10>
+            android:configChanges=<0x480, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900DD, type 0x01>
+            android:name="com.bokecc.dance.danceshow.activity.ReleasesVideoActivity"
+            android:screenOrientation=<0x0, type 0x10>
+            android:configChanges=<0x480, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900DD, type 0x01>
+            android:name="com.bokecc.dance.danceshow.activity.ReleasesLocalVideoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x480, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090131, type 0x01>
+            android:name="com.bokecc.dance.activity.VideoPlayerActivity"
+            android:screenOrientation=<0x0, type 0x10>
+            android:configChanges=<0x480, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900DD, type 0x01>
+            android:name="com.bokecc.dance.activity.DownloadVideoPlayerActivity"
+            android:screenOrientation=<0x0, type 0x10>
+            android:configChanges=<0x480, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900DD, type 0x01>
+            android:name="com.camerafilter.UploadLocalActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x480, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.bokecc.dance.activity.SongActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.bokecc.dance.activity.SortActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.bokecc.dance.activity.team.MyDanceTeamActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.bokecc.dance.activity.UserProfileActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <intent-filter
+                >
+                <data
+                    android:scheme=<0x7F060190, type 0x01>
+                    android:host="zone"
+                    >
+                </data>
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.bokecc.dance.activity.UpdateSpaceBgActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.bokecc.dance.activity.MessageTeamActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.bokecc.dance.activity.DirectorySelectActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.bokecc.dance.activity.DanceFeedbackActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.bokecc.dance.activity.FeedbackMessageDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.bokecc.dance.activity.DirectoryFileActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900DF, type 0x01>
+            android:name="com.bokecc.dance.activity.OtherLoginActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.bokecc.dance.activity.DanceSongActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.bokecc.dance.activity.SearchActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x23, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.bokecc.dance.activity.DanceTeamActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.bokecc.dance.activity.SongVideoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <intent-filter
+                >
+                <data
+                    android:scheme=<0x7F060190, type 0x01>
+                    android:host="playlist"
+                    >
+                </data>
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.bokecc.dance.activity.MoreVideoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.bokecc.dance.activity.DancePlayActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            android:parentActivityName="com.bokecc.dance.activity.MainActivity"
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.MainActivity"
+                >
+            </meta-data>
+            <intent-filter
+                >
+                <data
+                    android:scheme=<0x7F060190, type 0x01>
+                    android:host="video"
+                    >
+                </data>
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.bokecc.dance.activity.LoginActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900DC, type 0x01>
+            android:name="com.bokecc.dance.activity.LoginPhoneActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900DC, type 0x01>
+            android:name="com.bokecc.dance.activity.LoginThirdPartyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.bokecc.dance.activity.RegisterActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.bokecc.dance.activity.RegisterInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.bokecc.dance.activity.CropImageActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.bokecc.dance.activity.CropSpaceImageActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.bokecc.dance.activity.NicknameActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.bokecc.dance.activity.WatchHistoryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.bokecc.dance.activity.MyCollectActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.bokecc.dance.activity.DraftsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.bokecc.dance.activity.FindPasswordActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.bokecc.dance.activity.ProfileActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.bokecc.dance.activity.PersonaliseActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.bokecc.dance.activity.AdressActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.bokecc.dance.activity.GetGiftActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.bokecc.dance.activity.SetNewActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900DF, type 0x01>
+            android:name="com.bokecc.dance.activity.ShareActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+            <intent-filter
+                >
+                <data
+                    android:scheme=<0x7F060190, type 0x01>
+                    android:host="share"
+                    >
+                </data>
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0900DF, type 0x01>
+            android:name="com.bokecc.dance.activity.SendfileActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.bokecc.dance.activity.BindPhoneNewActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900DF, type 0x01>
+            android:name="com.bokecc.dance.activity.PathDialogActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900DF, type 0x01>
+            android:name="com.camerafilter.ChangeinfoDialogActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.bokecc.dance.activity.GuideTeamActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900DF, type 0x01>
+            android:name="com.bokecc.dance.activity.SearchVideosActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x15, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.bokecc.dance.activity.SearchDanceActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.bokecc.dance.activity.DanceTypeActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.bokecc.dance.activity.VideosTutorialActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.bokecc.dance.activity.ReportCommentActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.bokecc.dance.activity.ReportVideoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.bokecc.dance.activity.SpecialTopicActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.bokecc.dance.activity.SpecialTopListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <data
+                    android:scheme=<0x7F060190, type 0x01>
+                    android:host="special"
+                    >
+                </data>
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0900DC, type 0x01>
+            android:name="com.bokecc.dance.activity.DownloadDialogActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900DD, type 0x01>
+            android:name="com.bokecc.dance.danceshow.activity.VideoCarmeraActivity"
+            android:screenOrientation=<0x0, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900DD, type 0x01>
+            android:name="com.camerafilter.VideoRecordActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x0, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900DD, type 0x01>
+            android:name="com.camerafilter.PhotoAlbumActivity"
+            android:screenOrientation=<0x0, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.camerafilter.PhotoWallActivity"
+            android:screenOrientation=<0x0, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.camerafilter.CameraSearchSongActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <data
+                    android:scheme=<0x7F060190, type 0x01>
+                    android:host="screen"
+                    >
+                </data>
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.camerafilter.CameraSongMoreActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.camerafilter.CameraLocalSongActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.camerafilter.UploadVideoPlayerActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900DD, type 0x01>
+            android:name="com.camerafilter.BrowseActivity"
+            android:screenOrientation=<0x0, type 0x10>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030007, type 0x01>
+            android:name="com.camerafilter.CropActivity"
+            android:screenOrientation=<0x0, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030011, type 0x01>
+            android:name="com.camerafilter.PicturesActivity"
+            android:screenOrientation=<0x0, type 0x10>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E1, type 0x01>
+            android:name="com.camerafilter.PicturesDialogActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x0, type 0x10>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900DD, type 0x01>
+            android:name="com.camerafilter.TemplateActivity"
+            android:screenOrientation=<0x0, type 0x10>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900DD, type 0x01>
+            android:name="com.bokecc.dance.danceshow.activity.VideoTourActivity"
+            android:screenOrientation=<0x0, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.bokecc.dance.activity.team.CreateTeamActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.bokecc.dance.activity.team.NearTeamActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.bokecc.dance.activity.team.TeamSearchActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.bokecc.dance.activity.team.TeamSetActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.bokecc.dance.activity.team.TeamMessageListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.bokecc.dance.activity.team.TeamMemberManagerActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.bokecc.dance.activity.team.TeamNoticeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.bokecc.dance.activity.team.TeamPresentActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.bokecc.dance.activity.team.TeamMessageDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.bokecc.dance.activity.MyFlowerActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.bokecc.dance.activity.FlowerTopActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.bokecc.dance.activity.friends.SearchFriendsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.bokecc.dance.activity.friends.TeamMembersActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.bokecc.dance.activity.friends.ContactsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0900E0, type 0x01>
+            android:name="com.bokecc.dance.activity.BlackActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x0, type 0x10>
+            android:noHistory=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme=<0x7F060098, type 0x01>
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F090139, type 0x01>
+            android:name="com.bokecc.dance.wxapi.WXEntryActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+        </activity>
+        <receiver
+            android:name="com.bokecc.dance.services.NotificationDismissedReceiver"
+            android:exported=<0x0, type 0x12>
+            >
+        </receiver>
+        <service
+            android:name="com.bokecc.dance.services.DancePictureDownloadService"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            >
+        </service>
+        <service
+            android:name="com.bokecc.dance.services.DownLoadAppService"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            >
+        </service>
+        <service
+            android:name="com.bokecc.dance.sdk.DownloadService"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            >
+        </service>
+        <service
+            android:name="com.bokecc.dance.sdk.UploadService"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            >
+        </service>
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="2051d41f3b0c692b04d000d7595b1954"
+            >
+        </meta-data>
+        <service
+            android:name="com.amap.api.location.APSService"
+            >
+        </service>
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value=<0x7F060099, type 0x01>
+            >
+        </meta-data>
+         end umeng
+
+        <activity
+            android:name="com.alimama.mobile.sdk.shell.MMUDetail"
+            android:launchMode=<0x0, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x90, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.alimama.mobile.sdk.shell.MMUBrowserWebView"
+            android:launchMode=<0x0, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x90, type 0x11>
+            >
+        </activity>
+        <service
+            android:name="com.alimama.mobile.sdk.shell.DownloadingService"
+            android:process=":alimamaDownload"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.alimama.mobile.sdk.download.action"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <activity
+            android:name="com.baidu.mobads.AppActivity"
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <service
+            android:name="com.qq.e.comm.DownloadService"
+            android:exported=<0x0, type 0x12>
+            >
+        </service>
+        <activity
+            android:name="com.qq.e.ads.ADActivity"
+            android:configChanges=<0x4B0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.alimama.mobile.sdk.shell.TaeLoginWebView"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="COM_TAOBAO_TAE_SDK_TRADE_WEB_VIEW_ACTION"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.alimama.mobile.sdk.shell.MMUWall"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x90, type 0x11>
+            android:hardwareAccelerated=<0xFFFFFFFF, type 0x12>
+            >
+        </activity>
+        <service
+            android:name="com.qq.e.comm.DownloadService"
+            android:exported=<0x0, type 0x12>
+            >
+        </service>
+        <activity
+            android:name="com.mob.tools.MobUIShell"
+            android:launchMode=<0x0, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x90, type 0x11>
+            >
+        </activity>
+        <receiver
+            android:name="com.inmobi.commons.core.utilities.uid.ImIdShareBroadCastReceiver"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.inmobi.share.id"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.inmobi.signals.activityrecognition.ActivityRecognitionManager"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            >
+        </service>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.inmobi.rendering.InMobiAdActivity"
+            android:configChanges=<0xCB0, type 0x11>
+            android:hardwareAccelerated=<0xFFFFFFFF, type 0x12>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030011, type 0x01>
+            android:name="com.xiaomi.ad.AdActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x3, type 0x10>
+            android:configChanges=<0x4B0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.adeaz.AppActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <service
+            android:name="com.bokecc.dance.xmpush.MyPushIntentService"
+            >
+        </service>
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value=<0x818058, type 0x10>
+            >
+        </meta-data>
+        <meta-data
+            android:name="UMENG_MESSAGE_SECRET"
+            android:value=<0x7F06009B, type 0x01>
+            >
+        </meta-data>
+        <service
+            android:name="com.taobao.accs.ChannelService"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:process=":channel"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.taobao.accs.intent.action.SERVICE"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.taobao.accs.intent.action.ELECTION"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.taobao.accs.data.MsgDistributeService"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.taobao.accs.intent.action.RECEIVE"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <receiver
+            android:name="com.taobao.accs.EventReceiver"
+            android:process=":channel"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.BOOT_COMPLETED"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.PACKAGE_REMOVED"
+                    >
+                </action>
+                <data
+                    android:scheme="package"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.USER_PRESENT"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.taobao.accs.ServiceReceiver"
+            android:exported=<0x0, type 0x12>
+            android:process=":channel"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.taobao.accs.intent.action.COMMAND"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.taobao.accs.intent.action.START_FROM_AGOO"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.taobao.accs.ChannelService$KernelService"
+            android:process=":channel"
+            >
+        </service>
+        <service
+            android:name="org.android.agoo.accs.AgooService"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.taobao.accs.intent.action.RECEIVE"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.umeng.message.UmengIntentService"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:process=":channel"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="org.agoo.android.intent.action.RECEIVE"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <receiver
+            android:name="com.taobao.agoo.AgooCommondReceiver"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.bokecc.dance.intent.action.COMMAND"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.PACKAGE_REMOVED"
+                    >
+                </action>
+                <data
+                    android:scheme="package"
+                    >
+                </data>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.umeng.message.NotificationProxyBroadcastReceiver"
+            android:exported=<0x0, type 0x12>
+            >
+        </receiver>
+        <service
+            android:name="com.umeng.message.UmengMessageCallbackHandlerService"
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.umeng.messge.registercallback.action"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.umeng.message.enablecallback.action"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.umeng.message.disablecallback.action"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.umeng.message.message.handler.action"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.umeng.message.UmengDownloadResourceService"
+            android:exported=<0x0, type 0x12>
+            >
+        </service>
+        <service
+            android:name="com.umeng.message.UmengMessageIntentReceiverService"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:process=":channel"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="org.android.agoo.client.MessageReceiverService"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <provider
+            android:name="com.umeng.message.provider.MessageProvider"
+            android:exported=<0x0, type 0x12>
+            android:authorities="com.bokecc.dance.umeng.message"
+            >
+            <grant-uri-permission
+                android:pathPattern=".*"
+                >
+            </grant-uri-permission>
+        </provider>
+        <service
+            android:name="com.xiaomi.mipush.sdk.PushMessageHandler"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+        </service>
+        <service
+            android:name="com.xiaomi.mipush.sdk.MessageHandleService"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            >
+        </service>
+        <receiver
+            android:name="org.android.agoo.xiaomi.MiPushBroadcastReceiver"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.xiaomi.mipush.RECEIVE_MESSAGE"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.xiaomi.mipush.ERROR"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="org.android.agoo.huawei.HuaWeiReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.huawei.android.push.intent.REGISTRATION"
+                    >
+                </action>
+                <action
+                    android:name="com.huawei.android.push.intent.RECEIVE"
+                    >
+                </action>
+                <action
+                    android:name="com.huawei.intent.action.PUSH"
+                    >
+                </action>
+                <action
+                    android:name="com.huawei.intent.action.PUSH_STATE"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

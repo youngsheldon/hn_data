@@ -1,0 +1,3039 @@
+<manifest
+    android:versionCode=<0x15AC, type 0x10>
+    android:versionName="5.5.1.31"
+    package="com.hundsun.stockwinner.fzzq"
+    >
+    <uses-sdk
+        android:minSdkVersion=<0x7, type 0x10>
+        >
+    </uses-sdk>
+    <supports-screens
+        android:anyDensity=<0xFFFFFFFF, type 0x12>
+        android:smallScreens=<0xFFFFFFFF, type 0x12>
+        android:normalScreens=<0xFFFFFFFF, type 0x12>
+        android:largeScreens=<0xFFFFFFFF, type 0x12>
+        android:resizeable=<0xFFFFFFFF, type 0x12>
+        >
+    </supports-screens>
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CALL_PHONE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.SEND_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WAKE_LOCK"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.launcher.permission.READ_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.launcher.permission.WRITE_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.launcher.permission.INSTALL_SHORTCUT"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_MOCK_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WAKE_LOCK"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.GET_TASKS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.KILL_BACKGROUND_PROCESSES"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CAMERA"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.hardware.camera"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.hardware.camera.autofocus"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECORD_AUDIO"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RESTART_PACKAGES"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_LOGS"
+        >
+    </uses-permission>
+    <application
+        android:theme=<0x7F0C0047, type 0x01>
+        android:label=<0x7F0B0000, type 0x01>
+        android:icon=<0x7F020008, type 0x01>
+        android:name="com.hundsun.winner.application.base.WinnerApplication"
+        android:taskAffinity=""
+        android:screenOrientation=<0x1, type 0x10>
+        android:configChanges=<0xA0, type 0x11>
+        >
+        <receiver
+            android:name="com.hundsun.winner.broadcastReceiver.BaseBroadcastReceiver"
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.BOOT_COMPLETED"
+                    >
+                </action>
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+                <action
+                    android:name="com.hundsun.winner.message.view"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.hundsun.winner.application.widget.StockBroadcastReceiver"
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.hundsun.winner.application.widget.shangye"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.hundsun.winner.application.widget.xiaye"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.sites.SiteSelectActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C0048, type 0x01>
+            android:name="com.hundsun.winner.application.hsactivity.splash.SplashActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.LAUNCHER"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.CREATE_SHORTCUT"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:scheme="tzyj20140214"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <service
+            android:name="com.hundsun.winner.service.AppUpgradeService"
+            >
+        </service>
+        <service
+            android:name="com.hundsun.winner.service.HsMessageService"
+            android:process=":stock_winner"
+            >
+        </service>
+        <service
+            android:name="com.hundsun.winner.service.XyMessageService"
+            android:process=":stock_winner"
+            >
+        </service>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.register.PhoneNumLoginActivity"
+            android:launchMode=<0x0, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C0048, type 0x01>
+            android:name="com.hundsun.winner.application.hsactivity.guide.GuideActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.home.HomeConfigActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.home.components.IndexWidgetSetting"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.home.components.SalesDepartmentInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.home.components.SalesDepartmentMapActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.info.activity.InfoServiceMainActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.info.activity.InfoExpandMainActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.info.activity.InfoServiceListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.info.activity.DisplayContent"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.info.activity.InfoSerialsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.info.activity.InfoRealtimeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.info.activity.NewF10Activity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.info.activity.NewF10QuoteActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.quote.base.activity.QuoteFuctionGuideActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.quote.mystock.MyStockActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.quote.mystock.EditMyStockActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.quote.sort.PaimingStockActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.quote.sort.ShareTransferPaimingActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.quote.hk.HKMainBordActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.quote.hk.AHActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.quote.outerplate.OuterPlateActivity"
+            android:launchMode=<0x0, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.quote.sort.OuterDiscActivity"
+            android:launchMode=<0x0, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.quote.sort.ForeignExchangeSortActivity"
+            android:launchMode=<0x0, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.quote.sort.GlobalIndexActivity"
+            android:launchMode=<0x0, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0B0000, type 0x01>
+            android:name="com.hundsun.winner.application.hsactivity.home.DesktopWebPageActivity"
+            android:launchMode=<0x0, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.quote.outerplate.ShowDataSetDetailActivity"
+            android:launchMode=<0x0, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.quote.indexs.DapanStockActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.quote.option.StockOptionActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.quote.option.StocksOptionActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.quote.option.StockOptionDetailListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.quote.block.RegionActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.quote.block.RegionDetailListActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.quote.outerexchange.OuterExchangeActivity"
+            android:launchMode=<0x0, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.quote.sort.FuturesPaiming"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.quote.fund.FundMarketActivity"
+            android:launchMode=<0x0, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.quote.fund.FundCompanyDetailActivity"
+            android:launchMode=<0x0, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.quote.hisstock.HistoryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.quote.colligate.ColligateActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.quote.trend.FenshiActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x4, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.quote.stock_detail.StockDetailActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.quote.kline.KlineActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x4, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.quote.contract.ContractActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.quote.tick.ChengjiaomingxiActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.quote.dde.StockDDEActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.info.activity.StockInformationMoreActivity"
+            android:launchMode=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.quote.dde.QuoteDDEListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.quote.hk_sh.HkShMainBordActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C004C, type 0x01>
+            android:name="com.hundsun.winner.application.hsactivity.setting.UserSetActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.help.HelpActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.safe.SafeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.safe.SafeScannerActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.safe.SafeUpdaterActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.message.MessageCenterActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C004A, type 0x01>
+            android:name="com.hundsun.winner.application.hsactivity.trade.base.activity.LoginActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C004A, type 0x01>
+            android:name="com.hundsun.winner.application.hsactivity.trade.base.activity.CardLoginActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.base.activity.FzzqLoginActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.base.activity.LockActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.base.activity.TradeFuctionGuideActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.stock.StockTradeActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.newstock.StockTabActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.stock.StockBuyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.stock.NewStockRationActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.securitiesmargin.MarginNewStockRationActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.stock.StockSellActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.stock.StockMarketSellActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.stock.StockMarketBuyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.stock.BondActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.stock.BondRepurchaseActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.stock.AssignTradeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.adequacy.STAdequacyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.adequacy.STAdequacyQuery"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.adequacy.STAdequacyQuestionnaire"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.stock.STWithdrawActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:allowTaskReparenting=<0xFFFFFFFF, type 0x12>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.base.activity.TradeDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.stock.QuanZhengActivity"
+            android:launchMode=<0x0, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.stock.STMoneyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.stock.STChiCangActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.stock.STTodayEntrustActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.stock.STTodayDealActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.stock.STHisEntrustActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.stock.STHisBargainActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.stock.STFundFlowActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.stock.PeiHaoActivity"
+            android:launchMode=<0x0, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.stock.STZhongQianQueryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.stock.STCheckBillActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.stock.STBondQueryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.stock.ETFHisEntrustQueryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.stock.ETFCurEntrustQueryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.strait.StraitBuyActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.strait.StraitZhiDingAcitvity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.strait.StraitBillActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.strait.StraitProjectInfoActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.strait.StraitTodayEntrustActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.quote.sort.PaimingStraitActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.stock.OTLofFundPurchaseRedeemActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.stock.ETFPurchaseRedemptActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.stock.FundSplitActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.stock.FundMergeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.stock.BondToStockActivity"
+            android:launchMode=<0x0, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.fund.FundTradeActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.fund.FundFenhongActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.fund.FundHisApplyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.fund.FundHisDealActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.fund.FundRengouActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.fund.FundShengouActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.fund.FundShuhuiActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.fund.FundTodayApplyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.fund.FundUsersActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.fund.FundWithdrawActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.fund.FundInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.fund.FundEtcContractSignActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.fund.FundEtcContractUnSignActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.fund.FundEtcContractTodayActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.fund.FundEtcContractHistroyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.fund.FundEtcContractReserveCashActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.fund.FundEtcContractAccountOpenActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.fund.FundEtcContractAgreementSignActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.fund.FundLotActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.fund.FundSearchActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.fund.FundItemActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.fund.FundPanHouZhuanHuanActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.newthridmarket.NewthridmarketActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.newthridmarket.NewthridmarketIntentBuyActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.newthridmarket.NewthridmarketIntentSellActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.newthridmarket.NewthridmarketFixPriceBuyActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.newthridmarket.NewthridmarketFixPriceSellActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.newthridmarket.NewthridmarketConfirmSellActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.newthridmarket.NewthridmarketConfirmBuySellActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.newthridmarket.NewthridmarketQuoteQueryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.newthridmarket.NewthridmarketWeiTuoCheDanActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.newthridmarket.NewthridmarketWeiTuoChaXunActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.newthridmarket.ShareTransferLimitBuyActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.newthridmarket.ShareTransferLimitSellActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.newthridmarket.ShareTransferEachBuyActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.newthridmarket.ShareTransferEachSellActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.baojiahuigou.QuoteRepurchaseActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.baojiahuigou.XinKaiHuiGouActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.baojiahuigou.TiQianGouHuiActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.baojiahuigou.ZhanQiTiaoZhengActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.baojiahuigou.WeiDaoQiActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.baojiahuigou.TiQianGouHuiYuYueChaXunActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.baojiahuigou.TiQianGouHuiYuYueCheXiaoChaXunActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.baojiahuigou.ZhiYaKuDengJiMingXiChaXunActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.baojiahuigou.HistoryEntrustQueryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.baojiahuigou.HistoryDealQueryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.baojiahuigou.TDEntrustQueryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.baojiahuigou.BuZaiXuZuoYuYueActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.stock.PasswordActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.multibank.MultiBankTransferDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.multibank.MultiBankTodayMoneyDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.multibank.MultiBankFastTransferActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.multibank.MultiBankMasterSlaveActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.multibank.MultiBankAccountActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.multibank.MultiBankActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.bank.BankTradeActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.stock.BankSecuritiesActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.stock.BankCurDayFlowActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.stock.BankHisFlowActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.stock.BankPostBalanceActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.base.activity.SwitchSessionActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.securitiesmargin.MarginTradeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.securitiesmargin.MarginStockBuyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.securitiesmargin.MarginStockSellActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.securitiesmargin.WithdrawActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.securitiesmargin.MoneyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.securitiesmargin.CurEntrustActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.securitiesmargin.CurBargainActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.securitiesmargin.StocksActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.securitiesmargin.HisBargainActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.securitiesmargin.HisEntrustActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.securitiesmargin.MarginRZMRActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.securitiesmargin.MarginMQHKActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.securitiesmargin.XianJinHaiKuanActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.securitiesmargin.CreditFinanceObjectActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.securitiesmargin.CreditFinanceObjectDetailsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.securitiesmargin.CreditFinanceObjectFinishDetailsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.securitiesmargin.FinancStocksActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.securitiesmargin.MarginRQMCActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.securitiesmargin.MarginMQHQActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.securitiesmargin.MarginXQHQActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.securitiesmargin.CreditStocksObjectActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.securitiesmargin.CreditStocksObjectDetailsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.securitiesmargin.CreditStocksObjectFinishDetailsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.securitiesmargin.CreditStocksActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0B0000, type 0x01>
+            android:name="com.hundsun.winner.application.hsactivity.trade.securitiesmargin.CreditAllStocksActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0B0000, type 0x01>
+            android:name="com.hundsun.winner.application.hsactivity.trade.securitiesmargin.FinancAllStocksActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0B0000, type 0x01>
+            android:name="com.hundsun.winner.application.hsactivity.trade.securitiesmargin.ClientCreditStocksObjectActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.securitiesmargin.XianJinHaiKuanRQActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.securitiesmargin.DanBWDActivity"
+            android:launchMode=<0x0, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.securitiesmargin.FeiJYGHCXActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.securitiesmargin.DanBWCheDanActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.securitiesmargin.DanBWBiaoDiChaXunActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.securitiesmargin.DBWLoginActivity"
+            android:launchMode=<0x0, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.securitiesmargin.FuZBDLSCXActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.securitiesmargin.CreditDebtActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.securitiesmargin.CreditCompactActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.securitiesmargin.CreditTreatyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.securitiesmargin.CreditMoneyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.securitiesmargin.CreditComprehenActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.securitiesmargin.CreditLimitActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.securitiesmargin.UnFinishContractQueryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.securitiesmargin.AccountEarnestMoneyQueryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.securitiesmargin.MarginCashPaymentActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.securitiesmargin.RateQueryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.securitiesmargin.CreditStockHolderQueryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.securitiesmargin.TodayContractQueryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.xianjinbao.CashProtectActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.xianjinbao.EarningRate"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.xianjinbao.AgreementStatusActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.xianjinbao.FundsReservePositionSetActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.xianjinbao.ReserveWithdrawActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.xianjinbao.HistoryBenefitActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.xianjinbao.ProductPositionAndBenefitInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.xianjinbao.CashRegisterActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.xianjinbao.CashQueryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.xianjinbao.CashRedeemActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.xianjinbao.QuickTakeCashActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.etf.ETFActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.securitiesmargin.RateQueryUtfActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.etf.CodeStateActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.etf.RenGouActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.etf.ShenGouActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.etf.ShuHuiActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.etf.SSCCActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.etf.MoneyShenGouActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.etf.MoneyShuHuiActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.etf.MoneySSCCActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.etf.SharesRedemptionActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.etf.CrashRengouActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.securitiesmargin.MoneyFlowActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.uniauth.UnifiedAuthActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.uniauth.LastEchoInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.uniauth.ReservedInfoEditActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.uniauth.DynamicPwdSynActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.base.activity.TradeMainActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.base.abstractclass.WinnerTradeEntrustPage"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.base.abstractclass.WinnerTradeHistroyPage"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.base.abstractclass.WinnerTradeTablePage"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.base.abstractclass.WinnerTradeMoneyPage"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.base.abstractclass.WinnerTradeWithdrawPage"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.baojiahuigou.fzquanyouli.BjhgAgencyPage"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.refinance.loan.LoanWithdrawActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.refinance.loan.LoanActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.refinance.loan.LoanAheadReturnActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.refinance.loan.LoanReferActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.refinance.convention.ConventionEntrustActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.refinance.convention.ConventionWithdrawActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.refinance.convention.ConventionContractActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.refinance.convention.ConventionHisEntrustActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.refinance.convention.ConventionHisContractActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.refinance.convention.ConventionRqActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.refinance.convention.ConventionReferActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.refinance.convention.ConventionReturnActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.refinance.convention.ConventionExchangeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.refinance.convention.ConventionRzActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.refinance.specialmargin.SpecialMarginRZMRActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.refinance.specialmargin.SpecialMarginRQMCActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.refinance.specialmargin.SpecialMoneyQueryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.refinance.specialmargin.SpecialStockQueryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.guide.AdvertActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.info.activity.InfoHybridMainActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.info.activity.InfoHybridActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.quote.volumeEye.VolumeEyeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.browser.HtmlActivity"
+            android:launchMode=<0x0, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.futures.FuturesTradeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.futures.FuturesChaCheWeiTuo"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.futures.FuturesWeiTuoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.futures.FuturesChengJiaoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.futures.FuturesLiShiWeiTuoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.futures.FuturesLiShiChengjiaoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.futures.FuturesKuaiSuWeiTuoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.futures.FuturesPuTongWeiTuoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.futures.FuturesChiCangActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.futures.FuturesZiJinActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.futures.FuturesDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.futures.BillActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.setting.About"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.securitiesmargin.MarginFundFlowActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.fund.FundOpenAccountActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.fund.FundMoreAccountActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.fund.FundRiskQuestionActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.home.HybridHomeActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.hybird.HybridBrowserActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.setting.FriendRecommendActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.quote.block.ExitMarketStockActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.quote.stockblock.StockBlockActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.service.NotificationDetail"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.base.activity.TradeGeneralqueryActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.option.OptionTradeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.goldenidea.GoldenIdeaMangerActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.goldenidea.GoldenIdeaSignActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.goldenidea.MyGoldenIdeaActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.goldenidea.GoldenIdeaDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.goldenidea.GoldenIdeaCardActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.goldenidea.GoldenIdeaApplyCardActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.goldenidea.GoldenIdeaActiveCardActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.productstore.ProductStoreActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.productstore.DetailActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.productstore.InvestMoreListViewActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.productstore.MultiFinanMoreListViewActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.newstock.StockOtherFunctionActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.stockrepurchase.StockRepurchaseTabActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.stockrepurchase.RepurchaseBucangActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.stockrepurchase.RepurchaseHisEntrustActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.stockrepurchase.RepurchaseNormalEntrustPage"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.stockrepurchase.RepurchaseReturnEntrustPage"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.stockrepurchase.RepurchasePersonEntrustPage"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.stockrepurchase.RepurchaseBuCangEntrustPage"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.stockrepurchase.RepurchaseZhanqiEntrustPage"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.stockrepurchase.MyRepurchaseActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.stockrepurchase.RepurchaseNormalAddActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.stockrepurchase.RepurchaseReturnAddActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.stockrepurchase.RepurchaseZhanqiActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.stockrepurchase.RepurchaseBucangAddActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.brokers.fzzq.QuanYouHuiActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.productstore.InvestListActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.base.activity.LendSellEntrustActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.hugangtong.HuGongTongActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.hugangtong.HKStockBuyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.hugangtong.HKStockSellActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.hugangtong.HKWithdrawActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.hugangtong.HKVoteDeclarationActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.hugangtong.HKCompanyActionDeclarationActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.hugangtong.HKStockTabActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.hugangtong.HKFundsQueryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.hugangtong.HKChiCangActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.hugangtong.HKFractionSellActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.hugangtong.HKFractionBuyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.productstore.HTProductStoreActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.cultural.DeliveryApplicationActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.cultural.DeliveryFlowQueryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.cultural.CulturalBuyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.cultural.CulturalSellActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.cultural.GoldIntoApplyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.cultural.CulturalGoldTransHistroyQuery"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.cultural.GoldIntoApplyEntrust"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.rongzidaxin.RZDXNewStockRationActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.rongzidaxin.RZDXNewEntrustQueryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.rongzidaxin.RZDXStockZhiyaActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.rongzidaxin.RZDXStockDanbaoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.rongzidaxin.RZDXStockBackActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.rongzidaxin.RZDXStockCurrentActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.rongzidaxin.RZDXHistoryQueryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.rongzidaxin.RZDXStockNewRongzitActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.rongzidaxin.RZDXStockInitActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.rongzidaxin.RZDXNewWithdrawActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.rongzidaxin.RZDXQuestionnaireActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.rongzidaxin.RZDXNewZhiyaQueryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.rongzidaxin.RZDXNewRateQueryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.rongzidaxin.TradeHtmlActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.rongzidaxin.RZDXTradeMainActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.hugangtong.HKAmoutQueryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.hugangtong.HKRateQueryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.vote.StockVoteMeeting"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.vote.StockNetVote"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.stock.DebtSwapActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.stock.DebtSwapRequrchaseActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.fund.FundPanHouWithdrawActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.adequacy.STAdequacyQuestionMacs"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.home.CpscHomeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.vote.NetVoteMotionGuangDa"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.cairh.app.sjkh.MainActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.cairh.app.sjkh.ui.VideoActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.cairh.app.sjkh.ui.CameraMainActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x0, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.cairh.app.sjkh.SchemeActivity"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="CRHSJKH"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cairh.app.sjkh.ui.SingleVideoActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.cairh.app.sjkh.ui.SingleVideoActivityAnychat"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.cairh.app.sjkh.ui.VideoPreviewActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:exported=<0x0, type 0x12>
+            android:process=":remote"
+            >
+        </service>
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="ljeTCCsVh1rap0tutGgG29Up"
+            >
+        </meta-data>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.loffund.LofFundMainActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.loffund.LofFundSubscribeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.loffund.LofFundPurchaseActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.loffund.LofFundRedeemActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.loffund.LofFundZTGActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.loffund.LofFundSplitActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.loffund.LofFundMergeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.loffund.LofFundWithdrawActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.quote.ipo.IPOMainActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.quote.ipo.IPOCalendarActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.quote.ipo.IPOStockDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.quote.ipo.IPOLuckyQueryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.quote.ipo.IPOPayActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.quote.ipo.PurchaseAllActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.hundsun.winner.application.hsactivity.trade.stock.CurrenDayPurchaseSearch"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="564c18d867e58ec0c1002137"
+            >
+        </meta-data>
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="Umeng"
+            >
+        </meta-data>
+    </application>
+</manifest>

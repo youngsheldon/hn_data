@@ -1,0 +1,36 @@
+--2017-01-10 12:27:23--  http://gh0.cn/gyn
+Resolving gh0.cn... 104.160.40.148
+Connecting to gh0.cn|104.160.40.148|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://www.cxjml.com/8fc.html [following]
+--2017-01-10 12:27:24--  http://www.cxjml.com/8fc.html
+Resolving www.cxjml.com... 192.151.150.178
+Connecting to www.cxjml.com|192.151.150.178|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3329 (3.3K) [text/html]
+Saving to: `8fc.html'
+
+     0K ...                                                   100%  159M=0s
+
+2017-01-10 12:27:28 (159 MB/s) - `8fc.html' saved [3329/3329]
+
+=======================The second times wget =====================
+--2017-01-10 12:27:35--  http://cxjml.com/%E5%9B%9E%E5%BF%86%E8%BF%87%E5%8E%BB.apk
+Resolving cxjml.com... 192.151.150.178
+Connecting to cxjml.com|192.151.150.178|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 448107 (438K) [application/vnd.android.package-archive]
+Saving to: `å%9B%9Eå¿%86è¿%87å%8E».apk'
+
+     0K .......... .......... .......... .......... .......... 11% 31.2K 12s
+    50K .......... .......... .......... .......... .......... 22% 37.4K 10s
+   100K .......... .......... .......... .......... .......... 34% 58.8K 7s
+   150K .......... .......... .......... .......... .......... 45%  228K 5s
+   200K .......... .......... .......... .......... .......... 57%  140K 3s
+   250K .......... .......... .......... .......... .......... 68% 70.2K 2s
+   300K .......... .......... .......... .......... .......... 79% 59.4K 1s
+   350K .......... .......... .......... .......... .......... 91% 2.44M 1s
+   400K .......... .......... .......... .......              100% 73.1K=6.5s
+
+2017-01-10 12:27:44 (67.8 KB/s) - `å%9B%9Eå¿%86è¿%87å%8E».apk' saved [448107/448107]
+

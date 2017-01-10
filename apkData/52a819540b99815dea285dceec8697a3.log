@@ -1,0 +1,31 @@
+--2017-01-10 10:10:57--  http://qtgfq.com/vitv
+Resolving qtgfq.com... 103.240.183.110
+Connecting to qtgfq.com|103.240.183.110|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://qtgfq.com/vitv/ [following]
+--2017-01-10 10:10:58--  http://qtgfq.com/vitv/
+Reusing existing connection to qtgfq.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 246 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 21.3M=0s
+
+2017-01-10 10:10:58 (21.3 MB/s) - `index.html' saved [246/246]
+
+=======================The second times wget =====================
+--2017-01-10 10:10:58--  http://qtgfq.com/vitv/%C2%BC%CF%F1.apk
+Resolving qtgfq.com... 103.240.183.110
+Connecting to qtgfq.com|103.240.183.110|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 209806 (205K) [application/vnd.android.package-archive]
+Saving to: `Â¼Ïñ.apk'
+
+     0K .......... .......... .......... .......... .......... 24%  130K 1s
+    50K .......... .......... .......... .......... .......... 48%  126K 1s
+   100K .......... .......... .......... .......... .......... 73%  121K 0s
+   150K .......... .......... .......... .......... .......... 97%  125K 0s
+   200K ....                                                  100% 74.9K=1.7s
+
+2017-01-10 10:11:00 (124 KB/s) - `Â¼Ïñ.apk' saved [209806/209806]
+

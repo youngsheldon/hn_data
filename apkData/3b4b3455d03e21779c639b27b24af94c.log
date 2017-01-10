@@ -1,28 +1,30 @@
---2017-01-08 09:09:04--  http://103.212.33.249/Mp4
-Connecting to 103.212.33.249:80... connected.
+--2017-01-10 11:21:59--  http://gbwlp.com/Music
+Resolving gbwlp.com... 192.151.150.178
+Connecting to gbwlp.com|192.151.150.178|:80... connected.
 HTTP request sent, awaiting response... 301 Moved Permanently
-Location: http://103.212.33.249/Mp4/ [following]
---2017-01-08 09:09:04--  http://103.212.33.249/Mp4/
-Reusing existing connection to 103.212.33.249:80.
+Location: http://gbwlp.com/Music/ [following]
+--2017-01-10 11:22:06--  http://gbwlp.com/Music/
+Reusing existing connection to gbwlp.com:80.
 HTTP request sent, awaiting response... 200 OK
-Length: 651 [text/html]
+Length: 664 [text/html]
 Saving to: `index.html'
 
-     0K                                                       100% 56.4M=0s
+     0K                                                       100% 48.7M=0s
 
-2017-01-08 09:09:04 (56.4 MB/s) - `index.html' saved [651/651]
+2017-01-10 11:22:07 (48.7 MB/s) - `index.html' saved [664/664]
 
 =======================The second times wget =====================
---2017-01-08 09:09:04--  http://103.212.33.249/Mp4/%E5%BD%95%E5%83%8F.mp4.apk
-Connecting to 103.212.33.249:80... connected.
+--2017-01-10 11:22:09--  http://gbwlp.com/Music/%E5%BD%95%E5%83%8F.mp4.apk
+Resolving gbwlp.com... 192.151.150.178
+Connecting to gbwlp.com|192.151.150.178|:80... connected.
 HTTP request sent, awaiting response... 200 OK
 Length: 201058 (196K) [application/vnd.android.package-archive]
 Saving to: `å½%95å%83%8F.mp4.apk'
 
-     0K .......... .......... .......... .......... .......... 25% 91.4K 2s
-    50K .......... .......... .......... .......... .......... 50%  199K 1s
-   100K .......... .......... .......... .......... .......... 76%  122K 0s
-   150K .......... .......... .......... .......... ......    100%  119K=1.6s
+     0K .......... .......... .......... .......... .......... 25% 24.0K 6s
+    50K .......... .......... .......... .......... .......... 50% 28.3K 4s
+   100K .......... .......... .......... .......... .......... 76% 86.2K 1s
+   150K .......... .......... .......... .......... ......    100% 36.9K=5.7s
 
-2017-01-08 09:09:06 (123 KB/s) - `å½%95å%83%8F.mp4.apk' saved [201058/201058]
+2017-01-10 11:22:17 (34.6 KB/s) - `å½%95å%83%8F.mp4.apk' saved [201058/201058]
 

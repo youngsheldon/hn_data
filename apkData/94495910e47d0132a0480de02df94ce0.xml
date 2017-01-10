@@ -1,0 +1,4383 @@
+<manifest
+    android:versionCode=<0x25B, type 0x10>
+    android:versionName="6.0.3"
+    android:installLocation=<0x0, type 0x10>
+    package="com.dianping.dppos"
+    platformBuildVersionCode=<0x15, type 0x10>
+    platformBuildVersionName="5.0.1-1624448"
+    >
+    <uses-sdk
+        android:minSdkVersion=<0xF, type 0x10>
+        android:targetSdkVersion=<0x15, type 0x10>
+        >
+    </uses-sdk>
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.GET_TASKS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.SYSTEM_ALERT_WINDOW"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.VIBRATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.BLUETOOTH_ADMIN"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.BLUETOOTH"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WAKE_LOCK"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECORD_AUDIO"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        >
+    </uses-permission>
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required=<0x0, type 0x12>
+        >
+    </uses-feature>
+    <uses-permission
+        android:name="android.permission.CAMERA"
+        android:required=<0x0, type 0x12>
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.FLASHLIGHT"
+        android:required=<0x0, type 0x12>
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_CONTACTS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_CONFIGURATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_BOOT_COMPLETED"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.launcher.permission.INSTALL_SHORTCUT"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.launcher.permission.READ_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.GET_ACCOUNTS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.USE_CREDENTIALS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CALL_PHONE"
+        >
+    </uses-permission>
+    <application
+        android:theme=<0x7F080000, type 0x01>
+        android:label=<0x7F090009, type 0x01>
+        android:icon=<0x7F0202BB, type 0x01>
+        android:name="com.dianping.channel.ChannelApplication"
+        android:allowBackup=<0xFFFFFFFF, type 0x12>
+        android:vmSafeMode=<0xFFFFFFFF, type 0x12>
+        android:supportsRtl=<0xFFFFFFFF, type 0x12>
+        >
+        <activity
+            android:theme=<0x7F080013, type 0x01>
+            android:label=<0x7F090009, type 0x01>
+            android:name="com.dianping.merchant.main.activity.app.SplashScreenActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.LAUNCHER"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label=""
+            android:name="com.dianping.activity.MerchantMainActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="home"
+                    >
+                </data>
+                <data
+                    android:scheme="mtdp"
+                    android:host="home"
+                    >
+                </data>
+                <data
+                    android:scheme="dpmer"
+                    android:host="biz"
+                    >
+                </data>
+                <data
+                    android:scheme="dpmer"
+                    android:host="managesuggestion"
+                    >
+                </data>
+                <data
+                    android:scheme="dpmer"
+                    android:host="my"
+                    >
+                </data>
+                <data
+                    android:scheme="dpmer"
+                    android:host="logout"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x103000F, type 0x01>
+            android:label=<0x7F090009, type 0x01>
+            android:name="com.dianping.dppos.wxapi.WXEntryActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x5, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:label="???"
+            android:name="com.dianping.share.activity.ShareToActivity"
+            android:screenOrientation=<0x5, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="shareto"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.dianping.merchant.marketing.activity.ConditionLimitedActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="pmuselimit"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.dianping.merchant.marketing.activity.PushResultActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="creatmarketingsuccess"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.dianping.merchant.marketing.activity.MarketComplexMainActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="pmarketinghome"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.dianping.merchant.marketing.activity.MarketSendCodeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="marketsendcode"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.dianping.merchant.marketing.activity.MarketPushDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="marketsolutioneffectdetail"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.dianping.merchant.marketing.activity.CreateMarketingSolution"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+             >
+
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="creatmarketingsolution"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="??????"
+            android:name="com.dianping.merchant.marketing.activity.ChooseCouponList"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+             >
+
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="giftlist"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.dianping.merchant.marketing.activity.CreatePreferentialActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+             >
+
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="pmcreatepreferential"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.dianping.merchant.marketing.activity.QuanDateTimeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+             >
+
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="pmreceipteffectivetime"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.dianping.merchant.marketing.activity.RadarActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="queryusergroups"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="??????"
+            android:name="com.dianping.merchant.marketing.activity.ChoosePromotionsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="pmchoosepreferentialsale"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="??????"
+            android:name="com.dianping.merchant.marketing.activity.ChoosePromotionType"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="pmchoosepreferentialtype"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="???????"
+            android:name="com.dianping.merchant.marketing.activity.ChooseTuanGouPromotionsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="pmgiftlist"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.dianping.merchant.marketing.activity.ChoosePeopleDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            
+>
+
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="pmsetpushamount"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="??????"
+            android:name="com.dianping.merchant.marketing.activity.ChooseTuanGouSaleRightNow"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            
+>
+
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="tuangousalenow"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.dianping.merchant.marketing.activity.CreateMarketActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            
+>
+
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="pmscenedetail"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="??"
+            android:name="com.dianping.merchant.marketing.activity.SelectAgesActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            
+>
+
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="pmcheckbox"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="??????"
+            android:name="com.dianping.merchant.marketing.activity.SetPushDocumentActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            
+>
+
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="pmradio"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.dianping.merchant.marketing.activity.MarketPushHistoryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            
+>
+
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="pmpushrecordlist"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0800AC, type 0x01>
+            android:name="com.dianping.permission.PermissionHandlerActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dianping"
+                    android:host="handlepermission"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <provider
+            android:name="com.meituan.android.common.unionid.UnionIdProvider"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:authorities="com.dianping.dppos.UnionIdProvider"
+            >
+        </provider>
+        <activity
+            android:label="??????"
+            android:name="com.dianping.activity.AboutActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="about"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.dianping.activity.DoNotDisturbModeSettingActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="notificationswitch"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="??????"
+            android:name="com.dianping.activity.MessageAct"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="chatlist"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.dianping.activity.NotificationSettingActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="notificationsetting"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.dianping.activity.PrintSettingsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="printsettings"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="??"
+            android:name="com.dianping.activity.SettingsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="setting"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.dianping.activity.SoundSettingActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="soundsetting"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="?????"
+            android:name="com.dianping.activity.BluetoothActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="bluetooth"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.dianping.activity.ChooseCountryCodeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="choosecountrycode"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label=<0x7F090124, type 0x01>
+            android:name="com.dianping.merchant.t.bankcard.activity.BankCardDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="bankcarddetail"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.dianping.merchant.t.bankcard.activity.BankcardListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="bankcardlist"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.dianping.merchant.t.bankcard.activity.SelectShopForBankcardActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="selectbankcardshop"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.dianping.chat.activity.UserChatActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="userchat"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.dianping.chat.activity.UserChatListActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="chatuserlist"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <service
+            android:name="com.dianping.chat.service.ChatPollingService"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:exported=<0x0, type 0x12>
+            >
+        </service>
+        <activity
+            android:name="com.dianping.base.web.ui.NovaTitansActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            android:hardwareAccelerated=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="newweb"
+                    >
+                </data>
+                <data
+                    android:scheme="dpmer"
+                    android:host="web"
+                    >
+                </data>
+                <data
+                    android:scheme="dpmerchant"
+                    android:host="merchant_common_web"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.dianping.merchant.t.settlement.activity.SettlementCycle"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="settlementcycle"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="??????"
+            android:name="com.dianping.merchant.t.settlement.activity.ChangeWithdrawMethodActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="changewithdrawmethod"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.dianping.merchant.t.settlement.activity.VerificationActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="verificationprofile"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.dianping.merchant.main.activity.account.AddAccountActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="addaccount"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.dianping.merchant.main.activity.account.AddShopAccountActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="addshopaccount"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.dianping.merchant.main.activity.account.SubAccountInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="subaccountinfo"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="??"
+            android:name="com.dianping.merchant.main.activity.account.PrivilegeListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="bindprivileges"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.dianping.merchant.main.activity.account.MyAccountPortalActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="myaccount"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="?????"
+            android:name="com.dianping.merchant.main.activity.account.ModifyAccountSendcodeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="modifyaccountsendcode"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.dianping.merchant.main.activity.account.ModifyAccountPwdActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="modifyaccountpwd"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="?????"
+            android:name="com.dianping.merchant.main.activity.account.ModifyAccountPhoneActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="modifyaccountphone"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.dianping.merchant.main.activity.account.ModifyAccountNameActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="modifyaccountname"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="????????"
+            android:name="com.dianping.merchant.main.activity.account.ModifyAccountInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="modifyaccountinfo"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="??????"
+            android:name="com.dianping.merchant.main.activity.account.ManageShopAccountActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="manageshopaccount"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="??"
+            android:name="com.dianping.merchant.main.activity.account.BindShopListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="bindshoplist"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <uses-library
+            android:name="com.google.android.maps"
+            android:required=<0x0, type 0x12>
+            >
+        </uses-library>
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="rQZo3cXEYHtHGoaCyAoDBIes"
+            >
+        </meta-data>
+        <activity
+            android:theme=<0x103000B, type 0x01>
+            android:name="com.dianping.base.basic.ParseQRUrlActivity"
+            android:configChanges=<0xA0, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <action
+                    android:name="com.dianping.PARSE_BARCODE"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="http"
+                    android:host="dpurl.cn"
+                    android:pathPrefix="/m"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpcrm"
+                    android:host="parseqrurl"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <service
+            android:name="com.tencent.wns.service.WnsMain"
+            android:exported=<0x0, type 0x12>
+            android:process=":wns"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.tencent.wns.service.WnsMain"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <receiver
+            android:name="com.tencent.base.os.clock.AlarmClockReceiver"
+            android:exported=<0x0, type 0x12>
+            android:process=":wns"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="wns.heartbeat"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:label="????"
+            android:name="com.dianping.merchant.reputation.NewReputationMainActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="newreputation"
+                    >
+                </data>
+                <data
+                    android:scheme="dpmer"
+                    android:host="mendianreview"
+                    >
+                </data>
+                <data
+                    android:scheme="dpmer"
+                    android:host="tuandanreview"
+                    >
+                </data>
+                <data
+                    android:scheme="dpmer"
+                    android:host="fendianreview"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.dianping.merchant.reputation.CommentsDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+             >
+
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="commentsdetail"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <receiver
+            android:name="com.dianping.merchant.reputation.KoubeiPushMessageReceiver"
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.dianping.dpmerchant.action.push.KOUBEI.GOOD"
+                    >
+                </action>
+                <action
+                    android:name="com.dianping.dpmerchant.action.push.KOUBEI.BAD"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.dianping.share.thirdparty.wxapi.WXStartReceiver"
+            android:permission="com.tencent.mm.plugin.permission.SEND"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.tencent.mm.plugin.openapi.Intent.ACTION_REFRESH_WXAPP"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.dianping.sso.PosSSOBroadCast"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.dianping.action.POS_NOTIFICATION"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:name="sdk.meizu.auth.ui.AuthActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=""
+            android:name="com.dianping.merchant.dish.activity.OrderDishMainActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="orderdish"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <receiver
+            android:name="com.dianping.merchant.dish.DishPushMessageReceiver"
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.dianping.dpmerchant.action.push.DC"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.dianping.merchant.dish.DishPrintJSMessageReceiver"
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.dianping.dpmerchant.action.push.DISHPRINT"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.dianping.locationservice.realtime.LocationReporterReceiver"
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.dianping.dpmtpush.REPORT_LOCATION"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.dianping.merchant.beauty.BeautyPushMessageReceiver"
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.dianping.dpmerchant.action.push.BEAUTY"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.dianping.merchant.booking.BookingCancelPushMessageReceiver"
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.dianping.dpmerchant.action.push.YDTD"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.dianping.merchant.booking.BookingPushMessageReceiver"
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.dianping.dpmerchant.action.push.YDDD"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.dianping.merchant.entertainment.EntertainmentPushMessageReceiver"
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.dianping.dpmerchant.action.push.XXYL"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.dianping.merchant.ktv.JSDDPushMessageReceiver"
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.dianping.dpmerchant.action.push.JSDD"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.dianping.merchant.ktv.KTVPushMessageReceiver"
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.dianping.dpmerchant.action.push.KTV"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.dianping.merchant.takeaway.WaiMaiPushMessageReceiver"
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.dianping.dpmerchant.action.push.WAIMAIVIDEO"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.dianping.merchant.entertainment.EntertainmentBookingPushMessageReceiver"
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.dianping.dpmerchant.action.push.XXYLBOOKING"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:label="????"
+            android:name="com.dianping.merchant.main.activity.account.LaunchActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="launch"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.dianping.merchant.main.activity.account.LoginActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="login"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.dianping.merchant.main.activity.account.LoginByPhoneActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="loginbyphone"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="??"
+            android:name="com.dianping.merchant.main.activity.account.RegisterByPhoneActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="registerbyphone"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="??"
+            android:name="com.dianping.merchant.main.activity.account.ResetPasswordActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="resetpassword"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.dianping.merchant.main.activity.account.RetrieveTypeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="retrievetype"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="???????"
+            android:name="com.dianping.merchant.main.activity.account.RetrieveByPhoneActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="retrievebyphone"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="???????"
+            android:name="com.dianping.merchant.main.activity.account.RetrieveAccountlistActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="retrieveaccountlist"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="??????"
+            android:name="com.dianping.merchant.main.activity.account.RetrieveByAccountActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="retrievebyaccount"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="??????"
+            android:name="com.dianping.merchant.main.activity.account.RetrieveSendcodeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="retrievesendcode"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="??????"
+            android:name="com.dianping.merchant.main.activity.account.RetrieveByShopActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="retrievebyshop"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.dianping.merchant.main.activity.account.CityListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="citylist"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="??????"
+            android:name="com.dianping.merchant.main.activity.account.RetrieveByShopAccountlistActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="retrievebyshopaccountlist"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label=""
+            android:name="com.dianping.merchant.main.activity.account.RetrieveShopListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="retrieveshoplist"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <receiver
+            android:name="com.dianping.base.push.pushservice.PhoneStatusReceiver"
+            android:process=":dppushservice"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.BOOT_COMPLETED"
+                    >
+                </action>
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.DATE_CHANGED"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.TIME_SET"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.TIMEZONE_CHANGED"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.PROXY_CHANGE"
+                    >
+                </action>
+                <action
+                    android:name="android.appwidget.action.APPWIDGET_UPDATE"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.SCREEN_ON"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.SCREEN_OFF"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.USER_PRESENT"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.dianping.base.push.pushservice.NotificationClickReceiver"
+            android:exported=<0x0, type 0x12>
+            android:process=":dppushservice"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.dianping.dpmtpush.CLICK_NOTIFICATION"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.dianping.base.push.pushservice.PushStartReceiver"
+            android:process=":dppushservice"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.dianping.action.PUSH_START"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.dianping.base.push.pushservice.dp.DPPushService"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:process=":dppushservice"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.dianping.action.PUSHSERVICE"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.dianping.base.push.pushservice.dp.FakeService"
+            android:exported=<0x0, type 0x12>
+            android:process=":dppushservice"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.dianping.action.PUSHSERVICE"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.dianping.base.push.pushservice.PushWakeUpJob"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:exported=<0x0, type 0x12>
+            android:process=":dppushservice"
+            >
+        </service>
+        <provider
+            android:name="com.dianping.base.push.pushservice.PreferencesContentProvider"
+            android:exported=<0x0, type 0x12>
+            android:process=":dppushservice"
+            android:authorities="com.dianping.dppos.dppush"
+            >
+        </provider>
+        <service
+            android:name="com.xiaomi.push.service.XMPushService"
+            android:enabled=<0x0, type 0x12>
+            android:process=":pushservice"
+            >
+        </service>
+        <service
+            android:name="com.xiaomi.mipush.sdk.PushMessageHandler"
+            android:enabled=<0x0, type 0x12>
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+        </service>
+        <service
+            android:name="com.xiaomi.mipush.sdk.MessageHandleService"
+            android:enabled=<0x0, type 0x12>
+            >
+        </service>
+        <receiver
+            android:name="com.xiaomi.push.service.receivers.NetworkStatusReceiver"
+            android:enabled=<0x0, type 0x12>
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.xiaomi.push.service.receivers.PingReceiver"
+            android:enabled=<0x0, type 0x12>
+            android:exported=<0x0, type 0x12>
+            android:process=":pushservice"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.xiaomi.push.PING_TIMER"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.dianping.base.push.pushservice.MiPushMessageReceiver"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.xiaomi.mipush.RECEIVE_MESSAGE"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.xiaomi.mipush.ERROR"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.dianping.base.push.pushservice.HWPushMessageReceiver"
+            android:enabled=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.huawei.android.push.intent.REGISTRATION"
+                    >
+                </action>
+                <action
+                    android:name="com.huawei.android.push.intent.RECEIVE"
+                    >
+                </action>
+                <action
+                    android:name="com.huawei.android.push.intent.CLICK"
+                    >
+                </action>
+                <action
+                    android:name="com.huawei.intent.action.PUSH_STATE"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.huawei.android.pushagent.PushEventReceiver"
+            android:enabled=<0x0, type 0x12>
+            android:process=":pushservice"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.huawei.android.push.intent.REFRESH_PUSH_CHANNEL"
+                    >
+                </action>
+                <action
+                    android:name="com.huawei.intent.action.PUSH"
+                    >
+                </action>
+                <action
+                    android:name="com.huawei.intent.action.PUSH_ON"
+                    >
+                </action>
+                <action
+                    android:name="com.huawei.android.push.PLUGIN"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.PACKAGE_ADDED"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.PACKAGE_REMOVED"
+                    >
+                </action>
+                <data
+                    android:scheme="package"
+                    >
+                </data>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.huawei.android.pushagent.PushBootReceiver"
+            android:enabled=<0x0, type 0x12>
+            android:process=":pushservice"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.huawei.android.push.intent.REGISTER"
+                    >
+                </action>
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+            </intent-filter>
+            <meta-data
+                android:name="CS_cloud_version"
+                android:value="2705"
+                >
+            </meta-data>
+        </receiver>
+        <service
+            android:name="com.huawei.android.pushagent.PushService"
+            android:enabled=<0x0, type 0x12>
+            android:process=":pushservice"
+            >
+        </service>
+        <activity
+            android:label="????"
+            android:name="com.dianping.debug.activity.DebugActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="debug"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="??????"
+            android:name="com.dianping.debug.activity.DebugDomainSelectActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            
+>
+
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="??Crash"
+            android:name="com.dianping.debug.activity.DebugMockCrashActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="mockcrash"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x1030055, type 0x01>
+            android:label="????"
+            android:name="com.dianping.debug.activity.ParseQRUrlActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="parseqrurl"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:label="???"
+            android:name="com.dianping.debug.activity.QRScanActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="qrscan"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="??mock"
+            android:name="com.dianping.debug.activity.StfMockActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="stfmock"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <service
+            android:name="com.dianping.debug.UrlschemeService"
+            android:exported=<0x0, type 0x12>
+            android:process="com.dianping.test.urlschemeservice"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.dianping.base.debug.UrlschemeService"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.dianping.debug.DebugWindowService"
+            >
+        </service>
+        <activity
+            android:label="????"
+            android:name="com.dianping.photo.picker.UploadPhotoGalleryAlbumPictureActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x5, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="jla"
+                    android:host="uploadphotogalleryalbumpicture"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.dianping.photo.picker.UploadPhotoEditActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x5, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.dianping.action.PHOTO_UPLOAD"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="jla"
+                    android:host="photouploadedit"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="jla"
+                    android:host="photopreviewedit"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.dianping.photo.show.ShowPhotoActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x5, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="jla"
+                    android:host="showphoto"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.dianping.photo.show.ShowImageListActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x5, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="jla"
+                    android:host="showimagelist"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.dianping.message.activity.MessageListActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="messagecenter"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <receiver
+            android:name="com.dianping.receiver.LogoutReceiver"
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.dianping.clearcache"
+                    >
+                </action>
+                <action
+                    android:name="com.dianping.logout"
+                    >
+                </action>
+                <action
+                    android:name="com.dianping.switchaccount"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:label="????"
+            android:name="com.dianping.merchant.main.activity.account.ChangePwdActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="changepwd"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="?????"
+            android:name="com.dianping.merchant.main.activity.account.ChangePhoneActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="changephone"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.dianping.photo.UploadPhotoEditActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.dianping.action.PHOTO_UPLOAD"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="photouploadedit"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="photopreviewedit"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <receiver
+            android:name="com.dianping.push.PassThrougnMessageReceiver"
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.dianping.dpmtpush.RECEIVE_PASS_THROUGH_MESSAGE"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.dianping.push.NotificationClickReceiver"
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.dianping.dpmtpush.CLICK_NOTIFICATION"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.dianping.push.PushTokenReceiver"
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.dianping.dpmtpush.RECEIVE_TOKEN"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.dianping.download.DefaultDownloadService"
+            >
+        </service>
+        <activity
+            android:label="KTV??"
+            android:name="com.dianping.jla.ktv.booking.activity.KTVBookingActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="ktvreserve"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label=""
+            android:name="com.dianping.merchant.t.activity.TuanActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="tuanverify"
+                    >
+                </data>
+                <data
+                    android:scheme="mtdp"
+                    android:host="tuanverify"
+                    >
+                </data>
+                <data
+                    android:scheme="dpmer"
+                    android:host="shanhui"
+                    >
+                </data>
+                <data
+                    android:scheme="dpmer"
+                    android:host="tuandata"
+                    >
+                </data>
+                <data
+                    android:scheme="dpmer"
+                    android:host="tuancheck"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.dianping.merchant.t.activity.DealConsumeDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="consumecouponverifylist"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.dianping.merchant.t.activity.IntegrityVerificationActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="integrityverification"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="?????"
+            android:name="com.dianping.merchant.t.activity.QRDealListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="qrdeallist"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.dianping.merchant.t.activity.QuickVerifyReceiptActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="quickverifyreceipt"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.dianping.merchant.t.activity.QuickVerifyResultActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="quickverifyresult"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.dianping.merchant.t.activity.SelectShopActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="selectshop"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.dianping.merchant.t.activity.SelectShopForAccount"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="selectshopforaccount"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="???"
+            android:name="com.dianping.merchant.t.activity.TicketQueryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="ticketquery"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.dianping.merchant.t.activity.VerifyRecondShopSelectActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="verifyrecordshopselect"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.dianping.merchant.t.activity.VerifyRecordDealSelectActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="verifyrecorddealselect"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.dianping.merchant.t.activity.VerifyRecordNativeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="verifyrecord"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="?????"
+            android:name="com.dianping.merchant.t.consumedetail.activity.ConsumeDetailShopListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="consumedetailshoplist"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="?????"
+            android:name="com.dianping.merchant.t.consumedetail.activity.DailyConsumeList"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="consumedailylist"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <receiver
+            android:name="com.dianping.merchant.t.consumereceipt.util.ComsumePrintJSMessageReceiver"
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.dianping.dpmerchant.action.push.CONSUMEPRINT"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:label="?????"
+            android:name="com.dianping.merchant.t.activity.QRScanFailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="qrfail"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.antfortune.freeline.MiddlewareActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <service
+            android:name="com.antfortune.freeline.FreelineService"
+            android:process=":freeline"
+            >
+        </service>
+        <service
+            android:name="com.antfortune.freeline.FreelineService$InnerService"
+            android:process=":freeline"
+            >
+        </service>
+        <receiver
+            android:name="com.antfortune.freeline.FreelineReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.FreelineReceiver"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:label="??"
+            android:name="com.dianping.merchant.hui.HuiCouponDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="huicoupondetail"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <receiver
+            android:name="com.dianping.merchant.hui.HuiDailyReportPrintJSMessageReceiver"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.dianping.dpmerchant.action.push.HUIDAILYREPORTPRINT"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.dianping.merchant.hui.ShangPushMessageReceiver"
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.dianping.dpmerchant.action.push.SHANGVIDEO"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:label="??"
+            android:name="com.dianping.activity.MoreCommonEntranceActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="morecommonentrance"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="??"
+            android:name="com.dianping.activity.HomeGuideActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="homeguide"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <receiver
+            android:name="com.dianping.dppos.wxapi.WXStartReceiver"
+            android:permission="com.tencent.mm.plugin.permission.SEND"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.tencent.mm.plugin.openapi.Intent.ACTION_REFRESH_WXAPP"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:label="????"
+            android:name="com.dianping.cashier.MiniPayOrderActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="minipayorder"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x103000F, type 0x01>
+            android:label=<0x7F090130, type 0x01>
+            android:name="com.dianping.dppos.wxapi.WXPayEntryActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x3, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.alipay.sdk.app.H5AuthActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x3, type 0x10>
+            android:configChanges=<0xE0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.dianping.merchant.t.bill.details.activity.BillDetailAct"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="billdetaill"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.dianping.merchant.t.bill.details.activity.FinancialAdjustmentAct"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="financialadjustment"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.dianping.merchant.t.bill.details.activity.SummaryAct"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="summarylist"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.dianping.merchant.t.bill.home.BankCardInfoActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="billbankcardinfo"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.dianping.merchant.t.bill.home.Bill_MainActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="billmainentry"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.dianping.merchant.t.bill.home.BillShopSelectActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="billshopselect"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.dianping.merchant.t.bill.home.CostDetailActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+             >
+
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="expensesdetail"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="??"
+            android:name="com.dianping.merchant.t.bill.home.RevenueActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+             >
+
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="payment"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.dianping.merchant.t.bill.shanhui.activity.BillDetail"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="shanhuibilldetail"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.dianping.merchant.t.bill.shanhui.activity.CurrentBillDetail"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="shanhuicurrentbilldetail"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.dianping.merchant.t.bill.shanhui.activity.DetailList"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="shanhuidetaillist"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.dianping.merchant.t.bill.shanhui.activity.ShopList"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="shanhuishoplist"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.dianping.merchant.t.bill.PaymentProgressActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="paymentprogress"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="??"
+            android:name="com.dianping.merchant.t.bill.WithdrawMainActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="withdrawmain"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="????"
+            android:name="com.dianping.merchant.t.bill.WithdrawResultActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="withdrawresult"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="??????"
+            android:name="com.dianping.merchant.peerrank.PeerRankMainActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="dpmer"
+                    android:host="shopranktab"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

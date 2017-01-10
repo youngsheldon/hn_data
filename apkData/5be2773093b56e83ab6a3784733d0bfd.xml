@@ -1,0 +1,2028 @@
+<manifest
+    android:versionCode=<0x17, type 0x10>
+    android:versionName="4.1.7"
+    package="com.zqcy.workbench"
+    platformBuildVersionCode=<0x17, type 0x10>
+    platformBuildVersionName="6.0-2704002"
+    >
+    <uses-sdk
+        android:minSdkVersion=<0x12, type 0x10>
+        android:targetSdkVersion=<0x16, type 0x10>
+        >
+    </uses-sdk>
+    <supports-screens
+        android:anyDensity=<0xFFFFFFFF, type 0x12>
+        android:smallScreens=<0xFFFFFFFF, type 0x12>
+        android:normalScreens=<0xFFFFFFFF, type 0x12>
+        android:largeScreens=<0xFFFFFFFF, type 0x12>
+        android:resizeable=<0xFFFFFFFF, type 0x12>
+        >
+    </supports-screens>
+    <original-package
+        android:name="com.zqcy.workbench"
+        >
+    </original-package>
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required=<0xFFFFFFFF, type 0x12>
+        >
+    </uses-feature>
+    <uses-permission
+        android:name="android.permission.READ_LOGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_CALL_LOG"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_CALL_LOG"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CALL_PHONE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_CONTACTS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_CONTACTS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_PROFILE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_PROFILE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.VIBRATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WAKE_LOCK"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.INSTALL_DRM"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_APN_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.launcher.permission.INSTALL_SHORTCUT"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.launcher.permission.READ_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CAMERA"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_GPS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECORD_AUDIO"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.MODIFY_AUDIO_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.SYSTEM_ALERT_WINDOW"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.PROCESS_OUTGOING_CALLS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.FLASHLIGHT"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.GET_TASKS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_MMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.SEND_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.BAIDU_LOCATION_SERVICE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.bluetooth.headset.profile.action.CONNECTION_STATE_CHANGED"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.BLUETOOTH_ADMIN"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.BROADCAST_STICKY"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.BLUETOOTH"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_CONFIGURATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.REORDER_TASKS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_BOOT_COMPLETED"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.SYSTEM_OVERLAY_WINDOW"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.KILL_BACKGROUND_PROCESSES"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.DISABLE_KEYGUARD"
+        >
+    </uses-permission>
+    <application
+        android:theme=<0x7F0B0199, type 0x01>
+        android:label=<0x7F080050, type 0x01>
+        android:icon=<0x7F020394, type 0x01>
+        android:name="com.zqcy.workbench.ui.TApplication"
+        android:allowBackup=<0x0, type 0x12>
+        android:supportsRtl=<0xFFFFFFFF, type 0x12>
+        >
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="vHLTG9Yx85hKFTtUez2gkvuFyVKSHyll"
+            >
+        </meta-data>
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="65ec4a99d1d8eda360ebe3006a17ec0b"
+            >
+        </meta-data>
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="50ca84c95270150bc900004e"
+            >
+        </meta-data>
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="talkweb2012"
+            >
+        </meta-data>
+        <uses-library
+            android:name="android.test.runner"
+            >
+        </uses-library>
+        <activity
+            android:theme=<0x7F0B00E1, type 0x01>
+            android:name="com.zqcy.workbench.ui.WelcomeActivity_"
+            android:screenOrientation=<0x1, type 0x10>
+            android:alwaysRetainTaskState=<0xFFFFFFFF, type 0x12>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.LAUNCHER"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.CREATE_SHORTCUT"
+                    >
+                </action>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0B00E1, type 0x01>
+            android:name="com.zqcy.workbench.ui.LogoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:alwaysRetainTaskState=<0xFFFFFFFF, type 0x12>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:name="com.zqcy.workbench.ui.MainActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <receiver
+            android:name="com.zqcy.workbench.ui.service.SmsBroadcast"
+            android:permission="android.permission.BROADCAST_SMS"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.provider.Telephony.SMS_DELIVER"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.zqcy.workbench.ui.service.AlarmReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.cmcc.ping"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:name="com.zqcy.workbench.ui.SelectFirmContactActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:name="com.zqcy.workbench.ui.AppCenterGridActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:name="com.zqcy.workbench.ui.WorkActivity_"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:name="com.zqcy.workbench.ui.AppCenterActivity_"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:name="com.zqcy.workbench.ui.FirmContactsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:name="com.zqcy.workbench.ui.FirmActivity_"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B007B, type 0x01>
+            android:name="com.zqcy.workbench.ui.SearchActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:name="com.zqcy.workbench.ui.SearchDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:name="com.zqcy.workbench.ui.ContactDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:name="com.zqcy.workbench.ui.IndividualContactDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:name="com.zqcy.workbench.ui.LoginActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:name="com.zqcy.workbench.ui.InfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:name="com.zqcy.workbench.ui.EditUserInfoActivity_"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:name="com.zqcy.workbench.ui.MeetLogActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:name="com.zqcy.workbench.ui.MeetingActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:name="com.zqcy.workbench.ui.SetFeedBackActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:name="com.zqcy.workbench.ui.HelpActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:name="com.zqcy.workbench.ui.MoreActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:name="com.zqcy.workbench.ui.SimSetActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:name="com.zqcy.workbench.ui.RepickFirmActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:name="com.zqcy.workbench.ui.CallRemindActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:name="com.zqcy.workbench.ui.AboutActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B007B, type 0x01>
+            android:name="com.zqcy.workbench.ui.meetingassistant.MettingAssistantInterflow"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B007B, type 0x01>
+            android:name="com.zqcy.workbench.ui.meetingassistant.MettingAssistant"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B007B, type 0x01>
+            android:name="com.zqcy.workbench.ui.meetingassistant.MettingAssistantList"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B007B, type 0x01>
+            android:name="com.zqcy.workbench.ui.meetingassistant.MettingAssistantAction"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B007B, type 0x01>
+            android:name="com.zqcy.workbench.ui.meetingassistant.MettingAssistantAgenda"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B007B, type 0x01>
+            android:name="com.zqcy.workbench.ui.meetingassistant.MettingAssistantAgendaMe"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B007B, type 0x01>
+            android:name="com.zqcy.workbench.ui.meetingassistant.MettingAssistantAgendaSignin"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B007B, type 0x01>
+            android:name="com.zqcy.workbench.ui.meetingassistant.MettingAssistantAgendaSigninMng"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:name="com.zqcy.workbench.ui.meetingassistant.MettingAssistantAgendaSigninMyLocation"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B007B, type 0x01>
+            android:name="com.zqcy.workbench.ui.meetingassistant.MettingAssistantAgendaDetail"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B007B, type 0x01>
+            android:name="com.zqcy.workbench.ui.meetingassistant.MettingAssistantAgendaDetailMap"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:name="com.zqcy.workbench.ui.meetingassistant.MettingAssistantAgendaDetailContent"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:name="com.zqcy.workbench.ui.meetingassistant.MettingAssistantAgendaDetailInfo"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B007B, type 0x01>
+            android:name="com.zqcy.workbench.ui.meetingassistant.MettingAssistantFeedback"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B007B, type 0x01>
+            android:name="com.zqcy.workbench.ui.meetingassistant.MettingAssistantGuide"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B007B, type 0x01>
+            android:name="com.zqcy.workbench.ui.meetingassistant.MettingAssistantIntroduction"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B007B, type 0x01>
+            android:name="com.zqcy.workbench.ui.meetingassistant.MettingAssistantMember"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:name="com.zqcy.workbench.ui.meetingassistant.MettingAssistantMemberList"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:name="com.zqcy.workbench.ui.meetingassistant.MettingAssistantMemberGuest"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:name="com.zqcy.workbench.ui.meetingassistant.MettingAssistantMemberGroup"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B007B, type 0x01>
+            android:name="com.zqcy.workbench.ui.meetingassistant.MettingAssistantMemberDetailSelf"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B007B, type 0x01>
+            android:name="com.zqcy.workbench.ui.meetingassistant.MettingAssistantMemberDetailGuest"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B007B, type 0x01>
+            android:name="com.zqcy.workbench.ui.meetingassistant.MettingAssistantRemind"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B007B, type 0x01>
+            android:name="com.zqcy.workbench.ui.meetingassistant.MettingAssistantTrip"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B007B, type 0x01>
+            android:name="com.zqcy.workbench.ui.meetingassistant.MettingAssistantWeibo"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B007B, type 0x01>
+            android:name="com.zqcy.workbench.ui.meetingassistant.MeetingWeiboDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B007B, type 0x01>
+            android:name="com.zqcy.workbench.ui.meetingassistant.MeetingNewWeiboActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B007B, type 0x01>
+            android:name="com.zqcy.workbench.ui.meetingassistant.MeetingPlaceDiscributedActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B007B, type 0x01>
+            android:name="com.zqcy.workbench.ui.meetingassistant.MettingAssistantWeather"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B007B, type 0x01>
+            android:name="com.zqcy.workbench.ui.meetingassistant.MettingEleganceFood"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B007B, type 0x01>
+            android:name="com.zqcy.workbench.ui.meetingassistant.MettingEleganceTravel"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B007B, type 0x01>
+            android:name="com.zqcy.workbench.ui.meetingassistant.MettingAssistantPlaceElegance"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B007B, type 0x01>
+            android:name="com.zqcy.workbench.ui.meetingassistant.MettingAdmin"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B007B, type 0x01>
+            android:name="com.zqcy.workbench.ui.meetingassistant.MettingArea"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B007B, type 0x01>
+            android:name="com.zqcy.workbench.ui.meetingassistant.MATripDatetimePicker"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:name="com.zqcy.workbench.ui.PullSmsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:name="com.zqcy.workbench.common.base.activity.ContactChoiceActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:name="com.zqcy.workbench.ui.PullSmsContentActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B007B, type 0x01>
+            android:name="com.zqcy.workbench.ydkq.ui.AttendanceActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:name="com.zqcy.workbench.ydkq.ui.RegistrationActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:name="com.zqcy.workbench.ydkq.ui.AttendanceRecordActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:name="com.zqcy.workbench.ydkq.ui.LocateMapActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:name="com.zqcy.workbench.ui.DepartmentActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:name="com.zqcy.workbench.ui.BackupActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:name="com.zqcy.workbench.contacts.BackupLogActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:name="com.zqcy.workbench.contacts.BackupLogDetailsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B007B, type 0x01>
+            android:name="com.google.zxing.client.android.CaptureActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.google.zxing.client.android.SCAN"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="http"
+                    android:host="zxing.appspot.com"
+                    android:path="/scan"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="http"
+                    android:host="www.google.com"
+                    android:path="/m/products/scan"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="http"
+                    android:host="www.google.co.uk"
+                    android:path="/m/products/scan"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label=<0x7F0801C5, type 0x01>
+            android:name="com.google.zxing.client.android.PreferencesActivity"
+            >
+        </activity>
+        <activity
+            android:name="com.google.zxing.client.android.encode.EncodeActivity"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.google.zxing.client.android.ENCODE"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.SEND"
+                    >
+                </action>
+                <data
+                    android:mimeType="text/x-vcard"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label=<0x7F080279, type 0x01>
+            android:name="com.google.zxing.client.android.wifi.WifiActivity"
+            android:screenOrientation=<0x0, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F08021F, type 0x01>
+            android:name="com.google.zxing.client.android.share.ShareActivity"
+            android:screenOrientation=<0x2, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.google.zxing.client.android.SHARE"
+                    >
+                </action>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label=<0x7F080064, type 0x01>
+            android:name="com.google.zxing.client.android.share.BookmarkPickerActivity"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.PICK"
+                    >
+                </action>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label=<0x7F080051, type 0x01>
+            android:name="com.google.zxing.client.android.share.AppPickerActivity"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.PICK"
+                    >
+                </action>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:name="com.google.zxing.client.android.HelpActivity"
+            android:screenOrientation=<0x2, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+            </intent-filter>
+        </activity>
+        <service
+            android:name="com.zqcy.workbench.network.MQTTService"
+            android:process=":push"
+            >
+        </service>
+        <service
+            android:name="com.zqcy.workbench.ui.service.AppUpgradeService"
+            >
+        </service>
+        <service
+            android:name="com.zqcy.workbench.ui.service.UpdateDataService"
+            >
+        </service>
+        <service
+            android:name="com.zqcy.workbench.ui.service.AppendSmsService"
+            >
+        </service>
+        <service
+            android:name="com.zqcy.workbench.ui.service.PullSmsService"
+            >
+        </service>
+        <receiver
+            android:name="com.zqcy.workbench.service.Receiver1"
+            android:process=":push"
+            >
+        </receiver>
+        <service
+            android:name="com.zqcy.workbench.service.Service2"
+            android:process=":process2"
+            >
+        </service>
+        <receiver
+            android:name="com.zqcy.workbench.service.Receiver2"
+            android:process=":process2"
+            >
+        </receiver>
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:process=":remote"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.baidu.location.service_v2.2"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.zqcy.workbench.module.smsmms.transaction.TransactionService"
+            android:exported=<0x0, type 0x12>
+            >
+        </service>
+        <service
+            android:name="com.zqcy.workbench.module.smsmms.transaction.SmsReceiverService"
+            android:exported=<0x0, type 0x12>
+            >
+        </service>
+        <service
+            android:name="com.zqcy.workbench.service.ForegroundService"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+        </service>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:label=<0x7F08004F, type 0x01>
+            android:name="com.zqcy.workbench.module.smsmms.ui.ConversationList"
+            android:launchMode=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:uiOptions=<0x1, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <data
+                    android:mimeType="vnd.android.cursor.dir/mms"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <data
+                    android:mimeType="vnd.android-dir/mms-sms"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:name="com.zqcy.workbench.module.smsmms.ui.ComposeMessageActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.SEND"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.SENDTO"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="sms"
+                    >
+                </data>
+                <data
+                    android:scheme="smsto"
+                    >
+                </data>
+                <data
+                    android:scheme="mms"
+                    >
+                </data>
+                <data
+                    android:scheme="mmsto"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <data
+                    android:mimeType="vnd.android-dir/mms-sms"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.SENDTO"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="sms"
+                    >
+                </data>
+                <data
+                    android:scheme="smsto"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.SENDTO"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="mms"
+                    >
+                </data>
+                <data
+                    android:scheme="mmsto"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.SEND"
+                    >
+                </action>
+                <data
+                    android:mimeType="image/*"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.SEND"
+                    >
+                </action>
+                <data
+                    android:mimeType="text/plain"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.SEND_MULTIPLE"
+                    >
+                </action>
+                <data
+                    android:mimeType="image/*"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity-alias
+            android:theme=<0x7F0B00D8, type 0x01>
+            android:name="com.zqcy.workbench.module.smsmms.ui.ForwardMessageActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            android:targetActivity="com.zqcy.workbench.module.smsmms.ui.ComposeMessageActivity"
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity-alias>
+        <activity
+            android:theme=<0x7F0B00D8, type 0x01>
+            android:name="com.zqcy.workbench.module.smsmms.ui.ComposeMessageActivityNoLockScreen"
+            android:exported=<0x0, type 0x12>
+            android:launchMode=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103000B, type 0x01>
+            android:label=<0x7F0800C3, type 0x01>
+            android:name="com.zqcy.workbench.module.smsmms.ui.DeliveryReportActivity"
+            >
+        </activity>
+        <activity
+            android:theme=<0x103000B, type 0x01>
+            android:label=<0x7F080243, type 0x01>
+            android:name="com.zqcy.workbench.module.smsmms.ui.WarnOfStorageLimitsActivity"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103000B, type 0x01>
+            android:label=<0x7F08008E, type 0x01>
+            android:name="com.zqcy.workbench.module.smsmms.ui.EditSlideDurationActivity"
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B00D8, type 0x01>
+            android:label=<0x7F0800EB, type 0x01>
+            android:name="com.zqcy.workbench.module.smsmms.ui.SlideshowEditActivity"
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B00D8, type 0x01>
+            android:label=<0x7F0801DE, type 0x01>
+            android:name="com.zqcy.workbench.module.smsmms.ui.RecipientListActivity"
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B00D8, type 0x01>
+            android:label=<0x7F0800EA, type 0x01>
+            android:name="com.zqcy.workbench.module.smsmms.ui.SlideEditorActivity"
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B00D8, type 0x01>
+            android:label=<0x7F08022D, type 0x01>
+            android:name="com.zqcy.workbench.module.smsmms.ui.SlideshowActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            android:noHistory=<0xFFFFFFFF, type 0x12>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103000F, type 0x01>
+            android:label=<0x7F08009A, type 0x01>
+            android:name="com.zqcy.workbench.module.smsmms.ui.ClassZeroActivity"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B00D8, type 0x01>
+            android:label=<0x7F0801C9, type 0x01>
+            android:name="com.zqcy.workbench.module.smsmms.ui.MessagingPreferenceActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B012C, type 0x01>
+            android:name="com.zqcy.workbench.contacts.ContactsAutoMerge"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B012C, type 0x01>
+            android:name="com.zqcy.workbench.contacts.ContactsMerge"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B007B, type 0x01>
+            android:name="com.zqcy.workbench.contacts.ContactActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <receiver
+            android:name="com.zqcy.workbench.module.smsmms.transaction.PushReceiver"
+            android:permission="android.permission.BROADCAST_WAP_PUSH"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.provider.Telephony.WAP_PUSH_DELIVER"
+                    >
+                </action>
+                <action
+                    android:name="android.provider.Telephony.WAP_PUSH_RECEIVED"
+                    >
+                </action>
+                <data
+                    android:mimeType="application/vnd.wap.mms-message"
+                    >
+                </data>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.zqcy.workbench.module.smsmms.transaction.MmsSystemEventReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.CONTENT_CHANGED"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.BOOT_COMPLETED"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.zqcy.workbench.ui.service.ZCallBroadcast"
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                android:priority=<0x3E8, type 0x10>
+                >
+                <action
+                    android:name="android.intent.action.NEW_OUTGOING_CALL"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.PHONE_STATE"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:theme=<0x7F0B00D8, type 0x01>
+            android:label=<0x7F080229, type 0x01>
+            android:name="com.zqcy.workbench.module.smsmms.ui.ManageSimMessages"
+            android:launchMode=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+            </intent-filter>
+        </activity>
+        <receiver
+            android:name="com.zqcy.workbench.module.smsmms.transaction.PrivilegedSmsReceiver"
+            android:permission="android.permission.BROADCAST_SMS"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.provider.Telephony.SMS_RECEIVED"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.zqcy.workbench.module.smsmms.transaction.SmsReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.BOOT_COMPLETED"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.android.mms.transaction.MESSAGE_SENT"
+                    >
+                </action>
+                <data
+                    android:scheme="content"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.android.mms.transaction.SEND_MESSAGE"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.zqcy.workbench.module.smsmms.transaction.MessageStatusReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.android.mms.transaction.MessageStatusReceiver.MESSAGE_STATUS_RECEIVED"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.zqcy.workbench.module.smsmms.transaction.MessageStatusService"
+            >
+        </service>
+        <receiver
+            android:name="com.zqcy.workbench.module.smsmms.transaction.SimFullReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.provider.Telephony.SIM_FULL"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.zqcy.workbench.module.smsmms.transaction.SmsRejectedReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.provider.Telephony.SMS_REJECTED"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:theme=<0x103000B, type 0x01>
+            android:name="com.zqcy.workbench.module.smsmms.ui.ConfirmRateLimitActivity"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.android.mms.RATE_LIMIT_SURPASSED"
+                    >
+                </action>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0B00D8, type 0x01>
+            android:label=<0x7F080200, type 0x01>
+            android:name="com.zqcy.workbench.module.smsmms.ui.SearchActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.SEARCH"
+                    >
+                </action>
+            </intent-filter>
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource=<0x7F060002, type 0x01>
+                >
+            </meta-data>
+        </activity>
+        <meta-data
+            android:name="android.app.default_searchable"
+            android:value=".ui.SearchActivity"
+            >
+        </meta-data>
+        <provider
+            android:name="com.zqcy.workbench.module.smsmms.SuggestionsProvider"
+            android:readPermission="android.permission.READ_SMS"
+            android:exported=<0x0, type 0x12>
+            android:authorities="com.zqcy.workbench.module.smsmms.SuggestionsProvider"
+            >
+            <path-permission
+                android:readPermission="android.permission.GLOBAL_SEARCH"
+                android:pathPrefix="/search_suggest_query"
+                >
+            </path-permission>
+            <path-permission
+                android:readPermission="android.permission.GLOBAL_SEARCH"
+                android:pathPrefix="/search_suggest_shortcut"
+                >
+            </path-permission>
+        </provider>
+        <service
+            android:name="com.zqcy.workbench.module.smsmms.ui.NoConfirmationSendService"
+            android:permission="android.permission.SEND_SMS_NO_CONFIRMATION"
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.android.mms.intent.action.SENDTO_NO_CONFIRMATION"
+                    >
+                </action>
+                <data
+                    android:scheme="sms"
+                    >
+                </data>
+                <data
+                    android:scheme="smsto"
+                    >
+                </data>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.zqcy.workbench.ui.service.MyService"
+            android:priority=<0x3E8, type 0x10>
+            >
+        </service>
+        <service
+            android:label="PushService"
+            android:name="com.zqcy.workbench.ui.service.MqttService"
+            android:exported=<0x0, type 0x12>
+            android:process="com.zqcy.push"
+            >
+        </service>
+        <provider
+            android:name="com.zqcy.workbench.module.smsmms.TempFileProvider"
+            android:exported=<0x0, type 0x12>
+            android:multiprocess=<0xFFFFFFFF, type 0x12>
+            android:authorities="com.zqcy.workbench.tempfileprovider"
+            >
+        </provider>
+        <activity
+            android:name="com.zqcy.workbench.module.smsmms.ui.MiniPreferenceActivity"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.android.mms.intent.action.MESSAGING_APP_NOTIFICATIONS"
+                    >
+                </action>
+            </intent-filter>
+        </activity>
+        <receiver
+            android:name="com.zqcy.workbench.module.smsmms.ui.SmsStorageMonitor"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.DEVICE_STORAGE_FULL"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.DEVICE_STORAGE_NOT_FULL"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:theme=<0x7F0B007B, type 0x01>
+            android:name="com.zqcy.workbench.ui.mail.ChooseMailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B007B, type 0x01>
+            android:name="com.zqcy.workbench.ui.mail.MailLoginActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B007B, type 0x01>
+            android:name="com.zqcy.workbench.ui.mail.MailListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B007B, type 0x01>
+            android:name="com.zqcy.workbench.ui.mail.SearchMailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B008B, type 0x01>
+            android:name="com.zqcy.workbench.ui.mail.ComposeMailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B008B, type 0x01>
+            android:name="com.zqcy.workbench.ui.mail.MailDetailActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B007B, type 0x01>
+            android:name="com.zqcy.workbench.ui.mail.MailFoldersActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B008B, type 0x01>
+            android:name="com.zqcy.workbench.ui.mail.ImageChooserActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x13, type 0x11>
+            android:hardwareAccelerated=<0xFFFFFFFF, type 0x12>
+            >
+        </activity>
+        <activity
+            android:name="com.zqcy.workbench.ui.mail.ImageBrowserActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x13, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B007B, type 0x01>
+            android:name="com.zqcy.workbench.ui.mail.ChooseMailAccount"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <receiver
+            android:name="com.zqcy.workbench.ui.mail.CoreReceiver"
+            android:exported=<0x0, type 0x12>
+            >
+        </receiver>
+        <receiver
+            android:name="com.zqcy.workbench.ui.mail.MailPullReceiver"
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.cmri.ercs.rereceiver_restart_pollservice"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.zqcy.workbench.ui.mail.MailPollService"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            >
+        </service>
+        <provider
+            android:name="com.zqcy.workbench.ui.mail.AttachmentProvider"
+            android:exported=<0x0, type 0x12>
+            android:multiprocess=<0xFFFFFFFF, type 0x12>
+            android:authorities="com.zqcy.workbench.attachmentprovider"
+            android:grantUriPermissions=<0xFFFFFFFF, type 0x12>
+            >
+        </provider>
+        <activity
+            android:theme=<0x7F0B007B, type 0x01>
+            android:name="com.zqcy.workbench.ui.littlec.activity.MessageActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x13, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:name="com.zqcy.workbench.ui.AnnouncementActivity_"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x13, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:name="com.zqcy.workbench.ui.LoadWebActivity_"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x13, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:name="com.zqcy.workbench.ui.GroupSelectActivity_"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x13, type 0x11>
+            >
+        </activity>
+        <service
+            android:name="com.zqcy.workbench.ui.littlec.BackGroundService"
+            >
+        </service>
+        <service
+            android:name="com.zqcy.workbench.service.MailService"
+            >
+        </service>
+        <provider
+            android:name="com.zqcy.workbench.ui.littlec.CMProvider"
+            android:exported=<0x0, type 0x12>
+            android:authorities="com.zqcy.workbench.provider"
+            >
+        </provider>
+        <activity
+            android:theme=<0x103000D, type 0x01>
+            android:name="com.zqcy.workbench.ui.littlec.activity.VideoGridActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103000D, type 0x01>
+            android:name="com.zqcy.workbench.ui.littlec.activity.RecorderVideoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:name="com.zqcy.workbench.ui.littlec.activity.GroupOrSingleDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:name="com.zqcy.workbench.ui.GroupActivity_"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103000D, type 0x01>
+            android:name="com.zqcy.workbench.ui.littlec.activity.HistoryMessageActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:name="com.zqcy.workbench.ui.littlec.activity.ConversationActivity_"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:name="com.zqcy.workbench.ui.littlec.activity.NewSelectFirmContactActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B007B, type 0x01>
+            android:name="com.zqcy.workbench.ui.RcsWebActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:name="com.zqcy.workbench.ui.HandheldBusinessHall"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:name="com.perfect.tt.ui.activity.Dynamic_"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:name="com.perfect.tt.ui.activity.Notify_"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:name="com.perfect.tt.ui.activity.DynamicDetail_"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:name="com.perfect.tt.ui.activity.Publish_"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:name="com.perfect.tt.ui.activity.HomePage_"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:name="com.perfect.tt.ui.activity.ImageSelect_"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:name="com.perfect.tt.widget.imagePreview.ImagePreview_"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0136, type 0x01>
+            android:name="com.umeng.socialize.view.ShareActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:configChanges=<0x90, type 0x11>
+            android:windowSoftInputMode=<0x14, type 0x11>
+            android:noHistory=<0xFFFFFFFF, type 0x12>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B00D6, type 0x01>
+            android:name="com.zqcy.workbench.ui.view.AppAddCenterActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B012C, type 0x01>
+            android:name="com.zqcy.workbench.ui.ToolBoxActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:name="com.zqcy.workbench.ui.littlec.activity.SelectGroupMemberActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:name="com.zqcy.workbench.ui.speech.activity.SpeechRecognitionActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x13, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:name="com.zqcy.workbench.ui.GiftActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x13, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:name="com.zqcy.workbench.ui.GiftDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x13, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:name="com.zqcy.workbench.ui.AvaterDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:label="????"
+            android:name="com.zqcy.workbench.ui.xxbd.show.activity.DingMessageMainActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:name="com.zqcy.workbench.ui.xxbd.show.activity.ImageDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:label="????????"
+            android:name="com.zqcy.workbench.ui.xxbd.show.activity.DingMessageConfirmActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:name="com.zqcy.workbench.ui.xxbd.activity.XxbdCreate_"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x23, type 0x11>
+            >
+        </activity>
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value=<0x7F0C0008, type 0x01>
+            >
+        </meta-data>
+        <activity
+            android:theme=<0x7F0B0199, type 0x01>
+            android:name="com.zqcy.workbench.ui.SelectGroupActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x32, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B01A9, type 0x01>
+            android:name="com.zqcy.workbench.ui.QRCodeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <receiver
+            android:name="com.zqcy.workbench.main.receiver.AppSystemReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.zqcy.workbench.receiver_attendance_task"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.amap.api.location.APSService"
+            >
+        </service>
+        <activity
+            android:theme=<0x7F0B008A, type 0x01>
+            android:name="com.zqcy.workbench.attendance.activity.AttendanceRulesActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B007B, type 0x01>
+            android:name="com.zqcy.workbench.attendance.activity.AttendanceActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B008B, type 0x01>
+            android:name="com.zqcy.workbench.attendance.activity.StatisticsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B008B, type 0x01>
+            android:name="com.zqcy.workbench.attendance.activity.SettingsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B008B, type 0x01>
+            android:name="com.zqcy.workbench.attendance.activity.WarmingSetActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B008B, type 0x01>
+            android:name="com.zqcy.workbench.attendance.activity.AddWifiActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B008B, type 0x01>
+            android:name="com.zqcy.workbench.attendance.activity.StatisticsDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0146, type 0x01>
+            android:name="com.zqcy.workbench.attendance.activity.AlarmAlertActivty"
+            android:launchMode=<0x3, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B008B, type 0x01>
+            android:name="com.zqcy.workbench.location.GaoDeLocationActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B008B, type 0x01>
+            android:name="com.zqcy.workbench.location.LocationDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B008B, type 0x01>
+            android:name="com.zqcy.workbench.sign.activity.SignedMainPageActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B008B, type 0x01>
+            android:name="com.zqcy.workbench.sign.activity.SignedScoreExchangeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B008B, type 0x01>
+            android:name="com.zqcy.workbench.sign.activity.SignedExchangeHistoryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B008B, type 0x01>
+            android:name="com.zqcy.workbench.sign.activity.SignedExchangeStepActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <service
+            android:name="com.lzy.okserver.download.DownloadService"
+            >
+        </service>
+    </application>
+</manifest>

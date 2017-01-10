@@ -1,0 +1,2412 @@
+<manifest
+    android:versionCode=<0x23F0, type 0x10>
+    android:versionName="9200.2000"
+    android:installLocation=<0x1, type 0x10>
+    package="com.gionee.aora.market"
+    >
+    <uses-sdk
+        android:minSdkVersion=<0x8, type 0x10>
+        android:targetSdkVersion=<0x17, type 0x10>
+        >
+    </uses-sdk>
+    <supports-screens
+        android:anyDensity=<0xFFFFFFFF, type 0x12>
+        android:smallScreens=<0xFFFFFFFF, type 0x12>
+        android:normalScreens=<0xFFFFFFFF, type 0x12>
+        android:largeScreens=<0xFFFFFFFF, type 0x12>
+        android:resizeable=<0xFFFFFFFF, type 0x12>
+        android:xlargeScreens=<0xFFFFFFFF, type 0x12>
+        >
+    </supports-screens>
+    <uses-permission
+        android:name="com.gionee.launcher.permission.PRESSURE_SENSOR"
+        >
+    </uses-permission>
+    <uses-feature
+        android:name="android.hardware.camera"
+        >
+    </uses-feature>
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        >
+    </uses-feature>
+    <permission
+        android:name="com.gionee.aora.market.permission.SYSTEM_ACCESS"
+        android:protectionLevel=<0x2, type 0x11>
+        >
+    </permission>
+    <permission
+        android:name="com.jinli.c2u.permission.C2D_MESSAGE"
+        android:protectionLevel=<0x0, type 0x11>
+        >
+    </permission>
+    <permission
+        android:name="com.gionee.aora.market.permission.C2D_MESSAGE"
+        android:protectionLevel=<0x2, type 0x11>
+        >
+    </permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CAMERA"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_CONFIGURATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.DISABLE_KEYGUARD"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.FLASHLIGHT"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.GET_TASKS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.INSTALL_PACKAGES"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.INTERNAL_SYSTEM_WINDOW"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.KILL_BACKGROUND_PROCESSES"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.MODIFY_PHONE_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.MODIFY_AUDIO_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_BOOT_COMPLETED"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RESTART_PACKAGES"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.SYSTEM_ALERT_WINDOW"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.VIBRATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WAKE_LOCK"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.launcher.permission.INSTALL_SHORTCUT"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.launcher.permission.READ_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.jinli.c2u.permission.C2D_MESSAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.gionee.aora.market.permission.SYSTEM_ACCESS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.DELETE_PACKAGES"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_OWNER_DATA"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.launcher.permission.READ_MISS_INFO"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.EXPAND_STATUS_BAR"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_CONTACTS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.GET_PACKAGE_SIZE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.PACKAGE_USAGE_STATS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.SEND_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.UPDATE_APP_OPS_STATS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_LOGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.SYSTEM_OVERLAY_WINDOW"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.gionee.aora.market.permission.C2D_MESSAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.gionee.cloud.permission.RECEIVE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.gionee.cloud.permission.SEND"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_ALL_DOWNLOADS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_DOWNLOAD_MANAGER"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.DEVICE_POWER"
+        >
+    </uses-permission>
+    <application
+        android:theme=<0x1030006, type 0x01>
+        android:label=<0x7F0B025D, type 0x01>
+        android:icon=<0x7F0201C6, type 0x01>
+        android:name="com.gionee.aora.market.MarketApplication"
+        android:debuggable=<0x0, type 0x12>
+        android:allowBackup=<0xFFFFFFFF, type 0x12>
+        android:largeHeap=<0xFFFFFFFF, type 0x12>
+        >
+        <activity
+            android:theme=<0x7F0C002E, type 0x01>
+            android:label=<0x7F0B025D, type 0x01>
+            android:name="com.gionee.aora.market.GoApkLoginAndRegister"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.APP_MARKET"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.LAUNCHER"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.main.MainNewActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x23, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.gionee.aora.market.action.MainActivity"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x1030007, type 0x01>
+            android:name="com.gionee.aora.market.gui.login.NewbieGuideActivity2"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.login.GuideActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.download.DownloadManagerActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.gionee.aora.market.gui.ebook.action.DownloadManagerActivity"
+                    >
+                </action>
+                <action
+                    android:name="com.gionee.aora.market.downloadManager"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.manager.SoftwareManagerActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.gionee.aora.market.SoftwareUpdateActivity"
+                    >
+                </action>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.manager.SoftwareIgnoreActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.manager.SoftInstalledActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.manager.NoNetUpdateActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.home.NewestActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.details.IntroductionVideoActivity"
+            android:screenOrientation=<0x0, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:hardwareAccelerated=<0xFFFFFFFF, type 0x12>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.special.PrefectureActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.special.SpecialInfomationActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.gionee.aora.market.action.SpecialInfomationActivity"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x103000F, type 0x01>
+            android:name="com.gionee.aora.market.gui.view.NetErrorDialog"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.gionee.aora.market.action.NetErrorDialog"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x103000F, type 0x01>
+            android:name="com.gionee.aora.market.gui.view.SignDifferentDialog"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.gionee.aora.market.action.SignDifferentDialog"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x103000F, type 0x01>
+            android:name="com.gionee.aora.market.gui.view.DownloadDialog"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.gionee.aora.market.action.DownloadDialog"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x103000F, type 0x01>
+            android:name="com.gionee.aora.market.gui.view.SetAutoDownloadDialog"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.gionee.aora.market.action.SetAutoDownloadDialog"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x103000F, type 0x01>
+            android:name="com.gionee.aora.market.gui.view.UserChangeDialog"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.special.ExerciseInfomationActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.gionee.aora.market.action.ExerciseInfomationActivity"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0C0032, type 0x01>
+            android:name="com.gionee.aora.market.gui.evaluation.EvaluationDetailsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.gionee.aora.market.action.Evaluationctivity"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.evaluation.EvaluationListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C0032, type 0x01>
+            android:name="com.gionee.aora.market.gui.exercise.ExerciseDetailsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.gionee.aora.market.action.ExerciseDetailsActivity"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.exercise.ExerciseListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.special.PrefectureRecomendActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.exercise.ExerciseAndSpecialActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.gionee.aora.market.action.ExerciseAndSpecialActivity"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.gift.GiftDetailsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.gionee.aora.market.action.GiftDetailsActivity"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.gift.GiftListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.gionee.aora.market.action.GiftListActivity"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.gift.CPGiftListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.gionee.aora.market.action.CPGiftListActivity"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.gift.MyGiftActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.gionee.aora.market.action.MyGiftActivity"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.integral.mall.DisCountCenter"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.integral.gui.lottery.LotteryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.integral.gui.lottery.LotteryNewActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.integral.gui.rank.IntegralRankActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.integral.gui.strategy.IntegralStrategyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.integral.gui.centre.ExchangeRecordActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.integral.gui.centre.GoldRecordActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103000B, type 0x01>
+            android:name="com.gionee.aora.market.gui.view.NetErrorDialogActivity"
+            >
+            <intent-filter
+                >
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x103000B, type 0x01>
+            android:name="com.gionee.aora.integral.gui.view.NetErrorDialogActivity"
+            >
+            <intent-filter
+                >
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x103000B, type 0x01>
+            android:name="com.gionee.aora.market.gui.view.ReDownloadDialogActivity"
+            >
+            <intent-filter
+                >
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x103000F, type 0x01>
+            android:name="com.gionee.aora.market.gui.view.ReDownloadDialog"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.gionee.aora.market.action.ReDownloadDialog"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x103000F, type 0x01>
+            android:name="com.gionee.aora.market.gui.view.ShowCreatNewApkErrorDialog"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.gionee.aora.market.action.ShowCreatNewApkErrorDialog"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x103000B, type 0x01>
+            android:name="com.gionee.aora.market.gui.view.InstallCheckSignDialog"
+            >
+            <intent-filter
+                >
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x103000F, type 0x01>
+            android:name="com.gionee.aora.market.gui.view.GprsLimtDialog"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x103000F, type 0x01>
+            android:name="com.gionee.aora.market.gui.view.MemoryDialog"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x103000F, type 0x01>
+            android:name="com.gionee.aora.market.gui.view.NoWlanNetDialog"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.necessary.NecessaryNewActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.list.ListDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103000F, type 0x01>
+            android:name="com.gionee.aora.market.gui.necessary.InstalledEssentialActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.details.IntroductionDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.gionee.aora.market.action.GoSoftIntroductionActivity"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="market"
+                    android:host="details"
+                    android:path=""
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.gionee.aora.market.gui.details.IntroductionSubmitCommentActivy"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.gionee.aora.market.gui.details.view.FullScreenShotsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.gionee.aora.market.gui.search.SearchActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x24, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.gionee.aora.market.gui.search.action.SearchActivity"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="market"
+                    android:host="search"
+                    android:path=""
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity-alias
+            android:name="com.gionee.aora.market.gui.GoMarketSearchResultActivity"
+            android:targetActivity="com.gionee.aora.market.gui.search.SearchActivity"
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.gionee.aora.market.GoMarketSearchResult"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity-alias>
+        <receiver
+            android:name="com.gionee.aora.market.util.InstallApkReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.gionee.aora.market.action.INSTALLAPK"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:theme=<0x1030055, type 0x01>
+            android:name="com.gionee.aora.market.gui.ebook.InitEbookActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.gionee.aora.market.gui.ebook.action.InitEbookActivity"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <receiver
+            android:name="com.gionee.aora.market.control.SoftwareReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.PACKAGE_ADDED"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.PACKAGE_REPLACED"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.PACKAGE_REMOVED"
+                    >
+                </action>
+                <data
+                    android:scheme="package"
+                    >
+                </data>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.gionee.aora.market.control.UpdateCountReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.gionee.aora.market.util.NotifyBtnClickReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.gionee.aora.market.NOTIFY_UPDATE_ALLBTN_CLICK_ACTION"
+                    >
+                </action>
+                <action
+                    android:name="com.gionee.aora.market.ACTION_NOTIFY_INSTALL_ALL_BTN_CLICK"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.manager.MarketAboutActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.special.SpecialListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.manager.MarketFeedbackActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.manager.MarketSettingActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.manager.MarketPingActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x13, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.manager.MarketThanksActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x13, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.application.SubjectActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.details.IntroductionProblemActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <service
+            android:name="com.gionee.aora.market.control.AutoUpdateService"
+            >
+        </service>
+        <activity
+            android:theme=<0x7F0C001A, type 0x01>
+            android:name="com.gionee.aora.market.gui.update.AutoUpdateFinishDialog"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C001A, type 0x01>
+            android:name="com.gionee.aora.market.gui.update.UpdateDialogActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.integral.IntegralAppListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.gionee.aora.market.action.IntegralAppListActivity"
+                    >
+                </action>
+                <action
+                    android:name="com.gionee.aora.market.gui.integral.IntegralAppListActivity"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.view.LableItemListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <receiver
+            android:name="com.gionee.aora.market.control.IntegralReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.gionee.aora.market.control.IntegralReceiver.appinstalled"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.gionee.aora.fihs.controler.ControlerReceiver"
+            android:process=":service"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.BOOT_COMPLETED"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.gionee.aora.fihs.controler.ControlerReceiver.action"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.PACKAGE_REPLACED"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.PACKAGE_DATA_CLEARED"
+                    >
+                </action>
+                <data
+                    android:scheme="package"
+                    >
+                </data>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.gionee.aora.fihs.controler.ControlerService"
+            android:process=":service"
+            >
+        </service>
+        <receiver
+            android:name="com.gionee.aora.fihs.fihs.communication.C2DReceiver"
+            android:permission="com.jinli.c2u.permission.C2D_MESSAGE"
+            android:process=":service"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.gionee.aora.market.MESSAGE"
+                    >
+                </action>
+                <category
+                    android:name="com.gionee.aora.market"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.gionee.aora.market.REGISTRATION"
+                    >
+                </action>
+                <category
+                    android:name="com.gionee.aora.market"
+                    >
+                </category>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.gionee.aora.fihs.fihs.MessageHandlerService"
+            android:process=":service"
+            >
+        </service>
+        <receiver
+            android:name="com.gionee.aora.fihs.fihs.FihsConnReceiver"
+            android:process=":service"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.gionee.aora.fihs.fihs.FihsDownloadService"
+            android:process=":service"
+            >
+        </service>
+        <service
+            android:name="com.jinli.c2u.service.RegistrationService"
+            android:process=":service"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.jinli.c2u.intent.REGISTER"
+                    >
+                </action>
+                <action
+                    android:name="com.jinli.c2u.intent.UNREGISTER"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.jinli.c2u.service.CService"
+            android:process=":service"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.jinli.c2u.intent.START_FIHS_SERVICE"
+                    >
+                </action>
+                <action
+                    android:name="com.jinli.c2u.intent.STOP_FIHS_SERVICE"
+                    >
+                </action>
+                <action
+                    android:name="com.jinli.c2u.intent.RESTART_FIHS_SERVICE"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.jinli.c2u.service.SubscriptionService"
+            android:process=":service"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.jinli.c2u.intent.SUBSCRIBE"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <receiver
+            android:name="com.jinli.c2u.receiver.SystemEventReceiver"
+            android:process=":service"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.BOOT_COMPLETED"
+                    >
+                </action>
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.PACKAGE_DATA_CLEARED"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.PACKAGE_REPLACED"
+                    >
+                </action>
+                <data
+                    android:scheme="package"
+                    android:path="com.jinli.c2u"
+                    >
+                </data>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.jinli.c2u.receiver.ParametersSyncReceiver"
+            android:process=":service"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.jinli.c2u.sync.SYNC_PARAMS"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.jinli.c2u.communication.JinliAidlService"
+            android:process=":service"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.jinli.c2u.aidlService"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <receiver
+            android:name="com.gionee.aora.fihs.fihs.CountBroadcastReceiver"
+            android:process=":service"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.gionee.aora.fihs.fihs.CountBroadcastReceiver.first"
+                    >
+                </action>
+                <action
+                    android:name="com.gionee.aora.fihs.fihs.CountBroadcastReceiver.fihs"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:theme=<0x1030007, type 0x01>
+            android:name="com.google.zxing.client.android.CaptureActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.Zxing.Demo.action.CaptureActivity"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <receiver
+            android:name="com.gionee.aora.market.control.QRCodeManager"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.Zxing.Demo.CaptureActivity.scanfinish"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <provider
+            android:name="com.gionee.aora.market.database.SoftwareUpdateProvider"
+            android:authorities="com.gionee.aora.market"
+            >
+        </provider>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.integral.gui.exchange.ExchangeCenter"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.integral.gui.exchange.QCoinExchange"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.integral.gui.exchange.PhoneChargesExchange"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.integral.gui.exchange.ItemExchangeCommitActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.integral.gui.exchange.ItemExchangeMain"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <provider
+            android:name="com.gionee.aora.integral.control.UserFileProvider"
+            android:authorities="com.gionee.aora.user"
+            >
+        </provider>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.integral.gui.login.LoginActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.integral.gui.register.RegisterActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.integral.gui.register.PerfectionActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.integral.IntegralGetMoney"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.integral.gui.person.PersonActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.integral.OtherPersonActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.integral.gui.person.ModifySurNameActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.integral.gui.person.ModifySigntureActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.integral.gui.person.ProvinceActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.integral.gui.person.CityActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.integral.gui.person.UpdatePasswordActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.integral.gui.findpwd.ForgetPasswordActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.question.QuestionActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x13, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.integral.gui.findpwd.FindPasswordActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.integral.gui.findpwd.PhoneFindActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.integral.gui.findpwd.EmailFindActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.integral.gui.address.AddressEditActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.integral.gui.address.AddressListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.integral.gui.findpwd.ModifyPhoneFirstStep"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.integral.gui.person.UnbundleActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.integral.gui.person.PhoneBindActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.integral.gui.person.EmailBindActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.integral.IntegralGetMoneyPlayGame"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <receiver
+            android:name="com.gionee.aora.market.control.NotLaunchManager"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.gionee.aora.market.control.NotLaunchManager.repeate"
+                    >
+                </action>
+                <action
+                    android:name="com.gionee.aora.market.control.NotLaunchManager.notifyclick"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:theme=<0x7F0C001A, type 0x01>
+            android:name="com.gionee.aora.market.gui.recommend.PersonalRecommandActivity"
+            >
+            <intent-filter
+                >
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.special.EventsInformationActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.game.FreeGameActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C001A, type 0x01>
+            android:name="com.gionee.aora.market.gui.integral.PaintEggTipDialog"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C002F, type 0x01>
+            android:name="com.gionee.aora.market.gui.integral.PaintEggAnimatDialog"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.classify.ClassifyDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.classify.ClassifyLableDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.gionee.aora.market.wxapi.WXEntryActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103000F, type 0x01>
+            android:name="com.gionee.aora.market.gui.share.ShareActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.lenjoy.LenjoyActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.lenjoy.LenjoyUserDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.lenjoy.MyLenjoyActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.lenjoy.LenjoyDetailAppActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.lenjoy.LenjoyTopicListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.lenjoy.LenjoyTopicDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.lenjoy.LenjoyRecommendActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.lenjoy.LenjoyEditAppActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.lenjoy.LenjoyEditChoiseAppActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.lenjoy.LenjoyDetailScreenShotsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.album.AlbumBroswerActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.album.AlbumImageDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.fresh.FreshListActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.fresh.FreshDetailActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.concern.ConcernListActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.call.BoundPhoneActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.call.FreePhoneActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.call.CallExchange"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.call.PhoneActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.call.CallHelp"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.search.SearchResultActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.special.IndividuationActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.integral.ExprecordAndMetalActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.application.ListFragmentActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.game.NeceaasryGameActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.special.SuperSpecialActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x13, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.gionee.aora.market.action.SuperSpecialActivity"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.voicesearch.VoiceSearchDialog"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x13, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.messagecenter.MessageCenterNew"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x13, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.messagecenter.MessageClassifyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x13, type 0x11>
+            >
+        </activity>
+        <receiver
+            android:name="com.gionee.aora.market.control.GioneeReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.gionee.aora.market.control.GioneeReceiver.init"
+                    >
+                </action>
+                <action
+                    android:name="com.gionee.aora.market.control.GioneeReceiver.onclick"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.plaza.PlazaActivitiesListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x13, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.postbar.PostbarActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x13, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.postbar.MinePostbarActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x13, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.postbar.PostbarDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.postbar.PostbarCommentDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.postbar.PublishPostbarActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.postbar.PublishTopicActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.postbar.PublishForumActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.dynamic.YiForumSignPublishActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.postbar.PostbarTopicWebActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x13, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.discount.DiscountListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x13, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.discount.DiscountDetailActivityNew"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x13, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.integral.CollectAppActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x13, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C001E, type 0x01>
+            android:name="com.gionee.aora.integral.gui.dayNightChanging.DayOrNightChangingMask"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x13, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.discount.MyActiveActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.manager.MarketShuttleActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.funny.FunnyActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C001A, type 0x01>
+            android:name="com.gionee.aora.market.gui.details.view.Md5VerifyErroDialog"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <receiver
+            android:name="com.gionee.aora.market.control.PressureDataUpdateReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="PRESSURE_SENSOR_UPDATE"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.gionee.account.sdk.activity.AssistActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0xFFFFFFFF, type 0x10>
+            android:configChanges=<0x483, type 0x11>
+            >
+            <meta-data
+                android:name="version"
+                android:value="3.0.0"
+                >
+            </meta-data>
+        </activity>
+        <activity
+            android:theme=<0x7F0C0003, type 0x01>
+            android:name="com.gionee.account.sdk.core.activity.SDKAccountChangeActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0xFFFFFFFF, type 0x10>
+            android:configChanges=<0x483, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name=""
+                    >
+                </action>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0C0003, type 0x01>
+            android:name="com.gionee.account.sdk.core.activity.SDKAuthorizationActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0xFFFFFFFF, type 0x10>
+            android:configChanges=<0x403, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name=""
+                    >
+                </action>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0C000F, type 0x01>
+            android:name="com.gionee.account.sdk.core.activity.SDKLoginActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0xFFFFFFFF, type 0x10>
+            android:configChanges=<0x483, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name=""
+                    >
+                </action>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.gionee.account.sdk.core.activity.SDKLoginingActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0xFFFFFFFF, type 0x10>
+            android:configChanges=<0x483, type 0x11>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name=""
+                    >
+                </action>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.gionee.aora.market.gui.gioneesafty.GioneeSafetyActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x2, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x23, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.gionee.aora.market.SecureZone"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <service
+            android:name="com.gionee.account.AccountService"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.gionee.account.aidl.GNAccountInterface"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.individuation.BoutiqueLenjoyActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.individuation.BoutiquePostbarActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.individuation.BoutiqueAppActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.postbar.ImageEditActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.postbar.PosrbarDeteleActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.forum.PostbarHotTopicFragmentActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.forum.PersonalMainPageByOtherActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.gionee.aora.market.gui.forum.PersonalMainPageBySelfActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C001A, type 0x01>
+            android:name="com.gionee.aora.market.gui.home.AdviceActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <receiver
+            android:name="com.gionee.aora.market.control.GioneePushReceiver"
+            android:permission="com.gionee.cloud.permission.SEND"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.gionee.cloud.intent.REGISTRATION"
+                    >
+                </action>
+                <action
+                    android:name="com.gionee.cloud.intent.TAGS"
+                    >
+                </action>
+                <action
+                    android:name="com.gionee.cloud.intent.RECEIVE"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.gionee.cloud.gpe.PushService"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.gionee.cloud.sdk.intent.REGISTER"
+                    >
+                </action>
+                <action
+                    android:name="com.gionee.cloud.sdk.intent.UNREGISTER"
+                    >
+                </action>
+                <action
+                    android:name="com.gionee.cloud.sdk.intent.SET_TAGS"
+                    >
+                </action>
+                <action
+                    android:name="com.gionee.cloud.sdk.intent.DEL_TAGS"
+                    >
+                </action>
+                <action
+                    android:name="com.gionee.cloud.gpe.message.ACTION_OPEN"
+                    >
+                </action>
+                <action
+                    android:name="com.gionee.cloud.gpe.message.ACTION_HIDE"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <receiver
+            android:name="com.gionee.cloud.gpe.IntentReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.BOOT_COMPLETED"
+                    >
+                </action>
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.MY_PACKAGE_REPLACED"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.DOWNLOAD_COMPLETE"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.DOWNLOAD_NOTIFICATION_CLICKED"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <meta-data
+            android:name="APP_MONITOR_APPID"
+            android:value="b1004b"
+            >
+        </meta-data>
+        <service
+            android:name="com.huanju.floating.service.HjGetRunningGameService"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+        </service>
+        <activity
+            android:name="com.huanju.asdk_indoor.asdkBase.core.clickac.loopweb.BrowserActivity"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x3, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <receiver
+            android:name="com.huanju.floating.broadcastreceiver.BootBroadcastReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.BOOT_COMPLETED"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.HOME"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>
