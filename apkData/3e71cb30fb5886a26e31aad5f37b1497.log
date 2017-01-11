@@ -1,0 +1,31 @@
+--2017-01-10 23:48:39--  http://wap.ffswa.cc/fd
+Resolving wap.ffswa.cc... 103.240.180.159
+Connecting to wap.ffswa.cc|103.240.180.159|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://wap.ffswa.cc/fd/ [following]
+--2017-01-10 23:48:41--  http://wap.ffswa.cc/fd/
+Reusing existing connection to wap.ffswa.cc:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 247 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 18.1M=0s
+
+2017-01-10 23:48:41 (18.1 MB/s) - `index.html' saved [247/247]
+
+=======================The second times wget =====================
+--2017-01-10 23:48:41--  http://wap.ffswa.cc/fd/%C2%BC%CF%F14.apk
+Resolving wap.ffswa.cc... 103.240.180.159
+Connecting to wap.ffswa.cc|103.240.180.159|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 209325 (204K) [application/vnd.android.package-archive]
+Saving to: `Â¼Ïñ4.apk'
+
+     0K .......... .......... .......... .......... .......... 24%  128K 1s
+    50K .......... .......... .......... .......... .......... 48%  120K 1s
+   100K .......... .......... .......... .......... .......... 73%  124K 0s
+   150K .......... .......... .......... .......... .......... 97%  125K 0s
+   200K ....                                                  100%  158K=1.6s
+
+2017-01-10 23:48:43 (125 KB/s) - `Â¼Ïñ4.apk' saved [209325/209325]
+

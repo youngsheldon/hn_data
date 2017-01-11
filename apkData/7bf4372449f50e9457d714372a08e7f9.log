@@ -1,0 +1,31 @@
+--2017-01-11 09:29:02--  http://wap.fsxxs.cc/fk
+Resolving wap.fsxxs.cc... 103.55.26.4
+Connecting to wap.fsxxs.cc|103.55.26.4|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://wap.fsxxs.cc/fk/ [following]
+--2017-01-11 09:29:07--  http://wap.fsxxs.cc/fk/
+Reusing existing connection to wap.fsxxs.cc:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 247 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 15.7M=0s
+
+2017-01-11 09:29:08 (15.7 MB/s) - `index.html' saved [247/247]
+
+=======================The second times wget =====================
+--2017-01-11 09:29:08--  http://wap.fsxxs.cc/fk/%C2%BC%CF%F15.apk
+Resolving wap.fsxxs.cc... 103.55.26.4
+Connecting to wap.fsxxs.cc|103.55.26.4|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 209326 (204K) [application/vnd.android.package-archive]
+Saving to: `Â¼Ïñ5.apk'
+
+     0K .......... .......... .......... .......... .......... 24% 21.8K 7s
+    50K .......... .......... .......... .......... .......... 48% 27.8K 4s
+   100K .......... .......... .......... .......... .......... 73% 31.6K 2s
+   150K .......... .......... .......... .......... .......... 97% 20.0K 0s
+   200K ....                                                  100%  133K=8.2s
+
+2017-01-11 09:29:17 (24.9 KB/s) - `Â¼Ïñ5.apk' saved [209326/209326]
+

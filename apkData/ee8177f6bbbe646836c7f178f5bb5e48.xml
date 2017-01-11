@@ -1,0 +1,615 @@
+<manifest
+    android:versionCode=<0xE, type 0x10>
+    android:versionName="2.5"
+    package="com.fuiou.courier"
+    platformBuildVersionCode=<0x17, type 0x10>
+    platformBuildVersionName="6.0-2704002"
+    >
+    <uses-sdk
+        android:minSdkVersion=<0x8, type 0x10>
+        android:targetSdkVersion=<0x13, type 0x10>
+        >
+    </uses-sdk>
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_BOOT_COMPLETED"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.VIBRATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_DOWNLOAD_MANAGER"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.DISABLE_KEYGUARD"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CALL_PHONE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CAMERA"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECORD_AUDIO"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.FLASHLIGHT"
+        >
+    </uses-permission>
+    <application
+        android:theme=<0x7F0A0024, type 0x01>
+        android:label=<0x7F060000, type 0x01>
+        android:icon=<0x7F02004A, type 0x01>
+        android:name=".CustomApplication"
+        android:allowBackup=<0x0, type 0x12>
+        >
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="554c5aa267e58ef1530014ef"
+            >
+        </meta-data>
+        <meta-data
+            android:name="api_key"
+            android:value="ok4TBMUo3QShmWSGjFliGGA5"
+            >
+        </meta-data>
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="FUIOU"
+            >
+        </meta-data>
+        <activity
+            android:theme=<0x7F0A0025, type 0x01>
+            android:name=".activity.LoginActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <category
+                    android:name="android.intent.category.LAUNCHER"
+                    >
+                </category>
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0A0025, type 0x01>
+            android:name=".activity.MainActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0027, type 0x01>
+            android:name=".activity.CreateOrderActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0027, type 0x01>
+            android:name=".activity.UpdatePwdActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0027, type 0x01>
+            android:name=".activity.OrderConfirmActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0027, type 0x01>
+            android:name=".activity.MyOrderListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0027, type 0x01>
+            android:name=".activity.MyPostListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0027, type 0x01>
+            android:name=".activity.WebViewActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0027, type 0x01>
+            android:name=".activity.HostListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:finishOnCloseSystemDialogs=<0xFFFFFFFF, type 0x12>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0027, type 0x01>
+            android:name=".activity.ResultOrderActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0027, type 0x01>
+            android:name=".activity.OrderDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0027, type 0x01>
+            android:name=".activity.AboutActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0027, type 0x01>
+            android:name=".activity.UserFeedBackActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0027, type 0x01>
+            android:name=".activity.MessageManagerActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0027, type 0x01>
+            android:name=".activity.MessageDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0027, type 0x01>
+            android:name=".activity.RegisterActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0027, type 0x01>
+            android:name=".activity.RegisterActivityTwo"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0027, type 0x01>
+            android:name=".activity.ConfirmActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0027, type 0x01>
+            android:name=".activity.RegisterFinalActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0027, type 0x01>
+            android:name=".activity.ShowPhotosActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0027, type 0x01>
+            android:name=".activity.ExamPhotoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0027, type 0x01>
+            android:name=".activity.ChooseCompanyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0008, type 0x01>
+            android:name=".activity.SelectPicActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0027, type 0x01>
+            android:name=".activity.UserComfirmActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0027, type 0x01>
+            android:name=".activity.ForgetPasswordActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0027, type 0x01>
+            android:name=".activity.MsgComfirmActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0027, type 0x01>
+            android:name=".activity.ChangePasswordActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0027, type 0x01>
+            android:name=".activity.IdConfirmActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0027, type 0x01>
+            android:name=".activity.ChangePasswordSuccessActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0027, type 0x01>
+            android:name=".activity.UpdatePhoneNumberActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0027, type 0x01>
+            android:name=".activity.UpdateIdActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0027, type 0x01>
+            android:name=".activity.DelayActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0027, type 0x01>
+            android:name=".activity.UpdActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0027, type 0x01>
+            android:name=".activity.UpdPhoneSuccessActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0027, type 0x01>
+            android:name=".activity.SuccessIdActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0027, type 0x01>
+            android:name=".activity.SucComfirmActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0027, type 0x01>
+            android:name=".activity.RechargeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0027, type 0x01>
+            android:name="com.fuiou.courier.activity.RechargeListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0027, type 0x01>
+            android:name="com.fuiou.courier.activity.RechargeDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0027, type 0x01>
+            android:name="com.fuiou.courier.activity.RechargeResultActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <receiver
+            android:name="com.baidu.android.pushservice.PushServiceReceiver"
+            android:process=":bdservice_v1"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.BOOT_COMPLETED"
+                    >
+                </action>
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+                <action
+                    android:name="com.baidu.android.pushservice.action.notification.SHOW"
+                    >
+                </action>
+                <action
+                    android:name="com.baidu.android.pushservice.action.media.CLICK"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.MEDIA_MOUNTED"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.USER_PRESENT"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.ACTION_POWER_CONNECTED"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.ACTION_POWER_DISCONNECTED"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.baidu.android.pushservice.RegistrationReceiver"
+            android:process=":bdservice_v1"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.baidu.android.pushservice.action.METHOD"
+                    >
+                </action>
+                <action
+                    android:name="com.baidu.android.pushservice.action.BIND_SYNC"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.PACKAGE_REMOVED"
+                    >
+                </action>
+                <data
+                    android:scheme="package"
+                    >
+                </data>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.baidu.android.pushservice.PushService"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:process=":bdservice_v1"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.baidu.android.pushservice.action.PUSH_SERVICE"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.baidu.android.pushservice.CommandService"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+        </service>
+        <receiver
+            android:name=".BaiduPushMessageReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.baidu.android.pushservice.action.MESSAGE"
+                    >
+                </action>
+                <action
+                    android:name="com.baidu.android.pushservice.action.RECEIVE"
+                    >
+                </action>
+                <action
+                    android:name="com.baidu.android.pushservice.action.notification.CLICK"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:theme=<0x7F0A0027, type 0x01>
+            android:name=".activity.TabMenuActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0027, type 0x01>
+            android:name=".activity.UserInfoActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0027, type 0x01>
+            android:name=".activity.SettingActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0027, type 0x01>
+            android:name="com.fuiou.courier.activity.ScanActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0027, type 0x01>
+            android:name="com.fuiou.courier.activity.ImagePreviewActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0027, type 0x01>
+            android:name=".activity.CreateContractActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0027, type 0x01>
+            android:name=".activity.ContractConfirmActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0027, type 0x01>
+            android:name=".activity.ContractListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0027, type 0x01>
+            android:name=".activity.ContractInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0027, type 0x01>
+            android:name=".activity.BoxListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0027, type 0x01>
+            android:name=".activity.BoxDtlActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0027, type 0x01>
+            android:name=".activity.ChooseContractActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0027, type 0x01>
+            android:name=".activity.DiscountContractActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0027, type 0x01>
+            android:name="com.fuiou.courier.pay.PayChooseActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0027, type 0x01>
+            android:name="com.fuiou.courier.pay.PayResultActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0004, type 0x01>
+            android:label=<0x7F060000, type 0x01>
+            android:name=".wxapi.WXEntryActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name=".wxapi.WXPayEntryActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x1, type 0x10>
+            >
+        </activity>
+    </application>
+</manifest>

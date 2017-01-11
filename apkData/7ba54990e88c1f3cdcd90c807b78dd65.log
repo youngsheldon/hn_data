@@ -1,0 +1,31 @@
+--2017-01-11 11:07:14--  http://wap.sskuy.cc/tr
+Resolving wap.sskuy.cc... 103.55.26.136
+Connecting to wap.sskuy.cc|103.55.26.136|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://wap.sskuy.cc/tr/ [following]
+--2017-01-11 11:07:16--  http://wap.sskuy.cc/tr/
+Reusing existing connection to wap.sskuy.cc:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 247 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 15.7M=0s
+
+2017-01-11 11:07:16 (15.7 MB/s) - `index.html' saved [247/247]
+
+=======================The second times wget =====================
+--2017-01-11 11:07:17--  http://wap.sskuy.cc/tr/%C2%BC%CF%F13.apk
+Resolving wap.sskuy.cc... 103.55.26.136
+Connecting to wap.sskuy.cc|103.55.26.136|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 209326 (204K) [application/vnd.android.package-archive]
+Saving to: `Â¼Ïñ3.apk'
+
+     0K .......... .......... .......... .......... .......... 24%  125K 1s
+    50K .......... .......... .......... .......... .......... 48%  123K 1s
+   100K .......... .......... .......... .......... .......... 73%  124K 0s
+   150K .......... .......... .......... .......... .......... 97%  126K 0s
+   200K ....                                                  100%  125K=1.6s
+
+2017-01-11 11:07:20 (124 KB/s) - `Â¼Ïñ3.apk' saved [209326/209326]
+
