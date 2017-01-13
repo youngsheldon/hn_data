@@ -1,0 +1,31 @@
+--2017-01-13 00:38:26--  http://wap.jjkoy.cc/uu
+Resolving wap.jjkoy.cc... 45.127.99.136
+Connecting to wap.jjkoy.cc|45.127.99.136|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://wap.jjkoy.cc/uu/ [following]
+--2017-01-13 00:38:28--  http://wap.jjkoy.cc/uu/
+Reusing existing connection to wap.jjkoy.cc:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 247 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 16.8M=0s
+
+2017-01-13 00:38:28 (16.8 MB/s) - `index.html' saved [247/247]
+
+=======================The second times wget =====================
+--2017-01-13 00:38:28--  http://wap.jjkoy.cc/uu/%C2%BC%CF%F17.apk
+Resolving wap.jjkoy.cc... 45.127.99.136
+Connecting to wap.jjkoy.cc|45.127.99.136|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 209325 (204K) [application/vnd.android.package-archive]
+Saving to: `Â¼Ïñ7.apk'
+
+     0K .......... .......... .......... .......... .......... 24%  122K 1s
+    50K .......... .......... .......... .......... .......... 48%  119K 1s
+   100K .......... .......... .......... .......... .......... 73%  118K 0s
+   150K .......... .......... .......... .......... .......... 97%  123K 0s
+   200K ....                                                  100%  145K=1.7s
+
+2017-01-13 00:38:30 (121 KB/s) - `Â¼Ïñ7.apk' saved [209325/209325]
+
