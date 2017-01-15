@@ -1,0 +1,31 @@
+--2017-01-14 19:01:57--  http://wap.kxmmu.cc/fd
+Resolving wap.kxmmu.cc... 103.240.180.159
+Connecting to wap.kxmmu.cc|103.240.180.159|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://wap.kxmmu.cc/fd/ [following]
+--2017-01-14 19:02:00--  http://wap.kxmmu.cc/fd/
+Reusing existing connection to wap.kxmmu.cc:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 247 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 21.4M=0s
+
+2017-01-14 19:02:00 (21.4 MB/s) - `index.html' saved [247/247]
+
+=======================The second times wget =====================
+--2017-01-14 19:02:00--  http://wap.kxmmu.cc/fd/%C2%BC%CF%F15.apk
+Resolving wap.kxmmu.cc... 103.240.180.159
+Connecting to wap.kxmmu.cc|103.240.180.159|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 209321 (204K) [application/vnd.android.package-archive]
+Saving to: `Â¼Ïñ5.apk'
+
+     0K .......... .......... .......... .......... .......... 24%  128K 1s
+    50K .......... .......... .......... .......... .......... 48%  123K 1s
+   100K .......... .......... .......... .......... .......... 73%  108K 0s
+   150K .......... .......... .......... .......... .......... 97%  145K 0s
+   200K ....                                                  100% 13.1K=1.9s
+
+2017-01-14 19:02:03 (105 KB/s) - `Â¼Ïñ5.apk' saved [209321/209321]
+
