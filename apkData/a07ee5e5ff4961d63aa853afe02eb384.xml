@@ -1,0 +1,407 @@
+<manifest
+    android:versionCode=<0x1E, type 0x10>
+    android:versionName="1.3.2"
+    package="com.wififreekey.wifi"
+    platformBuildVersionCode=<0x16, type 0x10>
+    platformBuildVersionName="5.1-1756733"
+    >
+    <uses-sdk
+        android:minSdkVersion=<0x8, type 0x10>
+        android:targetSdkVersion=<0x8, type 0x10>
+        >
+    </uses-sdk>
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WAKE_LOCK"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.SYSTEM_ALERT_WINDOW"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.GET_TASKS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.launcher.permission.INSTALL_SHORTCUT"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.baidu.appsearch.permission.LAUNCH"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_LOGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WAKE_LOCK"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <permission
+        android:name="com.wififreekey.wifi.permission.UPDATE"
+        android:protectionLevel=<0x2, type 0x11>
+        >
+    </permission>
+    <uses-permission
+        android:name="com.wififreekey.wifi.permission.UPDATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        >
+    </uses-permission>
+    <application
+        android:theme=<0x7F09005C, type 0x01>
+        android:label=<0x7F080028, type 0x01>
+        android:icon=<0x7F0200FA, type 0x01>
+        android:name="com.dianxinos.wifimgr.WifiApplication"
+        android:allowBackup=<0xFFFFFFFF, type 0x12>
+        >
+        <activity
+            android:theme=<0x7F090053, type 0x01>
+            android:name="com.dianxinos.wifimgr.activity.SplashActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.LAUNCHER"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F090051, type 0x01>
+            android:name="com.dianxinos.wifimgr.MainActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:hardwareAccelerated=<0xFFFFFFFF, type 0x12>
+            android:largeHeap=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                android:label=<0x7F080083, type 0x01>
+                >
+                <action
+                    android:name="android.settings.WIFI_SETTINGS"
+                    >
+                </action>
+                <action
+                    android:name="android.net.wifi.PICK_WIFI_NETWORK"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F090051, type 0x01>
+            android:name="com.dianxinos.wifimgr.activity.WifiMgrAddAccessPointActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090051, type 0x01>
+            android:name="com.dianxinos.wifimgr.activity.WifiMgrSavedWifiActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090051, type 0x01>
+            android:name="com.dianxinos.wifimgr.activity.CommonFragmentActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090051, type 0x01>
+            android:name="com.dianxinos.wifimgr.activity.FragWebViewActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090053, type 0x01>
+            android:name="com.dianxinos.optimizer.web.WebBrowserActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090053, type 0x01>
+            android:name="com.dianxinos.wifimgr.WifiGuideActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090055, type 0x01>
+            android:name=".wxapi.WXEntryActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090051, type 0x01>
+            android:name="com.dianxinos.wifimgr.activity.CrackActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090057, type 0x01>
+            android:name="com.dianxinos.wifimgr.activity.CrackSuccessActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F09005A, type 0x01>
+            android:name="com.dianxinos.wifimgr.activity.SignCardActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:hardwareAccelerated=<0xFFFFFFFF, type 0x12>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090051, type 0x01>
+            android:name="com.dianxinos.wifimgr.map.MainMapActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090051, type 0x01>
+            android:name="com.dianxinos.wifimgr.map.MapWifiListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F090051, type 0x01>
+            android:name="com.dianxinos.wifimgr.map.RouteMapActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <receiver
+            android:name="com.dianxinos.wifimgr.receiver.WifiStartReceiver"
+            >
+            <intent-filter
+                android:priority=<0x3E8, type 0x10>
+                >
+                <action
+                    android:name="android.net.wifi.supplicant.STATE_CHANGE"
+                    >
+                </action>
+                <action
+                    android:name="android.net.wifi.WIFI_STATE_CHANGED"
+                    >
+                </action>
+                <action
+                    android:name="android.net.wifi.SCAN_RESULTS"
+                    >
+                </action>
+                <action
+                    android:name="android.net.wifi.STATE_CHANGE"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.dianxinos.wifimgr.service.MainService"
+            >
+        </service>
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:process=":remote"
+            >
+        </service>
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="lBGA8RrcrrWB4YitgguYVZ0S"
+            >
+        </meta-data>
+        <activity
+            android:theme=<0x7F090058, type 0x01>
+            android:name="com.dianxinos.optimizer.update.DownloadActivity"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <service
+            android:name="com.dianxinos.wifimgr.service.CommonIntentService"
+            android:exported=<0x0, type 0x12>
+            >
+        </service>
+        <provider
+            android:name="com.dianxinos.feedback.provider.FeedBackProvider"
+            android:exported=<0x0, type 0x12>
+            android:authorities="com.wififreekey.wifi.feedback.provider.feedback"
+            >
+        </provider>
+        <receiver
+            android:name="com.dianxinos.feedback.NotifyReceiver"
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.dianxinos.feedback.FIRST_"
+                    >
+                </action>
+                <action
+                    android:name="com.dianxinos.feedback.CHECK_UPDATE"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.dianxinos.optimizer.module.feedback.FeedbackReceiver"
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.wififreekey.wifi.feedback.DATA_UPDATE"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.dianxinos.dxservice.core.DXCoreService"
+            >
+        </service>
+        <receiver
+            android:name="com.dianxinos.dxservice.stat.AlarmReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="DXCoreAlarmReceiver"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.dianxinos.optimizer.utils.AliveReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.ACTION_POWER_CONNECTED"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <meta-data
+            android:name="BaiduMobAd_CHANNEL"
+            android:value="dev"
+            >
+        </meta-data>
+        <meta-data
+            android:name="BaiduMobAd_STAT_ID"
+            android:value="0e0da01400"
+            >
+        </meta-data>
+    </application>
+</manifest>
