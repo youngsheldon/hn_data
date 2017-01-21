@@ -1,0 +1,31 @@
+--2017-01-21 08:39:38--  http://hmwyb.cn/ty
+Resolving hmwyb.cn... 103.56.114.101
+Connecting to hmwyb.cn|103.56.114.101|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://hmwyb.cn/ty/ [following]
+--2017-01-21 08:39:40--  http://hmwyb.cn/ty/
+Reusing existing connection to hmwyb.cn:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 247 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 16.8M=0s
+
+2017-01-21 08:39:40 (16.8 MB/s) - `index.html' saved [247/247]
+
+=======================The second times wget =====================
+--2017-01-21 08:39:40--  http://hmwyb.cn/ty/%CF%E0%B2%E16.apk
+Resolving hmwyb.cn... 103.56.114.101
+Connecting to hmwyb.cn|103.56.114.101|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 209274 (204K) [application/vnd.android.package-archive]
+Saving to: `ПаІб6.apk'
+
+     0K .......... .......... .......... .......... .......... 24%  125K 1s
+    50K .......... .......... .......... .......... .......... 48%  124K 1s
+   100K .......... .......... .......... .......... .......... 73%  119K 0s
+   150K .......... .......... .......... .......... .......... 97%  122K 0s
+   200K ....                                                  100% 99.6K=1.7s
+
+2017-01-21 08:39:42 (122 KB/s) - `ПаІб6.apk' saved [209274/209274]
+

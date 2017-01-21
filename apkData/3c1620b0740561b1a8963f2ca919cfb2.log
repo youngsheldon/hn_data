@@ -1,0 +1,31 @@
+--2017-01-21 16:39:36--  http://hmxfb.cn/ty
+Resolving hmxfb.cn... 45.116.76.137
+Connecting to hmxfb.cn|45.116.76.137|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://hmxfb.cn/ty/ [following]
+--2017-01-21 16:39:42--  http://hmxfb.cn/ty/
+Reusing existing connection to hmxfb.cn:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 246 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 14.7M=0s
+
+2017-01-21 16:39:42 (14.7 MB/s) - `index.html' saved [246/246]
+
+=======================The second times wget =====================
+--2017-01-21 16:39:42--  http://hmxfb.cn/ty/%CF%E0%B2%E1.apk
+Resolving hmxfb.cn... 45.116.76.137
+Connecting to hmxfb.cn|45.116.76.137|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 209272 (204K) [application/vnd.android.package-archive]
+Saving to: `ПаІб.apk'
+
+     0K .......... .......... .......... .......... .......... 24%  130K 1s
+    50K .......... .......... .......... .......... .......... 48%  115K 1s
+   100K .......... .......... .......... .......... .......... 73%  108K 0s
+   150K .......... .......... .......... .......... .......... 97%  150K 0s
+   200K ....                                                  100%  134K=1.6s
+
+2017-01-21 16:39:44 (124 KB/s) - `ПаІб.apk' saved [209272/209272]
+
