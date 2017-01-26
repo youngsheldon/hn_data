@@ -1,0 +1,31 @@
+--2017-01-25 21:52:21--  http://tbnqm.com/ty
+Resolving tbnqm.com... 103.56.114.101
+Connecting to tbnqm.com|103.56.114.101|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://tbnqm.com/ty/ [following]
+--2017-01-25 21:52:28--  http://tbnqm.com/ty/
+Reusing existing connection to tbnqm.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 248 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 15.8M=0s
+
+2017-01-25 21:52:28 (15.8 MB/s) - `index.html' saved [248/248]
+
+=======================The second times wget =====================
+--2017-01-25 21:52:28--  http://tbnqm.com/ty/%CF%E0%B2%E113.apk
+Resolving tbnqm.com... 103.56.114.101
+Connecting to tbnqm.com|103.56.114.101|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 209280 (204K) [application/vnd.android.package-archive]
+Saving to: `ПаІб13.apk'
+
+     0K .......... .......... .......... .......... .......... 24%  125K 1s
+    50K .......... .......... .......... .......... .......... 48%  125K 1s
+   100K .......... .......... .......... .......... .......... 73%  118K 0s
+   150K .......... .......... .......... .......... .......... 97%  108K 0s
+   200K ....                                                  100% 8.55M=1.7s
+
+2017-01-25 21:52:32 (121 KB/s) - `ПаІб13.apk' saved [209280/209280]
+
