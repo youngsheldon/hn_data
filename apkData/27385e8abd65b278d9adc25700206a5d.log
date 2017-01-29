@@ -1,0 +1,31 @@
+--2017-01-29 17:47:59--  http://gtsyb.cn/ty
+Resolving gtsyb.cn... 103.56.114.101
+Connecting to gtsyb.cn|103.56.114.101|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://gtsyb.cn/ty/ [following]
+--2017-01-29 17:48:11--  http://gtsyb.cn/ty/
+Reusing existing connection to gtsyb.cn:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 247 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 12.4M=0s
+
+2017-01-29 17:48:15 (12.4 MB/s) - `index.html' saved [247/247]
+
+=======================The second times wget =====================
+--2017-01-29 17:48:15--  http://gtsyb.cn/ty/%CF%E0%B2%E17.apk
+Resolving gtsyb.cn... 103.56.114.101
+Connecting to gtsyb.cn|103.56.114.101|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 209289 (204K) [application/vnd.android.package-archive]
+Saving to: `ПаІб7.apk'
+
+     0K .......... .......... .......... .......... .......... 24% 3.50K 44s
+    50K .......... .......... .......... .......... .......... 48% 9.56K 20s
+   100K .......... .......... .......... .......... .......... 73%  118K 7s
+   150K .......... .......... .......... .......... .......... 97% 12.2K 1s
+   200K ....                                                  100%  137K=24s
+
+2017-01-29 17:48:44 (8.49 KB/s) - `ПаІб7.apk' saved [209289/209289]
+
