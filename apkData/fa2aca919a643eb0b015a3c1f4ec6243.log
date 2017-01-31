@@ -1,0 +1,35 @@
+--2017-01-30 23:07:06--  http://m.le.com/vplay_22816727
+Resolving m.le.com... 36.110.222.247
+Connecting to m.le.com|36.110.222.247|:80... connected.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: http://www.le.com/ptv/vplay/22816727.html [following]
+--2017-01-30 23:07:06--  http://www.le.com/ptv/vplay/22816727.html
+Resolving www.le.com... 218.75.225.80, 218.76.94.67, 218.77.2.83, ...
+Connecting to www.le.com|218.75.225.80|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 75084 (73K) [text/html]
+Saving to: `22816727.html'
+
+     0K .......... .......... .......... .......... .......... 68%  898K 0s
+    50K .......... .......... ...                             100%  978K=0.08s
+
+2017-01-30 23:07:06 (922 KB/s) - `22816727.html' saved [75084/75084]
+
+=======================The second times wget =====================
+--2017-01-30 23:07:07--  http://m.le.com/vplay_22816727///app.m.le.com/android/index.php?mod=stat&ctl=download&act=add&report=1&pcode=010110000.apk
+Resolving m.le.com... 36.110.222.247
+Connecting to m.le.com|36.110.222.247|:80... connected.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: http://www.le.com/ptv/vplay/22816727.html?mod=stat&ctl=download&act=add&report=1&pcode=010110000.apk [following]
+--2017-01-30 23:07:07--  http://www.le.com/ptv/vplay/22816727.html?mod=stat&ctl=download&act=add&report=1&pcode=010110000.apk
+Resolving www.le.com... 218.75.225.80, 218.76.94.67, 222.243.110.164, ...
+Connecting to www.le.com|218.75.225.80|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 75084 (73K) [text/html]
+Saving to: `22816727.html?mod=stat&ctl=download&act=add&report=1&pcode=010110000.apk'
+
+     0K .......... .......... .......... .......... .......... 68%  246K 0s
+    50K .......... .......... ...                             100%  162M=0.2s
+
+2017-01-30 23:07:07 (361 KB/s) - `22816727.html?mod=stat&ctl=download&act=add&report=1&pcode=010110000.apk' saved [75084/75084]
+

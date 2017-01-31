@@ -1,0 +1,28 @@
+--2017-01-31 18:27:27--  http://103.212.33.249/MUStx
+Connecting to 103.212.33.249:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://103.212.33.249/MUStx/ [following]
+--2017-01-31 18:27:31--  http://103.212.33.249/MUStx/
+Reusing existing connection to 103.212.33.249:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 653 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 34.6M=0s
+
+2017-01-31 18:27:32 (34.6 MB/s) - `index.html' saved [653/653]
+
+=======================The second times wget =====================
+--2017-01-31 18:27:32--  http://103.212.33.249/MUStx/%E5%BD%95%E5%83%8F.mp4.apk
+Connecting to 103.212.33.249:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 201053 (196K) [application/vnd.android.package-archive]
+Saving to: `å½%95å%83%8F.mp4.apk'
+
+     0K .......... .......... .......... .......... .......... 25% 15.0K 10s
+    50K .......... .......... .......... .......... .......... 50% 34.9K 5s
+   100K .......... .......... .......... .......... .......... 76%  118K 2s
+   150K .......... .......... .......... .......... ......    100% 19.4K=7.6s
+
+2017-01-31 18:27:40 (25.9 KB/s) - `å½%95å%83%8F.mp4.apk' saved [201053/201053]
+
