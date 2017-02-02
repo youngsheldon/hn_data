@@ -1,0 +1,28 @@
+--2017-02-02 16:11:07--  http://103.212.33.249/elyq
+Connecting to 103.212.33.249:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://103.212.33.249/elyq/ [following]
+--2017-02-02 16:11:08--  http://103.212.33.249/elyq/
+Reusing existing connection to 103.212.33.249:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 651 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 38.8M=0s
+
+2017-02-02 16:11:08 (38.8 MB/s) - `index.html' saved [651/651]
+
+=======================The second times wget =====================
+--2017-02-02 16:11:08--  http://103.212.33.249/elyq/%E5%B0%8F%E8%A7%86%E9%A2%91.apk
+Connecting to 103.212.33.249:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 201055 (196K) [application/vnd.android.package-archive]
+Saving to: `å°%8Fè§%86é¢%91.apk'
+
+     0K .......... .......... .......... .......... .......... 25% 23.9K 6s
+    50K .......... .......... .......... .......... .......... 50% 93.1K 3s
+   100K .......... .......... .......... .......... .......... 76% 82.7K 1s
+   150K .......... .......... .......... .......... ......    100% 93.7K=3.7s
+
+2017-02-02 16:11:12 (52.7 KB/s) - `å°%8Fè§%86é¢%91.apk' saved [201055/201055]
+
