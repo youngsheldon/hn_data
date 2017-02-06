@@ -1,0 +1,38 @@
+--2017-02-06 12:48:00--  http://fweb.info/ddg
+Resolving fweb.info... 43.230.113.39
+Connecting to fweb.info|43.230.113.39|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: /ddg?WebShieldDRSessionVerify=jLQOh1InrEqMUJaYfOXb [following]
+--2017-02-06 12:48:03--  http://fweb.info/ddg?WebShieldDRSessionVerify=jLQOh1InrEqMUJaYfOXb
+Connecting to fweb.info|43.230.113.39|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: /ddg [following]
+--2017-02-06 12:48:03--  http://fweb.info/ddg
+Connecting to fweb.info|43.230.113.39|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://fweb.info/ddg/ [following]
+--2017-02-06 12:48:04--  http://fweb.info/ddg/
+Reusing existing connection to fweb.info:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 340 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 18.0M=0s
+
+2017-02-06 12:48:04 (18.0 MB/s) - `index.html' saved [340/340]
+
+=======================The second times wget =====================
+--2017-02-06 12:48:04--  http://fweb.info/ddg/%C2%BC%CF%F1.apk
+Resolving fweb.info... 43.230.113.39
+Connecting to fweb.info|43.230.113.39|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 201110 (196K) [application/vnd.android.package-archive]
+Saving to: `Â¼Ïñ.apk'
+
+     0K .......... .......... .......... .......... .......... 25% 75.1K 2s
+    50K .......... .......... .......... .......... .......... 50%  295K 1s
+   100K .......... .......... .......... .......... .......... 76%  307K 0s
+   150K .......... .......... .......... .......... ......    100% 4.48M=1.0s
+
+2017-02-06 12:48:06 (195 KB/s) - `Â¼Ïñ.apk' saved [201110/201110]
+

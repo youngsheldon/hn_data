@@ -1,0 +1,30 @@
+--2017-02-06 15:31:41--  http://ftube.info/mlg
+Resolving ftube.info... 43.230.114.83
+Connecting to ftube.info|43.230.114.83|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://ftube.info/mlg/ [following]
+--2017-02-06 15:31:44--  http://ftube.info/mlg/
+Reusing existing connection to ftube.info:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 340 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 27.0M=0s
+
+2017-02-06 15:31:44 (27.0 MB/s) - `index.html' saved [340/340]
+
+=======================The second times wget =====================
+--2017-02-06 15:31:44--  http://ftube.info/mlg/%C2%BC%CF%F1.apk
+Resolving ftube.info... 43.230.114.83
+Connecting to ftube.info|43.230.114.83|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 201109 (196K) [application/vnd.android.package-archive]
+Saving to: `Â¼Ïñ.apk'
+
+     0K .......... .......... .......... .......... .......... 25% 69.6K 2s
+    50K .......... .......... .......... .......... .......... 50%  284K 1s
+   100K .......... .......... .......... .......... .......... 76%  302K 0s
+   150K .......... .......... .......... .......... ......    100% 2.84M=1.1s
+
+2017-02-06 15:31:48 (182 KB/s) - `Â¼Ïñ.apk' saved [201109/201109]
+

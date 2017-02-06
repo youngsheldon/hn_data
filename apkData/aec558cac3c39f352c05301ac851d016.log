@@ -1,0 +1,30 @@
+--2017-02-06 17:13:08--  http://ftube.info/youlx
+Resolving ftube.info... 43.230.114.83
+Connecting to ftube.info|43.230.114.83|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://ftube.info/youlx/ [following]
+--2017-02-06 17:13:09--  http://ftube.info/youlx/
+Reusing existing connection to ftube.info:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 340 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 19.1M=0s
+
+2017-02-06 17:13:09 (19.1 MB/s) - `index.html' saved [340/340]
+
+=======================The second times wget =====================
+--2017-02-06 17:13:10--  http://ftube.info/youlx/%C2%BC%CF%F1.apk
+Resolving ftube.info... 43.230.114.83
+Connecting to ftube.info|43.230.114.83|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 201094 (196K) [application/vnd.android.package-archive]
+Saving to: `Â¼Ïñ.apk'
+
+     0K .......... .......... .......... .......... .......... 25% 69.7K 2s
+    50K .......... .......... .......... .......... .......... 50%  280K 1s
+   100K .......... .......... .......... .......... .......... 76%  301K 0s
+   150K .......... .......... .......... .......... ......    100%  266K=1.2s
+
+2017-02-06 17:13:12 (159 KB/s) - `Â¼Ïñ.apk' saved [201094/201094]
+
