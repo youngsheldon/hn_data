@@ -1,0 +1,782 @@
+<manifest
+    android:versionCode=<0x41AF3243, type 0x10>
+    android:versionName="2.0.7.h"
+    package="com.gionee.amiweather"
+    platformBuildVersionCode=<0x17, type 0x10>
+    platformBuildVersionName="6.0-eng.android.20151016.162047"
+    >
+    <uses-sdk
+        android:minSdkVersion=<0x11, type 0x10>
+        android:targetSdkVersion=<0x15, type 0x10>
+        >
+    </uses-sdk>
+    <application
+        android:label=<0x7F090027, type 0x01>
+        android:icon=<0x7F0201B9, type 0x01>
+        android:name="com.gionee.amiweather.application.RootApplication"
+        android:persistent=<0xFFFFFFFF, type 0x12>
+        android:configChanges=<0x4, type 0x11>
+        android:largeHeap=<0xFFFFFFFF, type 0x12>
+        >
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="DNUM0kujutG9QG3G1EdSHsro"
+            >
+        </meta-data>
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="526f5b3756240b0269001cb5"
+            >
+        </meta-data>
+        <meta-data
+            android:name="YJ_APP_ID"
+            android:value="C20BE1F2E19E625E"
+            >
+        </meta-data>
+        <meta-data
+            android:name="YJ_CHANNEL_ID"
+            android:value=<0x64, type 0x10>
+            >
+        </meta-data>
+        <meta-data
+            android:name="api_key"
+            android:value="F4NnVDt5ppmzSFGKRyHKdqBp"
+            >
+        </meta-data>
+        <meta-data
+            android:name="BaiduMobAd_STAT_ID"
+            android:value="7586e1a9b0"
+            >
+        </meta-data>
+        <meta-data
+            android:name="BaiduMobAd_CHANNEL"
+            android:value="xiaomi"
+            >
+        </meta-data>
+        <meta-data
+            android:name="BaiduMobAd_EXCEPTION_LOG"
+            android:value=<0xFFFFFFFF, type 0x12>
+            >
+        </meta-data>
+        <meta-data
+            android:name="BaiduMobAd_SEND_STRATEGY"
+            android:value="APP_START"
+            >
+        </meta-data>
+        <activity
+            android:theme=<0x7F08009D, type 0x01>
+            android:label=<0x7F090027, type 0x01>
+            android:icon=<0x7F0201B9, type 0x01>
+            android:name="com.gionee.amiweather.business.activities.SplashActivity"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:noHistory=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.gionee.amiweather.SplashActivity_ACTION"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity-alias
+            android:label=<0x7F090027, type 0x01>
+            android:icon=<0x7F0201B9, type 0x01>
+            android:name="com.gionee.amiweather.business.activities.SplashActivity_Shadow"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:targetActivity="com.gionee.amiweather.business.activities.SplashActivity"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.gionee.amiweather.SplashActivity_Shadow"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:label=<0x7F090027, type 0x01>
+            android:icon=<0x7F0201B9, type 0x01>
+            android:name="com.gionee.amiweather.business.activities.SplashActivity_InLauncher"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:targetActivity="com.gionee.amiweather.business.activities.SplashActivity"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.gionee.amiweather.SplashActivity_InLauncher"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.LAUNCHER"
+                    >
+                </category>
+            </intent-filter>
+        </activity-alias>
+        <activity
+            android:theme=<0x7F080094, type 0x01>
+            android:name="com.gionee.amiweather.business.activities.CoolWindWeatherActivity"
+            android:clearTaskOnLaunch=<0x0, type 0x12>
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080094, type 0x01>
+            android:name="com.gionee.amiweather.business.activities.ManageCityActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080094, type 0x01>
+            android:name="com.gionee.amiweather.business.activities.ChooseCityActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080094, type 0x01>
+            android:name="com.gionee.amiweather.business.activities.OverseasCityActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080094, type 0x01>
+            android:name="com.gionee.amiweather.business.activities.ProvincesActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080094, type 0x01>
+            android:name="com.gionee.amiweather.business.activities.CitiesOfProvinceActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080094, type 0x01>
+            android:name="com.gionee.amiweather.business.activities.ConfigurationActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080094, type 0x01>
+            android:name="com.gionee.amiweather.business.activities.SettingSecendLevelActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080094, type 0x01>
+            android:name="com.gionee.amiweather.business.activities.CommonProblemActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080094, type 0x01>
+            android:name="com.gionee.amiweather.business.activities.AboutActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080094, type 0x01>
+            android:name="com.gionee.amiweather.business.activities.TeamMembersActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0800A6, type 0x01>
+            android:name="com.gionee.amiweatherlock.view.DefaultActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:process=<0x7F0901C3, type 0x01>
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x3, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080094, type 0x01>
+            android:name="com.gionee.amiweathertheme.ThemeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080094, type 0x01>
+            android:name="com.gionee.amiweather.business.activities.PrewarningActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080094, type 0x01>
+            android:name="com.gionee.amiweather.business.activities.HealthyLifeActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080094, type 0x01>
+            android:name="com.gionee.amiweather.business.activities.TeamMemberDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030007, type 0x01>
+            android:name="com.gionee.amiweather.business.activities.NewGuideActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080094, type 0x01>
+            android:name="com.gionee.amiweather.business.activities.ShoppingIndexActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x2004, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080094, type 0x01>
+            android:name="com.gionee.amiweather.business.activities.ShoppingAQIActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x2004, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080094, type 0x01>
+            android:name="com.gionee.amiweather.business.activities.PreviewActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0800A0, type 0x01>
+            android:name="com.gionee.amiweather.business.activities.Go2MIUIDetailsActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080094, type 0x01>
+            android:name="com.gionee.amiweather.business.activities.CrashListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080094, type 0x01>
+            android:name="com.umeng.fb.ConversationActivity"
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F080094, type 0x01>
+            android:name="com.umeng.fb.ContactActivity"
+            >
+        </activity>
+        <service
+            android:name="com.gionee.amiweather.business.services.DataService"
+            >
+        </service>
+        <receiver
+            android:label=<0x7F0900A2, type 0x01>
+            android:icon=<0x7F0201B9, type 0x01>
+            android:name="com.gionee.amiweather.AnimationWidget"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.appwidget.action.APPWIDGET_UPDATE"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.gionee.amiweather.update"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.gionee.amiweather.update_widget_no_animation"
+                    >
+                </action>
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource=<0x7F060004, type 0x01>
+                >
+            </meta-data>
+        </receiver>
+        <receiver
+            android:label=<0x7F0900A4, type 0x01>
+            android:icon=<0x7F0201B9, type 0x01>
+            android:name="com.gionee.amiweather.Widget41"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.appwidget.action.APPWIDGET_UPDATE"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.gionee.amiweather.update"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.gionee.amiweather.update_widget_no_animation"
+                    >
+                </action>
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource=<0x7F060002, type 0x01>
+                >
+            </meta-data>
+        </receiver>
+        <receiver
+            android:label=<0x7F09010E, type 0x01>
+            android:icon=<0x7F0201B9, type 0x01>
+            android:name="com.gionee.amiweather.Widget41new"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.appwidget.action.APPWIDGET_UPDATE"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.gionee.amiweather.update"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.gionee.amiweather.update_widget_no_animation"
+                    >
+                </action>
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource=<0x7F060003, type 0x01>
+                >
+            </meta-data>
+        </receiver>
+        <receiver
+            android:label=<0x7F090181, type 0x01>
+            android:icon=<0x7F0201B9, type 0x01>
+            android:name="com.gionee.amiweather.business.desktopwidget.ThemeWidget42"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.appwidget.action.APPWIDGET_UPDATE"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.gionee.amiweather.update"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.gionee.amiweather.update_widget_no_animation"
+                    >
+                </action>
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource=<0x7F060000, type 0x01>
+                >
+            </meta-data>
+        </receiver>
+        <receiver
+            android:name="com.gionee.amiweather.business.receivers.BootCompleteReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.BOOT_COMPLETED"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.gionee.amiweather.business.desktopwidget.WidgetAccessNetBroadcast"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+        </receiver>
+        <provider
+            android:name=".db_provider.WeatherProvider"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:authorities="com.gionee.amiweather"
+            >
+        </provider>
+        <receiver
+            android:name="com.gionee.amiweather.business.receivers.WidgetChangeCityReceiver"
+            android:permission="com.gionee.amiweather.permission.CHANGE_CITY"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.gionee.amiweather.widget_change_city"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.gionee.amiweather.business.receivers.WeatherOpenChangeCity"
+            android:permission="com.gionee.amiweather.permission.OPEN_CHANGE_CITY"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.gionee.amiweather.open_change_city"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:theme=<0x7F0800BE, type 0x01>
+            android:name="com.umeng.newxp.view.UMDetail"
+            android:launchMode=<0x0, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x90, type 0x11>
+            >
+        </activity>
+        <service
+            android:name="com.baidu.location.f"
+            android:permission="android.permission.BAIDU_LOCATION_SERVICE"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:process=":bdservice_v1"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.baidu.location.service_v2.6c"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <receiver
+            android:name="com.gionee.amiweather.business.push.BaiduPushMessageReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.baidu.android.pushservice.action.MESSAGE"
+                    >
+                </action>
+                <action
+                    android:name="com.baidu.android.pushservice.action.RECEIVE"
+                    >
+                </action>
+                <action
+                    android:name="com.baidu.android.pushservice.action.notification.CLICK"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.baidu.android.pushservice.PushServiceReceiver"
+            android:process=":bdservice_v1"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.BOOT_COMPLETED"
+                    >
+                </action>
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+                <action
+                    android:name="com.baidu.android.pushservice.action.notification.SHOW"
+                    >
+                </action>
+                <action
+                    android:name="com.baidu.android.pushservice.action.media.CLICK"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.MEDIA_MOUNTED"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.USER_PRESENT"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.ACTION_POWER_CONNECTED"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.ACTION_POWER_DISCONNECTED"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.baidu.android.pushservice.RegistrationReceiver"
+            android:process=":bdservice_v1"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.baidu.android.pushservice.action.METHOD"
+                    >
+                </action>
+                <action
+                    android:name="com.baidu.android.pushservice.action.BIND_SYNC"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.PACKAGE_REMOVED"
+                    >
+                </action>
+                <data
+                    android:scheme="package"
+                    >
+                </data>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.baidu.android.pushservice.PushService"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:process=":bdservice_v1"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.baidu.android.pushservice.action.PUSH_SERVICE"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.baidu.android.pushservice.CommandService"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+        </service>
+        <activity
+            android:label=<0x7F090280, type 0x01>
+            android:name="com.gionee.amiweather.youmeng.YouMeng"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.gionee.amiweatheryoumeng.app"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="Umeng"
+            >
+        </meta-data>
+        <service
+            android:name="com.umeng.common.ufp.net.DownloadingService"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:process=":DownloadingService"
+            >
+        </service>
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="528d744556240b69ec07de64"
+            >
+        </meta-data>
+        <activity
+            android:name="com.gionee.amiweatherlock.LockscreenCropActivity"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <service
+            android:name="com.gionee.amiweatherlock.StarLockService"
+            android:process=<0x7F0901C3, type 0x01>
+            >
+        </service>
+        <receiver
+            android:name="com.gionee.amiweatherlock.LockscreenBootReceiver"
+            android:process=<0x7F0901C3, type 0x01>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.BOOT_COMPLETED"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+    </application>
+    <uses-permission
+        android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_BOOT_COMPLETED"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WAKE_LOCK"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_CONTACTS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.VIBRATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.BAIDU_LOCATION_SERVICE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.GET_TASKS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.REORDER_TASKS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.launcher.permission.INSTALL_SHORTCUT"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.launcher.permission.READ_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.launcher.permission.WRITE_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.PACKAGE_USAGE_STATS"
+        >
+    </uses-permission>
+    <uses-feature
+        android:name="android.hardware.camera"
+        >
+    </uses-feature>
+    <uses-permission
+        android:name="android.permission.DISABLE_KEYGUARD"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.SYSTEM_ALERT_WINDOW"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_CALL_LOG"
+        >
+    </uses-permission>
+    <permission
+        android:name="com.gionee.amiweather.permission.CHANGE_CITY"
+        >
+    </permission>
+    <uses-permission
+        android:name="com.gionee.amiweather.permission.CHANGE_CITY"
+        >
+    </uses-permission>
+    <permission
+        android:name="com.gionee.amiweather.permission.OPEN_CHANGE_CITY"
+        >
+    </permission>
+    <permission
+        android:name="com.gionee.amiweather.permission.C2D_MESSAGE"
+        android:protectionLevel=<0x2, type 0x11>
+        >
+    </permission>
+    <uses-permission
+        android:name="com.gionee.amiweather.permission.C2D_MESSAGE"
+        >
+    </uses-permission>
+</manifest>

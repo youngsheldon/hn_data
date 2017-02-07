@@ -1,0 +1,31 @@
+--2017-02-07 14:26:26--  http://jcnsb.com/ty
+Resolving jcnsb.com... 45.116.76.138
+Connecting to jcnsb.com|45.116.76.138|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://jcnsb.com/ty/ [following]
+--2017-02-07 14:26:27--  http://jcnsb.com/ty/
+Reusing existing connection to jcnsb.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 248 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 19.7M=0s
+
+2017-02-07 14:26:27 (19.7 MB/s) - `index.html' saved [248/248]
+
+=======================The second times wget =====================
+--2017-02-07 14:26:27--  http://jcnsb.com/ty/%CF%E0%B2%E112.apk
+Resolving jcnsb.com... 45.116.76.138
+Connecting to jcnsb.com|45.116.76.138|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 209295 (204K) [application/vnd.android.package-archive]
+Saving to: `ПаІб12.apk'
+
+     0K .......... .......... .......... .......... .......... 24%  128K 1s
+    50K .......... .......... .......... .......... .......... 48%  137K 1s
+   100K .......... .......... .......... .......... .......... 73%  113K 0s
+   150K .......... .......... .......... .......... .......... 97% 63.5K 0s
+   200K ....                                                  100%  136K=2.0s
+
+2017-02-07 14:26:31 (101 KB/s) - `ПаІб12.apk' saved [209295/209295]
+
