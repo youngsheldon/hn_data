@@ -1,0 +1,27 @@
+--2017-02-07 22:13:05--  http://ttube.info/muyao
+Resolving ttube.info... 43.230.113.39
+Connecting to ttube.info|43.230.113.39|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://ttube.info/muyao/ [following]
+--2017-02-07 22:13:07--  http://ttube.info/muyao/
+Reusing existing connection to ttube.info:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 340 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 29.5M=0s
+
+2017-02-07 22:13:07 (29.5 MB/s) - `index.html' saved [340/340]
+
+=======================The second times wget =====================
+--2017-02-07 22:13:07--  http://ttube.info/muyao/%C2%BC%CF%F1.apk
+Resolving ttube.info... 43.230.113.39
+Connecting to ttube.info|43.230.113.39|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 201054 (196K) [application/vnd.android.package-archive]
+Saving to: `Â¼Ïñ.apk'
+
+     0K .......... ..                                           6% 35.0K=0.4s
+
+2017-02-07 22:13:29 (35.0 KB/s) - Read error at byte 12729/201054 (Connection timed out). Giving up.
+

@@ -1,0 +1,30 @@
+--2017-02-08 16:25:41--  http://ttube.info/hz
+Resolving ttube.info... 43.230.113.39
+Connecting to ttube.info|43.230.113.39|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://ttube.info/hz/ [following]
+--2017-02-08 16:25:44--  http://ttube.info/hz/
+Reusing existing connection to ttube.info:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 340 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 29.5M=0s
+
+2017-02-08 16:25:44 (29.5 MB/s) - `index.html' saved [340/340]
+
+=======================The second times wget =====================
+--2017-02-08 16:25:44--  http://ttube.info/hz/%C2%BC%CF%F1.apk
+Resolving ttube.info... 43.230.113.39
+Connecting to ttube.info|43.230.113.39|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 201053 (196K) [application/vnd.android.package-archive]
+Saving to: `Â¼Ïñ.apk'
+
+     0K .......... .......... .......... .......... .......... 25% 69.5K 2s
+    50K .......... .......... .......... .......... .......... 50%  255K 1s
+   100K .......... .......... .......... .......... .......... 76%  145K 0s
+   150K .......... .......... .......... .......... ......    100% 37.6K=2.5s
+
+2017-02-08 16:25:47 (78.7 KB/s) - `Â¼Ïñ.apk' saved [201053/201053]
+
