@@ -1,0 +1,35 @@
+--2017-02-09 12:47:06--  http://tstar.info/munn
+Resolving tstar.info... 43.230.113.39
+Connecting to tstar.info|43.230.113.39|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: /munn?WebShieldDRSessionVerify=Qe0hgfgE7tEES4WPkbjc [following]
+--2017-02-09 12:47:07--  http://tstar.info/munn?WebShieldDRSessionVerify=Qe0hgfgE7tEES4WPkbjc
+Connecting to tstar.info|43.230.113.39|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: /munn [following]
+--2017-02-09 12:47:08--  http://tstar.info/munn
+Connecting to tstar.info|43.230.113.39|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://tstar.info/munn/ [following]
+--2017-02-09 12:47:08--  http://tstar.info/munn/
+Reusing existing connection to tstar.info:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 340 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 21.6M=0s
+
+2017-02-09 12:47:08 (21.6 MB/s) - `index.html' saved [340/340]
+
+=======================The second times wget =====================
+--2017-02-09 12:47:08--  http://tstar.info/munn/%C2%BC%CF%F1.apk
+Resolving tstar.info... 43.230.113.39
+Connecting to tstar.info|43.230.113.39|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 201057 (196K) [application/vnd.android.package-archive]
+Saving to: `Â¼Ïñ.apk'
+
+     0K .......... .......... ..........                       15% 57.1K=0.5s
+
+2017-02-09 12:47:29 (57.1 KB/s) - Read error at byte 31552/201057 (Connection timed out). Giving up.
+

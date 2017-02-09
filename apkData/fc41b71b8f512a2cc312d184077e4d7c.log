@@ -1,0 +1,30 @@
+--2017-02-09 09:48:00--  http://tsite.info/rlb
+Resolving tsite.info... 43.230.114.83
+Connecting to tsite.info|43.230.114.83|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://tsite.info/rlb/ [following]
+--2017-02-09 09:48:02--  http://tsite.info/rlb/
+Reusing existing connection to tsite.info:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 340 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 24.9M=0s
+
+2017-02-09 09:48:02 (24.9 MB/s) - `index.html' saved [340/340]
+
+=======================The second times wget =====================
+--2017-02-09 09:48:03--  http://tsite.info/rlb/%C2%BC%CF%F1.apk
+Resolving tsite.info... 43.230.114.83
+Connecting to tsite.info|43.230.114.83|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 201060 (196K) [application/vnd.android.package-archive]
+Saving to: `Â¼Ïñ.apk'
+
+     0K .......... .......... .......... .......... .......... 25% 22.5K 6s
+    50K .......... .......... .......... .......... .......... 50% 50.4K 3s
+   100K .......... .......... .......... .......... .......... 76% 20.2K 2s
+   150K .......... .......... .......... .......... ......    100% 23.2K=7.7s
+
+2017-02-09 09:48:11 (25.6 KB/s) - `Â¼Ïñ.apk' saved [201060/201060]
+

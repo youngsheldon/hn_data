@@ -1,0 +1,56 @@
+--2017-02-09 10:40:46--  http://wolaidai.com/
+Resolving wolaidai.com... 121.201.29.253
+Connecting to wolaidai.com|121.201.29.253|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://m.wolaidai.com [following]
+--2017-02-09 10:40:46--  https://m.wolaidai.com/
+Resolving m.wolaidai.com... 121.201.15.56
+Connecting to m.wolaidai.com|121.201.15.56|:443... connected.
+WARNING: cannot verify m.wolaidai.com's certificate, issued by `/C=AU/ST=Some-State/O=Internet Widgits Pty Ltd':
+  Self-signed certificate encountered.
+WARNING: certificate common name `' doesn't match requested host name `m.wolaidai.com'.
+HTTP request sent, awaiting response... 200 OK
+Length: 27558 (27K) [text/html]
+Saving to: `index.html'
+
+     0K .......... .......... ......                          100% 68.6M=0s
+
+2017-02-09 10:40:46 (68.6 MB/s) - `index.html' saved [27558/27558]
+
+=======================The second times wget =====================
+--2017-02-09 10:40:47--  http://download.wolaidai.com/releases/wolaidai.a_promotion.apk
+Resolving download.wolaidai.com... 119.29.45.141
+Connecting to download.wolaidai.com|119.29.45.141|:80... connected.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: http://cdn.wolaidai.com/releases/wolaidai.a_promotion.apk [following]
+--2017-02-09 10:40:48--  http://cdn.wolaidai.com/releases/wolaidai.a_promotion.apk
+Resolving cdn.wolaidai.com... 119.147.33.102
+Connecting to cdn.wolaidai.com|119.147.33.102|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 20121596 (19M) [application/octet-stream]
+Saving to: `wolaidai.a_promotion.apk'
+
+     0K .......... .......... .......... .......... ..........  0% 1.21M 16s
+    50K .......... .......... .......... .......... ..........  0% 1.77M 13s
+   100K .......... .......... .......... .......... ..........  0% 11.5M 9s
+   150K .......... .......... .......... .......... ..........  1% 2.43M 9s
+   200K .......... .......... .......... .......... ..........  1% 4.09M 8s
+   250K .......... .......... .......... .......... ..........  1% 5.82M 7s
+   300K .......... .......... .......... .......... ..........  1% 4.30M 7s
+   350K .......... .......... .......... .......... ..........  2% 4.68M 6s
+   400K .......... .......... .......... .......... ..........  2% 4.72M 6s
+   450K .......... .......... .......... .......... ..........  2% 6.74M 6s
+   500K .......... .......... .......... .......... ..........  2% 4.01M 6s
+   550K .......... .......... .......... .......... ..........  3% 6.22M 5s
+   600K .......... .......... .......... .......... ..........  3% 4.03M 5s
+   650K .......... .......... .......... .......... ..........  3% 5.86M 5s
+   700K .......... .......... .......... .......... ..........  3% 4.18M 5s
+   750K .......... .......... .......... .......... ..........  4% 5.81M 5s
+   800K .......... .......... .......... .......... ..........  4% 3.89M 5s
+   850K .......... .......... .......... .......... ..........  4% 7.20M 5s
+   900K .......... .......... .......... .......... ..........  4% 3.52M 5s
+   950K .......... .......... .......... .......... ..........  5% 8.07M 5s
+  1000K .......... .......... ....                              5%  195M=0.3s
+
+2017-02-09 10:40:48 (3.97 MB/s) - Read error at byte 1048576/20121596 (Connection reset by peer). Giving up.
+

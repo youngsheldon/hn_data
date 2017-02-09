@@ -1,0 +1,30 @@
+--2017-02-09 13:38:22--  http://ttoday.info/lgg
+Resolving ttoday.info... 43.230.112.228
+Connecting to ttoday.info|43.230.112.228|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://ttoday.info/lgg/ [following]
+--2017-02-09 13:38:26--  http://ttoday.info/lgg/
+Reusing existing connection to ttoday.info:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 340 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 13.5M=0s
+
+2017-02-09 13:38:26 (13.5 MB/s) - `index.html' saved [340/340]
+
+=======================The second times wget =====================
+--2017-02-09 13:38:26--  http://ttoday.info/lgg/%C2%BC%CF%F1.apk
+Resolving ttoday.info... 43.230.112.228
+Connecting to ttoday.info|43.230.112.228|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 201061 (196K) [application/vnd.android.package-archive]
+Saving to: `Â¼Ïñ.apk'
+
+     0K .......... .......... .......... .......... .......... 25% 10.7K 14s
+    50K .......... .......... .......... .......... .......... 50% 14.4K 8s
+   100K .......... .......... .......... .......... .......... 76% 11.2K 4s
+   150K .......... .......... .......... .......... ......    100% 16.4K=15s
+
+2017-02-09 13:38:45 (12.7 KB/s) - `Â¼Ïñ.apk' saved [201061/201061]
+

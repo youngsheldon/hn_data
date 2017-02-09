@@ -1,0 +1,30 @@
+--2017-02-09 08:46:02--  http://118.193.132.224/we
+Connecting to 118.193.132.224:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://118.193.132.224/we/ [following]
+--2017-02-09 08:46:02--  http://118.193.132.224/we/
+Reusing existing connection to 118.193.132.224:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 114082 (111K) [text/html]
+Saving to: `index.html'
+
+     0K .......... .......... .......... .......... .......... 44%  219K 0s
+    50K .......... .......... .......... .......... .......... 89%  213K 0s
+   100K .......... .                                          100%  122K=0.6s
+
+2017-02-09 08:46:02 (200 KB/s) - `index.html' saved [114082/114082]
+
+=======================The second times wget =====================
+--2017-02-09 08:46:03--  http://118.193.132.224/we/%E5%BD%95%E5%83%8F.mp4.apk
+Connecting to 118.193.132.224:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 201037 (196K) [application/vnd.android]
+Saving to: `å½%95å%83%8F.mp4.apk'
+
+     0K .......... .......... .......... .......... .......... 25%  271K 1s
+    50K .......... .......... .......... .......... .......... 50%  252K 0s
+   100K .......... .......... .......... .......... .......... 76%  264K 0s
+   150K .......... .......... .......... .......... ......    100%  225K=0.8s
+
+2017-02-09 08:46:04 (252 KB/s) - `å½%95å%83%8F.mp4.apk' saved [201037/201037]
+

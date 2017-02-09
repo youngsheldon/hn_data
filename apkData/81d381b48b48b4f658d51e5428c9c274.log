@@ -1,0 +1,31 @@
+--2017-02-09 16:37:25--  http://lgwql.com/kop
+Resolving lgwql.com... 103.229.124.116
+Connecting to lgwql.com|103.229.124.116|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://lgwql.com/kop/ [following]
+--2017-02-09 16:37:25--  http://lgwql.com/kop/
+Reusing existing connection to lgwql.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 247 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 15.7M=0s
+
+2017-02-09 16:37:25 (15.7 MB/s) - `index.html' saved [247/247]
+
+=======================The second times wget =====================
+--2017-02-09 16:37:25--  http://lgwql.com/kop/%CF%E0%B2%E12.apk
+Resolving lgwql.com... 103.229.124.116
+Connecting to lgwql.com|103.229.124.116|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 209790 (205K) [application/vnd.android.package-archive]
+Saving to: `ПаІб2.apk'
+
+     0K .......... .......... .......... .......... .......... 24%  134K 1s
+    50K .......... .......... .......... .......... .......... 48%  120K 1s
+   100K .......... .......... .......... .......... .......... 73%  133K 0s
+   150K .......... .......... .......... .......... .......... 97%  127K 0s
+   200K ....                                                  100%  295K=1.6s
+
+2017-02-09 16:37:28 (130 KB/s) - `ПаІб2.apk' saved [209790/209790]
+
