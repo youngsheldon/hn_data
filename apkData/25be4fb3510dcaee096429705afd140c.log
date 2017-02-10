@@ -1,0 +1,31 @@
+--2017-02-09 18:45:42--  http://hkxxt.cn/ty
+Resolving hkxxt.cn... 103.215.80.26
+Connecting to hkxxt.cn|103.215.80.26|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://hkxxt.cn/ty/ [following]
+--2017-02-09 18:45:42--  http://hkxxt.cn/ty/
+Reusing existing connection to hkxxt.cn:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 248 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 4.83M=0s
+
+2017-02-09 18:45:43 (4.83 MB/s) - `index.html' saved [248/248]
+
+=======================The second times wget =====================
+--2017-02-09 18:45:43--  http://hkxxt.cn/ty/%CF%E0%B2%E118.apk
+Resolving hkxxt.cn... 103.215.80.26
+Connecting to hkxxt.cn|103.215.80.26|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 209297 (204K) [application/vnd.android.package-archive]
+Saving to: `ПаІб18.apk'
+
+     0K .......... .......... .......... .......... .......... 24%  135K 1s
+    50K .......... .......... .......... .......... .......... 48%  117K 1s
+   100K .......... .......... .......... .......... .......... 73%  122K 0s
+   150K .......... .......... .......... .......... .......... 97%  222K 0s
+   200K ....                                                  100% 24.8K=1.6s
+
+2017-02-09 18:45:44 (127 KB/s) - `ПаІб18.apk' saved [209297/209297]
+

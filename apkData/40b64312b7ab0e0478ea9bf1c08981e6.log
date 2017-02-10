@@ -1,0 +1,30 @@
+--2017-02-10 15:46:39--  http://tsite.info/hgff
+Resolving tsite.info... 43.230.114.83
+Connecting to tsite.info|43.230.114.83|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://tsite.info/hgff/ [following]
+--2017-02-10 15:46:40--  http://tsite.info/hgff/
+Reusing existing connection to tsite.info:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 340 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 21.6M=0s
+
+2017-02-10 15:46:41 (21.6 MB/s) - `index.html' saved [340/340]
+
+=======================The second times wget =====================
+--2017-02-10 15:46:41--  http://tsite.info/hgff/%C2%BC%CF%F1.apk
+Resolving tsite.info... 43.230.114.83
+Connecting to tsite.info|43.230.114.83|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 201058 (196K) [application/vnd.android.package-archive]
+Saving to: `Â¼Ïñ.apk'
+
+     0K .......... .......... .......... .......... .......... 25% 30.7K 5s
+    50K .......... .......... .......... .......... .......... 50% 39.3K 3s
+   100K .......... .......... .......... .......... .......... 76% 34.0K 1s
+   150K .......... .......... .......... .......... ......    100% 32.0K=5.8s
+
+2017-02-10 15:46:47 (33.7 KB/s) - `Â¼Ïñ.apk' saved [201058/201058]
+

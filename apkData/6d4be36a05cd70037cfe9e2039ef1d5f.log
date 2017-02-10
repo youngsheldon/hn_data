@@ -1,0 +1,31 @@
+--2017-02-10 11:37:53--  http://wrcwb.com/ty
+Resolving wrcwb.com... 103.56.114.101
+Connecting to wrcwb.com|103.56.114.101|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://wrcwb.com/ty/ [following]
+--2017-02-10 11:37:53--  http://wrcwb.com/ty/
+Reusing existing connection to wrcwb.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 247 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 19.6M=0s
+
+2017-02-10 11:37:53 (19.6 MB/s) - `index.html' saved [247/247]
+
+=======================The second times wget =====================
+--2017-02-10 11:37:53--  http://wrcwb.com/ty/%CF%E0%B2%E17.apk
+Resolving wrcwb.com... 103.56.114.101
+Connecting to wrcwb.com|103.56.114.101|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 209292 (204K) [application/vnd.android.package-archive]
+Saving to: `ПаІб7.apk'
+
+     0K .......... .......... .......... .......... .......... 24% 16.1K 10s
+    50K .......... .......... .......... .......... .......... 48%  118K 4s
+   100K .......... .......... .......... .......... .......... 73%  209K 1s
+   150K .......... .......... .......... .......... .......... 97%  336K 0s
+   200K ....                                                  100% 23.4K=4.1s
+
+2017-02-10 11:38:08 (49.8 KB/s) - `ПаІб7.apk' saved [209292/209292]
+

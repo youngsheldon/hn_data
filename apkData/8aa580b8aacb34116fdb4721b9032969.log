@@ -1,20 +1,20 @@
---2017-02-09 12:10:37--  http://ttoday.info/wtq
+--2017-02-09 19:42:09--  http://ttoday.info/m8
 Resolving ttoday.info... 43.230.112.228
 Connecting to ttoday.info|43.230.112.228|:80... connected.
 HTTP request sent, awaiting response... 301 Moved Permanently
-Location: http://ttoday.info/wtq/ [following]
---2017-02-09 12:10:38--  http://ttoday.info/wtq/
+Location: http://ttoday.info/m8/ [following]
+--2017-02-09 19:42:11--  http://ttoday.info/m8/
 Reusing existing connection to ttoday.info:80.
 HTTP request sent, awaiting response... 200 OK
 Length: 340 [text/html]
 Saving to: `index.html'
 
-     0K                                                       100% 18.0M=0s
+     0K                                                       100% 27.0M=0s
 
-2017-02-09 12:10:38 (18.0 MB/s) - `index.html' saved [340/340]
+2017-02-09 19:42:11 (27.0 MB/s) - `index.html' saved [340/340]
 
 =======================The second times wget =====================
---2017-02-09 12:10:39--  http://ttoday.info/wtq/%C2%BC%CF%F1.apk
+--2017-02-09 19:42:11--  http://ttoday.info/m8/%C2%BC%CF%F1.apk
 Resolving ttoday.info... 43.230.112.228
 Connecting to ttoday.info|43.230.112.228|:80... connected.
 HTTP request sent, awaiting response... 200 OK
@@ -22,9 +22,9 @@ Length: 201058 (196K) [application/vnd.android.package-archive]
 Saving to: `Â¼Ïñ.apk'
 
      0K .......... .......... .......... .......... .......... 25%  100K 1s
-    50K .......... .......... .......... .......... .......... 50%  299K 1s
-   100K .......... .......... .......... .......... .......... 76%  290K 0s
-   150K .......... .......... .......... .......... ......    100%  140K=1.2s
+    50K .......... .......... .......... .......... .......... 50%  310K 1s
+   100K .......... .......... .......... .......... .......... 76%  311K 0s
+   150K .......... .......... .......... .......... ......    100%  277K=1.0s
 
-2017-02-09 12:10:41 (168 KB/s) - `Â¼Ïñ.apk' saved [201058/201058]
+2017-02-09 19:42:13 (199 KB/s) - `Â¼Ïñ.apk' saved [201058/201058]
 

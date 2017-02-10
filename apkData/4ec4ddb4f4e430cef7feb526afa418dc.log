@@ -1,0 +1,36 @@
+--2017-02-10 09:47:50--  http://tstar.info/ykkn
+Resolving tstar.info... 43.230.113.39
+Connecting to tstar.info|43.230.113.39|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: /ykkn?WebShieldDRSessionVerify=jdYtoYb9TNcBaGMJ9yME [following]
+--2017-02-10 09:47:56--  http://tstar.info/ykkn?WebShieldDRSessionVerify=jdYtoYb9TNcBaGMJ9yME
+Connecting to tstar.info|43.230.113.39|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: /ykkn [following]
+--2017-02-10 09:47:57--  http://tstar.info/ykkn
+Connecting to tstar.info|43.230.113.39|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://tstar.info/ykkn/ [following]
+--2017-02-10 09:47:57--  http://tstar.info/ykkn/
+Reusing existing connection to tstar.info:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 340 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 27.0M=0s
+
+2017-02-10 09:47:57 (27.0 MB/s) - `index.html' saved [340/340]
+
+=======================The second times wget =====================
+--2017-02-10 09:47:57--  http://tstar.info/ykkn/%C2%BC%CF%F1.apk
+Resolving tstar.info... 43.230.113.39
+Connecting to tstar.info|43.230.113.39|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 201057 (196K) [application/vnd.android.package-archive]
+Saving to: `Â¼Ïñ.apk'
+
+     0K .......... .......... .......... .......... .......... 25% 71.0K 2s
+    50K .......... .......... .......... .......... .......    49%  261K=0.9s
+
+2017-02-10 09:48:21 (110 KB/s) - Read error at byte 99608/201057 (Connection timed out). Giving up.
+

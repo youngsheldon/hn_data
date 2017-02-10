@@ -1,0 +1,2632 @@
+<manifest
+    android:versionCode=<0x133BCFB, type 0x10>
+    android:versionName="6.2.2"
+    package="cn.com.fetion"
+    platformBuildVersionCode=<0x17, type 0x10>
+    platformBuildVersionName="6.0-2704002"
+    >
+    <uses-sdk
+        android:minSdkVersion=<0x10, type 0x10>
+        android:targetSdkVersion=<0x17, type 0x10>
+        >
+    </uses-sdk>
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.SEND_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.AUTHENTICATE_ACCOUNTS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_SYNC_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_SYNC_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.GET_ACCOUNTS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.USE_CREDENTIALS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.MANAGE_ACCOUNTS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_CONTACTS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_CONTACTS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CALL_PHONE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CAMERA"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECORD_AUDIO"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.VIBRATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WAKE_LOCK"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.MODIFY_AUDIO_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_CALL_LOG"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_CALL_LOG"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.PROCESS_OUTGOING_CALLS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.launcher.permission.INSTALL_SHORTCUT"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.launcher.permission.READ_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.launcher.permission.WRITE_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_BOOT_COMPLETED"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.BROADCAST_STICKY"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_LOGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.SYSTEM_ALERT_WINDOW"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.GET_TASKS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.sec.android.provider.badge.permission.READ"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.sec.android.provider.badge.permission.WRITE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.htc.launcher.permission.READ_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.htc.launcher.permission.UPDATE_SHORTCUT"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.sonyericsson.home.permission.BROADCAST_BADGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.anddoes.launcher.permission.UPDATE_COUNT"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.majeur.launcher.permission.UPDATE_BADGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.huawei.android.launcher.permission.CHANGE_BADGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.huawei.android.launcher.permission.READ_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CALL_PRIVILEGED"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_PROFILE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_PROFILE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_SOCIAL_STREAM"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.NFC"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.MODIFY_PHONE_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.voicemail.permission.ADD_VOICEMAIL"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.voicemail.permission.READ_WRITE_ALL_VOICEMAIL"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ALLOW_ANY_CODEC_FOR_PLAYBACK"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.REBOOT"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <supports-screens
+        android:anyDensity=<0xFFFFFFFF, type 0x12>
+        android:smallScreens=<0x0, type 0x12>
+        android:normalScreens=<0xFFFFFFFF, type 0x12>
+        android:largeScreens=<0xFFFFFFFF, type 0x12>
+        android:resizeable=<0xFFFFFFFF, type 0x12>
+        >
+    </supports-screens>
+    <application
+        android:theme=<0x7F0C00A5, type 0x01>
+        android:label=<0x7F0901B0, type 0x01>
+        android:icon=<0x7F0204E0, type 0x01>
+        android:name="com.feinno.rongfly.application.RFApplication"
+        android:taskAffinity="cn.com.fetion"
+        android:allowBackup=<0xFFFFFFFF, type 0x12>
+        android:supportsRtl=<0xFFFFFFFF, type 0x12>
+        >
+        <activity
+            android:theme=<0x7F0C00A6, type 0x01>
+            android:icon=<0x7F0204E0, type 0x01>
+            android:name="com.feinno.rongfly.SplashActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.LAUNCHER"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="RCS"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x1030130, type 0x01>
+            android:name="com.feinno.rongfly.ui.notify.NotifyDiaLog"
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C00FC, type 0x01>
+            android:name="com.feinno.rongfly.NewMainActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x30, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.SEND"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.SENDTO"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="sms"
+                    >
+                </data>
+                <data
+                    android:scheme="smsto"
+                    >
+                </data>
+                <data
+                    android:scheme="mms"
+                    >
+                </data>
+                <data
+                    android:scheme="mmsto"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.contact.activity.RFContactLabelActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.contact.activity.RFContactLabelDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.feinno.rongfly.contact.label.edit"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.GuideActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.contact.activity.RFNewFriendActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.contact.activity.RFAddBuddyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.contact.activity.RFAddressListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.contact.activity.RFAddressLabelActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.contact.activity.RFAddressLabelDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.contact.activity.RFAddressDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.contact.activity.RFAddressBookSeleActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.contact.activity.RFCardDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.select.file.activity.FileChooserActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.select.file.activity.FileTypeDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.select.file.activity.RFChatFileActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.contact.activity.RFAccessRequestActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.contact.activity.RFSearchActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.contact.activity.RFNewSearchActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.contact.activity.RFSearchMoreActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.contact.activity.RFSessionSearchExpdActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.contact.activity.RFSeleFriendActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.feinno.rongfly.contact.label.create"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.contact.activity.RFSetRemarkLabelActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.contact.activity.RFSetPemissionActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.contact.activity.RFContactDetailMoreActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.contact.activity.RFSetLabelActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.contact.activity.SearchNewBuddyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.contact.activity.RFApplyAddNewBuddy"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.contact.activity.MyContactActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.contact.activity.RFAddBuddyAddressActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.contact.activity.RFBlackListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.contact.activity.FrescoTestAct"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.setting.activity.DataMigrateActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.setting.activity.MigrateFetionActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C01CC, type 0x01>
+            android:name="com.feinno.rongfly.VersionUpdateActivity"
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C01CC, type 0x01>
+            android:name="com.feinno.rongfly.MigrateNoticeActivity"
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C01CC, type 0x01>
+            android:name="com.feinno.rongfly.utils.update.UpdateVersionView"
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C01CC, type 0x01>
+            android:name="com.feinno.rongfly.ui.login.activity.UpLinkAuthActivity"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.feinno.rongfly.login.uplinkauth"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0C01CC, type 0x01>
+            android:name="com.feinno.rongfly.AddressBookDialog"
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030007, type 0x01>
+            android:name="com.feinno.rongfly.ui.contact.activity.CaptureActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C00A7, type 0x01>
+            android:name="com.feinno.rongfly.ui.login.activity.LoginByDownSmsActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C00A7, type 0x01>
+            android:name="com.feinno.rongfly.ui.login.activity.LoginGuideActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C00A7, type 0x01>
+            android:name="com.feinno.rongfly.ui.login.activity.SmsReLoginActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C00A7, type 0x01>
+            android:name="com.feinno.rongfly.ui.login.activity.RegisterActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C00A7, type 0x01>
+            android:name="com.feinno.rongfly.ui.login.activity.LoginByGraphicCodeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.login.activity.LoginPcConfirmActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.select.file.activity.RFUploadFileActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.select.file.activity.SelectFileActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.select.file.activity.SelectLocalFileActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.sms.activity.SmsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.sms.activity.SmsDetailsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.publicplatform.activity.RFPublicChatActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.session.activity.RFChatMainActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.CREATE_SHORTCUT"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.session.activity.RFChatVoWifiOverlay"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.select.image.activity.SelectLocalImageActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:hardwareAccelerated=<0x0, type 0x12>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.session.activity.RFSessionVemoticonActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:hardwareAccelerated=<0x0, type 0x12>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.select.image.activity.SelectPhotosActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:hardwareAccelerated=<0x0, type 0x12>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.select.image.activity.RFImagePreviewActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:hardwareAccelerated=<0x0, type 0x12>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C00FC, type 0x01>
+            android:name="com.feinno.rongfly.ui.session.activity.RFSessionImagePreviewActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:hardwareAccelerated=<0x0, type 0x12>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.session.activity.RFUpDownloadFileActiivty"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.session.activity.RFChatSettingActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.session.activity.RFDeviceSettingActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.session.activity.RFChatSearchHistory"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.session.activity.RFForwardChatActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.feinno.rongfly.send"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.session.activity.RFChatSelectResponseActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.plugin.massmsg.activity.RFMassMainActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.plugin.massmsg.activity.RFMassConversionActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.contact.activity.RFContactDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.cluster.activity.GroupListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.cluster.activity.GroupInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.cluster.activity.GroupSelectActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.cluster.activity.RFContactMultSeleActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.feinno.rongfly.select.friend"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.cluster.activity.GroupSettingActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.cluster.activity.RFGroupMemberListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.cluster.activity.SetGroupBulletinActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.cluster.activity.GroupQRCodeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.cluster.activity.RFDeleteMemberActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.cluster.activity.GroupMemberSelectActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.cluster.activity.RFChangeAdminActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.cluster.activity.GroupValidationActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.cluster.activity.GroupApplyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.cluster.activity.RFGroupNoticeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.cluster.activity.RFGroupApprovalActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.cluster.activity.SendGroupSmsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.setting.activity.SettingActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.setting.activity.SettingDialActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.setting.activity.SettingNewsReminderActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.setting.activity.SettingContactActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.setting.activity.SettingAboutActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.setting.activity.SettingSpecialExperienceActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.setting.activity.SettingCheckChatActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.setting.activity.SettingNoDisturbTimeActivity"
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.setting.activity.SettingDebugActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.setting.activity.SendLogsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.setting.activity.SettingReadLogActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.setting.activity.SettingReadLogDetailsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.setting.activity.SettingCommonLoginStatisticsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.setting.activity.SettingMemoryStatisticsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.setting.activity.DownLoadDebugActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.setting.activity.SettingCommonActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.setting.activity.SettingsCommonActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.setting.activity.SettingCommonTrafficStatisticsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.setting.activity.SettingChatSelectBgActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.setting.activity.SettingChatSelectBgFromGalary"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.setting.activity.SettingPrivacyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.setting.activity.SettingImagePreviewActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.setting.activity.SettingNotShareMyMomentsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.setting.activity.SettingHiderOthersMomentsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.setting.activity.SettingFeedbackActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.dial.activity.RFDialLogFriendDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.dial.activity.RFCallLogMultiFreeDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.dial.activity.RFDialLogAddressDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.utils.media.VideoPlayerActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.utils.media.VideoRecorderActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.feinno.rongfly.record.video"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.login.activity.LoginMyPcActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.personal.activity.PersonalActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.personal.activity.PersonalUpdateMoodActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.personal.activity.PersonalUpdateNickActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.personal.activity.PersonalSelectAreaActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.personal.activity.PersonalSelectProvinceCityActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.personal.activity.PersonalUpdateEmailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.personal.activity.PersonalUpdateHobbyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.personal.activity.PersonalMyQRCodeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.personal.activity.PersonalClipImageActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.personal.activity.PersonalImgPreviewActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.personal.activity.PersonalUpdateGenderActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.personal.activity.PersonalUpdateBloodActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.personal.activity.PersonalDatePickerActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C00F1, type 0x01>
+            android:name="com.soundcloud.android.crop.CropImageActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.session.activity.RFLocationActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.feinno.rongfly.location"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+         >
+
+        <activity
+            android:name="com.feinno.rongfly.ui.session.activity.RFLocationSearchActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.session.activity.RFLocatioShowActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.feinno.rongfly.location.show"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.MeFragmentMoreActivity"
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.publicplatform.activity.RFPublicAccountActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C0159, type 0x01>
+            android:name="com.feinno.rongfly.ui.publicplatform.activity.RFPublicAccountReportActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.publicplatform.activity.RFPublicAccountReportDescriptActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.publicplatform.activity.RFPublicReportResultActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C0159, type 0x01>
+            android:name="com.feinno.rongfly.ui.publicplatform.activity.RFPublicAccountDetailActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.publicplatform.activity.RFPublicAccountQueryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.inbox.activity.RFSubscribeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C0159, type 0x01>
+            android:name="com.feinno.rongfly.ui.browser.RFBrowserActivity"
+            android:process=":tools"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.feinno.rongfly.browser"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.vowifi.RFVoWifiVoiceCallActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030007, type 0x01>
+            android:name="com.feinno.rongfly.ui.vowifi.RFVoWifiMultiFreeCallActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.plugin.littlegroup.RFLittleGroupActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.plugin.littlegroup.RFSelectGroup2TeamActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.setting.activity.SettingFeaturesActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.plugin.email.activity.RFMailRemindActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.plugin.email.activity.RFMailDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.plugin.massmsg.activity.RFMassDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.plugin.massmsg.activity.RFMassSendDetailsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.plugin.massmsg.activity.RFMassMemberActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.rongfly.ui.dial.activity.RFMultiCallLogContactsSelectActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <service
+            android:name="com.feinno.rongfly.utils.update.VersionService"
+            >
+        </service>
+        <service
+            android:name="com.feinno.rongfly.core.service.RFServiceFor3th"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.feinno.rongfly.interface"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.feinno.rongfly.core.service.RFPushService"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:process=":push"
+            >
+        </service>
+        <service
+            android:name="com.feinno.rongfly.core.service.RFPushService$RFForegroundInnerService"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:exported=<0x0, type 0x12>
+            android:process=":push"
+            >
+        </service>
+        <service
+            android:name="com.feinno.rongfly.core.service.RFMainService"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+        </service>
+        <service
+            android:name="com.feinno.androidprotocol.KeepAliveService"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:process=":push"
+            >
+        </service>
+        <service
+            android:name="com.feinno.rongfly.core.service.FpsService"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:exported=<0x0, type 0x12>
+            >
+        </service>
+        <service
+            android:name="com.feinno.rongfly.core.service.EmojiService"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:exported=<0x0, type 0x12>
+            android:process=":emojiShop"
+            >
+        </service>
+        <service
+            android:name="com.feinno.rongfly.core.service.RFImageService"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:process=":image"
+            >
+        </service>
+        <receiver
+            android:name="com.feinno.rongfly.core.broadcast.NotifyReceiver"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.feinno.androidprotocol.Notify"
+                    >
+                </action>
+                <action
+                    android:name="com.feinno.androidprotocol.NetChanged"
+                    >
+                </action>
+                <action
+                    android:name="com.feinno.androidprotocol.SDKStatusChanged"
+                    >
+                </action>
+                <action
+                    android:name="com.feinno.androidprotocol.Disconnect"
+                    >
+                </action>
+                <action
+                    android:name="com.feinno.androidprotocol.StartMainProcess"
+                    >
+                </action>
+                <action
+                    android:name="com.feinno.androidprotocol.StartPushProcess"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.feinno.rongfly.core.broadcast.CircleNoticeReceiver"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.feinno.circle.messagenotice"
+                    >
+                </action>
+                <action
+                    android:name="com.feinno.circle.newfeed.noticecount"
+                    >
+                </action>
+                <action
+                    android:name="com.feinno.circle.del.count"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.feinno.rongfly.core.service.KickTimeReceiver"
+            >
+        </receiver>
+        <receiver
+            android:name="com.feinno.rongfly.core.service.RFSystemPhoneReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.PHONE_STATE"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="N8czU0Sp5mQMgW6PdiHKBUD4PpsxLt0U"
+            >
+        </meta-data>
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:process=":remote"
+            >
+        </service>
+        <meta-data
+            android:name="MOBILE_SOURCEID"
+            android:value=<0x3, type 0x10>
+            >
+        </meta-data>
+        <meta-data
+            android:name="MOBILE_CHANNEL"
+            android:value=<0x5, type 0x10>
+            >
+        </meta-data>
+        <service
+            android:name="com.feinno.rongfly.core.service.RFSendMsgServer"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.feinno.debug.sendmsg"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <receiver
+            android:name="com.feinno.rongfly.core.broadcast.ShutDownReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.ACTION_SHUTDOWN"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.feinno.rongfly.ui.vowifi.broadcast.PhoneStateReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.PHONE_STATE"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.NEW_OUTGOING_CALL"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <meta-data
+            android:name="cn.com.fetion.channel"
+            android:value="online"
+            >
+        </meta-data>
+        <meta-data
+            android:name="cn.com.fetion.buildVersion"
+            android:value="v-"7286d21""
+            >
+        </meta-data>
+        <activity
+            android:theme=<0x7F0C000C, type 0x01>
+            android:label=<0x7F090132, type 0x01>
+            android:name="com.android.contacts.activities.PeopleActivity"
+            android:clearTaskOnLaunch=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x1, type 0x10>
+            android:uiOptions=<0x1, type 0x11>
+            >
+            <intent-filter
+                >
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.APP_CONTACTS"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.android.contacts.action.LIST_DEFAULT"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.TAB"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.android.contacts.action.LIST_CONTACTS"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.TAB"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.android.contacts.action.LIST_ALL_CONTACTS"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.TAB"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.android.contacts.action.LIST_CONTACTS_WITH_PHONES"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.TAB"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                android:label=<0x7F09017E, type 0x01>
+                >
+                <action
+                    android:name="com.android.contacts.action.LIST_STARRED"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.TAB"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                android:label=<0x7F0900C1, type 0x01>
+                >
+                <action
+                    android:name="com.android.contacts.action.LIST_FREQUENT"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.TAB"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                android:label=<0x7F090182, type 0x01>
+                >
+                <action
+                    android:name="com.android.contacts.action.LIST_STREQUENT"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.TAB"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.SEARCH"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:mimeType="vnd.android.cursor.dir/contact"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.SEARCH"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.android.contacts.action.FILTER_CONTACTS"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:mimeType="vnd.android.cursor.dir/contact"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:mimeType="vnd.android.cursor.dir/person"
+                    >
+                </data>
+                <data
+                    android:mimeType="vnd.android.cursor.dir/contact"
+                    >
+                </data>
+            </intent-filter>
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource=<0x7F070003, type 0x01>
+                >
+            </meta-data>
+        </activity>
+        <activity
+            android:theme=<0x7F0C0011, type 0x01>
+            android:label=<0x7F090074, type 0x01>
+            android:name="com.android.contacts.activities.ContactSelectionActivity"
+            android:clearTaskOnLaunch=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            android:uiOptions=<0x1, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.INSERT_OR_EDIT"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:mimeType="vnd.android.cursor.item/person"
+                    >
+                </data>
+                <data
+                    android:mimeType="vnd.android.cursor.item/contact"
+                    >
+                </data>
+                <data
+                    android:mimeType="vnd.android.cursor.item/raw_contact"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.PICK"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:mimeType="vnd.android.cursor.dir/contact"
+                    >
+                </data>
+                <data
+                    android:mimeType="vnd.android.cursor.dir/person"
+                    >
+                </data>
+                <data
+                    android:mimeType="vnd.android.cursor.dir/phone_v2"
+                    >
+                </data>
+                <data
+                    android:mimeType="vnd.android.cursor.dir/phone"
+                    >
+                </data>
+                <data
+                    android:mimeType="vnd.android.cursor.dir/postal-address_v2"
+                    >
+                </data>
+                <data
+                    android:mimeType="vnd.android.cursor.dir/postal-address"
+                    >
+                </data>
+                <data
+                    android:mimeType="vnd.android.cursor.dir/email_v2"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.GET_CONTENT"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:mimeType="vnd.android.cursor.item/contact"
+                    >
+                </data>
+                <data
+                    android:mimeType="vnd.android.cursor.item/person"
+                    >
+                </data>
+                <data
+                    android:mimeType="vnd.android.cursor.item/phone_v2"
+                    >
+                </data>
+                <data
+                    android:mimeType="vnd.android.cursor.item/phone"
+                    >
+                </data>
+                <data
+                    android:mimeType="vnd.android.cursor.item/postal-address_v2"
+                    >
+                </data>
+                <data
+                    android:mimeType="vnd.android.cursor.item/postal-address"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity-alias
+            android:name="com.feinno.rongfly.ContactsListActivity"
+            android:targetActivity="com.android.contacts.activities.PeopleActivity"
+            >
+        </activity-alias>
+        <activity-alias
+            android:name="com.feinno.rongfly.activities.ContactsFrontDoor"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:targetActivity="com.android.contacts.activities.PeopleActivity"
+            >
+        </activity-alias>
+        <activity-alias
+            android:name="com.feinno.rongfly.DialtactsContactsEntryActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:targetActivity="com.android.contacts.activities.PeopleActivity"
+            >
+        </activity-alias>
+        <activity
+            android:theme=<0x7F0C0015, type 0x01>
+            android:name="com.android.contacts.activities.JoinContactActivity"
+            android:clearTaskOnLaunch=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.android.contacts.action.JOIN_CONTACT"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0C00E8, type 0x01>
+            android:label=<0x7F090022, type 0x01>
+            android:name="com.android.contacts.preference.ContactsPreferenceActivity"
+            android:exported=<0x0, type 0x12>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C000F, type 0x01>
+            android:label=<0x7F090021, type 0x01>
+            android:name="com.android.contacts.common.list.AccountFilterActivity"
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C000F, type 0x01>
+            android:label=<0x7F09007D, type 0x01>
+            android:name="com.android.contacts.common.list.CustomContactListFilterActivity"
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.android.contacts.activities.ShowOrCreateActivity"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.android.contacts.action.SHOW_OR_CREATE_CONTACT"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:scheme="mailto"
+                    >
+                </data>
+                <data
+                    android:scheme="tel"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0C009B, type 0x01>
+            android:name="com.feinno.rongfly.ui.select.picker.ui.ImageGridActivity"
+            android:process=":image"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x480, type 0x11>
+            android:hardwareAccelerated=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.feinno.rongfly.select.image"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0C009B, type 0x01>
+            android:name="com.feinno.rongfly.ui.select.picker.ui.ImageCropActivity"
+            android:process=":image"
+            android:configChanges=<0x480, type 0x11>
+            android:hardwareAccelerated=<0x0, type 0x12>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C009C, type 0x01>
+            android:name="com.feinno.rongfly.ui.select.picker.ui.ImagePreviewActivity"
+            android:process=":image"
+            android:configChanges=<0x480, type 0x11>
+            android:hardwareAccelerated=<0x0, type 0x12>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C0013, type 0x01>
+            android:label=""
+            android:name="com.android.contacts.activities.GroupDetailActivity"
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C00F6, type 0x01>
+            android:name="com.android.contacts.activities.GroupEditorActivity"
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C0158, type 0x01>
+            android:name="com.android.contacts.quickcontact.QuickContactActivity"
+            android:taskAffinity=""
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x1, type 0x11>
+            android:noHistory=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.android.contacts.action.QUICK_CONTACT"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:mimeType="vnd.android.cursor.item/contact"
+                    >
+                </data>
+                <data
+                    android:mimeType="vnd.android.cursor.item/person"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <receiver
+            android:name="com.android.contacts.quickcontact.QuickContactBroadcastReceiver"
+            android:exported=<0x0, type 0x12>
+            >
+        </receiver>
+        <activity-alias
+            android:label=<0x7F090160, type 0x01>
+            android:icon=<0x7F030005, type 0x01>
+            android:name="com.feinno.rongfly.ContactShortcut"
+            android:targetActivity="com.android.contacts.activities.ContactSelectionActivity"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.CREATE_SHORTCUT"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity-alias>
+        <activity
+            android:theme=<0x7F0C0013, type 0x01>
+            android:label=<0x7F090199, type 0x01>
+            android:name="com.android.contacts.activities.ContactDetailActivity"
+            android:parentActivityName="com.android.contacts.activities.PeopleActivity"
+            >
+            <intent-filter
+                android:label=<0x7F090198, type 0x01>
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:mimeType="vnd.android.cursor.item/person"
+                    >
+                </data>
+                <data
+                    android:mimeType="vnd.android.cursor.item/contact"
+                    >
+                </data>
+                <data
+                    android:mimeType="vnd.android.cursor.item/raw_contact"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0C00DF, type 0x01>
+            android:label=<0x7F090020, type 0x01>
+            android:name="com.android.contacts.activities.ConfirmAddDetailActivity"
+            android:exported=<0x0, type 0x12>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C00E1, type 0x01>
+            android:name="com.android.contacts.activities.ContactEditorAccountsChangedActivity"
+            android:exported=<0x0, type 0x12>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C00F6, type 0x01>
+            android:name="com.android.contacts.activities.ContactEditorActivity"
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+            <intent-filter
+                android:label=<0x7F090099, type 0x01>
+                >
+                <action
+                    android:name="android.intent.action.EDIT"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:mimeType="vnd.android.cursor.item/person"
+                    >
+                </data>
+                <data
+                    android:mimeType="vnd.android.cursor.item/contact"
+                    >
+                </data>
+                <data
+                    android:mimeType="vnd.android.cursor.item/raw_contact"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                android:label=<0x7F0900D8, type 0x01>
+                >
+                <action
+                    android:name="android.intent.action.INSERT"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:mimeType="vnd.android.cursor.dir/person"
+                    >
+                </data>
+                <data
+                    android:mimeType="vnd.android.cursor.dir/contact"
+                    >
+                </data>
+                <data
+                    android:mimeType="vnd.android.cursor.dir/raw_contact"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <service
+            android:name="com.android.contacts.common.util.EmptyService"
+            android:exported=<0x0, type 0x12>
+            >
+        </service>
+        <service
+            android:name="com.android.contacts.ContactSaveService"
+            android:exported=<0x0, type 0x12>
+            >
+        </service>
+        <activity
+            android:label=<0x7F09002E, type 0x01>
+            android:name="com.android.contacts.activities.AttachPhotoActivity"
+            android:taskAffinity=""
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.ATTACH_DATA"
+                    >
+                </action>
+                <data
+                    android:mimeType="image/*"
+                    >
+                </data>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0C0157, type 0x01>
+            android:name="com.android.contacts.activities.PhotoSelectionActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:configChanges=<0x40000FFF, type 0x11>
+            android:windowSoftInputMode=<0x1, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C00AC, type 0x01>
+            android:name="com.android.contacts.common.vcard.ImportVCardActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <data
+                    android:mimeType="text/directory"
+                    >
+                </data>
+                <data
+                    android:mimeType="text/vcard"
+                    >
+                </data>
+                <data
+                    android:mimeType="text/x-vcard"
+                    >
+                </data>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0C00AC, type 0x01>
+            android:name="com.android.contacts.common.vcard.NfcImportVCardActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.nfc.action.NDEF_DISCOVERED"
+                    >
+                </action>
+                <data
+                    android:mimeType="text/vcard"
+                    >
+                </data>
+                <data
+                    android:mimeType="text/x-vcard"
+                    >
+                </data>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0C00AC, type 0x01>
+            android:name="com.android.contacts.common.vcard.CancelActivity"
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C00AC, type 0x01>
+            android:name="com.android.contacts.common.vcard.SelectAccountActivity"
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C00AC, type 0x01>
+            android:name="com.android.contacts.common.vcard.ExportVCardActivity"
+            >
+        </activity>
+        <service
+            android:name="com.android.contacts.common.vcard.VCardService"
+            android:exported=<0x0, type 0x12>
+            >
+        </service>
+        <activity
+            android:name="com.android.contacts.widget.PinnedHeaderListDemoActivity"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0C00FE, type 0x01>
+            android:name="com.android.contacts.NonPhoneActivity"
+            >
+            <intent-filter
+                android:priority=<0xFFFFFFFF, type 0x10>
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                android:priority=<0xFFFFFFFF, type 0x10>
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="tel"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                android:priority=<0xFFFFFFFF, type 0x10>
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:mimeType="vnd.android.cursor.dir/calls"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <service
+            android:name="com.android.contacts.ViewNotificationService"
+            android:permission="android.permission.WRITE_CONTACTS"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.android.contacts.VIEW_NOTIFICATION"
+                    >
+                </action>
+                <data
+                    android:mimeType="vnd.android.cursor.item/contact"
+                    >
+                </data>
+            </intent-filter>
+        </service>
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:exported=<0x0, type 0x12>
+            android:authorities="cn.com.fetioncontacts.files"
+            android:grantUriPermissions=<0xFFFFFFFF, type 0x12>
+            >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource=<0x7F070000, type 0x01>
+                >
+            </meta-data>
+        </provider>
+        <meta-data
+            android:name="android.nfc.disable_beam_default"
+            android:value=<0xFFFFFFFF, type 0x12>
+            >
+        </meta-data>
+        <meta-data
+            android:name="ZHUGE_APPKEY"
+            android:value="500e40c6653d42c2bcc235d56854c867"
+            >
+        </meta-data>
+        <meta-data
+            android:name="ZHUGE_CHANNEL"
+            android:value=<0x3, type 0x10>
+            >
+        </meta-data>
+        <meta-data
+            android:name="cn.cmcc.online.smsapi.API_KEY"
+            android:value="0d1e0db91ae94612b07df59018e7d689"
+            >
+        </meta-data>
+        <activity
+            android:theme=<0x7F0C0143, type 0x01>
+            android:name="cn.cmcc.online.smsapi.ConversationActivity"
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C0143, type 0x01>
+            android:name="cn.cmcc.online.smsapi.MessageActivity"
+            >
+        </activity>
+        <service
+            android:name="cn.cmcc.online.smsapi.CacheService"
+            >
+        </service>
+        <service
+            android:name="cn.cmcc.online.smsapi.DaService"
+            >
+        </service>
+        <service
+            android:name="cn.cmcc.online.smsapi.SmsResponseService"
+            >
+        </service>
+        <service
+            android:name="cn.cmcc.online.smsapi.SmsBackgroundService"
+            >
+        </service>
+        <service
+            android:name="cn.cmcc.online.smsapi.SmsBackgroundService$RealInnerService"
+            >
+        </service>
+        <receiver
+            android:name="cn.cmcc.online.smsapi.AlarmLogReceiver"
+            >
+        </receiver>
+        <receiver
+            android:name="cn.cmcc.online.smsapi.WakeUpReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.USER_PRESENT"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:name="com.example.wangxiangfx.v6sdk.MainActivity"
+            >
+        </activity>
+        <service
+            android:name="com.feinno.rongfly.core.service.CircleInitService"
+            android:process=":circle"
+            >
+        </service>
+        <activity
+            android:name="com.feinno.emojishoph.EmojiShopBrowserActivity"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.feinno.emojishop.activity"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="com.feinno.circle.data.server.loader.module.OkHttpGlideModule"
+            android:value="GlideModule"
+            >
+        </meta-data>
+        <activity
+            android:theme=<0x7F0C004A, type 0x01>
+            android:name="com.feinno.circle.mvp.home.HomeActivity"
+            android:process=":circle"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.feinno.circle.start"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0C004A, type 0x01>
+            android:name="com.feinno.circle.mvp.PhotoMainActivity"
+            android:process=":circle"
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C004A, type 0x01>
+            android:name="com.feinno.circle.mvp.report.BroadcastReportActivity"
+            android:process=":circle"
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C004A, type 0x01>
+            android:name="com.feinno.circle.mvp.notice.MessageNotifyActivity"
+            android:process=":circle"
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C004A, type 0x01>
+            android:name="com.feinno.circle.mvp.sendredpacket.SendRedPacketActivity"
+            android:process=":circle"
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C004A, type 0x01>
+            android:name="com.feinno.circle.mvp.begredpacket.BegRedPacketActivity"
+            android:process=":circle"
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C004A, type 0x01>
+            android:name="com.feinno.circle.mvp.homepersonal.PersonalActivity"
+            android:process=":circle"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.feinno.circle.personalhome"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0C004A, type 0x01>
+            android:name="com.feinno.circle.mvp.releasedynamic.ReleaseDynamicActivity"
+            android:process=":circle"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.feinno.circle.releasedynamic"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0C004A, type 0x01>
+            android:name="com.feinno.circle.mvp.visualrange.VisualRangeActivity"
+            android:process=":circle"
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C004A, type 0x01>
+            android:name="com.feinno.circle.mvp.detail.DetailActivity"
+            android:process=":circle"
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C004A, type 0x01>
+            android:name="com.feinno.circle.mvp.redbagdetail.RedbagDetailActivity"
+            android:process=":circle"
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C015F, type 0x01>
+            android:name="com.feinno.circle.mvp.GrabRedPacketActivity"
+            android:process=":circle"
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C015F, type 0x01>
+            android:name="com.feinno.circle.mvp.GiveRedPacketActivity"
+            android:process=":circle"
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.circle.mvp.lunch.StartActivity"
+            android:process=":circle"
+            >
+        </activity>
+        <receiver
+            android:name="com.feinno.circle.receiver.SdkInitBroadcastReceiver"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:process=":circle"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.feinno.circle.sdkinit"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.feinno.circle.receiver.MessageReceiver"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:process=":circle"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.feinno.rongfly.core.service.action.CIRCLE_MESSAGE"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.feinno.circle.receiver.UserInfoReceiver"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:process=":circle"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.feinno.rongfly.core.service.action.USER_INFO_FOR3TH"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.feinno.circle.receiver.CreateLaberReceiver"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:process=":circle"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.feinno.rongfly.createlabel"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.feinno.circle.receiver.EditLabelReceiver"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:process=":circle"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.feinno.rongfly.editlabel"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:theme=<0x7F0C004A, type 0x01>
+            android:name="com.feinno.circle.mvp.VideoPlayerActivity"
+            android:process=":circle"
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C004A, type 0x01>
+            android:name="com.feinno.circle.mvp.whome.WHomeActivity"
+            android:process=":circle"
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.redpaper.ui.Activity4MainEntranceX"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.rcs.StartRedPaperX"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.feinno.redpaper.ui.Activity4GetMoreRedInfo"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.redpaper.ui.Activity4PaperDetail"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.redpaper.ui.Activity4Recharge"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.redpaper.ui.self.Activity4SendRedPacket4PerX"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.redpaper.ui.self.Activity4SendRedPacket4GroupX"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.feinno.redpaper.ui.Activity4ReceiveResult4Group"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <receiver
+            android:name="com.feinno.redpaper.utils.UserInfoReceiver"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.feinno.rongfly.core.service.action.USER_INFO_FOR3TH"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>
