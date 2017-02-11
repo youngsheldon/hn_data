@@ -1,0 +1,31 @@
+--2017-02-11 10:53:04--  http://lgwqt.com/oop
+Resolving lgwqt.com... 103.215.82.77
+Connecting to lgwqt.com|103.215.82.77|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://lgwqt.com/oop/ [following]
+--2017-02-11 10:53:07--  http://lgwqt.com/oop/
+Reusing existing connection to lgwqt.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 247 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 13.1M=0s
+
+2017-02-11 10:53:08 (13.1 MB/s) - `index.html' saved [247/247]
+
+=======================The second times wget =====================
+--2017-02-11 10:53:08--  http://lgwqt.com/oop/%CF%E0%B2%E13.apk
+Resolving lgwqt.com... 103.215.82.77
+Connecting to lgwqt.com|103.215.82.77|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 209777 (205K) [application/vnd.android.package-archive]
+Saving to: `ПаІб3.apk'
+
+     0K .......... .......... .......... .......... .......... 24% 12.6K 12s
+    50K .......... .......... .......... .......... .......... 48% 40.1K 5s
+   100K .......... .......... .......... .......... .......... 73%  128K 2s
+   150K .......... .......... .......... .......... .......... 97% 26.3K 0s
+   200K ....                                                  100% 9.49M=7.5s
+
+2017-02-11 10:53:21 (27.3 KB/s) - `ПаІб3.apk' saved [209777/209777]
+

@@ -1,0 +1,30 @@
+--2017-02-10 21:46:05--  http://tsite.info/mlg
+Resolving tsite.info... 43.230.114.83
+Connecting to tsite.info|43.230.114.83|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://tsite.info/mlg/ [following]
+--2017-02-10 21:46:07--  http://tsite.info/mlg/
+Reusing existing connection to tsite.info:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 340 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 18.0M=0s
+
+2017-02-10 21:46:07 (18.0 MB/s) - `index.html' saved [340/340]
+
+=======================The second times wget =====================
+--2017-02-10 21:46:07--  http://tsite.info/mlg/%C2%BC%CF%F1.apk
+Resolving tsite.info... 43.230.114.83
+Connecting to tsite.info|43.230.114.83|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 201056 (196K) [application/vnd.android.package-archive]
+Saving to: `Â¼Ïñ.apk'
+
+     0K .......... .......... .......... .......... .......... 25% 15.4K 10s
+    50K .......... .......... .......... .......... .......... 50% 23.9K 5s
+   100K .......... .......... .......... .......... .......... 76% 15.2K 3s
+   150K .......... .......... .......... .......... ......    100% 13.9K=12s
+
+2017-02-10 21:46:26 (16.4 KB/s) - `Â¼Ïñ.apk' saved [201056/201056]
+
