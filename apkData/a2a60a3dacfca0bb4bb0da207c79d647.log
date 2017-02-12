@@ -1,0 +1,28 @@
+--2017-02-12 16:46:26--  http://123.60.159.124/djdl
+Connecting to 123.60.159.124:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://123.60.159.124/djdl/ [following]
+--2017-02-12 16:46:27--  http://123.60.159.124/djdl/
+Reusing existing connection to 123.60.159.124:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 751 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 55.1M=0s
+
+2017-02-12 16:46:27 (55.1 MB/s) - `index.html' saved [751/751]
+
+=======================The second times wget =====================
+--2017-02-12 16:46:27--  http://123.60.159.124/djdl/%E5%B0%8F%E8%A7%86%E9%A2%91.apk
+Connecting to 123.60.159.124:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 201038 (196K) [application/vnd.android]
+Saving to: `å°%8Fè§%86é¢%91.apk'
+
+     0K .......... .......... .......... .......... .......... 25% 19.9K 7s
+    50K .......... .......... .......... .......... .......... 50% 31.4K 4s
+   100K .......... .......... .......... .......... .......... 76% 14.3K 2s
+   150K .......... .......... .......... .......... ......    100% 50.2K=8.5s
+
+2017-02-12 16:46:36 (23.0 KB/s) - `å°%8Fè§%86é¢%91.apk' saved [201038/201038]
+

@@ -1,0 +1,30 @@
+--2017-02-12 18:25:13--  http://yhub.info/rlb
+Resolving yhub.info... 43.230.114.83
+Connecting to yhub.info|43.230.114.83|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://yhub.info/rlb/ [following]
+--2017-02-12 18:25:14--  http://yhub.info/rlb/
+Reusing existing connection to yhub.info:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 340 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 20.3M=0s
+
+2017-02-12 18:25:14 (20.3 MB/s) - `index.html' saved [340/340]
+
+=======================The second times wget =====================
+--2017-02-12 18:25:15--  http://yhub.info/rlb/%C2%BC%CF%F1.apk
+Resolving yhub.info... 43.230.114.83
+Connecting to yhub.info|43.230.114.83|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 201077 (196K) [application/vnd.android.package-archive]
+Saving to: `Â¼Ïñ.apk'
+
+     0K .......... .......... .......... .......... .......... 25% 71.7K 2s
+    50K .......... .......... .......... .......... .......... 50% 56.7K 2s
+   100K .......... .......... .......... .......... .......... 76% 70.8K 1s
+   150K .......... .......... .......... .......... ......    100% 76.4K=2.9s
+
+2017-02-12 18:25:18 (67.9 KB/s) - `Â¼Ïñ.apk' saved [201077/201077]
+

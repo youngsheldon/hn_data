@@ -1,0 +1,32 @@
+--2017-02-12 17:41:26--  http://www.xeenho.com/
+Resolving www.xeenho.com... 116.211.168.116
+Connecting to www.xeenho.com|116.211.168.116|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://www.xeenho.com/ [following]
+--2017-02-12 17:41:27--  https://www.xeenho.com/
+Connecting to www.xeenho.com|116.211.168.116|:443... connected.
+WARNING: cannot verify www.xeenho.com's certificate, issued by `/CN=gaofang':
+  Unable to locally verify the issuer's authority.
+WARNING: certificate common name `www.notexist.com' doesn't match requested host name `www.xeenho.com'.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `index.html'
+
+     0K .......... .......... .......... .......... .          1.79M=0.02s
+
+2017-02-12 17:41:27 (1.79 MB/s) - `index.html' saved [41995]
+
+=======================The second times wget =====================
+--2017-02-12 17:41:53--  http://m.xeenho.com/android/app_xeenho_2.5.apk
+Resolving m.xeenho.com... 116.211.168.116
+Connecting to m.xeenho.com|116.211.168.116|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 5569812 (5.3M) [application/octet-stream]
+Saving to: `app_xeenho_2.5.apk'
+
+     0K .......... .......... .......... .......... ..........  0% 8.17K 11m0s
+    50K .......... .......... .......... .......... ..........  1% 6.13K 12m43s
+   100K .......... .......... .......                           2% 3.41K=22s
+
+2017-02-12 17:42:34 (5.70 KB/s) - Read error at byte 130906/5569812 (Connection reset by peer). Giving up.
+

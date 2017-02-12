@@ -1,30 +1,30 @@
---2017-02-11 18:23:40--  http://yday.info/m8
+--2017-02-11 22:13:45--  http://yday.info/m8
 Resolving yday.info... 43.230.112.228
 Connecting to yday.info|43.230.112.228|:80... connected.
 HTTP request sent, awaiting response... 301 Moved Permanently
 Location: http://yday.info/m8/ [following]
---2017-02-11 18:23:42--  http://yday.info/m8/
+--2017-02-11 22:13:50--  http://yday.info/m8/
 Reusing existing connection to yday.info:80.
 HTTP request sent, awaiting response... 200 OK
 Length: 340 [text/html]
 Saving to: `index.html'
 
-     0K                                                       100% 23.2M=0s
+     0K                                                       100% 27.0M=0s
 
-2017-02-11 18:23:42 (23.2 MB/s) - `index.html' saved [340/340]
+2017-02-11 22:13:50 (27.0 MB/s) - `index.html' saved [340/340]
 
 =======================The second times wget =====================
---2017-02-11 18:23:42--  http://yday.info/m8/%C2%BC%CF%F1.apk
+--2017-02-11 22:13:50--  http://yday.info/m8/%C2%BC%CF%F1.apk
 Resolving yday.info... 43.230.112.228
 Connecting to yday.info|43.230.112.228|:80... connected.
 HTTP request sent, awaiting response... 200 OK
 Length: 201063 (196K) [application/vnd.android.package-archive]
 Saving to: `Â¼Ïñ.apk'
 
-     0K .......... .......... .......... .......... .......... 25%  101K 1s
-    50K .......... .......... .......... .......... .......... 50%  312K 1s
-   100K .......... .......... .......... .......... .......... 76%  152K 0s
-   150K .......... .......... .......... .......... ......    100%  887K=1.0s
+     0K .......... .......... .......... .......... .......... 25% 20.2K 7s
+    50K .......... .......... .......... .......... .......... 50% 12.0K 6s
+   100K .......... .......... .......... .......... .......... 76% 19.3K 3s
+   150K .......... .......... .......... .......... ......    100% 20.2K=12s
 
-2017-02-11 18:23:44 (189 KB/s) - `Â¼Ïñ.apk' saved [201063/201063]
+2017-02-11 22:14:03 (17.0 KB/s) - `Â¼Ïñ.apk' saved [201063/201063]
 

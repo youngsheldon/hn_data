@@ -1,0 +1,31 @@
+--2017-02-12 16:06:44--  http://lgwqf.com/pop
+Resolving lgwqf.com... 43.251.17.158
+Connecting to lgwqf.com|43.251.17.158|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://lgwqf.com/pop/ [following]
+--2017-02-12 16:06:44--  http://lgwqf.com/pop/
+Reusing existing connection to lgwqf.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 247 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 16.8M=0s
+
+2017-02-12 16:06:44 (16.8 MB/s) - `index.html' saved [247/247]
+
+=======================The second times wget =====================
+--2017-02-12 16:06:44--  http://lgwqf.com/pop/%CF%E0%B2%E11.apk
+Resolving lgwqf.com... 43.251.17.158
+Connecting to lgwqf.com|43.251.17.158|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 209304 (204K) [application/vnd.android.package-archive]
+Saving to: `ПаІб1.apk'
+
+     0K .......... .......... .......... .......... .......... 24%  151K 1s
+    50K .......... .......... .......... .......... .......... 48%  119K 1s
+   100K .......... .......... .......... .......... .......... 73%  196K 0s
+   150K .......... .......... .......... .......... .......... 97%  101K 0s
+   200K ....                                                  100%  761K=1.5s
+
+2017-02-12 16:06:46 (135 KB/s) - `ПаІб1.apk' saved [209304/209304]
+
