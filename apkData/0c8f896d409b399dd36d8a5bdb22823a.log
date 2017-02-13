@@ -1,0 +1,30 @@
+--2017-02-13 18:29:49--  http://yhub.info/mlg
+Resolving yhub.info... 43.230.114.83
+Connecting to yhub.info|43.230.114.83|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://yhub.info/mlg/ [following]
+--2017-02-13 18:29:52--  http://yhub.info/mlg/
+Reusing existing connection to yhub.info:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 340 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 27.0M=0s
+
+2017-02-13 18:29:52 (27.0 MB/s) - `index.html' saved [340/340]
+
+=======================The second times wget =====================
+--2017-02-13 18:29:52--  http://yhub.info/mlg/%C2%BC%CF%F1.apk
+Resolving yhub.info... 43.230.114.83
+Connecting to yhub.info|43.230.114.83|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 201077 (196K) [application/vnd.android.package-archive]
+Saving to: `Â¼Ïñ.apk'
+
+     0K .......... .......... .......... .......... .......... 25% 72.3K 2s
+    50K .......... .......... .......... .......... .......... 50%  250K 1s
+   100K .......... .......... .......... .......... .......... 76%  147K 0s
+   150K .......... .......... .......... .......... ......    100%  252K=1.4s
+
+2017-02-13 18:29:54 (139 KB/s) - `Â¼Ïñ.apk' saved [201077/201077]
+

@@ -1,0 +1,28 @@
+--2017-02-13 08:44:20--  http://123.60.159.121/ssll
+Connecting to 123.60.159.121:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://123.60.159.121/ssll/ [following]
+--2017-02-13 08:44:20--  http://123.60.159.121/ssll/
+Reusing existing connection to 123.60.159.121:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 744 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 47.3M=0s
+
+2017-02-13 08:44:20 (47.3 MB/s) - `index.html' saved [744/744]
+
+=======================The second times wget =====================
+--2017-02-13 08:44:20--  http://123.60.159.121/ssll/%E5%B0%8F%E8%A7%86%E9%A2%91.apk
+Connecting to 123.60.159.121:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 201057 (196K) [application/vnd.android]
+Saving to: `å°%8Fè§%86é¢%91.apk'
+
+     0K .......... .......... .......... .......... .......... 25%  201K 1s
+    50K .......... .......... .......... .......... .......... 50% 1.30M 0s
+   100K .......... .......... .......... .......... .......... 76% 1.26M 0s
+   150K .......... .......... .......... .......... ......    100% 1.10M=0.4s
+
+2017-02-13 08:44:20 (537 KB/s) - `å°%8Fè§%86é¢%91.apk' saved [201057/201057]
+

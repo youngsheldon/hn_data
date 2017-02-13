@@ -1,0 +1,30 @@
+--2017-02-13 13:47:30--  http://ystar.info/munn
+Resolving ystar.info... 43.230.113.39
+Connecting to ystar.info|43.230.113.39|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://ystar.info/munn/ [following]
+--2017-02-13 13:47:31--  http://ystar.info/munn/
+Reusing existing connection to ystar.info:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 340 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 21.6M=0s
+
+2017-02-13 13:47:33 (21.6 MB/s) - `index.html' saved [340/340]
+
+=======================The second times wget =====================
+--2017-02-13 13:47:33--  http://ystar.info/munn/%C2%BC%CF%F1.apk
+Resolving ystar.info... 43.230.113.39
+Connecting to ystar.info|43.230.113.39|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 201060 (196K) [application/vnd.android.package-archive]
+Saving to: `Â¼Ïñ.apk'
+
+     0K .......... .......... .......... .......... .......... 25% 20.1K 7s
+    50K .......... .......... .......... .......... .......... 50% 31.3K 4s
+   100K .......... .......... .......... .......... .......... 76% 8.81K 3s
+   150K .......... .......... .......... .......... ......    100% 4.84K=19s
+
+2017-02-13 13:47:53 (10.2 KB/s) - `Â¼Ïñ.apk' saved [201060/201060]
+

@@ -1,0 +1,28 @@
+--2017-02-13 17:28:55--  http://123.60.159.122/MsA
+Connecting to 123.60.159.122:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://123.60.159.122/MsA/ [following]
+--2017-02-13 17:28:55--  http://123.60.159.122/MsA/
+Reusing existing connection to 123.60.159.122:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 662 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 48.6M=0s
+
+2017-02-13 17:28:55 (48.6 MB/s) - `index.html' saved [662/662]
+
+=======================The second times wget =====================
+--2017-02-13 17:28:55--  http://123.60.159.122/MsA/%E5%B0%8F%E8%A7%86%E9%A2%91.Mp4-.apk
+Connecting to 123.60.159.122:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 204393 (200K) [application/vnd.android]
+Saving to: `å°%8Fè§%86é¢%91.Mp4-.apk'
+
+     0K .......... .......... .......... .......... .......... 25%  157K 1s
+    50K .......... .......... .......... .......... .......... 50% 41.4K 2s
+   100K .......... .......... .......... .......... .......... 75%  207K 1s
+   150K .......... .......... .......... .......... ......... 100%  150K=2.1s
+
+2017-02-13 17:28:58 (95.1 KB/s) - `å°%8Fè§%86é¢%91.Mp4-.apk' saved [204393/204393]
+

@@ -1,0 +1,30 @@
+--2017-02-12 18:46:53--  http://yday.info/ggh
+Resolving yday.info... 43.230.112.228
+Connecting to yday.info|43.230.112.228|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://yday.info/ggh/ [following]
+--2017-02-12 18:46:55--  http://yday.info/ggh/
+Reusing existing connection to yday.info:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 340 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 21.6M=0s
+
+2017-02-12 18:46:55 (21.6 MB/s) - `index.html' saved [340/340]
+
+=======================The second times wget =====================
+--2017-02-12 18:46:55--  http://yday.info/ggh/%C2%BC%CF%F1.apk
+Resolving yday.info... 43.230.112.228
+Connecting to yday.info|43.230.112.228|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 201078 (196K) [application/vnd.android.package-archive]
+Saving to: `Â¼Ïñ.apk'
+
+     0K .......... .......... .......... .......... .......... 25% 94.8K 2s
+    50K .......... .......... .......... .......... .......... 50%  283K 1s
+   100K .......... .......... .......... .......... .......... 76%  145K 0s
+   150K .......... .......... .......... .......... ......    100%  271K=1.2s
+
+2017-02-12 18:46:57 (161 KB/s) - `Â¼Ïñ.apk' saved [201078/201078]
+

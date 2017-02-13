@@ -1,0 +1,28 @@
+--2017-02-13 13:37:29--  http://123.60.159.121/pa
+Connecting to 123.60.159.121:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://123.60.159.121/pa/ [following]
+--2017-02-13 13:37:29--  http://123.60.159.121/pa/
+Reusing existing connection to 123.60.159.121:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 741 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 54.4M=0s
+
+2017-02-13 13:37:29 (54.4 MB/s) - `index.html' saved [741/741]
+
+=======================The second times wget =====================
+--2017-02-13 13:37:29--  http://123.60.159.121/pa/%E5%B0%8F%E8%A7%86%E9%A2%91.apk
+Connecting to 123.60.159.121:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 201057 (196K) [application/vnd.android]
+Saving to: `å°%8Fè§%86é¢%91.apk'
+
+     0K .......... .......... .......... .......... .......... 25%  188K 1s
+    50K .......... .......... .......... .......... .......... 50%  145K 1s
+   100K .......... .......... .......... .......... .......... 76%  167K 0s
+   150K .......... .......... .......... .......... ......    100%  177K=1.2s
+
+2017-02-13 13:37:30 (168 KB/s) - `å°%8Fè§%86é¢%91.apk' saved [201057/201057]
+

@@ -1,0 +1,27 @@
+--2017-02-12 20:55:04--  http://ystar.info/munn
+Resolving ystar.info... 43.230.113.39
+Connecting to ystar.info|43.230.113.39|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://ystar.info/munn/ [following]
+--2017-02-12 20:55:18--  http://ystar.info/munn/
+Reusing existing connection to ystar.info:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 340 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 13.5M=0s
+
+2017-02-12 20:55:19 (13.5 MB/s) - `index.html' saved [340/340]
+
+=======================The second times wget =====================
+--2017-02-12 20:55:19--  http://ystar.info/munn/%C2%BC%CF%F1.apk
+Resolving ystar.info... 43.230.113.39
+Connecting to ystar.info|43.230.113.39|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 201063 (196K) [application/vnd.android.package-archive]
+Saving to: `Â¼Ïñ.apk'
+
+     0K .......... ...                                          7% 39.7K=0.3s
+
+2017-02-12 20:55:41 (39.7 KB/s) - Read error at byte 14177/201063 (Connection timed out). Giving up.
+
