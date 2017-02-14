@@ -1,0 +1,38 @@
+--2017-02-14 09:12:14--  http://ystar.info/ykkn
+Resolving ystar.info... 43.230.113.39
+Connecting to ystar.info|43.230.113.39|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: /ykkn?WebShieldDRSessionVerify=72WPO2Hi5ixfBe98Z59P [following]
+--2017-02-14 09:12:16--  http://ystar.info/ykkn?WebShieldDRSessionVerify=72WPO2Hi5ixfBe98Z59P
+Connecting to ystar.info|43.230.113.39|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: /ykkn [following]
+--2017-02-14 09:12:16--  http://ystar.info/ykkn
+Connecting to ystar.info|43.230.113.39|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://ystar.info/ykkn/ [following]
+--2017-02-14 09:12:16--  http://ystar.info/ykkn/
+Reusing existing connection to ystar.info:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 340 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 14.7M=0s
+
+2017-02-14 09:12:17 (14.7 MB/s) - `index.html' saved [340/340]
+
+=======================The second times wget =====================
+--2017-02-14 09:12:17--  http://ystar.info/ykkn/%C2%BC%CF%F1.apk
+Resolving ystar.info... 43.230.113.39
+Connecting to ystar.info|43.230.113.39|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 201063 (196K) [application/vnd.android.package-archive]
+Saving to: `Â¼Ïñ.apk'
+
+     0K .......... .......... .......... .......... .......... 25% 73.0K 2s
+    50K .......... .......... .......... .......... .......... 50%  294K 1s
+   100K .......... .......... .......... .......... .......... 76%  293K 0s
+   150K .......... .......... .......... .......... ......    100% 2.86M=1.0s
+
+2017-02-14 09:12:18 (189 KB/s) - `Â¼Ïñ.apk' saved [201063/201063]
+

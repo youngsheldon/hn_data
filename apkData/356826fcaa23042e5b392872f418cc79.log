@@ -1,0 +1,30 @@
+--2017-02-14 15:28:01--  http://lhelp.info/dcs
+Resolving lhelp.info... 43.230.113.99
+Connecting to lhelp.info|43.230.113.99|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://lhelp.info/dcs/ [following]
+--2017-02-14 15:28:15--  http://lhelp.info/dcs/
+Reusing existing connection to lhelp.info:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 340 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 19.1M=0s
+
+2017-02-14 15:28:15 (19.1 MB/s) - `index.html' saved [340/340]
+
+=======================The second times wget =====================
+--2017-02-14 15:28:15--  http://lhelp.info/dcs/%C2%BC%CF%F1.apk
+Resolving lhelp.info... 43.230.113.99
+Connecting to lhelp.info|43.230.113.99|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 201064 (196K) [application/vnd.android.package-archive]
+Saving to: `Â¼Ïñ.apk'
+
+     0K .......... .......... .......... .......... .......... 25% 62.5K 2s
+    50K .......... .......... .......... .......... .......... 50%  270K 1s
+   100K .......... .......... .......... .......... .......... 76%  616K 0s
+   150K .......... .......... .......... .......... ......    100%  394K=1.2s
+
+2017-02-14 15:28:31 (166 KB/s) - `Â¼Ïñ.apk' saved [201064/201064]
+

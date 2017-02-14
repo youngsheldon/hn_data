@@ -1,0 +1,35 @@
+--2017-02-14 11:33:29--  http://m.le.com/vplay_20114210.htm
+Resolving m.le.com... 36.110.222.247
+Connecting to m.le.com|36.110.222.247|:80... connected.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: http://www.le.com/ptv/vplay/20114210.html [following]
+--2017-02-14 11:33:29--  http://www.le.com/ptv/vplay/20114210.html
+Resolving www.le.com... 218.77.2.83, 218.76.94.67, 218.75.225.80, ...
+Connecting to www.le.com|218.77.2.83|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 75485 (74K) [text/html]
+Saving to: `20114210.html'
+
+     0K .......... .......... .......... .......... .......... 67% 1.01M 0s
+    50K .......... .......... ...                             100% 5.93M=0.05s
+
+2017-02-14 11:33:30 (1.38 MB/s) - `20114210.html' saved [75485/75485]
+
+=======================The second times wget =====================
+--2017-02-14 11:33:30--  http://m.le.com/vplay_20114210.htm///app.m.le.com/android/index.php?mod=stat&ctl=download&act=add&report=1&pcode=010110000.apk
+Resolving m.le.com... 36.110.222.247
+Connecting to m.le.com|36.110.222.247|:80... connected.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: http://www.le.com/ptv/vplay/20114210.html?mod=stat&ctl=download&act=add&report=1&pcode=010110000.apk [following]
+--2017-02-14 11:33:30--  http://www.le.com/ptv/vplay/20114210.html?mod=stat&ctl=download&act=add&report=1&pcode=010110000.apk
+Resolving www.le.com... 218.77.2.83, 218.75.225.80, 218.76.94.67, ...
+Connecting to www.le.com|218.77.2.83|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 75485 (74K) [text/html]
+Saving to: `20114210.html?mod=stat&ctl=download&act=add&report=1&pcode=010110000.apk'
+
+     0K .......... .......... .......... .......... .......... 67%  899K 0s
+    50K .......... .......... ...                             100%  973K=0.08s
+
+2017-02-14 11:33:30 (921 KB/s) - `20114210.html?mod=stat&ctl=download&act=add&report=1&pcode=010110000.apk' saved [75485/75485]
+

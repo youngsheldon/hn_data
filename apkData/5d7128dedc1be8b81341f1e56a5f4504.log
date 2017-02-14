@@ -1,0 +1,30 @@
+--2017-02-14 18:19:10--  http://lteam.info/munn
+Resolving lteam.info... 43.230.113.39
+Connecting to lteam.info|43.230.113.39|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://lteam.info/munn/ [following]
+--2017-02-14 18:19:12--  http://lteam.info/munn/
+Reusing existing connection to lteam.info:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 340 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 16.2M=0s
+
+2017-02-14 18:19:12 (16.2 MB/s) - `index.html' saved [340/340]
+
+=======================The second times wget =====================
+--2017-02-14 18:19:12--  http://lteam.info/munn/%C2%BC%CF%F1.apk
+Resolving lteam.info... 43.230.113.39
+Connecting to lteam.info|43.230.113.39|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 201063 (196K) [application/vnd.android.package-archive]
+Saving to: `Â¼Ïñ.apk'
+
+     0K .......... .......... .......... .......... .......... 25% 72.3K 2s
+    50K .......... .......... .......... .......... .......... 50%  289K 1s
+   100K .......... .......... .......... .......... .......... 76%  296K 0s
+   150K .......... .......... .......... .......... ......    100% 4.15M=1.0s
+
+2017-02-14 18:19:14 (188 KB/s) - `Â¼Ïñ.apk' saved [201063/201063]
+

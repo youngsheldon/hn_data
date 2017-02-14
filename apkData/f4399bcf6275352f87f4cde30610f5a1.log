@@ -1,0 +1,30 @@
+--2017-02-14 09:26:19--  http://lday.info/ggh
+Resolving lday.info... 43.230.112.228
+Connecting to lday.info|43.230.112.228|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://lday.info/ggh/ [following]
+--2017-02-14 09:26:21--  http://lday.info/ggh/
+Reusing existing connection to lday.info:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 340 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 24.9M=0s
+
+2017-02-14 09:26:21 (24.9 MB/s) - `index.html' saved [340/340]
+
+=======================The second times wget =====================
+--2017-02-14 09:26:21--  http://lday.info/ggh/%C2%BC%CF%F1.apk
+Resolving lday.info... 43.230.112.228
+Connecting to lday.info|43.230.112.228|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 201079 (196K) [application/vnd.android.package-archive]
+Saving to: `Â¼Ïñ.apk'
+
+     0K .......... .......... .......... .......... .......... 25%  103K 1s
+    50K .......... .......... .......... .......... .......... 50%  306K 1s
+   100K .......... .......... .......... .......... .......... 76%  320K 0s
+   150K .......... .......... .......... .......... ......    100%  304K=1.0s
+
+2017-02-14 09:26:22 (205 KB/s) - `Â¼Ïñ.apk' saved [201079/201079]
+

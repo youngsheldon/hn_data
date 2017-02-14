@@ -1,0 +1,1622 @@
+<manifest
+    android:versionCode=<0x12C2, type 0x10>
+    android:versionName="4.8.0.2"
+    package="com.sogou.activity.src"
+    >
+    <uses-sdk
+        android:minSdkVersion=<0xA, type 0x10>
+        android:targetSdkVersion=<0x14, type 0x10>
+        >
+    </uses-sdk>
+    <permission
+        android:name="com.sogou.activity.src.permission.MMOAUTH_CALLBACK"
+        android:protectionLevel=<0x0, type 0x11>
+        >
+    </permission>
+    <permission
+        android:name="com.sogou.activity.src.permission.MM_MESSAGE"
+        android:protectionLevel=<0x0, type 0x11>
+        >
+    </permission>
+    <uses-permission
+        android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.SET_WALLPAPER"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_CONTACTS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.GET_TASKS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.KILL_BACKGROUND_PROCESSES"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECORD_AUDIO"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WAKE_LOCK"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.GET_ACCOUNTS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_BOOT_COMPLETED"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_LOGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.VIBRATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CAMERA"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.FLASHLIGHT"
+        >
+    </uses-permission>
+    <uses-feature
+        android:name="android.hardware.camera"
+        >
+    </uses-feature>
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        >
+    </uses-feature>
+    <uses-permission
+        android:name="com.android.launcher.permission.INSTALL_SHORTCUT"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.launcher.permission.READ_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.launcher.permission.WRITE_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.sogou.activity.src.permission.MMOAUTH_CALLBACK"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.sogou.activity.src.permission.MM_MESSAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.MODIFY_AUDIO_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.PROCESS_OUTGOING_CALLS"
+        >
+    </uses-permission>
+    <permission
+        android:name="com.sogou.activity.src.permission.MIPUSH_RECEIVE"
+        android:protectionLevel=<0x2, type 0x11>
+        >
+    </permission>
+    <uses-permission
+        android:name="com.sogou.activity.src.permission.MIPUSH_RECEIVE"
+        >
+    </uses-permission>
+    <supports-screens
+        android:anyDensity=<0xFFFFFFFF, type 0x12>
+        android:normalScreens=<0xFFFFFFFF, type 0x12>
+        android:largeScreens=<0xFFFFFFFF, type 0x12>
+        >
+    </supports-screens>
+    <application
+        android:label=<0x7F070000, type 0x01>
+        android:icon=<0x7F02002D, type 0x01>
+        android:name="com.sogou.app.SogouApplication"
+        android:allowBackup=<0x0, type 0x12>
+        android:hardwareAccelerated=<0xFFFFFFFF, type 0x12>
+        android:largeHeap=<0xFFFFFFFF, type 0x12>
+        >
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="1134"
+            >
+        </meta-data>
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="54af8cf0fd98c54c19000b45"
+            >
+        </meta-data>
+        <meta-data
+            android:name="DOWNLOAD_ID"
+            android:value="debug"
+            >
+        </meta-data>
+        <meta-data
+            android:name="sg_passport_sdk_version"
+            android:value=<0x3FB33333, type 0x04>
+            >
+        </meta-data>
+        <activity
+            android:theme=<0x7F0A0013, type 0x01>
+            android:name="com.sogou.search.entry.IntroductionActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A001A, type 0x01>
+            android:name="com.sogou.activity.src.StartPageActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A001A, type 0x01>
+            android:name="com.sogou.activity.src.NewUserAnimGuideActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0017, type 0x01>
+            android:name="com.sogou.activity.src.SplashActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.LAUNCHER"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0A0016, type 0x01>
+            android:name="com.sogou.weixintopic.read.WeixinHeadlineReadFirstActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="sogousearch"
+                    android:host="topicpage"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0A0016, type 0x01>
+            android:name="com.sogou.weixintopic.read.WeixinHeadlineReadSecondActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0016, type 0x01>
+            android:name="com.sogou.weixintopic.sub.SubDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0013, type 0x01>
+            android:label=<0x7F070000, type 0x01>
+            android:name="com.sogou.search.entry.EntryActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:alwaysRetainTaskState=<0xFFFFFFFF, type 0x12>
+            android:hardwareAccelerated=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="sogousearch"
+                    android:host="entry"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="sogousearch"
+                    android:host="addcard"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="sogousearch"
+                    android:host="novel"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0A0017, type 0x01>
+            android:name="com.sogou.activity.src.EntryActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0A0013, type 0x01>
+            android:label=<0x7F070000, type 0x01>
+            android:name="com.sogou.search.result.SogouSearchActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:alwaysRetainTaskState=<0xFFFFFFFF, type 0x12>
+            android:windowSoftInputMode=<0x24, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.appwidget.action.APPWIDGET_CONFIGURE"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="http"
+                    >
+                </data>
+                <data
+                    android:scheme="https"
+                    >
+                </data>
+                <data
+                    android:scheme="sogousearch"
+                    android:host="extension4result"
+                    >
+                </data>
+                <data
+                    android:scheme="sogousearch"
+                    android:host="fastdownload"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.search.action.GLOBAL_SEARCH"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0A0017, type 0x01>
+            android:name="com.sogou.activity.src.SogouSearchActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity-alias
+            android:label=<0x7F0700A9, type 0x01>
+            android:name="com.sogou.activity.src.SogouBrowser"
+            android:targetActivity="com.sogou.search.result.SogouSearchActivity"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="https"
+                    >
+                </data>
+                <data
+                    android:scheme="http"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.WEB_SEARCH"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+            </intent-filter>
+        </activity-alias>
+        <activity
+            android:theme=<0x7F0A0013, type 0x01>
+            android:name="com.sogou.weixintopic.read.ImageDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0013, type 0x01>
+            android:name="com.sogou.search.card.CardManagerActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0013, type 0x01>
+            android:name="com.sogou.search.profile.PreferencesActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0013, type 0x01>
+            android:name="com.sogou.search.profile.DisclaimerActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0013, type 0x01>
+            android:name="com.sogou.search.result.SuggestionActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x24, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="sogousearch"
+                    android:host="suggestion"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0A0013, type 0x01>
+            android:name="com.sogou.search.profile.PreferencesLocalActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0013, type 0x01>
+            android:name="com.sogou.base.view.swipeback.SwipeBackActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0013, type 0x01>
+            android:name="com.sogou.search.profile.PreferencesPrivateActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0035, type 0x01>
+            android:name="com.sogou.search.bookmark.BookmarkEditActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0035, type 0x01>
+            android:name="com.sogou.download.DownloadDialogActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x15, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.sogou.search.bookmark.HistoryListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.sogou.search.bookmark.BookmarkListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A001C, type 0x01>
+            android:name="com.sogou.search.bookmark.BookmarkHistoryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A001C, type 0x01>
+            android:label=<0x7F070207, type 0x01>
+            android:name="com.sogou.download.DownloadedImageListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:label=<0x7F070396, type 0x01>
+            android:name="com.sogou.download.DownloadedImageBrowserActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0035, type 0x01>
+            android:name="com.sogou.search.result.SogouLightActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0013, type 0x01>
+            android:name="com.sogou.search.profile.AboutActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0013, type 0x01>
+            android:name="com.sogou.search.BrowserActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0013, type 0x01>
+            android:name="com.sogou.weixintopic.fav.WeixinNewsFavoriteActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0013, type 0x01>
+            android:name="com.sogou.search.suggestion.SearchHistoryManageActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0013, type 0x01>
+            android:name="com.sogou.search.profile.FeedbackActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0013, type 0x01>
+            android:name="com.sogou.search.profile.UseHelpActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0013, type 0x01>
+            android:name="com.sogou.speech.SpeechActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="sogousearch"
+                    android:host="speech"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <service
+            android:name="com.sogou.map.loc.SGLocService"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            >
+        </service>
+        <service
+            android:name="com.sogou.activity.src.SogouSearchService"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.sogou.search.action.START_APP_SERVICE"
+                    >
+                </action>
+                <action
+                    android:name="com.sogou.search.action_ALWAYS_NOTIFICATION"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <receiver
+            android:name="com.sogou.app.CrontabReceiver"
+            >
+        </receiver>
+        <receiver
+            android:name="com.sogou.app.BootReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.BOOT_COMPLETED"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.USER_PRESENT"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.SIM_STATE_CHANGED"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.ACCESS_NETWORK_STATE"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:theme=<0x7F0A0017, type 0x01>
+            android:name="com.sogou.utils.qrcode.QRcodeCaptureActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.sogou.search.qrcode.QRcodeCaptureActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="sogousearch"
+                    android:host="qrcodescan"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="sogousearch"
+                    android:host="openHandPhoto"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.sogou.search.qrcode.QRcodeTextResultActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.sogou.search.qrcode.QRcodeUrlResultActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.sogou.search.qrcode.QRcodeCardResultActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A001C, type 0x01>
+            android:name="com.sogou.app.debug.DebugActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <service
+            android:name="com.sogou.reader.ReaderDownloadService"
+            >
+        </service>
+        <activity
+            android:name="com.sogou.reader.ReaderActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.sogou.reader.ChapterListActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0005, type 0x01>
+            android:name="com.sogou.reader.DownloadBookActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.sogou.reader.BookRackActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.sogou.reader.RecommendActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.sogou.reader.FavNovelListActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.sogou.app.debug.BackDoorActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0013, type 0x01>
+            android:name="com.sogou.search.navigation.NavigationManageActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0013, type 0x01>
+            android:name="com.sogou.share.SogouLoginEntryActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0013, type 0x01>
+            android:name="com.sogou.share.SogouLoginEntrySingTopActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0013, type 0x01>
+            android:name="com.sogou.reader.NovelWebViewActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="sogousearch"
+                    android:host="extension4novelweb"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0A0013, type 0x01>
+            android:name="com.sogou.search.lbs.LBSWebViewActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0013, type 0x01>
+            android:name="com.sogou.search.app.AppWebViewActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.sogou.download.DownloadListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.sogou.speech.ServiceSearchActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.sogou.reader.BookCloudActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0016, type 0x01>
+            android:name="com.sogou.weixintopic.read.ChooseCityActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0017, type 0x01>
+            android:name="com.sogou.weixintopic.read.activity.CommentWriteActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0016, type 0x01>
+            android:name="com.sogou.weixintopic.read.activity.CommentListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0013, type 0x01>
+            android:name="com.sogou.credit.CreditCenterActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0013, type 0x01>
+            android:name="com.sogou.credit.CreditShopActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0005, type 0x01>
+            android:name="com.sogou.credit.SignInActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0013, type 0x01>
+            android:name="com.sogou.credit.CreditDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <provider
+            android:name="com.sogou.download.DownloadProvider"
+            android:authorities="com.sogou.downloads"
+            >
+        </provider>
+        <service
+            android:name="com.sogou.download.DownloadService"
+            >
+        </service>
+        <receiver
+            android:name="com.sogou.download.DownloadReceiver"
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.DOWNLOAD_OPEN"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.DOWNLOAD_DELETE"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.EXIT_APP"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.PAUSE_ALL_DOWNLPADING"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.DOWNLOAD_WAKEUP"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:label=<0x7F0703D9, type 0x01>
+            android:name="com.sogou.activity.src.SearchWidgetProvider"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.appwidget.action.APPWIDGET_UPDATE"
+                    >
+                </action>
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource=<0x7F050000, type 0x01>
+                >
+            </meta-data>
+        </receiver>
+        <service
+            android:name="com.sogou.activity.src.SearchWithTimeWidgetService"
+            >
+        </service>
+        <receiver
+            android:label=<0x7F0703DC, type 0x01>
+            android:name="com.sogou.activity.src.SearchWithTimeWidgetProvider"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.appwidget.action.APPWIDGET_UPDATE"
+                    >
+                </action>
+                <action
+                    android:name="android.appwidget.action.APPWIDGET_ENABLED"
+                    >
+                </action>
+                <action
+                    android:name="android.appwidget.action.APPWIDGET_DISABLED"
+                    >
+                </action>
+                <action
+                    android:name="com.sogou.activity.src.ACTION_UPDATE_TIME_WIDGET"
+                    >
+                </action>
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource=<0x7F050002, type 0x01>
+                >
+            </meta-data>
+        </receiver>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:noHistory=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="tencent100902965"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x1030055, type 0x01>
+            android:name="com.sogou.passportsdk.activity.QQAssistActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030055, type 0x01>
+            android:name="com.sogou.passportsdk.activity.SogouAssistActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030055, type 0x01>
+            android:name="com.sogou.passportsdk.activity.SogouWBAssistActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sina.weibo.sdk.component.WeiboSdkBrowser"
+            android:exported=<0x0, type 0x12>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030055, type 0x01>
+            android:name="com.sogou.activity.src.wxapi.WXEntryActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x3, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.sogou.activity.src.wxapi.WXPayEntryActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="com.sogou.passportsdk.activity.WebViewLoginActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0003, type 0x01>
+            android:name="com.sogou.passportsdk.activity.RegistActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0003, type 0x01>
+            android:name="com.sogou.passportsdk.activity.FindPasswordActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0003, type 0x01>
+            android:name="com.sogou.passportsdk.activity.LoginActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0003, type 0x01>
+            android:name="com.sogou.passportsdk.activity.SSOActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0009, type 0x01>
+            android:name="com.sogou.weixintopic.read.PicNewsReadActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:hardwareAccelerated=<0x0, type 0x12>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0009, type 0x01>
+            android:name="com.sogou.weixintopic.read.PicNewsReadSecondActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0009, type 0x01>
+            android:name="com.sogou.weixintopic.read.PicNewsReadThirdActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <meta-data
+            android:name="appid"
+            android:value=<0x7DD, type 0x10>
+            >
+        </meta-data>
+        <meta-data
+            android:name="appkey"
+            android:value="e5db9761c3949c834c51d22269a58d65"
+            >
+        </meta-data>
+        <meta-data
+            android:name="PushServiceEnabledDefault"
+            android:value=<0xFFFFFFFF, type 0x12>
+            >
+        </meta-data>
+        <meta-data
+            android:name="SdkVersion"
+            android:value=<0x4079999A, type 0x04>
+            >
+        </meta-data>
+        <meta-data
+            android:name="sg_push_deviceInfo_enable"
+            android:value=<0x0, type 0x12>
+            >
+        </meta-data>
+        <service
+            android:name="com.sogou.udp.push.PushService"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:process=":udp"
+            >
+        </service>
+        <service
+            android:name="com.sogou.udp.push.SGPushMessageService"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:process=":udp"
+            >
+        </service>
+        <receiver
+            android:name="com.sogou.udp.push.SystemReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.BOOT_COMPLETED"
+                    >
+                </action>
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.USER_PRESENT"
+                    >
+                </action>
+                <action
+                    android:name="android.permission.ACCESS_NETWORK_STATE"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.PACKAGE_REMOVED"
+                    >
+                </action>
+                <data
+                    android:scheme="package"
+                    >
+                </data>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.sogou.udp.push.PushServiceReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.sogou.pushservice.action.METHOD"
+                    >
+                </action>
+                <action
+                    android:name="com.sogou.pushservice.action.payload.CLICK"
+                    >
+                </action>
+                <action
+                    android:name="com.sogou.pushservice.action.notification.SHOW"
+                    >
+                </action>
+                <action
+                    android:name="com.sogou.pushservice.action.notification.CLICK"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.sogou.activity.src.push.PushMessageReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.sogou.pushservice.action.pushstate.conn"
+                    >
+                </action>
+                <action
+                    android:name="com.sogou.pushservice.action.pushstate.unconn"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.sogou.activity.src.push.PushReceiveService"
+            >
+        </service>
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="54af8cf0fd98c54c19000b45"
+            >
+        </meta-data>
+        <meta-data
+            android:name="UMENG_MESSAGE_SECRET"
+            android:value="65d0636cb171021c78338158907853e8"
+            >
+        </meta-data>
+        <receiver
+            android:name="com.umeng.message.NotificationProxyBroadcastReceiver"
+            android:exported=<0x0, type 0x12>
+            >
+        </receiver>
+        <receiver
+            android:name="com.umeng.message.SystemReceiver"
+            android:process=":ump"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.BOOT_COMPLETED"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.PACKAGE_REMOVED"
+                    >
+                </action>
+                <data
+                    android:scheme="package"
+                    >
+                </data>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.umeng.message.MessageReceiver"
+            android:exported=<0x0, type 0x12>
+            android:process=":ump"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="org.agoo.android.intent.action.RECEIVE"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.umeng.message.ElectionReceiver"
+            android:process=":ump"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="org.agoo.android.intent.action.ELECTION_RESULT_V4"
+                    >
+                </action>
+                <category
+                    android:name="umeng"
+                    >
+                </category>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.umeng.message.RegistrationReceiver"
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.sogou.activity.src.intent.action.COMMAND"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.umeng.message.UmengMessageBootReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.BOOT_COMPLETED"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <service
+            android:label="UMPService"
+            android:name="com.umeng.message.UmengService"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:process=":ump"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.sogou.activity.src.intent.action.START"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.sogou.activity.src.intent.action.COCKROACH"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="org.agoo.android.intent.action.PING_V4"
+                    >
+                </action>
+                <category
+                    android:name="umeng"
+                    >
+                </category>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.umeng.message.UmengIntentService"
+            android:process=":ump"
+            >
+        </service>
+        <service
+            android:name="com.sogou.activity.src.push.UmengPushIntentService"
+            >
+        </service>
+        <service
+            android:name="com.umeng.message.UmengMessageIntentReceiverService"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:process=":ump"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="org.android.agoo.client.MessageReceiverService"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="org.android.agoo.client.ElectionReceiverService"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.umeng.message.UmengMessageCallbackHandlerService"
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.umeng.messge.registercallback.action"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.umeng.message.unregistercallback.action"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.umeng.message.message.handler.action"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.umeng.message.autoupdate.handler.action"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.umeng.message.UmengDownloadResourceService"
+            >
+        </service>
+        <service
+            android:name="com.xiaomi.push.service.XMJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:exported=<0x0, type 0x12>
+            android:process=":mip"
+            >
+        </service>
+        <service
+            android:name="com.xiaomi.push.service.XMPushService"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:process=":mip"
+            >
+        </service>
+        <service
+            android:name="com.xiaomi.mipush.sdk.PushMessageHandler"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+        </service>
+        <service
+            android:name="com.xiaomi.mipush.sdk.MessageHandleService"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            >
+        </service>
+        <receiver
+            android:name="com.sogou.activity.src.push.MiPushMessageReceiver"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.xiaomi.mipush.RECEIVE_MESSAGE"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.xiaomi.mipush.MESSAGE_ARRIVED"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.xiaomi.mipush.ERROR"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.xiaomi.push.service.receivers.NetworkStatusReceiver"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.xiaomi.push.service.receivers.PingReceiver"
+            android:exported=<0x0, type 0x12>
+            android:process=":mip"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.xiaomi.push.PING_TIMER"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

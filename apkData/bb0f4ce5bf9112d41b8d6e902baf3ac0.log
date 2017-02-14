@@ -1,0 +1,27 @@
+--2017-02-13 18:42:04--  http://ttube.info/hg
+Resolving ttube.info... 43.230.113.39
+Connecting to ttube.info|43.230.113.39|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://ttube.info/hg/ [following]
+--2017-02-13 18:42:07--  http://ttube.info/hg/
+Reusing existing connection to ttube.info:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 340 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 20.3M=0s
+
+2017-02-13 18:42:07 (20.3 MB/s) - `index.html' saved [340/340]
+
+=======================The second times wget =====================
+--2017-02-13 18:42:08--  http://ttube.info/hg/%C2%BC%CF%F1.apk
+Resolving ttube.info... 43.230.113.39
+Connecting to ttube.info|43.230.113.39|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 201075 (196K) [application/vnd.android.package-archive]
+Saving to: `Â¼Ïñ.apk'
+
+     0K ..                                                      1%  130M=0s
+
+2017-02-13 18:42:28 (130 MB/s) - Read error at byte 2593/201075 (Connection timed out). Giving up.
+

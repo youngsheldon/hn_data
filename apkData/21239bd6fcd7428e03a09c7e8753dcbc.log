@@ -1,0 +1,28 @@
+--2017-02-14 18:23:59--  http://123.60.159.122/Tk1
+Connecting to 123.60.159.122:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://123.60.159.122/Tk1/ [following]
+--2017-02-14 18:23:59--  http://123.60.159.122/Tk1/
+Reusing existing connection to 123.60.159.122:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 654 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 39.0M=0s
+
+2017-02-14 18:24:00 (39.0 MB/s) - `index.html' saved [654/654]
+
+=======================The second times wget =====================
+--2017-02-14 18:24:00--  http://123.60.159.122/Tk1/%E8%A7%86%E9%A2%91.Mp4.apk
+Connecting to 123.60.159.122:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 204387 (200K) [application/vnd.android]
+Saving to: `è§%86é¢%91.Mp4.apk'
+
+     0K .......... .......... .......... .......... .......... 25%  273K 1s
+    50K .......... .......... .......... .......... .......... 50%  357K 0s
+   100K .......... .......... .......... .......... .......... 75%  331K 0s
+   150K .......... .......... .......... .......... ......... 100%  235K=0.7s
+
+2017-02-14 18:24:00 (291 KB/s) - `è§%86é¢%91.Mp4.apk' saved [204387/204387]
+
