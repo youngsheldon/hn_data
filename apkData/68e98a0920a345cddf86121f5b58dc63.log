@@ -1,0 +1,30 @@
+--2017-02-14 21:17:37--  http://lteam.info/ykkn
+Resolving lteam.info... 43.230.113.39
+Connecting to lteam.info|43.230.113.39|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://lteam.info/ykkn/ [following]
+--2017-02-14 21:17:39--  http://lteam.info/ykkn/
+Reusing existing connection to lteam.info:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 340 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 27.0M=0s
+
+2017-02-14 21:17:39 (27.0 MB/s) - `index.html' saved [340/340]
+
+=======================The second times wget =====================
+--2017-02-14 21:17:39--  http://lteam.info/ykkn/%C2%BC%CF%F1.apk
+Resolving lteam.info... 43.230.113.39
+Connecting to lteam.info|43.230.113.39|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 201062 (196K) [application/vnd.android.package-archive]
+Saving to: `Â¼Ïñ.apk'
+
+     0K .......... .......... .......... .......... .......... 25% 71.5K 2s
+    50K .......... .......... .......... .......... .......... 50%  288K 1s
+   100K .......... .......... .......... .......... .......... 76% 3.70M 0s
+   150K .......... .......... .......... .......... ......    100%  266K=1.1s
+
+2017-02-14 21:17:41 (185 KB/s) - `Â¼Ïñ.apk' saved [201062/201062]
+

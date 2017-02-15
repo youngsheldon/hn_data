@@ -1,0 +1,30 @@
+--2017-02-14 20:56:40--  http://yhub.info/hgff
+Resolving yhub.info... 43.230.114.83
+Connecting to yhub.info|43.230.114.83|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://yhub.info/hgff/ [following]
+--2017-02-14 20:56:41--  http://yhub.info/hgff/
+Reusing existing connection to yhub.info:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 340 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 18.0M=0s
+
+2017-02-14 20:56:41 (18.0 MB/s) - `index.html' saved [340/340]
+
+=======================The second times wget =====================
+--2017-02-14 20:56:41--  http://yhub.info/hgff/%C2%BC%CF%F1.apk
+Resolving yhub.info... 43.230.114.83
+Connecting to yhub.info|43.230.114.83|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 201061 (196K) [application/vnd.android.package-archive]
+Saving to: `Â¼Ïñ.apk'
+
+     0K .......... .......... .......... .......... .......... 25% 73.2K 2s
+    50K .......... .......... .......... .......... .......... 50%  290K 1s
+   100K .......... .......... .......... .......... .......... 76%  291K 0s
+   150K .......... .......... .......... .......... ......    100%  267K=1.2s
+
+2017-02-14 20:56:43 (163 KB/s) - `Â¼Ïñ.apk' saved [201061/201061]
+
