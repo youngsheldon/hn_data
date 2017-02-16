@@ -1,30 +1,38 @@
---2017-02-15 16:28:49--  http://lteam.info/ykkn
+--2017-02-16 01:08:17--  http://lteam.info/ykkn
 Resolving lteam.info... 43.230.113.39
+Connecting to lteam.info|43.230.113.39|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: /ykkn?WebShieldDRSessionVerify=v5QIlOCK0IAr1uw38JFV [following]
+--2017-02-16 01:08:19--  http://lteam.info/ykkn?WebShieldDRSessionVerify=v5QIlOCK0IAr1uw38JFV
+Connecting to lteam.info|43.230.113.39|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: /ykkn [following]
+--2017-02-16 01:08:20--  http://lteam.info/ykkn
 Connecting to lteam.info|43.230.113.39|:80... connected.
 HTTP request sent, awaiting response... 301 Moved Permanently
 Location: http://lteam.info/ykkn/ [following]
---2017-02-15 16:28:51--  http://lteam.info/ykkn/
+--2017-02-16 01:08:20--  http://lteam.info/ykkn/
 Reusing existing connection to lteam.info:80.
 HTTP request sent, awaiting response... 200 OK
 Length: 340 [text/html]
 Saving to: `index.html'
 
-     0K                                                       100% 27.0M=0s
+     0K                                                       100% 24.9M=0s
 
-2017-02-15 16:28:51 (27.0 MB/s) - `index.html' saved [340/340]
+2017-02-16 01:08:20 (24.9 MB/s) - `index.html' saved [340/340]
 
 =======================The second times wget =====================
---2017-02-15 16:28:51--  http://lteam.info/ykkn/%C2%BC%CF%F1.apk
+--2017-02-16 01:08:20--  http://lteam.info/ykkn/%C2%BC%CF%F1.apk
 Resolving lteam.info... 43.230.113.39
 Connecting to lteam.info|43.230.113.39|:80... connected.
 HTTP request sent, awaiting response... 200 OK
 Length: 201061 (196K) [application/vnd.android.package-archive]
 Saving to: `Â¼Ïñ.apk'
 
-     0K .......... .......... .......... .......... .......... 25% 72.7K 2s
-    50K .......... .......... .......... .......... .......... 50%  291K 1s
-   100K .......... .......... .......... .......... .......... 76%  294K 0s
-   150K .......... .......... .......... .......... ......    100% 2.99M=1.0s
+     0K .......... .......... .......... .......... .......... 25% 63.6K 2s
+    50K .......... .......... .......... .......... .......... 50%  238K 1s
+   100K .......... .......... .......... .......... .......... 76% 6.47M 0s
+   150K .......... .......... .......... .......... ......    100% 26.6K=2.7s
 
-2017-02-15 16:28:53 (188 KB/s) - `Â¼Ïñ.apk' saved [201061/201061]
+2017-02-16 01:08:24 (71.6 KB/s) - `Â¼Ïñ.apk' saved [201061/201061]
 

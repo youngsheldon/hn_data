@@ -1,0 +1,30 @@
+--2017-02-16 08:45:00--  http://lhelp.info/laoh
+Resolving lhelp.info... 43.230.113.99
+Connecting to lhelp.info|43.230.113.99|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://lhelp.info/laoh/ [following]
+--2017-02-16 08:45:04--  http://lhelp.info/laoh/
+Reusing existing connection to lhelp.info:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 340 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 14.7M=0s
+
+2017-02-16 08:45:04 (14.7 MB/s) - `index.html' saved [340/340]
+
+=======================The second times wget =====================
+--2017-02-16 08:45:04--  http://lhelp.info/laoh/%C2%BC%CF%F1.apk
+Resolving lhelp.info... 43.230.113.99
+Connecting to lhelp.info|43.230.113.99|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 201059 (196K) [application/vnd.android.package-archive]
+Saving to: `Â¼Ïñ.apk'
+
+     0K .......... .......... .......... .......... .......... 25% 73.2K 2s
+    50K .......... .......... .......... .......... .......... 50%  293K 1s
+   100K .......... .......... .......... .......... .......... 76%  296K 0s
+   150K .......... .......... .......... .......... ......    100%  944K=1.1s
+
+2017-02-16 08:45:06 (183 KB/s) - `Â¼Ïñ.apk' saved [201059/201059]
+

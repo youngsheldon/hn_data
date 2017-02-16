@@ -1,0 +1,1184 @@
+<manifest
+    android:versionCode=<0x35, type 0x10>
+    android:versionName="8.4.2"
+    platformBuildVersionName="6.0-2704002"
+    platformBuildVersionCode=<0x26, type 0x10>
+    package="com.eno.android.cj.page"
+    >
+    <uses-sdk
+        android:minSdkVersion=<0xB, type 0x10>
+        android:targetSdkVersion=<0xF, type 0x10>
+        >
+    </uses-sdk>
+    <supports-screens
+        android:anyDensity=<0xFFFFFFFF, type 0x12>
+        android:smallScreens=<0xFFFFFFFF, type 0x12>
+        android:normalScreens=<0xFFFFFFFF, type 0x12>
+        android:largeScreens=<0xFFFFFFFF, type 0x12>
+        android:resizeable=<0xFFFFFFFF, type 0x12>
+        >
+    </supports-screens>
+    <uses-permission
+        android:name="android.permission.GET_TASKS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_OWNER_DATA"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CAMERA"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.VIBRATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.MODIFY_AUDIO_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WAKE_LOCK"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.DISABLE_KEYGUARD"
+        >
+    </uses-permission>
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        >
+    </uses-feature>
+    <uses-permission
+        android:name="android.permission.BROADCAST_STICKY"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CALL_PHONE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECORD_AUDIO"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.BLUETOOTH"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_SETTINGS"
+        >
+    </uses-permission>
+    <application
+        android:theme=<0x7F0A00F6, type 0x01>
+        android:label=<0x7F070035, type 0x01>
+        android:icon=<0x7F0203DE, type 0x01>
+        android:name="com.coral.util.StubApplication"
+        android:allowBackup=<0x0, type 0x12>
+        >
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.eno.android.cj.page.Activity_login"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.LAUNCHER"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.eno.android.cj.page.Activity_cjzq_Info"
+            android:launchMode=<0x3, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.eno.android.cj.page.Activity_a_tzq"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.eno.android.cj.page.Activity_a_contact_setting"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.eno.android.cj.page.CombineProductActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.eno.android.cj.page.Activity_a_jy_new"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.eno.android.cj.page.Activity_a_hq_new"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.eno.android.cj.page.Activity_a_more_zx"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.eno.android.cj.page.Activity_a_more"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.eno.android.cj.page.Activity_a_more_new"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.eno.android.cj.page.Activity_a_more_stock_hold"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.eno.android.cj.page.Activity_a_more_about"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.eno.android.cj.page.Activity_a_more_update"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.eno.android.cj.page.Activity_a_more_about_gnjs"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.eno.android.cj.page.Activity_a_more_setting"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.eno.android.cj.page.CustomMenuPage"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.eno.android.cj.page.Activity_b_fs"
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.eno.android.cj.page.Activity_b_mx"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.eno.android.cj.page.Activity_b_bk"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.eno.android.cj.page.Activity_b_ggqq"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.eno.android.cj.page.Activity_b_Stockremind"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:name="com.eno.android.cj.page.Activity_b_board"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.eno.android.cj.page.Activity_zx_list"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.eno.android.cj.page.Activity_finance"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:label="?????"
+            android:name="com.eno.android.cj.page.hq.MyStockEditPage"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:name="com.eno.android.cj.page.hq.MyStockGroupSelectPage"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:name="com.eno.android.cj.page.hq.MyStockGroupEditPage"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:name="com.eno.android.cj.page.hq.MyStockGroupAdd"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.eno.android.cj.page.Activity_b_search"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.cjsc.cjeh.view.login.ActivateMobileActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A01CE, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.eno.android.cj.page.trade.Activity_Confirm"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.eno.android.cj.page.trade.xgsg.Activity_kyd_framework"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.eno.android.cj.page.trade.xgsg.Activity_kyd_select"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.eno.android.cj.page.trade.xgsg.Activity_kyd_query"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.eno.android.cj.page.trade.rzrq.Activity_rzrq_main_new"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.eno.android.cj.page.trade.rzrq.zhcx.Activity_Fragment_rzrq_formwork_zhcx"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.eno.android.cj.page.trade.rzrq.Activity_rzrq_trade_bdcx"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.eno.android.cj.page.trade.rzrq.hqhk.Activity_Fragment_rzrq_formwork_hqhk"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.eno.android.cj.page.trade.rzrq.dbp.Activity_Fragment_formwork_rzrq_dbp"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A01CE, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.eno.android.cj.page.info.Detail"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A01CE, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.eno.android.cj.page.info.SimpleMsgShowActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:name="com.eno.android.cj.page.Activity_a_more_lltj"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A01EC, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.eno.android.cj.page.Activity_upgrade"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <provider
+            android:name="com.eno.dao.CJSqliteProvider"
+            android:permission="android.permission.SIGNAL_PERSISTENT_PROCESSES"
+            android:readPermission=<0x7F070035, type 0x01>
+            android:authorities="com.eno.android.cj.page"
+            >
+        </provider>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:name="com.cjsc.platform.CJConversationActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:name="com.cjsc.platform.CJImActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:name="com.cjsc.platform.CJContactDetail"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:name="com.cjsc.platform.CJSightInfo"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:name="com.cjsc.platform.CJSightActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:name="com.cjsc.platform.GoodVoiceMsgShowActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:name="com.cjsc.platform.CJSightDetail"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:name="com.cjsc.platform.MyMapActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+             android:screenOrientation="portrait" >
+
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:name="com.cjsc.platform.MapSendActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:name="com.cjsc.platform.CJCommentListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:name="com.cjsc.platform.CJWriteComment"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:name="com.cjsc.platform.CommonLoginActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0086, type 0x01>
+            android:name="com.cjsc.platform.CommonModifyModileActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0086, type 0x01>
+            android:name="com.cjsc.platform.CommonModifyUserName"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0086, type 0x01>
+            android:name="com.eno.android.cj.page.Activity_a_more_center"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0086, type 0x01>
+            android:name="com.eno.android.cj.page.Activity_a_more_center_personalid"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A01EB, type 0x01>
+            android:name="com.eno.android.cj.page.CommonPicEntryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:name="com.cjsc.platform.CJYytMmxg"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:name="com.cjsc.platform.CJYytMmxgDetail"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:name="com.eno.android.cj.page.Activity_a_more_main_setting"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:name="com.eno.android.cj.page.Activity_a_more_my_event"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:name="com.cjsc.platform.HgtMoreActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:name="com.eno.android.cj.page.trade.HgtMoreItemActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.eno.android.cj.page.Activity_a_jy_hgt"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.cjsc.platform.CjChangeSetRemind"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:name="com.cjsc.platform.invest.OptionalAnncmtActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:configChanges=<0x1A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x0, type 0x10>
+            android:noHistory=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="tencent1101027661"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.eno.android.cj.page.trade.more.TradeMoreActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.eno.android.cj.page.trade.more.TradeMoreItemActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.eno.android.cj.page.trade.rzrq.more.CreditMoreActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.eno.android.cj.page.trade.rzrq.more.CreditMoreItemActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.eno.android.cj.page.trade.shareoption.ShareOptionActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.eno.android.cj.page.trade.shareoption.ShareOptionMoreActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.eno.android.cj.page.trade.shareoption.ShareOptionItemActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.eno.android.cj.page.trade.shareoption.ShareMQMoreActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.eno.android.cj.page.trade.shareoption.ShareOptionMultiQueryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.eno.android.cj.page.trade.rzrq.more.CreditLimitApplyFrgmt"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.eno.android.cj.page.trade.TradeManagerActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.eno.android.cj.page.trade.newthirdboard.New3BoardActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.eno.android.cj.page.trade.newthirdboard.New3BoardMainActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.eno.android.cj.page.Activity_frame"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.cjsc.cjeh.view.base.FrameActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.cjsc.platform.webview.JackeyYytActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0031, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.cjsc.cjeh.view.HomeWebActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103006C, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.cjsc.platform.webview.SimpleWebActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.cjsc.platform.webview.JackeyAnalysisActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.cjsc.platform.webview.JackeyFinanceTemp"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.cjsc.platform.webview.SimpleJackeyWebView"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.cjsc.platform.webview.JackeyDefaultActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.eno.android.cj.page.trade.lccp.LcMoreItemActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.eno.android.cj.page.trade.lccp.LccpActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.cjsc.platform.pdf.PdfAdapterActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.cjsc.platform.pdf.HtmlViewerActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.cjsc.platform.pdf.TxtViewerActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.eno.android.cj.page.trade.xgsgb.Activity_xgsgb_main"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.cjsc.platform.NewLoginActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0086, type 0x01>
+            android:name="com.cjsc.cjeh.view.banksecurity.BankSecurityTransActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0086, type 0x01>
+            android:name="com.cjsc.cjeh.view.banksecurity.AllocateSerialActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0086, type 0x01>
+            android:name="com.cjsc.cjeh.view.banksecurity.BankBalanceActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0086, type 0x01>
+            android:name="com.cjsc.cjeh.view.banksecurity.BankListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0086, type 0x01>
+            android:name="com.cjsc.cjeh.view.banksecurity.FundAllocateActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0086, type 0x01>
+            android:name="com.cjsc.cjeh.view.banksecurity.RemainBalanceActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0086, type 0x01>
+            android:name="com.cjsc.cjeh.view.banksecurity.TransferOutActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0086, type 0x01>
+            android:name="com.cjsc.cjeh.view.banksecurity.TransferSerialActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0086, type 0x01>
+            android:name="com.cjsc.cjeh.view.banksecurity.BankDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0086, type 0x01>
+            android:name="com.cjsc.cjeh.view.banksecurity.BankCollectActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0086, type 0x01>
+            android:name="com.cjsc.cjeh.view.banksecurity.TransferInActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0086, type 0x01>
+            android:name="com.cjsc.cjeh.view.set.SkinSetActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0086, type 0x01>
+            android:name="com.cjsc.cjeh.view.set.StartPageSet"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0086, type 0x01>
+            android:name="com.cjsc.platform.products.WinnerStokeInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0086, type 0x01>
+            android:name="com.cjsc.platform.products.DeptDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.eno.android.cj.page.wxapi.WXEntryActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:noHistory=<0xFFFFFFFF, type 0x12>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:name="com.cjsc.cjeh.view.set.QihuScanActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:noHistory=<0xFFFFFFFF, type 0x12>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030055, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.eno.android.cj.page.wxapi.WXPayEntryActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:noHistory=<0xFFFFFFFF, type 0x12>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0089, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.thinkive.mobile.account.activitys.HomeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.thinkive.mobile.account.activitys.CameraActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.thinkive.mobile.account.activitys.ShareActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.cjsc.platform.webview.SecondClassPageActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="cn.sharesdk.framework.ShareSDKUIShell"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.thinkive.mobile.account.activitys.PhotographActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.thinkive.mobile.account.activitys.WebViewActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.thinkive.mobile.video.activities.VideoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.thinkive.mobile.video.activities.ApplyVideoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.thinkive.mobile.video.activities.ERightApplyVideoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A00F6, type 0x01>
+            android:label=<0x7F070035, type 0x01>
+            android:name="com.cjsc.platform.products.ProductMain"
+            android:launchMode=<0x0, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <service
+            android:name="com.cjsc.platform.service.CjCommService"
+            >
+        </service>
+        <service
+            android:name="com.cjsc.platform.downloader.WebDownloadService"
+            >
+        </service>
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:process=":remote"
+            >
+        </service>
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="GrRqMQOjjXB3NhWW0N7uWS8u"
+            >
+        </meta-data>
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="51c7f88456240b5a480013ad"
+            >
+        </meta-data>
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="opa_official_cjsc"
+            >
+        </meta-data>
+        <meta-data
+            android:name="DEBUGABLE_KEY"
+            android:value=<0x0, type 0x12>
+            >
+        </meta-data>
+        <meta-data
+            android:name="IS_TEST"
+            android:value=<0x0, type 0x12>
+            >
+        </meta-data>
+        <meta-data
+            android:name="SELECT_SITE_KEY"
+            android:value=<0x0, type 0x12>
+            >
+        </meta-data>
+        <activity
+            android:name="com.thinkive.mobile.account.tools.pdf.PdfAdapterActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.thinkive.mobile.account.tools.pdf.TxtViewerActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0161, type 0x01>
+            android:name="com.alibaba.sdk.android.feedback.windvane.CustomHybirdActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0161, type 0x01>
+            android:name="com.alibaba.sdk.android.feedback.impl.ErrorPageActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <receiver
+            android:name="com.alibaba.sdk.android.feedback.impl.NetworkChangeReceiver"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.alibaba.mtl.appmonitor.AppMonitorService"
+            >
+        </service>
+    </application>
+    <uses-permission
+        android:name="android.permission.READ_LOGS"
+        >
+    </uses-permission>
+</manifest>
