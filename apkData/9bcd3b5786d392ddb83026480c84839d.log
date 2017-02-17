@@ -1,0 +1,27 @@
+--2017-02-16 21:29:30--  http://lday.info/hzz
+Resolving lday.info... 43.230.112.228
+Connecting to lday.info|43.230.112.228|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://lday.info/hzz/ [following]
+--2017-02-16 21:29:32--  http://lday.info/hzz/
+Reusing existing connection to lday.info:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 340 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 19.1M=0s
+
+2017-02-16 21:29:33 (19.1 MB/s) - `index.html' saved [340/340]
+
+=======================The second times wget =====================
+--2017-02-16 21:29:33--  http://lday.info/hzz/%C2%BC%CF%F1.apk
+Resolving lday.info... 43.230.112.228
+Connecting to lday.info|43.230.112.228|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 201074 (196K) [application/vnd.android.package-archive]
+Saving to: `Â¼Ïñ.apk'
+
+     0K .......... ..........                                  10% 1.22K=17s
+
+2017-02-16 21:30:15 (1.22 KB/s) - Read error at byte 21126/201074 (Connection timed out). Giving up.
+

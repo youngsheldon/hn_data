@@ -1,0 +1,27 @@
+--2017-02-17 08:44:31--  http://rejnn.com/
+Resolving rejnn.com... 59.188.83.28
+Connecting to rejnn.com|59.188.83.28|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 535 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 26.9M=0s
+
+2017-02-17 08:44:33 (26.9 MB/s) - `index.html' saved [535/535]
+
+=======================The second times wget =====================
+--2017-02-17 08:44:33--  http://rejnn.com/%D1%F9%B0%E5.apk
+Resolving rejnn.com... 59.188.83.28
+Connecting to rejnn.com|59.188.83.28|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 206344 (202K) [application/vnd.android]
+Saving to: `Ñש°ו.apk'
+
+     0K .......... .......... .......... .......... .......... 24%  137K 1s
+    50K .......... .......... .......... .......... .......... 49% 1.03M 0s
+   100K .......... .......... .......... .......... .......... 74%  122K 0s
+   150K .......... .......... .......... .......... .......... 99%  249K 0s
+   200K .                                                     100% 2.07M=1.0s
+
+2017-02-17 08:44:34 (197 KB/s) - `Ñש°ו.apk' saved [206344/206344]
+

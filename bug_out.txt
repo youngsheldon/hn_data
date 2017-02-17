@@ -1018,6 +1018,15 @@ Traceback (most recent call last):
     with open(path,'w+') as f:
 IOError: [Errno 2] No such file or directory: '/opt/smmc/apk_parse/apk_source/6d94c2e4f296cb54c5cb391d8ba077ae/AndroidManifest.xml'
 
+-------------------UnicodeDecodeError: 'utf8' codec can't decode byte 0xc4 in position 403: invalid continuation byte-----------------------
+[2017-02-16 22:36:43,736] [ERROR] apk_report_run.py:111 c49e7d1bfd428d7c8bfee56dc282301f
+Traceback (most recent call last):
+  File "apk_report_run.py", line 99, in apk_analyze_run
+    apk_basic_obj.basic_info_collect()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/basic_info_sort.py", line 68, in basic_info_collect
+    out = self.apk_code + '|' + apk_file_name + '|' + md5 + '|' + sha1 + '|' + sha256  + '|' + sha512 + '|' + self.first_found_time + '|' + last_found_time + '|' + short_url + '|' + long_url + '|' + self.sms_content + '|' + virus_score + '|' + virus_grade + '|' + apk_analyze_run_time + '|' + min_sdk +   '|' + fit_sdk + '|' + init_ip + '|' + init_ip_attribution + '|' + target_ip + '|' + target_ip_attribution + '|' + str(apk_file_size) + '|' + str(apk_source_file_num) + '\n'
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xc4 in position 403: invalid continuation byte
+
 -------------------IOError: [Errno 2] No such file or directory: '/opt/smmc/apk_parse/apk_source/2ef745c4771f26cde151ae369f1d432e/AndroidManifest.xml'-----------------------
 [2017-01-10 11:13:20,659] [ERROR] apk_report_run.py:111 2ef745c4771f26cde151ae369f1d432e
 Traceback (most recent call last):
@@ -1158,6 +1167,13 @@ Traceback (most recent call last):
     out = self.apk_code + '|' + apk_file_name + '|' + md5 + '|' + sha1 + '|' + sha256  + '|' + sha512 + '|' + self.first_found_time + '|' + last_found_time + '|' + short_url + '|' + long_url + '|' + self.sms_content + '|' + virus_score + '|' + virus_grade + '|' + apk_analyze_run_time + '|' + min_sdk +   '|' + fit_sdk + '|' + init_ip + '|' + init_ip_attribution + '|' + target_ip + '|' + target_ip_attribution + '|' + str(apk_file_size) + '|' + str(apk_source_file_num) + '\n'
 UnicodeDecodeError: 'utf8' codec can't decode byte 0xce in position 415: invalid continuation byte
 [2017-02-14 19:02:01,526] [ERROR] apk_report_run.py:111 e63b03fd86e03743e8e3e8fc14cba8ac
+Traceback (most recent call last):
+  File "apk_report_run.py", line 99, in apk_analyze_run
+    apk_basic_obj.basic_info_collect()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/basic_info_sort.py", line 68, in basic_info_collect
+    out = self.apk_code + '|' + apk_file_name + '|' + md5 + '|' + sha1 + '|' + sha256  + '|' + sha512 + '|' + self.first_found_time + '|' + last_found_time + '|' + short_url + '|' + long_url + '|' + self.sms_content + '|' + virus_score + '|' + virus_grade + '|' + apk_analyze_run_time + '|' + min_sdk +   '|' + fit_sdk + '|' + init_ip + '|' + init_ip_attribution + '|' + target_ip + '|' + target_ip_attribution + '|' + str(apk_file_size) + '|' + str(apk_source_file_num) + '\n'
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xce in position 415: invalid continuation byte
+[2017-02-17 00:38:44,923] [ERROR] apk_report_run.py:111 a685a8ab721b2747e1d619f27fe48f6f
 Traceback (most recent call last):
   File "apk_report_run.py", line 99, in apk_analyze_run
     apk_basic_obj.basic_info_collect()
@@ -2329,6 +2345,27 @@ Traceback (most recent call last):
   File "/opt/smmc/apk_parse/entire_apk_report_run/sort/basic_info_sort.py", line 68, in basic_info_collect
     out = self.apk_code + '|' + apk_file_name + '|' + md5 + '|' + sha1 + '|' + sha256  + '|' + sha512 + '|' + self.first_found_time + '|' + last_found_time + '|' + short_url + '|' + long_url + '|' + self.sms_content + '|' + virus_score + '|' + virus_grade + '|' + apk_analyze_run_time + '|' + min_sdk +   '|' + fit_sdk + '|' + init_ip + '|' + init_ip_attribution + '|' + target_ip + '|' + target_ip_attribution + '|' + str(apk_file_size) + '|' + str(apk_source_file_num) + '\n'
 UnicodeDecodeError: 'utf8' codec can't decode byte 0xc4 in position 415: invalid continuation byte
+[2017-02-16 20:17:54,475] [ERROR] apk_report_run.py:111 35478fd02733eae3311f0f575cb739f8
+Traceback (most recent call last):
+  File "apk_report_run.py", line 99, in apk_analyze_run
+    apk_basic_obj.basic_info_collect()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/basic_info_sort.py", line 68, in basic_info_collect
+    out = self.apk_code + '|' + apk_file_name + '|' + md5 + '|' + sha1 + '|' + sha256  + '|' + sha512 + '|' + self.first_found_time + '|' + last_found_time + '|' + short_url + '|' + long_url + '|' + self.sms_content + '|' + virus_score + '|' + virus_grade + '|' + apk_analyze_run_time + '|' + min_sdk +   '|' + fit_sdk + '|' + init_ip + '|' + init_ip_attribution + '|' + target_ip + '|' + target_ip_attribution + '|' + str(apk_file_size) + '|' + str(apk_source_file_num) + '\n'
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xc4 in position 415: invalid continuation byte
+[2017-02-17 07:10:58,653] [ERROR] apk_report_run.py:111 93e110be652eabdeb7ec8aaf96335394
+Traceback (most recent call last):
+  File "apk_report_run.py", line 99, in apk_analyze_run
+    apk_basic_obj.basic_info_collect()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/basic_info_sort.py", line 68, in basic_info_collect
+    out = self.apk_code + '|' + apk_file_name + '|' + md5 + '|' + sha1 + '|' + sha256  + '|' + sha512 + '|' + self.first_found_time + '|' + last_found_time + '|' + short_url + '|' + long_url + '|' + self.sms_content + '|' + virus_score + '|' + virus_grade + '|' + apk_analyze_run_time + '|' + min_sdk +   '|' + fit_sdk + '|' + init_ip + '|' + init_ip_attribution + '|' + target_ip + '|' + target_ip_attribution + '|' + str(apk_file_size) + '|' + str(apk_source_file_num) + '\n'
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xc4 in position 415: invalid continuation byte
+[2017-02-17 15:26:34,043] [ERROR] apk_report_run.py:111 679b5025a181f2bb66ca6c0947da0cca
+Traceback (most recent call last):
+  File "apk_report_run.py", line 99, in apk_analyze_run
+    apk_basic_obj.basic_info_collect()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/basic_info_sort.py", line 68, in basic_info_collect
+    out = self.apk_code + '|' + apk_file_name + '|' + md5 + '|' + sha1 + '|' + sha256  + '|' + sha512 + '|' + self.first_found_time + '|' + last_found_time + '|' + short_url + '|' + long_url + '|' + self.sms_content + '|' + virus_score + '|' + virus_grade + '|' + apk_analyze_run_time + '|' + min_sdk +   '|' + fit_sdk + '|' + init_ip + '|' + init_ip_attribution + '|' + target_ip + '|' + target_ip_attribution + '|' + str(apk_file_size) + '|' + str(apk_source_file_num) + '\n'
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xc4 in position 415: invalid continuation byte
 
 -------------------UnicodeDecodeError: 'utf8' codec can't decode byte 0xc4 in position 438: invalid continuation byte-----------------------
 [2017-01-15 19:47:31,701] [ERROR] apk_report_run.py:111 34c8955c72b85a658cd29c2f053bea38
@@ -2447,6 +2484,13 @@ Traceback (most recent call last):
     out = self.apk_code + '|' + apk_file_name + '|' + md5 + '|' + sha1 + '|' + sha256  + '|' + sha512 + '|' + self.first_found_time + '|' + last_found_time + '|' + short_url + '|' + long_url + '|' + self.sms_content + '|' + virus_score + '|' + virus_grade + '|' + apk_analyze_run_time + '|' + min_sdk +   '|' + fit_sdk + '|' + init_ip + '|' + init_ip_attribution + '|' + target_ip + '|' + target_ip_attribution + '|' + str(apk_file_size) + '|' + str(apk_source_file_num) + '\n'
 UnicodeDecodeError: 'utf8' codec can't decode byte 0xc4 in position 419: invalid continuation byte
 [2017-02-14 20:57:20,424] [ERROR] apk_report_run.py:111 a7800a2b8a4ae7bc4300e004310c2524
+Traceback (most recent call last):
+  File "apk_report_run.py", line 99, in apk_analyze_run
+    apk_basic_obj.basic_info_collect()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/basic_info_sort.py", line 68, in basic_info_collect
+    out = self.apk_code + '|' + apk_file_name + '|' + md5 + '|' + sha1 + '|' + sha256  + '|' + sha512 + '|' + self.first_found_time + '|' + last_found_time + '|' + short_url + '|' + long_url + '|' + self.sms_content + '|' + virus_score + '|' + virus_grade + '|' + apk_analyze_run_time + '|' + min_sdk +   '|' + fit_sdk + '|' + init_ip + '|' + init_ip_attribution + '|' + target_ip + '|' + target_ip_attribution + '|' + str(apk_file_size) + '|' + str(apk_source_file_num) + '\n'
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xc4 in position 419: invalid continuation byte
+[2017-02-17 04:37:58,546] [ERROR] apk_report_run.py:111 2a6be6434321048814badfff7a5ccd67
 Traceback (most recent call last):
   File "apk_report_run.py", line 99, in apk_analyze_run
     apk_basic_obj.basic_info_collect()
@@ -2951,6 +2995,15 @@ Traceback (most recent call last):
     with open(path,'w+') as f:
 IOError: [Errno 2] No such file or directory: '/opt/smmc/apk_parse/apk_source/78b4ae26a3e7d3dcc6557a3e37c4c0af/AndroidManifest.xml'
 
+-------------------UnicodeDecodeError: 'utf8' codec can't decode byte 0xc4 in position 410: invalid continuation byte-----------------------
+[2017-02-17 08:45:12,431] [ERROR] apk_report_run.py:111 628b16ef333755bcfad55d0ccefedf32
+Traceback (most recent call last):
+  File "apk_report_run.py", line 99, in apk_analyze_run
+    apk_basic_obj.basic_info_collect()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/basic_info_sort.py", line 68, in basic_info_collect
+    out = self.apk_code + '|' + apk_file_name + '|' + md5 + '|' + sha1 + '|' + sha256  + '|' + sha512 + '|' + self.first_found_time + '|' + last_found_time + '|' + short_url + '|' + long_url + '|' + self.sms_content + '|' + virus_score + '|' + virus_grade + '|' + apk_analyze_run_time + '|' + min_sdk +   '|' + fit_sdk + '|' + init_ip + '|' + init_ip_attribution + '|' + target_ip + '|' + target_ip_attribution + '|' + str(apk_file_size) + '|' + str(apk_source_file_num) + '\n'
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xc4 in position 410: invalid continuation byte
+
 -------------------IOError: [Errno 2] No such file or directory: '/opt/smmc/apk_parse/apk_source/4cd3023a1f4af7bb1710b82a9bd50daa/AndroidManifest.xml'-----------------------
 [2017-01-08 21:38:54,512] [ERROR] apk_report_run.py:111 4cd3023a1f4af7bb1710b82a9bd50daa
 Traceback (most recent call last):
@@ -3172,6 +3225,15 @@ Traceback (most recent call last):
   File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/axmlparserpy/apk.py", line 87, in save_copy_xml
     with open(path,'w+') as f:
 IOError: [Errno 2] No such file or directory: '/opt/smmc/apk_parse/apk_source/882937c986d998883a86e51d829a5d5a/AndroidManifest.xml'
+
+-------------------UnicodeDecodeError: 'utf8' codec can't decode byte 0xce in position 437: invalid continuation byte-----------------------
+[2017-02-17 13:12:08,434] [ERROR] apk_report_run.py:111 84f886fe7bf3ae6262d7a46cf617b6ce
+Traceback (most recent call last):
+  File "apk_report_run.py", line 99, in apk_analyze_run
+    apk_basic_obj.basic_info_collect()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/basic_info_sort.py", line 68, in basic_info_collect
+    out = self.apk_code + '|' + apk_file_name + '|' + md5 + '|' + sha1 + '|' + sha256  + '|' + sha512 + '|' + self.first_found_time + '|' + last_found_time + '|' + short_url + '|' + long_url + '|' + self.sms_content + '|' + virus_score + '|' + virus_grade + '|' + apk_analyze_run_time + '|' + min_sdk +   '|' + fit_sdk + '|' + init_ip + '|' + init_ip_attribution + '|' + target_ip + '|' + target_ip_attribution + '|' + str(apk_file_size) + '|' + str(apk_source_file_num) + '\n'
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xce in position 437: invalid continuation byte
 
 -------------------IOError: [Errno 2] No such file or directory: '/opt/smmc/apk_parse/apk_source/52ae62266c515d2ec2799615981c650a/AndroidManifest.xml'-----------------------
 [2017-01-10 11:17:55,419] [ERROR] apk_report_run.py:111 52ae62266c515d2ec2799615981c650a
@@ -5343,6 +5405,90 @@ Traceback (most recent call last):
     out = self.apk_code + '|' + apk_file_name + '|' + md5 + '|' + sha1 + '|' + sha256  + '|' + sha512 + '|' + self.first_found_time + '|' + last_found_time + '|' + short_url + '|' + long_url + '|' + self.sms_content + '|' + virus_score + '|' + virus_grade + '|' + apk_analyze_run_time + '|' + min_sdk +   '|' + fit_sdk + '|' + init_ip + '|' + init_ip_attribution + '|' + target_ip + '|' + target_ip_attribution + '|' + str(apk_file_size) + '|' + str(apk_source_file_num) + '\n'
 UnicodeDecodeError: 'utf8' codec can't decode byte 0xc4 in position 417: invalid continuation byte
 [2017-02-16 17:17:58,429] [ERROR] apk_report_run.py:111 bfd55ed24f97d134bc2b080e29b472d2
+Traceback (most recent call last):
+  File "apk_report_run.py", line 99, in apk_analyze_run
+    apk_basic_obj.basic_info_collect()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/basic_info_sort.py", line 68, in basic_info_collect
+    out = self.apk_code + '|' + apk_file_name + '|' + md5 + '|' + sha1 + '|' + sha256  + '|' + sha512 + '|' + self.first_found_time + '|' + last_found_time + '|' + short_url + '|' + long_url + '|' + self.sms_content + '|' + virus_score + '|' + virus_grade + '|' + apk_analyze_run_time + '|' + min_sdk +   '|' + fit_sdk + '|' + init_ip + '|' + init_ip_attribution + '|' + target_ip + '|' + target_ip_attribution + '|' + str(apk_file_size) + '|' + str(apk_source_file_num) + '\n'
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xc4 in position 417: invalid continuation byte
+[2017-02-16 19:14:51,970] [ERROR] apk_report_run.py:111 0f9cc181442525ea0338cb02373f578a
+Traceback (most recent call last):
+  File "apk_report_run.py", line 99, in apk_analyze_run
+    apk_basic_obj.basic_info_collect()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/basic_info_sort.py", line 68, in basic_info_collect
+    out = self.apk_code + '|' + apk_file_name + '|' + md5 + '|' + sha1 + '|' + sha256  + '|' + sha512 + '|' + self.first_found_time + '|' + last_found_time + '|' + short_url + '|' + long_url + '|' + self.sms_content + '|' + virus_score + '|' + virus_grade + '|' + apk_analyze_run_time + '|' + min_sdk +   '|' + fit_sdk + '|' + init_ip + '|' + init_ip_attribution + '|' + target_ip + '|' + target_ip_attribution + '|' + str(apk_file_size) + '|' + str(apk_source_file_num) + '\n'
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xc4 in position 417: invalid continuation byte
+[2017-02-16 21:48:26,455] [ERROR] apk_report_run.py:111 abe1d841c91253e215d1c51f6c52edf7
+Traceback (most recent call last):
+  File "apk_report_run.py", line 99, in apk_analyze_run
+    apk_basic_obj.basic_info_collect()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/basic_info_sort.py", line 68, in basic_info_collect
+    out = self.apk_code + '|' + apk_file_name + '|' + md5 + '|' + sha1 + '|' + sha256  + '|' + sha512 + '|' + self.first_found_time + '|' + last_found_time + '|' + short_url + '|' + long_url + '|' + self.sms_content + '|' + virus_score + '|' + virus_grade + '|' + apk_analyze_run_time + '|' + min_sdk +   '|' + fit_sdk + '|' + init_ip + '|' + init_ip_attribution + '|' + target_ip + '|' + target_ip_attribution + '|' + str(apk_file_size) + '|' + str(apk_source_file_num) + '\n'
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xc4 in position 417: invalid continuation byte
+[2017-02-16 22:08:49,658] [ERROR] apk_report_run.py:111 08a252463c3ee8c92447c18007a8fd51
+Traceback (most recent call last):
+  File "apk_report_run.py", line 99, in apk_analyze_run
+    apk_basic_obj.basic_info_collect()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/basic_info_sort.py", line 68, in basic_info_collect
+    out = self.apk_code + '|' + apk_file_name + '|' + md5 + '|' + sha1 + '|' + sha256  + '|' + sha512 + '|' + self.first_found_time + '|' + last_found_time + '|' + short_url + '|' + long_url + '|' + self.sms_content + '|' + virus_score + '|' + virus_grade + '|' + apk_analyze_run_time + '|' + min_sdk +   '|' + fit_sdk + '|' + init_ip + '|' + init_ip_attribution + '|' + target_ip + '|' + target_ip_attribution + '|' + str(apk_file_size) + '|' + str(apk_source_file_num) + '\n'
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xc4 in position 417: invalid continuation byte
+[2017-02-16 22:27:41,625] [ERROR] apk_report_run.py:111 d9db25589872dfca63330e730825453f
+Traceback (most recent call last):
+  File "apk_report_run.py", line 99, in apk_analyze_run
+    apk_basic_obj.basic_info_collect()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/basic_info_sort.py", line 68, in basic_info_collect
+    out = self.apk_code + '|' + apk_file_name + '|' + md5 + '|' + sha1 + '|' + sha256  + '|' + sha512 + '|' + self.first_found_time + '|' + last_found_time + '|' + short_url + '|' + long_url + '|' + self.sms_content + '|' + virus_score + '|' + virus_grade + '|' + apk_analyze_run_time + '|' + min_sdk +   '|' + fit_sdk + '|' + init_ip + '|' + init_ip_attribution + '|' + target_ip + '|' + target_ip_attribution + '|' + str(apk_file_size) + '|' + str(apk_source_file_num) + '\n'
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xc4 in position 417: invalid continuation byte
+[2017-02-17 06:58:56,991] [ERROR] apk_report_run.py:111 55fc97ba80dfd7622c3260abf2470189
+Traceback (most recent call last):
+  File "apk_report_run.py", line 99, in apk_analyze_run
+    apk_basic_obj.basic_info_collect()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/basic_info_sort.py", line 68, in basic_info_collect
+    out = self.apk_code + '|' + apk_file_name + '|' + md5 + '|' + sha1 + '|' + sha256  + '|' + sha512 + '|' + self.first_found_time + '|' + last_found_time + '|' + short_url + '|' + long_url + '|' + self.sms_content + '|' + virus_score + '|' + virus_grade + '|' + apk_analyze_run_time + '|' + min_sdk +   '|' + fit_sdk + '|' + init_ip + '|' + init_ip_attribution + '|' + target_ip + '|' + target_ip_attribution + '|' + str(apk_file_size) + '|' + str(apk_source_file_num) + '\n'
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xc4 in position 417: invalid continuation byte
+[2017-02-17 07:17:47,576] [ERROR] apk_report_run.py:111 5610f7cca1d710510910883862f9ebe0
+Traceback (most recent call last):
+  File "apk_report_run.py", line 99, in apk_analyze_run
+    apk_basic_obj.basic_info_collect()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/basic_info_sort.py", line 68, in basic_info_collect
+    out = self.apk_code + '|' + apk_file_name + '|' + md5 + '|' + sha1 + '|' + sha256  + '|' + sha512 + '|' + self.first_found_time + '|' + last_found_time + '|' + short_url + '|' + long_url + '|' + self.sms_content + '|' + virus_score + '|' + virus_grade + '|' + apk_analyze_run_time + '|' + min_sdk +   '|' + fit_sdk + '|' + init_ip + '|' + init_ip_attribution + '|' + target_ip + '|' + target_ip_attribution + '|' + str(apk_file_size) + '|' + str(apk_source_file_num) + '\n'
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xc4 in position 417: invalid continuation byte
+[2017-02-17 07:55:05,242] [ERROR] apk_report_run.py:111 b714a5a9432c248f1471873c20d793fd
+Traceback (most recent call last):
+  File "apk_report_run.py", line 99, in apk_analyze_run
+    apk_basic_obj.basic_info_collect()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/basic_info_sort.py", line 68, in basic_info_collect
+    out = self.apk_code + '|' + apk_file_name + '|' + md5 + '|' + sha1 + '|' + sha256  + '|' + sha512 + '|' + self.first_found_time + '|' + last_found_time + '|' + short_url + '|' + long_url + '|' + self.sms_content + '|' + virus_score + '|' + virus_grade + '|' + apk_analyze_run_time + '|' + min_sdk +   '|' + fit_sdk + '|' + init_ip + '|' + init_ip_attribution + '|' + target_ip + '|' + target_ip_attribution + '|' + str(apk_file_size) + '|' + str(apk_source_file_num) + '\n'
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xc4 in position 417: invalid continuation byte
+[2017-02-17 10:08:53,481] [ERROR] apk_report_run.py:111 3c7ec616507c5c81674b83e5bf1d4f7d
+Traceback (most recent call last):
+  File "apk_report_run.py", line 99, in apk_analyze_run
+    apk_basic_obj.basic_info_collect()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/basic_info_sort.py", line 68, in basic_info_collect
+    out = self.apk_code + '|' + apk_file_name + '|' + md5 + '|' + sha1 + '|' + sha256  + '|' + sha512 + '|' + self.first_found_time + '|' + last_found_time + '|' + short_url + '|' + long_url + '|' + self.sms_content + '|' + virus_score + '|' + virus_grade + '|' + apk_analyze_run_time + '|' + min_sdk +   '|' + fit_sdk + '|' + init_ip + '|' + init_ip_attribution + '|' + target_ip + '|' + target_ip_attribution + '|' + str(apk_file_size) + '|' + str(apk_source_file_num) + '\n'
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xc4 in position 417: invalid continuation byte
+[2017-02-17 12:33:18,499] [ERROR] apk_report_run.py:111 c88f768606aaae11dea0b5d869989480
+Traceback (most recent call last):
+  File "apk_report_run.py", line 99, in apk_analyze_run
+    apk_basic_obj.basic_info_collect()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/basic_info_sort.py", line 68, in basic_info_collect
+    out = self.apk_code + '|' + apk_file_name + '|' + md5 + '|' + sha1 + '|' + sha256  + '|' + sha512 + '|' + self.first_found_time + '|' + last_found_time + '|' + short_url + '|' + long_url + '|' + self.sms_content + '|' + virus_score + '|' + virus_grade + '|' + apk_analyze_run_time + '|' + min_sdk +   '|' + fit_sdk + '|' + init_ip + '|' + init_ip_attribution + '|' + target_ip + '|' + target_ip_attribution + '|' + str(apk_file_size) + '|' + str(apk_source_file_num) + '\n'
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xc4 in position 417: invalid continuation byte
+[2017-02-17 12:53:30,863] [ERROR] apk_report_run.py:111 31172b87b2064c92eb4613b9bad19982
+Traceback (most recent call last):
+  File "apk_report_run.py", line 99, in apk_analyze_run
+    apk_basic_obj.basic_info_collect()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/basic_info_sort.py", line 68, in basic_info_collect
+    out = self.apk_code + '|' + apk_file_name + '|' + md5 + '|' + sha1 + '|' + sha256  + '|' + sha512 + '|' + self.first_found_time + '|' + last_found_time + '|' + short_url + '|' + long_url + '|' + self.sms_content + '|' + virus_score + '|' + virus_grade + '|' + apk_analyze_run_time + '|' + min_sdk +   '|' + fit_sdk + '|' + init_ip + '|' + init_ip_attribution + '|' + target_ip + '|' + target_ip_attribution + '|' + str(apk_file_size) + '|' + str(apk_source_file_num) + '\n'
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xc4 in position 417: invalid continuation byte
+[2017-02-17 13:14:11,676] [ERROR] apk_report_run.py:111 4407fa102993accc30df983e30562f39
+Traceback (most recent call last):
+  File "apk_report_run.py", line 99, in apk_analyze_run
+    apk_basic_obj.basic_info_collect()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/basic_info_sort.py", line 68, in basic_info_collect
+    out = self.apk_code + '|' + apk_file_name + '|' + md5 + '|' + sha1 + '|' + sha256  + '|' + sha512 + '|' + self.first_found_time + '|' + last_found_time + '|' + short_url + '|' + long_url + '|' + self.sms_content + '|' + virus_score + '|' + virus_grade + '|' + apk_analyze_run_time + '|' + min_sdk +   '|' + fit_sdk + '|' + init_ip + '|' + init_ip_attribution + '|' + target_ip + '|' + target_ip_attribution + '|' + str(apk_file_size) + '|' + str(apk_source_file_num) + '\n'
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xc4 in position 417: invalid continuation byte
+[2017-02-17 14:36:57,135] [ERROR] apk_report_run.py:111 002302e087b330c018805221ee0d7f37
 Traceback (most recent call last):
   File "apk_report_run.py", line 99, in apk_analyze_run
     apk_basic_obj.basic_info_collect()
@@ -8770,6 +8916,82 @@ Traceback (most recent call last):
     raise BadZipfile, "File is not a zip file"
 BadZipfile: File is not a zip file
 [2017-02-16 17:52:53,537] [ERROR] apk_report_run.py:111 a02ab0590128f82eadd28b38b56c4364
+Traceback (most recent call last):
+  File "apk_report_run.py", line 89, in apk_analyze_run
+    apk_report.run()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 53, in run
+    self.parser_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 45, in parser_xml
+    obj2 = XmlParser(self.apk_path,self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 16, in __init__
+    self.get_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 20, in get_xml
+    obj = APK(self.apk_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/axmlparserpy/apk.py", line 65, in __init__
+    self.zip = zipfile.ZipFile(StringIO.StringIO(self.__raw))
+  File "/usr/local/python27/lib/python2.7/zipfile.py", line 766, in __init__
+    self._RealGetContents()
+  File "/usr/local/python27/lib/python2.7/zipfile.py", line 807, in _RealGetContents
+    raise BadZipfile, "File is not a zip file"
+BadZipfile: File is not a zip file
+[2017-02-16 18:40:35,052] [ERROR] apk_report_run.py:111 7b030acdde76e0e4d01713657b1d0c45
+Traceback (most recent call last):
+  File "apk_report_run.py", line 89, in apk_analyze_run
+    apk_report.run()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 53, in run
+    self.parser_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 45, in parser_xml
+    obj2 = XmlParser(self.apk_path,self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 16, in __init__
+    self.get_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 20, in get_xml
+    obj = APK(self.apk_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/axmlparserpy/apk.py", line 65, in __init__
+    self.zip = zipfile.ZipFile(StringIO.StringIO(self.__raw))
+  File "/usr/local/python27/lib/python2.7/zipfile.py", line 766, in __init__
+    self._RealGetContents()
+  File "/usr/local/python27/lib/python2.7/zipfile.py", line 807, in _RealGetContents
+    raise BadZipfile, "File is not a zip file"
+BadZipfile: File is not a zip file
+[2017-02-16 21:30:21,446] [ERROR] apk_report_run.py:111 9bcd3b5786d392ddb83026480c84839d
+Traceback (most recent call last):
+  File "apk_report_run.py", line 89, in apk_analyze_run
+    apk_report.run()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 53, in run
+    self.parser_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 45, in parser_xml
+    obj2 = XmlParser(self.apk_path,self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 16, in __init__
+    self.get_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 20, in get_xml
+    obj = APK(self.apk_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/axmlparserpy/apk.py", line 65, in __init__
+    self.zip = zipfile.ZipFile(StringIO.StringIO(self.__raw))
+  File "/usr/local/python27/lib/python2.7/zipfile.py", line 766, in __init__
+    self._RealGetContents()
+  File "/usr/local/python27/lib/python2.7/zipfile.py", line 807, in _RealGetContents
+    raise BadZipfile, "File is not a zip file"
+BadZipfile: File is not a zip file
+[2017-02-17 11:16:27,673] [ERROR] apk_report_run.py:111 45491b6bebd02efc4a262f50ee7c8a0b
+Traceback (most recent call last):
+  File "apk_report_run.py", line 89, in apk_analyze_run
+    apk_report.run()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 53, in run
+    self.parser_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 45, in parser_xml
+    obj2 = XmlParser(self.apk_path,self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 16, in __init__
+    self.get_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 20, in get_xml
+    obj = APK(self.apk_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/axmlparserpy/apk.py", line 65, in __init__
+    self.zip = zipfile.ZipFile(StringIO.StringIO(self.__raw))
+  File "/usr/local/python27/lib/python2.7/zipfile.py", line 766, in __init__
+    self._RealGetContents()
+  File "/usr/local/python27/lib/python2.7/zipfile.py", line 807, in _RealGetContents
+    raise BadZipfile, "File is not a zip file"
+BadZipfile: File is not a zip file
+[2017-02-17 14:41:14,593] [ERROR] apk_report_run.py:111 c27c9b13a527b1f03f2f6d914f55050e
 Traceback (most recent call last):
   File "apk_report_run.py", line 89, in apk_analyze_run
     apk_report.run()

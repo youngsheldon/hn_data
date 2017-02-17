@@ -1,0 +1,30 @@
+--2017-02-17 04:37:17--  http://ljobs.info/cct
+Resolving ljobs.info... 43.230.114.15
+Connecting to ljobs.info|43.230.114.15|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://ljobs.info/cct/ [following]
+--2017-02-17 04:37:18--  http://ljobs.info/cct/
+Reusing existing connection to ljobs.info:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 340 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 24.9M=0s
+
+2017-02-17 04:37:19 (24.9 MB/s) - `index.html' saved [340/340]
+
+=======================The second times wget =====================
+--2017-02-17 04:37:19--  http://ljobs.info/cct/%C2%BC%CF%F1.apk
+Resolving ljobs.info... 43.230.114.15
+Connecting to ljobs.info|43.230.114.15|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 201062 (196K) [application/vnd.android.package-archive]
+Saving to: `Â¼Ïñ.apk'
+
+     0K .......... .......... .......... .......... .......... 25% 73.6K 2s
+    50K .......... .......... .......... .......... .......... 50%  298K 1s
+   100K .......... .......... .......... .......... .......... 76%  610K 0s
+   150K .......... .......... .......... .......... ......    100%  464K=1.0s
+
+2017-02-17 04:37:21 (191 KB/s) - `Â¼Ïñ.apk' saved [201062/201062]
+
