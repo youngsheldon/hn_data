@@ -1,0 +1,35 @@
+--2017-02-18 17:22:51--  http://m.le.com/vplay_20433179.html
+Resolving m.le.com... 36.110.222.247
+Connecting to m.le.com|36.110.222.247|:80... connected.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: http://www.le.com/ptv/vplay/20433179.html [following]
+--2017-02-18 17:22:56--  http://www.le.com/ptv/vplay/20433179.html
+Resolving www.le.com... 218.76.94.67, 218.75.225.80, 222.243.110.164, ...
+Connecting to www.le.com|218.76.94.67|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 55231 (54K) [text/html]
+Saving to: `20433179.html'
+
+     0K .......... .......... .......... .......... .......... 92% 1.06M 0s
+    50K ...                                                   100% 15.8M=0.05s
+
+2017-02-18 17:22:57 (1.14 MB/s) - `20433179.html' saved [55231/55231]
+
+=======================The second times wget =====================
+--2017-02-18 17:22:57--  http://m.le.com/vplay_20433179.html///app.m.le.com/android/index.php?mod=stat&ctl=download&act=add&report=1&pcode=010110000.apk
+Resolving m.le.com... 36.110.222.247
+Connecting to m.le.com|36.110.222.247|:80... connected.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: http://www.le.com/ptv/vplay/20433179.html?mod=stat&ctl=download&act=add&report=1&pcode=010110000.apk [following]
+--2017-02-18 17:22:58--  http://www.le.com/ptv/vplay/20433179.html?mod=stat&ctl=download&act=add&report=1&pcode=010110000.apk
+Resolving www.le.com... 222.243.110.164, 218.77.2.83, 218.75.225.80, ...
+Connecting to www.le.com|222.243.110.164|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 55231 (54K) [text/html]
+Saving to: `20433179.html?mod=stat&ctl=download&act=add&report=1&pcode=010110000.apk'
+
+     0K .......... .......... .......... .......... .......... 92% 33.3K 0s
+    50K ...                                                   100% 24.5K=1.7s
+
+2017-02-18 17:23:10 (32.5 KB/s) - `20433179.html?mod=stat&ctl=download&act=add&report=1&pcode=010110000.apk' saved [55231/55231]
+

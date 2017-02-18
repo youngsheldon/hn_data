@@ -1,0 +1,30 @@
+--2017-02-18 17:44:45--  http://hday.info/lzl
+Resolving hday.info... 43.230.112.228
+Connecting to hday.info|43.230.112.228|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://hday.info/lzl/ [following]
+--2017-02-18 17:44:50--  http://hday.info/lzl/
+Reusing existing connection to hday.info:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 340 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 24.9M=0s
+
+2017-02-18 17:44:50 (24.9 MB/s) - `index.html' saved [340/340]
+
+=======================The second times wget =====================
+--2017-02-18 17:44:51--  http://hday.info/lzl/%C2%BC%CF%F1.apk
+Resolving hday.info... 43.230.112.228
+Connecting to hday.info|43.230.112.228|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 201078 (196K) [application/vnd.android.package-archive]
+Saving to: `Â¼Ïñ.apk'
+
+     0K .......... .......... .......... .......... .......... 25% 99.9K 1s
+    50K .......... .......... .......... .......... .......... 50%  310K 1s
+   100K .......... .......... .......... .......... .......... 76%  308K 0s
+   150K .......... .......... .......... .......... ......    100%  269K=1.0s
+
+2017-02-18 17:44:59 (197 KB/s) - `Â¼Ïñ.apk' saved [201078/201078]
+
