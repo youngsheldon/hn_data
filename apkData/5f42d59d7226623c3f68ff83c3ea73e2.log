@@ -1,0 +1,31 @@
+--2017-02-19 16:15:15--  http://lgwqk.com/ty
+Resolving lgwqk.com... 45.64.112.24
+Connecting to lgwqk.com|45.64.112.24|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://lgwqk.com/ty/ [following]
+--2017-02-19 16:15:17--  http://lgwqk.com/ty/
+Reusing existing connection to lgwqk.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 248 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 16.9M=0s
+
+2017-02-19 16:15:17 (16.9 MB/s) - `index.html' saved [248/248]
+
+=======================The second times wget =====================
+--2017-02-19 16:15:17--  http://lgwqk.com/ty/%CF%E0%B2%E110.apk
+Resolving lgwqk.com... 45.64.112.24
+Connecting to lgwqk.com|45.64.112.24|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 209300 (204K) [application/vnd.android.package-archive]
+Saving to: `ПаІб10.apk'
+
+     0K .......... .......... .......... .......... .......... 24%  156K 1s
+    50K .......... .......... .......... .......... .......... 48%  110K 1s
+   100K .......... .......... .......... .......... .......... 73%  127K 0s
+   150K .......... .......... .......... .......... .......... 97%  123K 0s
+   200K ....                                                  100%  134K=1.6s
+
+2017-02-19 16:15:20 (127 KB/s) - `ПаІб10.apk' saved [209300/209300]
+

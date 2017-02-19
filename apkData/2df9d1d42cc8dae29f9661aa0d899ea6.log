@@ -1,0 +1,38 @@
+--2017-02-19 05:03:16--  http://hhost.info/hg
+Resolving hhost.info... 43.230.113.39
+Connecting to hhost.info|43.230.113.39|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: /hg?WebShieldDRSessionVerify=f3cDlS1OpHe3PscchaD5 [following]
+--2017-02-19 05:03:19--  http://hhost.info/hg?WebShieldDRSessionVerify=f3cDlS1OpHe3PscchaD5
+Connecting to hhost.info|43.230.113.39|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: /hg [following]
+--2017-02-19 05:03:19--  http://hhost.info/hg
+Connecting to hhost.info|43.230.113.39|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://hhost.info/hg/ [following]
+--2017-02-19 05:03:20--  http://hhost.info/hg/
+Reusing existing connection to hhost.info:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 340 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 23.2M=0s
+
+2017-02-19 05:03:20 (23.2 MB/s) - `index.html' saved [340/340]
+
+=======================The second times wget =====================
+--2017-02-19 05:03:20--  http://hhost.info/hg/%C2%BC%CF%F1.apk
+Resolving hhost.info... 43.230.113.39
+Connecting to hhost.info|43.230.113.39|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 201053 (196K) [application/vnd.android.package-archive]
+Saving to: `Â¼Ïñ.apk'
+
+     0K .......... .......... .......... .......... .......... 25% 70.8K 2s
+    50K .......... .......... .......... .......... .......... 50%  286K 1s
+   100K .......... .......... .......... .......... .......... 76%  287K 0s
+   150K .......... .......... .......... .......... ......    100% 5.10M=1.1s
+
+2017-02-19 05:03:21 (185 KB/s) - `Â¼Ïñ.apk' saved [201053/201053]
+
