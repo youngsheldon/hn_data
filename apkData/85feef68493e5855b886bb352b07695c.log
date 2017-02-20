@@ -1,0 +1,28 @@
+--2017-02-20 08:59:02--  http://123.60.159.67/Xsp
+Connecting to 123.60.159.67:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://123.60.159.67/Xsp/ [following]
+--2017-02-20 08:59:02--  http://123.60.159.67/Xsp/
+Reusing existing connection to 123.60.159.67:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 738 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 58.7M=0s
+
+2017-02-20 08:59:02 (58.7 MB/s) - `index.html' saved [738/738]
+
+=======================The second times wget =====================
+--2017-02-20 08:59:02--  http://123.60.159.67/Xsp/%E8%A7%86%E9%A2%91.apk
+Connecting to 123.60.159.67:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 201073 (196K) [application/vnd.android]
+Saving to: `è§%86é¢%91.apk'
+
+     0K .......... .......... .......... .......... .......... 25%  360K 0s
+    50K .......... .......... .......... .......... .......... 50% 1.55M 0s
+   100K .......... .......... .......... .......... .......... 76% 4.12M 0s
+   150K .......... .......... .......... .......... ......    100% 1.87M=0.2s
+
+2017-02-20 08:59:02 (950 KB/s) - `è§%86é¢%91.apk' saved [201073/201073]
+

@@ -1,0 +1,31 @@
+--2017-02-20 09:46:10--  http://dkxpn.com/pop
+Resolving dkxpn.com... 103.215.81.25
+Connecting to dkxpn.com|103.215.81.25|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://dkxpn.com/pop/ [following]
+--2017-02-20 09:46:14--  http://dkxpn.com/pop/
+Reusing existing connection to dkxpn.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 247 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 13.9M=0s
+
+2017-02-20 09:46:14 (13.9 MB/s) - `index.html' saved [247/247]
+
+=======================The second times wget =====================
+--2017-02-20 09:46:14--  http://dkxpn.com/pop/%CF%E0%B2%E15.apk
+Resolving dkxpn.com... 103.215.81.25
+Connecting to dkxpn.com|103.215.81.25|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 209291 (204K) [application/vnd.android.package-archive]
+Saving to: `ПаІб5.apk'
+
+     0K .......... .......... .......... .......... .......... 24%  149K 1s
+    50K .......... .......... .......... .......... .......... 48%  110K 1s
+   100K .......... .......... .......... .......... .......... 73%  119K 0s
+   150K .......... .......... .......... .......... .......... 97%  128K 0s
+   200K ....                                                  100%  140K=1.6s
+
+2017-02-20 09:46:20 (125 KB/s) - `ПаІб5.apk' saved [209291/209291]
+

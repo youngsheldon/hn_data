@@ -1,0 +1,31 @@
+--2017-02-20 14:29:49--  http://spnkg.com/K0
+Resolving spnkg.com... 118.184.15.122
+Connecting to spnkg.com|118.184.15.122|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://spnkg.com/K0/ [following]
+--2017-02-20 14:29:51--  http://spnkg.com/K0/
+Reusing existing connection to spnkg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 254 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 22.0M=0s
+
+2017-02-20 14:29:51 (22.0 MB/s) - `index.html' saved [254/254]
+
+=======================The second times wget =====================
+--2017-02-20 14:29:51--  http://spnkg.com/K0/%E6%A0%A1%E5%9B%AD%E9%80%9A.apk
+Resolving spnkg.com... 118.184.15.122
+Connecting to spnkg.com|118.184.15.122|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 226455 (221K) [.apk]
+Saving to: `æ ¡å%9B­é%80%9A.apk'
+
+     0K .......... .......... .......... .......... .......... 22%  163K 1s
+    50K .......... .......... .......... .......... .......... 45%  913K 0s
+   100K .......... .......... .......... .......... .......... 67%  190K 0s
+   150K .......... .......... .......... .......... .......... 90% 83.3K 0s
+   200K .......... .......... .                               100% 27.4K=2.0s
+
+2017-02-20 14:29:53 (111 KB/s) - `æ ¡å%9B­é%80%9A.apk' saved [226455/226455]
+

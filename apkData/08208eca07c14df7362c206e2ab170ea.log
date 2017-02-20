@@ -1,0 +1,30 @@
+--2017-02-19 21:33:00--  http://afafg.com/xnh
+Resolving afafg.com... 192.151.150.180
+Connecting to afafg.com|192.151.150.180|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://afafg.com/xnh/ [following]
+--2017-02-19 21:33:19--  http://afafg.com/xnh/
+Reusing existing connection to afafg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 765 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 45.6M=0s
+
+2017-02-19 21:33:20 (45.6 MB/s) - `index.html' saved [765/765]
+
+=======================The second times wget =====================
+--2017-02-19 21:33:20--  http://afafg.com/xnh/%E8%A7%86%E9%A2%91.apk
+Resolving afafg.com... 192.151.150.180
+Connecting to afafg.com|192.151.150.180|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 201080 (196K) [application/vnd.android.package-archive]
+Saving to: `è§%86é¢%91.apk'
+
+     0K .......... .......... .......... .......... .......... 25% 71.9K 2s
+    50K .......... .......... .......... .......... .......... 50%  196K 1s
+   100K .......... .......... .......... .......... .......... 76%  209K 0s
+   150K .......... .......... .......... .......... ......    100%  109K=1.6s
+
+2017-02-19 21:33:30 (122 KB/s) - `è§%86é¢%91.apk' saved [201080/201080]
+
