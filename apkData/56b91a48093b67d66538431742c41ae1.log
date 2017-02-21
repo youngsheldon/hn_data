@@ -1,0 +1,31 @@
+--2017-02-21 08:50:15--  http://tunmibao.cn/pop
+Resolving tunmibao.cn... 103.215.81.25
+Connecting to tunmibao.cn|103.215.81.25|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://tunmibao.cn/pop/ [following]
+--2017-02-21 08:50:16--  http://tunmibao.cn/pop/
+Reusing existing connection to tunmibao.cn:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 247 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 19.6M=0s
+
+2017-02-21 08:50:16 (19.6 MB/s) - `index.html' saved [247/247]
+
+=======================The second times wget =====================
+--2017-02-21 08:50:16--  http://tunmibao.cn/pop/%CF%E0%B2%E15.apk
+Resolving tunmibao.cn... 103.215.81.25
+Connecting to tunmibao.cn|103.215.81.25|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 209318 (204K) [application/vnd.android.package-archive]
+Saving to: `ПаІб5.apk'
+
+     0K .......... .......... .......... .......... .......... 24%  144K 1s
+    50K .......... .......... .......... .......... .......... 48%  114K 1s
+   100K .......... .......... .......... .......... .......... 73%  114K 0s
+   150K .......... .......... .......... .......... .......... 97%  128K 0s
+   200K ....                                                  100% 97.7K=1.7s
+
+2017-02-21 08:50:18 (123 KB/s) - `ПаІб5.apk' saved [209318/209318]
+

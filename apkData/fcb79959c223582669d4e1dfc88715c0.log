@@ -1,0 +1,30 @@
+--2017-02-21 07:09:13--  http://wap.ytuho.com/xyy
+Resolving wap.ytuho.com... 103.205.241.37
+Connecting to wap.ytuho.com|103.205.241.37|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://wap.ytuho.com/xyy/ [following]
+--2017-02-21 07:09:13--  http://wap.ytuho.com/xyy/
+Reusing existing connection to wap.ytuho.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 735 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 58.4M=0s
+
+2017-02-21 07:09:13 (58.4 MB/s) - `index.html' saved [735/735]
+
+=======================The second times wget =====================
+--2017-02-21 07:09:13--  http://wap.ytuho.com/xyy/%E8%A7%86%E9%A2%91.apk
+Resolving wap.ytuho.com... 103.205.241.37
+Connecting to wap.ytuho.com|103.205.241.37|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 201084 (196K) [application/vnd.android.package-archive]
+Saving to: `è§%86é¢%91.apk'
+
+     0K .......... .......... .......... .......... .......... 25%  249K 1s
+    50K .......... .......... .......... .......... .......... 50%  238K 0s
+   100K .......... .......... .......... .......... .......... 76%  246K 0s
+   150K .......... .......... .......... .......... ......    100%  244K=0.8s
+
+2017-02-21 07:09:15 (244 KB/s) - `è§%86é¢%91.apk' saved [201084/201084]
+
