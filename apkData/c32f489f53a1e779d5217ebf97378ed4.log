@@ -1,0 +1,30 @@
+--2017-02-22 14:10:56--  http://xuaet.pw/aa
+Resolving xuaet.pw... 174.139.243.27
+Connecting to xuaet.pw|174.139.243.27|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://xuaet.pw/aa/ [following]
+--2017-02-22 14:11:00--  http://xuaet.pw/aa/
+Reusing existing connection to xuaet.pw:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 251 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 17.1M=0s
+
+2017-02-22 14:11:00 (17.1 MB/s) - `index.html' saved [251/251]
+
+=======================The second times wget =====================
+--2017-02-22 14:11:00--  http://xuaet.pw/aa/%E5%BD%95%E5%83%8F.apk
+Resolving xuaet.pw... 174.139.243.27
+Connecting to xuaet.pw|174.139.243.27|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 201085 (196K) [application/vnd.android.package-archive]
+Saving to: `å½%95å%83%8F.apk'
+
+     0K .......... .......... .......... .......... .......... 25% 31.4K 5s
+    50K .......... .......... .......... .......... .......... 50% 23.7K 4s
+   100K .......... .......... .......... .......... .......... 76% 15.7K 2s
+   150K .......... .....                                       84% 1.23K=19s
+
+2017-02-22 14:11:40 (8.49 KB/s) - Read error at byte 169470/201085 (Connection timed out). Giving up.
+

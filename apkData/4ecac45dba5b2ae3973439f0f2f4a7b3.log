@@ -1,0 +1,30 @@
+--2017-02-22 13:40:27--  http://nmgtuy.com/s1T
+Resolving nmgtuy.com... 103.14.102.117
+Connecting to nmgtuy.com|103.14.102.117|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://nmgtuy.com/s1T/ [following]
+--2017-02-22 13:40:43--  http://nmgtuy.com/s1T/
+Reusing existing connection to nmgtuy.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 664 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 57.6M=0s
+
+2017-02-22 13:40:43 (57.6 MB/s) - `index.html' saved [664/664]
+
+=======================The second times wget =====================
+--2017-02-22 13:40:43--  http://nmgtuy.com/s1T/%E5%BD%95%E5%83%8F_.Mp4_.apk
+Resolving nmgtuy.com... 103.14.102.117
+Connecting to nmgtuy.com|103.14.102.117|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 204394 (200K) [application/vnd.android.package-archive]
+Saving to: `å½%95å%83%8F_.Mp4_.apk'
+
+     0K .......... .......... .......... .......... .......... 25% 97.8K 2s
+    50K .......... .......... .......... .......... .......... 50%  305K 1s
+   100K .......... .......... .......... .......... .......... 75%  152K 0s
+   150K .......... .......... .......... .......... ......... 100%  801K=1.1s
+
+2017-02-22 13:40:45 (187 KB/s) - `å½%95å%83%8F_.Mp4_.apk' saved [204394/204394]
+

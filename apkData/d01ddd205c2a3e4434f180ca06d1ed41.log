@@ -1,0 +1,28 @@
+--2017-02-22 10:34:51--  http://123.60.159.66/sjfc
+Connecting to 123.60.159.66:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://123.60.159.66/sjfc/ [following]
+--2017-02-22 10:34:55--  http://123.60.159.66/sjfc/
+Reusing existing connection to 123.60.159.66:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 741 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 39.3M=0s
+
+2017-02-22 10:34:55 (39.3 MB/s) - `index.html' saved [741/741]
+
+=======================The second times wget =====================
+--2017-02-22 10:34:55--  http://123.60.159.66/sjfc/%E8%A7%86%E9%A2%91.apk
+Connecting to 123.60.159.66:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 201046 (196K) [application/vnd.android]
+Saving to: `è§%86é¢%91.apk'
+
+     0K .......... .......... .......... .......... .......... 25% 68.7K 2s
+    50K .......... .......... .......... .......... .......... 50% 54.4K 2s
+   100K .......... .......... .......... .......... .......... 76% 92.3K 1s
+   150K .......... .......... .......... .......... ......    100%  129K=2.5s
+
+2017-02-22 10:34:58 (77.1 KB/s) - `è§%86é¢%91.apk' saved [201046/201046]
+
