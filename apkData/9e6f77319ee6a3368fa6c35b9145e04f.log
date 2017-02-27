@@ -1,0 +1,30 @@
+--2017-02-27 01:44:29--  http://tsports.info/mun
+Resolving tsports.info... 43.230.112.70
+Connecting to tsports.info|43.230.112.70|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://tsports.info/mun/ [following]
+--2017-02-27 01:44:34--  http://tsports.info/mun/
+Reusing existing connection to tsports.info:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 340 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 29.5M=0s
+
+2017-02-27 01:44:34 (29.5 MB/s) - `index.html' saved [340/340]
+
+=======================The second times wget =====================
+--2017-02-27 01:44:34--  http://tsports.info/mun/%C2%BC%CF%F1.apk
+Resolving tsports.info... 43.230.112.70
+Connecting to tsports.info|43.230.112.70|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 201066 (196K) [application/vnd.android.package-archive]
+Saving to: `Â¼Ïñ.apk'
+
+     0K .......... .......... .......... .......... .......... 25% 69.6K 2s
+    50K .......... .......... .......... .......... .......... 50%  277K 1s
+   100K .......... .......... .......... .......... .......... 76%  291K 0s
+   150K .......... .......... .......... .......... ......    100% 2.69M=1.1s
+
+2017-02-27 01:44:41 (181 KB/s) - `Â¼Ïñ.apk' saved [201066/201066]
+
