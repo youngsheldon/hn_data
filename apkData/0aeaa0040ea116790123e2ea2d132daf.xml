@@ -1,0 +1,1198 @@
+<manifest
+    android:versionCode=<0x32, type 0x10>
+    android:versionName="3.5.2"
+    package="com.creditease.zhiwang"
+    platformBuildVersionCode=<0x19, type 0x10>
+    platformBuildVersionName="7.1.1"
+    >
+    <uses-sdk
+        android:minSdkVersion=<0x9, type 0x10>
+        android:targetSdkVersion=<0x19, type 0x10>
+        >
+    </uses-sdk>
+    <uses-permission
+        android:name="com.android.launcher.permission.INSTALL_SHORTCUT"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.VIBRATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_LOGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_BOOT_COMPLETED"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.DISABLE_KEYGUARD"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.GET_TASKS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.BROADCAST_STICKY"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.REQUEST_INSTALL_PACKAGES"
+        >
+    </uses-permission>
+    <permission
+        android:name="com.creditease.zhiwang.permission.JPUSH_MESSAGE"
+        android:protectionLevel=<0x2, type 0x11>
+        >
+    </permission>
+    <uses-permission
+        android:name="com.creditease.zhiwang.permission.JPUSH_MESSAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_USER_PRESENT"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WAKE_LOCK"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.MODIFY_AUDIO_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.SYSTEM_ALERT_WINDOW"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECORD_AUDIO"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <application
+        android:theme=<0x7F0B00E1, type 0x01>
+        android:label=<0x7F09005B, type 0x01>
+        android:icon=<0x7F030000, type 0x01>
+        android:name="com.creditease.zhiwang.QxfApplication"
+        android:allowBackup=<0xFFFFFFFF, type 0x12>
+        android:supportsRtl=<0xFFFFFFFF, type 0x12>
+        >
+        <activity
+            android:name="com.creditease.zhiwang.activity.TabContainerActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:exported=<0x0, type 0x12>
+            android:authorities="com.creditease.zhiwang.fileprovider"
+            android:grantUriPermissions=<0xFFFFFFFF, type 0x12>
+            >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource=<0x7F070000, type 0x01>
+                >
+            </meta-data>
+        </provider>
+        <activity
+            android:theme=<0x7F0B013D, type 0x01>
+            android:name="com.creditease.zhiwang.activity.SplashActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.LAUNCHER"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                android:autoVerify=<0xFFFFFFFF, type 0x12>
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="http"
+                    android:host="www.91zhiwang.com"
+                    android:pathPrefix="/back_to_app"
+                    >
+                </data>
+                <data
+                    android:scheme="https"
+                    android:host="www.91zhiwang.com"
+                    android:pathPrefix="/back_to_app"
+                    >
+                </data>
+                <data
+                    android:scheme="http"
+                    android:host="zhiwang.yixin.com"
+                    android:pathPrefix="/back_to_app"
+                    >
+                </data>
+                <data
+                    android:scheme="https"
+                    android:host="zhiwang.yixin.com"
+                    android:pathPrefix="/back_to_app"
+                    >
+                </data>
+                <data
+                    android:scheme="https"
+                    android:host="91zhiwang.com"
+                    android:pathPrefix="/p1"
+                    >
+                </data>
+                <data
+                    android:scheme="https"
+                    android:host="91zhiwang.com"
+                    android:pathPrefix="/p2"
+                    >
+                </data>
+                <data
+                    android:scheme="https"
+                    android:host="91zhiwang.com"
+                    android:pathPrefix="/p3"
+                    >
+                </data>
+                <data
+                    android:scheme="https"
+                    android:host="91zhiwang.com"
+                    android:pathPrefix="/p4"
+                    >
+                </data>
+                <data
+                    android:scheme="https"
+                    android:host="91zhiwang.com"
+                    android:pathPrefix="/pl"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label=<0x7F09007F, type 0x01>
+            android:name="com.creditease.zhiwang.activity.buy.FirstBuyGuideActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090219, type 0x01>
+            android:name="com.creditease.zhiwang.activity.result.SuiXBResultActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0901DB, type 0x01>
+            android:name="com.creditease.zhiwang.activity.asset.suixinbao.SuiXBRedeemActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F09021A, type 0x01>
+            android:name="com.creditease.zhiwang.activity.asset.suixinbao.SuiXBAssetActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090169, type 0x01>
+            android:name="com.creditease.zhiwang.activity.asset.ModifyPaybackAccountActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090116, type 0x01>
+            android:name="com.creditease.zhiwang.activity.asset.fund.FundAutoInvestListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090120, type 0x01>
+            android:name="com.creditease.zhiwang.activity.asset.fund.FundAutoInvestPlanDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.creditease.zhiwang.activity.asset.YZLAssetDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.creditease.zhiwang.activity.buy.FirstBuyZQBActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.creditease.zhiwang.activity.buy.FirstBuyLiquidateActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0148, type 0x01>
+            android:name="com.creditease.zhiwang.activity.buy.fund.FirstBuyFundActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x24, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.creditease.zhiwang.activity.result.LiquidateResultActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.creditease.zhiwang.activity.asset.ZQBPaybackDetailListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.creditease.zhiwang.activity.asset.LiquidateActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.creditease.zhiwang.activity.asset.ZQBAssetDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090250, type 0x01>
+            android:name="com.creditease.zhiwang.activity.lock.CreateVoiceLockActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.creditease.zhiwang.activity.lock.VerifyVoiceLockActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.creditease.zhiwang.activity.asset.JiejiegaoAssetActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.creditease.zhiwang.activity.asset.fund.FundAssetDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0901DB, type 0x01>
+            android:name="com.creditease.zhiwang.activity.asset.fund.FundRedeemActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0901DD, type 0x01>
+            android:name="com.creditease.zhiwang.activity.result.FundRedeemSuccessActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.creditease.zhiwang.activity.asset.JiejiegaoRecordActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.creditease.zhiwang.activity.asset.JiejiegaoPbAssetsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0901B1, type 0x01>
+            android:name="com.creditease.zhiwang.activity.result.AssetPaybackActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090109, type 0x01>
+            android:name="com.creditease.zhiwang.activity.asset.ReinvestActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0901E5, type 0x01>
+            android:name="com.creditease.zhiwang.activity.result.ReinvestSuccessActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090109, type 0x01>
+            android:name="com.creditease.zhiwang.activity.asset.ReinvestModifyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0901F3, type 0x01>
+            android:name="com.creditease.zhiwang.activity.asset.ReinvestAlternativeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0901BD, type 0x01>
+            android:name="com.creditease.zhiwang.activity.InputPhoneActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0901E0, type 0x01>
+            android:name="com.creditease.zhiwang.activity.RegisterActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090183, type 0x01>
+            android:name="com.creditease.zhiwang.activity.LoginActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.creditease.zhiwang.activity.WelcomeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0901D6, type 0x01>
+            android:name="com.creditease.zhiwang.activity.buy.RealNameActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x4, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F09007F, type 0x01>
+            android:name="com.creditease.zhiwang.activity.buy.FirstBuyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0148, type 0x01>
+            android:label=<0x7F09007F, type 0x01>
+            android:name="com.creditease.zhiwang.activity.buy.BuyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x24, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0148, type 0x01>
+            android:label=<0x7F09007F, type 0x01>
+            android:name="com.creditease.zhiwang.activity.buy.fund.FundBuyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x24, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.creditease.zhiwang.activity.WebActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:hardwareAccelerated=<0xFFFFFFFF, type 0x12>
+            >
+        </activity>
+        <activity
+            android:name="com.creditease.zhiwang.activity.result.FundHandleResultActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090219, type 0x01>
+            android:name="com.creditease.zhiwang.activity.result.BuySuccessActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0901B9, type 0x01>
+            android:name="com.creditease.zhiwang.activity.result.BuyPendingActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0901FE, type 0x01>
+            android:name="com.creditease.zhiwang.activity.tradepwd.SetTradePasswordAuthActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0901FE, type 0x01>
+            android:name="com.creditease.zhiwang.activity.tradepwd.SetTradePasswordActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x5, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0901FE, type 0x01>
+            android:name="com.creditease.zhiwang.activity.tradepwd.SetTradePasswordConfirmActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x5, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090193, type 0x01>
+            android:name="com.creditease.zhiwang.activity.more.MyAccountActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F09010F, type 0x01>
+            android:name="com.creditease.zhiwang.activity.asset.AssetDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090048, type 0x01>
+            android:name="com.creditease.zhiwang.activity.more.AboutUsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F09018A, type 0x01>
+            android:name="com.creditease.zhiwang.activity.more.ModifyLoginPasswordActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x5, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F09018B, type 0x01>
+            android:name="com.creditease.zhiwang.activity.tradepwd.ModifyTradePasswordAuthActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x5, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F09018B, type 0x01>
+            android:name="com.creditease.zhiwang.activity.tradepwd.ModifyTradePasswordActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x5, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F09018B, type 0x01>
+            android:name="com.creditease.zhiwang.activity.tradepwd.ModifyTradePasswordConfirmActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x5, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0900A8, type 0x01>
+            android:name="com.creditease.zhiwang.activity.bankcard.ConfirmCardInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F09010B, type 0x01>
+            android:name="com.creditease.zhiwang.activity.buy.ChooseDueDateActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090166, type 0x01>
+            android:name="com.creditease.zhiwang.activity.more.InviteFriendActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0900E8, type 0x01>
+            android:name="com.creditease.zhiwang.activity.buy.CrowdfundingBuyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x24, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.creditease.zhiwang.activity.asset.PaybackAssetsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:noHistory=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="1104158665"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.sina.weibo.sdk.component.WeiboSdkBrowser"
+            android:exported=<0x0, type 0x12>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090113, type 0x01>
+            android:name="com.creditease.zhiwang.activity.more.ResetLoginPasswordActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090240, type 0x01>
+            android:name="com.creditease.zhiwang.activity.tradepwd.ForgetTradePasswordActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F09009E, type 0x01>
+            android:name="com.creditease.zhiwang.activity.bankcard.UserBankCardsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090050, type 0x01>
+            android:name="com.creditease.zhiwang.activity.bankcard.AddBankCardActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F09010D, type 0x01>
+            android:name="com.creditease.zhiwang.activity.more.FeedbackActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0900FA, type 0x01>
+            android:name="com.creditease.zhiwang.activity.lock.CreateGestureLockActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.creditease.zhiwang.activity.lock.InputGestureActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090233, type 0x01>
+            android:name="com.creditease.zhiwang.activity.asset.TradeRecordActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F09009F, type 0x01>
+            android:name="com.creditease.zhiwang.activity.bankcard.SupportBankListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0900AE, type 0x01>
+            android:name="com.creditease.zhiwang.activity.buy.CouponListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090050, type 0x01>
+            android:name="com.creditease.zhiwang.activity.bankcard.AddCardResultActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0901A8, type 0x01>
+            android:name="com.creditease.zhiwang.activity.more.PasswordMngActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090254, type 0x01>
+            android:name="com.creditease.zhiwang.activity.more.EyeOnUsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090255, type 0x01>
+            android:name="com.creditease.zhiwang.activity.more.WeChatGuidePage"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090259, type 0x01>
+            android:name="com.creditease.zhiwang.wxapi.WXEntryActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090186, type 0x01>
+            android:name="com.creditease.zhiwang.activity.MessageListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090168, type 0x01>
+            android:name="com.creditease.zhiwang.activity.buy.fund.FundCreateAccountActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0900A0, type 0x01>
+            android:name="com.creditease.zhiwang.activity.buy.ChooseBranchBankActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F09007F, type 0x01>
+            android:name="com.creditease.zhiwang.activity.buy.ZanQianBaoBuyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090219, type 0x01>
+            android:name="com.creditease.zhiwang.activity.result.ZanqianbaoBuyResultActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F09007F, type 0x01>
+            android:name="com.creditease.zhiwang.activity.buy.LiquidateBuyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F09007F, type 0x01>
+            android:name="com.creditease.zhiwang.activity.buy.EasyFirstBuyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F09007F, type 0x01>
+            android:name="com.creditease.zhiwang.activity.buy.BuyHJSActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x24, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F09007F, type 0x01>
+            android:name="com.creditease.zhiwang.activity.buy.FirstBuyHJSActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x24, type 0x11>
+            >
+        </activity>
+        <receiver
+            android:name="com.creditease.zhiwang.receiver.UnlockReceiver"
+            >
+        </receiver>
+        <receiver
+            android:name="com.creditease.zhiwang.receiver.WifiConnectionReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.net.wifi.WIFI_STATE_CHANGED"
+                    >
+                </action>
+                <action
+                    android:name="android.net.wifi.STATE_CHANGE"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.creditease.zhiwang.receiver.ConnectionChangeReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value=<0x7F0D0007, type 0x01>
+            >
+        </meta-data>
+        <activity
+            android:name="cn.jpush.android.ui.PopWinActivity"
+            android:exported=<0x0, type 0x12>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030006, type 0x01>
+            android:name="cn.jpush.android.ui.PushActivity"
+            android:exported=<0x0, type 0x12>
+            android:configChanges=<0xA0, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="cn.jpush.android.ui.PushActivity"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="com.creditease.zhiwang"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <service
+            android:name="cn.jpush.android.service.DownloadService"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:exported=<0x0, type 0x12>
+            >
+        </service>
+        <service
+            android:name="cn.jpush.android.service.PushService"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="cn.jpush.android.intent.REGISTER"
+                    >
+                </action>
+                <action
+                    android:name="cn.jpush.android.intent.REPORT"
+                    >
+                </action>
+                <action
+                    android:name="cn.jpush.android.intent.PushService"
+                    >
+                </action>
+                <action
+                    android:name="cn.jpush.android.intent.PUSH_TIME"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <service
+            android:name="cn.jpush.android.service.DaemonService"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="cn.jpush.android.intent.DaemonService"
+                    >
+                </action>
+                <category
+                    android:name="com.creditease.zhiwang"
+                    >
+                </category>
+            </intent-filter>
+        </service>
+        <receiver
+            android:name="cn.jpush.android.service.PushReceiver"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                android:priority=<0x3E8, type 0x10>
+                >
+                <action
+                    android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY"
+                    >
+                </action>
+                <category
+                    android:name="com.creditease.zhiwang"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.USER_PRESENT"
+                    >
+                </action>
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.PACKAGE_ADDED"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.PACKAGE_REMOVED"
+                    >
+                </action>
+                <data
+                    android:scheme="package"
+                    >
+                </data>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="cn.jpush.android.service.AlarmReceiver"
+            android:exported=<0x0, type 0x12>
+            >
+        </receiver>
+        <receiver
+            android:name="com.creditease.zhiwang.receiver.JPushReceiver"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="cn.jpush.android.intent.REGISTRATION"
+                    >
+                </action>
+                <action
+                    android:name="cn.jpush.android.intent.MESSAGE_RECEIVED"
+                    >
+                </action>
+                <action
+                    android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED"
+                    >
+                </action>
+                <action
+                    android:name="cn.jpush.android.intent.NOTIFICATION_OPENED"
+                    >
+                </action>
+                <action
+                    android:name="cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK"
+                    >
+                </action>
+                <action
+                    android:name="cn.jpush.android.intent.CONNECTION"
+                    >
+                </action>
+                <category
+                    android:name="com.creditease.zhiwang"
+                    >
+                </category>
+            </intent-filter>
+        </receiver>
+        <meta-data
+            android:name="JPUSH_CHANNEL"
+            android:value="developer-default"
+            >
+        </meta-data>
+        <meta-data
+            android:name="JPUSH_APPKEY"
+            android:value=<0x7F090167, type 0x01>
+            >
+        </meta-data>
+        <activity
+            android:label=<0x7F09021F, type 0x01>
+            android:name="com.creditease.zhiwang.activity.more.AccountProtectionActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0901C9, type 0x01>
+            android:name="com.creditease.zhiwang.activity.product.ProductDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090227, type 0x01>
+            android:name="com.creditease.zhiwang.activity.LiquidateListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090226, type 0x01>
+            android:name="com.creditease.zhiwang.activity.SpecificProductsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090228, type 0x01>
+            android:name="com.creditease.zhiwang.activity.PolicyHolderInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.creditease.zhiwang.activity.result.InsuranceBuyResultActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.creditease.zhiwang.activity.buy.InsuranceBuyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090057, type 0x01>
+            android:name="com.creditease.zhiwang.activity.more.AlarmSettingActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <receiver
+            android:name="com.creditease.zhiwang.receiver.AlarmSettingReceiver"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:exported=<0x0, type 0x12>
+            >
+        </receiver>
+        <activity
+            android:label=<0x7F090224, type 0x01>
+            android:name="com.creditease.zhiwang.activity.ClassifiedFundListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.creditease.zhiwang.activity.buy.fund.FundAutoInvestBuyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.creditease.zhiwang.activity.buy.fund.FirstBuyFundAutoInvestActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090219, type 0x01>
+            android:name="com.creditease.zhiwang.activity.result.FundAutoInvestBuyResultActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090220, type 0x01>
+            android:name="com.creditease.zhiwang.activity.balance.BalanceAccountActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090221, type 0x01>
+            android:name="com.creditease.zhiwang.activity.balance.BalanceRecordListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090070, type 0x01>
+            android:name="com.creditease.zhiwang.activity.balance.BalanceWithdrawActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090067, type 0x01>
+            android:name="com.creditease.zhiwang.activity.balance.BalanceChargeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090222, type 0x01>
+            android:name="com.creditease.zhiwang.activity.result.ChargeSuccResultActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090229, type 0x01>
+            android:name="com.creditease.zhiwang.activity.result.WithdrawSuccResultActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0901A4, type 0x01>
+            android:name="com.creditease.zhiwang.activity.asset.AssetsNormalActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.creditease.zhiwang.activity.FundQueryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090225, type 0x01>
+            android:name="com.creditease.zhiwang.activity.FundTopicActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F09007F, type 0x01>
+            android:name="com.creditease.zhiwang.activity.buy.fund.ConfirmBuyFundCombination"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.creditease.zhiwang.activity.asset.fund.FundDailyInterestActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.creditease.zhiwang.activity.asset.fund.FundCombinationAssetDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.creditease.zhiwang.activity.asset.fund.TransferRecordsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F090223, type 0x01>
+            android:name="com.creditease.zhiwang.activity.asset.fund.FundCombinationTransferActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.creditease.zhiwang.activity.asset.AppointmentActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F09022B, type 0x01>
+            android:name="com.creditease.zhiwang.activity.asset.AppointmentHandleResultActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F09020F, type 0x01>
+            android:name="com.creditease.zhiwang.activity.balance.BalanceRecordDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030009, type 0x01>
+            android:name="com.creditease.paysdk.activity.EasePayActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <meta-data
+            android:name="EASEPAY_APPKEY"
+            android:value=<0x7F0901F0, type 0x01>
+            >
+        </meta-data>
+        <activity
+            android:theme=<0x7F0B019B, type 0x01>
+            android:name="com.hxcr.chinapay.activity.Initialize"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x3, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B019B, type 0x01>
+            android:name="com.hxcr.chinapay.activity.InfoMain"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B019B, type 0x01>
+            android:name="com.hxcr.chinapay.activity.ResultInfo"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B019B, type 0x01>
+            android:name="com.hxcr.chinapay.activity.HelpMain"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B019B, type 0x01>
+            android:name="com.hxcr.chinapay.activity.SustainBankList"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B019B, type 0x01>
+            android:name="com.hxcr.chinapay.activity.SubmitSujestion"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+    </application>
+</manifest>

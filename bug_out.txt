@@ -1306,6 +1306,15 @@ Traceback (most recent call last):
     out = self.apk_code + '|' + apk_file_name + '|' + md5 + '|' + sha1 + '|' + sha256  + '|' + sha512 + '|' + self.first_found_time + '|' + last_found_time + '|' + short_url + '|' + long_url + '|' + self.sms_content + '|' + virus_score + '|' + virus_grade + '|' + apk_analyze_run_time + '|' + min_sdk +   '|' + fit_sdk + '|' + init_ip + '|' + init_ip_attribution + '|' + target_ip + '|' + target_ip_attribution + '|' + str(apk_file_size) + '|' + str(apk_source_file_num) + '\n'
 UnicodeDecodeError: 'utf8' codec can't decode byte 0xb1 in position 419: invalid start byte
 
+-------------------UnicodeDecodeError: 'utf8' codec can't decode byte 0xcd in position 434: invalid continuation byte-----------------------
+[2017-03-02 02:57:06,302] [ERROR] apk_report_run.py:111 0aeaa0040ea116790123e2ea2d132daf
+Traceback (most recent call last):
+  File "apk_report_run.py", line 99, in apk_analyze_run
+    apk_basic_obj.basic_info_collect()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/basic_info_sort.py", line 68, in basic_info_collect
+    out = self.apk_code + '|' + apk_file_name + '|' + md5 + '|' + sha1 + '|' + sha256  + '|' + sha512 + '|' + self.first_found_time + '|' + last_found_time + '|' + short_url + '|' + long_url + '|' + self.sms_content + '|' + virus_score + '|' + virus_grade + '|' + apk_analyze_run_time + '|' + min_sdk +   '|' + fit_sdk + '|' + init_ip + '|' + init_ip_attribution + '|' + target_ip + '|' + target_ip_attribution + '|' + str(apk_file_size) + '|' + str(apk_source_file_num) + '\n'
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xcd in position 434: invalid continuation byte
+
 -------------------IOError: [Errno 2] No such file or directory: '/opt/smmc/apk_parse/apk_source/d8d0f11aab5e80143532c23c47655c1c/AndroidManifest.xml'-----------------------
 [2017-01-08 17:58:37,046] [ERROR] apk_report_run.py:111 d8d0f11aab5e80143532c23c47655c1c
 Traceback (most recent call last):
@@ -3760,6 +3769,15 @@ Traceback (most recent call last):
     with open(path,'w+') as f:
 IOError: [Errno 2] No such file or directory: '/opt/smmc/apk_parse/apk_source/4ad6c11036497a6aaa17fa197d173770/AndroidManifest.xml'
 
+-------------------UnicodeDecodeError: 'utf8' codec can't decode byte 0xcc in position 449: invalid continuation byte-----------------------
+[2017-03-02 14:36:20,581] [ERROR] apk_report_run.py:111 26df2af3cc9810e625684c86c8f6a1c5
+Traceback (most recent call last):
+  File "apk_report_run.py", line 99, in apk_analyze_run
+    apk_basic_obj.basic_info_collect()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/basic_info_sort.py", line 68, in basic_info_collect
+    out = self.apk_code + '|' + apk_file_name + '|' + md5 + '|' + sha1 + '|' + sha256  + '|' + sha512 + '|' + self.first_found_time + '|' + last_found_time + '|' + short_url + '|' + long_url + '|' + self.sms_content + '|' + virus_score + '|' + virus_grade + '|' + apk_analyze_run_time + '|' + min_sdk +   '|' + fit_sdk + '|' + init_ip + '|' + init_ip_attribution + '|' + target_ip + '|' + target_ip_attribution + '|' + str(apk_file_size) + '|' + str(apk_source_file_num) + '\n'
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xcc in position 449: invalid continuation byte
+
 -------------------UnicodeDecodeError: 'utf8' codec can't decode byte 0xc4 in position 442: invalid continuation byte-----------------------
 [2017-01-10 23:48:53,955] [ERROR] apk_report_run.py:111 3b4b3455d03e21779c639b27b24af94c
 Traceback (most recent call last):
@@ -4406,6 +4424,15 @@ Traceback (most recent call last):
     with open(path,'w+') as f:
 IOError: [Errno 2] No such file or directory: '/opt/smmc/apk_parse/apk_source/f44f7992def8695534b196efbae32a73/AndroidManifest.xml'
 
+-------------------UnicodeDecodeError: 'utf8' codec can't decode byte 0xb1 in position 422: invalid start byte-----------------------
+[2017-03-02 03:00:14,562] [ERROR] apk_report_run.py:111 15befac131f66a2f41fc038fb50479f4
+Traceback (most recent call last):
+  File "apk_report_run.py", line 99, in apk_analyze_run
+    apk_basic_obj.basic_info_collect()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/basic_info_sort.py", line 68, in basic_info_collect
+    out = self.apk_code + '|' + apk_file_name + '|' + md5 + '|' + sha1 + '|' + sha256  + '|' + sha512 + '|' + self.first_found_time + '|' + last_found_time + '|' + short_url + '|' + long_url + '|' + self.sms_content + '|' + virus_score + '|' + virus_grade + '|' + apk_analyze_run_time + '|' + min_sdk +   '|' + fit_sdk + '|' + init_ip + '|' + init_ip_attribution + '|' + target_ip + '|' + target_ip_attribution + '|' + str(apk_file_size) + '|' + str(apk_source_file_num) + '\n'
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xb1 in position 422: invalid start byte
+
 -------------------IOError: [Errno 2] No such file or directory: '/opt/smmc/apk_parse/apk_source/020d2abb85dc9feb164e2471cfd279e3/AndroidManifest.xml'-----------------------
 [2017-01-07 07:13:28,579] [ERROR] apk_report_run.py:111 020d2abb85dc9feb164e2471cfd279e3
 Traceback (most recent call last):
@@ -4660,6 +4687,15 @@ Traceback (most recent call last):
   File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/axmlparserpy/apk.py", line 87, in save_copy_xml
     with open(path,'w+') as f:
 IOError: [Errno 2] No such file or directory: '/opt/smmc/apk_parse/apk_source/570e1904dfb663920c130ab38d72f731/AndroidManifest.xml'
+
+-------------------UnicodeDecodeError: 'utf8' codec can't decode byte 0xb4 in position 445: invalid start byte-----------------------
+[2017-03-02 02:50:10,514] [ERROR] apk_report_run.py:111 7dfdd31caeb32a7abb288d5ec0cd1690
+Traceback (most recent call last):
+  File "apk_report_run.py", line 99, in apk_analyze_run
+    apk_basic_obj.basic_info_collect()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/basic_info_sort.py", line 68, in basic_info_collect
+    out = self.apk_code + '|' + apk_file_name + '|' + md5 + '|' + sha1 + '|' + sha256  + '|' + sha512 + '|' + self.first_found_time + '|' + last_found_time + '|' + short_url + '|' + long_url + '|' + self.sms_content + '|' + virus_score + '|' + virus_grade + '|' + apk_analyze_run_time + '|' + min_sdk +   '|' + fit_sdk + '|' + init_ip + '|' + init_ip_attribution + '|' + target_ip + '|' + target_ip_attribution + '|' + str(apk_file_size) + '|' + str(apk_source_file_num) + '\n'
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xb4 in position 445: invalid start byte
 
 -------------------IOError: [Errno 2] No such file or directory: '/opt/smmc/apk_parse/apk_source/d27e0b9a6be5b9104433c26c33de08b3/AndroidManifest.xml'-----------------------
 [2017-01-06 01:16:59,907] [ERROR] apk_report_run.py:111 d27e0b9a6be5b9104433c26c33de08b3

@@ -1,0 +1,1965 @@
+<manifest
+    android:versionCode=<0x1090, type 0x10>
+    android:versionName="4.2.4"
+    android:installLocation=<0x1, type 0x10>
+    package="org.pingchuan.dingwork"
+    platformBuildVersionCode=<0x17, type 0x10>
+    platformBuildVersionName="6.0-2704002"
+    >
+    <uses-sdk
+        android:minSdkVersion=<0xE, type 0x10>
+        android:targetSdkVersion=<0x16, type 0x10>
+        >
+    </uses-sdk>
+    <supports-screens
+        android:anyDensity=<0xFFFFFFFF, type 0x12>
+        android:smallScreens=<0xFFFFFFFF, type 0x12>
+        android:normalScreens=<0xFFFFFFFF, type 0x12>
+        android:largeScreens=<0xFFFFFFFF, type 0x12>
+        android:resizeable=<0xFFFFFFFF, type 0x12>
+        >
+    </supports-screens>
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECORD_AUDIO"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.GET_TASKS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.MANAGE_ACCOUNTS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.GET_ACCOUNTS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.MODIFY_AUDIO_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_CONFIGURATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.VIBRATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_CONTACTS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_CONTACTS"
+        >
+    </uses-permission>
+    <uses-feature
+        android:name="android.hardware.camera"
+        >
+    </uses-feature>
+    <uses-permission
+        android:name="android.permission.CAMERA"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECORD_AUDIO"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.FLASHLIGHT"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.KILL_BACKGROUND_PROCESSES"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_BOOT_COMPLETED"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.DISABLE_KEYGUARD"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WAKE_LOCK"
+        >
+    </uses-permission>
+    <permission
+        android:name="org.pingchuan.dingwork.permission.C2D_MESSAGE"
+        android:protectionLevel=<0x2, type 0x11>
+        >
+    </permission>
+    <uses-permission
+        android:name="org.pingchuan.dingwork.permission.C2D_MESSAGE"
+        >
+    </uses-permission>
+    <permission
+        android:name="org.pingchuan.dingwork.permission.MIPUSH_RECEIVE"
+        android:protectionLevel=<0x2, type 0x11>
+        >
+    </permission>
+    <uses-permission
+        android:name="org.pingchuan.dingwork.permission.MIPUSH_RECEIVE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.launcher.permission.INSTALL_SHORTCUT"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.launcher.permission.READ_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.launcher3.permission.READ_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.meizu.flyme.launcher.permission.READ_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.INTERACT_ACROSS_USERS_FULL"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.PROCESS_OUTGOING_CALLS"
+        >
+    </uses-permission>
+    <application
+        android:theme=<0x7F0B0087, type 0x01>
+        android:label=<0x7F07016C, type 0x01>
+        android:icon=<0x7F020387, type 0x01>
+        android:name="org.pingchuan.dingwork.DingdingApplication"
+        android:allowBackup=<0xFFFFFFFF, type 0x12>
+        >
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="b50f38a2073357c34d9c320225cd9ef8"
+            >
+        </meta-data>
+        <meta-data
+            android:name="com.taobao.android.hotfix.APPSECRET"
+            android:value="c0c3451e696a963b31fb172792518c71"
+            >
+        </meta-data>
+        <meta-data
+            android:name="com.taobao.android.hotfix.RSASECRET"
+            android:value="MIIEwAIBADANBgkqhkiG9w0BAQEFAASCBKowggSmAgEAAoIBAQDKamQ/3/1yGwe6uRDpz8sgnq+xkySUwX85lhoOX6d/1tBvFVS89lajMrs+g/0o17Xyi58g+wpRy45HOc4OTLhBMqbISt2B3/uX6uKU1nRDA+A/NsrwaHIPwFw6GYum6HP99H/BGPMIutg16CJ+UC4Q1F9FbUs8iqNGTwDB4kw3qby45mYcHiIUyhdVOFo0OlndN96v8KS/i/YTKlzaBTphZCp25F37U1csZIzkzvYTdmVng48b6niZrv9Kf9851Ilg2RJ8iILzvyg4ppYvfp6Nt9gHR/xJ+DsQjsVbg85XDU+afB1PH+2SLo4T5wQoVRDV2QW35iJYDzVzIYS0OwXRAgMBAAECggEBALLvsGWjDjrj2EZhuajn74qLnYdeK1VxZJW0sp4IQ1tIvAOnGLzfC6HDhDF0nsSPRKIAeZC/O9UpHEKswBJ2EeBY9YVUYVKhfZlDpD+tASQI9iELwAUcX9C63QzjbkgDcB6NGK7L7nTGL8IfzvZYzRBFnV8TihIgAMxzpJjBA12kE+aJShqNuI8fC8NoqTH9nKzsRvEP9+qQVCK0nTJ9XP50YkSfZik43YlL8Wv5O+KJhm3c/OPT5hDfns8cWOMKiKIaMPTJUT+AA5yE3Hsq6ofdONqGRU1wb0mL4mXcwhuivkVR2YU2d9cfvFxBaU4IujrfGSVe7b2STE7vaJUilZECgYEA+1V4NovAYRwDgZyRMzvmdd/DheVW4JyChOelWFU/DZvXR6+gqLiXheG9EqDfZI1ZCpxnxwLEjWvGcsbFesSGRnYFKHhooNuj8KUNHwaG57lVPmpsIXIZBXzher1S6yeRP15xtloDWF8k209MPwHJtZQWzvtsjtG9F5mzNPePnd0CgYEAzixszwmBxB08jXcPKHFpN4hsmfQBM0Lz0ErL7PmhOSP7Tp4prHt4YTWdTE1M99UEtQE5GeGVVVhY78hpkbRXd5KamSu8xURfRQrj51WL7dbtUaeS3wdx/gvsaLlVqi+0yquB4sC0lB05cxXHJkbrnP3sz3j15/AtEgPRFxl66oUCgYEArp5iSBtujMmm0f1SkHMUml7d/IArjSCQOgCrSyTnCvB0cPTfvXmKpNUCxReKPdVKwOmL3KPapZr0pLffan1yATBsQwLtRp1zWHWEGUMypXqJdDUCbXZVVg++pMU2//RcoNdgT95YJqTr+YctpTT7zLFX63SZptyn8OazsKAzYu0CgYEAnh92SAdbjeR6Z2jTqEnqz1uDJ0P7k6wawDpNUm9V1jQhbndhMNb1SWDMRhPXHxAx7vyEJbRcSrtaYnSLeuMcXimDBkyEF6tLgfFLP0Xd7shy9LgXrZPROm08oEjcSY0TFIkbMaRoGlybjgc62MF1vM8Gy0xTFNKgTnu85gF1wt0CgYEAsHNu8pu/XGu2+D+6H1gCd0MpWpBu4UbjWeVm3c3IGgZ2BvO2gBpGM0RjNAzbAS+/huF7ZPRNESbEgALLh9FxMFl/rXWseFBooesDxsjl51JeBpQ/awRHdEEIdZhNrvtp6p+0tGplgSFgpPYVvp8JMeeoVXdn8iDkpi5YwtoY63g="
+            >
+        </meta-data>
+        <service
+            android:name="org.pingchuan.dingwork.upgrade.DownloadServices"
+            >
+        </service>
+        <service
+            android:name="com.amap.api.location.APSService"
+            >
+        </service>
+        <activity
+            android:label=<0x7F07016C, type 0x01>
+            android:name="org.pingchuan.dingwork.activity.StartActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.LAUNCHER"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.FirstPageActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:scheme="rong"
+                    android:host="org.pingchuan.dingwork"
+                    android:pathPrefix="/push_message"
+                    >
+                </data>
+                <data
+                    android:scheme="rong"
+                    android:host="org.pingchuan.dingwork"
+                    android:path="/conversationlist"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.LoginActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.RegisterActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.PersonalInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.JoinTeamActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.ForgetPassword1Activity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.ForgetPassword2Activity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.ForgetPassword3Activity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.CreatTeamActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.CreatTeamMapActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.MyTeamActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.AnnouncementActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.TeamNoticeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.AccountManageActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.Bind1Activity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.Bind2Activity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.ModifyPswActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.InviteMemberActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.JoinTeamActivity2"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.SearchTeamActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.SearchPersionActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x14, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.ShowLargePicActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B00D3, type 0x01>
+            android:name="org.pingchuan.dingwork.activity.ShowPicAnimationActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.AdviceActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x14, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.ShowActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.PauseServiceActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.DeclareActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.HomePageActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.AboutActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.GroupHomePageActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.EditTeamNameActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.RecommedAppsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.VerifyPersionActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.WorkMsgActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.RankListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.MijiActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.ShouceActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="io.rong.imkit.intent.action.webview"
+                    >
+                </action>
+                <action
+                    android:name="org.pingchuan.dingwork.shouce"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <data
+                    android:scheme="http"
+                    android:host="*"
+                    >
+                </data>
+                <data
+                    android:scheme="https"
+                    android:host="*"
+                    >
+                </data>
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.ZxlinfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.GuanListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.SearchWorkActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x14, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B016F, type 0x01>
+            android:name="org.pingchuan.dingwork.activity.AlarmActivity"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x3, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103005F, type 0x01>
+            android:name="org.pingchuan.dingwork.activity.AlarmLockActivity"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x3, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.LocationActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.RemovedListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.MyInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.MyErweimaActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.CaptureActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.MultiworkListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.QrCodeResultActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.CreatTeamNameActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.EditNameActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.SettingsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.StatisticsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B0086, type 0x01>
+            android:name="org.pingchuan.dingwork.activity.MyContactsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.AddLianxirenActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.ThirdInviteActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.AddTeamActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.QianDaomMapActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.SearchActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x14, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.SendGonggaoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x14, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.GongGaoListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.GroupWorkActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.MyContactsTeamActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.SearchGroupActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x14, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.GroupChatSelActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.GroupMemberActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.GongGaoInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.QianDaoHisActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.GroupQianDaoListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.GroupQianSetActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.ManageGroupActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.EditNoteNameActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.MsgSettingActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.SelMemberFragmentActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.DelPersionActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.ExportActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B016F, type 0x01>
+            android:name="org.pingchuan.dingwork.activity.ExeTxAlarmActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103005F, type 0x01>
+            android:name="org.pingchuan.dingwork.activity.ExeTxAlarmLockActivity"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.WorkChangeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.MoreFunctionActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.HomeWorkActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.SelOneActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.SelGroupActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.MyHomeWorkActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.MultiworkListActivity2"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.SendApproveActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x14, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.GroupMemberSelActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.ApproveListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.ApproveDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.WeekDaySelActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.SendSignActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.SendReportActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x14, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.ReportInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.SelGroupMemberActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.ReportListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x3, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.ReportListActivity2"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.ImageSelActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.SingelSelActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.RepeatDefineActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.TaskInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.ApplicationListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.MyNoteWorkActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.HomePageActivity2"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.GroupPageActivity2"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.rongIM.activity.ChatActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:scheme="rong"
+                    android:host="org.pingchuan.dingwork"
+                    android:pathPrefix="/conversation/"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0B00BC, type 0x01>
+            android:name="org.pingchuan.dingwork.rongIM.activity.ContextMenuActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B00B5, type 0x01>
+            android:name="org.pingchuan.dingwork.rongIM.activity.PicturePagerMyActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="org.pingchuan.dingwork.wxapi.WXEntryActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.mob.tools.MobUIShell"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+            <meta-data
+                android:name="AuthorizeAdapter"
+                android:value="cn.sharesdk.demo.MyAdapter"
+                >
+            </meta-data>
+            <intent-filter
+                >
+                <data
+                    android:scheme="tencent1103433800"
+                    >
+                </data>
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <receiver
+            android:name="org.pingchuan.dingwork.receiver.MyBootReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.BOOT_COMPLETED"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="org.pingchuan.dingwork.receiver.AlarmReceiver"
+            >
+        </receiver>
+        <service
+            android:name="com.xiaomi.push.service.XMPushService"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            >
+        </service>
+        <service
+            android:name="com.xiaomi.mipush.sdk.PushMessageHandler"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+        </service>
+        <service
+            android:name="com.xiaomi.mipush.sdk.MessageHandleService"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            >
+        </service>
+        <receiver
+            android:name="com.xiaomi.push.service.receivers.NetworkStatusReceiver"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.xiaomi.push.service.receivers.PingReceiver"
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.xiaomi.push.PING_TIMER"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="io.rong.push.platform.MiMessageReceiver"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.xiaomi.mipush.RECEIVE_MESSAGE"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.xiaomi.mipush.MESSAGE_ARRIVED"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.xiaomi.mipush.ERROR"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.huawei.android.pushagent.PushEventReceiver"
+            android:process=":hwpushservice"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.huawei.android.push.intent.REFRESH_PUSH_CHANNEL"
+                    >
+                </action>
+                <action
+                    android:name="com.huawei.intent.action.PUSH"
+                    >
+                </action>
+                <action
+                    android:name="com.huawei.intent.action.PUSH_ON"
+                    >
+                </action>
+                <action
+                    android:name="com.huawei.android.push.PLUGIN"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.PACKAGE_ADDED"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.PACKAGE_REMOVED"
+                    >
+                </action>
+                <data
+                    android:scheme="package"
+                    >
+                </data>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.huawei.android.pushagent.PushBootReceiver"
+            android:process=":hwpushservice"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.huawei.android.push.intent.REGISTER"
+                    >
+                </action>
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+            </intent-filter>
+            <meta-data
+                android:name="CS_cloud_version"
+                android:value="2705"
+                >
+            </meta-data>
+        </receiver>
+        <receiver
+            android:name="io.rong.push.platform.HWReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.huawei.android.push.intent.REGISTRATION"
+                    >
+                </action>
+                <action
+                    android:name="com.huawei.android.push.intent.RECEIVE"
+                    >
+                </action>
+                <action
+                    android:name="com.huawei.android.push.intent.CLICK"
+                    >
+                </action>
+                <action
+                    android:name="com.huawei.intent.action.PUSH_STATE"
+                    >
+                </action>
+                <action
+                    android:name="com.huawei.android.push.plugin.RESPONSE"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.huawei.android.pushagent.PushService"
+            android:process=":hwpushservice"
+            >
+        </service>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.NoteActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.SEND"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:mimeType="image/*"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.SEND"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:mimeType="text/plain"
+                    >
+                </data>
+                <data
+                    android:mimeType="audio/*"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.SEND_MULTIPLE"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:mimeType="image/*"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.SearchNoteActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x480, type 0x11>
+            android:windowSoftInputMode=<0x14, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.SearchContentActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x480, type 0x11>
+            android:windowSoftInputMode=<0x15, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.SearchReportActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x480, type 0x11>
+            android:windowSoftInputMode=<0x15, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.SearchTaskActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x480, type 0x11>
+            android:windowSoftInputMode=<0x14, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.SearchGonggaoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x480, type 0x11>
+            android:windowSoftInputMode=<0x14, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.SearchApproveActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x480, type 0x11>
+            android:windowSoftInputMode=<0x14, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.SearchQiandaoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x480, type 0x11>
+            android:windowSoftInputMode=<0x14, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.SearchLianxirenActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x480, type 0x11>
+            android:windowSoftInputMode=<0x14, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.SearchPlaceActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x480, type 0x11>
+            android:windowSoftInputMode=<0x14, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.WebStartAddUser"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x480, type 0x11>
+            android:windowSoftInputMode=<0x14, type 0x11>
+            >
+            <intent-filter
+                >
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <data
+                    android:scheme="dingdingapp"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.HomePageSetting"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x480, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.GroupHomePageSettingActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x480, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.SystemNoticeActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x480, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.AddActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x480, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.LoginQrResultActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x480, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.ReadUsersActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x480, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.MyNewFriendActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x480, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.MergeSelActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x480, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.PbBackupSettingActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x480, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.SearchPbActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x480, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.rongIM.activity.FileInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x480, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B00D3, type 0x01>
+            android:name="org.pingchuan.dingwork.rongIM.activity.SingleCallActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="io.rong.intent.action.voip.SINGLEVIDEO"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="io.rong.intent.action.voip.SINGLEAUDIO"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0B00BD, type 0x01>
+            android:label=""
+            android:name="org.pingchuan.dingwork.activity.NoteDialogActivity"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x3, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x480, type 0x11>
+            android:windowSoftInputMode=<0x14, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.newnotedialog"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.TempNoteWidgetActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x480, type 0x11>
+            android:windowSoftInputMode=<0x14, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0B00BD, type 0x01>
+            android:name="org.pingchuan.dingwork.activity.TempCheckLogStatusActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x480, type 0x11>
+            android:windowSoftInputMode=<0x14, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.gotogroup"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.GroupAllFilesListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x480, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.StoreTaskActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x480, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.StoreReportActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x480, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.StoreApproveActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x480, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.StoreOKRActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x480, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.GroupOKRActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x480, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.rongIM.activity.FileManagerDingActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x480, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.rongIM.activity.RongFileManagerActivityEx"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x480, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.rongIM.activity.FileListDingActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x480, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.SendOKRActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.OKRInfoActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x13, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.OKRAddScoreActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x13, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.OKRAddProgressActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x13, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.OKRMessageListsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x13, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.OKRScoreListsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x13, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.OKRScoreTipsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x13, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.SendTaskActivityNew"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x14, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.TaskSettingActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.TaskInfoMessageListsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x13, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.TaskInfoSummaryActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x13, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="org.pingchuan.dingwork.activity.AudioToWordsActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x13, type 0x11>
+            >
+        </activity>
+        <receiver
+            android:name="org.pingchuan.dingwork.rongIM.receiver.RongNotificationReceiver"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="io.rong.push.intent.MESSAGE_ARRIVED"
+                    >
+                </action>
+                <action
+                    android:name="io.rong.push.intent.MI_MESSAGE_ARRIVED"
+                    >
+                </action>
+                <action
+                    android:name="io.rong.push.intent.MESSAGE_CLICKED"
+                    >
+                </action>
+                <action
+                    android:name="io.rong.push.intent.MI_MESSAGE_CLICKED"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="org.pingchuan.dingwork.rongIM.receiver.RongPushReceiver"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="org.pingchuan.dingwork.rong.push"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:icon=<0x7F020386, type 0x01>
+            android:name="org.pingchuan.dingwork.widget.WorksAppWidgetProvider"
+            android:exported=<0x0, type 0x12>
+            >
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource=<0x7F050001, type 0x01>
+                >
+            </meta-data>
+            <intent-filter
+                >
+                <action
+                    android:name="android.appwidget.action.APPWIDGET_UPDATE"
+                    >
+                </action>
+                <action
+                    android:name="org.pingchuan.dingwork.action.APPWIDGET_REFRESH_MANUAL"
+                    >
+                </action>
+                <action
+                    android:name="org.pingchuan.dingwork.action.APPWIDGET_REFRESH_AUTO"
+                    >
+                </action>
+                <action
+                    android:name="org.pingchuan.dingwork.action.APPWIDGET_JUMP_LISTITEM"
+                    >
+                </action>
+                <action
+                    android:name="org.pingchuan.dingwork.action.APPWIDGET_JUMP_LOGO"
+                    >
+                </action>
+                <action
+                    android:name="org.pingchuan.dingwork.action.APPWIDGET_CREATE_CALL"
+                    >
+                </action>
+                <action
+                    android:name="org.pingchuan.dingwork.action.APPWIDGET_CREATE_REPORT"
+                    >
+                </action>
+                <action
+                    android:name="org.pingchuan.dingwork.action.APPWIDGET_CREATE_TASK"
+                    >
+                </action>
+                <action
+                    android:name="org.pingchuan.dingwork.action.APPWIDGET_CREATE_SIGN"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:label=<0x7F070530, type 0x01>
+            android:icon=<0x7F020389, type 0x01>
+            android:name="org.pingchuan.dingwork.widget.NoteAppWidgetProvider"
+            android:exported=<0x0, type 0x12>
+            >
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource=<0x7F050000, type 0x01>
+                >
+            </meta-data>
+            <intent-filter
+                >
+                <action
+                    android:name="android.appwidget.action.APPWIDGET_UPDATE"
+                    >
+                </action>
+                <action
+                    android:name="org.pingchuan.dingwork.action.APPWIDGET_CREATE_NOTE"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="org.pingchuan.dingwork.widget.WorksWidgetService"
+            android:permission="android.permission.BIND_REMOTEVIEWS"
+            android:exported=<0x0, type 0x12>
+            >
+            <action
+                android:name="org.pingchuan.dingwork.action.APPWIDGET_REFRESH_MANUAL"
+                >
+            </action>
+            <action
+                android:name="org.pingchuan.dingwork.action.APPWIDGET_REFRESH_AUTO"
+                >
+            </action>
+        </service>
+        <service
+            android:name="org.pingchuan.dingwork.widget.TempService"
+            android:permission="android.permission.BIND_REMOTEVIEWS"
+            android:exported=<0x0, type 0x12>
+            >
+        </service>
+        <service
+            android:name="com.taobao.hotfix.aidl.DownloadService"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.taobao.hotfix.action"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.alibaba.mtl.appmonitor.AppMonitorService"
+            >
+        </service>
+        <activity
+            android:name="io.rong.imkit.activity.PictureSelectorActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="io.rong.imkit.activity.PicturePreviewActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="io.rong.imkit.widget.provider.TakingPicturesActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xA0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030007, type 0x01>
+            android:name="io.rong.imkit.activity.PicturePagerActivity"
+            >
+        </activity>
+        <activity
+            android:name="io.rong.imkit.MultiVideoCallActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="io.rong.intent.action.voip.MULTIVIDEO"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="io.rong.imkit.MultiAudioCallActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="io.rong.intent.action.voip.MULTIAUDIO"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="io.rong.imkit.CallSelectMemberActivity"
+            >
+        </activity>
+        <receiver
+            android:name="io.rong.imkit.RongCallReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="io.rong.intent.action.UI_READY"
+                    >
+                </action>
+                <action
+                    android:name="io.rong.intent.action.SDK_INIT"
+                    >
+                </action>
+                <action
+                    android:name="io.rong.intent.action.SDK_CONNECTED"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:name="io.rong.imkit.mention.MemberMentionedActivity"
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="io.rong.imkit.activity.FileManagerActivity"
+            >
+        </activity>
+        <activity
+            android:name="io.rong.imkit.activity.FileListActivity"
+            >
+        </activity>
+        <activity
+            android:name="io.rong.imkit.activity.FilePreviewActivity"
+            >
+        </activity>
+        <service
+            android:name="io.rong.push.core.PushRegistrationService"
+            android:exported=<0x0, type 0x12>
+            >
+        </service>
+        <service
+            android:name="io.rong.push.core.MessageHandleService"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+        </service>
+        <service
+            android:name="io.rong.push.PushService"
+            android:exported=<0x0, type 0x12>
+            android:process="io.rong.push"
+            >
+        </service>
+        <receiver
+            android:name="io.rong.push.PushReceiver"
+            android:process="io.rong.push"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="io.rong.push.intent.action.HEART_BEAT"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.BOOT_COMPLETED"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.USER_PRESENT"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.ACTION_POWER_CONNECTED"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.ACTION_POWER_DISCONNECTED"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <meta-data
+            android:name="RONG_CLOUD_APP_KEY"
+            android:value="qf3d5gbj3ycth"
+            >
+        </meta-data>
+        <service
+            android:name="io.rong.imlib.ipc.RongService"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:process=":ipc"
+            >
+        </service>
+        <service
+            android:name="io.rong.imlib.ReConnectService"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+        </service>
+        <receiver
+            android:name="io.rong.imlib.ConnectChangeReceiver"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+        </receiver>
+        <receiver
+            android:name="io.rong.imlib.HeartbeatReceiver"
+            android:process=":ipc"
+            >
+        </receiver>
+    </application>
+</manifest>
