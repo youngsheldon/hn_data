@@ -1,0 +1,31 @@
+--2017-03-03 23:56:39--  http://haotouxiao.cn/cs
+Resolving haotouxiao.cn... 103.229.126.3
+Connecting to haotouxiao.cn|103.229.126.3|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://haotouxiao.cn/cs/ [following]
+--2017-03-03 23:56:58--  http://haotouxiao.cn/cs/
+Reusing existing connection to haotouxiao.cn:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 247 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 14.7M=0s
+
+2017-03-03 23:56:58 (14.7 MB/s) - `index.html' saved [247/247]
+
+=======================The second times wget =====================
+--2017-03-03 23:56:58--  http://haotouxiao.cn/cs/%CF%E0%B2%E19.apk
+Resolving haotouxiao.cn... 103.229.126.3
+Connecting to haotouxiao.cn|103.229.126.3|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 209312 (204K) [application/vnd.android.package-archive]
+Saving to: `ПаІб9.apk'
+
+     0K .......... .......... .......... .......... .......... 24% 94.6K 2s
+    50K .......... .......... .......... .......... .......... 48%  118K 1s
+   100K .......... .......... .......... .......... .......... 73%  129K 0s
+   150K .......... .......... .......... .......... .......... 97%  127K 0s
+   200K ....                                                  100%  144K=1.8s
+
+2017-03-03 23:57:05 (116 KB/s) - `ПаІб9.apk' saved [209312/209312]
+
