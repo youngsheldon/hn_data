@@ -1,0 +1,31 @@
+--2017-03-07 07:28:16--  http://torchotr.cn/cs
+Resolving torchotr.cn... 43.252.228.87
+Connecting to torchotr.cn|43.252.228.87|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://torchotr.cn/cs/ [following]
+--2017-03-07 07:28:17--  http://torchotr.cn/cs/
+Reusing existing connection to torchotr.cn:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 247 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 13.9M=0s
+
+2017-03-07 07:28:17 (13.9 MB/s) - `index.html' saved [247/247]
+
+=======================The second times wget =====================
+--2017-03-07 07:28:18--  http://torchotr.cn/cs/%CF%E0%B2%E11.apk
+Resolving torchotr.cn... 43.252.228.87
+Connecting to torchotr.cn|43.252.228.87|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 209305 (204K) [application/vnd.android.package-archive]
+Saving to: `ПаІб1.apk'
+
+     0K .......... .......... .......... .......... .......... 24%  101K 2s
+    50K .......... .......... .......... .......... .......... 48%  119K 1s
+   100K .......... .......... .......... .......... .......... 73%  110K 0s
+   150K .......... .......... .......... .......... .......... 97%  140K 0s
+   200K ....                                                  100% 52.4K=1.8s
+
+2017-03-07 07:28:20 (113 KB/s) - `ПаІб1.apk' saved [209305/209305]
+
