@@ -1,0 +1,27 @@
+--2017-03-10 17:32:13--  http://ahahl.com/
+Resolving ahahl.com... 192.151.150.180
+Connecting to ahahl.com|192.151.150.180|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 631 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 50.1M=0s
+
+2017-03-10 17:32:15 (50.1 MB/s) - `index.html' saved [631/631]
+
+=======================The second times wget =====================
+--2017-03-10 17:32:15--  http://ahahl.com//%E5%BD%B1%E9%9B%86.apk
+Resolving ahahl.com... 192.151.150.180
+Connecting to ahahl.com|192.151.150.180|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 208285 (203K) [application/vnd.android.package-archive]
+Saving to: `å½±é%9B%86.apk'
+
+     0K .......... .......... .......... .......... .......... 24% 55.8K 3s
+    50K .......... .......... .......... .......... .......... 49%  112K 1s
+   100K .......... .......... .......... .......... .......... 73% 55.5K 1s
+   150K .......... .......... .......... .......... .......... 98% 3.70M 0s
+   200K ...                                                   100%  225K=2.3s
+
+2017-03-10 17:32:19 (89.6 KB/s) - `å½±é%9B%86.apk' saved [208285/208285]
+

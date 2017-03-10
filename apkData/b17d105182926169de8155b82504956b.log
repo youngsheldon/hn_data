@@ -1,0 +1,31 @@
+--2017-03-09 21:33:18--  http://52c5.cn/cs
+Resolving 52c5.cn... 103.229.126.3
+Connecting to 52c5.cn|103.229.126.3|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://52c5.cn/cs/ [following]
+--2017-03-09 21:33:20--  http://52c5.cn/cs/
+Reusing existing connection to 52c5.cn:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 247 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 18.1M=0s
+
+2017-03-09 21:33:20 (18.1 MB/s) - `index.html' saved [247/247]
+
+=======================The second times wget =====================
+--2017-03-09 21:33:20--  http://52c5.cn/cs/%CF%E0%B2%E19.apk
+Resolving 52c5.cn... 103.229.126.3
+Connecting to 52c5.cn|103.229.126.3|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 209305 (204K) [application/vnd.android.package-archive]
+Saving to: `ПаІб9.apk'
+
+     0K .......... .......... .......... .......... .......... 24% 97.4K 2s
+    50K .......... .......... .......... .......... .......... 48%  156K 1s
+   100K .......... .......... .......... .......... .......... 73%  164K 0s
+   150K .......... .......... .......... .......... .......... 97% 91.9K 0s
+   200K ....                                                  100% 20.1M=1.7s
+
+2017-03-09 21:33:22 (121 KB/s) - `ПаІб9.apk' saved [209305/209305]
+
