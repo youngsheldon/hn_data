@@ -1,0 +1,31 @@
+--2017-03-11 17:46:55--  http://pzqdj.cn/sp
+Resolving pzqdj.cn... 43.252.231.164
+Connecting to pzqdj.cn|43.252.231.164|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://pzqdj.cn/sp/ [following]
+--2017-03-11 17:46:56--  http://pzqdj.cn/sp/
+Reusing existing connection to pzqdj.cn:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 613 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 45.0M=0s
+
+2017-03-11 17:46:56 (45.0 MB/s) - `index.html' saved [613/613]
+
+=======================The second times wget =====================
+--2017-03-11 17:46:56--  http://pzqdj.cn/sp/%E8%A7%86%E9%A2%91.apk
+Resolving pzqdj.cn... 43.252.231.164
+Connecting to pzqdj.cn|43.252.231.164|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 208487 (204K) [application/vnd.android.package-archive]
+Saving to: `è§%86é¢%91.apk'
+
+     0K .......... .......... .......... .......... .......... 24%  136K 1s
+    50K .......... .......... .......... .......... .......... 49%  118K 1s
+   100K .......... .......... .......... .......... .......... 73%  128K 0s
+   150K .......... .......... .......... .......... .......... 98%  123K 0s
+   200K ...                                                   100%  109K=1.6s
+
+2017-03-11 17:46:58 (126 KB/s) - `è§%86é¢%91.apk' saved [208487/208487]
+
