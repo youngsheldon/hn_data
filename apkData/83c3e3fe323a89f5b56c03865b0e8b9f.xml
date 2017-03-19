@@ -1,0 +1,1914 @@
+<manifest
+    android:versionCode=<0x42F2FD7, type 0x10>
+    android:versionName="7.2.1.303"
+    package="com.huawei.appmarket"
+    platformBuildVersionCode=<0x17, type 0x10>
+    platformBuildVersionName="6.0-2704002"
+    >
+    <uses-sdk
+        android:minSdkVersion=<0xE, type 0x10>
+        android:targetSdkVersion=<0x17, type 0x10>
+        >
+    </uses-sdk>
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.GET_TASKS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.huawei.permission.sec.MDM.v2"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_MEDIA_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_MEDIA_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="huawei.android.permission.MULTIWINDOW_SDK"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.STOP_APP_SWITCHES"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.PACKAGE_USAGE_STATS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.permission.SEND_HUAWEI"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_APN_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.INSTALL_PACKAGES"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.DELETE_PACKAGES"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.REORDER_TASKS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.huawei.hwid.permission.ACCESS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.huawei.hwid.permission.CONTENT_PROVIDER"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.huawei.hwid.ACTION_MAIN_SETTING_ACCESS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.GET_ACCOUNTS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.MANAGE_ACCOUNTS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.USE_CREDENTIALS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.huawei.systemmanager.permission.APPLY_TRIM_POLICY"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.huawei.pushagent.permission.RICHMEDIA_PROVIDER"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WAKE_LOCK"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.launcher.permission.READ_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.mylauncher.permission.INSTALL_SHORTCUT"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.launcher.permission.INSTALL_SHORTCUT"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.huawei.android.launcher.permission.READ_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.huawei.launcher2.permission.READ_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.huawei.launcher3.permission.READ_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.launcher2.permission.READ_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.huawei.launcher.permission.READ_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.GET_PACKAGE_SIZE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.EXPAND_STATUS_BAR"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.permission.RECV_HUAWEI"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.SYSTEM_ALERT_WINDOW"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.SYSTEM_OVERLAY_WINDOW"
+        >
+    </uses-permission>
+    <permission
+        android:label=<0x7F0602D0, type 0x01>
+        android:name="com.huawei.appmarket.provider.readPermission"
+        android:description=<0x7F0602D1, type 0x01>
+        >
+    </permission>
+    <permission
+        android:label=<0x7F0602D2, type 0x01>
+        android:name="com.huawei.appmarket.permission.imageservice"
+        android:protectionLevel=<0x3, type 0x11>
+        android:description=<0x7F0602D3, type 0x01>
+        >
+    </permission>
+    <permission
+        android:label=<0x7F0602D4, type 0x01>
+        android:name="com.huawei.appmarket.permission.THIRD_PROVIDER_SERVICE"
+        android:protectionLevel=<0x3, type 0x11>
+        android:description=<0x7F0602D5, type 0x01>
+        >
+    </permission>
+    <permission
+        android:label=<0x7F0602D6, type 0x01>
+        android:name="com.huawei.appmarket.SEND_THIRD_COMMON_MSG"
+        android:description=<0x7F0602D7, type 0x01>
+        >
+    </permission>
+    <permission
+        android:label=<0x7F0602D6, type 0x01>
+        android:name="com.android.permission.SEND_HUAWEI"
+        android:description=<0x7F0602D7, type 0x01>
+        >
+    </permission>
+    <permission
+        android:label=<0x7F0602D8, type 0x01>
+        android:name="com.huawei.appmarket.wlanapp"
+        android:protectionLevel=<0x3, type 0x11>
+        android:description=<0x7F0602D9, type 0x01>
+        >
+    </permission>
+    <permission
+        android:label=<0x7F0602DA, type 0x01>
+        android:name="com.huawei.appmarket.RECV_THIRD_COMMON_MSG"
+        android:protectionLevel=<0x3, type 0x11>
+        android:description=<0x7F0602DB, type 0x01>
+        >
+    </permission>
+    <permission
+        android:label=<0x7F0602DC, type 0x01>
+        android:name="com.huawei.appmarket.permission.downloadmanager"
+        android:protectionLevel=<0x3, type 0x11>
+        android:description=<0x7F0602DD, type 0x01>
+        >
+    </permission>
+    <uses-permission
+        android:name="com.huawei.appmarket.permission.downloadmanager"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_SECURE_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_SETTINGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.android.permission.system_manager_interface"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.huawei.systemmanager.permission.ACCESS_INTERFACE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.REAL_GET_TASKS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.huawei.parentcontrol.permission.provider"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="huawei.android.permission.HW_SIGNATURE_OR_SYSTEM"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.INTERACT_ACROSS_USERS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.MANAGE_USERS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.INTERACT_ACROSS_USERS_FULL"
+        >
+    </uses-permission>
+    <permission
+        android:name="com.huawei.appmarket.permission.RESTORE_ACCESS"
+        android:protectionLevel=<0x3, type 0x11>
+        >
+    </permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_CACHE_FILESYSTEM"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECOVERY"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.REBOOT"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.huawei.android.permission.PROTECTAREA"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.huawei.hicloud.permission.hicloudLogin"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_CONTACTS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_CONTACTS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.SEND_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.UPDATE_APP_OPS_STATS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_CALENDAR"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_CALENDAR"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.SET_WALLPAPER"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_FRAME_BUFFER"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.huawei.KoBackup.permission.ACCESS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.hicloud.android.clone.permission.ACCESS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.huawei.android.launcher.permission.ACCESS_INTERFACE_NORMAL"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="com.huawei.permission.MANAGE_TRUSTSPACE"
+        >
+    </uses-permission>
+    <application
+        android:theme=<0x7F0A0015, type 0x01>
+        android:label=<0x7F0600A1, type 0x01>
+        android:icon=<0x7F02000F, type 0x01>
+        android:name="com.huawei.appmarket.framework.app.StoreApplication"
+        android:allowBackup=<0x0, type 0x12>
+        >
+        <meta-data
+            android:name="trim_policy"
+            android:resource=<0x7F050006, type 0x01>
+            >
+        </meta-data>
+        <meta-data
+            android:name="hwc-theme"
+            android:value="androidhwext:style/Theme.Emui"
+            >
+        </meta-data>
+        <meta-data
+            android:name="oplog_encrypt"
+            android:value=<0x1, type 0x10>
+            >
+        </meta-data>
+        <meta-data
+            android:name="com.huawei.hms.client.appid"
+            android:value=<0xFAC5A, type 0x10>
+            >
+        </meta-data>
+        <meta-data
+            android:name="hsf-signature"
+            android:value="a7+3HKHBzh0rXu2+/s3z016KjbMH/SZbQSeNUhuECDx+fssmnTb0eIJ8BgrNjYkO0hVes0f8RCkbJ3IpGWt2jri1InTXed53O5Q9/Tdy05/oULzN8nFE8Kyoz0tbyNr3WqY6CkHdxQWY/LUaKX8hoKFuE4CMANJGwD33+U2PfKuCF0cujkuUJG8UIrIZgMiFhiGT9bztelsbsm3pvgc1G7aOerns6XzcIjwLFsCkij9AlBpxSnwgNYECb4ki8yv6DkWwW/s/T2op4GdXyWXXLIa+nepFlcLqYc4MysYzHJD8z4JEI4dD9CDWX08qBW2pxKpki3H4pLR6Dd3Jq4278g=="
+            >
+        </meta-data>
+        <provider
+            android:name="com.huawei.hms.update.provider.UpdateProvider"
+            android:exported=<0x0, type 0x12>
+            android:authorities="com.huawei.appmarket.hms.update.provider"
+            android:grantUriPermissions=<0xFFFFFFFF, type 0x12>
+            >
+        </provider>
+        <provider
+            android:name="com.huawei.appmarket.support.storage.DbProvider"
+            android:readPermission="com.huawei.appmarket.provider.readPermission"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:authorities="com.huawei.appmarket.appinfos"
+            >
+        </provider>
+        <provider
+            android:name="com.huawei.appmarket.support.storage.ImageProvider"
+            android:readPermission="com.huawei.appmarket.permission.imageservice"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:authorities="com.huawei.appmarket.imageservice.CONTENT_URI"
+            >
+        </provider>
+        <provider
+            android:name="com.huawei.appmarket.support.thirdprovider.ThirdProvider"
+            android:readPermission="com.huawei.appmarket.permission.THIRD_PROVIDER_SERVICE"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:authorities="com.huawei.appmarket.thirdProviderService.CONTENT_URI"
+            >
+        </provider>
+        <provider
+            android:name="com.huawei.appmarket.service.search.microsearch.MicroSearchProvider"
+            android:permission="com.huawei.android.launcher.permission.ACCESS_INTERFACE_NORMAL"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:authorities="com.huawei.appmarket.micro.searchmanager.CONTENT_URI"
+            >
+        </provider>
+        <meta-data
+            android:name="APPKEY"
+            android:value=<0x3, type 0x10>
+            >
+        </meta-data>
+        <meta-data
+            android:name="CHANNEL"
+            android:value="pre-install"
+            >
+        </meta-data>
+        <receiver
+            android:name="com.huawei.appmarket.service.alarm.NetChangeBroadcastReceiver4Alarm"
+            >
+            <intent-filter
+                android:priority=<0x7FFFFFFF, type 0x10>
+                >
+                <action
+                    android:name="android.net.wifi.STATE_CHANGE"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.huawei.appmarket.service.account.HwAccountReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.huawei.hwid.ACTION_HEAD_PIC_CHANGE"
+                    >
+                </action>
+                <action
+                    android:name="com.huawei.hwid.ACTION_REMOVE_ACCOUNT"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.huawei.appmarket.service.installresult.control.InstallerReceiver"
+            >
+            <intent-filter
+                android:priority=<0x7FFFFFFF, type 0x10>
+                >
+                <action
+                    android:name="android.intent.action.PACKAGE_ADDED"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.PACKAGE_REMOVED"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.PACKAGE_REPLACED"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.PACKAGE_INSTALL"
+                    >
+                </action>
+                <data
+                    android:scheme="package"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.huawei.appmarket.installer.prepareInstall"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.huawei.appmarket.service.alarm.control.PowerConnectedReceiver"
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                android:priority=<0x7FFFFFFF, type 0x10>
+                >
+                <action
+                    android:name="android.intent.action.ACTION_POWER_CONNECTED"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.huawei.appmarket.service.alarm.control.ScheduledRepeatingTaskService"
+            android:exported=<0x0, type 0x12>
+            >
+        </service>
+        <service
+            android:name="com.huawei.appmarket.service.alarm.control.PowerConnectedRepeatingTaskService"
+            android:exported=<0x0, type 0x12>
+            >
+        </service>
+        <service
+            android:name="com.huawei.appmarket.service.alarm.control.RepeatingTaskManager"
+            android:exported=<0x0, type 0x12>
+            >
+        </service>
+        <service
+            android:name="com.huawei.appmarket.service.alarm.control.NetworkChangeService"
+            android:exported=<0x0, type 0x12>
+            >
+        </service>
+        <service
+            android:name="com.huawei.appmarket.service.keyappupdate.task.KeyAppUpdateDownloadService"
+            android:exported=<0x0, type 0x12>
+            >
+        </service>
+        <service
+            android:name="com.huawei.appmarket.service.otaupdate.task.OTAUpdateDownloadService"
+            android:exported=<0x0, type 0x12>
+            >
+        </service>
+        <service
+            android:name="com.huawei.appmarket.service.otaupdate.task.OTAUpdateRetryDownloadService"
+            android:exported=<0x0, type 0x12>
+            >
+        </service>
+        <service
+            android:name="com.huawei.appmarket.service.wlanapp.WlanAppService"
+            android:permission="com.huawei.appmarket.wlanapp"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.huawei.appmarket.service.wlanapp.IWlanAppService"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.huawei.appmarket.service.pay.drm.service.DrmSignService"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.huawei.appmarket.drm.GET_SIGN"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <activity
+            android:theme=<0x7F0A0026, type 0x01>
+            android:name="com.huawei.appmarket.framework.widget.dialog.InstallNospaceDialogActivity"
+            android:exported=<0x0, type 0x12>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <meta-data
+                android:name="hwc-theme"
+                android:value="androidhwext:style/Theme.Emui.Translucent"
+                >
+            </meta-data>
+        </activity>
+        <activity
+            android:label=<0x7F06036A, type 0x01>
+            android:name="com.huawei.appmarket.service.reservedownload.gamereserve.view.AppReservedActivity"
+            android:exported=<0x0, type 0x12>
+            android:parentActivityName="com.huawei.appmarket.MainActivity"
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.huawei.appmarket.MainActivity"
+                >
+            </meta-data>
+        </activity>
+        <activity
+            android:theme=<0x7F0A0026, type 0x01>
+            android:name="com.huawei.appmarket.framework.widget.dialog.OTAUpdateDialogActivity"
+            android:exported=<0x0, type 0x12>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <meta-data
+                android:name="hwc-theme"
+                android:value="androidhwext:style/Theme.Emui.Translucent"
+                >
+            </meta-data>
+        </activity>
+        <activity
+            android:theme=<0x7F0A0026, type 0x01>
+            android:name="com.huawei.appmarket.framework.widget.dialog.DialogThreeBtnActivity"
+            android:exported=<0x0, type 0x12>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <meta-data
+                android:name="hwc-theme"
+                android:value="androidhwext:style/Theme.Emui.Translucent"
+                >
+            </meta-data>
+        </activity>
+        <activity
+            android:theme=<0x7F0A0015, type 0x01>
+            android:name="com.huawei.appmarket.MainActivity"
+            android:taskAffinity="com.huawei.appmarket"
+            android:launchMode=<0x1, type 0x10>
+            >
+            <meta-data
+                android:name="hwc-theme"
+                android:value="androidhwext:style/Theme.Emui.WithActionBar"
+                >
+            </meta-data>
+            <meta-data
+                android:name="oem_name"
+                android:resource=<0x7F06034D, type 0x01>
+                >
+            </meta-data>
+            <meta-data
+                android:name="com.huawei.android.quickaction.quick_action_service"
+                android:value="com.huawei.appmarket.service.pressuresensing.HiAppPressureSensingService"
+                >
+            </meta-data>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.LAUNCHER"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.huawei.appmarket.intent.action.MainActivity"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0A0015, type 0x01>
+            android:label=<0x7F0600A2, type 0x01>
+            android:name="com.huawei.gamebox.GameBoxActivity"
+            android:taskAffinity="com.huawei.gamebox"
+            android:launchMode=<0x1, type 0x10>
+            >
+            <meta-data
+                android:name="hwc-theme"
+                android:value="androidhwext:style/Theme.Emui.WithActionBar"
+                >
+            </meta-data>
+            <meta-data
+                android:name="oem_name"
+                android:resource=<0x7F06034D, type 0x01>
+                >
+            </meta-data>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="com.huawei.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.huawei.gamebox.intent.action.GameBoxActivity"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label=<0x7F0600A1, type 0x01>
+            android:name="com.huawei.appmarket.MarketActivity"
+            android:taskAffinity="com.huawei.appmarket"
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.huawei.appmarket.MainActivity"
+                >
+            </meta-data>
+        </activity>
+        <activity
+            android:label=<0x7F0600A2, type 0x01>
+            android:name="com.huawei.gamebox.GameBoxMainActivity"
+            android:taskAffinity="com.huawei.gamebox"
+            android:launchMode=<0x2, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.huawei.gamebox.intent.action.GameBoxMainActivity"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.huawei.appmarket.framework.AppDetailActivity"
+            android:exported=<0x0, type 0x12>
+            android:windowSoftInputMode=<0x23, type 0x11>
+            android:parentActivityName="com.huawei.appmarket.MainActivity"
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.huawei.appmarket.MainActivity"
+                >
+            </meta-data>
+        </activity>
+        <activity
+            android:name="com.huawei.appmarket.framework.AppDetailReplyActivity"
+            android:exported=<0x0, type 0x12>
+            android:parentActivityName="com.huawei.appmarket.MainActivity"
+            >
+        </activity>
+        <activity
+            android:theme=<0x1030010, type 0x01>
+            android:name="com.huawei.appmarket.service.plugin.barcode.act.EMUIBarcodeActivity"
+            android:exported=<0x0, type 0x12>
+            android:parentActivityName="com.huawei.appmarket.MainActivity"
+            >
+        </activity>
+        <activity
+            android:label=<0x7F060132, type 0x01>
+            android:name="com.huawei.appmarket.service.appmgr.view.activity.AppUpdateActivity"
+            android:exported=<0x0, type 0x12>
+            android:configChanges=<0x480, type 0x11>
+            android:parentActivityName="com.huawei.appmarket.MainActivity"
+            >
+        </activity>
+        <activity
+            android:label=<0x7F06038B, type 0x01>
+            android:name="com.huawei.appmarket.service.appmgr.view.activity.AppInstallActivity"
+            android:exported=<0x0, type 0x12>
+            android:configChanges=<0x4A0, type 0x11>
+            android:uiOptions=<0x1, type 0x11>
+            android:parentActivityName="com.huawei.appmarket.MainActivity"
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0032, type 0x01>
+            android:name="com.huawei.appmarket.service.usercenter.personal.view.activity.SignInActivity"
+            android:exported=<0x0, type 0x12>
+            android:launchMode=<0x1, type 0x10>
+            android:configChanges=<0x480, type 0x11>
+            >
+            <meta-data
+                android:name="hwc-theme"
+                android:value="androidhwext:style/Theme.Emui.Translucent"
+                >
+            </meta-data>
+        </activity>
+        <activity
+            android:theme=<0x103000B, type 0x01>
+            android:name="com.huawei.appmarket.service.permissions.PermissionsActivity"
+            android:exported=<0x0, type 0x12>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F06017C, type 0x01>
+            android:name="com.huawei.appmarket.service.appmgr.apkmanagement.activity.ApkManagementActivity"
+            android:exported=<0x0, type 0x12>
+            android:configChanges=<0x4A0, type 0x11>
+            android:uiOptions=<0x1, type 0x11>
+            android:parentActivityName="com.huawei.appmarket.service.appmgr.apkmanagement.activity.ApkManagementActivity"
+            >
+        </activity>
+        <activity
+            android:label=<0x7F060186, type 0x01>
+            android:name="com.huawei.appmarket.service.appmgr.appmove.activity.AppMoveActivity"
+            android:exported=<0x0, type 0x12>
+            android:configChanges=<0x480, type 0x11>
+            android:parentActivityName="com.huawei.appmarket.service.appmgr.apkmanagement.activity.ApkManagementActivity"
+            >
+        </activity>
+        <activity
+            android:name="com.huawei.appmarket.service.appdetail.view.activity.GalleryActivity"
+            android:exported=<0x0, type 0x12>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0027, type 0x01>
+            android:name="com.huawei.appmarket.service.appdetail.view.activity.VideoActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x0, type 0x10>
+            android:hardwareAccelerated=<0x0, type 0x12>
+            >
+            <meta-data
+                android:name="hwc-theme"
+                android:value="androidhwext:style/Theme.Emui.Translucent"
+                >
+            </meta-data>
+        </activity>
+        <activity
+            android:label=<0x7F060136, type 0x01>
+            android:name="com.huawei.appmarket.service.search.view.SearchActivity"
+            android:exported=<0x0, type 0x12>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            android:parentActivityName="com.huawei.appmarket.MainActivity"
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.huawei.appmarket.framework.MainActivity"
+                >
+            </meta-data>
+        </activity>
+        <activity
+            android:label=<0x7F0600A5, type 0x01>
+            android:name="com.huawei.appmarket.service.settings.view.activity.SettingsActivity"
+            android:exported=<0x0, type 0x12>
+            android:configChanges=<0x400004A0, type 0x11>
+            android:parentActivityName="com.huawei.appmarket.MainActivity"
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.huawei.appmarket.framework.MainActivity"
+                >
+            </meta-data>
+        </activity>
+        <activity
+            android:label=<0x7F06015C, type 0x01>
+            android:name="com.huawei.appmarket.service.settings.view.activity.AboutActivity"
+            android:exported=<0x0, type 0x12>
+            android:configChanges=<0x400004A0, type 0x11>
+            android:parentActivityName="com.huawei.appmarket.service.settings.view.activity.SettingsActivity"
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.huawei.appmarket.service.settings.view.activity.SettingsActivity"
+                >
+            </meta-data>
+        </activity>
+        <activity
+            android:label=<0x7F060272, type 0x01>
+            android:name="com.huawei.appmarket.service.discover.activity.AllChannelListActivity"
+            android:exported=<0x0, type 0x12>
+            android:parentActivityName="com.huawei.appmarket.service.discover.activity.DiscoverActivity"
+            >
+        </activity>
+        <activity
+            android:name="com.sina.weibo.sdk.component.WeiboSdkBrowser"
+            android:exported=<0x0, type 0x12>
+            android:configChanges=<0xA0, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F060206, type 0x01>
+            android:name="com.huawei.appmarket.service.settings.view.activity.AutoUpdateActivity"
+            android:exported=<0x0, type 0x12>
+            android:configChanges=<0x400004A0, type 0x11>
+            android:parentActivityName="com.huawei.appmarket.service.settings.view.activity.SettingsActivity"
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.huawei.appmarket.service.settings.view.activity.SettingsActivity"
+                >
+            </meta-data>
+        </activity>
+        <activity
+            android:name="com.huawei.appmarket.service.thirdzone.ThirdAppZoneActivity"
+            android:exported=<0x0, type 0x12>
+            android:launchMode=<0x2, type 0x10>
+            android:windowSoftInputMode=<0x23, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.huawei.appmarket.service.wlanapp.WlanAppZoneActivity"
+            android:exported=<0x0, type 0x12>
+            android:launchMode=<0x2, type 0x10>
+            android:windowSoftInputMode=<0x23, type 0x11>
+            >
+        </activity>
+        <activity
+            android:label=<0x7F0603AF, type 0x01>
+            android:name="com.huawei.appmarket.service.settings.view.activity.OrderDownloadActivity"
+            android:exported=<0x0, type 0x12>
+            android:configChanges=<0x400000A0, type 0x11>
+            android:parentActivityName="com.huawei.appmarket.service.settings.view.activity.SettingsActivity"
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.huawei.appmarket.service.settings.view.activity.SettingsActivity"
+                >
+            </meta-data>
+        </activity>
+        <activity
+            android:theme=<0x7F0A0026, type 0x01>
+            android:name="com.huawei.appmarket.service.plugin.activity.DownloadPluginActivity"
+            android:exported=<0x0, type 0x12>
+            android:configChanges=<0x4A0, type 0x11>
+            android:hardwareAccelerated=<0x0, type 0x12>
+            >
+            <meta-data
+                android:name="hwc-theme"
+                android:value="androidhwext:style/Theme.Emui.Translucent"
+                >
+            </meta-data>
+        </activity>
+        <activity
+            android:theme=<0x7F0A0026, type 0x01>
+            android:name="com.huawei.appmarket.framework.widget.dialog.CustomViewWithCheckboxDialogActivity"
+            android:exported=<0x0, type 0x12>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <meta-data
+                android:name="hwc-theme"
+                android:value="androidhwext:style/Theme.Emui.Translucent"
+                >
+            </meta-data>
+        </activity>
+        <activity
+            android:theme=<0x7F0A0026, type 0x01>
+            android:name="com.huawei.appmarket.framework.widget.dialog.ReserveDloadDialogActivity"
+            android:exported=<0x0, type 0x12>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <meta-data
+                android:name="hwc-theme"
+                android:value="androidhwext:style/Theme.Emui.Translucent"
+                >
+            </meta-data>
+        </activity>
+        <activity
+            android:name="com.huawei.appmarket.service.discover.activity.DiscoverActivity"
+            android:exported=<0x0, type 0x12>
+            android:launchMode=<0x1, type 0x10>
+            android:parentActivityName="com.huawei.appmarket.MainActivity"
+            >
+        </activity>
+        <activity
+            android:name="com.huawei.appmarket.service.usercenter.score.GetScoreActivity"
+            android:exported=<0x0, type 0x12>
+            android:configChanges=<0x480, type 0x11>
+            android:parentActivityName="com.huawei.appmarket.MainActivity"
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.huawei.appmarket.framework.MainActivity"
+                >
+            </meta-data>
+        </activity>
+        <activity
+            android:label=<0x7F060203, type 0x01>
+            android:name="com.huawei.appmarket.service.usercenter.userinfo.view.activity.UserContactInfoActivity"
+            android:configChanges=<0x480, type 0x11>
+            android:parentActivityName="com.huawei.appmarket.service.settings.view.activity.SettingsActivity"
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.huawei.appmarket.service.settings.view.activity.SettingsActivity"
+                >
+            </meta-data>
+        </activity>
+        <activity
+            android:label=""
+            android:name="com.huawei.appmarket.service.usercenter.userinfo.view.activity.InfoChangeActivity"
+            android:configChanges=<0x480, type 0x11>
+            android:windowSoftInputMode=<0x22, type 0x11>
+            android:parentActivityName="com.huawei.appmarket.MainActivity"
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.huawei.appmarket.framework.MainActivity"
+                >
+            </meta-data>
+        </activity>
+        <activity
+            android:label=<0x7F0601E3, type 0x01>
+            android:name="com.huawei.appmarket.service.usercenter.userinfo.view.activity.AddressListActivity"
+            android:exported=<0x0, type 0x12>
+            android:configChanges=<0x480, type 0x11>
+            android:parentActivityName="com.huawei.appmarket.MainActivity"
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.huawei.appmarket.framework.MainActivity"
+                >
+            </meta-data>
+        </activity>
+        <activity
+            android:name="com.huawei.appmarket.service.webview.WebViewActivity"
+            android:exported=<0x0, type 0x12>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            android:hardwareAccelerated=<0xFFFFFFFF, type 0x12>
+            android:parentActivityName="com.huawei.appmarket.MainActivity"
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.huawei.appmarket.framework.MainActivity"
+                >
+            </meta-data>
+        </activity>
+        <activity
+            android:theme=<0x7F0A0026, type 0x01>
+            android:name="com.huawei.appmarket.service.push.PushDownloadAlertActivity"
+            android:exported=<0x0, type 0x12>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <meta-data
+                android:name="hwc-theme"
+                android:value="androidhwext:style/Theme.Emui.Translucent"
+                >
+            </meta-data>
+        </activity>
+        <activity
+            android:theme=<0x7F0A0026, type 0x01>
+            android:name="com.huawei.appmarket.service.push.PushMessageActivity"
+            android:exported=<0x0, type 0x12>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <meta-data
+                android:name="hwc-theme"
+                android:value="androidhwext:style/Theme.Emui.Translucent"
+                >
+            </meta-data>
+        </activity>
+        <activity
+            android:label=<0x7F0603D2, type 0x01>
+            android:name="com.huawei.appmarket.service.pay.purchase.PurchaseHistoryActivity"
+            android:exported=<0x0, type 0x12>
+            android:configChanges=<0x4A0, type 0x11>
+            android:uiOptions=<0x1, type 0x11>
+            android:parentActivityName="com.huawei.appmarket.MainActivity"
+            >
+        </activity>
+        <service
+            android:name="com.huawei.appmarket.service.deamon.download.DownloadService"
+            android:exported=<0x0, type 0x12>
+            >
+        </service>
+        <service
+            android:name="com.huawei.appmarket.service.deamon.download.remote.DownloadAgentService"
+            android:permission="com.huawei.appmarket.permission.downloadmanager"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.huawei.appmarket.intent.action.downloadmanager"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <receiver
+            android:name="com.huawei.appmarket.service.push.PushDealReceiver"
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.huawei.appmarket.pushdeal.onmessagenew"
+                    >
+                </action>
+                <action
+                    android:name="android.huawei.appmarket.pushdeal.ontokennew"
+                    >
+                </action>
+                <action
+                    android:name="android.huawei.appmarket.pushdeal.dispatchnew"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.huawei.appmarket.service.plugin.receiver.ThirdapkBroadCastReceiver"
+            android:permission="com.android.permission.SEND_HUAWEI"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.huawei.appmarket.thirdapk"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.huawei.appmarket.service.plugin.receiver.NewThirdapkBroadCastReceiver"
+            android:permission="com.huawei.appmarket.SEND_THIRD_COMMON_MSG"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.huawei.appmarket.newthirdapk"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:theme=<0x103000F, type 0x01>
+            android:name="com.huawei.hwid.api.common.apkimpl.DummyActivity"
+            android:exported=<0x0, type 0x12>
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:configChanges=<0x40002484, type 0x11>
+            >
+            <meta-data
+                android:name="hwc-theme"
+                android:value="androidhwext:style/Theme.Emui.Translucent"
+                >
+            </meta-data>
+        </activity>
+        <activity
+            android:name="com.huawei.hwid.api.common.CloudAccountCenterActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:configChanges=<0x5B0, type 0x11>
+            android:hardwareAccelerated=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.huawei.hwid.ACTION_ACCOUNT_CENTER_CLOUD"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x103000F, type 0x01>
+            android:name="com.huawei.hwid.api.common.apkimpl.OtaDownloadActivity"
+            android:exported=<0x0, type 0x12>
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:configChanges=<0x40002484, type 0x11>
+            >
+            <meta-data
+                android:name="hwc-theme"
+                android:value="androidhwext:style/Theme.Emui.Translucent"
+                >
+            </meta-data>
+        </activity>
+        <provider
+            android:name="com.huawei.hwid.update.OtaFileProvider"
+            android:exported=<0x0, type 0x12>
+            android:authorities="com.huawei.appmarket.hwid.sdk.otafileprovider"
+            android:grantUriPermissions=<0xFFFFFFFF, type 0x12>
+            >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource=<0x7F050004, type 0x01>
+                >
+            </meta-data>
+        </provider>
+        <provider
+            android:name="com.android.huawei.pay.install.OtaFileProvider"
+            android:exported=<0x0, type 0x12>
+            android:authorities="com.huawei.gallery.hwpay.sdk.provider"
+            android:grantUriPermissions=<0xFFFFFFFF, type 0x12>
+            >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource=<0x7F050005, type 0x01>
+                >
+            </meta-data>
+        </provider>
+        <receiver
+            android:name="com.huawei.appmarket.service.push.PushAgentReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.huawei.android.push.intent.REGISTRATION"
+                    >
+                </action>
+                <action
+                    android:name="com.huawei.android.push.intent.RECEIVE"
+                    >
+                </action>
+                <action
+                    android:name="com.huawei.android.push.plugin.RESPONSE"
+                    >
+                </action>
+                <action
+                    android:name="com.huawei.android.push.intent.CLICK"
+                    >
+                </action>
+            </intent-filter>
+            <meta-data
+                android:name="CS_cloud_ablitity"
+                android:value=<0x7F06009F, type 0x01>
+                >
+            </meta-data>
+        </receiver>
+        <receiver
+            android:name="com.huawei.android.pushagent.PushEventReceiver"
+            android:process=":pushservice"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.huawei.android.push.intent.REFRESH_PUSH_CHANNEL"
+                    >
+                </action>
+                <action
+                    android:name="com.huawei.intent.action.PUSH"
+                    >
+                </action>
+                <action
+                    android:name="com.huawei.intent.action.PUSH_ON"
+                    >
+                </action>
+                <action
+                    android:name="com.huawei.android.push.PLUGIN"
+                    >
+                </action>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.PACKAGE_ADDED"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.PACKAGE_REMOVED"
+                    >
+                </action>
+                <data
+                    android:scheme="package"
+                    >
+                </data>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.huawei.android.pushagent.PushBootReceiver"
+            android:process=":pushservice"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.huawei.android.push.intent.REGISTER"
+                    >
+                </action>
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+            </intent-filter>
+            <meta-data
+                android:name="CS_cloud_version"
+                android:value=<0x7F060024, type 0x01>
+                >
+            </meta-data>
+        </receiver>
+        <service
+            android:name="com.huawei.android.pushagent.PushService"
+            android:process=":pushservice"
+            >
+        </service>
+        <activity
+            android:theme=<0x7F0A0012, type 0x01>
+            android:name="com.huawei.android.pushselfshow.richpush.RichPushActivity"
+            android:process=":pushservice"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x2484, type 0x11>
+            >
+            <meta-data
+                android:name="hwc-theme"
+                android:value="androidhwext:style/Theme.Emui"
+                >
+            </meta-data>
+            <intent-filter
+                >
+                <action
+                    android:name="com.huawei.android.push.intent.RICHPUSH"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x1030134, type 0x01>
+            android:name="com.huawei.android.pushselfshow.permission.RequestPermissionsActivity"
+            android:exported=<0x0, type 0x12>
+            android:launchMode=<0x1, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x2484, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0032, type 0x01>
+            android:name="com.huawei.appmarket.service.externalapi.view.ThirdApiActivity"
+            android:launchMode=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:parentActivityName="com.huawei.appmarket.MainActivity"
+            >
+            <meta-data
+                android:name="hwc-theme"
+                android:value="androidhwext:style/Theme.Emui.Translucent"
+                >
+            </meta-data>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.ONLINESEARCH"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.huawei.appmarket.ext.public"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.huawei.appmarket.appmarket.intent.action.appmovemanager"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.huawei.appmarket.appmarket.intent.action.appmanager"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.huawei.appmarket.intent.action.AppDetail"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.huawei.appmarket.appmarket.intent.action.AppDetail.withapp"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.huawei.appmarket.appmarket.intent.action.AppDetail.withid"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.huawei.appmarket.appmarket.intent.action.AppDetail.withURL"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="market"
+                    android:host="details"
+                    >
+                </data>
+                <data
+                    android:scheme="appmarket"
+                    android:host="details"
+                    >
+                </data>
+                <data
+                    android:scheme="market"
+                    android:host="search"
+                    >
+                </data>
+                <data
+                    android:scheme="https"
+                    android:host="a.vmall.com"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.huawei.appmarket.appmarket.intent.action.AppDetail.withdetailId"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.huawei.appmarket.appmarket.intent.action.SearchActivity"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.SearchActivity"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.huawei.appmarket.service.externalapi.actions.AppUninstallAction"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.huawei.appmarket.service.externalapi.actions.PayZoneAction"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.huawei.appmarket.intent.action.PROTOCOL"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="com.huawei.appmarket.intent.action.LOGIN"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+            <meta-data
+                android:name="android.app.online_searchable"
+                android:resource=<0x7F050002, type 0x01>
+                >
+            </meta-data>
+        </activity>
+        <activity
+            android:theme=<0x7F0A0032, type 0x01>
+            android:name="com.huawei.appmarket.service.externalapi.view.ThirdPermissionApiActivity"
+            android:permission="com.huawei.appmarket.SEND_THIRD_COMMON_MSG"
+            android:launchMode=<0x1, type 0x10>
+            >
+            <meta-data
+                android:name="hwc-theme"
+                android:value="androidhwext:style/Theme.Emui.Translucent"
+                >
+            </meta-data>
+            <intent-filter
+                >
+                <action
+                    android:name="com.huawei.appmarket.emui.barcode.result"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.huawei.appmarket.service.externalapi.view.ThirdApiActivityWithTitle"
+            android:exported=<0x0, type 0x12>
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0A0026, type 0x01>
+            android:name="com.huawei.appmarket.framework.widget.dialog.UnsigntureDialogActivity"
+            android:exported=<0x0, type 0x12>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <meta-data
+                android:name="hwc-theme"
+                android:value="androidhwext:style/Theme.Emui.Translucent"
+                >
+            </meta-data>
+        </activity>
+        <activity
+            android:theme=<0x7F0A0026, type 0x01>
+            android:name="com.huawei.appmarket.framework.widget.dialog.BaseDialogActivity"
+            android:exported=<0x0, type 0x12>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <meta-data
+                android:name="hwc-theme"
+                android:value="androidhwext:style/Theme.Emui.Translucent"
+                >
+            </meta-data>
+        </activity>
+        <activity
+            android:theme=<0x7F0A0026, type 0x01>
+            android:name="com.huawei.appmarket.framework.widget.share.ShareDialogActivity"
+            android:exported=<0x0, type 0x12>
+            android:launchMode=<0x2, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <meta-data
+                android:name="hwc-theme"
+                android:value="androidhwext:style/Theme.Emui.Translucent"
+                >
+            </meta-data>
+        </activity>
+        <activity
+            android:theme=<0x7F0A0026, type 0x01>
+            android:name="com.huawei.appmarket.framework.widget.share.SnsShareDialogActivity"
+            android:exported=<0x0, type 0x12>
+            android:launchMode=<0x2, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <meta-data
+                android:name="hwc-theme"
+                android:value="androidhwext:style/Theme.Emui.Translucent"
+                >
+            </meta-data>
+        </activity>
+        <activity
+            android:name="com.huawei.appmarket.framework.widget.share.WeiboShareDialogActivity"
+            android:exported=<0x0, type 0x12>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.huawei.appmarket.service.appzone.AppZoneActivity"
+            android:exported=<0x0, type 0x12>
+            android:windowSoftInputMode=<0x23, type 0x11>
+            android:parentActivityName="com.huawei.appmarket.MainActivity"
+            >
+        </activity>
+        <activity
+            android:name="com.huawei.appmarket.service.appzone.AppTraceEditActivity"
+            android:exported=<0x0, type 0x12>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x23, type 0x11>
+            android:uiOptions=<0x1, type 0x11>
+            android:parentActivityName="com.huawei.appmarket.MainActivity"
+            >
+        </activity>
+        <activity
+            android:name="com.huawei.appmarket.service.appzone.MasterRankingListActivity"
+            android:exported=<0x0, type 0x12>
+            android:parentActivityName="com.huawei.appmarket.MainActivity"
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.huawei.appmarket.framework.MainActivity"
+                >
+            </meta-data>
+        </activity>
+        <activity
+            android:name="com.huawei.appmarket.service.appzone.DetailMasterListActivity"
+            android:exported=<0x0, type 0x12>
+            android:parentActivityName="com.huawei.appmarket.service.appzone.MasterRankingListActivity"
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.huawei.appmarket.service.appzone.MasterRankingListActivity"
+                >
+            </meta-data>
+        </activity>
+        <activity
+            android:name="com.huawei.appmarket.service.appzone.MasterAwardListActivity"
+            android:exported=<0x0, type 0x12>
+            android:configChanges=<0x4A0, type 0x11>
+            android:parentActivityName="com.huawei.appmarket.service.appzone.MasterRankingListActivity"
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.huawei.appmarket.service.appzone.MasterRankingListActivity"
+                >
+            </meta-data>
+        </activity>
+        <activity
+            android:theme=<0x7F0A0064, type 0x01>
+            android:name="com.huawei.walletapi.server.download.DownloadActivity"
+            android:configChanges=<0x480, type 0x11>
+            >
+            <meta-data
+                android:name="hwc-theme"
+                android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar"
+                >
+            </meta-data>
+        </activity>
+        <activity
+            android:theme=<0x103000F, type 0x01>
+            android:name="com.huawei.appmarket.service.studentmode.ProxyActivity"
+            android:exported=<0x0, type 0x12>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <meta-data
+                android:name="hwc-theme"
+                android:value="androidhwext:style/Theme.Emui.Translucent"
+                >
+            </meta-data>
+        </activity>
+        <activity
+            android:name="com.huawei.appmarket.service.installfail.InstallFailDescriptionActivity"
+            android:exported=<0x0, type 0x12>
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x103000F, type 0x01>
+            android:name="com.huawei.appmarket.support.pm.PackageInstallerActivity"
+            android:exported=<0x0, type 0x12>
+            android:taskAffinity="com.huawei.appmarket.installer"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <meta-data
+                android:name="hwc-theme"
+                android:value="androidhwext:style/Theme.Emui.Translucent"
+                >
+            </meta-data>
+        </activity>
+        <activity
+            android:theme=<0x103000F, type 0x01>
+            android:name="com.huawei.appmarket.support.pm.PackageUninstallerActivity"
+            android:exported=<0x0, type 0x12>
+            android:taskAffinity="com.huawei.appmarket.installer"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:configChanges=<0x4A0, type 0x11>
+            >
+            <meta-data
+                android:name="hwc-theme"
+                android:value="androidhwext:style/Theme.Emui.Translucent"
+                >
+            </meta-data>
+        </activity>
+        <service
+            android:name="com.huawei.appmarket.support.pm.PackageEmptyService"
+            android:exported=<0x0, type 0x12>
+            >
+        </service>
+        <service
+            android:name="com.huawei.appmarket.service.pressuresensing.HiAppPressureSensingService"
+            android:permission="com.huawei.android.permission.BIND_QUICK_ACTION_SERVICE"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.huawei.android.quickaction.QuickActionService"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.huawei.hisuite.HiSuiteService"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="com.huawei.appmarket.START"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <receiver
+            android:name="com.huawei.hisuite.sms.SmsReceiver"
+            android:permission="android.permission.BROADCAST_SMS"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.provider.Telephony.SMS_DELIVER"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:label=<0x7F060050, type 0x01>
+            android:name="com.huawei.hisuite.HiSuiteConnectActivity"
+            android:launchMode=<0x3, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:parentActivityName="com.huawei.appmarket.MainActivity"
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.huawei.appmarket.framework.MainActivity"
+                >
+            </meta-data>
+        </activity>
+        <activity
+            android:theme=<0x7F0A0042, type 0x01>
+            android:name=".service.thirdappdl.ThirdAppDownloadActivity"
+            android:configChanges=<0x480, type 0x11>
+            >
+            <meta-data
+                android:name="hwc-theme"
+                android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar"
+                >
+            </meta-data>
+        </activity>
+        <receiver
+            android:name="com.huawei.hisuite.sms.SmsReceiver"
+            android:permission="android.permission.BROADCAST_WAP_PUSH"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.provider.Telephony.WAP_PUSH_DELIVER"
+                    >
+                </action>
+                <data
+                    android:mimeType="application/vnd.wap.mms-message"
+                    >
+                </data>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:name="com.huawei.hisuite.sms.ComposeSmsActivity"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.SEND"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.SENDTO"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="sms"
+                    >
+                </data>
+                <data
+                    android:scheme="smsto"
+                    >
+                </data>
+                <data
+                    android:scheme="mms"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <service
+            android:name="com.huawei.hisuite.sms.HeadlessSmsSendService"
+            android:permission="android.permission.SEND_RESPOND_VIA_MESSAGE"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.RESPOND_VIA_MESSAGE"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:scheme="sms"
+                    >
+                </data>
+                <data
+                    android:scheme="smsto"
+                    >
+                </data>
+                <data
+                    android:scheme="mms"
+                    >
+                </data>
+                <data
+                    android:scheme="mmsto"
+                    >
+                </data>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.huawei.hisuite.sms.SmsReceiverService"
+            >
+        </service>
+        <activity
+            android:name="com.huawei.appmarket.service.paymentapp.PaymentAppZoneActivity"
+            android:exported=<0x0, type 0x12>
+            android:launchMode=<0x2, type 0x10>
+            android:windowSoftInputMode=<0x23, type 0x11>
+            >
+        </activity>
+    </application>
+</manifest>

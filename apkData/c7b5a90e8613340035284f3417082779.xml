@@ -1,0 +1,1032 @@
+<manifest
+    android:versionCode=<0x329, type 0x10>
+    android:versionName="3.0.0"
+    package="com.sogouchat"
+    platformBuildVersionCode=<0x13, type 0x10>
+    platformBuildVersionName="4.4.2-1456859"
+    >
+    <uses-sdk
+        android:minSdkVersion=<0x9, type 0x10>
+        android:targetSdkVersion=<0x13, type 0x10>
+        >
+    </uses-sdk>
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.DISABLE_KEYGUARD"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_WIFI_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.SYSTEM_ALERT_WINDOW"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_CONTACTS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_CALL_LOG"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_CONTACTS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_MMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.SEND_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_SMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.RECEIVE_BOOT_COMPLETED"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.GET_TASKS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CALL_PHONE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.VIBRATE"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.CAMERA"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_LOGS"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WAKE_LOCK"
+        >
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        >
+    </uses-permission>
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required=<0x0, type 0x12>
+        >
+    </uses-feature>
+    <supports-screens
+        android:anyDensity=<0xFFFFFFFF, type 0x12>
+        android:smallScreens=<0xFFFFFFFF, type 0x12>
+        android:normalScreens=<0xFFFFFFFF, type 0x12>
+        android:largeScreens=<0xFFFFFFFF, type 0x12>
+        android:xlargeScreens=<0xFFFFFFFF, type 0x12>
+        >
+    </supports-screens>
+    <application
+        android:label=<0x7F0B0000, type 0x01>
+        android:icon=<0x7F020166, type 0x01>
+        android:name="com.sogouchat.SogouChatApp"
+        android:persistent=<0xFFFFFFFF, type 0x12>
+        android:allowBackup=<0xFFFFFFFF, type 0x12>
+        android:hardwareAccelerated=<0xFFFFFFFF, type 0x12>
+        android:largeHeap=<0xFFFFFFFF, type 0x12>
+        >
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="52c6835e56240ba1660fa852"
+            >
+        </meta-data>
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="SIN_MMSWAP"
+            >
+        </meta-data>
+        <activity
+            android:theme=<0x7F0C0047, type 0x01>
+            android:label=<0x7F0B0000, type 0x01>
+            android:name="com.sogouchat.SplashActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x7, type 0x10>
+            android:noHistory=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.LAUNCHER"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.APP_MESSAGING"
+                    >
+                </category>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:mimeType="vnd.android-dir/mms-sms"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:mimeType="vnd.android-dir/mms-sms"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.VIEW"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.SEND"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.SENDTO"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <category
+                    android:name="android.intent.category.BROWSABLE"
+                    >
+                </category>
+                <data
+                    android:scheme="sms"
+                    >
+                </data>
+                <data
+                    android:scheme="smsto"
+                    >
+                </data>
+                <data
+                    android:scheme="mms"
+                    >
+                </data>
+                <data
+                    android:scheme="mmsto"
+                    >
+                </data>
+            </intent-filter>
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.SEND"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:mimeType="text/plain"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sogouchat.ui.MockupSmsActivity"
+            android:enabled=<0x0, type 0x12>
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:mimeType="vnd.android-dir/mms-sms"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sogouchat.ui.MockupSendingSmsActivity"
+            android:enabled=<0x0, type 0x12>
+            android:exported=<0x0, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.SENDTO"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:scheme="smsto"
+                    >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0C0049, type 0x01>
+            android:label=<0x7F0B0000, type 0x01>
+            android:name="com.sogouchat.ui.MainActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:alwaysRetainTaskState=<0xFFFFFFFF, type 0x12>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C0049, type 0x01>
+            android:label=<0x7F0B0000, type 0x01>
+            android:name="com.sogouchat.ui.MainStrangerActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C0049, type 0x01>
+            android:label=<0x7F0B0000, type 0x01>
+            android:name="com.sogouchat.ui.MainTongMingActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x20, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C004C, type 0x01>
+            android:label=<0x7F0B0000, type 0x01>
+            android:name="com.sogouchat.ui.CreateActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x13, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="com.sgchat.intent.category"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0C0049, type 0x01>
+            android:label=<0x7F0B0000, type 0x01>
+            android:name="com.sogouchat.ui.CreateCallLogActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x13, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="com.sgchat.intent.category"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0C0049, type 0x01>
+            android:label=<0x7F0B0000, type 0x01>
+            android:name="com.sogouchat.ui.CallLogSelect"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x13, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="com.sgchat.intent.category"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0C0049, type 0x01>
+            android:label=<0x7F0B0000, type 0x01>
+            android:name="com.sogouchat.ui.CreateContactDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x13, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="com.sgchat.intent.category"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0C0049, type 0x01>
+            android:label=<0x7F0B0000, type 0x01>
+            android:name="com.sogouchat.ui.CreateContactDetailCallLogActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x13, type 0x11>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="com.sgchat.intent.category"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0C0049, type 0x01>
+            android:label=<0x7F0B0000, type 0x01>
+            android:name="com.sogouchat.threadchat.ChatListActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x12, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C0049, type 0x01>
+            android:name="com.sogouchat.vr.TrainTicketsActivity"
+            android:launchMode=<0x0, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C0049, type 0x01>
+            android:name="com.sogouchat.vr.BankCardsActivity"
+            android:launchMode=<0x0, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C0049, type 0x01>
+            android:name="com.sogouchat.vr.BankTransActivity"
+            android:launchMode=<0x0, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C0049, type 0x01>
+            android:name="com.sogouchat.vr.SingleTrainTicketActivity"
+            android:launchMode=<0x0, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C0049, type 0x01>
+            android:label=<0x7F0B0000, type 0x01>
+            android:name="com.sogouchat.ui.MmsViewActivity"
+            android:launchMode=<0x2, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="com.sgchat.intent.category"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0C0049, type 0x01>
+            android:label=<0x7F0B0000, type 0x01>
+            android:name="com.sogouchat.ui.AboutActivity"
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C0042, type 0x01>
+            android:name="com.sogouchat.update.NotifactionInstallActivity"
+            android:taskAffinity="com.sogouchat.todo.notification"
+            android:finishOnTaskLaunch=<0xFFFFFFFF, type 0x12>
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x3, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            android:allowTaskReparenting=<0xFFFFFFFF, type 0x12>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C0049, type 0x01>
+            android:label=<0x7F0B0000, type 0x01>
+            android:name="com.sogouchat.ui.SuggestionActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x24, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C0049, type 0x01>
+            android:label=<0x7F0B0000, type 0x01>
+            android:name="com.sogouchat.ui.CollectionListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C0049, type 0x01>
+            android:label=<0x7F0B0158, type 0x01>
+            android:name="com.sogouchat.ui.SettingActivity"
+            android:launchMode=<0x2, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C004B, type 0x01>
+            android:label=<0x7F0B0000, type 0x01>
+            android:name="com.sogouchat.ui.UpdateActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.MAIN"
+                    >
+                </action>
+                <category
+                    android:name="com.sgchat.intent.category"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme=<0x7F0C0049, type 0x01>
+            android:label=<0x7F0B0000, type 0x01>
+            android:name="com.sogouchat.ui.ContactInfoActivity"
+            android:launchMode=<0x0, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C0008, type 0x01>
+            android:name="com.sogouchat.prompt.PromptMain"
+            android:taskAffinity="com.sogouchat.prompt"
+            android:finishOnTaskLaunch=<0xFFFFFFFF, type 0x12>
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x3, type 0x10>
+            android:allowTaskReparenting=<0xFFFFFFFF, type 0x12>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C0049, type 0x01>
+            android:name="com.sogouchat.prompt.PromptPage"
+            android:launchMode=<0x0, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C0049, type 0x01>
+            android:name="com.sogouchat.ui.MyCardActivity"
+            android:launchMode=<0x0, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C0049, type 0x01>
+            android:label=<0x7F0B01BB, type 0x01>
+            android:name="com.sogouchat.ui.MyCardEditActivity"
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C0049, type 0x01>
+            android:label=<0x7F0B0000, type 0x01>
+            android:name="com.sogouchat.ui.ContactEditActivity"
+            android:launchMode=<0x0, type 0x10>
+            android:configChanges=<0x4A0, type 0x11>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C0049, type 0x01>
+            android:name="com.sogouchat.ui.TodoEditActivity"
+            android:exported=<0x0, type 0x12>
+            android:launchMode=<0x0, type 0x10>
+            android:windowSoftInputMode=<0x24, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C0049, type 0x01>
+            android:label=<0x7F0B01CD, type 0x01>
+            android:name="com.sogouchat.threadchat.ChatInfoActivity"
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C0049, type 0x01>
+            android:label=<0x7F0B01CE, type 0x01>
+            android:name="com.sogouchat.ui.RecipientsEditActivity"
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C0049, type 0x01>
+            android:label=<0x7F0B01E9, type 0x01>
+            android:name="com.sogouchat.threadchat.BlessSmsTabActivity"
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C0049, type 0x01>
+            android:label=<0x7F0B0000, type 0x01>
+            android:name="com.sogouchat.ui.FunctionHelpActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C0049, type 0x01>
+            android:label=<0x7F0B0000, type 0x01>
+            android:name="com.sogouchat.ui.SpamClassActivity"
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C0049, type 0x01>
+            android:label=<0x7F0B0000, type 0x01>
+            android:name="com.sogouchat.ui.SpamSmsListActivity"
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C0008, type 0x01>
+            android:label=<0x7F0B0000, type 0x01>
+            android:name="com.sogouchat.os.KitKatDefaultSmsDialog"
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C0049, type 0x01>
+            android:label=<0x7F0B0000, type 0x01>
+            android:name="com.sogouchat.ui.MaintodoActivity"
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C0042, type 0x01>
+            android:name="com.sogouchat.todo.NotificationActivity"
+            android:taskAffinity="com.sogouchat.todo.notification"
+            android:finishOnTaskLaunch=<0xFFFFFFFF, type 0x12>
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x3, type 0x10>
+            android:allowTaskReparenting=<0xFFFFFFFF, type 0x12>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C0044, type 0x01>
+            android:name="com.sogouchat.prompt.FestivalEggActivity"
+            android:process=":sgsrv"
+            android:taskAffinity="com.sogouchat.ui.FestivalEggActivity"
+            android:finishOnTaskLaunch=<0xFFFFFFFF, type 0x12>
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x3, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:allowTaskReparenting=<0xFFFFFFFF, type 0x12>
+            >
+        </activity>
+        <activity
+            android:name="com.sogou.wallpaper.MainActivity1_4"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.SET_WALLPAPER"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sogou.wallpaper.ImagePreviewActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.sogou.wallpaper.ImageManageActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.sogou.wallpaper.ImageDetailActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.sogou.wallpaper.WallpaperPreviewActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C0003, type 0x01>
+            android:name="com.sogou.wallpaper.ShakeSettingActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.sogou.wallpaper.WpSettingActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.sogou.wallpaper.FeedbackActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x2, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.sogou.wallpaper.AboutActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C0003, type 0x01>
+            android:name="com.sogou.wallpaper.GuideActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C0049, type 0x01>
+            android:label=<0x7F0B0000, type 0x01>
+            android:name="com.sogouchat.ui.ChatListBackGroundSet"
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C0049, type 0x01>
+            android:label=<0x7F0B0000, type 0x01>
+            android:name="com.sogouchat.ui.ChatListActivitySetLocalBg"
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C004E, type 0x01>
+            android:label=<0x7F0B0000, type 0x01>
+            android:name="com.sogouchat.ui.SelectPicPopupWindow"
+            android:configChanges=<0xB0, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.sogou.wallpaper.wxapi.WXEntryActivity"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C0003, type 0x01>
+            android:name="com.sogou.wallpaper.EditShareActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x10, type 0x11>
+            >
+        </activity>
+        <activity
+            android:name="com.sogou.wallpaper.LeShareGuide"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.sogou.wallpaper.ImageManageListActivity"
+            android:screenOrientation=<0x1, type 0x10>
+            >
+        </activity>
+        <activity
+            android:name="com.sogou.wallpaper"
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C0049, type 0x01>
+            android:label=<0x7F0B0000, type 0x01>
+            android:name="com.sogouchat.ui.CollectionAddActivity"
+            android:windowSoftInputMode=<0x24, type 0x11>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C0049, type 0x01>
+            android:label=<0x7F0B0000, type 0x01>
+            android:name="com.sogouchat.ui.CollectionEditActivity"
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C004A, type 0x01>
+            android:label=<0x7F0B0000, type 0x01>
+            android:name="com.sogouchat.ui.SpamListActivity"
+            android:taskAffinity="com.sogouchat.ui.Spam"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x2, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C0049, type 0x01>
+            android:label=<0x7F0B0000, type 0x01>
+            android:name="com.sogouchat.ui.SpamChatListActivity"
+            android:taskAffinity="com.sogouchat.ui.Spam"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x2, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C0049, type 0x01>
+            android:label=<0x7F0B0000, type 0x01>
+            android:name="com.sogouchat.ui.SpamSetting"
+            android:taskAffinity="com.sogouchat.ui.Spam"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x2, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C0049, type 0x01>
+            android:label=<0x7F0B0000, type 0x01>
+            android:name="com.sogouchat.ui.SpamFilterListActivity"
+            android:taskAffinity="com.sogouchat.ui.Spam"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x2, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C0049, type 0x01>
+            android:label=<0x7F0B0000, type 0x01>
+            android:name="com.sogouchat.ui.SpamVolumeActivity"
+            android:taskAffinity="com.sogouchat.ui.Spam"
+            android:excludeFromRecents=<0xFFFFFFFF, type 0x12>
+            android:launchMode=<0x2, type 0x10>
+            >
+        </activity>
+        <activity
+            android:theme=<0x7F0C0049, type 0x01>
+            android:label=<0x7F0B0000, type 0x01>
+            android:name="com.sogouchat.ui.CreatMsgActivity"
+            android:launchMode=<0x2, type 0x10>
+            android:screenOrientation=<0x1, type 0x10>
+            android:windowSoftInputMode=<0x14, type 0x11>
+            >
+        </activity>
+        <service
+            android:name="com.sogouchat.os.MsgService"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:process=":sgsrv"
+            android:stopWithTask=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                android:priority=<0x3E8, type 0x10>
+                >
+                <action
+                    android:name="com.sogouchat.os.IMsgService"
+                    >
+                </action>
+                <action
+                    android:name="com.sogouchat.im.IMsgService"
+                    >
+                </action>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.sogouchat.net.ConnService"
+            >
+        </service>
+        <service
+            android:name="com.sogouchat.os.HeadlessSmsSendService"
+            android:permission="android.permission.SEND_RESPOND_VIA_MESSAGE"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.RESPOND_VIA_MESSAGE"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    >
+                </category>
+                <data
+                    android:scheme="sms"
+                    >
+                </data>
+                <data
+                    android:scheme="smsto"
+                    >
+                </data>
+                <data
+                    android:scheme="mms"
+                    >
+                </data>
+                <data
+                    android:scheme="mmsto"
+                    >
+                </data>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.sogouchat.threadchat.ChatService"
+            android:exported=<0x0, type 0x12>
+            >
+        </service>
+        <receiver
+            android:name="com.sogouchat.os.SmsReceiver"
+            android:permission="android.permission.BROADCAST_SMS"
+            android:process=":sms"
+            >
+            <intent-filter
+                android:priority=<0x7FFFFFFF, type 0x10>
+                >
+                <action
+                    android:name="android.provider.Telephony.SMS_DELIVER"
+                    >
+                </action>
+                <action
+                    android:name="android.provider.Telephony.SMS_RECEIVED"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.sogouchat.os.MmsReceiver"
+            android:permission="android.permission.BROADCAST_WAP_PUSH"
+            >
+            <intent-filter
+                android:priority=<0x7FFFFFFF, type 0x10>
+                >
+                <action
+                    android:name="android.provider.Telephony.WAP_PUSH_DELIVER"
+                    >
+                </action>
+                <action
+                    android:name="android.provider.Telephony.WAP_PUSH_RECEIVED"
+                    >
+                </action>
+                <data
+                    android:mimeType="application/vnd.wap.mms-message"
+                    >
+                </data>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.sogouchat.os.MsgSrvBootReceiver"
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.BOOT_COMPLETED"
+                    >
+                </action>
+                <category
+                    android:name="android.intent.category.HOME"
+                    >
+                </category>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.sogouchat.net.ConnReceiver"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.sogouchat.update.UpdateInstallBroadcast"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.PACKAGE_ADDED"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.PACKAGE_REMOVED"
+                    >
+                </action>
+                <action
+                    android:name="android.intent.action.PACKAGE_REPLACED"
+                    >
+                </action>
+                <data
+                    android:scheme="package"
+                    >
+                </data>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.sogouchat.todo.TodoAlarmReceiver"
+            >
+        </receiver>
+        <receiver
+            android:name="com.sogouchat.todo.TodoBootReceiver"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            >
+            <intent-filter
+                >
+                <action
+                    android:name="android.intent.action.BOOT_COMPLETED"
+                    >
+                </action>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.sogouchat.update.UpgradeService"
+            android:enabled=<0xFFFFFFFF, type 0x12>
+            android:exported=<0x0, type 0x12>
+            >
+        </service>
+        <service
+            android:name="com.sogouchat.service.SmsService"
+            android:exported=<0xFFFFFFFF, type 0x12>
+            android:process=":sms"
+            >
+        </service>
+    </application>
+</manifest>
