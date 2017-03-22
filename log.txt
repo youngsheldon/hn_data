@@ -29294,3 +29294,96 @@ UnicodeDecodeError: 'utf8' codec can't decode byte 0xb8 in position 465: invalid
 [2017-03-21 16:42:05,336] [INFO] apk_report_run.py:77 [620018358fa092d9ad3ca8a11bcfeb23:update last_update]
 [2017-03-21 18:52:09,083] [INFO] apk_report_run.py:84 [8323a12423e5d9c91f16a8017e653ac5:begin to decode apk]
 [2017-03-21 18:54:41,702] [INFO] apk_report_run.py:87 [8323a12423e5d9c91f16a8017e653ac5:begin to generate data for apk_report_yyyymm]
+[2017-03-21 19:05:44,312] [INFO] apk_report_run.py:90 [8323a12423e5d9c91f16a8017e653ac5:begin to upload data to apk_report_yyyymm]
+[2017-03-21 19:05:44,767] [INFO] apk_report_run.py:92 [8323a12423e5d9c91f16a8017e653ac5:begin to generate data for apk_resource]
+[2017-03-21 19:05:45,691] [INFO] apk_report_run.py:95 [8323a12423e5d9c91f16a8017e653ac5:begin to upload data to apk_resource]
+[2017-03-21 19:05:45,712] [INFO] apk_report_run.py:97 [8323a12423e5d9c91f16a8017e653ac5:begin to generate data for apk_basic_info]
+[2017-03-21 19:05:51,643] [ERROR] apk_report_run.py:111 8323a12423e5d9c91f16a8017e653ac5
+Traceback (most recent call last):
+  File "apk_report_run.py", line 99, in apk_analyze_run
+    apk_basic_obj.basic_info_collect()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/basic_info_sort.py", line 64, in basic_info_collect
+    target_ip_attribution = get_ip_attribution(target_ip)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/file_hash.py", line 148, in get_ip_attribution
+    ret.append(s['data']['ip'])
+TypeError: string indices must be integers, not str
+[2017-03-21 19:05:53,063] [INFO] apk_report_run.py:77 [620018358fa092d9ad3ca8a11bcfeb23:update last_update]
+[2017-03-21 22:08:44,751] [INFO] apk_report_run.py:77 [ba87ce350962540a81266626cac730d6:update last_update]
+[2017-03-21 22:56:30,779] [INFO] apk_report_run.py:84 [6e043b502717a7908b4d1d4ac1ca6cae:begin to decode apk]
+[2017-03-21 22:58:25,867] [INFO] apk_report_run.py:87 [6e043b502717a7908b4d1d4ac1ca6cae:begin to generate data for apk_report_yyyymm]
+[2017-03-21 23:05:08,242] [INFO] apk_report_run.py:90 [6e043b502717a7908b4d1d4ac1ca6cae:begin to upload data to apk_report_yyyymm]
+[2017-03-21 23:05:08,678] [INFO] apk_report_run.py:92 [6e043b502717a7908b4d1d4ac1ca6cae:begin to generate data for apk_resource]
+[2017-03-21 23:05:09,389] [INFO] apk_report_run.py:95 [6e043b502717a7908b4d1d4ac1ca6cae:begin to upload data to apk_resource]
+[2017-03-21 23:05:09,407] [INFO] apk_report_run.py:97 [6e043b502717a7908b4d1d4ac1ca6cae:begin to generate data for apk_basic_info]
+[2017-03-21 23:05:11,493] [INFO] apk_report_run.py:100 [6e043b502717a7908b4d1d4ac1ca6cae:begin to upload data to apk_basic_info]
+[2017-03-21 23:05:11,975] [INFO] apk_report_run.py:105 [6e043b502717a7908b4d1d4ac1ca6cae:-------finish---------]
+[2017-03-22 05:07:15,935] [INFO] apk_report_run.py:77 [05d5fce713c0d59de13ae3dbab7676bd:update last_update]
+[2017-03-22 07:18:36,467] [INFO] apk_report_run.py:77 [78a276bd04644129553e65b4a655424d:update last_update]
+[2017-03-22 08:03:36,264] [INFO] apk_report_run.py:77 [620018358fa092d9ad3ca8a11bcfeb23:update last_update]
+[2017-03-22 08:49:48,115] [INFO] apk_report_run.py:77 [05d5fce713c0d59de13ae3dbab7676bd:update last_update]
+[2017-03-22 09:37:01,435] [INFO] apk_report_run.py:84 [92df0d58a4975a5ff172d9cc6af8352d:begin to decode apk]
+[2017-03-22 09:37:02,236] [INFO] apk_report_run.py:87 [92df0d58a4975a5ff172d9cc6af8352d:begin to generate data for apk_report_yyyymm]
+[2017-03-22 09:37:02,245] [ERROR] apk_report_run.py:111 92df0d58a4975a5ff172d9cc6af8352d
+Traceback (most recent call last):
+  File "apk_report_run.py", line 89, in apk_analyze_run
+    apk_report.run()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 53, in run
+    self.parser_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 45, in parser_xml
+    obj2 = XmlParser(self.apk_path,self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 16, in __init__
+    self.get_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 20, in get_xml
+    obj = APK(self.apk_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/axmlparserpy/apk.py", line 65, in __init__
+    self.zip = zipfile.ZipFile(StringIO.StringIO(self.__raw))
+  File "/usr/local/python27/lib/python2.7/zipfile.py", line 766, in __init__
+    self._RealGetContents()
+  File "/usr/local/python27/lib/python2.7/zipfile.py", line 807, in _RealGetContents
+    raise BadZipfile, "File is not a zip file"
+BadZipfile: File is not a zip file
+[2017-03-22 11:15:31,286] [INFO] apk_report_run.py:84 [ad40b2540a29fa5d69c61a3924bd68a9:begin to decode apk]
+[2017-03-22 11:15:31,949] [INFO] apk_report_run.py:87 [ad40b2540a29fa5d69c61a3924bd68a9:begin to generate data for apk_report_yyyymm]
+[2017-03-22 11:15:31,958] [ERROR] apk_report_run.py:111 ad40b2540a29fa5d69c61a3924bd68a9
+Traceback (most recent call last):
+  File "apk_report_run.py", line 89, in apk_analyze_run
+    apk_report.run()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 53, in run
+    self.parser_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 45, in parser_xml
+    obj2 = XmlParser(self.apk_path,self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 16, in __init__
+    self.get_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 20, in get_xml
+    obj = APK(self.apk_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/axmlparserpy/apk.py", line 65, in __init__
+    self.zip = zipfile.ZipFile(StringIO.StringIO(self.__raw))
+  File "/usr/local/python27/lib/python2.7/zipfile.py", line 766, in __init__
+    self._RealGetContents()
+  File "/usr/local/python27/lib/python2.7/zipfile.py", line 807, in _RealGetContents
+    raise BadZipfile, "File is not a zip file"
+BadZipfile: File is not a zip file
+[2017-03-22 11:24:27,616] [INFO] apk_report_run.py:84 [98ce8d8a9d8ff8786fdbe5b0e4a8f47c:begin to decode apk]
+[2017-03-22 11:24:28,281] [INFO] apk_report_run.py:87 [98ce8d8a9d8ff8786fdbe5b0e4a8f47c:begin to generate data for apk_report_yyyymm]
+[2017-03-22 11:24:28,289] [ERROR] apk_report_run.py:111 98ce8d8a9d8ff8786fdbe5b0e4a8f47c
+Traceback (most recent call last):
+  File "apk_report_run.py", line 89, in apk_analyze_run
+    apk_report.run()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 53, in run
+    self.parser_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/main_info_sort.py", line 45, in parser_xml
+    obj2 = XmlParser(self.apk_path,self.xml_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 16, in __init__
+    self.get_xml()
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/xml_parser.py", line 20, in get_xml
+    obj = APK(self.apk_path)
+  File "/opt/smmc/apk_parse/entire_apk_report_run/sort/module/axmlparserpy/apk.py", line 65, in __init__
+    self.zip = zipfile.ZipFile(StringIO.StringIO(self.__raw))
+  File "/usr/local/python27/lib/python2.7/zipfile.py", line 766, in __init__
+    self._RealGetContents()
+  File "/usr/local/python27/lib/python2.7/zipfile.py", line 807, in _RealGetContents
+    raise BadZipfile, "File is not a zip file"
+BadZipfile: File is not a zip file
+[2017-03-22 13:54:44,129] [INFO] apk_report_run.py:77 [620018358fa092d9ad3ca8a11bcfeb23:update last_update]
+[2017-03-22 14:52:34,805] [INFO] apk_report_run.py:77 [05d5fce713c0d59de13ae3dbab7676bd:update last_update]
+[2017-03-22 15:30:36,629] [INFO] apk_report_run.py:77 [620018358fa092d9ad3ca8a11bcfeb23:update last_update]
