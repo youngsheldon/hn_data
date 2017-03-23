@@ -1,0 +1,32 @@
+--2017-03-23 18:02:24--  http://nqsyxx.com/cs
+Resolving nqsyxx.com... 144.48.242.136
+Connecting to nqsyxx.com|144.48.242.136|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://nqsyxx.com/cs/ [following]
+--2017-03-23 18:02:26--  http://nqsyxx.com/cs/
+Reusing existing connection to nqsyxx.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 247 [text/html]
+Saving to: `index.html'
+
+     0K                                                       100% 13.1M=0s
+
+2017-03-23 18:02:26 (13.1 MB/s) - `index.html' saved [247/247]
+
+=======================The second times wget =====================
+Str_apk=2
+--2017-03-23 18:02:26--  http://nqsyxx.com/cs/%CF%E0%B2%E18.apk
+Resolving nqsyxx.com... 144.48.242.136
+Connecting to nqsyxx.com|144.48.242.136|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 209327 (204K) [application/vnd.android.package-archive]
+Saving to: `ПаІб8.apk'
+
+     0K .......... .......... .......... .......... .......... 24%  133K 1s
+    50K .......... .......... .......... .......... .......... 48% 84.7K 1s
+   100K .......... .......... .......... .......... .......... 73%  228K 0s
+   150K .......... .......... .......... .......... .......... 97%  121K 0s
+   200K ....                                                  100%  174K=1.6s
+
+2017-03-23 18:02:29 (126 KB/s) - `ПаІб8.apk' saved [209327/209327]
+
